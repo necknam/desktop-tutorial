@@ -1,0 +1,16 @@
+# 환경 변수 및 시크릿 (Git 커밋 절대 금지)
+.env
+.env.local
+
+# 파이썬 캐시 및 가상환경
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# IDE 및 OS 임시 파일
+.vscode/
+.idea/
+.DS_Store

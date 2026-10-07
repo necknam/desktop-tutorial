@@ -1,0 +1,25 @@
+# ==============================================================================
+# 공공데이터 및 외부 연동 API 엔드포인트 설정 (검증 완료 버전)
+# ==============================================================================
+api:
+  kmooc:
+    base_url: "https://apis.data.go.kr/B552881/kmooc_v2_0/courseList_v2_0"
+    page_size: 50
+
+  library:
+    # 대출건수(loanCnt)를 정식 제공하는 인기도서 대출 통계 공식 API
+    base_url: "http://data4library.kr/api/loanItemSrch"
+    kdc_code: "004"
+    page_size: 50
+    use_mock_books: false
+
+  careernet:
+    base_url: "https://www.career.go.kr/cnet/openapi/getOpenApi.json"
+    svc_code: "JOB"
+    use_mock_jobs: false
+
+  university:
+    base_url: "https://api.odcloud.kr/api/15014632/v1/uddi:6939f45b-1283-4462-b394-820c26e1445d"
+
+  kdata:
+    base_url: "https://api.odcloud.kr/api/15148115/v1/uddi:070b18af-bb50-46c5-8324-948d91fb5d58"

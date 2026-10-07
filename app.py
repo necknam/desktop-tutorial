@@ -4,21 +4,14 @@ import urllib.parse
 from typing import Any, Dict, List
 import streamlit as st
 
-# 코어 서비스 싱글톤 인스턴스 참조 (의존성 결합 제거)
+# 코어 서비스 싱글톤 인스턴스 임포트
 from database.db_client import db_client
 from core.llm_adapter import DISCONNECTED_STANDARD_MESSAGE, llm_adapter
+from core.assessment_agent import assessment_agent
 from core.real_data_ingestor import real_data_ingestor
 from core.recommendation_service import recommendation_service
 from core.roadmap_agent import multi_agent_orchestrator
 from core.selection_service import selection_service
-import os
-
-
-# Streamlit Cloud 배포 환경의 Secrets를 os.environ으로 자동 동기화
-if hasattr(st, "secrets"):
-    for key, val in st.secrets.items():
-        if isinstance(val, str):
-            os.environ[key] = val
 
 logging.basicConfig(level=logging.INFO, format="[%(asctime)s] %(levelname)s %(message)s")
 logger = logging.getLogger("HR_ROADMAP_APP")
@@ -90,8 +83,8 @@ def resolve_course_safe_url(raw_url: str, title: str, platform: str) -> str:
         clean_kw = urllib.parse.quote(str(title).split()[0] if title else "개발")
         p_upper = str(platform).upper()
         if "MS" in p_upper or "MICROSOFT" in p_upper:
-            return f"https://learn.microsoft.com/ko-kr/training/browse/?terms={clean_kw}"
-        return f"https://www.kmooc.kr/search?query={clean_kw}"
+            return f"[https://learn.microsoft.com/ko-kr/training/browse/?terms=](https://learn.microsoft.com/ko-kr/training/browse/?terms=){clean_kw}"
+        return f"[https://www.kmooc.kr/search?query=](https://www.kmooc.kr/search?query=){clean_kw}"
 
 
 # 3. 세션 상태 초기화
@@ -100,9 +93,9 @@ if "messages" not in st.session_state:
         "role": "assistant",
         "content": (
             "안녕하세요! 부서원님이 현재 맡으신 프로젝트를 성공적으로 완수할 수 있도록 돕는 "
-            "업무 개발(CDP) 상담 챗봇입니다.\n\n현재 프로젝트 진행 상황, 겪고 계신 기술적 어려움 등을 "
-            "편하게 말씀해 주세요. 대화를 통해 계획을 구체화한 후 **'계획 생성'**을 요청하시면 "
-            "최적의 3대 전략 로드맵을 제안해 드립니다."
+            "역량 진단·평가(Assessment) 및 로드맵 상담 챗봇입니다.\n\n현재 프로젝트 진행 상황, "
+            "겪고 계신 기술적 고민을 편하게 말씀해 주세요. 대화를 통해 계획을 구체화한 후 "
+            "**'계획 생성'**을 요청하시면 맞춤형 로드맵과 실력 측정 진단 설문을 제공해 드립니다."
         ),
     }]
 if "current_request_id" not in st.session_state:
@@ -113,19 +106,21 @@ if "selected_agent_id" not in st.session_state:
     st.session_state.selected_agent_id = None
 if "grounding_context" not in st.session_state:
     st.session_state.grounding_context = {}
+if "pre_survey" not in st.session_state:
+    st.session_state.pre_survey = None
 
-# 4. 헤더 및 우측 상단 실데이터 DB 적재 액션
+# 4. 헤더 및 우측 상단 실데이터 DB 적재 버튼
 col_title, col_sync = st.columns([4, 1.3])
 with col_title:
     st.markdown('<div class="main-title">부서원 프로젝트 성공 지원 업무 개발(CDP) 로드맵</div>', unsafe_allow_html=True)
-    st.markdown('<div class="sub-title">대화로 요구사항을 구체화한 뒤 실무 프로젝트형 · 이론/자격증형 · 단기 패스트트랙형 3개 전략을 비교 채택합니다.</div>', unsafe_allow_html=True)
+    st.markdown('<div class="sub-title">역량 진단 에이전트와 대화로 요구사항을 구체화한 뒤 실무형 · 자격형 · 단기형 3개 전략을 비교 채택합니다.</div>', unsafe_allow_html=True)
 
 with col_sync:
     st.write("")
     if st.button("실데이터 DB 적재", type="primary", use_container_width=True, help="기존 가상 데이터를 비우고 실제 공식 API 및 공공데이터를 수집 적재합니다."):
         with st.status("실데이터 DB 적재 파이프라인 가동 중...", expanded=True) as status:
             st.write("기존 스킬 관련 테이블 초기화 (TRUNCATE/DELETE)...")
-            st.write("MS Learn / K-MOOC 공식 강좌, 자격증, KDC 004 도서 수집...")
+            st.write("공식 API 실존 강좌, 자격증, KDC 004 도서 수집...")
             ingest_result = real_data_ingestor.execute_full_pipeline()
             if ingest_result.get("success"):
                 st.write(f"강좌 {ingest_result['courses_count']}건, 자격증 {ingest_result['certs_count']}건, 도서 {ingest_result['books_count']}건 적재 완료!")
@@ -136,7 +131,7 @@ with col_sync:
                 status.update(label="적재 실패", state="error", expanded=False)
                 st.error(f"오류: {ingest_result.get('message')}")
 
-# 5. 사이드바: 모의 프로필 및 시스템 헬스
+# 5. 사이드바: 모의 프로필 설정
 with st.sidebar:
     st.header("프로젝트 및 업무 환경 설정")
     user_mode = st.radio(
@@ -194,7 +189,7 @@ with st.sidebar:
 st.markdown(
     f"""
 <div class="project-banner">
-<strong>현재 집중 과제:</strong> {emp_name} {emp_grade}님의 <em>[{emp_context}]</em> 완수를 위한 맞춤형 상담을 진행합니다.
+<strong>현재 집중 과제:</strong> {emp_name} {emp_grade}님의 <em>[{emp_context}]</em> 완수를 위한 역량 진단 및 로드맵 상담을 진행합니다.
 </div>
 """,
     unsafe_allow_html=True,
@@ -207,7 +202,7 @@ for msg in st.session_state.messages:
 
 
 def run_roadmap_generation():
-    """누적된 대화와 접지 컨텍스트를 기반으로 3대 전략 로드맵 병렬 생성"""
+    """누적된 대화와 접지 컨텍스트를 기반으로 3대 전략 로드맵 병렬 생성 및 사전 진단 설문 제작"""
     with st.spinner("DB 벡터 시밀러리티 RAG 자원 인출 및 3대 전략 에이전트 병렬 생성을 진행하고 있습니다..."):
         grounding_context = recommendation_service.retrieve_grounding_context(
             target_skills=user_profile_payload["target_skills"],
@@ -231,6 +226,14 @@ def run_roadmap_generation():
             retrieved_context=grounding_context,
         )
 
+        # 역량 진단 에이전트를 통한 사전 실력 측정 설문(Pre-Assessment) 제작[cite: 4, 11]
+        pre_survey = assessment_agent.generate_assessment_survey(
+            survey_type="PRE",
+            user_profile=user_profile_payload,
+            roadmap_summary=last_user_text,
+        )
+        st.session_state.pre_survey = pre_survey
+
         gen_map = selection_service.record_agent_generations(
             request_id=req_id,
             orchestration_results=orchestration["results"],
@@ -242,71 +245,50 @@ def run_roadmap_generation():
         st.session_state.messages.append({
             "role": "assistant",
             "content": (
-                f"{orchestration['total_latency_ms']} ms 만에 프로젝트 성공을 위한 3대 전략 로드맵 생성을 완료했습니다! "
-                "Phase 1부터 Phase 3까지 모든 단계에 추천 자원이 배치되었으니 하단의 카드를 확인해 주세요."
+                f"{orchestration['total_latency_ms']} ms 만에 3대 전략 로드맵 및 사전 역량 진단 설문 생성을 완료했습니다! "
+                "하단의 비교 카드에서 원하는 플랜을 채택해 주세요."
             ),
         })
 
 
-# 8. 사용자 대화 입력 및 티키타카 / 계획 생성 분기 처리
+# 8. 사용자 입력 및 역량진단 에이전트(AssessmentAgent) 위임 처리
 user_query = st.chat_input("프로젝트 고민을 편하게 말씀해 주세요 (로드맵 생성을 원하시면 '계획 생성' 입력)")
-
-TRIGGER_KEYWORDS = [
-    "계획 생성", "로드맵 생성", "플랜 생성", "3안 제안",
-    "로드맵 만들어", "계획 짜줘", "로드맵 작성", "플랜 작성", "생성해줘"
-]
 
 if user_query:
     st.session_state.messages.append({"role": "user", "content": user_query})
     with st.chat_message("user"):
         st.write(user_query)
 
-    is_trigger = any(kw in user_query for kw in TRIGGER_KEYWORDS)
+    # AssessmentAgent가 의도 판별 및 멘토링 피드백 수행
+    with st.chat_message("assistant"):
+        with st.spinner("역량 진단 에이전트가 요구사항을 분석하고 있습니다..."):
+            diag_result = assessment_agent.process_dialogue(
+                user_message=user_query,
+                user_profile=user_profile_payload,
+                conversation_history=st.session_state.messages,
+            )
 
-    if is_trigger:
+    if diag_result["intent"] == "GENERATE_ROADMAP":
+        st.session_state.messages.append({"role": "assistant", "content": diag_result["reply_text"]})
         with st.chat_message("assistant"):
-            st.write("지금까지 나눈 대화와 요구사항을 바탕으로 3대 전략 로드맵을 도출합니다.")
+            st.write(diag_result["reply_text"])
         run_roadmap_generation()
         st.rerun()
     else:
-        # 일반 티키타카 상담 모드 (LLM 피드백을 통한 요구사항 구체화)
-        with st.chat_message("assistant"):
-            with st.spinner("프로젝트 맥락을 분석하여 전문 피드백을 정리 중입니다..."):
-                consulting_prompt = f"""당신은 부서원의 업무 역량 개발과 프로젝트 성공을 돕는 친절하고 전문적인 시니어 테크 리드입니다.
-현재 부서원 프로필:
-- 이름: {user_profile_payload['profile_name']} ({user_profile_payload['grade']})
-- 직무: {user_profile_payload['job_title']}
-- 수행 과제: {user_profile_payload['work_context_summary']}
-- 목표 스킬: {user_profile_payload['target_skills']}
+        st.session_state.messages.append({"role": "assistant", "content": diag_result["reply_text"]})
+        st.rerun()
 
-부서원의 질문이나 의견에 대해 전문적으로 피드백하고, 프로젝트 성공을 위해 추가로 고려할 사항(일정, 기술 우선순위, 테스트 환경 등)을 구체화하세요.
-답변 마지막에는 언제든 '계획 생성'이라고 말씀하시거나 하단 생성 버튼을 누르면 3대 맞춤형 로드맵을 바로 제안해 드리겠다고 안내하세요."""
-
-                chat_messages = [{"role": "system", "content": consulting_prompt}]
-                for m in st.session_state.messages[-6:]:
-                    chat_messages.append({"role": m["role"], "content": m["content"]})
-
-                llm_reply = llm_adapter.generate(chat_messages, temperature=0.5)
-                reply_text = (
-                    llm_reply.content
-                    if llm_reply.success
-                    else "프로젝트 관련 요구사항을 충분히 나누신 후 '계획 생성'을 요청해 주세요."
-                )
-                st.write(reply_text)
-                st.session_state.messages.append({"role": "assistant", "content": reply_text})
-                st.rerun()
-
-# 9. 원클릭 로드맵 생성 전용 바
+# 9. 원클릭 로드맵 생성 바
 st.markdown("<br>", unsafe_allow_html=True)
 col_btn1, col_btn2 = st.columns([3, 1.2])
 with col_btn1:
-    st.caption("충분히 대화를 나누셨나요? 아래 버튼을 누르면 3대 전략 로드맵을 즉시 도출합니다.")
+    st.caption("충분히 대화를 나누셨나요? 아래 버튼을 누르면 3대 전략 로드맵과 역량 진단 설문을 즉시 도출합니다.")
 with col_btn2:
     if st.button("3대 전략 로드맵 생성하기", type="primary", use_container_width=True):
         run_roadmap_generation()
         st.rerun()
 
-# 10. 3개 전략 대안 3단 비교 카드
+# 10. 3대 전략 비교 카드
 if st.session_state.orchestration_results:
     st.markdown("---")
     st.markdown("### 3대 전략 비교 및 채택")
@@ -388,7 +370,7 @@ if st.session_state.orchestration_results:
             st.error(f"생성 실패: {res_f.get('summary', DISCONNECTED_STANDARD_MESSAGE)}")
         st.markdown('</div>', unsafe_allow_html=True)
 
-    # 11. 최종 채택된 로드맵의 마크다운 표(Table) 요약 및 세부 구체화 뷰
+    # 11. 최종 채택된 로드맵 및 사전 역량 진단 설문 렌더링
     if st.session_state.selected_agent_id and st.session_state.orchestration_results:
         chosen_id = st.session_state.selected_agent_id
         chosen_data = st.session_state.orchestration_results[chosen_id]
@@ -409,9 +391,24 @@ if st.session_state.orchestration_results:
         st.markdown(f"**대상 부서원:** {emp_name} {emp_grade} ({emp_dept}) | **목표 직무:** {emp_job} | **총 소요기간:** {chosen_content.get('total_duration_weeks', 8)}주")
         st.info(f"**★ 프로젝트 기술 목표:** {chosen_content.get('project_goal', '현업 프로젝트 성공')}\n\n**이 플랜을 따라가야 하는 이유 & 로드맵 요약:**\n{chosen_data.get('summary', '')}")
 
+        # [사전 실력 진단 설문지 컴포넌트 추가][cite: 4, 11]
+        if st.session_state.pre_survey:
+            with st.expander("📝 [역량 진단 에이전트 제작] 학습 시작 전 실력 측정 사전 진단 설문 (Pre-Assessment)", expanded=False):
+                st.caption("부서원의 현재 실력과 기술적 준비도를 측정하기 위해 AssessmentAgent가 설계한 5문항 진단 설문입니다.")
+                for s in st.session_state.pre_survey:
+                    q_num = s.get("q_num", 1)
+                    q_text = s.get("question", "")
+                    q_metric = s.get("evaluation_metric", "")
+                    q_type = s.get("question_type", "SCALE_5")
+
+                    if q_type == "SCALE_5":
+                        st.slider(f"Q{q_num}. {q_text} (평가 지표: {q_metric})", 1, 5, 3, key=f"pre_survey_{q_num}")
+                    else:
+                        st.text_area(f"Q{q_num}. {q_text} (평가 지표: {q_metric})", placeholder="현재 실무 관점에서 자유롭게 작성해 주세요.", key=f"pre_survey_{q_num}")
+
         milestones = chosen_content.get("milestones", [])
 
-        # 1. 마크다운 종합 일정표 (Table)
+        # 종합 실행 일정표
         st.markdown("### [한눈에 보는 로드맵 종합 실행 일정표]")
         table_rows = [
             "| 단계 | 소요 기간 | 집중 달성 목표 | 핵심 실무 액션 | 연계 추천 자원 |",
@@ -437,7 +434,7 @@ if st.session_state.orchestration_results:
         st.markdown("\n".join(table_rows), unsafe_allow_html=True)
         st.markdown("<br>", unsafe_allow_html=True)
 
-        # 2. 단계별 세부 실행 플랜 (아코디언 뷰)
+        # 단계별 세부 실행 플랜
         st.markdown("### 단계별 세부 실행 플랜 및 검증 (Detail View)")
         for ms in milestones:
             phase_title = f"Phase {ms.get('phase', 1)}: {ms.get('phase_name', '학습 단계')} ({ms.get('duration', '4주')})"
@@ -463,7 +460,6 @@ if st.session_state.orchestration_results:
                 st.markdown("##### 연계 추천 실존 자원")
                 c_col, b_col, z_col = st.columns(3)
 
-                # (1) 강좌 컬럼: 404 방지 안전 바로가기 링크 100% 보장
                 with c_col:
                     courses = ms.get("recommended_courses", [])
                     st.markdown("**실존 온라인 강좌**")
@@ -483,7 +479,6 @@ if st.session_state.orchestration_results:
                     else:
                         st.caption("해당 단계 지정 강좌 없음")
 
-                # (2) 도서 컬럼: (관련 추천 도서) 배지 및 안내
                 with b_col:
                     books = ms.get("recommended_books", [])
                     st.markdown("**실존 전문 도서 (KDC 004)**")
@@ -505,7 +500,6 @@ if st.session_state.orchestration_results:
                     else:
                         st.caption("해당 단계 추천 도서 없음")
 
-                # (3) 자격증 컬럼
                 with z_col:
                     certs = ms.get("recommended_certifications", [])
                     st.markdown("**실존 공인 자격증**")

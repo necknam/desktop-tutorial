@@ -1,12 +1,12 @@
 """
 프롬프트 버전 관리 및 롤백 제어 모듈
-파일 경로: core/prompt_manager.py
+파일 경로: src/core/prompt_manager.py
 역할: DB prompt_versions 조회, 신규 버전 승격, 부모 버전 롤백, 인메모리 프롬프트 동기화
 """
 
 import logging
 from typing import Dict, Any, List, Optional
-from database.db_client import db_client
+from src.db.db_client import db_client
 
 logger = logging.getLogger("PROMPT_MANAGER")
 
@@ -46,7 +46,6 @@ class PromptManager:
 
         logger.info(f"[{agent_id}] 새 버전(v{next_version}) 등록 및 활성화 진행...")
 
-        # 1. 새 버전 레코드 생성 (is_active=False로 먼저 생성)
         created = self.db.create_prompt_version(
             agent_id=agent_id,
             version_num=next_version,
@@ -62,7 +61,6 @@ class PromptManager:
 
         new_vid = created["prompt_version_id"]
 
-        # 2. 원자적 활성화 (이전 버전 비활성화 후 새 버전 활성화)
         success = self.db.activate_prompt_version(new_vid, agent_id)
         if success:
             logger.info(f"[{agent_id}] 신규 프롬프트 v{next_version} 활성화 성공 (ID: {new_vid})")
@@ -80,5 +78,4 @@ class PromptManager:
         return self.db.rollback_prompt_version(agent_id)
 
 
-# 글로벌 싱글톤 인스턴스
 prompt_manager = PromptManager()

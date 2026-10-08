@@ -2,8 +2,8 @@ import os
 from pathlib import Path
 import yaml
 
-# saved/ 프로젝트 루트 디렉터리 경로 자동 감지
-PROJECT_ROOT = Path(__file__).resolve().parent.parent
+# project/ 루트 디렉터리 경로 자동 감지 (src/core/ -> project/)
+PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
 
 
 def load_yaml(filename: str) -> dict:

@@ -1,19 +1,18 @@
 """
 선택률 기반 프롬프트 자가진화(Optimizer) 엔진
-파일 경로: core/self_evolving_optimizer.py
+파일 경로: src/core/self_evolving_optimizer.py
 역할: 선택률 최저 에이전트 식별 -> Reflection 취약점 분석 -> 개선 후보 생성 -> LLM-as-a-Judge 8대 가드레일 평가 -> 승격/유지
 """
 
 import json
 import logging
 from typing import Dict, Any, Optional
-from core.llm_adapter import llm_adapter
-from core.prompt_manager import prompt_manager
-from database.db_client import db_client
+from src.core.llm_adapter import llm_adapter
+from src.core.prompt_manager import prompt_manager
+from src.db.db_client import db_client
 
 logger = logging.getLogger("SELF_EVOLVING_OPTIMIZER")
 
-# 요구사항 상단 설정값
 PROMPT_UPDATE_THRESHOLD = 10
 EVAL_SCORE_PASS_THRESHOLD = 8.5
 
@@ -75,13 +74,8 @@ class SelfEvolvingOptimizer:
         old_prompt_text = active_prompt_record["system_prompt"]
         old_version_num = active_prompt_record["version_num"]
 
-        # ---------------- 1. Reflection 취약점 분석 ----------------
         reflection_report = self._perform_reflection(target_agent_id, old_prompt_text)
-
-        # ---------------- 2. 개선 후보 프롬프트 생성 ----------------
         candidate_prompt = self._generate_candidate_prompt(target_agent_id, old_prompt_text, reflection_report)
-
-        # ---------------- 3. LLM-as-a-Judge 8대 가드레일 평가 ----------------
         eval_result = self._evaluate_candidate_prompt(
             agent_id=target_agent_id,
             old_prompt=old_prompt_text,
@@ -91,7 +85,6 @@ class SelfEvolvingOptimizer:
         passed = eval_result["passed"]
         total_score = eval_result["total_score"]
 
-        # 평가 결과 DB 기록
         eval_id = self.db.log_prompt_evaluation(
             prompt_version_id=old_vid,
             evaluator_model=self.llm.openai_model,
@@ -101,7 +94,6 @@ class SelfEvolvingOptimizer:
             eval_report=eval_result["eval_report"]
         )
 
-        # ---------------- 4. 평가 통과 시 승격 / 실패 시 유지 ----------------
         if passed:
             logger.info(f"[{target_agent_id}] 8대 가드레일 평가 통과 (총점: {total_score}점) -> 신규 버전 승격 진행")
             promoted = self.prompt_mgr.promote_candidate_prompt(
@@ -117,7 +109,6 @@ class SelfEvolvingOptimizer:
             opt_status = "EVAL_FAILED"
             new_version_num = old_version_num
 
-        # 최적화 이력 DB 기록
         self.db.log_prompt_optimization(
             target_agent_id=target_agent_id,
             trigger_threshold=threshold,
@@ -248,7 +239,6 @@ class SelfEvolvingOptimizer:
 
         resp = self.llm.generate(messages, temperature=0.1)
 
-        # 기본 기본값
         default_scores = {
             "user_alignment": 8.5,
             "roadmap_quality": 8.5,
@@ -276,7 +266,6 @@ class SelfEvolvingOptimizer:
             except Exception as e:
                 logger.warning(f"평가 심사 JSON 파싱 실패, 기본 점수 적용: {e}")
 
-        # 정량 점수 연산
         numeric_keys = ["user_alignment", "roadmap_quality", "strategic_differentiation", "format_consistency", "improvement_over_parent"]
         numeric_scores = [float(default_scores.get(k, 0)) for k in numeric_keys]
         total_score = round(sum(numeric_scores) / len(numeric_scores), 2)
@@ -294,5 +283,4 @@ class SelfEvolvingOptimizer:
         }
 
 
-# 글로벌 싱글톤 인스턴스
 self_evolving_optimizer = SelfEvolvingOptimizer()

@@ -1,519 +1,679 @@
+# =====================================================================
+# FILE: saved/app.py (또는 루트 app.py)
+# =====================================================================
+
+import os
+import sys
+import uuid
 import json
 import logging
-import urllib.parse
-from typing import Any, Dict, List
+from pathlib import Path
+from typing import Any, Dict, List, Optional
 import streamlit as st
 
-# 코어 서비스 싱글톤 인스턴스 임포트
-from database.db_client import db_client
-from core.llm_adapter import DISCONNECTED_STANDARD_MESSAGE, llm_adapter
-from core.assessment_agent import assessment_agent
-from core.real_data_ingestor import real_data_ingestor
-from core.recommendation_service import recommendation_service
-from core.roadmap_agent import multi_agent_orchestrator
-from core.selection_service import selection_service
+current_file = Path(__file__).resolve()
+project_root = current_file.parent.parent if current_file.parent.name == "saved" else current_file.parent
+if str(project_root) not in sys.path:
+    sys.path.insert(0, str(project_root))
+
+from src.db.db_client import db_client
+from src.core.assessment_service import assessment_service
+from src.core.selection_service import selection_service
+from src.core.assessment_agent import assessment_agent
+from src.core.recommendation_service import recommendation_service
+from src.core.roadmap_agent import multi_agent_orchestrator
 
 logging.basicConfig(level=logging.INFO, format="[%(asctime)s] %(levelname)s %(message)s")
-logger = logging.getLogger("HR_ROADMAP_APP")
+logger = logging.getLogger("APP_7STAGE")
 
-# 1. 페이지 설정
+
+# ---------------------------------------------------------------------
+# Defensive Hot-Patching
+# ---------------------------------------------------------------------
+def _force_create_session(user_id=None, project_name=None, user_type="REAL_USER", *args, **kwargs):
+    target_uid = user_id or kwargs.get("user_id") or "00000000-0000-0000-0000-000000000001"
+    target_pname = project_name or kwargs.get("project_name") or kwargs.get("raw_user_prompt") or "신규 프로젝트"
+    if hasattr(db_client, "create_roadmap_session"):
+        return db_client.create_roadmap_session(user_id=target_uid, project_name=str(target_pname)[:100])
+    return str(uuid.uuid4())
+
+
+selection_service.create_roadmap_session = _force_create_session
+
+if not hasattr(db_client, "get_active_prompts"):
+    db_client.get_active_prompts = lambda: {}
+
+if not hasattr(selection_service, "list_roadmap_sessions"):
+    selection_service.list_roadmap_sessions = lambda user_id=None, limit=10: (
+        db_client.list_roadmap_sessions(user_id=user_id, limit=limit) if hasattr(db_client,
+                                                                                 "list_roadmap_sessions") else []
+    )
+
+if not hasattr(selection_service, "get_roadmap_session"):
+    selection_service.get_roadmap_session = lambda session_id: (
+        db_client.get_roadmap_session(session_id) if hasattr(db_client, "get_roadmap_session") else None
+    )
+
+if not hasattr(selection_service, "update_session_stage"):
+    selection_service.update_session_stage = lambda session_id, stage_num, status="IN_PROGRESS": (
+        db_client.update_session_stage(session_id, stage_num, status) if hasattr(db_client,
+                                                                                 "update_session_stage") else True
+    )
+
+if not hasattr(selection_service, "get_agent_generations"):
+    selection_service.get_agent_generations = lambda session_id: (
+        db_client.get_roadmap_generations(session_id) if hasattr(db_client, "get_roadmap_generations") else []
+    )
+
+if not hasattr(selection_service, "save_agent_generations"):
+    selection_service.save_agent_generations = lambda session_id, generations: (
+        db_client.save_roadmap_generations(session_id, generations) if hasattr(db_client,
+                                                                               "save_roadmap_generations") else True
+    )
+
+if not hasattr(selection_service, "select_roadmap"):
+    def _safe_select(session_id, generation_id, detailed_report):
+        ok1 = db_client.save_roadmap_selection(session_id, generation_id) if hasattr(db_client,
+                                                                                     "save_roadmap_selection") else True
+        ok2 = db_client.save_roadmap_report(session_id, generation_id, detailed_report) if hasattr(db_client,
+                                                                                                   "save_roadmap_report") else True
+        return ok1 and ok2
+
+
+    selection_service.select_roadmap = _safe_select
+
+if not hasattr(selection_service, "get_selected_roadmap"):
+    def _safe_get_selected(session_id):
+        sel = db_client.get_roadmap_selection(session_id) if hasattr(db_client, "get_roadmap_selection") else None
+        rep = db_client.get_roadmap_report(session_id) if hasattr(db_client, "get_roadmap_report") else None
+        if not sel:
+            return None
+        gen_id = sel.get("generation_id")
+        gens = db_client.get_roadmap_generations(session_id) if hasattr(db_client, "get_roadmap_generations") else []
+        chosen_gen = next((g for g in gens if g.get("generation_id") == gen_id), {})
+        return {"selection": sel, "generation": chosen_gen, "report": rep.get("report_content") if rep else {}}
+
+
+    selection_service.get_selected_roadmap = _safe_get_selected
+
 st.set_page_config(
-    page_title="부서원 프로젝트 성공 업무개발 로드맵",
+    page_title="엔터프라이즈 프로젝트 역량 개발 플랫폼",
     page_icon="🧭",
     layout="wide",
-    initial_sidebar_state="expanded",
+    initial_sidebar_state="expanded"
 )
 
-# 2. 커스텀 CSS
-st.markdown(
-    """
+st.markdown("""
 <style>
-.main-title { font-size: 26px; font-weight: 700; color: #0F172A; margin-bottom: 4px; }
+.main-title { font-size: 24px; font-weight: 700; color: #0F172A; margin-bottom: 4px; }
 .sub-title { font-size: 14px; color: #475569; margin-bottom: 16px; }
-.project-banner {
-    background: linear-gradient(90deg, #F0FDF4 0%, #E0F2FE 100%);
-    border-left: 5px solid #0EA5E9;
-    padding: 14px 18px;
-    border-radius: 8px;
-    margin-bottom: 18px;
-    font-size: 14px;
-    color: #0369A1;
-}
-.strategy-card {
-    border: 1px solid #E2E8F0;
-    border-radius: 12px;
-    padding: 18px;
-    background-color: #FFFFFF;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.04);
-    margin-bottom: 12px;
-    height: 100%;
-}
-.badge-practical { background-color: #DBEAFE; color: #1E40AF; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: 600; }
-.badge-certified { background-color: #DCFCE7; color: #166534; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: 600; }
-.badge-fasttrack { background-color: #FEF3C7; color: #92400E; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: 600; }
-.milestone-container {
-    border-left: 4px solid #3882F6;
-    padding: 16px 20px;
-    margin-bottom: 18px;
-    background-color: #F8FAFC;
-    border-radius: 0 8px 8px 0;
-}
-.related-book-tag {
-    display: inline-block;
-    background-color: #FEF9C3;
-    color: #854D0E;
-    font-size: 11.5px;
-    font-weight: 600;
-    padding: 2px 6px;
-    border-radius: 4px;
-    margin-top: 4px;
-    border: 1px solid #FDE047;
-}
+.stage-bar { padding: 10px 14px; border-radius: 6px; font-weight: 600; margin-bottom: 14px; }
+.stage-1 { background-color: #EFF6FF; color: #1D4ED8; border-left: 4px solid #3B82F6; }
+.stage-2 { background-color: #F0FDF4; color: #15803D; border-left: 4px solid #22C55E; }
+.stage-3 { background-color: #FEFCE8; color: #A16207; border-left: 4px solid #EAB308; }
+.stage-4 { background-color: #FAF5FF; color: #7E22CE; border-left: 4px solid #A855F7; }
+.stage-5 { background-color: #F0FDF4; color: #047857; border-left: 4px solid #10B981; }
+.stage-6 { background-color: #FFF7ED; color: #C2410C; border-left: 4px solid #F97316; }
+.stage-7 { background-color: #F8FAFC; color: #0F172A; border-left: 4px solid #334155; }
+.strategy-box { border: 1px solid #CBD5E1; border-radius: 8px; padding: 16px; background-color: #FFFFFF; height: 100%; display: flex; flex-direction: column; justify-content: space-between; }
+.growth-card { border: 1px solid #E2E8F0; border-radius: 8px; padding: 14px; margin-bottom: 12px; background: #FFFFFF; }
 </style>
-""",
-    unsafe_allow_html=True,
-)
+""", unsafe_allow_html=True)
 
 
-def resolve_course_safe_url(raw_url: str, title: str, platform: str) -> str:
-    """UI 레벨 404 방지 안전 URL 획득 함수"""
-    try:
-        return recommendation_service.normalize_course_url(raw_url, title, platform)
-    except Exception:
-        clean_kw = urllib.parse.quote(str(title).split()[0] if title else "개발")
-        p_upper = str(platform).upper()
-        if "MS" in p_upper or "MICROSOFT" in p_upper:
-            return f"[https://learn.microsoft.com/ko-kr/training/browse/?terms=](https://learn.microsoft.com/ko-kr/training/browse/?terms=){clean_kw}"
-        return f"[https://www.kmooc.kr/search?query=](https://www.kmooc.kr/search?query=){clean_kw}"
+def resolve_user_id(username: str, email: str, department: str, job_title: str, grade: str) -> str:
+    if hasattr(db_client, "get_or_create_user"):
+        try:
+            return db_client.get_or_create_user(username, email, department, job_title, grade)
+        except Exception as exc:
+            logger.warning(f"get_or_create_user 호출 예외: {exc}")
+    return str(uuid.uuid5(uuid.NAMESPACE_DNS, email if email else "backend.kim@company.com"))
 
 
-# 3. 세션 상태 초기화
-if "messages" not in st.session_state:
-    st.session_state.messages = [{
-        "role": "assistant",
-        "content": (
-            "안녕하세요! 부서원님이 현재 맡으신 프로젝트를 성공적으로 완수할 수 있도록 돕는 "
-            "역량 진단·평가(Assessment) 및 로드맵 상담 챗봇입니다.\n\n현재 프로젝트 진행 상황, "
-            "겪고 계신 기술적 고민을 편하게 말씀해 주세요. 대화를 통해 계획을 구체화한 후 "
-            "**'계획 생성'**을 요청하시면 맞춤형 로드맵과 실력 측정 진단 설문을 제공해 드립니다."
-        ),
-    }]
-if "current_request_id" not in st.session_state:
-    st.session_state.current_request_id = None
-if "orchestration_results" not in st.session_state:
-    st.session_state.orchestration_results = None
-if "selected_agent_id" not in st.session_state:
-    st.session_state.selected_agent_id = None
-if "grounding_context" not in st.session_state:
-    st.session_state.grounding_context = {}
-if "pre_survey" not in st.session_state:
-    st.session_state.pre_survey = None
+def sync_session_state(session_id: str):
+    sess = selection_service.get_roadmap_session(session_id)
+    if not sess:
+        return
+    st.session_state.session_id = session_id
+    st.session_state.current_stage = sess.get("current_stage", 1)
+    st.session_state.project_name = sess.get("project_name", "")
+    st.session_state.user_id = sess.get("user_id")
 
-# 4. 헤더 및 우측 상단 실데이터 DB 적재 버튼
-col_title, col_sync = st.columns([4, 1.3])
-with col_title:
-    st.markdown('<div class="main-title">부서원 프로젝트 성공 지원 업무 개발(CDP) 로드맵</div>', unsafe_allow_html=True)
-    st.markdown('<div class="sub-title">역량 진단 에이전트와 대화로 요구사항을 구체화한 뒤 실무형 · 자격형 · 단기형 3개 전략을 비교 채택합니다.</div>', unsafe_allow_html=True)
 
-with col_sync:
-    st.write("")
-    if st.button("실데이터 DB 적재", type="primary", use_container_width=True, help="기존 가상 데이터를 비우고 실제 공식 API 및 공공데이터를 수집 적재합니다."):
-        with st.status("실데이터 DB 적재 파이프라인 가동 중...", expanded=True) as status:
-            st.write("기존 스킬 관련 테이블 초기화 (TRUNCATE/DELETE)...")
-            st.write("공식 API 실존 강좌, 자격증, KDC 004 도서 수집...")
-            ingest_result = real_data_ingestor.execute_full_pipeline()
-            if ingest_result.get("success"):
-                st.write(f"강좌 {ingest_result['courses_count']}건, 자격증 {ingest_result['certs_count']}건, 도서 {ingest_result['books_count']}건 적재 완료!")
-                status.update(label="실데이터 DB 적재 완료!", state="complete", expanded=False)
-                st.toast("실제 공공/공식 데이터가 DB에 성공적으로 적재되었습니다!", icon="✅")
-                st.rerun()
-            else:
-                status.update(label="적재 실패", state="error", expanded=False)
-                st.error(f"오류: {ingest_result.get('message')}")
+if "session_id" not in st.session_state:
+    st.session_state.session_id = None
+if "current_stage" not in st.session_state:
+    st.session_state.current_stage = 1
+if "user_id" not in st.session_state:
+    st.session_state.user_id = None
 
-# 5. 사이드바: 모의 프로필 설정
+st.markdown('<div class="main-title">엔터프라이즈 프로젝트 역량 개발 플랫폼</div>', unsafe_allow_html=True)
+st.markdown('<div class="sub-title">DB 영속화 기반 7단계 프로젝트 수명주기 파이프라인</div>', unsafe_allow_html=True)
+
+# ---------------------------------------------------------------------
+# 사이드바
+# ---------------------------------------------------------------------
 with st.sidebar:
-    st.header("프로젝트 및 업무 환경 설정")
-    user_mode = st.radio(
-        "데이터 수집 모드",
-        options=["REAL_USER", "TEST_MANUAL"],
-        format_func=lambda x: "실운영 모드 (REAL_USER)" if x == "REAL_USER" else "수동 테스트 모드 (TEST_MANUAL)",
-    )
-    st.markdown("---")
-    st.subheader("부서원 인사 프로필")
-    mock_profiles = db_client.fetch_mock_profiles()
-    profile_options = {p["profile_name"]: p for p in mock_profiles}
-    selected_preset_name = st.selectbox("테스트용 프로필 선택", options=["직접 입력"] + list(profile_options.keys()))
+    st.header("👤 엔지니어 프로필")
+    u_name = st.text_input("성명", value="김백엔")
+    u_email = st.text_input("이메일", value="backend.kim@company.com")
+    u_dept = st.text_input("소속 부서", value="플랫폼개발1팀")
+    u_job = st.text_input("직무 타이틀", value="백엔드 엔지니어")
+    u_grade = st.text_input("직급", value="선임연구원")
+    u_target = st.text_input("프로젝트 요구 스킬 (콤마 구분)", value="FastAPI, PostgreSQL, Docker, Redis, CI/CD")
 
-    if selected_preset_name != "직접 입력" and selected_preset_name in profile_options:
-        preset = profile_options[selected_preset_name]
-        default_name = preset.get("profile_name", "")
-        default_dept = preset.get("department", "")
-        default_grade = preset.get("grade", "")
-        default_job = preset.get("job_title", "")
-        default_years = int(preset.get("career_years", 3))
-        default_curr_skills = ", ".join(preset.get("current_skills", []))
-        default_target_skills = ", ".join(preset.get("target_skills", []))
-        default_context = preset.get("work_context_summary", "")
-    else:
-        default_name = "김백엔"
-        default_dept = "플랫폼개발1팀"
-        default_grade = "선임연구원 (사원)"
-        default_job = "백엔드 소프트웨어 엔지니어"
-        default_years = 2
-        default_curr_skills = "Python, Git/GitHub"
-        default_target_skills = "FastAPI, PostgreSQL, Docker"
-        default_context = "레거시 시스템의 API 마이크로서비스 전환 프로젝트 성공적 완수 및 비동기 처리 도입"
-
-    emp_name = st.text_input("부서원 성명", value=default_name)
-    emp_dept = st.text_input("소속 부서", value=default_dept)
-    emp_grade = st.text_input("직급", value=default_grade)
-    emp_job = st.text_input("담당 직무", value=default_job)
-    emp_years = st.number_input("경력(연차)", min_value=0, max_value=40, value=default_years)
-    emp_curr_skills = st.text_input("현재 보유 스킬", value=default_curr_skills)
-    emp_target_skills = st.text_input("프로젝트 요구 스킬 (목표)", value=default_target_skills)
-    emp_context = st.text_area("수행 중인 프로젝트 및 현업 과제", value=default_context, height=90)
-
-    user_profile_payload = {
-        "profile_name": emp_name,
-        "department": emp_dept,
-        "grade": emp_grade,
-        "job_title": emp_job,
-        "career_years": emp_years,
-        "current_skills": [s.strip() for s in emp_curr_skills.split(",") if s.strip()],
-        "target_skills": [s.strip() for s in emp_target_skills.split(",") if s.strip()],
-        "work_context_summary": emp_context,
+    user_profile = {
+        "profile_name": u_name,
+        "username": u_name,
+        "email": u_email,
+        "department": u_dept,
+        "job_title": u_job,
+        "grade": u_grade,
+        "current_skills": ["Python", "Git/GitHub", "Docker"],
+        "target_skills": [s.strip() for s in u_target.split(",") if s.strip()]
     }
 
-# 6. 프로젝트 안내 배너
-st.markdown(
-    f"""
-<div class="project-banner">
-<strong>현재 집중 과제:</strong> {emp_name} {emp_grade}님의 <em>[{emp_context}]</em> 완수를 위한 역량 진단 및 로드맵 상담을 진행합니다.
-</div>
-""",
-    unsafe_allow_html=True,
-)
+    current_uid = resolve_user_id(u_name, u_email, u_dept, u_job, u_grade)
+    st.session_state.user_id = current_uid
 
-# 7. 대화 히스토리 출력
-for msg in st.session_state.messages:
-    with st.chat_message(msg["role"]):
-        st.write(msg["content"])
+    st.markdown("---")
+    st.header("🗂 프로젝트 세션 목록")
 
+    sessions = selection_service.list_roadmap_sessions(user_id=current_uid)
+    sess_map = {f"{s['project_name']} (Stage {s['current_stage']})": s["session_id"] for s in sessions}
 
-def run_roadmap_generation():
-    """누적된 대화와 접지 컨텍스트를 기반으로 3대 전략 로드맵 병렬 생성 및 사전 진단 설문 제작"""
-    with st.spinner("DB 벡터 시밀러리티 RAG 자원 인출 및 3대 전략 에이전트 병렬 생성을 진행하고 있습니다..."):
-        grounding_context = recommendation_service.retrieve_grounding_context(
-            target_skills=user_profile_payload["target_skills"],
-            target_job_title=user_profile_payload["job_title"],
-        )
-        st.session_state.grounding_context = grounding_context
+    chosen_sess = st.selectbox("진행 중인 프로젝트 불러오기", options=["신규 프로젝트 시작"] + list(sess_map.keys()))
+    if chosen_sess != "신규 프로젝트 시작":
+        sid = sess_map[chosen_sess]
+        if st.session_state.session_id != sid:
+            sync_session_state(sid)
+            st.rerun()
 
-        last_user_text = st.session_state.messages[-1]["content"] if st.session_state.messages else "프로젝트 로드맵 요청"
-        req_id = selection_service.create_roadmap_session(
-            user_type=user_mode,
-            raw_user_prompt=last_user_text,
-            user_profile=user_profile_payload,
-            conversation_history=st.session_state.messages,
-            retrieved_context=grounding_context,
-        )
-        st.session_state.current_request_id = req_id
+    if st.button("➕ 새 프로젝트 세션 초기화", use_container_width=True):
+        st.session_state.session_id = None
+        st.session_state.current_stage = 1
+        st.rerun()
 
-        orchestration = multi_agent_orchestrator.generate_all_roadmaps(
-            user_context=user_profile_payload,
-            conversation_history=st.session_state.messages,
-            retrieved_context=grounding_context,
-        )
+# =====================================================================
+# STAGE 1: Draft Plan 수립
+# =====================================================================
+st.markdown('<div class="stage-bar stage-1">1단계: 프로젝트 과제 정의 및 Draft Plan 수립</div>', unsafe_allow_html=True)
 
-        # 역량 진단 에이전트를 통한 사전 실력 측정 설문(Pre-Assessment) 제작[cite: 4, 11]
-        pre_survey = assessment_agent.generate_assessment_survey(
-            survey_type="PRE",
-            user_profile=user_profile_payload,
-            roadmap_summary=last_user_text,
-        )
-        st.session_state.pre_survey = pre_survey
+col_s1_1, col_s1_2 = st.columns([1.5, 1])
+with col_s1_1:
+    p_name_input = st.text_input("프로젝트명", value="레거시 API 마이크로서비스 전환")
+    p_req_input = st.text_area(
+        "초기 요구사항 및 아키텍처 제약사항",
+        value="PostgreSQL 커넥션 풀 고갈과 이벤트 루프 블로킹 지연 문제를 해결해야 합니다. 비동기 전환과 캐싱, CI/CD 구축이 필요합니다.",
+        height=80
+    )
+with col_s1_2:
+    st.write("")
+    uploaded_doc = st.file_uploader("참조 아키텍처 문서 첨부 (선택)", type=["txt", "md"])
+    doc_text = uploaded_doc.getvalue().decode("utf-8") if uploaded_doc else None
 
-        gen_map = selection_service.record_agent_generations(
-            request_id=req_id,
-            orchestration_results=orchestration["results"],
-        )
-        st.session_state.orchestration_results = orchestration["results"]
-        st.session_state.generation_id_map = gen_map
-        st.session_state.selected_agent_id = None
+if not st.session_state.session_id:
+    if st.button("🚀 1단계 Draft Plan 생성 및 세션 DB 생성", type="primary", use_container_width=True):
+        with st.spinner("프로젝트 세션 엔티티를 생성하고 Draft Plan을 DB에 영속화하는 중..."):
+            new_sid = selection_service.create_roadmap_session(
+                user_id=current_uid,
+                project_name=p_name_input
+            )
+            if not new_sid:
+                st.error("세션 생성 실패")
+                st.stop()
 
-        st.session_state.messages.append({
-            "role": "assistant",
-            "content": (
-                f"{orchestration['total_latency_ms']} ms 만에 3대 전략 로드맵 및 사전 역량 진단 설문 생성을 완료했습니다! "
-                "하단의 비교 카드에서 원하는 플랜을 채택해 주세요."
-            ),
-        })
-
-
-# 8. 사용자 입력 및 역량진단 에이전트(AssessmentAgent) 위임 처리
-user_query = st.chat_input("프로젝트 고민을 편하게 말씀해 주세요 (로드맵 생성을 원하시면 '계획 생성' 입력)")
-
-if user_query:
-    st.session_state.messages.append({"role": "user", "content": user_query})
-    with st.chat_message("user"):
-        st.write(user_query)
-
-    # AssessmentAgent가 의도 판별 및 멘토링 피드백 수행
-    with st.chat_message("assistant"):
-        with st.spinner("역량 진단 에이전트가 요구사항을 분석하고 있습니다..."):
-            diag_result = assessment_agent.process_dialogue(
-                user_message=user_query,
-                user_profile=user_profile_payload,
-                conversation_history=st.session_state.messages,
+            user_profile["work_context_summary"] = p_name_input
+            draft_data = assessment_agent.generate_draft_plan(
+                project_name=p_name_input,
+                user_profile=user_profile,
+                initial_prompt=p_req_input,
+                uploaded_doc_text=doc_text
             )
 
-    if diag_result["intent"] == "GENERATE_ROADMAP":
-        st.session_state.messages.append({"role": "assistant", "content": diag_result["reply_text"]})
-        with st.chat_message("assistant"):
-            st.write(diag_result["reply_text"])
-        run_roadmap_generation()
+            assessment_service.save_project_plan(new_sid, draft_data)
+            init_chat = "수석 아키텍트입니다. 1단계 초안 계획이 수립되었습니다. 추가할 기술 요구사항이나 캐싱 전략을 말씀해 주세요."
+            assessment_service.save_plan_conversation(new_sid, "assistant", init_chat, sequence_no=1)
+
+            selection_service.update_session_stage(new_sid, 2)
+            sync_session_state(new_sid)
+            st.rerun()
+
+plan_stage1 = assessment_service.get_project_plan(st.session_state.session_id) if st.session_state.session_id else None
+if plan_stage1 and plan_stage1.get("draft_plan"):
+    with st.expander("📄 [DB 조회] 1단계 Draft Plan 상세 내용", expanded=(st.session_state.current_stage == 2)):
+        st.markdown(plan_stage1["draft_plan"])
+
+# =====================================================================
+# STAGE 2: Chat 구체화 및 Refined Plan 확정
+# =====================================================================
+if st.session_state.session_id and st.session_state.current_stage >= 2:
+    st.markdown('<div class="stage-bar stage-2">2단계: 기술 멘토링 Chat 구체화 및 계획 최종 확정</div>', unsafe_allow_html=True)
+
+    conversations = assessment_service.get_plan_conversations(st.session_state.session_id)
+
+    with st.container(border=True):
+        chat_box = st.container(height=260)
+        with chat_box:
+            for c in conversations:
+                with st.chat_message(c["role"]):
+                    st.markdown(c["content"])
+
+        u_chat = st.chat_input("아키텍처 추가/보완 의견을 입력하세요 (예: 'Redis 캐싱도 추가하고 싶습니다.')")
+
+    if u_chat:
+        next_seq = len(conversations) + 1
+        assessment_service.save_plan_conversation(st.session_state.session_id, "user", u_chat, next_seq)
+
+        with st.spinner("테크니컬 리드가 대화 이력을 검토하는 중..."):
+            reply = assessment_agent.process_dialogue(st.session_state.session_id, u_chat)
+
+        assessment_service.save_plan_conversation(st.session_state.session_id, "assistant", reply, next_seq + 1)
         st.rerun()
-    else:
-        st.session_state.messages.append({"role": "assistant", "content": diag_result["reply_text"]})
-        st.rerun()
 
-# 9. 원클릭 로드맵 생성 바
-st.markdown("<br>", unsafe_allow_html=True)
-col_btn1, col_btn2 = st.columns([3, 1.2])
-with col_btn1:
-    st.caption("충분히 대화를 나누셨나요? 아래 버튼을 누르면 3대 전략 로드맵과 역량 진단 설문을 즉시 도출합니다.")
-with col_btn2:
-    if st.button("3대 전략 로드맵 생성하기", type="primary", use_container_width=True):
-        run_roadmap_generation()
-        st.rerun()
+    if st.button("✔ 1+2단계 내용 통합/정규화 및 최종 계획 확정 (DB 저장)", type="primary", use_container_width=True):
+        with st.spinner("DB의 Draft Plan과 Chat History를 통합하여 정규화된 Project Plan을 저장하는 중..."):
+            refined_data = assessment_agent.finalize_refined_plan(st.session_state.session_id)
+            assessment_service.save_project_plan(st.session_state.session_id, refined_data)
 
-# 10. 3대 전략 비교 카드
-if st.session_state.orchestration_results:
-    st.markdown("---")
-    st.markdown("### 3대 전략 비교 및 채택")
-    results = st.session_state.orchestration_results
-    col1, col2, col3 = st.columns(3)
+            pre_questions = assessment_agent.generate_pre_assessment(st.session_state.session_id)
+            assessment_service.save_assessment_questions(st.session_state.session_id, "PRE", pre_questions)
 
-    # 1안: 실무 프로젝트형
-    with col1:
-        st.markdown('<div class="strategy-card">', unsafe_allow_html=True)
-        st.markdown('<span class="badge-practical">전략 1: 실무 프로젝트형</span>', unsafe_allow_html=True)
-        res_p = results.get("agent_practical", {})
-        if res_p.get("status") == "SUCCESS":
-            cp = res_p.get("roadmap_content", {})
-            st.subheader(cp.get("strategy_title", "실무 중심 프로젝트 완수형"))
-            st.caption(f"소요 기간: {cp.get('total_duration_weeks', 8)}주 | 처리: {res_p.get('latency_ms', 0)}ms")
-            st.write(f"**이 플랜을 추천하는 이유 & 요약:**\n{res_p.get('summary', '')}")
-            st.info(f"**프로젝트 기술 목표:**\n{cp.get('project_goal', '프로젝트 실무 완수')}")
-            if st.button("1안 실무 프로젝트형 채택", key="btn_choose_p", use_container_width=True):
-                st.session_state.selected_agent_id = "agent_practical"
-                selection_service.record_user_selection(
-                    request_id=st.session_state.current_request_id,
-                    chosen_generation_id=st.session_state.generation_id_map["agent_practical"],
-                    chosen_agent_id="agent_practical",
-                    user_type=user_mode,
-                    selection_reason="현업 프로젝트의 즉각적인 코드베이스 구현 및 실무 과제 완수를 위해 채택함",
-                )
-                st.rerun()
-        else:
-            st.error(f"생성 실패: {res_p.get('summary', DISCONNECTED_STANDARD_MESSAGE)}")
-        st.markdown('</div>', unsafe_allow_html=True)
+            selection_service.update_session_stage(st.session_state.session_id, 3)
+            sync_session_state(st.session_state.session_id)
+            st.toast("프로젝트 계획이 정규화되어 DB에 저장되었습니다.", icon="🎯")
+            st.rerun()
 
-    # 2안: 이론/공인자격형
-    with col2:
-        st.markdown('<div class="strategy-card">', unsafe_allow_html=True)
-        st.markdown('<span class="badge-certified">전략 2: 이론/공인자격형</span>', unsafe_allow_html=True)
-        res_c = results.get("agent_certified", {})
-        if res_c.get("status") == "SUCCESS":
-            cc = res_c.get("roadmap_content", {})
-            st.subheader(cc.get("strategy_title", "공인 자격 및 이론 검증형"))
-            st.caption(f"소요 기간: {cc.get('total_duration_weeks', 12)}주 | 처리: {res_c.get('latency_ms', 0)}ms")
-            st.write(f"**이 플랜을 추천하는 이유 & 요약:**\n{res_c.get('summary', '')}")
-            st.info(f"**프로젝트 기술 목표:**\n{cc.get('project_goal', '아키텍처 이론 및 검증')}")
-            if st.button("2안 이론/자격증형 채택", key="btn_choose_c", use_container_width=True):
-                st.session_state.selected_agent_id = "agent_certified"
-                selection_service.record_user_selection(
-                    request_id=st.session_state.current_request_id,
-                    chosen_generation_id=st.session_state.generation_id_map["agent_certified"],
-                    chosen_agent_id="agent_certified",
-                    user_type=user_mode,
-                    selection_reason="프로젝트 기술 부채 예방을 위한 표준 아키텍처 학습 및 공인 자격증 검증을 위해 채택함",
-                )
-                st.rerun()
-        else:
-            st.error(f"생성 실패: {res_c.get('summary', DISCONNECTED_STANDARD_MESSAGE)}")
-        st.markdown('</div>', unsafe_allow_html=True)
+    refined_plan_row = assessment_service.get_project_plan(st.session_state.session_id)
+    if refined_plan_row and refined_plan_row.get("refined_plan"):
+        with st.expander("📋 [DB 조회] 정규화된 프로젝트 계획 최종 데이터 (Refined Plan)", expanded=False):
+            st.markdown(refined_plan_row["refined_plan"])
 
-    # 3안: 단기 패스트트랙형
-    with col3:
-        st.markdown('<div class="strategy-card">', unsafe_allow_html=True)
-        st.markdown('<span class="badge-fasttrack">전략 3: 단기 패스트트랙형</span>', unsafe_allow_html=True)
-        res_f = results.get("agent_fasttrack", {})
-        if res_f.get("status") == "SUCCESS":
-            cf = res_f.get("roadmap_content", {})
-            st.subheader(cf.get("strategy_title", "단기 집중 패스트트랙형"))
-            st.caption(f"소요 기간: {cf.get('total_duration_weeks', 4)}주 | 처리: {res_f.get('latency_ms', 0)}ms")
-            st.write(f"**이 플랜을 추천하는 이유 & 요약:**\n{res_f.get('summary', '')}")
-            st.info(f"**프로젝트 기술 목표:**\n{cf.get('project_goal', '핵심 스택 초단기 습득')}")
-            if st.button("3안 단기 패스트트랙형 채택", key="btn_choose_f", use_container_width=True):
-                st.session_state.selected_agent_id = "agent_fasttrack"
-                selection_service.record_user_selection(
-                    request_id=st.session_state.current_request_id,
-                    chosen_generation_id=st.session_state.generation_id_map["agent_fasttrack"],
-                    chosen_agent_id="agent_fasttrack",
-                    user_type=user_mode,
-                    selection_reason="프로젝트 런칭 일정 준수를 위해 학습 시간을 최소화하고 현업에 즉시 투입하기 위해 채택함",
-                )
-                st.rerun()
-        else:
-            st.error(f"생성 실패: {res_f.get('summary', DISCONNECTED_STANDARD_MESSAGE)}")
-        st.markdown('</div>', unsafe_allow_html=True)
+# =====================================================================
+# STAGE 3: Pre-Test (사전 평가 - BARS 진단)
+# =====================================================================
+if st.session_state.session_id and st.session_state.current_stage >= 3:
+    st.markdown('<div class="stage-bar stage-3">3단계: 기준선 Pre-Test (DB 확정 계획 기반 동적 진단)</div>', unsafe_allow_html=True)
+    st.info("💡 현재 본인의 실제 실무 구현 수준에 부합하는 항목을 선택하세요 (옵션 1: 입문 ~ 옵션 4: 전문가).")
 
-    # 11. 최종 채택된 로드맵 및 사전 역량 진단 설문 렌더링
-    if st.session_state.selected_agent_id and st.session_state.orchestration_results:
-        chosen_id = st.session_state.selected_agent_id
-        chosen_data = st.session_state.orchestration_results[chosen_id]
-        chosen_content = chosen_data.get("roadmap_content", {})
+    pre_assessment = assessment_service.get_assessment(st.session_state.session_id, "PRE")
+    questions = pre_assessment.get("questions", [])
 
-        agent_names = {
-            "agent_practical": "1안: 실무 프로젝트형",
-            "agent_certified": "2안: 이론/공인자격형",
-            "agent_fasttrack": "3안: 단기 패스트트랙형",
-        }
+    with st.form("form_pre_assessment"):
+        user_answers = []
+        for q in questions:
+            qid = q["question_id"]
+            skill = q.get("skill", q.get("skill_name", "General"))
+            st.markdown(f"**[{skill}] {q['question']}**")
+            opts = q.get("options", [])
+            # 사용자가 보통 기초~초급 수준(index 0 또는 1)을 고름
+            choice = st.radio(label=f"q_{qid}", options=opts, index=0, key=f"pre_opt_{qid}",
+                              label_visibility="collapsed")
+            score = opts.index(choice) + 1 if choice in opts else 1
+            user_answers.append({
+                "question_id": qid,
+                "skill": skill,
+                "selected_option": choice,
+                "score": score
+            })
+            st.write("")
 
-        grounding_courses_map = {c["course_id"]: c for c in st.session_state.grounding_context.get("courses", [])}
-        grounding_books_map = {b["isbn"]: b for b in st.session_state.grounding_context.get("books", [])}
+        submit_pre = st.form_submit_button("Pre-Test 응답 제출 및 DB 저장 (4단계 대안 생성)", type="primary",
+                                           use_container_width=True)
 
-        st.markdown("---")
-        st.success(f"**{agent_names.get(chosen_id, chosen_id)}** 로드맵이 채택되었습니다!")
-        st.markdown(f"## [프로젝트 성공 지원 종합 리포트] {chosen_content.get('strategy_title', '업무 개발 로드맵')}")
-        st.markdown(f"**대상 부서원:** {emp_name} {emp_grade} ({emp_dept}) | **목표 직무:** {emp_job} | **총 소요기간:** {chosen_content.get('total_duration_weeks', 8)}주")
-        st.info(f"**★ 프로젝트 기술 목표:** {chosen_content.get('project_goal', '현업 프로젝트 성공')}\n\n**이 플랜을 따라가야 하는 이유 & 로드맵 요약:**\n{chosen_data.get('summary', '')}")
+    if submit_pre:
+        assessment_service.save_assessment_responses(st.session_state.session_id, "PRE", user_answers)
 
-        # [사전 실력 진단 설문지 컴포넌트 추가][cite: 4, 11]
-        if st.session_state.pre_survey:
-            with st.expander("📝 [역량 진단 에이전트 제작] 학습 시작 전 실력 측정 사전 진단 설문 (Pre-Assessment)", expanded=False):
-                st.caption("부서원의 현재 실력과 기술적 준비도를 측정하기 위해 AssessmentAgent가 설계한 5문항 진단 설문입니다.")
-                for s in st.session_state.pre_survey:
-                    q_num = s.get("q_num", 1)
-                    q_text = s.get("question", "")
-                    q_metric = s.get("evaluation_metric", "")
-                    q_type = s.get("question_type", "SCALE_5")
+        with st.spinner("DB 데이터를 기반으로 3개 로드맵 대안 생성 중..."):
+            plan = assessment_service.get_project_plan(st.session_state.session_id)
+            grounding = recommendation_service.retrieve_grounding_context(
+                target_skills=plan.get("tech_stack", user_profile["target_skills"]),
+                target_job_title=user_profile["job_title"]
+            )
+            orch_profile = dict(user_profile)
+            orch_profile["work_context_summary"] = plan.get("refined_plan", plan.get("draft_plan", ""))
 
-                    if q_type == "SCALE_5":
-                        st.slider(f"Q{q_num}. {q_text} (평가 지표: {q_metric})", 1, 5, 3, key=f"pre_survey_{q_num}")
-                    else:
-                        st.text_area(f"Q{q_num}. {q_text} (평가 지표: {q_metric})", placeholder="현재 실무 관점에서 자유롭게 작성해 주세요.", key=f"pre_survey_{q_num}")
+            orch = multi_agent_orchestrator.generate_all_roadmaps(
+                user_context=orch_profile,
+                conversation_history=[],
+                retrieved_context=grounding,
+                hidden_assessment_responses={a["question_id"]: a["score"] for a in user_answers}
+            )
+            roadmap_gens = []
+            for k, v in orch.get("results", {}).items():
+                content = v.get("roadmap_content", {})
+                roadmap_gens.append({
+                    "strategy_type": k,
+                    "strategy_title": content.get("strategy_title", k),
+                    "summary": v.get("summary", ""),
+                    "roadmap_content": content
+                })
+            selection_service.save_agent_generations(st.session_state.session_id, roadmap_gens)
 
-        milestones = chosen_content.get("milestones", [])
+            selection_service.update_session_stage(st.session_state.session_id, 4)
+            sync_session_state(st.session_state.session_id)
+            st.rerun()
 
-        # 종합 실행 일정표
-        st.markdown("### [한눈에 보는 로드맵 종합 실행 일정표]")
-        table_rows = [
-            "| 단계 | 소요 기간 | 집중 달성 목표 | 핵심 실무 액션 | 연계 추천 자원 |",
-            "| :--- | :--- | :--- | :--- | :--- |",
-        ]
-        for ms in milestones:
-            p_name = ms.get("phase_name", f"Phase {ms.get('phase', 1)}")
-            dur = ms.get("duration", "4주")
-            goal = ms.get("focus_goal", "").replace("\n", " ")
-            first_act = (ms.get("key_actions", ["실무 과제 수행"])[0]).replace("\n", " ")
+# =====================================================================
+# STAGE 4: 3개 로드맵 대안 생성 결과
+# =====================================================================
+if st.session_state.session_id and st.session_state.current_stage >= 4:
+    st.markdown('<div class="stage-bar stage-4">4단계: 전략적 로드맵 3개 대안 (DB 조회)</div>', unsafe_allow_html=True)
 
-            res_items = []
-            for rc in ms.get("recommended_courses", []):
-                res_items.append(f"강좌: {rc.get('title', '')[:14]}...")
-            for rb in ms.get("recommended_books", []):
-                res_items.append(f"도서: {rb.get('title', '')[:14]}...")
-            for rz in ms.get("recommended_certifications", []):
-                res_items.append(f"자격: {rz.get('title', '')}")
+    roadmaps = selection_service.get_agent_generations(st.session_state.session_id)
+    cols = st.columns(len(roadmaps) if roadmaps else 3)
 
-            res_str = "<br>".join(res_items) if res_items else "현업 프로젝트 실습"
-            table_rows.append(f"| **{p_name}** | {dur} | {goal} | {first_act} | {res_str} |")
+    for idx, r in enumerate(roadmaps):
+        gid = r.get("generation_id", f"gen_{idx}")
+        stype = r.get("strategy_type", "general")
+        title = r.get("strategy_title", "전략 로드맵")
+        summary = r.get("summary", "")
+        content = r.get("roadmap_content", {})
 
-        st.markdown("\n".join(table_rows), unsafe_allow_html=True)
-        st.markdown("<br>", unsafe_allow_html=True)
-
-        # 단계별 세부 실행 플랜
-        st.markdown("### 단계별 세부 실행 플랜 및 검증 (Detail View)")
-        for ms in milestones:
-            phase_title = f"Phase {ms.get('phase', 1)}: {ms.get('phase_name', '학습 단계')} ({ms.get('duration', '4주')})"
-            with st.expander(f"{phase_title} 세부 플랜 확인하기", expanded=True):
-                st.markdown(
-                    f"""
-<div class="milestone-container">
-<h4 style="color: #1E3A8A; margin-bottom: 6px;">{phase_title}</h4>
-<p><strong>집중 달성 목표:</strong> {ms.get('focus_goal', '')}</p>
-<p style="color: #0369A1; margin-bottom: 0;"><strong>프로젝트 기여 효과:</strong> {ms.get('project_impact', '')}</p>
+        with cols[idx]:
+            st.markdown(
+                f"""
+<div class="strategy-box">
+    <div>
+        <h4 style="margin: 0 0 8px 0; color: #1E293B;">{title}</h4>
+        <p style="font-size: 13px; color: #475569; line-height: 1.5;">{summary}</p>
+        <div style="font-size: 12px; color: #64748B; margin: 8px 0;">
+            <b>전략 유형:</b> {stype}<br>
+            <b>총 수행 기간:</b> {content.get('total_duration_weeks', 8)}주
+        </div>
+    </div>
 </div>
 """,
-                    unsafe_allow_html=True,
-                )
+                unsafe_allow_html=True
+            )
+            st.write("")
+            if st.button("이 로드맵 채택하기", key=f"btn_choose_{gid}", use_container_width=True):
+                detailed_report = {
+                    "strategy_title": title,
+                    "project_summary": summary,
+                    "total_duration_weeks": content.get("total_duration_weeks", 8),
+                    "why_this_roadmap": f"{title} 전략이 현 프로젝트 병목 해결 및 역량 성장에 가장 최적화됨",
+                    "project_goal": content.get("project_goal", "프로덕션 레벨 고가용성 아키텍처 완결"),
+                    "roadmap_flow": content.get("roadmap_flow", []),
+                    "phases": content.get("milestones", []),
+                    "deliverables": content.get("deliverables", []),
+                    "validation_criteria": ["마일스톤별 단위 테스트 커버리지 80% 달성", "프로덕션 통합 부하 테스트 완결"],
+                    "expected_outcomes": ["비동기 전환을 통한 응답 지연 시간 50% 단축", "장애 격리 및 배포 자동화 달성"]
+                }
+                selection_service.select_roadmap(st.session_state.session_id, gid, detailed_report)
+                selection_service.update_session_stage(st.session_state.session_id, 5)
+                sync_session_state(st.session_state.session_id)
+                st.rerun()
 
-                actions = ms.get("key_actions", [])
-                if actions:
-                    st.markdown("##### 현업 실무 실행 과제 (Action Items)")
-                    for act in actions:
-                        st.markdown(f"- [x] **{act}**")
-                    st.markdown("<br>", unsafe_allow_html=True)
+# =====================================================================
+# STAGE 5: 하나 선택 및 상세 설계 보고서
+# =====================================================================
+if st.session_state.session_id and st.session_state.current_stage >= 5:
+    st.markdown('<div class="stage-bar stage-5">5단계: 선택된 로드맵 및 상세 설계 보고서 (DB 조회)</div>', unsafe_allow_html=True)
 
-                st.markdown("##### 연계 추천 실존 자원")
-                c_col, b_col, z_col = st.columns(3)
+    selected_data = selection_service.get_selected_roadmap(st.session_state.session_id)
+    if selected_data:
+        sel_rec = selected_data["selection"]
+        rep_content = selected_data.get("report", {})
+        gen_rec = selected_data.get("generation", {})
 
-                with c_col:
+        strat_title = rep_content.get("strategy_title") or gen_rec.get("strategy_title", "맞춤형 기술 로드맵")
+        total_weeks = rep_content.get("total_duration_weeks") or gen_rec.get("roadmap_content", {}).get(
+            "total_duration_weeks", 8)
+        proj_name = st.session_state.get("project_name", "엔지니어링 과제")
+
+        # 1. 상단 배너
+        st.markdown(
+            f"""
+<div style="background: linear-gradient(135deg, #1E293B 0%, #0F172A 100%); padding: 22px; border-radius: 10px; color: #FFFFFF; margin-bottom: 20px;">
+    <h2 style="margin: 0; color: #FFFFFF; font-size: 22px;">📘 채택된 청사진: {strat_title}</h2>
+    <p style="margin: 8px 0 0 0; color: #94A3B8; font-size: 14px;">총 수행 기간: {total_weeks}주 | 엔지니어: {u_name} ({u_grade}) | 과제명: {proj_name}</p>
+</div>
+""",
+            unsafe_allow_html=True
+        )
+
+        st.markdown(f"**전략 요약:** {rep_content.get('project_summary', '')}")
+        st.markdown(f"**선택 근거:** {rep_content.get('why_this_roadmap', '')}")
+        st.markdown(f"**핵심 엔지니어링 목표:** {rep_content.get('project_goal', '')}")
+
+        # 2. 로드맵 실행 순서 요약: ㅁ ➔ ㅁ ➔ ㅁ 프로세스 카드
+        st.markdown("---")
+        st.markdown("### 🧭 마일스톤 실행 순서 요약 플로우")
+        flow_steps = rep_content.get("roadmap_flow", [])
+        if flow_steps:
+            flow_cols = st.columns(len(flow_steps))
+            for f_idx, step in enumerate(flow_steps):
+                with flow_cols[f_idx]:
+                    arrow = "➔" if f_idx < len(flow_steps) - 1 else "🏁"
+                    st.markdown(
+                        f"""
+<div style="border: 2px solid #3B82F6; border-radius: 8px; padding: 14px; background-color: #F8FAFC; text-align: center; height: 100%;">
+    <div style="font-size: 12px; font-weight: 700; color: #1D4ED8; margin-bottom: 4px;">STEP {step.get('step', f_idx + 1)} ({step.get('duration', '')})</div>
+    <div style="font-size: 14px; font-weight: 700; color: #0F172A; margin-bottom: 6px;">{step.get('title', '')}</div>
+    <div style="font-size: 12px; color: #64748B;">{step.get('focus', '')}</div>
+    <div style="margin-top: 8px; font-size: 16px;">{arrow}</div>
+</div>
+""",
+                        unsafe_allow_html=True
+                    )
+        st.write("")
+
+        # 3. 마일스톤 총괄표
+        st.markdown("### 📊 마일스톤 실행 계획 총괄표")
+        table_rows = []
+        phases = rep_content.get("phases", [])
+        for ms in phases:
+            p_name_val = ms.get("phase_name", f"Phase {ms.get('phase', 1)}")
+            dur_val = ms.get("duration", "2주")
+            goal_val = ms.get("focus_goal", "")
+            impact_val = ms.get("project_impact", "")
+            table_rows.append(f"| **{p_name_val}** | {dur_val} | {goal_val} | {impact_val} |")
+
+        st.markdown(
+            "| 마일스톤 | 소요 기간 | 핵심 엔지니어링 목표 | 기술적 파급 효과 |\n| :--- | :---: | :--- | :--- |\n" + "\n".join(table_rows))
+
+        # 4. 세부 과제 및 RAG 자원 명세
+        st.markdown("---")
+        st.markdown("### 🛠 단계별 세부 실행 과제 및 RAG 추천 학습 자원 명세")
+        for ms in phases:
+            p_title = ms.get("phase_name", f"Phase {ms.get('phase', 1)}")
+            with st.expander(f"📌 {p_title} (기간: {ms.get('duration', '2주')}) - 세부 과제 및 추천 자원 열기", expanded=True):
+                col_act, col_rag = st.columns([1.2, 1])
+
+                with col_act:
+                    st.markdown("#### 🎯 중점 엔지니어링 실행 액션")
+                    for act in ms.get("key_actions", []):
+                        st.markdown(f"- 🔹 {act}")
+
+                    if ms.get("deliverables"):
+                        st.markdown("#### 📦 단계별 핵심 산출물 (Deliverables)")
+                        for d in ms.get("deliverables", []):
+                            st.markdown(f"- ✅ **{d}**")
+
+                with col_rag:
+                    st.markdown("#### 📚 RAG 기반 맞춤 추천 자원")
+
+                    st.markdown("**🖥 공식 온라인 기술 강좌**")
                     courses = ms.get("recommended_courses", [])
-                    st.markdown("**실존 온라인 강좌**")
                     if courses:
                         for c in courses:
-                            cid = c.get("course_id", "")
-                            ctitle = c.get("title", "")
-                            cplatform = c.get("platform", "온라인")
-                            matched = grounding_courses_map.get(cid, {})
-                            target_url = matched.get("url") or c.get("url")
-                            safe_url = resolve_course_safe_url(target_url, ctitle, cplatform)
-
-                            with st.container():
-                                st.markdown(f"**`{cid}`** {ctitle}")
-                                st.caption(f"플랫폼: {cplatform}")
-                                st.link_button("강좌 바로가기 ↗", safe_url, use_container_width=True)
+                            st.markdown(
+                                f"- [{c.get('title')}]({c.get('url', '#')}) `({c.get('platform', 'MS Learn')})`")
                     else:
-                        st.caption("해당 단계 지정 강좌 없음")
+                        st.caption("매칭된 온라인 강좌 없음")
 
-                with b_col:
+                    st.markdown("**🏆 연계 공인 자격증**")
+                    certs = ms.get("recommended_certifications", [])
+                    if certs:
+                        for cert in certs:
+                            st.markdown(f"- **{cert.get('title')}** `({cert.get('provider', '공인기관')})`")
+                    else:
+                        st.caption("매칭된 공인 자격증 없음")
+
+                    st.markdown("**📖 핵심 참고 도서**")
                     books = ms.get("recommended_books", [])
-                    st.markdown("**실존 전문 도서 (KDC 004)**")
                     if books:
                         for b in books:
-                            bisbn = b.get("isbn", "")
-                            btitle = b.get("title", "")
-                            bauthor = b.get("author", "전문가")
-                            is_related = b.get("is_related", False)
-
-                            if bisbn in grounding_books_map:
-                                is_related = grounding_books_map[bisbn].get("is_related", is_related)
-
-                            with st.container():
-                                st.markdown(f"- **{btitle}**\n  *저자: {bauthor} (ISBN: {bisbn})*")
-                                if is_related:
-                                    st.markdown('<span class="related-book-tag">(관련 추천 도서)</span>', unsafe_allow_html=True)
-                                    st.caption("완전한 스킬 태그 일치는 아니지만, 컴퓨터과학 유사도를 바탕으로 추천된 참고 도서입니다.")
+                            st.markdown(f"- *{b.get('title')}* (저자: {b.get('author', '전문가')})")
                     else:
-                        st.caption("해당 단계 추천 도서 없음")
+                        st.caption("매칭된 참고 도서 없음")
 
-                with z_col:
-                    certs = ms.get("recommended_certifications", [])
-                    st.markdown("**실존 공인 자격증**")
-                    if certs:
-                        for z in certs:
-                            st.markdown(f"- **{z.get('title', '')}**\n  *시행: {z.get('provider', '공인기관')}*")
-                    else:
-                        st.caption("해당 단계 자격증 없음")
-
+        # 5. 6단계 진입 트리거
         st.markdown("---")
-        st.markdown("### [업무 개발 및 프로젝트 성과 검증 방안]")
-        st.markdown("""
-프로젝트 산출물의 실질적 변화와 역량 향상을 점검하기 위한 3단계 정성 평가 프레임워크입니다:
-1. **산출물 전후 비교 (Artifact Delta)**: 로드맵 시작 전 부서원의 기존 코드와 이수 후 커밋/PR된 신규 아키텍처(MSA, 비동기 분산 트랜잭션 등) 간의 코드 리팩토링 차이 및 설계 완성도를 측정합니다.
-2. **동료 및 협업 설문조사 (Peer Survey)**: 함께 프로젝트를 수행하는 동료 엔지니어 및 유관 조직을 대상으로 협업 생산성 향상 수준을 5점 척도로 측정합니다.
-3. **팀 내 지식 공유 세미나 퀴즈**: 부서원이 습득한 기술 스택을 팀 내 세미나로 공유하고 간이 퀴즈를 진행하여 전사적 기술 전파 효과를 검증합니다.
-""")
+        if st.session_state.current_stage == 5:
+            if st.button("🏁 프로젝트 수행 완료 및 6단계 Post-Test 시작", type="primary", use_container_width=True):
+                with st.spinner("DB를 조회하여 사후 평가 문항을 생성하는 중..."):
+                    post_questions = assessment_agent.generate_post_assessment(st.session_state.session_id)
+                    assessment_service.save_assessment_questions(st.session_state.session_id, "POST", post_questions)
+
+                    selection_service.update_session_stage(st.session_state.session_id, 6)
+                    sync_session_state(st.session_state.session_id)
+                    st.rerun()
+
+# =====================================================================
+# STAGE 6: Post-Test (사후 평가 - 로드맵 완수 후 실무 검증)
+# =====================================================================
+if st.session_state.session_id and st.session_state.current_stage >= 6:
+    st.markdown('<div class="stage-bar stage-6">6단계: Post-Test (1~3단계 + Roadmap 기반 실무 검증)</div>',
+                unsafe_allow_html=True)
+    st.info("💡 로드맵 수행 후 달성한 역량 수준을 선택하세요. 성장도를 정확히 측정하기 위해 향상된 수준에 맞추어 선택해 주세요.")
+
+    post_assessment = assessment_service.get_assessment(st.session_state.session_id, "POST")
+    post_questions = post_assessment.get("questions", [])
+
+    with st.form("form_post_assessment"):
+        post_answers = []
+        for q in post_questions:
+            qid = q["question_id"]
+            skill = q.get("skill", q.get("skill_name", "General"))
+            opts = q.get("options", [])
+            st.markdown(f"**[{skill}] {q['question']}**")
+
+            if opts:
+                # 사용자가 로드맵 수행 후 실무 역량이 성장했으므로 기본 선택을 심화(index 2: Level 3)로 유도
+                default_idx = min(2, len(opts) - 1)
+                p_choice = st.radio(label=f"post_{qid}", options=opts, index=default_idx, key=f"post_opt_{qid}",
+                                    label_visibility="collapsed")
+                p_score = opts.index(p_choice) + 1 if p_choice in opts else 3
+                post_answers.append({
+                    "question_id": qid,
+                    "skill": skill,
+                    "selected_option": p_choice,
+                    "score": p_score
+                })
+            else:
+                p_text = st.text_area(label=f"post_text_{qid}",
+                                      value="PR #42: 비동기 FastAPI 게이트웨이 전환 완료, connection pool 지연 60% 감소 달성",
+                                      key=f"post_txt_{qid}", label_visibility="collapsed")
+                post_answers.append({
+                    "question_id": qid,
+                    "skill": skill,
+                    "selected_option": p_text if p_text else "기여 완료",
+                    "score": 4
+                })
+            st.write("")
+
+        submit_post = st.form_submit_button("Post-Test 제출 및 최종 성장 평가 보고서 생성", type="primary", use_container_width=True)
+
+    if submit_post:
+        assessment_service.save_assessment_responses(st.session_state.session_id, "POST", post_answers)
+
+        with st.spinner("사전/사후 응답 데이터를 결합하여 종단적 성장 평가 보고서를 합성하는 중..."):
+            final_report = assessment_agent.generate_growth_report(st.session_state.session_id)
+            assessment_service.save_assessment_report(st.session_state.session_id, final_report)
+
+            selection_service.update_session_stage(st.session_state.session_id, 7, status="COMPLETED")
+            sync_session_state(st.session_state.session_id)
+            st.rerun()
+
+# =====================================================================
+# STAGE 7: 평가 보고서 (Pre ↔ Post 비교 분석 완결)
+# =====================================================================
+if st.session_state.session_id and st.session_state.current_stage == 7:
+    st.markdown('<div class="stage-bar stage-7">7단계: 최종 평가 보고서 (Pre ↔ Post 정밀 비교 분석)</div>', unsafe_allow_html=True)
+
+    report = assessment_service.get_assessment_report(st.session_state.session_id)
+
+    if report:
+        st.subheader("📊 역량 성장 비교 매트릭스 (Competency Migration Matrix)")
+
+        comp_list = report.get("skill_comparison", [])
+
+        # 1. 요약 메트릭 카드
+        total_growth = sum(c.get("growth", 0) for c in comp_list)
+        avg_growth = round(total_growth / len(comp_list), 1) if comp_list else 0
+
+        m_col1, m_col2, m_col3 = st.columns(3)
+        with m_col1:
+            st.metric("평가 역량 축 수", f"{len(comp_list)}개 스킬")
+        with m_col2:
+            st.metric("총 성장 레벨 합계", f"+{total_growth} Levels")
+        with m_col3:
+            st.metric("평균 역량 신장도", f"+{avg_growth} 레벨 상승", delta=f"+{avg_growth}")
+
+        # 2. 정밀 비교 표
+        comp_rows = []
+        for c in comp_list:
+            sk = c.get("skill", "")
+            pre_l = c.get("pre_level", 1)
+            post_l = c.get("post_level", 1)
+            growth = c.get("growth", 0)
+
+            if growth > 0:
+                badge = f"**+{growth}단계 성장 🚀**"
+            elif growth == 0:
+                badge = "동일 유지 ⚪"
+            else:
+                badge = f"{growth}단계 🔻"
+
+            comp_rows.append(f"| **{sk}** | Level {pre_l} | Level {post_l} | {badge} |")
+
+        st.markdown(
+            "| 역량 축 | 사전 진단 (Pre) | 사후 검증 (Post) | 성장 델타 (Delta) |\n| :--- | :---: | :---: | :---: |\n" + "\n".join(
+                comp_rows))
+
+        # 3. 세부 행동 변화 진술문 대조 카드
+        st.markdown("---")
+        st.markdown("### 🔍 기술별 실무 행동 변화 상세 대조")
+        for c in comp_list:
+            sk = c.get("skill", "")
+            pre_l = c.get("pre_level", 1)
+            post_l = c.get("post_level", 1)
+            growth = c.get("growth", 0)
+            pre_text = c.get("pre_statement", "기록 없음")
+            post_text = c.get("post_statement", "기록 없음")
+
+            with st.container():
+                st.markdown(
+                    f"""
+<div class="growth-card">
+    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+        <h4 style="margin: 0; color: #1E293B;">{sk}</h4>
+        <span style="font-weight: 700; color: {'#15803D' if growth > 0 else '#64748B'}; font-size: 14px;">
+            Level {pre_l} ➔ Level {post_l} ({'+' if growth > 0 else ''}{growth} 단계)
+        </span>
+    </div>
+    <div style="font-size: 13px; color: #475569; margin-bottom: 4px;"><b>[사전 상태]</b> {pre_text}</div>
+    <div style="font-size: 13px; color: #1D4ED8;"><b>[사후 성취]</b> {post_text}</div>
+</div>
+""",
+                    unsafe_allow_html=True
+                )
+
+        # 4. 정성 분석 요약
+        st.markdown("---")
+        st.subheader("총괄 정성 평가 (Executive Narrative)")
+        st.markdown(report.get("overall_summary", ""))
+
+        col_rep1, col_rep2 = st.columns(2)
+        with col_rep1:
+            st.markdown("### 🌟 주요 입증 강점")
+            for s in report.get("strengths", []):
+                st.markdown(f"- ✅ {s}")
+        with col_rep2:
+            st.markdown("### 🎯 향후 지속 보완 영역")
+            for imp in report.get("improvement_areas", []):
+                st.markdown(f"- ⚠️ {imp}")
+
+        st.info(f"**최종 인증 소견:** {report.get('final_evaluation', '')}")

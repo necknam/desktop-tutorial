@@ -2,7 +2,7 @@ import hashlib
 import logging
 from typing import Any, Dict, List
 import httpx
-from database.db_client import db_client
+from src.db.db_client import db_client
 
 logger = logging.getLogger("REAL_DATA_INGESTOR")
 
@@ -56,11 +56,9 @@ class RealDataIngestor:
                         duration = m.get("duration_in_minutes", 60) // 60
                         raw_web_url = str(m.get("url", "")).strip()
 
-                        # 필수 메타데이터 및 실제 라이브 URL이 존재하는 경우만 수집
                         if not title or not raw_uid or not raw_web_url:
                             continue
 
-                        # 고유 course_id 생성 (MD5 해시)
                         uid_hash = hashlib.md5(raw_uid.encode("utf-8")).hexdigest()[:12]
                         cid = f"MS_{uid_hash}"
 
@@ -68,7 +66,6 @@ class RealDataIngestor:
                             continue
                         seen_cids.add(cid)
 
-                        # 실제 브라우저 200 OK 접속 가능한 절대 URL 확정
                         if raw_web_url.startswith("http://") or raw_web_url.startswith("https://"):
                             final_url = raw_web_url
                         elif raw_web_url.startswith("/"):
@@ -111,7 +108,6 @@ class RealDataIngestor:
             logger.error("API로부터 수집된 실존 강좌가 없습니다.")
             return 0
 
-        # 단일 배치 내 중복 제거 (APIError 21000 원천 방지)
         deduped = list({c["course_id"]: c for c in real_courses}.values())
 
         self.db.client.table("courses").upsert(deduped).execute()
@@ -200,7 +196,6 @@ class RealDataIngestor:
     def map_skills_to_entities(self) -> bool:
         """100% 실존하는 엔티티와 스킬(101~110) 간 M:N 매핑 연계 (복합키 중복 방어)"""
         try:
-            # 1. 직무 매핑
             jobs_resp = self.db.client.table("jobs").select("job_id, title, ncs_units").execute()
             job_maps = []
             for j in (jobs_resp.data or []):
@@ -233,7 +228,6 @@ class RealDataIngestor:
             unique_job_maps = list({(m["job_id"], m["skill_id"]): m for m in job_maps}.values())
             self.db.client.table("job_skill_map").upsert(unique_job_maps).execute()
 
-            # 2. 공식 실존 강좌 매핑
             courses_resp = self.db.client.table("courses").select("course_id, title").execute()
             course_maps = []
             for c in (courses_resp.data or []):
@@ -266,7 +260,6 @@ class RealDataIngestor:
             unique_course_maps = list({(m["course_id"], m["skill_id"]): m for m in course_maps}.values())
             self.db.client.table("course_skill_map").upsert(unique_course_maps).execute()
 
-            # 3. 실존 자격증 매핑
             certs_resp = self.db.client.table("certifications").select("cert_id, title, test_subjects").execute()
             cert_maps = []
             for z in (certs_resp.data or []):
@@ -299,7 +292,6 @@ class RealDataIngestor:
             unique_cert_maps = list({(m["cert_id"], m["skill_id"]): m for m in cert_maps}.values())
             self.db.client.table("cert_skill_map").upsert(unique_cert_maps).execute()
 
-            # 4. 실존 도서 매핑
             books_resp = self.db.client.table("books").select("isbn, title").execute()
             book_maps = []
             for b in (books_resp.data or []):

@@ -1,6 +1,6 @@
 """
 SFT / DPO 파인튜닝 데이터셋 파이프라인 모듈
-파일 경로: core/dataset_pipeline.py
+파일 경로: src/core/dataset_pipeline.py
 역할: Chosen 1 : Rejected N 페어 생성, PII 마스킹, SFT/DPO JSONL 파일 익스포트
 """
 
@@ -8,8 +8,8 @@ import os
 import json
 import logging
 from typing import Dict, Any, List, Optional
-from database.db_client import db_client
-from core.pii_masking import pii_masker
+from src.db.db_client import db_client
+from src.core.pii_masking import pii_masker
 
 logger = logging.getLogger("DATASET_PIPELINE")
 
@@ -36,7 +36,6 @@ class DatasetPipeline:
         created_pairs = []
 
         try:
-            # 1. 대상 선택 로그 조회
             query = self.db.client.table("agent_selections").select("*")
             if request_id:
                 query = query.eq("request_id", request_id)
@@ -51,7 +50,6 @@ class DatasetPipeline:
                 chosen_gid = sel["chosen_generation_id"]
                 u_type = sel["user_type"]
 
-                # 2. 부모 요청 및 해당 요청의 모든 에이전트 생성 결과 조회
                 req_resp = self.db.client.table("roadmap_requests").select("*").eq("request_id", req_id).execute()
                 gen_resp = self.db.client.table("agent_generations").select("*").eq("request_id", req_id).execute()
 
@@ -61,14 +59,12 @@ class DatasetPipeline:
                 req_data = req_resp.data[0]
                 all_gens = gen_resp.data
 
-                # Chosen 및 Rejected 분리
                 chosen_gen = next((g for g in all_gens if g["generation_id"] == chosen_gid), None)
                 rejected_gens = [g for g in all_gens if g["generation_id"] != chosen_gid]
 
                 if not chosen_gen or not rejected_gens:
                     continue
 
-                # 공통 입력 컨텍스트 구성
                 prompt_input = {
                     "raw_user_prompt": req_data.get("raw_user_prompt"),
                     "user_requirements": req_data.get("user_requirements"),
@@ -76,7 +72,6 @@ class DatasetPipeline:
                     "conversation_history": req_data.get("conversation_history")
                 }
 
-                # 3. Chosen 1 : Rejected N 페어 구축
                 for rej in rejected_gens:
                     pair_payload = {
                         "request_id": req_id,
@@ -97,7 +92,6 @@ class DatasetPipeline:
                     }
 
                     try:
-                        # 중복 여부 확인
                         chk_resp = self.db.client.table("preference_pairs").select("pair_id") \
                             .eq("request_id", req_id) \
                             .eq("chosen_generation_id", chosen_gid) \
@@ -197,7 +191,6 @@ class DatasetPipeline:
         if self.db.client is None:
             return 0
 
-        # 페어 생성 선행 보장
         self.build_preference_pairs(user_type=user_type if user_type else None)
 
         os.makedirs(os.path.dirname(os.path.abspath(output_path)), exist_ok=True)
@@ -257,5 +250,4 @@ class DatasetPipeline:
             logger.warning(f"데이터셋 익스포트 로그 기록 실패: {exc}")
 
 
-# 글로벌 싱글톤 인스턴스
 dataset_pipeline = DatasetPipeline()

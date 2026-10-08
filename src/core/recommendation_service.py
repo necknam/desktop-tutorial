@@ -1,7 +1,7 @@
 import logging
 from typing import Dict, Any, List
-from database.db_client import db_client
-from core.embedding_service import embedding_service
+from src.db.db_client import db_client
+from src.core.embedding_service import embedding_service
 
 logger = logging.getLogger("RECOMMENDATION_SERVICE")
 
@@ -10,11 +10,9 @@ def normalize_course_url(raw_url: str, title: str, platform: str) -> str:
     """공식 API가 공급한 실제 200 OK 절대 경로를 그대로 보존 (404 방지)"""
     url_str = str(raw_url).strip() if raw_url else ""
 
-    # 이미 작동하는 유효한 절대 경로가 존재할 경우 그대로 보존 (404 원천 차단)
     if url_str.startswith("http://") or url_str.startswith("https://"):
         return url_str
 
-    # 상대 경로인 경우 MS Learn 공식 도메인 결합
     if url_str.startswith("/"):
         return f"https://learn.microsoft.com{url_str}"
 
@@ -46,7 +44,6 @@ class RecommendationService:
         }
 
         try:
-            # 1. 질의 벡터 생성 및 스킬 코사인 유사도 랭킹 산출
             query_text = f"{target_job_title} {' '.join(target_skills)}".strip()
             query_vector = self.embedder.get_embedding(query_text)
 
@@ -78,7 +75,6 @@ class RecommendationService:
                 skill_scores.sort(key=lambda x: x[1], reverse=True)
                 matched_skill_ids = [s[0] for s in skill_scores[:5]]
 
-            # 2. 100% 공식 API 실존 라이브 강좌 인출 및 검증된 URL 바인딩
             if self.db.client:
                 c_resp = self.db.client.table("courses").select("*").execute()
                 for c in (c_resp.data or []):
@@ -93,7 +89,6 @@ class RecommendationService:
                         "url": c_url,
                     })
 
-            # 3. 실존 공인 자격증 인출
             if self.db.client:
                 z_resp = self.db.client.table("certifications").select("*").execute()
                 for cert in (z_resp.data or []):
@@ -104,7 +99,6 @@ class RecommendationService:
                         "exam_type": cert.get("exam_type", "필기/실기"),
                     })
 
-            # 4. KDC 004 실존 전문 도서 인출 (대출량 상위)
             if self.db.client:
                 b_resp = self.db.client.table("books").select("*").order("loan_count", desc=True).limit(8).execute()
                 for b in (b_resp.data or []):
@@ -116,7 +110,6 @@ class RecommendationService:
                         "is_related": True,
                     })
 
-            # 5. NCS 표준 실무 직무 프로필 연계
             if target_job_title and self.db.client:
                 job_resp = self.db.client.table("jobs").select("*").ilike("title", f"%{target_job_title}%").limit(1).execute()
                 if job_resp.data:

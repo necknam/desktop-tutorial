@@ -1,7 +1,7 @@
 import logging
-from database.db_client import db_client
-from core.embedding_service import embedding_service
-from core.real_data_ingestor import real_data_ingestor
+from src.db.db_client import db_client
+from src.core.embedding_service import embedding_service
+from src.core.real_data_ingestor import real_data_ingestor
 
 logging.basicConfig(level=logging.INFO, format="[%(asctime)s] %(levelname)s %(message)s")
 logger = logging.getLogger("RESET_SKILLS")

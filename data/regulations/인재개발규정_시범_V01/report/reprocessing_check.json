@@ -1,0 +1,19 @@
+{
+  "reprocessing_identical_except_generated_timestamp": {
+    "institution": "pass",
+    "rag_chunk": "pass",
+    "rag_chunk_source": "pass",
+    "regulation": "pass",
+    "regulation_file": "pass",
+    "regulation_node": "pass",
+    "regulation_reference": "pass",
+    "regulation_scope": "pass",
+    "regulation_version": "pass"
+  },
+  "wrong_input_hash_rejected_before_output": "pass",
+  "html_local_links_exist": "pass",
+  "csv_json_roundtrip": "pass",
+  "original_and_copied_pdf_sha256": "0835551b52e02b2471022af3e3bf4c65ce39d0816a9fba6b0cc6c5569b5b792f",
+  "postgres_server_execution": "not_executed",
+  "html_browser_visual_check": "not_executed"
+}

@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Qwen-27B QLoRA 하이퍼파라미터 기술 명세 및 조정 매뉴얼</title>
+  <style>
+    @page {
+      size: A4 portrait;
+      margin: 12mm 10mm;
+    }
+    :root {
+      --primary: #0284c7;
+      --primary-dark: #0369a1;
+      --slate-900: #0f172a;
+      --slate-800: #1e293b;
+      --slate-700: #334155;
+      --slate-600: #475569;
+      --slate-100: #f1f5f9;
+      --slate-50: #f8fafc;
+      --border: #e2e8f0;
+      --danger: #dc2626;
+      --warning: #d97706;
+      --success: #16a34a;
+    }
+    * { box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Malgun Gothic", "Pretendard", sans-serif;
+      color: var(--slate-800);
+      background-color: #f1f5f9;
+      line-height: 1.5;
+      margin: 0;
+      padding: 20px;
+    }
+    .doc-page {
+      max-width: 980px;
+      margin: 0 auto;
+      background: #ffffff;
+      padding: 32px 38px;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.07);
+    }
+    header {
+      border-bottom: 2px solid var(--primary);
+      padding-bottom: 12px;
+      margin-bottom: 20px;
+    }
+    h1 {
+      font-size: 21px;
+      font-weight: 800;
+      color: var(--slate-900);
+      margin: 0 0 6px 0;
+    }
+    .meta {
+      font-size: 11.5px;
+      color: var(--slate-600);
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+    .meta span {
+      background: var(--slate-100);
+      padding: 2px 8px;
+      border-radius: 4px;
+      border: 1px solid var(--border);
+    }
+    h2 {
+      font-size: 14.5px;
+      font-weight: 700;
+      color: var(--slate-900);
+      border-left: 4px solid var(--primary);
+      padding-left: 9px;
+      margin: 24px 0 12px 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 11.5px;
+      margin-bottom: 18px;
+    }
+    th, td {
+      padding: 7px 9px;
+      text-align: left;
+      border-bottom: 1px solid var(--border);
+      vertical-align: middle;
+    }
+    th {
+      background-color: var(--slate-50);
+      color: var(--slate-700);
+      font-weight: 700;
+      border-top: 1px solid #cbd5e1;
+    }
+    tr:nth-child(even) td { background-color: #fafbfc; }
+    .badge-code {
+      font-family: Consolas, Monaco, monospace;
+      font-size: 11px;
+      color: #0369a1;
+      font-weight: 600;
+    }
+    .badge-step {
+      font-family: Consolas, Monaco, monospace;
+      font-size: 10.5px;
+      background: #eff6ff;
+      color: #1d4ed8;
+      padding: 2px 5px;
+      border-radius: 4px;
+      font-weight: 700;
+      display: inline-block;
+    }
+    .grid-2 {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 12px;
+      margin-bottom: 16px;
+    }
+    .param-box {
+      background: var(--slate-50);
+      border: 1px solid var(--border);
+      border-radius: 7px;
+      padding: 12px 14px;
+      font-size: 11.5px;
+    }
+    .param-box .header-line {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin-bottom: 5px;
+    }
+    .param-box .name {
+      font-size: 12.5px;
+      font-weight: 700;
+      color: var(--slate-900);
+      font-family: Consolas, Monaco, monospace;
+    }
+    .param-box .val-tag {
+      font-size: 11px;
+      font-weight: 700;
+      color: var(--primary-dark);
+      background: #e0f2fe;
+      padding: 1px 6px;
+      border-radius: 3px;
+    }
+    .param-box .definition {
+      color: var(--slate-700);
+      font-weight: 600;
+      margin-bottom: 6px;
+    }
+    .param-box .desc {
+      color: var(--slate-600);
+      margin: 0 0 6px 0;
+      line-height: 1.45;
+    }
+    .param-box ul {
+      margin: 0;
+      padding-left: 16px;
+      color: var(--slate-700);
+    }
+    .param-box li {
+      margin-bottom: 3px;
+    }
+    .trouble-card {
+      border-left: 4px solid var(--primary);
+      background: #ffffff;
+      border: 1px solid var(--border);
+      border-left-width: 4px;
+      border-radius: 6px;
+      padding: 10px 12px;
+      margin-bottom: 8px;
+      font-size: 11.5px;
+    }
+    .trouble-card.danger { border-left-color: var(--danger); background: #fef2f2; }
+    .trouble-card.warning { border-left-color: var(--warning); background: #fffbeb; }
+    .trouble-card.info { border-left-color: var(--primary); background: #f0f9ff; }
+    .trouble-card .title {
+      font-weight: 700;
+      margin-bottom: 3px;
+      display: flex;
+      justify-content: space-between;
+    }
+    .trouble-card .desc { color: var(--slate-700); margin-bottom: 3px; }
+    .trouble-card .fix { font-weight: 600; color: var(--slate-900); }
+    @media print {
+      body { background: none; padding: 0; }
+      .doc-page { box-shadow: none; padding: 0; max-width: 100%; }
+      .page-break { page-break-before: always; }
+      tr, .param-box, .trouble-card { page-break-inside: avoid; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="doc-page">
+  <header>
+    <h1>Qwen-27B QLoRA 하이퍼파라미터 기술 명세 및 조정 매뉴얼</h1>
+    <div class="meta">
+      <span>프로젝트: GrowPath AI</span>
+      <span>모델: Qwen-27B (4-bit QLoRA)</span>
+      <span>데이터셋: 5,184건 (스킬당 144건)</span>
+      <span>인프라: 단일 A100 (80GB SXM)</span>
+    </div>
+  </header>
+
+  <h2>1. 하이퍼파라미터 총괄 규격 및 조정 단위 (Quick Reference)</h2>
+  <table>
+    <thead>
+      <tr>
+        <th style="width: 20%;">파라미터</th>
+        <th style="width: 14%;">권장 기준값</th>
+        <th style="width: 16%;">탐색 경계</th>
+        <th style="width: 14%;">1회 조정 단위</th>
+        <th style="width: 36%;">역할 및 엔지니어링 제어 목적</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="badge-code">learning_rate</td>
+        <td><strong>0.0001 (1e-4)</strong></td>
+        <td>5e-5 ~ 1.5e-4</td>
+        <td><span class="badge-step">± 0.00002</span></td>
+        <td>가중치 갱신 보폭 제어 (27B 대형 체급의 발산 및 망각 차단)</td>
+      </tr>
+      <tr>
+        <td class="badge-code">lr_scheduler_type</td>
+        <td><strong>cosine</strong></td>
+        <td>cosine / linear</td>
+        <td><span class="badge-step">타입 변경</span></td>
+        <td>학습 후반부 부드러운 감쇄로 복합 다단계 제약 조건 정밀 안착</td>
+      </tr>
+      <tr>
+        <td class="badge-code">warmup_ratio</td>
+        <td><strong>0.06 (6%)</strong></td>
+        <td>0.03 ~ 0.10</td>
+        <td><span class="badge-step">± 0.02 (2%p)</span></td>
+        <td>초반 58스텝 동안 선형 증폭하여 급발진/Loss NaN 방지</td>
+      </tr>
+      <tr>
+        <td class="badge-code">num_train_epochs</td>
+        <td><strong>3.0</strong></td>
+        <td>2.0 ~ 3.0</td>
+        <td><span class="badge-step">± 1.0</span></td>
+        <td>멀티태스크 정규화 기반 중첩 JSON 및 부분수정 규칙 완전 체화</td>
+      </tr>
+      <tr>
+        <td class="badge-code">per_device_batch_size</td>
+        <td><strong>2</strong></td>
+        <td>1 ~ 4</td>
+        <td><span class="badge-step">± 1</span></td>
+        <td>단일 GPU 물리 메모리 점유 제어 (OOM 발생 시 1로 하향)</td>
+      </tr>
+      <tr>
+        <td class="badge-code">gradient_accumulation</td>
+        <td><strong>8</strong></td>
+        <td>4 ~ 16</td>
+        <td><span class="badge-step">± 4</span></td>
+        <td>물리 배치와 곱하여 유효 배치 크기(16)를 유지하도록 역조정</td>
+      </tr>
+      <tr>
+        <td class="badge-code">lora_r (Rank)</td>
+        <td><strong>32</strong></td>
+        <td>16 ~ 64</td>
+        <td><span class="badge-step">×2 또는 ÷2</span></td>
+        <td>저순위 행렬 차원 크기 (논리적 추론 용량 및 표현력 결정)</td>
+      </tr>
+      <tr>
+        <td class="badge-code">lora_alpha</td>
+        <td><strong>64</strong></td>
+        <td>32 ~ 128</td>
+        <td><span class="badge-step">r × 2 연동</span></td>
+        <td>LoRA 가중치 스케일링 강도 (α/r = 2.0 고정 유지)</td>
+      </tr>
+      <tr>
+        <td class="badge-code">lora_dropout</td>
+        <td><strong>0.05</strong></td>
+        <td>0.00 ~ 0.10</td>
+        <td><span class="badge-step">± 0.02</span></td>
+        <td>어댑터 뉴런 무작위 비활성화로 템플릿 암기식 과적합 차단</td>
+      </tr>
+      <tr>
+        <td class="badge-code">target_modules</td>
+        <td><strong>all-linear</strong></td>
+        <td>all-linear</td>
+        <td><span class="badge-step">고정</span></td>
+        <td>q, k, v, o, gate, up, down 레이어 전수 어댑터 삽입</td>
+      </tr>
+      <tr>
+        <td class="badge-code">max_seq_length</td>
+        <td><strong>2048</strong></td>
+        <td>2048 ~ 2560</td>
+        <td><span class="badge-step">± 256</span></td>
+        <td>멀티턴 대화 및 4단계 JSON 로드맵의 출력 잘림 방지</td>
+      </tr>
+      <tr>
+        <td class="badge-code">optim</td>
+        <td><strong>paged_adamw_8bit</strong></td>
+        <td>paged_adamw_8bit</td>
+        <td><span class="badge-step">고정</span></td>
+        <td>CPU RAM 페이징을 지원하는 8-bit 양자화 옵티마이저 (OOM 차단)</td>
+      </tr>
+      <tr>
+        <td class="badge-code">weight_decay</td>
+        <td><strong>0.01</strong></td>
+        <td>0.001 ~ 0.1</td>
+        <td><span class="badge-step">×10 또는 ÷10</span></td>
+        <td>가중치 L2 정규화 (파라미터 발산 억제 및 일반화 성능 보존)</td>
+      </tr>
+      <tr>
+        <td class="badge-code">max_grad_norm</td>
+        <td><strong>0.3</strong></td>
+        <td>0.3 ~ 1.0</td>
+        <td><span class="badge-step">± 0.2</span></td>
+        <td>그래디언트 클리핑 임계치 (비정상적인 기울기 폭발 억제)</td>
+      </tr>
+      <tr>
+        <td class="badge-code">bf16</td>
+        <td><strong>True</strong></td>
+        <td>True</td>
+        <td><span class="badge-step">고정</span></td>
+        <td>A100 텐서코어 최적화 및 언더/오버플로우 방지 (FP16 대비 안전)</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="page-break"></div>
+
+  <h2>2. 전체 하이퍼파라미터 심층 기술 해설 (In-Depth Technical Breakdown)</h2>
+
+  <div class="grid-2">
+    <div class="param-box">
+      <div class="header-line">
+        <span class="name">learning_rate</span>
+        <span class="val-tag">0.0001 (1e-4)</span>
+      </div>
+      <div class="definition">학습률 (가중치 갱신 보폭 크기)</div>
+      <p class="desc">오차 역전파를 통해 계산된 기울기(Gradient)를 LoRA 어댑터 가중치에 얼마만큼 반영할지 결정하는 가장 핵심적인 파라미터입니다.</p>
+      <ul>
+        <li><strong>27B 적용 근거</strong>: 7B 모델은 2e-4까지 견디지만, 27B는 레이어가 깊어 1.5e-4를 초과하면 초반에 기존 지식 손실 및 가중치 발산(NaN)이 발생합니다.</li>
+        <li><strong>미세 조정</strong>: 초반 150스텝 내 Loss 진동 시 <code>0.00008</code>(-0.00002) 하향, 1에포크 후에도 수렴 정체 시 <code>0.00012</code>(+0.00002) 상향.</li>
+      </ul>
+    </div>
+
+    <div class="param-box">
+      <div class="header-line">
+        <span class="name">lr_scheduler_type</span>
+        <span class="val-tag">cosine</span>
+      </div>
+      <div class="definition">학습률 스케줄러 (보폭 감쇄 함수)</div>
+      <p class="desc">학습 진행(Step)에 따라 학습률을 점진적으로 감소시키는 알고리즘입니다.</p>
+      <ul>
+        <li><strong>Cosine 채택 이유</strong>: Linear 방식은 선형으로 감소하여 끝점에서 튕길 수 있으나, Cosine은 코사인 곡선을 그리며 0에 수렴하듯 완만하게 감쇄합니다.</li>
+        <li><strong>엔지니어링 효과</strong>: 학습 후반부에 모델이 미세한 제약(예: 부분수정 시 원형 보존, "확인 필요" 표기)을 안정적으로 고정시키는 데 최적입니다.</li>
+      </ul>
+    </div>
+
+    <div class="param-box">
+      <div class="header-line">
+        <span class="name">warmup_ratio</span>
+        <span class="val-tag">0.06 (6%)</span>
+      </div>
+      <div class="definition">워밍업 비율 (초반 보폭 점진 증폭)</div>
+      <p class="desc">학습 시작 직후 0에서 설정된 최대 학습률(0.0001)까지 선형적으로 서서히 끌어올리는 준비운동 구간의 비율입니다.</p>
+      <ul>
+        <li><strong>동작 산술</strong>: 총 972스텝 중 초반 약 58스텝 동안 학습률이 0에서 0.0001로 완만하게 증가합니다.</li>
+        <li><strong>필수 이유</strong>: LoRA 어댑터 초기화 직후에는 그래디언트 오차가 매우 크므로, AdamW 통계량이 쌓일 때까지 완충하여 발산과 급발진을 방지합니다.</li>
+      </ul>
+    </div>
+
+    <div class="param-box">
+      <div class="header-line">
+        <span class="name">num_train_epochs</span>
+        <span class="val-tag">3.0</span>
+      </div>
+      <div class="definition">전체 데이터셋 학습 반복 횟수</div>
+      <p class="desc">전체 5,184건의 데이터셋을 모델이 몇 번 반복해서 학습할지 결정합니다.</p>
+      <ul>
+        <li><strong>2에포크 vs 3에포크</strong>: 2에포크는 문장이 자연스럽지만 복합 제약 준수율이 95% 수준에 머뭅니다. 3에포크까지 진행되어야 스키마 정합성이 99.5%로 고정됩니다.</li>
+        <li><strong>과적합 안전성</strong>: 단일 템플릿이 아닌 6개 멀티태스크가 교차 정규화(Regularization) 역할을 수행하므로 3에포크에서도 암기식 과적합이 오지 않습니다.</li>
+      </ul>
+    </div>
+
+    <div class="param-box">
+      <div class="header-line">
+        <span class="name">per_device_train_batch_size</span>
+        <span class="val-tag">2</span>
+      </div>
+      <div class="definition">GPU 물리적 1회 처리 샘플 수</div>
+      <p class="desc">GPU VRAM에 동시에 올려 순전파(Forward)와 역전파(Backward)를 수행하는 마이크로 배치 크기입니다.</p>
+      <ul>
+        <li><strong>VRAM 제약</strong>: 2048 토큰 기준 Qwen-27B(4-bit)는 배치 2일 때 약 32~36GB VRAM을 점유하여 A100(80GB)에서 안정적으로 가동됩니다.</li>
+        <li><strong>OOM 처방</strong>: 만약 순간적인 메모리 스파이크로 OOM이 발생하면 <code>1</code>로 즉시 낮추고 누적 스텝을 16으로 올립니다.</li>
+      </ul>
+    </div>
+
+    <div class="param-box">
+      <div class="header-line">
+        <span class="name">gradient_accumulation_steps</span>
+        <span class="val-tag">8</span>
+      </div>
+      <div class="definition">그래디언트 누적 스텝 수</div>
+      <p class="desc">VRAM 한계로 물리적 배치를 크게 잡지 못할 때, 가중치를 즉시 갱신하지 않고 오차를 N회 모았다가 한 번에 업데이트하는 기법입니다.</p>
+      <ul>
+        <li><strong>유효 배치 수식</strong>: Effective Batch Size = Batch Size(2) × Accumulation(8) = 16.</li>
+        <li><strong>엔지니어링 근거</strong>: 유효 배치가 16은 되어야 손실 함수 곡선이 요동치지 않고 부드러운 하강 곡선을 유지할 수 있습니다.</li>
+      </ul>
+    </div>
+
+    <div class="param-box">
+      <div class="header-line">
+        <span class="name">lora_r (Rank)</span>
+        <span class="val-tag">32</span>
+      </div>
+      <div class="definition">LoRA 저순위 행렬 차원 크기</div>
+      <p class="desc">고차원의 가중치 변화 행렬을 저차원 행렬 두 개의 곱(W = A × B)으로 분해할 때의 중간 차원 크기입니다.</p>
+      <ul>
+        <li><strong>표현 용량</strong>: r=8, 16은 단순 어조 변경에 적합하나, 사내 규정 감사·부분수정·관점 분기 등 복잡한 논리를 담기 위해서는 r=32가 필수적입니다.</li>
+        <li><strong>미세 조정</strong>: 3에포크 후에도 복잡한 지시 이행이 미흡하면 <code>64</code>로 2배 확장하고, 메모리가 부족하면 <code>16</code>으로 축소합니다.</li>
+      </ul>
+    </div>
+
+    <div class="param-box">
+      <div class="header-line">
+        <span class="name">lora_alpha</span>
+        <span class="val-tag">64</span>
+      </div>
+      <div class="definition">LoRA 스케일링 계수</div>
+      <p class="desc">학습된 어댑터 가중치를 원본 가중치에 더할 때 적용하는 가중치 배율입니다. 실제 적용 스케일은 (lora_alpha / lora_r)입니다.</p>
+      <ul>
+        <li><strong>비율 고정 원칙</strong>: alpha = 64, r = 32일 때 스케일링 팩터는 64 / 32 = <strong>2.0</strong>입니다.</li>
+        <li><strong>연동 규칙</strong>: Rank(r)를 64로 늘리면 alpha도 128로 함께 올려 항상 2.0 비율을 유지해야 안정적인 업데이트 강도가 유지됩니다.</li>
+      </ul>
+    </div>
+
+    <div class="param-box">
+      <div class="header-line">
+        <span class="name">lora_dropout</span>
+        <span class="val-tag">0.05 (5%)</span>
+      </div>
+      <div class="definition">어댑터 드롭아웃 확률</div>
+      <p class="desc">학습 도중 LoRA 어댑터의 입력 뉴런 중 5%를 무작위로 0으로 만들어 특정 경로 의존성을 차단하는 정규화 기법입니다.</p>
+      <ul>
+        <li><strong>과적합 방지</strong>: 데이터셋의 예시 문구를 그대로 복사해 출력하는 '템플릿 암기'를 방지하고 일반화된 추론을 유도합니다.</li>
+        <li><strong>조정 기준</strong>: 과적합 징후 시 <code>0.08</code>로 상향, 반대로 JSON 괄호나 쉼표가 깨지는 문법 오류 발생 시 <code>0.02</code>로 하향합니다.</li>
+      </ul>
+    </div>
+
+    <div class="param-box">
+      <div class="header-line">
+        <span class="name">target_modules</span>
+        <span class="val-tag">all-linear</span>
+      </div>
+      <div class="definition">LoRA 어댑터 삽입 대상 레이어</div>
+      <p class="desc">트랜스포머 아키텍처 내 어떤 선형 레이어에 LoRA 가중치를 주입할지 지정합니다.</p>
+      <ul>
+        <li><strong>적용 범위</strong>: Attention 프로젝션(q, k, v, o)뿐만 아니라 MLP 피드포워드 레이어(gate, up, down)까지 전수 포함합니다.</li>
+        <li><strong>효과</strong>: Attention에만 넣으면 문체만 바뀌지만, MLP까지 주입해야 새로운 도메인 지식(사내 규정, 엔지니어링 용어)이 모델 깊숙이 정렬됩니다.</li>
+      </ul>
+    </div>
+
+    <div class="param-box">
+      <div class="header-line">
+        <span class="name">max_seq_length</span>
+        <span class="val-tag">2048</span>
+      </div>
+      <div class="definition">최대 토큰 시퀀스 길이</div>
+      <p class="desc">입력 프롬프트와 출력 답변을 합산한 최대 토큰 수입니다. 2048을 초과하는 텍스트는 자동으로 잘립니다(Truncation).</p>
+      <ul>
+        <li><strong>충분성 검증</strong>: GrowPath의 멀티턴 대화 및 4단계 중첩 JSON 로드맵은 최대 1,400~1,700 토큰 내외이므로 2048로 완벽히 수용됩니다.</li>
+        <li><strong>메모리 주의</strong>: 길이를 4096으로 올리면 Self-Attention 연산량이 O(N²)으로 증가하여 VRAM이 급증하므로 2048 유지가 최선입니다.</li>
+      </ul>
+    </div>
+
+    <div class="param-box">
+      <div class="header-line">
+        <span class="name">optim</span>
+        <span class="val-tag">paged_adamw_8bit</span>
+      </div>
+      <div class="definition">8비트 페이징 옵티마이저</div>
+      <p class="desc">옵티마이저 상태값(1차/2차 모멘텀)을 8비트로 양자화하고, VRAM 부족 시 시스템 RAM으로 페이징(오프로드)하는 BitsAndBytes 알고리즘입니다.</p>
+      <ul>
+        <li><strong>메모리 절감</strong>: 표준 AdamW 32비트 대비 옵티마이저 메모리 점유율을 75% 절감하여 27B 모델 학습 시 VRAM을 대폭 확보합니다.</li>
+        <li><strong>안정성</strong>: 메모리 스파이크 발생 시 프로세스가 죽지 않고 시스템 RAM을 완충재로 사용하여 OOM 크래시를 원천 방어합니다.</li>
+      </ul>
+    </div>
+
+    <div class="param-box">
+      <div class="header-line">
+        <span class="name">weight_decay</span>
+        <span class="val-tag">0.01</span>
+      </div>
+      <div class="definition">가중치 감쇠 (L2 정규화 계수)</div>
+      <p class="desc">가중치들이 지나치게 커지지 않도록 손실 함수에 가중치 크기에 비례하는 페널티를 부여하는 기법입니다.</p>
+      <ul>
+        <li><strong>역할</strong>: 특정 가중치 하나가 비정상적으로 거대해져 발생하는 과적합을 방지하고 일반화 성능을 높입니다.</li>
+        <li><strong>조정</strong>: 0.01은 표준 안전값입니다. 모델이 너무 뻣뻣하게 학습되지 않으면 0.001로 내리고, 과적합이 심하면 0.05로 올립니다.</li>
+      </ul>
+    </div>
+
+    <div class="param-box">
+      <div class="header-line">
+        <span class="name">max_grad_norm</span>
+        <span class="val-tag">0.3</span>
+      </div>
+      <div class="definition">그래디언트 클리핑 임계치</div>
+      <p class="desc">역전파 중 산출된 그래디언트 벡터의 L2-Norm(크기)이 임계치를 초과할 경우, 방향은 유지한 채 크기만 강제로 잘라내는 안전장치입니다.</p>
+      <ul>
+        <li><strong>NaN 방어</strong>: 27B 대형 모델에서 이상치(Outlier) 배치가 인입되었을 때 가중치가 파괴되거나 Loss가 NaN으로 튀는 현상을 막아줍니다.</li>
+        <li><strong>권장값</strong>: 표준값(1.0)보다 보수적인 <code>0.3</code>을 유지하여 극단적인 기울기 폭발을 완전히 억제합니다.</li>
+      </ul>
+    </div>
+
+    <div class="param-box">
+      <div class="header-line">
+        <span class="name">bf16 & precision</span>
+        <span class="val-tag">bf16=True</span>
+      </div>
+      <div class="definition">Bfloat16 혼합 정밀도 연산</div>
+      <p class="desc">지수 비트(Exponent)를 FP32와 동일한 8비트로 유지하여 언더플로우/오버플로우 위험을 제거한 16비트 부동소수점 포맷입니다.</p>
+      <ul>
+        <li><strong>FP16과의 차이</strong>: FP16은 지수 비트가 5비트뿐이라 Loss 스케일링이 실패하면 NaN이 빈번하지만, BF16은 동적 범위가 넓어 극도로 안정적입니다.</li>
+        <li><strong>하드웨어</strong>: Ampere 아키텍처(A100)의 Tensor Core에서 네이티브 가속되므로 필수적으로 <code>bf16=True</code>를 적용합니다.</li>
+      </ul>
+    </div>
+
+    <div class="param-box">
+      <div class="header-line">
+        <span class="name">gradient_checkpointing</span>
+        <span class="val-tag">True</span>
+      </div>
+      <div class="definition">그래디언트 체크포인팅 (필수 플래그)</div>
+      <p class="desc">순전파 때의 모든 중간 활성화 맵(Activation)을 메모리에 들고 있지 않고, 역전파 시 필요한 부분만 다시 계산(Recomputation)하는 기법입니다.</p>
+      <ul>
+        <li><strong>메모리 혁신</strong>: 연산 속도가 약 20% 느려지는 대신, 활성화 맵 VRAM 점유율을 <strong>60% 이상 절감</strong>시킵니다.</li>
+        <li><strong>27B 필수</strong>: 이 플래그를 켜지 않으면 2048 토큰 시퀀스에서 A100(80GB) 환경이라도 즉시 OOM이 발생합니다.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="page-break"></div>
+
+  <h2>3. 실전 학습 증상별 원포인트 긴급 처방전</h2>
+
+  <div class="trouble-card danger">
+    <div class="title">
+      <span>증상 1: 학습 시작 100스텝 이내에 Loss가 NaN이 되거나 10 이상 폭발</span>
+      <span class="badge-code">Gradient Explosion</span>
+    </div>
+    <div class="desc">원인: 초기 학습 보폭이 과도하거나 초반 그래디언트 쇼크로 인해 가중치 맵이 깨짐.</div>
+    <div class="fix">처방: learning_rate = 0.00008 (하향) + warmup_ratio = 0.10 (초반 97스텝 웜업 연장) + max_grad_norm = 0.3 재확인.</div>
+  </div>
+
+  <div class="trouble-card warning">
+    <div class="title">
+      <span>증상 2: 1에포크(324스텝) 종료 시점에도 Loss가 2.5 이하로 떨어지지 않음</span>
+      <span class="badge-code">Underfitting / Stagnation</span>
+    </div>
+    <div class="desc">원인: 학습 보폭이 너무 보수적이어서 Qwen-27B 베이스 모델의 기본 지식 맵을 깨지 못함.</div>
+    <div class="fix">처방: learning_rate = 0.00012 (상향) + weight_decay = 0.001 (정규화 완화).</div>
+  </div>
+
+  <div class="trouble-card info">
+    <div class="title">
+      <span>증상 3: JSON 파싱 성공률은 100%이나, 모든 답변의 코치 조언이 동일 문구로 고착됨</span>
+      <span class="badge-code">Template Overfitting</span>
+    </div>
+    <div class="desc">원인: LoRA 어댑터 가중치가 특정 템플릿 슬롯 패턴에 과적합됨.</div>
+    <div class="fix">처방: lora_dropout = 0.08 (상향) + 3에포크(972스텝) 대신 2에포크(648스텝) 체크포인트를 최종 배포 모델로 채택.</div>
+  </div>
+
+  <div class="trouble-card danger">
+    <div class="title">
+      <span>증상 4: 학습 도중 CUDA Out of Memory (OOM) 충돌로 프로세스 강제 종료</span>
+      <span class="badge-code">VRAM Allocation Failure</span>
+    </div>
+    <div class="desc">원인: 2048 토큰 멀티턴 시퀀스의 역전파 활성화 맵(Activation Map) 메모리 초과.</div>
+    <div class="fix">처방: per_device_train_batch_size = 1 + gradient_accumulation_steps = 16 + gradient_checkpointing = True 재확인.</div>
+  </div>
+
+  <h2>4. 체크포인트 검증 프로토콜 (324 / 648 / 972 Steps)</h2>
+  <table>
+    <thead>
+      <tr>
+        <th style="width: 22%;">스텝 (에포크)</th>
+        <th style="width: 30%;">기대 진단 상태</th>
+        <th style="width: 30%;">필수 검증 항목</th>
+        <th style="width: 18%;">채택 우선순위</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>324 Steps</strong> (1 Ep)</td>
+        <td>기본 JSON 껍데기 형성, 제약 조건 누락 빈번</td>
+        <td>JSON 문법 에러 발생률 점검</td>
+        <td>기각 (미완성)</td>
+      </tr>
+      <tr>
+        <td><strong>648 Steps</strong> (2 Ep)</td>
+        <td>어조 자연스러움, 95% 이상 스키마 준수</td>
+        <td>모호한 질문 시 베이스 대화 유연성 점검</td>
+        <td>후보 (자연스러움 우선 시)</td>
+      </tr>
+      <tr>
+        <td><strong>972 Steps</strong> (3 Ep)</td>
+        <td>규정 감사·부분수정·확인필요 규칙 99% 고정</td>
+        <td>상급자 코멘트 시 3개 단계 원형 보존 검증</td>
+        <td><strong>최우선 채택 (실전 서빙용)</strong></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+</body>
+</html>

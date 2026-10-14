@@ -1,0 +1,131 @@
+{
+  "result": "pass",
+  "scope": "자료 구조·누락·원문 위치·로컬 임시 DB 검사. 사람의 규정 검토 완료는 아님.",
+  "page_count": 22,
+  "article_count": 41,
+  "supplement_count": 23,
+  "table_count": 6,
+  "chunk_count": 106,
+  "table_rows": {
+    "institution": 1,
+    "regulation": 1,
+    "regulation_version": 1,
+    "regulation_file": 1,
+    "regulation_node": 202,
+    "regulation_scope": 1,
+    "regulation_reference": 20,
+    "rag_chunk": 106,
+    "rag_chunk_source": 106
+  },
+  "node_type_counts": {
+    "document": 1,
+    "chapter": 4,
+    "article": 41,
+    "supplement": 23,
+    "supplement_article": 23,
+    "annex": 3,
+    "form": 1,
+    "paragraph": 100,
+    "table": 6
+  },
+  "checks": [
+    {
+      "check": "22쪽 모두 텍스트 보존",
+      "result": "pass"
+    },
+    {
+      "check": "본문 41개 조항 누락·중복 없음",
+      "result": "pass"
+    },
+    {
+      "check": "부칙의 제1조를 본문 제1조로 오인하지 않음",
+      "result": "pass"
+    },
+    {
+      "check": "별표 3개·서식 1개 보존",
+      "result": "pass"
+    },
+    {
+      "check": "쪽번호만 제외하고 모든 행을 정확히 1개 기본 노드에 배정",
+      "result": "pass"
+    },
+    {
+      "check": "항·표를 포함한 모든 원문 위치가 실제 행에 연결됨",
+      "result": "pass"
+    },
+    {
+      "check": "부모 노드와 자식의 개정본 일치",
+      "result": "pass"
+    },
+    {
+      "check": "페이지를 넘는 조문 연결: 제5조 1~2쪽 / 제27조 8~9쪽",
+      "result": "pass"
+    },
+    {
+      "check": "예외 시행일은 제10조 제3항에만 적용",
+      "result": "pass"
+    },
+    {
+      "check": "일반 시행일과 개정일 구분",
+      "result": "pass"
+    },
+    {
+      "check": "별표1 시간 배열 보존",
+      "result": "pass"
+    },
+    {
+      "check": "별표1 예외·최대시간·40% 주석 보존",
+      "result": "pass"
+    },
+    {
+      "check": "현재 표와 과거 부칙 표 구분",
+      "result": "pass"
+    },
+    {
+      "check": "검색 후보와 원문 노드·행 모두 연결",
+      "result": "pass"
+    },
+    {
+      "check": "검색 후보 내용 해시 일치",
+      "result": "pass"
+    },
+    {
+      "check": "임베딩 미생성과 검색 미활성화 명시",
+      "result": "pass"
+    },
+    {
+      "check": "별표2·3 검색 후보 보류",
+      "result": "pass"
+    },
+    {
+      "check": "다운로드 시각은 사용자 제공값 / 종료일은 미확인",
+      "result": "pass"
+    },
+    {
+      "check": "필드 집합·필수값 일치",
+      "result": "pass"
+    },
+    {
+      "check": "VARCHAR 최대 길이 준수",
+      "result": "pass"
+    },
+    {
+      "check": "외래키 제약·참조 무결성",
+      "result": "pass"
+    },
+    {
+      "check": "동일 데이터 반복 적재 시 중복 없음",
+      "result": "pass"
+    },
+    {
+      "check": "임시 DB에 원문 및 JSON 문자열 손상 없이 적재",
+      "result": "pass"
+    }
+  ],
+  "unverified": [
+    "PostgreSQL/Supabase 서버에서 실행",
+    "실제 검색 품질",
+    "사용자 최종 원문 검토",
+    "브라우저 화면 시각 검증"
+  ]
+}

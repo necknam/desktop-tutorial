@@ -1,0 +1,26 @@
+{
+  "profile_version": "kwater-talent-20241226-v1",
+  "processed_at": "2026-10-13T02:55:17+00:00",
+  "source_sha256": "0835551b52e02b2471022af3e3bf4c65ce39d0816a9fba6b0cc6c5569b5b792f",
+  "source_file": "source/인재개발규정(2024년도 12월 개정).pdf",
+  "source_listing_url": "https://www.alio.go.kr/item/itemOrganList.do?reportFormRootNo=21110",
+  "source_download_url": null,
+  "retrieved_at": "2026-10-01T09:39:00+09:00",
+  "retrieved_at_source": "user_reported",
+  "retrieved_at_precision": "minute",
+  "retrieved_at_timezone": "Asia/Seoul",
+  "schema_source": "HR_Example_ERD.html",
+  "package_schema": "hr_regulation_pilot",
+  "ids": {
+    "institution": "bf3c2943-9f96-549e-bef7-88d85936e63c",
+    "regulation": "d886163d-0c16-5f2e-a8f8-1db7e3c5692c",
+    "version": "5565f28d-29da-5ebd-bb8a-b0dc705f26d3",
+    "file": "30562fdd-97df-5c4b-9535-1c7402d2b738"
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "pdfplumber": "0.11.9"
+  },
+  "encoding": "JSON/SQL/HTML=UTF-8; CSV=UTF-8-BOM; CSV NULL=\\N",
+  "integrations_executed": []
+}

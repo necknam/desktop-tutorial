@@ -1,0 +1,4 @@
+{"case_id": "021eeaf2f42fb79b881f", "error_type": "ValueError"}
+{"case_id": "c47108a5b9bcce4fa3ad", "detail": "SELF_CORRECTION_EXHAUSTED (ValueError: DUPLICATE_QUESTION_IN_SURVEY: [핵심 개념] TCP/IP 네트워크 프로토콜의 핵심 개념에 대해 얼마나 알고 있나요?)", "error_type": "ValueError"}
+{"case_id": "172949f7fcf664cff22c", "detail": "SELF_CORRECTION_EXHAUSTED (ValueError: DUPLICATE_QUESTION_IN_SURVEY: [핵심 개념] Python 프로그래밍 & 비동기 I/O의 핵심 개념에 대해 얼마나 알고 있나요?)", "error_type": "ValueError"}
+{"case_id": "d408f21fb45b6b10560e", "detail": "LLM 모델 없음", "error_type": "RuntimeError"}

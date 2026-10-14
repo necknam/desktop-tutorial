@@ -1,0 +1,14 @@
+[
+  {
+    "regulation_scope_id": "07df2c2d-ff12-525e-8992-53638478b6cb",
+    "regulation_node_id": "a00b163b-6769-5b86-ac9b-096d07413fc9",
+    "scope_type": "effective_date_exception",
+    "condition_text": "제1조(시행일) 이 규정은 2025년 1월 1일부터 시행한다. 단 제10조제3항은 2028년 1월 1일부터 시\n행한다.",
+    "condition_json": {
+      "effective_from": "2028-01-01",
+      "rule_source": "explicit_pdf_text"
+    },
+    "applies_to_node_id": "acb377a1-9f28-5330-a764-f4da13d290ab",
+    "review_status": "pending_review"
+  }
+]

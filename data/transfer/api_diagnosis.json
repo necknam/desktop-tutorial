@@ -1,0 +1,148 @@
+{
+  "database_changes": false,
+  "paid_llm_or_embedding_called": false,
+  "dns": {
+    "api.odcloud.kr": {
+      "status": "PASS"
+    },
+    "apis.data.go.kr": {
+      "status": "PASS"
+    },
+    "aws-0-ap-northeast-2.pooler.supabase.com": {
+      "status": "PASS"
+    },
+    "data4library.kr": {
+      "status": "PASS"
+    },
+    "example.com": {
+      "status": "PASS"
+    },
+    "learn.microsoft.com": {
+      "status": "PASS"
+    },
+    "localhost": {
+      "status": "PASS"
+    },
+    "www.career.go.kr": {
+      "status": "PASS"
+    }
+  },
+  "key_configuration": {
+    "DATA_GO_KR_API_KEY": {
+      "present": true,
+      "environment_matches_env_file": true,
+      "outer_whitespace": false
+    },
+    "KMOOC_SERVICE_KEY": {
+      "present": true,
+      "environment_matches_env_file": true,
+      "outer_whitespace": false
+    },
+    "LIBRARY_AUTH_KEY": {
+      "present": true,
+      "environment_matches_env_file": true,
+      "outer_whitespace": false
+    },
+    "LIBRARY_NARU_API_KEY": {
+      "present": true,
+      "environment_matches_env_file": true,
+      "outer_whitespace": false
+    },
+    "CAREERNET_API_KEY": {
+      "present": true,
+      "environment_matches_env_file": true,
+      "outer_whitespace": false
+    },
+    "SUPABASE_DB_URL": {
+      "present": true,
+      "environment_matches_env_file": true,
+      "outer_whitespace": false
+    }
+  },
+  "apis": {
+    "kmooc": {
+      "endpoint": "https://apis.data.go.kr/B552881/kmooc_v2_0/courseList_v2_0",
+      "http_status": 200,
+      "status": "PASS",
+      "returned_rows": 15
+    },
+    "kdata": {
+      "endpoint": "https://api.odcloud.kr/api/15148115/v1/uddi:070b18af-bb50-46c5-8324-948d91fb5d58",
+      "http_status": 200,
+      "status": "PASS",
+      "returned_rows": 1
+    },
+    "university": {
+      "endpoint": "https://api.odcloud.kr/api/15014632/v1/uddi:6939f45b-1283-4462-b394-820c26e1445d",
+      "http_status": 200,
+      "status": "PASS",
+      "returned_rows": 1
+    },
+    "books": {
+      "endpoint": "https://data4library.kr/api/srchBooks",
+      "http_status": 200,
+      "status": "PASS",
+      "returned_rows": 1
+    },
+    "jobs": {
+      "endpoint": "https://www.career.go.kr/cnet/front/openapi/jobs.json",
+      "http_status": 200,
+      "status": "PASS",
+      "returned_rows": 10
+    },
+    "majors": {
+      "endpoint": "https://www.career.go.kr/cnet/openapi/getOpenApi.json",
+      "http_status": 200,
+      "status": "PASS",
+      "returned_rows": 1
+    },
+    "microsoft_public": {
+      "endpoint": "https://learn.microsoft.com/api/catalog/",
+      "http_status": 200,
+      "status": "PASS",
+      "returned_rows": 152
+    }
+  },
+  "database": {
+    "connection": "PASS",
+    "status": "CONTENT_COLUMNS_MISSING",
+    "counts": {
+      "courses": 170,
+      "books": 90,
+      "certifications": 7,
+      "jobs": 27,
+      "majors": 104
+    },
+    "missing_content_columns": {
+      "courses": [
+        "content_status",
+        "source_url",
+        "source_verified_at"
+      ],
+      "books": [
+        "content_status",
+        "description",
+        "source_url",
+        "source_verified_at"
+      ],
+      "certifications": [
+        "content_status",
+        "description",
+        "source_url",
+        "source_verified_at"
+      ],
+      "jobs": [
+        "content_status",
+        "description",
+        "source_url",
+        "source_verified_at"
+      ],
+      "majors": [
+        "content_status",
+        "description",
+        "source_url",
+        "source_verified_at"
+      ]
+    }
+  }
+}

@@ -1,0 +1,18 @@
+[
+  {
+    "regulation_version_id": "5565f28d-29da-5ebd-bb8a-b0dc705f26d3",
+    "regulation_id": "d886163d-0c16-5f2e-a8f8-1db7e3c5692c",
+    "version_label": "22차",
+    "title_at_version": "인재개발규정",
+    "content_kind": "consolidated_text",
+    "coverage_status": "full_pdf_captured",
+    "amendment_date": "2024-12-26",
+    "effective_from": "2025-01-01",
+    "effective_to": null,
+    "date_status": "explicit_in_pdf",
+    "review_status": "pending_review",
+    "availability_status": "review_only",
+    "previous_version_id": null,
+    "review_note": "이후 개정 여부·종료일 미확인. 과거 부칙은 별도 과거 개정본이 아님. 내부 세부 인정기준 미확보."
+  }
+]

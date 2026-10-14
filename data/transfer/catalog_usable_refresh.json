@@ -1,0 +1,725 @@
+{
+  "status": "PARTIAL",
+  "tables": {
+    "courses": {
+      "inserted": 0,
+      "updated": 443,
+      "mapping_links": 481,
+      "withheld_for_enrichment": 0
+    },
+    "certifications": {
+      "inserted": 0,
+      "updated": 29,
+      "mapping_links": 58,
+      "withheld_for_enrichment": 0
+    },
+    "jobs": {
+      "inserted": 0,
+      "updated": 73,
+      "mapping_links": 11,
+      "withheld_for_enrichment": 0
+    },
+    "majors": {
+      "inserted": 0,
+      "updated": 18,
+      "mapping_links": 37,
+      "withheld_for_enrichment": 0
+    }
+  },
+  "sources": {
+    "kmooc": {
+      "status": "OK",
+      "pages_read": 7,
+      "raw_count": 105,
+      "page_limit_reached": true,
+      "reported_total": 8809,
+      "requested_page_size": 50,
+      "reported_page_size": 15
+    },
+    "ms_learn": {
+      "status": "OK",
+      "raw_count": 3491
+    },
+    "courses_availability": {
+      "accepted": 443,
+      "excluded": {
+        "not_ready": 8
+      }
+    },
+    "library": {
+      "status": "OK",
+      "raw_count": 2155,
+      "queries": [
+        {
+          "keyword": "컴퓨터 비전",
+          "pages_read": 1,
+          "raw_count": 45,
+          "reported_total": 45,
+          "page_limit_reached": false
+        },
+        {
+          "keyword": "자연어 처리",
+          "pages_read": 2,
+          "raw_count": 54,
+          "reported_total": 54,
+          "page_limit_reached": false
+        },
+        {
+          "keyword": "생성형 AI",
+          "pages_read": 3,
+          "raw_count": 150,
+          "reported_total": 326,
+          "page_limit_reached": true
+        },
+        {
+          "keyword": "머신러닝",
+          "pages_read": 3,
+          "raw_count": 150,
+          "reported_total": 383,
+          "page_limit_reached": true
+        },
+        {
+          "keyword": "딥러닝",
+          "pages_read": 3,
+          "raw_count": 150,
+          "reported_total": 329,
+          "page_limit_reached": true
+        },
+        {
+          "keyword": "데이터베이스",
+          "pages_read": 3,
+          "raw_count": 150,
+          "reported_total": 464,
+          "page_limit_reached": true
+        },
+        {
+          "keyword": "SQL",
+          "pages_read": 3,
+          "raw_count": 150,
+          "reported_total": 330,
+          "page_limit_reached": true
+        },
+        {
+          "keyword": "데이터 엔지니어링",
+          "pages_read": 1,
+          "raw_count": 8,
+          "reported_total": 8,
+          "page_limit_reached": false
+        },
+        {
+          "keyword": "파이썬",
+          "pages_read": 3,
+          "raw_count": 150,
+          "reported_total": 1126,
+          "page_limit_reached": true
+        },
+        {
+          "keyword": "MLOps",
+          "pages_read": 1,
+          "raw_count": 8,
+          "reported_total": 8,
+          "page_limit_reached": false
+        },
+        {
+          "keyword": "리눅스",
+          "pages_read": 3,
+          "raw_count": 150,
+          "reported_total": 504,
+          "page_limit_reached": true
+        },
+        {
+          "keyword": "네트워크",
+          "pages_read": 3,
+          "raw_count": 150,
+          "reported_total": 1283,
+          "page_limit_reached": true
+        },
+        {
+          "keyword": "클라우드",
+          "pages_read": 3,
+          "raw_count": 150,
+          "reported_total": 315,
+          "page_limit_reached": true
+        },
+        {
+          "keyword": "도커",
+          "pages_read": 1,
+          "raw_count": 42,
+          "reported_total": 42,
+          "page_limit_reached": false
+        },
+        {
+          "keyword": "쿠버네티스",
+          "pages_read": 1,
+          "raw_count": 48,
+          "reported_total": 48,
+          "page_limit_reached": false
+        },
+        {
+          "keyword": "자료구조",
+          "pages_read": 3,
+          "raw_count": 150,
+          "reported_total": 222,
+          "page_limit_reached": true
+        },
+        {
+          "keyword": "알고리즘",
+          "pages_read": 3,
+          "raw_count": 150,
+          "reported_total": 654,
+          "page_limit_reached": true
+        },
+        {
+          "keyword": "소프트웨어",
+          "pages_read": 3,
+          "raw_count": 150,
+          "reported_total": 690,
+          "page_limit_reached": true
+        },
+        {
+          "keyword": "정보보안",
+          "pages_read": 3,
+          "raw_count": 150,
+          "reported_total": 222,
+          "page_limit_reached": true
+        }
+      ],
+      "endpoint": "srchBooks",
+      "title_search": true,
+      "page_limit_reached": true,
+      "unused_legacy_settings": [
+        "kdc_code"
+      ]
+    },
+    "library_access": {
+      "status": "FAILED",
+      "reason": "LIBRARY_IP_REGISTRATION_REQUIRED",
+      "category": "daily_quota_requires_registered_ip",
+      "endpoint": "https://data4library.kr/api/libSrchByBook",
+      "attempts": 1
+    },
+    "library_details": {
+      "status": "OK",
+      "requested": 300,
+      "with_description": 297,
+      "failed": 153
+    },
+    "books_failure": {
+      "status": "FAILED",
+      "reason": "LIBRARY_IP_REGISTRATION_REQUIRED",
+      "category": "daily_quota_requires_registered_ip",
+      "endpoint": "https://data4library.kr/api/libSrchByBook",
+      "attempts": 1
+    },
+    "kdata": {
+      "status": "OK",
+      "pages_read": 1,
+      "raw_count": 9,
+      "page_limit_reached": false,
+      "reported_total": 9,
+      "requested_page_size": 100,
+      "reported_page_size": null
+    },
+    "ms_certifications": {
+      "status": "OK",
+      "raw_count": 154,
+      "merged_count": 154,
+      "exam_count": 146,
+      "eligible_count": 41,
+      "excluded": {
+        "retired": 58,
+        "retiring": 1,
+        "availability_needs_review": 6,
+        "missing_subjects": 12,
+        "missing_exam_detail": 0
+      },
+      "unavailable": [
+        {
+          "uid": "certification.azure-ai-engineer",
+          "status": "retired"
+        },
+        {
+          "uid": "certification.azure-data-scientist",
+          "status": "retired"
+        },
+        {
+          "uid": "certification.azure-developer",
+          "status": "retired"
+        },
+        {
+          "uid": "certification.azure-iot-developer-specialty",
+          "status": "retired"
+        },
+        {
+          "uid": "certification.azure-security-engineer",
+          "status": "retired"
+        },
+        {
+          "uid": "certification.azure-stack-hub-operator",
+          "status": "availability_needs_review"
+        },
+        {
+          "uid": "certification.azure-support-engineer-for-connectivity-specialty",
+          "status": "availability_needs_review"
+        },
+        {
+          "uid": "certification.d365-customer-experience-analyst-associate",
+          "status": "retired"
+        },
+        {
+          "uid": "certification.d365-finance-and-operations-apps-solution-architect-expert",
+          "status": "retired"
+        },
+        {
+          "uid": "certification.d365-functional-consultant-commerce",
+          "status": "retired"
+        },
+        {
+          "uid": "certification.d365-functional-consultant-field-service-v3",
+          "status": "retired"
+        },
+        {
+          "uid": "certification.d365-functional-consultant-manufacturing",
+          "status": "availability_needs_review"
+        },
+        {
+          "uid": "certification.d365-fundamentals",
+          "status": "retired"
+        },
+        {
+          "uid": "certification.d365-fundamentals-customer-engagement-apps-crm",
+          "status": "retired"
+        },
+        {
+          "uid": "certification.d365-fundamentals-finance-and-operations-apps-erp",
+          "status": "retired"
+        },
+        {
+          "uid": "certification.d365-supply-chain-management-functional-consultant-expert",
+          "status": "retired"
+        },
+        {
+          "uid": "certification.m365-developer-associate",
+          "status": "availability_needs_review"
+        },
+        {
+          "uid": "certification.m365-enterprise-administrator",
+          "status": "retiring"
+        },
+        {
+          "uid": "certification.m365-exchange-online-support-engineer-specialty",
+          "status": "availability_needs_review"
+        },
+        {
+          "uid": "certification.m365-messaging-administrator",
+          "status": "retired"
+        },
+        {
+          "uid": "certification.m365-security-administrator",
+          "status": "availability_needs_review"
+        },
+        {
+          "uid": "certification.m365-teams-support-engineer-specialty",
+          "status": "retired"
+        },
+        {
+          "uid": "certification.m365-teams-voice-engineer-expert",
+          "status": "retired"
+        },
+        {
+          "uid": "certification.m365-teamwork-administrator",
+          "status": "retired"
+        },
+        {
+          "uid": "certification.mcsa-bi-reporting",
+          "status": "retired"
+        },
+        {
+          "uid": "certification.mcsa-microsoft-dynamics-365-for-operations",
+          "status": "retired"
+        },
+        {
+          "uid": "certification.mcsa-sql-certification",
+          "status": "retired"
+        },
+        {
+          "uid": "certification.mcsa-sql2016-business-intelligence-certification",
+          "status": "retired"
+        },
+        {
+          "uid": "certification.mcsa-sql2016-database-administration-certification",
+          "status": "retired"
+        },
+        {
+          "uid": "certification.mcsa-sql2016-database-development-certification",
+          "status": "retired"
+        },
+        {
+          "uid": "certification.mcsa-universal-windows-platform",
+          "status": "retired"
+        },
+        {
+          "uid": "certification.mcsa-web-applications-certification",
+          "status": "retired"
+        },
+        {
+          "uid": "certification.mcsa-windows-server-2016-certification",
+          "status": "retired"
+        },
+        {
+          "uid": "certification.mcsa-windows-server-certification",
+          "status": "retired"
+        },
+        {
+          "uid": "certification.mcsd-app-builder-certification",
+          "status": "retired"
+        },
+        {
+          "uid": "certification.mcse-business-applications",
+          "status": "retired"
+        },
+        {
+          "uid": "certification.mcse-core-infrastructure",
+          "status": "retired"
+        },
+        {
+          "uid": "certification.mcse-data-management-analytics",
+          "status": "retired"
+        },
+        {
+          "uid": "certification.mcse-productivity-certification",
+          "status": "retired"
+        },
+        {
+          "uid": "certification.microsoft-365-fundamentals",
+          "status": "retired"
+        },
+        {
+          "uid": "certification.microsoft-office-specialist-master-certification-2016",
+          "status": "retired"
+        },
+        {
+          "uid": "certification.mos-access-2016",
+          "status": "retired"
+        },
+        {
+          "uid": "certification.mos-excel-2016",
+          "status": "retired"
+        },
+        {
+          "uid": "certification.mos-excel-2016-expert",
+          "status": "retired"
+        },
+        {
+          "uid": "certification.mos-outlook-2016",
+          "status": "retired"
+        },
+        {
+          "uid": "certification.mos-powerpoint-2016",
+          "status": "retired"
+        },
+        {
+          "uid": "certification.mos-word-2016",
+          "status": "retired"
+        },
+        {
+          "uid": "certification.mos-word-2016-expert",
+          "status": "retired"
+        },
+        {
+          "uid": "certification.mta-database-fundamentals",
+          "status": "retired"
+        },
+        {
+          "uid": "certification.mta-html5-application-development-fundamentals",
+          "status": "retired"
+        },
+        {
+          "uid": "certification.mta-introduction-to-programming-using-html-and-css",
+          "status": "retired"
+        },
+        {
+          "uid": "certification.mta-introduction-to-programming-using-java",
+          "status": "retired"
+        },
+        {
+          "uid": "certification.mta-introduction-to-programming-using-javascript",
+          "status": "retired"
+        },
+        {
+          "uid": "certification.mta-introduction-to-programming-using-python",
+          "status": "retired"
+        },
+        {
+          "uid": "certification.mta-mobility-and-device-fundamentals",
+          "status": "retired"
+        },
+        {
+          "uid": "certification.mta-networking-fundamentals",
+          "status": "retired"
+        },
+        {
+          "uid": "certification.mta-security-fundamentals",
+          "status": "retired"
+        },
+        {
+          "uid": "certification.mta-software-development-fundamentals",
+          "status": "retired"
+        },
+        {
+          "uid": "certification.mta-windows-operating-system-fundamentals",
+          "status": "retired"
+        },
+        {
+          "uid": "certification.mta-windows-server-administration-fundamentals",
+          "status": "retired"
+        },
+        {
+          "uid": "certification.power-apps-and-d365-developer-associate",
+          "status": "retired"
+        },
+        {
+          "uid": "certification.power-apps-and-d365-solution-architect-expert",
+          "status": "retired"
+        },
+        {
+          "uid": "certification.power-automate-rpa-developer-associate",
+          "status": "retired"
+        },
+        {
+          "uid": "certification.power-platform-functional-consultant-associate",
+          "status": "retired"
+        },
+        {
+          "uid": "certification.power-platform-solution-architect-expert",
+          "status": "retired"
+        }
+      ],
+      "availability_basis": "explicit retirement notices checked; catalog presence alone does not prove active availability"
+    },
+    "certifications_availability": {
+      "accepted": 29,
+      "excluded": {
+        "no_current_exam_availability_evidence": 7,
+        "no_current_exam_booking_path": 12
+      }
+    },
+    "careernet_0": {
+      "status": "OK",
+      "pages_read": 2,
+      "raw_count": 19,
+      "page_limit_reached": false,
+      "reported_total": 19,
+      "requested_page_size": 10,
+      "reported_page_size": 10
+    },
+    "careernet_1": {
+      "status": "OK",
+      "pages_read": 2,
+      "raw_count": 14,
+      "page_limit_reached": false,
+      "reported_total": 14,
+      "requested_page_size": 10,
+      "reported_page_size": 10
+    },
+    "careernet_2": {
+      "status": "OK",
+      "pages_read": 7,
+      "raw_count": 63,
+      "page_limit_reached": false,
+      "reported_total": 63,
+      "requested_page_size": 10,
+      "reported_page_size": 10
+    },
+    "job_details": {
+      "status": "OK",
+      "requested": 73,
+      "with_description": 73,
+      "failed": 0
+    },
+    "jobs_availability": {
+      "accepted": 73,
+      "excluded": {}
+    },
+    "university": {
+      "status": "OK",
+      "pages_read": 7,
+      "raw_count": 7000,
+      "page_limit_reached": true,
+      "reported_total": 52214,
+      "requested_page_size": 1000,
+      "reported_page_size": null
+    },
+    "careernet_majors": {
+      "status": "OK",
+      "queries": [
+        {
+          "keyword": "컴퓨터",
+          "pages_read": 1,
+          "raw_count": 91,
+          "reported_total": 91,
+          "page_limit_reached": false
+        },
+        {
+          "keyword": "소프트웨어",
+          "pages_read": 1,
+          "raw_count": 17,
+          "reported_total": 17,
+          "page_limit_reached": false
+        },
+        {
+          "keyword": "인공지능",
+          "pages_read": 1,
+          "raw_count": 3,
+          "reported_total": 3,
+          "page_limit_reached": false
+        },
+        {
+          "keyword": "데이터",
+          "pages_read": 1,
+          "raw_count": 14,
+          "reported_total": 14,
+          "page_limit_reached": false
+        },
+        {
+          "keyword": "정보보안",
+          "pages_read": 1,
+          "raw_count": 4,
+          "reported_total": 4,
+          "page_limit_reached": false
+        },
+        {
+          "keyword": "정보통신",
+          "pages_read": 1,
+          "raw_count": 32,
+          "reported_total": 32,
+          "page_limit_reached": false
+        },
+        {
+          "keyword": "게임",
+          "pages_read": 1,
+          "raw_count": 17,
+          "reported_total": 17,
+          "page_limit_reached": false
+        }
+      ],
+      "raw_count": 178,
+      "page_limit_reached": false,
+      "detail_requested": 18,
+      "detail_failed": 0
+    },
+    "majors_availability": {
+      "accepted": 18,
+      "excluded": {
+        "not_ready": 141
+      }
+    }
+  },
+  "skipped": {
+    "books": "LIBRARY_IP_REGISTRATION_REQUIRED"
+  },
+  "vectors": {
+    "embedding_model": "text-embedding-3-small",
+    "dimensions": 1536,
+    "vector_table_exists": true,
+    "resources": {
+      "skills": {
+        "source_count": 36,
+        "current_vectors": 36,
+        "missing_or_stale_vectors": 0
+      },
+      "courses": {
+        "source_count": 497,
+        "current_vectors": 497,
+        "missing_or_stale_vectors": 0
+      },
+      "certifications": {
+        "source_count": 66,
+        "current_vectors": 66,
+        "missing_or_stale_vectors": 0
+      },
+      "books": {
+        "source_count": 334,
+        "current_vectors": 334,
+        "missing_or_stale_vectors": 0
+      }
+    },
+    "orphan_vectors_ignored": 0,
+    "database_changes": true,
+    "embedding_api_called": false,
+    "embedded_count": 0,
+    "original_embeddings_changed": false
+  },
+  "certification_status_changes": {},
+  "quality": {
+    "courses": {
+      "ready": 443,
+      "needs_enrichment": 0,
+      "missing_fields": {}
+    },
+    "books": {
+      "ready": 0,
+      "needs_enrichment": 0,
+      "missing_fields": {}
+    },
+    "certifications": {
+      "ready": 29,
+      "needs_enrichment": 0,
+      "missing_fields": {}
+    },
+    "jobs": {
+      "ready": 73,
+      "needs_enrichment": 0,
+      "missing_fields": {}
+    },
+    "majors": {
+      "ready": 18,
+      "needs_enrichment": 0,
+      "missing_fields": {}
+    }
+  },
+  "selection": {
+    "courses": {
+      "normalized_count": 3596,
+      "eligible_count": 451,
+      "selected_count": 451,
+      "limit": 500,
+      "limit_reached": false
+    },
+    "books": {
+      "normalized_count": 1930,
+      "eligible_count": 1356,
+      "selected_count": 300,
+      "limit": 300,
+      "limit_reached": true
+    },
+    "certifications": {
+      "normalized_count": 48,
+      "eligible_count": 48,
+      "selected_count": 48,
+      "limit": 200,
+      "limit_reached": false
+    },
+    "jobs": {
+      "normalized_count": 73,
+      "eligible_count": 73,
+      "selected_count": 73,
+      "limit": 100,
+      "limit_reached": false
+    },
+    "majors": {
+      "normalized_count": 159,
+      "eligible_count": 159,
+      "selected_count": 159,
+      "limit": 500,
+      "limit_reached": false
+    }
+  },
+  "collection_complete": false,
+  "skills_changed": false,
+  "regulations_changed": false,
+  "user_data_changed": false,
+  "vector_scope": "existing skill/course/book/certification index; existing input format preserved",
+  "database_changes": true,
+  "original_embedding_columns_changed": false
+}

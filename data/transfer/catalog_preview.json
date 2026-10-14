@@ -1,0 +1,405 @@
+{
+  "status": "READY",
+  "database_changes": false,
+  "embedding_api_called": false,
+  "counts": {
+    "courses": 449,
+    "books": 300,
+    "certifications": 34,
+    "jobs": 73,
+    "majors": 159
+  },
+  "sources": {
+    "kmooc": {
+      "status": "OK",
+      "pages_read": 7,
+      "raw_count": 105,
+      "page_limit_reached": true,
+      "reported_total": 8808,
+      "requested_page_size": 50,
+      "reported_page_size": 15
+    },
+    "ms_learn": {
+      "status": "OK",
+      "raw_count": 3472
+    },
+    "library": {
+      "status": "OK",
+      "raw_count": 2155,
+      "queries": [
+        {
+          "keyword": "컴퓨터 비전",
+          "pages_read": 1,
+          "raw_count": 45,
+          "reported_total": 45,
+          "page_limit_reached": false
+        },
+        {
+          "keyword": "자연어 처리",
+          "pages_read": 2,
+          "raw_count": 54,
+          "reported_total": 54,
+          "page_limit_reached": false
+        },
+        {
+          "keyword": "생성형 AI",
+          "pages_read": 3,
+          "raw_count": 150,
+          "reported_total": 326,
+          "page_limit_reached": true
+        },
+        {
+          "keyword": "머신러닝",
+          "pages_read": 3,
+          "raw_count": 150,
+          "reported_total": 383,
+          "page_limit_reached": true
+        },
+        {
+          "keyword": "딥러닝",
+          "pages_read": 3,
+          "raw_count": 150,
+          "reported_total": 329,
+          "page_limit_reached": true
+        },
+        {
+          "keyword": "데이터베이스",
+          "pages_read": 3,
+          "raw_count": 150,
+          "reported_total": 464,
+          "page_limit_reached": true
+        },
+        {
+          "keyword": "SQL",
+          "pages_read": 3,
+          "raw_count": 150,
+          "reported_total": 330,
+          "page_limit_reached": true
+        },
+        {
+          "keyword": "데이터 엔지니어링",
+          "pages_read": 1,
+          "raw_count": 8,
+          "reported_total": 8,
+          "page_limit_reached": false
+        },
+        {
+          "keyword": "파이썬",
+          "pages_read": 3,
+          "raw_count": 150,
+          "reported_total": 1126,
+          "page_limit_reached": true
+        },
+        {
+          "keyword": "MLOps",
+          "pages_read": 1,
+          "raw_count": 8,
+          "reported_total": 8,
+          "page_limit_reached": false
+        },
+        {
+          "keyword": "리눅스",
+          "pages_read": 3,
+          "raw_count": 150,
+          "reported_total": 504,
+          "page_limit_reached": true
+        },
+        {
+          "keyword": "네트워크",
+          "pages_read": 3,
+          "raw_count": 150,
+          "reported_total": 1283,
+          "page_limit_reached": true
+        },
+        {
+          "keyword": "클라우드",
+          "pages_read": 3,
+          "raw_count": 150,
+          "reported_total": 315,
+          "page_limit_reached": true
+        },
+        {
+          "keyword": "도커",
+          "pages_read": 1,
+          "raw_count": 42,
+          "reported_total": 42,
+          "page_limit_reached": false
+        },
+        {
+          "keyword": "쿠버네티스",
+          "pages_read": 1,
+          "raw_count": 48,
+          "reported_total": 48,
+          "page_limit_reached": false
+        },
+        {
+          "keyword": "자료구조",
+          "pages_read": 3,
+          "raw_count": 150,
+          "reported_total": 222,
+          "page_limit_reached": true
+        },
+        {
+          "keyword": "알고리즘",
+          "pages_read": 3,
+          "raw_count": 150,
+          "reported_total": 654,
+          "page_limit_reached": true
+        },
+        {
+          "keyword": "소프트웨어",
+          "pages_read": 3,
+          "raw_count": 150,
+          "reported_total": 690,
+          "page_limit_reached": true
+        },
+        {
+          "keyword": "정보보안",
+          "pages_read": 3,
+          "raw_count": 150,
+          "reported_total": 222,
+          "page_limit_reached": true
+        }
+      ],
+      "endpoint": "srchBooks",
+      "title_search": true,
+      "page_limit_reached": true,
+      "unused_legacy_settings": [
+        "kdc_code"
+      ]
+    },
+    "library_details": {
+      "status": "OK",
+      "requested": 300,
+      "with_description": 297,
+      "failed": 0
+    },
+    "kdata": {
+      "status": "OK",
+      "pages_read": 1,
+      "raw_count": 9,
+      "page_limit_reached": false,
+      "reported_total": 9,
+      "requested_page_size": 100,
+      "reported_page_size": null
+    },
+    "ms_certifications": {
+      "status": "OK",
+      "raw_count": 152,
+      "eligible_count": 27,
+      "availability_basis": "published catalog entry with exam IDs; verify latest exam page before applying"
+    },
+    "careernet_0": {
+      "status": "OK",
+      "pages_read": 2,
+      "raw_count": 19,
+      "page_limit_reached": false,
+      "reported_total": 19,
+      "requested_page_size": 10,
+      "reported_page_size": 10
+    },
+    "careernet_1": {
+      "status": "OK",
+      "pages_read": 2,
+      "raw_count": 14,
+      "page_limit_reached": false,
+      "reported_total": 14,
+      "requested_page_size": 10,
+      "reported_page_size": 10
+    },
+    "careernet_2": {
+      "status": "OK",
+      "pages_read": 7,
+      "raw_count": 63,
+      "page_limit_reached": false,
+      "reported_total": 63,
+      "requested_page_size": 10,
+      "reported_page_size": 10
+    },
+    "job_details": {
+      "status": "OK",
+      "requested": 73,
+      "with_description": 73,
+      "failed": 0
+    },
+    "university": {
+      "status": "OK",
+      "pages_read": 7,
+      "raw_count": 7000,
+      "page_limit_reached": true,
+      "reported_total": 52214,
+      "requested_page_size": 1000,
+      "reported_page_size": null
+    },
+    "careernet_majors": {
+      "status": "OK",
+      "queries": [
+        {
+          "keyword": "컴퓨터",
+          "pages_read": 1,
+          "raw_count": 91,
+          "reported_total": 91,
+          "page_limit_reached": false
+        },
+        {
+          "keyword": "소프트웨어",
+          "pages_read": 1,
+          "raw_count": 17,
+          "reported_total": 17,
+          "page_limit_reached": false
+        },
+        {
+          "keyword": "인공지능",
+          "pages_read": 1,
+          "raw_count": 3,
+          "reported_total": 3,
+          "page_limit_reached": false
+        },
+        {
+          "keyword": "데이터",
+          "pages_read": 1,
+          "raw_count": 14,
+          "reported_total": 14,
+          "page_limit_reached": false
+        },
+        {
+          "keyword": "정보보안",
+          "pages_read": 1,
+          "raw_count": 4,
+          "reported_total": 4,
+          "page_limit_reached": false
+        },
+        {
+          "keyword": "정보통신",
+          "pages_read": 1,
+          "raw_count": 32,
+          "reported_total": 32,
+          "page_limit_reached": false
+        },
+        {
+          "keyword": "게임",
+          "pages_read": 1,
+          "raw_count": 17,
+          "reported_total": 17,
+          "page_limit_reached": false
+        }
+      ],
+      "raw_count": 178,
+      "page_limit_reached": false,
+      "detail_requested": 18,
+      "detail_failed": 0
+    }
+  },
+  "failures": {},
+  "quality": {
+    "courses": {
+      "ready": 441,
+      "needs_enrichment": 8,
+      "missing_fields": {
+        "syllabus_summary": 8
+      }
+    },
+    "books": {
+      "ready": 295,
+      "needs_enrichment": 5,
+      "missing_fields": {
+        "description": 3,
+        "adult_professional_scope": 2
+      }
+    },
+    "certifications": {
+      "ready": 34,
+      "needs_enrichment": 0,
+      "missing_fields": {}
+    },
+    "jobs": {
+      "ready": 73,
+      "needs_enrichment": 0,
+      "missing_fields": {}
+    },
+    "majors": {
+      "ready": 18,
+      "needs_enrichment": 141,
+      "missing_fields": {
+        "curriculum": 141
+      }
+    }
+  },
+  "selection": {
+    "courses": {
+      "normalized_count": 3577,
+      "eligible_count": 449,
+      "selected_count": 449,
+      "limit": 500,
+      "limit_reached": false
+    },
+    "books": {
+      "normalized_count": 1929,
+      "eligible_count": 1357,
+      "selected_count": 300,
+      "limit": 300,
+      "limit_reached": true
+    },
+    "certifications": {
+      "normalized_count": 34,
+      "eligible_count": 34,
+      "selected_count": 34,
+      "limit": 200,
+      "limit_reached": false
+    },
+    "jobs": {
+      "normalized_count": 73,
+      "eligible_count": 73,
+      "selected_count": 73,
+      "limit": 100,
+      "limit_reached": false
+    },
+    "majors": {
+      "normalized_count": 159,
+      "eligible_count": 159,
+      "selected_count": 159,
+      "limit": 500,
+      "limit_reached": false
+    }
+  },
+  "collection_complete": false,
+  "unresolved_rule_names": [],
+  "skill_coverage": {
+    "1": 115,
+    "2": 4,
+    "3": 18,
+    "4": 33,
+    "7": 2,
+    "8": 136,
+    "9": 4,
+    "10": 65,
+    "23": 47,
+    "11": 24,
+    "12": 78,
+    "13": 175,
+    "14": 58,
+    "15": 22,
+    "16": 6,
+    "17": 13,
+    "18": 48,
+    "19": 7,
+    "20": 22,
+    "21": 29,
+    "22": 97,
+    "24": 13,
+    "25": 11,
+    "26": 16,
+    "27": 3,
+    "28": 4,
+    "30": 4,
+    "32": 5,
+    "33": 12,
+    "34": 2,
+    "35": 29,
+    "6": 11,
+    "5": 17,
+    "36": 19,
+    "31": 5,
+    "29": 1
+  }
+}

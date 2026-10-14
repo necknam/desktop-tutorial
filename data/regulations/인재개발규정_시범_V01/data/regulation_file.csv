@@ -1,0 +1,2 @@
+﻿regulation_file_id,regulation_version_id,source_file_id,file_name,file_format,file_role,storage_key,source_type,source_url,retrieved_at,file_hash,is_extraction_source,parse_status,access_level
+30562fdd-97df-5c4b-9535-1c7402d2b738,5565f28d-29da-5ebd-bb8a-b0dc705f26d3,\N,인재개발규정(2024년도 12월 개정).pdf,pdf,original,source/인재개발규정(2024년도 12월 개정).pdf,alio_public,https://www.alio.go.kr/item/itemOrganList.do?reportFormRootNo=21110,2026-10-01T09:39:00+09:00,0835551b52e02b2471022af3e3bf4c65ce39d0816a9fba6b0cc6c5569b5b792f,true,extracted_with_review_items,public

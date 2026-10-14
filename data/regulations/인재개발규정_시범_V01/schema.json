@@ -1,0 +1,841 @@
+{
+  "source": "HR_Example_ERD.html",
+  "schema_name": "hr_regulation_pilot",
+  "notes": [
+    "기존 ERD를 변경하지 않는 독립 전달용 스키마",
+    "embedding_model: 벡터 미생성 상태를 표현하기 위해 시범 전달본에서 NULL 허용",
+    "DATETIME → TIMESTAMPTZ, JSON → JSONB, TINYINT(1) → BOOLEAN"
+  ],
+  "tables": {
+    "institution": {
+      "cols": [
+        {
+          "n": "institution_id",
+          "t": "VARCHAR(64)",
+          "nn": true,
+          "c": "기관 ID",
+          "pk": true,
+          "fk": false
+        },
+        {
+          "n": "name",
+          "t": "VARCHAR(255)",
+          "nn": true,
+          "c": "기관명",
+          "pk": false,
+          "fk": false
+        },
+        {
+          "n": "external_code",
+          "t": "VARCHAR(255)",
+          "nn": false,
+          "c": "외부 기관 코드",
+          "pk": false,
+          "fk": false
+        }
+      ],
+      "label": "기관"
+    },
+    "regulation": {
+      "cols": [
+        {
+          "n": "regulation_id",
+          "t": "VARCHAR(64)",
+          "nn": true,
+          "c": "규정 ID",
+          "pk": true,
+          "fk": false
+        },
+        {
+          "n": "institution_id",
+          "t": "VARCHAR(64)",
+          "nn": true,
+          "c": "기관 ID",
+          "pk": false,
+          "fk": true
+        },
+        {
+          "n": "name",
+          "t": "VARCHAR(255)",
+          "nn": true,
+          "c": "규정명",
+          "pk": false,
+          "fk": false
+        },
+        {
+          "n": "category",
+          "t": "VARCHAR(40)",
+          "nn": true,
+          "c": "업무 분류",
+          "pk": false,
+          "fk": false
+        },
+        {
+          "n": "document_kind",
+          "t": "VARCHAR(40)",
+          "nn": true,
+          "c": "자료 성격",
+          "pk": false,
+          "fk": false
+        }
+      ],
+      "label": "규정"
+    },
+    "regulation_version": {
+      "cols": [
+        {
+          "n": "regulation_version_id",
+          "t": "VARCHAR(64)",
+          "nn": true,
+          "c": "개정본 ID",
+          "pk": true,
+          "fk": false
+        },
+        {
+          "n": "regulation_id",
+          "t": "VARCHAR(64)",
+          "nn": true,
+          "c": "규정 ID",
+          "pk": false,
+          "fk": true
+        },
+        {
+          "n": "version_label",
+          "t": "VARCHAR(255)",
+          "nn": true,
+          "c": "개정본 표시",
+          "pk": false,
+          "fk": false
+        },
+        {
+          "n": "title_at_version",
+          "t": "VARCHAR(255)",
+          "nn": true,
+          "c": "당시 규정명",
+          "pk": false,
+          "fk": false
+        },
+        {
+          "n": "content_kind",
+          "t": "VARCHAR(40)",
+          "nn": true,
+          "c": "자료 유형",
+          "pk": false,
+          "fk": false
+        },
+        {
+          "n": "coverage_status",
+          "t": "VARCHAR(40)",
+          "nn": true,
+          "c": "본문 범위",
+          "pk": false,
+          "fk": false
+        },
+        {
+          "n": "amendment_date",
+          "t": "DATE",
+          "nn": false,
+          "c": "개정일",
+          "pk": false,
+          "fk": false
+        },
+        {
+          "n": "effective_from",
+          "t": "DATE",
+          "nn": false,
+          "c": "일반 시행일",
+          "pk": false,
+          "fk": false
+        },
+        {
+          "n": "effective_to",
+          "t": "DATE",
+          "nn": false,
+          "c": "효력 종료일",
+          "pk": false,
+          "fk": false
+        },
+        {
+          "n": "date_status",
+          "t": "VARCHAR(40)",
+          "nn": true,
+          "c": "날짜 확인 상태",
+          "pk": false,
+          "fk": false
+        },
+        {
+          "n": "review_status",
+          "t": "VARCHAR(40)",
+          "nn": true,
+          "c": "검토 상태",
+          "pk": false,
+          "fk": false
+        },
+        {
+          "n": "availability_status",
+          "t": "VARCHAR(40)",
+          "nn": true,
+          "c": "자료 이용 상태",
+          "pk": false,
+          "fk": false
+        },
+        {
+          "n": "previous_version_id",
+          "t": "VARCHAR(64)",
+          "nn": false,
+          "c": "이전 개정본 ID",
+          "pk": false,
+          "fk": true
+        },
+        {
+          "n": "review_note",
+          "t": "TEXT",
+          "nn": false,
+          "c": "예외·검토 메모",
+          "pk": false,
+          "fk": false
+        }
+      ],
+      "label": "규정 개정본"
+    },
+    "regulation_file": {
+      "cols": [
+        {
+          "n": "regulation_file_id",
+          "t": "VARCHAR(64)",
+          "nn": true,
+          "c": "파일 ID",
+          "pk": true,
+          "fk": false
+        },
+        {
+          "n": "regulation_version_id",
+          "t": "VARCHAR(64)",
+          "nn": true,
+          "c": "개정본 ID",
+          "pk": false,
+          "fk": true
+        },
+        {
+          "n": "source_file_id",
+          "t": "VARCHAR(64)",
+          "nn": false,
+          "c": "원본 파일 ID",
+          "pk": false,
+          "fk": true
+        },
+        {
+          "n": "file_name",
+          "t": "VARCHAR(255)",
+          "nn": true,
+          "c": "파일명",
+          "pk": false,
+          "fk": false
+        },
+        {
+          "n": "file_format",
+          "t": "VARCHAR(40)",
+          "nn": true,
+          "c": "파일 형식",
+          "pk": false,
+          "fk": false
+        },
+        {
+          "n": "file_role",
+          "t": "VARCHAR(40)",
+          "nn": true,
+          "c": "파일 역할",
+          "pk": false,
+          "fk": false
+        },
+        {
+          "n": "storage_key",
+          "t": "VARCHAR(2048)",
+          "nn": true,
+          "c": "파일 저장 위치",
+          "pk": false,
+          "fk": false
+        },
+        {
+          "n": "source_type",
+          "t": "VARCHAR(40)",
+          "nn": true,
+          "c": "출처 구분",
+          "pk": false,
+          "fk": false
+        },
+        {
+          "n": "source_url",
+          "t": "VARCHAR(2048)",
+          "nn": false,
+          "c": "출처 주소",
+          "pk": false,
+          "fk": false
+        },
+        {
+          "n": "retrieved_at",
+          "t": "TIMESTAMPTZ",
+          "nn": true,
+          "c": "확보일",
+          "pk": false,
+          "fk": false
+        },
+        {
+          "n": "file_hash",
+          "t": "VARCHAR(128)",
+          "nn": true,
+          "c": "파일 해시",
+          "pk": false,
+          "fk": false
+        },
+        {
+          "n": "is_extraction_source",
+          "t": "BOOLEAN",
+          "nn": true,
+          "c": "대표 추출 여부",
+          "pk": false,
+          "fk": false
+        },
+        {
+          "n": "parse_status",
+          "t": "VARCHAR(40)",
+          "nn": true,
+          "c": "추출 상태",
+          "pk": false,
+          "fk": false
+        },
+        {
+          "n": "access_level",
+          "t": "VARCHAR(40)",
+          "nn": true,
+          "c": "접근 등급",
+          "pk": false,
+          "fk": false
+        }
+      ],
+      "label": "규정 파일"
+    },
+    "regulation_node": {
+      "cols": [
+        {
+          "n": "regulation_node_id",
+          "t": "VARCHAR(64)",
+          "nn": true,
+          "c": "원문 항목 ID",
+          "pk": true,
+          "fk": false
+        },
+        {
+          "n": "regulation_version_id",
+          "t": "VARCHAR(64)",
+          "nn": true,
+          "c": "개정본 ID",
+          "pk": false,
+          "fk": true
+        },
+        {
+          "n": "regulation_file_id",
+          "t": "VARCHAR(64)",
+          "nn": true,
+          "c": "추출 파일 ID",
+          "pk": false,
+          "fk": true
+        },
+        {
+          "n": "parent_node_id",
+          "t": "VARCHAR(64)",
+          "nn": false,
+          "c": "상위 항목 ID",
+          "pk": false,
+          "fk": true
+        },
+        {
+          "n": "node_type",
+          "t": "VARCHAR(40)",
+          "nn": true,
+          "c": "항목 유형(조/항/호)",
+          "pk": false,
+          "fk": false
+        },
+        {
+          "n": "label",
+          "t": "VARCHAR(255)",
+          "nn": true,
+          "c": "항목 표시(제N조)",
+          "pk": false,
+          "fk": false
+        },
+        {
+          "n": "title",
+          "t": "VARCHAR(255)",
+          "nn": false,
+          "c": "항목 제목",
+          "pk": false,
+          "fk": false
+        },
+        {
+          "n": "path",
+          "t": "VARCHAR(1024)",
+          "nn": true,
+          "c": "계층 경로",
+          "pk": false,
+          "fk": false
+        },
+        {
+          "n": "display_order",
+          "t": "INT",
+          "nn": true,
+          "c": "표시 순서",
+          "pk": false,
+          "fk": false
+        },
+        {
+          "n": "body_text",
+          "t": "TEXT",
+          "nn": true,
+          "c": "원문 본문",
+          "pk": false,
+          "fk": false
+        },
+        {
+          "n": "source_locator",
+          "t": "JSONB",
+          "nn": true,
+          "c": "원문 위치 메타데이터",
+          "pk": false,
+          "fk": false
+        },
+        {
+          "n": "effective_from_override",
+          "t": "DATE",
+          "nn": false,
+          "c": "항목별 시행일 예외",
+          "pk": false,
+          "fk": false
+        },
+        {
+          "n": "effective_to_override",
+          "t": "DATE",
+          "nn": false,
+          "c": "항목별 종료일 예외",
+          "pk": false,
+          "fk": false
+        },
+        {
+          "n": "extraction_status",
+          "t": "VARCHAR(40)",
+          "nn": true,
+          "c": "항목 추출 상태",
+          "pk": false,
+          "fk": false
+        },
+        {
+          "n": "review_note",
+          "t": "TEXT",
+          "nn": false,
+          "c": "검토 메모",
+          "pk": false,
+          "fk": false
+        }
+      ],
+      "label": "규정 조항 원문"
+    },
+    "regulation_scope": {
+      "cols": [
+        {
+          "n": "regulation_scope_id",
+          "t": "VARCHAR(64)",
+          "nn": true,
+          "c": "적용 조건 ID",
+          "pk": true,
+          "fk": false
+        },
+        {
+          "n": "regulation_node_id",
+          "t": "VARCHAR(64)",
+          "nn": true,
+          "c": "근거 원문 항목 ID",
+          "pk": false,
+          "fk": true
+        },
+        {
+          "n": "scope_type",
+          "t": "VARCHAR(40)",
+          "nn": true,
+          "c": "조건 종류",
+          "pk": false,
+          "fk": false
+        },
+        {
+          "n": "condition_text",
+          "t": "TEXT",
+          "nn": true,
+          "c": "조건 원문",
+          "pk": false,
+          "fk": false
+        },
+        {
+          "n": "condition_json",
+          "t": "JSONB",
+          "nn": false,
+          "c": "구조화 조건",
+          "pk": false,
+          "fk": false
+        },
+        {
+          "n": "applies_to_node_id",
+          "t": "VARCHAR(64)",
+          "nn": false,
+          "c": "적용받는 항목 ID",
+          "pk": false,
+          "fk": true
+        },
+        {
+          "n": "review_status",
+          "t": "VARCHAR(40)",
+          "nn": true,
+          "c": "검토 상태",
+          "pk": false,
+          "fk": false
+        }
+      ],
+      "label": "적용 조건"
+    },
+    "regulation_reference": {
+      "cols": [
+        {
+          "n": "regulation_reference_id",
+          "t": "VARCHAR(64)",
+          "nn": true,
+          "c": "참조 관계 ID",
+          "pk": true,
+          "fk": false
+        },
+        {
+          "n": "regulation_node_id",
+          "t": "VARCHAR(64)",
+          "nn": true,
+          "c": "참조 출발 항목 ID",
+          "pk": false,
+          "fk": true
+        },
+        {
+          "n": "reference_type",
+          "t": "VARCHAR(40)",
+          "nn": true,
+          "c": "참조 관계 유형",
+          "pk": false,
+          "fk": false
+        },
+        {
+          "n": "target_text",
+          "t": "TEXT",
+          "nn": true,
+          "c": "참조 대상 원문",
+          "pk": false,
+          "fk": false
+        },
+        {
+          "n": "target_regulation_id",
+          "t": "VARCHAR(64)",
+          "nn": false,
+          "c": "참조 대상 규정 ID",
+          "pk": false,
+          "fk": true
+        },
+        {
+          "n": "target_version_id",
+          "t": "VARCHAR(64)",
+          "nn": false,
+          "c": "참조 대상 개정본 ID",
+          "pk": false,
+          "fk": true
+        },
+        {
+          "n": "target_node_id",
+          "t": "VARCHAR(64)",
+          "nn": false,
+          "c": "참조 대상 항목 ID",
+          "pk": false,
+          "fk": true
+        },
+        {
+          "n": "resolution_status",
+          "t": "VARCHAR(40)",
+          "nn": true,
+          "c": "참조 확인 상태",
+          "pk": false,
+          "fk": false
+        },
+        {
+          "n": "review_note",
+          "t": "TEXT",
+          "nn": false,
+          "c": "검토 메모",
+          "pk": false,
+          "fk": false
+        }
+      ],
+      "label": "조항 참조"
+    },
+    "rag_chunk": {
+      "cols": [
+        {
+          "n": "rag_chunk_id",
+          "t": "VARCHAR(64)",
+          "nn": true,
+          "c": "검색 조각 ID",
+          "pk": true,
+          "fk": false
+        },
+        {
+          "n": "regulation_version_id",
+          "t": "VARCHAR(64)",
+          "nn": true,
+          "c": "개정본 ID",
+          "pk": false,
+          "fk": true
+        },
+        {
+          "n": "chunk_text",
+          "t": "TEXT",
+          "nn": true,
+          "c": "검색 본문",
+          "pk": false,
+          "fk": false
+        },
+        {
+          "n": "chunk_type",
+          "t": "VARCHAR(40)",
+          "nn": true,
+          "c": "조각 유형",
+          "pk": false,
+          "fk": false
+        },
+        {
+          "n": "context_path",
+          "t": "VARCHAR(1024)",
+          "nn": true,
+          "c": "문맥 계층 경로",
+          "pk": false,
+          "fk": false
+        },
+        {
+          "n": "content_hash",
+          "t": "VARCHAR(128)",
+          "nn": true,
+          "c": "내용 해시",
+          "pk": false,
+          "fk": false
+        },
+        {
+          "n": "chunking_version",
+          "t": "VARCHAR(255)",
+          "nn": true,
+          "c": "분할 설정 버전",
+          "pk": false,
+          "fk": false
+        },
+        {
+          "n": "index_revision",
+          "t": "VARCHAR(255)",
+          "nn": true,
+          "c": "색인 묶음 버전",
+          "pk": false,
+          "fk": false
+        },
+        {
+          "n": "embedding_model",
+          "t": "VARCHAR(255)",
+          "nn": false,
+          "c": "임베딩 모델명",
+          "pk": false,
+          "fk": false,
+          "erd_nn": true
+        },
+        {
+          "n": "search_status",
+          "t": "VARCHAR(40)",
+          "nn": true,
+          "c": "검색 사용 상태",
+          "pk": false,
+          "fk": false
+        },
+        {
+          "n": "created_at",
+          "t": "TIMESTAMPTZ",
+          "nn": true,
+          "c": "생성일",
+          "pk": false,
+          "fk": false
+        },
+        {
+          "n": "token_count",
+          "t": "INT",
+          "nn": false,
+          "c": "토큰 수",
+          "pk": false,
+          "fk": false
+        }
+      ],
+      "label": "검색 조각"
+    },
+    "rag_chunk_source": {
+      "cols": [
+        {
+          "n": "rag_chunk_source_id",
+          "t": "VARCHAR(64)",
+          "nn": true,
+          "c": "근거 연결 ID",
+          "pk": true,
+          "fk": false
+        },
+        {
+          "n": "rag_chunk_id",
+          "t": "VARCHAR(64)",
+          "nn": true,
+          "c": "조각 ID",
+          "pk": false,
+          "fk": true
+        },
+        {
+          "n": "regulation_node_id",
+          "t": "VARCHAR(64)",
+          "nn": true,
+          "c": "원문 항목 ID",
+          "pk": false,
+          "fk": true
+        },
+        {
+          "n": "source_order",
+          "t": "INT",
+          "nn": true,
+          "c": "근거 순서",
+          "pk": false,
+          "fk": false
+        },
+        {
+          "n": "source_role",
+          "t": "VARCHAR(40)",
+          "nn": true,
+          "c": "근거 역할",
+          "pk": false,
+          "fk": false
+        },
+        {
+          "n": "source_span",
+          "t": "JSONB",
+          "nn": false,
+          "c": "인용 구간",
+          "pk": false,
+          "fk": false
+        }
+      ],
+      "label": "조각 근거"
+    }
+  },
+  "foreign_keys": [
+    [
+      "regulation",
+      "institution_id",
+      "institution",
+      "institution_id"
+    ],
+    [
+      "regulation_version",
+      "regulation_id",
+      "regulation",
+      "regulation_id"
+    ],
+    [
+      "regulation_version",
+      "previous_version_id",
+      "regulation_version",
+      "regulation_version_id"
+    ],
+    [
+      "regulation_file",
+      "regulation_version_id",
+      "regulation_version",
+      "regulation_version_id"
+    ],
+    [
+      "regulation_file",
+      "source_file_id",
+      "regulation_file",
+      "regulation_file_id"
+    ],
+    [
+      "regulation_node",
+      "regulation_version_id",
+      "regulation_version",
+      "regulation_version_id"
+    ],
+    [
+      "regulation_node",
+      "regulation_file_id",
+      "regulation_file",
+      "regulation_file_id"
+    ],
+    [
+      "regulation_node",
+      "parent_node_id",
+      "regulation_node",
+      "regulation_node_id"
+    ],
+    [
+      "regulation_scope",
+      "regulation_node_id",
+      "regulation_node",
+      "regulation_node_id"
+    ],
+    [
+      "regulation_scope",
+      "applies_to_node_id",
+      "regulation_node",
+      "regulation_node_id"
+    ],
+    [
+      "regulation_reference",
+      "regulation_node_id",
+      "regulation_node",
+      "regulation_node_id"
+    ],
+    [
+      "regulation_reference",
+      "target_regulation_id",
+      "regulation",
+      "regulation_id"
+    ],
+    [
+      "regulation_reference",
+      "target_version_id",
+      "regulation_version",
+      "regulation_version_id"
+    ],
+    [
+      "regulation_reference",
+      "target_node_id",
+      "regulation_node",
+      "regulation_node_id"
+    ],
+    [
+      "rag_chunk",
+      "regulation_version_id",
+      "regulation_version",
+      "regulation_version_id"
+    ],
+    [
+      "rag_chunk_source",
+      "rag_chunk_id",
+      "rag_chunk",
+      "rag_chunk_id"
+    ],
+    [
+      "rag_chunk_source",
+      "regulation_node_id",
+      "regulation_node",
+      "regulation_node_id"
+    ]
+  ]
+}

@@ -1,0 +1,18 @@
+[
+  {
+    "regulation_file_id": "30562fdd-97df-5c4b-9535-1c7402d2b738",
+    "regulation_version_id": "5565f28d-29da-5ebd-bb8a-b0dc705f26d3",
+    "source_file_id": null,
+    "file_name": "인재개발규정(2024년도 12월 개정).pdf",
+    "file_format": "pdf",
+    "file_role": "original",
+    "storage_key": "source/인재개발규정(2024년도 12월 개정).pdf",
+    "source_type": "alio_public",
+    "source_url": "https://www.alio.go.kr/item/itemOrganList.do?reportFormRootNo=21110",
+    "retrieved_at": "2026-10-01T09:39:00+09:00",
+    "file_hash": "0835551b52e02b2471022af3e3bf4c65ce39d0816a9fba6b0cc6c5569b5b792f",
+    "is_extraction_source": true,
+    "parse_status": "extracted_with_review_items",
+    "access_level": "public"
+  }
+]

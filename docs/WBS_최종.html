@@ -1,0 +1,965 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>WBS 작업 분해 체계도</title>
+  <style>
+    @page {
+      size: A4 landscape;
+      margin: 7mm 7mm 7mm 7mm;
+    }
+    :root {
+      --primary: #0f172a;
+      --primary-accent: #1e293b;
+      --border: #cbd5e1;
+      --border-light: #e2e8f0;
+      --bg-table-header: #f8fafc;
+      --text-main: #0f172a;
+      --text-muted: #475569;
+      --text-light: #64748b;
+    }
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Malgun Gothic', sans-serif;
+      color: var(--text-main);
+      background: #ffffff;
+      line-height: 1.35;
+      font-size: 8px;
+      margin: 0;
+      padding: 0;
+      -webkit-font-smoothing: antialiased;
+    }
+    .header-container {
+      border-bottom: 2px solid var(--primary);
+      padding-bottom: 4px;
+      margin-bottom: 6px;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+    }
+    h1 {
+      font-size: 14.5px;
+      font-weight: 800;
+      color: var(--primary);
+      margin: 0;
+      letter-spacing: -0.3px;
+    }
+    .header-meta {
+      font-size: 8px;
+      color: var(--text-light);
+      font-weight: 500;
+    }
+    table.meta-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 6px;
+    }
+    table.meta-table th, table.meta-table td {
+      border: 1px solid var(--border);
+      padding: 3px 6px;
+      font-size: 8.5px;
+    }
+    table.meta-table th {
+      background: #f1f5f9;
+      color: var(--text-main);
+      font-weight: 700;
+      width: 11%;
+      text-align: center;
+    }
+    table.meta-table td {
+      width: 39%;
+      color: var(--text-main);
+    }
+    table.wbs-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 7.8px;
+      table-layout: fixed;
+    }
+    table.wbs-table th, table.wbs-table td {
+      border: 1px solid var(--border);
+      padding: 3px 4px;
+      vertical-align: middle;
+      word-break: break-all;
+    }
+    table.wbs-table th {
+      background: var(--bg-table-header);
+      color: var(--primary);
+      font-weight: 700;
+      text-align: center;
+      height: 22px;
+      border-bottom: 1.5px solid #94a3b8;
+    }
+    .center {
+      text-align: center;
+    }
+    .wbs-id {
+      font-family: 'Consolas', 'Courier New', monospace;
+      font-weight: 700;
+      font-size: 8px;
+      color: var(--text-main);
+    }
+    .group-row {
+      background: #f1f5f9;
+      font-weight: 800;
+      color: var(--primary);
+    }
+    .group-row td {
+      border-top: 1.5px solid #64748b;
+      border-bottom: 1.5px solid #64748b;
+      background: #f8fafc;
+    }
+    .progress-cell {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 3px;
+    }
+    .progress-bar-bg {
+      width: 24px;
+      height: 4.5px;
+      background: #e2e8f0;
+      border-radius: 2px;
+      overflow: hidden;
+      display: inline-block;
+    }
+    .progress-bar-fill {
+      height: 100%;
+      background: #2563eb;
+    }
+    .badge {
+      display: inline-block;
+      padding: 1px 4px;
+      border-radius: 2px;
+      font-size: 7.2px;
+      font-weight: 700;
+      text-align: center;
+      white-space: nowrap;
+      border: 1px solid transparent;
+    }
+    .badge-done { background: #ecfdf5; color: #047857; border-color: #a7f3d0; }
+    .badge-ing { background: #eff6ff; color: #1d4ed8; border-color: #bfdbfe; }
+    .badge-todo { background: #f8fafc; color: #64748b; border-color: #cbd5e1; }
+    
+    .badge-p0 { background: #fef2f2; color: #b91c1c; border-color: #fca5a5; }
+    .badge-p1 { background: #fff7ed; color: #c2410c; border-color: #fdba74; }
+    .badge-p2 { background: #f8fafc; color: #475569; border-color: #cbd5e1; }
+
+    .deliverable-highlight {
+      font-weight: 700;
+      color: #0f172a;
+    }
+    .sub-note {
+      font-size: 7.2px;
+      color: #64748b;
+      margin-top: 1px;
+    }
+
+    @media print {
+      body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+      tr { break-inside: avoid; }
+      thead { display: table-header-group; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header-container">
+    <h1>WBS 작업 분해 체계도 (Work Breakdown Structure)</h1>
+    <div class="header-meta">총 프로젝트 기간: 8주 (2026-09-28 ~ 2026-11-20) | 작성 기준일: 2026-10-01</div>
+  </div>
+
+  <table class="meta-table">
+    <tr>
+      <th>프로젝트명</th>
+      <td>[미정] (가칭: GrowPath AI - 멀티에이전트 HR 상담·성장지원 서비스)</td>
+      <th>총괄 책임자</th>
+      <td><strong>PM:</strong> 송지섭 / <strong>APM:</strong> 신가을</td>
+    </tr>
+    <tr>
+      <th>팀 구성원</th>
+      <td>오호민, 이준희, 김영석</td>
+      <th>배정 현황</th>
+      <td>관리 총괄 확정 / 개발·실험 실무 R&R 미배정 상태 ([미정] 관리)</td>
+    </tr>
+  </table>
+
+  <table class="wbs-table">
+    <thead>
+      <tr>
+        <th style="width: 4%;">WBS ID</th>
+        <th style="width: 11.5%;">주요 업무 (대분류)</th>
+        <th style="width: 23%;">세부 작업 (Task)</th>
+        <th style="width: 6.5%;">담당자</th>
+        <th style="width: 6.5%;">검토자</th>
+        <th style="width: 4.8%;">시작일</th>
+        <th style="width: 4.8%;">마감일</th>
+        <th style="width: 3.2%;">기간</th>
+        <th style="width: 5.2%;">상태</th>
+        <th style="width: 5.5%;">우선순위</th>
+        <th style="width: 5%;">진행</th>
+        <th style="width: 4.5%;">선행</th>
+        <th style="width: 15.5%;">완료 조건 및 공식 산출물</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- 1.0 (1~2주차) -->
+      <tr class="group-row">
+        <td class="center wbs-id">1.0</td>
+        <td>주제 선정 및 아키텍처 고도화</td>
+        <td>1~2주차 기획 정의, 아키텍처 확정 및 분석</td>
+        <td class="center">송지섭</td>
+        <td class="center">신가을</td>
+        <td class="center">09-28</td>
+        <td class="center">10-08</td>
+        <td class="center">9일</td>
+        <td class="center"><span class="badge badge-ing">진행중</span></td>
+        <td class="center"><span class="badge badge-p0">P0 (필수)</span></td>
+        <td class="center">
+          <div class="progress-cell">
+            <span class="progress-bar-bg"><span class="progress-bar-fill" style="width: 75%;"></span></span>
+            <span>75%</span>
+          </div>
+        </td>
+        <td class="center">-</td>
+        <td>기획서 및 설계서 패키지 (10/5,9 휴일)</td>
+      </tr>
+      <tr>
+        <td class="center wbs-id">1.1</td>
+        <td></td>
+        <td>서비스 개요 및 대표 시나리오(3종) 확정</td>
+        <td class="center">신가을</td>
+        <td class="center">송지섭</td>
+        <td class="center">09-28</td>
+        <td class="center">09-30</td>
+        <td class="center">3일</td>
+        <td class="center"><span class="badge badge-done">완료</span></td>
+        <td class="center"><span class="badge badge-p0">P0 (필수)</span></td>
+        <td class="center">
+          <div class="progress-cell">
+            <span class="progress-bar-bg"><span class="progress-bar-fill" style="width: 100%;"></span></span>
+            <span>100%</span>
+          </div>
+        </td>
+        <td class="center">-</td>
+        <td>시나리오 정의서 (상담/직급비교/점검) 확정본</td>
+      </tr>
+      <tr>
+        <td class="center wbs-id">1.2</td>
+        <td></td>
+        <td>한국도로공사서비스 규정 및 평가표 분석</td>
+        <td class="center">신가을</td>
+        <td class="center">송지섭</td>
+        <td class="center">09-29</td>
+        <td class="center">10-01</td>
+        <td class="center">3일</td>
+        <td class="center"><span class="badge badge-done">완료</span></td>
+        <td class="center"><span class="badge badge-p0">P0 (필수)</span></td>
+        <td class="center">
+          <div class="progress-cell">
+            <span class="progress-bar-bg"><span class="progress-bar-fill" style="width: 100%;"></span></span>
+            <span>100%</span>
+          </div>
+        </td>
+        <td class="center">-</td>
+        <td>평가표 6종 직급 매핑 분석 문서</td>
+      </tr>
+      <tr>
+        <td class="center wbs-id">1.3</td>
+        <td></td>
+        <td>요구사항 정의서 및 WBS 작성</td>
+        <td class="center">오호민</td>
+        <td class="center">송지섭</td>
+        <td class="center">10-01</td>
+        <td class="center">10-02</td>
+        <td class="center">2일</td>
+        <td class="center"><span class="badge badge-ing">진행중</span></td>
+        <td class="center"><span class="badge badge-p0">P0 (필수)</span></td>
+        <td class="center">
+          <div class="progress-cell">
+            <span class="progress-bar-bg"><span class="progress-bar-fill" style="width: 90%;"></span></span>
+            <span>90%</span>
+          </div>
+        </td>
+        <td class="center">1.1, 1.2</td>
+        <td><span class="deliverable-highlight">요구사항 정의서, WBS v1.0 (10/2 제출)</span></td>
+      </tr>
+      <tr>
+        <td class="center wbs-id">1.4</td>
+        <td></td>
+        <td>화면 흐름 및 UI/UX 와이어프레임 설계</td>
+        <td class="center">김영석, 이준희</td>
+        <td class="center">신가을</td>
+        <td class="center">10-06</td>
+        <td class="center">10-08</td>
+        <td class="center">3일</td>
+        <td class="center"><span class="badge badge-ing">진행중</span></td>
+        <td class="center"><span class="badge badge-p1">P1 (핵심)</span></td>
+        <td class="center">
+          <div class="progress-cell">
+            <span class="progress-bar-bg"><span class="progress-bar-fill" style="width: 50%;"></span></span>
+            <span>60%</span>
+          </div>
+        </td>
+        <td class="center">1.3</td>
+        <td><span class="deliverable-highlight">화면 설계서 (10/8 제출 필수 산출물)</span></td>
+      </tr>
+      <tr>
+        <td class="center wbs-id">1.5</td>
+        <td></td>
+        <td>규정/교육 메타데이터 및 외부 사이트 조사<br><span class="sub-note">(기초자료 확보 완료 및 세부 조사 진행)</span></td>
+        <td class="center">신가을</td>
+        <td class="center">송지섭</td>
+        <td class="center">10-01</td>
+        <td class="center">10-08</td>
+        <td class="center">6일</td>
+        <td class="center"><span class="badge badge-ing">진행중</span></td>
+        <td class="center"><span class="badge badge-p0">P0 (필수)</span></td>
+        <td class="center">
+          <div class="progress-cell">
+            <span class="progress-bar-bg"><span class="progress-bar-fill" style="width: 60%;"></span></span>
+            <span>60%</span>
+          </div>
+        </td>
+        <td class="center">1.2</td>
+        <td><span class="deliverable-highlight">수집 데이터 보고서 (10/8 제출 필수 산출물)</span><br><span class="sub-note">기확보: 공사 규정 PDF 3종, 교육 사이트 8곳·실존 과정 10개<br>잔여: 추가 자료 확보, 적용 기관 선정, 보고서 정리</span></td>
+      </tr>
+
+      <!-- 2.0 (3주차) -->
+      <tr class="group-row">
+        <td class="center wbs-id">2.0</td>
+        <td>개발 착수 및 저장소 구축</td>
+        <td>개발환경·실행 구조 구성, DB 구축 및 중간발표<br><span class="sub-note">(팀 저장소 초기화·README·협업 규칙 기구축 반영)</span></td>
+        <td class="center">[미정]</td>
+        <td class="center">[미정]</td>
+        <td class="center">10-01</td>
+        <td class="center">10-16</td>
+        <td class="center">12일</td>
+        <td class="center"><span class="badge badge-ing">진행중</span></td>
+        <td class="center"><span class="badge badge-p0">P0 (필수)</span></td>
+        <td class="center">
+          <div class="progress-cell">
+            <span class="progress-bar-bg"><span class="progress-bar-fill" style="width: 20%;"></span></span>
+            <span>20%</span>
+          </div>
+        </td>
+        <td class="center">1.0</td>
+        <td>저장소 구축 및 중간발표 (10/16 발표)</td>
+      </tr>
+      <tr>
+        <td class="center wbs-id">2.1</td>
+        <td></td>
+        <td>DB ERD 및 영속 저장소 스키마 설계</td>
+        <td class="center">[미정]</td>
+        <td class="center">[미정]</td>
+        <td class="center">10-12</td>
+        <td class="center">10-14</td>
+        <td class="center">3일</td>
+        <td class="center"><span class="badge badge-todo">할 일</span></td>
+        <td class="center"><span class="badge badge-p0">P0 (필수)</span></td>
+        <td class="center">
+          <div class="progress-cell">
+            <span class="progress-bar-bg"><span class="progress-bar-fill" style="width: 0%;"></span></span>
+            <span>0%</span>
+          </div>
+        </td>
+        <td class="center">1.5</td>
+        <td><span class="deliverable-highlight">DB/저장소 설계 문서 (10/16 마감)</span></td>
+      </tr>
+      <tr>
+        <td class="center wbs-id">2.2</td>
+        <td></td>
+        <td>규정 청킹 가이드 수립 및 전처리</td>
+        <td class="center">[미정]</td>
+        <td class="center">[미정]</td>
+        <td class="center">10-12</td>
+        <td class="center">10-15</td>
+        <td class="center">4일</td>
+        <td class="center"><span class="badge badge-todo">할 일</span></td>
+        <td class="center"><span class="badge badge-p0">P0 (필수)</span></td>
+        <td class="center">
+          <div class="progress-cell">
+            <span class="progress-bar-bg"><span class="progress-bar-fill" style="width: 0%;"></span></span>
+            <span>0%</span>
+          </div>
+        </td>
+        <td class="center">1.5</td>
+        <td><span class="deliverable-highlight">데이터 전처리 결과서 (10/16 마감)</span></td>
+      </tr>
+      <tr>
+        <td class="center wbs-id">2.3</td>
+        <td></td>
+        <td>의도 분류 데이터셋 구축 및 분할 (Train/Test)</td>
+        <td class="center">[미정]</td>
+        <td class="center">[미정]</td>
+        <td class="center">10-12</td>
+        <td class="center">10-15</td>
+        <td class="center">4일</td>
+        <td class="center"><span class="badge badge-todo">할 일</span></td>
+        <td class="center"><span class="badge badge-p1">P1 (핵심)</span></td>
+        <td class="center">
+          <div class="progress-cell">
+            <span class="progress-bar-bg"><span class="progress-bar-fill" style="width: 0%;"></span></span>
+            <span>0%</span>
+          </div>
+        </td>
+        <td class="center">1.5</td>
+        <td>분류 데이터셋 JSON (10/16 마감)</td>
+      </tr>
+      <tr>
+        <td class="center wbs-id">2.4</td>
+        <td></td>
+        <td>중간발표 자료 작성 및 발표 준비</td>
+        <td class="center">[미정]</td>
+        <td class="center">[미정]</td>
+        <td class="center">10-14</td>
+        <td class="center">10-16</td>
+        <td class="center">3일</td>
+        <td class="center"><span class="badge badge-todo">할 일</span></td>
+        <td class="center"><span class="badge badge-p0">P0 (필수)</span></td>
+        <td class="center">
+          <div class="progress-cell">
+            <span class="progress-bar-bg"><span class="progress-bar-fill" style="width: 0%;"></span></span>
+            <span>0%</span>
+          </div>
+        </td>
+        <td class="center">2.1~2.3</td>
+        <td><span class="deliverable-highlight">중간발표 PT 발표 자료 (10/16 발표)</span><br><span class="sub-note">10/16 발표 준비 일정 유지 (산출물 안내표 10/23 제출 일정과의 정합성 확인)</span></td>
+      </tr>
+
+      <!-- 3.0 (4주차) -->
+      <tr class="group-row">
+        <td class="center wbs-id">3.0</td>
+        <td>모델 개발 및 RAG 구축</td>
+        <td>의도 분류 비교, 규정 벡터DB, K-MOOC API 연동</td>
+        <td class="center">[미정]</td>
+        <td class="center">[미정]</td>
+        <td class="center">10-19</td>
+        <td class="center">10-23</td>
+        <td class="center">5일</td>
+        <td class="center"><span class="badge badge-todo">할 일</span></td>
+        <td class="center"><span class="badge badge-p0">P0 (필수)</span></td>
+        <td class="center">
+          <div class="progress-cell">
+            <span class="progress-bar-bg"><span class="progress-bar-fill" style="width: 0%;"></span></span>
+            <span>0%</span>
+          </div>
+        </td>
+        <td class="center">2.0</td>
+        <td>4주차 필수 산출물 마감</td>
+      </tr>
+      <tr>
+        <td class="center wbs-id">3.1</td>
+        <td></td>
+        <td>ML/DL 요청 분류 2종 모델 학습 및 비교</td>
+        <td class="center">[미정]</td>
+        <td class="center">[미정]</td>
+        <td class="center">10-19</td>
+        <td class="center">10-22</td>
+        <td class="center">4일</td>
+        <td class="center"><span class="badge badge-todo">할 일</span></td>
+        <td class="center"><span class="badge badge-p1">P1 (핵심)</span></td>
+        <td class="center">
+          <div class="progress-cell">
+            <span class="progress-bar-bg"><span class="progress-bar-fill" style="width: 0%;"></span></span>
+            <span>0%</span>
+          </div>
+        </td>
+        <td class="center">2.3</td>
+        <td><span class="deliverable-highlight">ML/DL 학습결과서, 가중치 (10/23 제출)</span></td>
+      </tr>
+      <tr>
+        <td class="center wbs-id">3.2</td>
+        <td></td>
+        <td>규정 벡터 색인 구축 및 메타 필터링 구현</td>
+        <td class="center">[미정]</td>
+        <td class="center">[미정]</td>
+        <td class="center">10-19</td>
+        <td class="center">10-22</td>
+        <td class="center">4일</td>
+        <td class="center"><span class="badge badge-todo">할 일</span></td>
+        <td class="center"><span class="badge badge-p0">P0 (필수)</span></td>
+        <td class="center">
+          <div class="progress-cell">
+            <span class="progress-bar-bg"><span class="progress-bar-fill" style="width: 0%;"></span></span>
+            <span>0%</span>
+          </div>
+        </td>
+        <td class="center">2.2</td>
+        <td><span class="deliverable-highlight">벡터DB 구축 결과서 (10/23 제출)</span></td>
+      </tr>
+      <tr>
+        <td class="center wbs-id">3.3</td>
+        <td></td>
+        <td>K-MOOC 강좌 OpenAPI 연동 모듈 개발</td>
+        <td class="center">[미정]</td>
+        <td class="center">[미정]</td>
+        <td class="center">10-20</td>
+        <td class="center">10-23</td>
+        <td class="center">4일</td>
+        <td class="center"><span class="badge badge-todo">할 일</span></td>
+        <td class="center"><span class="badge badge-p0">P0 (필수)</span></td>
+        <td class="center">
+          <div class="progress-cell">
+            <span class="progress-bar-bg"><span class="progress-bar-fill" style="width: 0%;"></span></span>
+            <span>0%</span>
+          </div>
+        </td>
+        <td class="center">1.5</td>
+        <td>K-MOOC 수집/검색 API 클라이언트 코드</td>
+      </tr>
+      <tr>
+        <td class="center wbs-id">3.4</td>
+        <td></td>
+        <td>RDB 환경 구축 및 가상 인원/평가 데이터 적재</td>
+        <td class="center">[미정]</td>
+        <td class="center">[미정]</td>
+        <td class="center">10-20</td>
+        <td class="center">10-23</td>
+        <td class="center">4일</td>
+        <td class="center"><span class="badge badge-todo">할 일</span></td>
+        <td class="center"><span class="badge badge-p0">P0 (필수)</span></td>
+        <td class="center">
+          <div class="progress-cell">
+            <span class="progress-bar-bg"><span class="progress-bar-fill" style="width: 0%;"></span></span>
+            <span>0%</span>
+          </div>
+        </td>
+        <td class="center">2.1</td>
+        <td>RDB 인스턴스 구축 및 가상 데이터 적재 스크립트</td>
+      </tr>
+
+      <!-- 4.0 (5주차) -->
+      <tr class="group-row">
+        <td class="center wbs-id">4.0</td>
+        <td>에이전트 및 sLLM 구현</td>
+        <td>LangGraph 그래프 구성, 자체 sLLM LoRA 학습 및 서빙</td>
+        <td class="center">[미정]</td>
+        <td class="center">[미정]</td>
+        <td class="center">10-26</td>
+        <td class="center">10-30</td>
+        <td class="center">5일</td>
+        <td class="center"><span class="badge badge-todo">할 일</span></td>
+        <td class="center"><span class="badge badge-p0">P0 (필수)</span></td>
+        <td class="center">
+          <div class="progress-cell">
+            <span class="progress-bar-bg"><span class="progress-bar-fill" style="width: 0%;"></span></span>
+            <span>0%</span>
+          </div>
+        </td>
+        <td class="center">3.0</td>
+        <td>5주차 핵심 산출물 마감</td>
+      </tr>
+      <tr>
+        <td class="center wbs-id">4.1</td>
+        <td></td>
+        <td>sLLM 학습 데이터셋 생성 및 정제 (SFT 포맷)</td>
+        <td class="center">[미정]</td>
+        <td class="center">[미정]</td>
+        <td class="center">10-26</td>
+        <td class="center">10-28</td>
+        <td class="center">3일</td>
+        <td class="center"><span class="badge badge-todo">할 일</span></td>
+        <td class="center"><span class="badge badge-p1">P1 (핵심)</span></td>
+        <td class="center">
+          <div class="progress-cell">
+            <span class="progress-bar-bg"><span class="progress-bar-fill" style="width: 0%;"></span></span>
+            <span>0%</span>
+          </div>
+        </td>
+        <td class="center">2.2</td>
+        <td>LoRA 지도학습용 JSONL 데이터셋 파일</td>
+      </tr>
+      <tr>
+        <td class="center wbs-id">4.2</td>
+        <td></td>
+        <td>9B급 오픈소스 sLLM LoRA 파인튜닝 및 추론 서빙<br><span class="sub-note">(후보 모델군 평가 및 서빙 체계 구축)</span></td>
+        <td class="center">[미정]</td>
+        <td class="center">[미정]</td>
+        <td class="center">10-28</td>
+        <td class="center">10-30</td>
+        <td class="center">3일</td>
+        <td class="center"><span class="badge badge-todo">할 일</span></td>
+        <td class="center"><span class="badge badge-p0">P0 (필수)</span></td>
+        <td class="center">
+          <div class="progress-cell">
+            <span class="progress-bar-bg"><span class="progress-bar-fill" style="width: 0%;"></span></span>
+            <span>0%</span>
+          </div>
+        </td>
+        <td class="center">4.1</td>
+        <td><span class="deliverable-highlight">자체 sLLM 모델 패키지 (10/30 제출 필수 산출물)</span><br><span class="sub-note">포함 산출물: 어댑터 가중치, 학습 설명서, 파인튜닝 소스코드, 학습 전후 정량/정성 평가 결과서 (5주차 내 준비 완료)</span></td>
+      </tr>
+      <tr>
+        <td class="center wbs-id">4.3</td>
+        <td></td>
+        <td>LangGraph StateGraph 및 에이전트 노드 구현</td>
+        <td class="center">[미정]</td>
+        <td class="center">[미정]</td>
+        <td class="center">10-26</td>
+        <td class="center">10-29</td>
+        <td class="center">4일</td>
+        <td class="center"><span class="badge badge-todo">할 일</span></td>
+        <td class="center"><span class="badge badge-p0">P0 (필수)</span></td>
+        <td class="center">
+          <div class="progress-cell">
+            <span class="progress-bar-bg"><span class="progress-bar-fill" style="width: 0%;"></span></span>
+            <span>0%</span>
+          </div>
+        </td>
+        <td class="center">3.2, 3.3</td>
+        <td><span class="deliverable-highlight">LLM 활용 SW 소스코드 (10/30 제출)</span></td>
+      </tr>
+      <tr>
+        <td class="center wbs-id">4.4</td>
+        <td></td>
+        <td>공통 검사기 및 interrupt 제약 로직 구현</td>
+        <td class="center">[미정]</td>
+        <td class="center">[미정]</td>
+        <td class="center">10-28</td>
+        <td class="center">10-30</td>
+        <td class="center">3일</td>
+        <td class="center"><span class="badge badge-todo">할 일</span></td>
+        <td class="center"><span class="badge badge-p0">P0 (필수)</span></td>
+        <td class="center">
+          <div class="progress-cell">
+            <span class="progress-bar-bg"><span class="progress-bar-fill" style="width: 0%;"></span></span>
+            <span>0%</span>
+          </div>
+        </td>
+        <td class="center">4.3</td>
+        <td>규칙 제약 검사기 및 상태 인터럽트 핸들러</td>
+      </tr>
+      <tr>
+        <td class="center wbs-id">4.5</td>
+        <td></td>
+        <td>고정 평가 시나리오 30건 정답지 확정</td>
+        <td class="center">[미정]</td>
+        <td class="center">[미정]</td>
+        <td class="center">10-27</td>
+        <td class="center">10-30</td>
+        <td class="center">4일</td>
+        <td class="center"><span class="badge badge-todo">할 일</span></td>
+        <td class="center"><span class="badge badge-p1">P1 (핵심)</span></td>
+        <td class="center">
+          <div class="progress-cell">
+            <span class="progress-bar-bg"><span class="progress-bar-fill" style="width: 0%;"></span></span>
+            <span>0%</span>
+          </div>
+        </td>
+        <td class="center">1.2</td>
+        <td>고정 시험 정답 및 검증 판정표 초안</td>
+      </tr>
+      <tr>
+        <td class="center wbs-id">4.6</td>
+        <td></td>
+        <td>시스템 아키텍처 및 LLM 활용 SW 정리</td>
+        <td class="center">[미정]</td>
+        <td class="center">[미정]</td>
+        <td class="center">10-29</td>
+        <td class="center">10-30</td>
+        <td class="center">2일</td>
+        <td class="center"><span class="badge badge-todo">할 일</span></td>
+        <td class="center"><span class="badge badge-p0">P0 (필수)</span></td>
+        <td class="center">
+          <div class="progress-cell">
+            <span class="progress-bar-bg"><span class="progress-bar-fill" style="width: 0%;"></span></span>
+            <span>0%</span>
+          </div>
+        </td>
+        <td class="center">4.2, 4.3</td>
+        <td><span class="deliverable-highlight">AI 아키텍처 문서 (10/30 제출)</span></td>
+      </tr>
+
+      <!-- 5.0 (6주차) -->
+      <tr class="group-row">
+        <td class="center wbs-id">5.0</td>
+        <td>비교 실험 및 기능 동결</td>
+        <td>A/B/C 비교 평가, 대형 모델 테스트, 코드 동결</td>
+        <td class="center">[미정]</td>
+        <td class="center">[미정]</td>
+        <td class="center">11-02</td>
+        <td class="center">11-06</td>
+        <td class="center">5일</td>
+        <td class="center"><span class="badge badge-todo">할 일</span></td>
+        <td class="center"><span class="badge badge-p0">P0 (필수)</span></td>
+        <td class="center">
+          <div class="progress-cell">
+            <span class="progress-bar-bg"><span class="progress-bar-fill" style="width: 0%;"></span></span>
+            <span>0%</span>
+          </div>
+        </td>
+        <td class="center">4.0</td>
+        <td><span class="deliverable-highlight">11/6 기능·모델 동결 (Code Freeze)</span></td>
+      </tr>
+      <tr>
+        <td class="center wbs-id">5.1</td>
+        <td></td>
+        <td>에이전트 A/B/C 비교 평가 실험 실행</td>
+        <td class="center">[미정]</td>
+        <td class="center">[미정]</td>
+        <td class="center">11-02</td>
+        <td class="center">11-04</td>
+        <td class="center">3일</td>
+        <td class="center"><span class="badge badge-todo">할 일</span></td>
+        <td class="center"><span class="badge badge-p1">P1 (핵심)</span></td>
+        <td class="center">
+          <div class="progress-cell">
+            <span class="progress-bar-bg"><span class="progress-bar-fill" style="width: 0%;"></span></span>
+            <span>0%</span>
+          </div>
+        </td>
+        <td class="center">4.2, 4.5</td>
+        <td>비교 실험 데이터 측정값 raw 데이터</td>
+      </tr>
+      <tr>
+        <td class="center wbs-id">5.2</td>
+        <td></td>
+        <td>대형 모델(50~70B급) 추론 비교 (실험 D)</td>
+        <td class="center">[미정]</td>
+        <td class="center">[미정]</td>
+        <td class="center">11-03</td>
+        <td class="center">11-05</td>
+        <td class="center">3일</td>
+        <td class="center"><span class="badge badge-todo">할 일</span></td>
+        <td class="center"><span class="badge badge-p2">P2 (확장)</span></td>
+        <td class="center">
+          <div class="progress-cell">
+            <span class="progress-bar-bg"><span class="progress-bar-fill" style="width: 0%;"></span></span>
+            <span>0%</span>
+          </div>
+        </td>
+        <td class="center">5.1</td>
+        <td>대형 모델 비용/지연/품질 비교 결과표</td>
+      </tr>
+      <tr>
+        <td class="center wbs-id">5.3</td>
+        <td></td>
+        <td>비교 실험 결과 분석 및 보고서 작성</td>
+        <td class="center">[미정]</td>
+        <td class="center">[미정]</td>
+        <td class="center">11-04</td>
+        <td class="center">11-06</td>
+        <td class="center">3일</td>
+        <td class="center"><span class="badge badge-todo">할 일</span></td>
+        <td class="center"><span class="badge badge-p1">P1 (핵심)</span></td>
+        <td class="center">
+          <div class="progress-cell">
+            <span class="progress-bar-bg"><span class="progress-bar-fill" style="width: 0%;"></span></span>
+            <span>0%</span>
+          </div>
+        </td>
+        <td class="center">5.1, 5.2</td>
+        <td><span class="deliverable-highlight">멀티에이전트 결과 보고서 (11/6 제출)</span></td>
+      </tr>
+      <tr>
+        <td class="center wbs-id">5.4</td>
+        <td></td>
+        <td>시스템 구성도 확정 및 기능/모델 동결</td>
+        <td class="center">[미정]</td>
+        <td class="center">[미정]</td>
+        <td class="center">11-05</td>
+        <td class="center">11-06</td>
+        <td class="center">2일</td>
+        <td class="center"><span class="badge badge-todo">할 일</span></td>
+        <td class="center"><span class="badge badge-p0">P0 (필수)</span></td>
+        <td class="center">
+          <div class="progress-cell">
+            <span class="progress-bar-bg"><span class="progress-bar-fill" style="width: 0%;"></span></span>
+            <span>0%</span>
+          </div>
+        </td>
+        <td class="center">5.3</td>
+        <td><span class="deliverable-highlight">시스템 구성도, 기능·모델 동결 선언</span></td>
+      </tr>
+
+      <!-- 6.0 (7주차) -->
+      <tr class="group-row">
+        <td class="center wbs-id">6.0</td>
+        <td>통합 테스트 및 결함 개선</td>
+        <td>세션/보안 경계 테스트, 사용자 검증, 디버깅</td>
+        <td class="center">[미정]</td>
+        <td class="center">[미정]</td>
+        <td class="center">11-09</td>
+        <td class="center">11-13</td>
+        <td class="center">5일</td>
+        <td class="center"><span class="badge badge-todo">할 일</span></td>
+        <td class="center"><span class="badge badge-p0">P0 (필수)</span></td>
+        <td class="center">
+          <div class="progress-cell">
+            <span class="progress-bar-bg"><span class="progress-bar-fill" style="width: 0%;"></span></span>
+            <span>0%</span>
+          </div>
+        </td>
+        <td class="center">5.0</td>
+        <td>7주차 통합 검증 완료</td>
+      </tr>
+      <tr>
+        <td class="center wbs-id">6.1</td>
+        <td></td>
+        <td>권한/세션/데이터 영속성 경계값 테스트</td>
+        <td class="center">[미정]</td>
+        <td class="center">[미정]</td>
+        <td class="center">11-09</td>
+        <td class="center">11-11</td>
+        <td class="center">3일</td>
+        <td class="center"><span class="badge badge-todo">할 일</span></td>
+        <td class="center"><span class="badge badge-p0">P0 (필수)</span></td>
+        <td class="center">
+          <div class="progress-cell">
+            <span class="progress-bar-bg"><span class="progress-bar-fill" style="width: 0%;"></span></span>
+            <span>0%</span>
+          </div>
+        </td>
+        <td class="center">5.4</td>
+        <td>보안 및 권한 경계값 테스트 리포트</td>
+      </tr>
+      <tr>
+        <td class="center wbs-id">6.2</td>
+        <td></td>
+        <td>사용자 흐름 검증 (외부 대리 사용자 테스트)</td>
+        <td class="center">[미정]</td>
+        <td class="center">[미정]</td>
+        <td class="center">11-10</td>
+        <td class="center">11-12</td>
+        <td class="center">3일</td>
+        <td class="center"><span class="badge badge-todo">할 일</span></td>
+        <td class="center"><span class="badge badge-p1">P1 (핵심)</span></td>
+        <td class="center">
+          <div class="progress-cell">
+            <span class="progress-bar-bg"><span class="progress-bar-fill" style="width: 0%;"></span></span>
+            <span>0%</span>
+          </div>
+        </td>
+        <td class="center">5.4</td>
+        <td>대리 사용자 피드백 기록서</td>
+      </tr>
+      <tr>
+        <td class="center wbs-id">6.3</td>
+        <td></td>
+        <td>결함 디버깅 및 예외 케이스 처리 보강</td>
+        <td class="center">[미정]</td>
+        <td class="center">[미정]</td>
+        <td class="center">11-11</td>
+        <td class="center">11-13</td>
+        <td class="center">3일</td>
+        <td class="center"><span class="badge badge-todo">할 일</span></td>
+        <td class="center"><span class="badge badge-p0">P0 (필수)</span></td>
+        <td class="center">
+          <div class="progress-cell">
+            <span class="progress-bar-bg"><span class="progress-bar-fill" style="width: 0%;"></span></span>
+            <span>0%</span>
+          </div>
+        </td>
+        <td class="center">6.1, 6.2</td>
+        <td><span class="deliverable-highlight">서비스 테스트 결과서 (11/13 제출)</span></td>
+      </tr>
+
+      <!-- 7.0 (8주차) -->
+      <tr class="group-row">
+        <td class="center wbs-id">7.0</td>
+        <td>최종 패키징 및 발표</td>
+        <td>배포 확인, 시연 영상, 최종 보고서 및 발표 리허설</td>
+        <td class="center">[미정]</td>
+        <td class="center">[미정]</td>
+        <td class="center">11-16</td>
+        <td class="center">11-20</td>
+        <td class="center">5일</td>
+        <td class="center"><span class="badge badge-todo">할 일</span></td>
+        <td class="center"><span class="badge badge-p0">P0 (필수)</span></td>
+        <td class="center">
+          <div class="progress-cell">
+            <span class="progress-bar-bg"><span class="progress-bar-fill" style="width: 0%;"></span></span>
+            <span>0%</span>
+          </div>
+        </td>
+        <td class="center">6.0</td>
+        <td><span class="deliverable-highlight">11/20 최종 제출 및 발표</span></td>
+      </tr>
+      <tr>
+        <td class="center wbs-id">7.1</td>
+        <td></td>
+        <td>최종 웹 어플리케이션 배포 환경 점검</td>
+        <td class="center">[미정]</td>
+        <td class="center">[미정]</td>
+        <td class="center">11-16</td>
+        <td class="center">11-18</td>
+        <td class="center">3일</td>
+        <td class="center"><span class="badge badge-todo">할 일</span></td>
+        <td class="center"><span class="badge badge-p0">P0 (필수)</span></td>
+        <td class="center">
+          <div class="progress-cell">
+            <span class="progress-bar-bg"><span class="progress-bar-fill" style="width: 0%;"></span></span>
+            <span>0%</span>
+          </div>
+        </td>
+        <td class="center">6.3</td>
+        <td><span class="deliverable-highlight">LLM 연동 웹앱 배포 확인서 (11/20)</span></td>
+      </tr>
+      <tr>
+        <td class="center wbs-id">7.2</td>
+        <td></td>
+        <td>시연 시나리오 3종 영상 녹화 및 편집</td>
+        <td class="center">[미정]</td>
+        <td class="center">[미정]</td>
+        <td class="center">11-17</td>
+        <td class="center">11-19</td>
+        <td class="center">3일</td>
+        <td class="center"><span class="badge badge-todo">할 일</span></td>
+        <td class="center"><span class="badge badge-p1">P1 (핵심)</span></td>
+        <td class="center">
+          <div class="progress-cell">
+            <span class="progress-bar-bg"><span class="progress-bar-fill" style="width: 0%;"></span></span>
+            <span>0%</span>
+          </div>
+        </td>
+        <td class="center">7.1</td>
+        <td><span class="deliverable-highlight">시연 영상 파일 (.mp4 제출)</span></td>
+      </tr>
+      <tr>
+        <td class="center wbs-id">7.3</td>
+        <td></td>
+        <td>최종 보고서 작성 및 GitHub 코드 정리</td>
+        <td class="center">[미정]</td>
+        <td class="center">[미정]</td>
+        <td class="center">11-16</td>
+        <td class="center">11-19</td>
+        <td class="center">4일</td>
+        <td class="center"><span class="badge badge-todo">할 일</span></td>
+        <td class="center"><span class="badge badge-p0">P0 (필수)</span></td>
+        <td class="center">
+          <div class="progress-cell">
+            <span class="progress-bar-bg"><span class="progress-bar-fill" style="width: 0%;"></span></span>
+            <span>0%</span>
+          </div>
+        </td>
+        <td class="center">7.1</td>
+        <td><span class="deliverable-highlight">최종 소스코드, README, 한계 문서</span></td>
+      </tr>
+      <tr>
+        <td class="center wbs-id">7.4</td>
+        <td></td>
+        <td>최종 발표 자료 작성 및 발표 리허설</td>
+        <td class="center">[미정]</td>
+        <td class="center">[미정]</td>
+        <td class="center">11-18</td>
+        <td class="center">11-20</td>
+        <td class="center">3일</td>
+        <td class="center"><span class="badge badge-todo">할 일</span></td>
+        <td class="center"><span class="badge badge-p0">P0 (필수)</span></td>
+        <td class="center">
+          <div class="progress-cell">
+            <span class="progress-bar-bg"><span class="progress-bar-fill" style="width: 0%;"></span></span>
+            <span>0%</span>
+          </div>
+        </td>
+        <td class="center">7.2, 7.3</td>
+        <td><span class="deliverable-highlight">최종 발표 PT 자료 (11/20 발표)</span></td>
+      </tr>
+    </tbody>
+  </table>
+
+</body>
+</html>

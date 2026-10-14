@@ -1,0 +1,272 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HR 서비스 ERD</title>
+<style>
+:root {
+  --bg: #f4f5f7; --panel: #ffffff; --card: #ffffff; --ink: #1f2430; --muted: #6b7280;
+  --line-soft: #e3e6ec; --head: #f0f2f6; --shadow: 0 1px 3px rgba(20,24,40,.10);
+  --c1: #2f6fed; --c2: #0f9d8a; --c3: #d98a00; --c4: #8b5cf6; --c5: #2e9e4f;
+  --pk: #d98a00; --fk: #2f6fed;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #14171d; --panel: #1b1f27; --card: #232834; --ink: #e8eaf0; --muted: #9aa3b2;
+    --line-soft: #343b49; --head: #2a3040; --shadow: 0 1px 3px rgba(0,0,0,.5);
+    --c1: #6f9bff; --c2: #3fc4b0; --c3: #f0b040; --c4: #ae8cff; --c5: #5cc47a;
+    --pk: #f0b040; --fk: #6f9bff;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #14171d; --panel: #1b1f27; --card: #232834; --ink: #e8eaf0; --muted: #9aa3b2;
+  --line-soft: #343b49; --head: #2a3040; --shadow: 0 1px 3px rgba(0,0,0,.5);
+  --c1: #6f9bff; --c2: #3fc4b0; --c3: #f0b040; --c4: #ae8cff; --c5: #5cc47a;
+  --pk: #f0b040; --fk: #6f9bff;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; background: var(--bg); color: var(--ink);
+  font-family: "Pretendard", "Malgun Gothic", "Apple SD Gothic Neo", system-ui, sans-serif; }
+.bar { position: sticky; top: 0; z-index: 20; background: var(--panel); border-bottom: 1px solid var(--line-soft);
+  display: flex; flex-wrap: wrap; align-items: center; gap: 10px 18px; padding: 10px 16px; }
+.bar h1 { font-size: 16px; margin: 0; }
+.bar .sub { color: var(--muted); font-size: 12px; }
+.ctl { display: flex; align-items: center; gap: 6px; font-size: 12px; }
+.ctl button { border: 1px solid var(--line-soft); background: var(--card); color: var(--ink); border-radius: 6px;
+  padding: 3px 9px; font-size: 12px; cursor: pointer; }
+.ctl button:hover { background: var(--head); }
+.ctl label { display: flex; align-items: center; gap: 4px; cursor: pointer; }
+.legend { display: flex; flex-wrap: wrap; gap: 6px 14px; font-size: 12px; color: var(--muted); align-items: center; }
+.legend i { display: inline-block; width: 26px; height: 0; border-top: 2px solid var(--muted); vertical-align: middle; margin-right: 4px; }
+.legend i.dash { border-top-style: dashed; }
+.legend .dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; background: var(--muted); margin-right: 4px; }
+.legend .tick { display: inline-block; width: 2px; height: 11px; background: var(--muted); margin-right: 4px; vertical-align: middle; }
+.sw { width: 10px; height: 10px; border-radius: 3px; display: inline-block; margin-right: 4px; }
+#viewport { overflow: auto; height: calc(100vh - 92px); min-height: 400px; }
+#stage { transform-origin: 0 0; position: relative; }
+#canvas { position: relative; padding: 28px; display: grid; gap: 56px 70px;
+  grid-template-columns: 660px 300px 300px 1060px;
+  grid-template-areas: "p3 p2 p1 p5" "p3 p2 p4 p5"; align-items: start; }
+#links { position: absolute; left: 0; top: 0; pointer-events: none; overflow: visible; z-index: 1; }
+.panel { position: relative; background: var(--panel); border: 1px solid var(--line-soft); border-top: 4px solid var(--pc);
+  border-radius: 12px; padding: 40px 18px 20px; box-shadow: var(--shadow); }
+.panel > .ptitle { position: absolute; left: 14px; top: 10px; font-weight: 700; font-size: 13px; color: var(--pc); }
+.panel > .ptitle small { color: var(--muted); font-weight: 400; margin-left: 6px; }
+.pbody { display: grid; gap: 22px; }
+.card { background: var(--card); border: 1px solid var(--line-soft); border-radius: 8px; box-shadow: var(--shadow);
+  overflow: hidden; position: relative; z-index: 2; transition: opacity .12s; }
+.card .ch { background: var(--head); padding: 6px 10px; border-bottom: 2px solid var(--pc); }
+.card .ch b { font-size: 13px; display: block; }
+.card .ch span { font-family: Consolas, "D2Coding", monospace; font-size: 10.5px; color: var(--muted); }
+.row { display: flex; align-items: center; gap: 6px; padding: 2px 10px; font-size: 11.5px; height: 22px; border-top: 1px solid var(--line-soft); }
+.row:first-of-type { border-top: 0; }
+.row .bd { width: 20px; flex: none; font-size: 9px; font-weight: 700; text-align: center; }
+.row .bd.pk { color: var(--pk); } .row .bd.fk { color: var(--fk); }
+.row .nm { font-family: Consolas, "D2Coding", monospace; flex: 1; min-width: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.row.is-pk .nm { font-weight: 700; }
+.row .ty { color: var(--muted); font-size: 10px; flex: none; }
+.row .nn { color: var(--muted); font-size: 9px; flex: none; }
+.row.link-hl { background: color-mix(in srgb, var(--pc) 16%, transparent); }
+body.kr .row .nm { font-family: inherit; font-size: 11.5px; }
+.dim { opacity: .18; }
+path.ln { fill: none; stroke-width: 1.6; opacity: .8; transition: opacity .12s, stroke-width .12s; }
+path.ln.inf { stroke-dasharray: 6 4; }
+path.ln.on { stroke-width: 2.8; opacity: 1; }
+path.ln.dim { opacity: .07; }
+.mk { transition: opacity .12s; }
+.mk.dim { opacity: .07; }
+.hint { padding: 8px 16px; font-size: 12px; color: var(--muted); }
+</style>
+</head>
+<body>
+<div class="bar">
+  <div>
+    <h1>HR 서비스 ERD <span class="sub">· 테이블 <span id="cT"></span>개 · 관계 <span id="cR"></span>개</span></h1>
+    <div class="sub">원본: HR_Example.sql (ERDCloud 내보내기). 테이블에 마우스를 올리면 연결된 관계만 강조됩니다.</div>
+  </div>
+  <div class="ctl">
+    <button id="zo">−</button><span id="zv">100%</span><button id="zi">+</button><button id="zf">화면에 맞춤</button>
+    <label><input type="checkbox" id="tInf" checked> 추정 관계(점선)</label>
+    <label><input type="checkbox" id="tKr"> 한글 설명으로 보기</label>
+    <button id="tTheme">다크/라이트</button>
+  </div>
+  <div class="legend">
+    <span><i></i>SQL에 선언된 FK</span>
+    <span><i class="dash"></i>컬럼명으로 추정한 관계</span>
+    <span><span class="dot"></span>N(자식, FK 쪽)</span>
+    <span><span class="tick"></span>1(부모, PK 쪽)</span>
+    <span><b style="color:var(--pk)">PK</b> 기본키 · <b style="color:var(--fk)">FK</b> 외래키</span>
+    <span id="lg"></span>
+  </div>
+</div>
+<div id="viewport"><div id="stage"><div id="canvas"><svg id="links"></svg></div></div></div>
+
+<script>
+const D = {"tables": {"institution": {"cols": [{"n": "institution_id", "t": "VARCHAR(64)", "nn": true, "c": "기관 ID", "pk": true, "fk": false}, {"n": "name", "t": "VARCHAR(255)", "nn": true, "c": "기관명", "pk": false, "fk": false}, {"n": "external_code", "t": "VARCHAR(255)", "nn": false, "c": "외부 기관 코드", "pk": false, "fk": false}], "label": "기관"}, "rag_chunk": {"cols": [{"n": "rag_chunk_id", "t": "VARCHAR(64)", "nn": true, "c": "검색 조각 ID", "pk": true, "fk": false}, {"n": "regulation_version_id", "t": "VARCHAR(64)", "nn": true, "c": "개정본 ID", "pk": false, "fk": true}, {"n": "chunk_text", "t": "TEXT", "nn": true, "c": "검색 본문", "pk": false, "fk": false}, {"n": "chunk_type", "t": "VARCHAR(40)", "nn": true, "c": "조각 유형", "pk": false, "fk": false}, {"n": "context_path", "t": "VARCHAR(1024)", "nn": true, "c": "문맥 계층 경로", "pk": false, "fk": false}, {"n": "content_hash", "t": "VARCHAR(128)", "nn": true, "c": "내용 해시", "pk": false, "fk": false}, {"n": "chunking_version", "t": "VARCHAR(255)", "nn": true, "c": "분할 설정 버전", "pk": false, "fk": false}, {"n": "index_revision", "t": "VARCHAR(255)", "nn": true, "c": "색인 묶음 버전", "pk": false, "fk": false}, {"n": "embedding_model", "t": "VARCHAR(255)", "nn": true, "c": "임베딩 모델명", "pk": false, "fk": false}, {"n": "search_status", "t": "VARCHAR(40)", "nn": true, "c": "검색 사용 상태", "pk": false, "fk": false}, {"n": "created_at", "t": "DATETIME", "nn": true, "c": "생성일", "pk": false, "fk": false}, {"n": "token_count", "t": "INT", "nn": false, "c": "토큰 수", "pk": false, "fk": false}], "label": "검색 조각"}, "skill_tags": {"cols": [{"n": "skill_id", "t": "INT", "nn": true, "c": "스킬 고유 ID", "pk": true, "fk": false}, {"n": "name", "t": "VARCHAR(50)", "nn": true, "c": "표준 실무 스킬명", "pk": false, "fk": false}, {"n": "category", "t": "VARCHAR(30)", "nn": false, "c": "기술 도메인 분류", "pk": false, "fk": false}, {"n": "embedding", "t": "TEXT", "nn": false, "c": "스킬 1536차원 벡터 임베딩", "pk": false, "fk": false}], "label": "스킬"}, "certifications": {"cols": [{"n": "cert_id", "t": "INT", "nn": true, "c": "자격증 고유 ID", "pk": true, "fk": false}, {"n": "title", "t": "VARCHAR(100)", "nn": true, "c": "자격증 종목명", "pk": false, "fk": false}, {"n": "provider", "t": "VARCHAR(50)", "nn": true, "c": "발급/시행 기관", "pk": false, "fk": false}, {"n": "test_subjects", "t": "TEXT", "nn": false, "c": "정규 출제 과목", "pk": false, "fk": false}, {"n": "career_outlook", "t": "TEXT", "nn": false, "c": "자격 취득 전망", "pk": false, "fk": false}, {"n": "exam_type", "t": "VARCHAR(20)", "nn": false, "c": "검정 방식(필기/실기)", "pk": false, "fk": false}, {"n": "pass_score", "t": "INT", "nn": false, "c": "공인 합격 기준 점수", "pk": false, "fk": false}, {"n": "embedding", "t": "TEXT", "nn": false, "c": "자격증 1536차원 벡터 임베딩", "pk": false, "fk": false}, {"n": "last_batch_updated", "t": "DATETIME", "nn": false, "c": "최종 동기화 일시", "pk": false, "fk": false}], "label": "자격증"}, "employee_work_context": {"cols": [{"n": "employee_work_context_id", "t": "VARCHAR(64)", "nn": true, "c": "업무 맥락 ID", "pk": true, "fk": false}, {"n": "employee_id", "t": "VARCHAR(64)", "nn": true, "c": "직원 ID", "pk": false, "fk": true}, {"n": "department_label", "t": "VARCHAR(255)", "nn": false, "c": "소속 부서 표시", "pk": false, "fk": false}, {"n": "grade_label", "t": "VARCHAR(255)", "nn": false, "c": "직급 표시", "pk": false, "fk": false}, {"n": "job_family_label", "t": "VARCHAR(255)", "nn": false, "c": "직군 표시", "pk": false, "fk": false}, {"n": "work_type_label", "t": "VARCHAR(255)", "nn": false, "c": "근무 유형 표시", "pk": false, "fk": false}, {"n": "task_summary", "t": "TEXT", "nn": false, "c": "주요 담당 업무", "pk": false, "fk": false}, {"n": "valid_from", "t": "DATE", "nn": false, "c": "적용 시작일", "pk": false, "fk": false}, {"n": "valid_to", "t": "DATE", "nn": false, "c": "적용 종료일", "pk": false, "fk": false}, {"n": "record_source", "t": "VARCHAR(40)", "nn": true, "c": "입력 출처", "pk": false, "fk": false}], "label": "업무 맥락"}, "major_skill_map": {"cols": [{"n": "major_id", "t": "INT", "nn": true, "c": "전공 학과 ID", "pk": true, "fk": true}, {"n": "skill_id", "t": "INT", "nn": true, "c": "스킬 ID", "pk": true, "fk": true}], "label": "전공-스킬"}, "books": {"cols": [{"n": "isbn", "t": "VARCHAR(20)", "nn": true, "c": "국제표준도서번호(ISBN)", "pk": true, "fk": false}, {"n": "title", "t": "VARCHAR(200)", "nn": true, "c": "도서명", "pk": false, "fk": false}, {"n": "author", "t": "VARCHAR(100)", "nn": false, "c": "저자명", "pk": false, "fk": false}, {"n": "publisher", "t": "VARCHAR(100)", "nn": false, "c": "출판사명", "pk": false, "fk": false}, {"n": "loan_count", "t": "INT", "nn": false, "c": "공공도서관 실대출 횟수", "pk": false, "fk": false}, {"n": "kdc_code", "t": "VARCHAR(10)", "nn": false, "c": "한국십진분류(004: 컴퓨터과학)", "pk": false, "fk": false}, {"n": "embedding", "t": "TEXT", "nn": false, "c": "도서 1536차원 벡터 임베딩", "pk": false, "fk": false}, {"n": "last_batch_updated", "t": "DATETIME", "nn": false, "c": "최종 동기화 일시", "pk": false, "fk": false}], "label": "도서"}, "employee_evaluation_result": {"cols": [{"n": "employee_evaluation_result_id", "t": "VARCHAR(64)", "nn": true, "c": "직원 결과 ID", "pk": true, "fk": false}, {"n": "employee_id", "t": "VARCHAR(64)", "nn": true, "c": "직원 ID", "pk": false, "fk": true}, {"n": "evaluation_result_schema_id", "t": "VARCHAR(64)", "nn": true, "c": "결과 양식 ID", "pk": false, "fk": true}, {"n": "period_start", "t": "DATE", "nn": true, "c": "평정 대상 시작일", "pk": false, "fk": false}, {"n": "period_end", "t": "DATE", "nn": true, "c": "평정 대상 종료일", "pk": false, "fk": false}, {"n": "result_label", "t": "VARCHAR(255)", "nn": false, "c": "결과 표시", "pk": false, "fk": false}, {"n": "overall_score", "t": "DECIMAL(10, 2)", "nn": false, "c": "제공된 총점", "pk": false, "fk": false}, {"n": "overall_grade", "t": "VARCHAR(255)", "nn": false, "c": "제공된 최종 등급", "pk": false, "fk": false}, {"n": "source_kind", "t": "VARCHAR(40)", "nn": true, "c": "결과 출처", "pk": false, "fk": false}, {"n": "record_status", "t": "VARCHAR(40)", "nn": true, "c": "결과 등록 상태", "pk": false, "fk": false}, {"n": "context_snapshot", "t": "JSON", "nn": false, "c": "평정 당시 맥락", "pk": false, "fk": false}, {"n": "source_note", "t": "TEXT", "nn": false, "c": "등록 출처 메모", "pk": false, "fk": false}], "label": "직원 평가 결과"}, "regulation_scope": {"cols": [{"n": "regulation_scope_id", "t": "VARCHAR(64)", "nn": true, "c": "적용 조건 ID", "pk": true, "fk": false}, {"n": "regulation_node_id", "t": "VARCHAR(64)", "nn": true, "c": "근거 원문 항목 ID", "pk": false, "fk": true}, {"n": "scope_type", "t": "VARCHAR(40)", "nn": true, "c": "조건 종류", "pk": false, "fk": false}, {"n": "condition_text", "t": "TEXT", "nn": true, "c": "조건 원문", "pk": false, "fk": false}, {"n": "condition_json", "t": "JSON", "nn": false, "c": "구조화 조건", "pk": false, "fk": false}, {"n": "applies_to_node_id", "t": "VARCHAR(64)", "nn": false, "c": "적용받는 항목 ID", "pk": false, "fk": true}, {"n": "review_status", "t": "VARCHAR(40)", "nn": true, "c": "검토 상태", "pk": false, "fk": false}], "label": "적용 조건"}, "employee_career": {"cols": [{"n": "employee_career_id", "t": "VARCHAR(64)", "nn": true, "c": "경력 이력 ID", "pk": true, "fk": false}, {"n": "employee_id", "t": "VARCHAR(64)", "nn": true, "c": "직원 ID", "pk": false, "fk": true}, {"n": "organization_name", "t": "VARCHAR(255)", "nn": true, "c": "경력 기관·회사명", "pk": false, "fk": false}, {"n": "role_summary", "t": "TEXT", "nn": true, "c": "담당 업무·역할 요약", "pk": false, "fk": false}, {"n": "start_date", "t": "DATE", "nn": true, "c": "시작일", "pk": false, "fk": false}, {"n": "end_date", "t": "DATE", "nn": false, "c": "종료일", "pk": false, "fk": false}, {"n": "record_source", "t": "VARCHAR(40)", "nn": true, "c": "입력 출처", "pk": false, "fk": false}, {"n": "verification_status", "t": "VARCHAR(40)", "nn": true, "c": "확인 상태", "pk": false, "fk": false}], "label": "경력 이력"}, "book_skill_map": {"cols": [{"n": "isbn", "t": "VARCHAR(20)", "nn": true, "c": "도서 ISBN", "pk": true, "fk": true}, {"n": "skill_id", "t": "INT", "nn": true, "c": "스킬 ID", "pk": true, "fk": true}], "label": "도서-스킬"}, "evaluation_schema_source": {"cols": [{"n": "evaluation_schema_source_id", "t": "VARCHAR(64)", "nn": true, "c": "양식 근거 ID", "pk": true, "fk": false}, {"n": "evaluation_result_schema_id", "t": "VARCHAR(64)", "nn": true, "c": "결과 양식 ID", "pk": false, "fk": true}, {"n": "regulation_node_id", "t": "VARCHAR(64)", "nn": true, "c": "근거 원문 항목 ID", "pk": false, "fk": true}, {"n": "evaluation_item_definition_id", "t": "VARCHAR(64)", "nn": false, "c": "해당 항목 ID", "pk": false, "fk": true}, {"n": "source_role", "t": "VARCHAR(40)", "nn": true, "c": "근거 역할", "pk": false, "fk": false}], "label": "양식 근거"}, "user_skill_gap": {"cols": [{"n": "gap_id", "t": "INT", "nn": true, "c": "결손 진단 ID", "pk": true, "fk": false}, {"n": "employee_id", "t": "VARCHAR(64)", "nn": true, "c": "직원 ID ★임직원 연계", "pk": false, "fk": true}, {"n": "skill_id", "t": "INT", "nn": true, "c": "결손 스킬 ID", "pk": false, "fk": true}, {"n": "gap_level", "t": "VARCHAR(10)", "nn": true, "c": "결손 심각도(HIGH/LOW)", "pk": false, "fk": false}, {"n": "created_at", "t": "DATETIME", "nn": true, "c": "진단 일시", "pk": false, "fk": false}], "label": "스킬 결손 진단"}, "employee_learning": {"cols": [{"n": "employee_learning_id", "t": "VARCHAR(64)", "nn": true, "c": "학습 이력 ID", "pk": true, "fk": false}, {"n": "employee_id", "t": "VARCHAR(64)", "nn": true, "c": "직원 ID", "pk": false, "fk": true}, {"n": "course_id", "t": "VARCHAR(50)", "nn": false, "c": "연계 온라인 강좌 ID ★강좌 연계", "pk": false, "fk": true}, {"n": "learning_title", "t": "VARCHAR(255)", "nn": true, "c": "교육·학습명", "pk": false, "fk": false}, {"n": "provider_name", "t": "VARCHAR(255)", "nn": false, "c": "교육 제공기관(K-MOOC/MS Learn)", "pk": false, "fk": false}, {"n": "completed_at", "t": "DATE", "nn": false, "c": "완료일", "pk": false, "fk": false}, {"n": "completion_status", "t": "VARCHAR(40)", "nn": true, "c": "이수 상태", "pk": false, "fk": false}, {"n": "learning_hours", "t": "DECIMAL(10, 2)", "nn": false, "c": "학습 시간", "pk": false, "fk": false}, {"n": "record_source", "t": "VARCHAR(40)", "nn": true, "c": "입력 출처", "pk": false, "fk": false}, {"n": "verification_status", "t": "VARCHAR(40)", "nn": true, "c": "확인 상태", "pk": false, "fk": false}], "label": "학습 이력"}, "course_skill_map": {"cols": [{"n": "course_id", "t": "VARCHAR(50)", "nn": true, "c": "강좌 ID", "pk": true, "fk": true}, {"n": "skill_id", "t": "INT", "nn": true, "c": "스킬 ID", "pk": true, "fk": true}], "label": "강좌-스킬"}, "jobs": {"cols": [{"n": "job_id", "t": "INT", "nn": true, "c": "직무 고유 ID", "pk": true, "fk": false}, {"n": "title", "t": "VARCHAR(100)", "nn": true, "c": "표준 직무명", "pk": false, "fk": false}, {"n": "ncs_units", "t": "TEXT", "nn": false, "c": "NCS 요구역량 및 직무 기술서", "pk": false, "fk": false}, {"n": "embedding", "t": "TEXT", "nn": false, "c": "직무 1536차원 벡터 임베딩", "pk": false, "fk": false}, {"n": "last_batch_updated", "t": "DATETIME", "nn": false, "c": "최종 동기화 일시", "pk": false, "fk": false}], "label": "직무"}, "employee_evaluation_item_result": {"cols": [{"n": "employee_evaluation_item_result_id", "t": "VARCHAR(64)", "nn": true, "c": "항목 결과 ID", "pk": true, "fk": false}, {"n": "employee_evaluation_result_id", "t": "VARCHAR(64)", "nn": true, "c": "직원 결과 ID", "pk": false, "fk": true}, {"n": "evaluation_item_definition_id", "t": "VARCHAR(64)", "nn": true, "c": "항목 정의 ID", "pk": false, "fk": true}, {"n": "provided_status", "t": "VARCHAR(40)", "nn": true, "c": "항목 제공 상태", "pk": false, "fk": false}, {"n": "score_value", "t": "DECIMAL(10, 2)", "nn": false, "c": "제공된 항목 점수", "pk": false, "fk": false}, {"n": "grade_value", "t": "VARCHAR(255)", "nn": false, "c": "제공된 항목 등급", "pk": false, "fk": false}, {"n": "feedback_text", "t": "TEXT", "nn": false, "c": "평가 피드백 ★스킬갭 원천 데이터", "pk": false, "fk": false}], "label": "항목별 평가 결과"}, "evaluation_item_definition": {"cols": [{"n": "evaluation_item_definition_id", "t": "VARCHAR(64)", "nn": true, "c": "항목 정의 ID", "pk": true, "fk": false}, {"n": "evaluation_result_schema_id", "t": "VARCHAR(64)", "nn": true, "c": "결과 양식 ID", "pk": false, "fk": true}, {"n": "parent_item_id", "t": "VARCHAR(64)", "nn": false, "c": "상위 항목 ID", "pk": false, "fk": true}, {"n": "skill_id", "t": "INT", "nn": false, "c": "연계 표준 실무 스킬 ID ★스킬 연계", "pk": false, "fk": true}, {"n": "item_code", "t": "VARCHAR(255)", "nn": true, "c": "항목 코드", "pk": false, "fk": false}, {"n": "item_name", "t": "VARCHAR(255)", "nn": true, "c": "항목명", "pk": false, "fk": false}, {"n": "value_kind", "t": "VARCHAR(40)", "nn": true, "c": "주요 값 유형", "pk": false, "fk": false}, {"n": "score_min", "t": "DECIMAL(10, 2)", "nn": false, "c": "척도 최솟값", "pk": false, "fk": false}, {"n": "score_max", "t": "DECIMAL(10, 2)", "nn": false, "c": "척도 최댓값", "pk": false, "fk": false}, {"n": "scale_note", "t": "TEXT", "nn": false, "c": "단위·등급·척도 설명", "pk": false, "fk": false}, {"n": "display_order", "t": "INT", "nn": true, "c": "표시 순서", "pk": false, "fk": false}], "label": "평가 항목 정의"}, "evaluation_result_schema": {"cols": [{"n": "evaluation_result_schema_id", "t": "VARCHAR(64)", "nn": true, "c": "결과 양식 ID", "pk": true, "fk": false}, {"n": "institution_id", "t": "VARCHAR(64)", "nn": true, "c": "기관 ID", "pk": false, "fk": true}, {"n": "schema_name", "t": "VARCHAR(255)", "nn": true, "c": "결과 양식명", "pk": false, "fk": false}, {"n": "version_label", "t": "VARCHAR(255)", "nn": true, "c": "양식 버전 표시", "pk": false, "fk": false}, {"n": "applicability_note", "t": "TEXT", "nn": false, "c": "대상·적용 설명", "pk": false, "fk": false}, {"n": "source_status", "t": "VARCHAR(40)", "nn": true, "c": "양식 근거 구분", "pk": false, "fk": false}, {"n": "review_status", "t": "VARCHAR(40)", "nn": true, "c": "등록 양식 검토 상태", "pk": false, "fk": false}, {"n": "source_note", "t": "TEXT", "nn": false, "c": "근거·가정 메모", "pk": false, "fk": false}], "label": "평가 결과 양식"}, "regulation_version": {"cols": [{"n": "regulation_version_id", "t": "VARCHAR(64)", "nn": true, "c": "개정본 ID", "pk": true, "fk": false}, {"n": "regulation_id", "t": "VARCHAR(64)", "nn": true, "c": "규정 ID", "pk": false, "fk": true}, {"n": "version_label", "t": "VARCHAR(255)", "nn": true, "c": "개정본 표시", "pk": false, "fk": false}, {"n": "title_at_version", "t": "VARCHAR(255)", "nn": true, "c": "당시 규정명", "pk": false, "fk": false}, {"n": "content_kind", "t": "VARCHAR(40)", "nn": true, "c": "자료 유형", "pk": false, "fk": false}, {"n": "coverage_status", "t": "VARCHAR(40)", "nn": true, "c": "본문 범위", "pk": false, "fk": false}, {"n": "amendment_date", "t": "DATE", "nn": false, "c": "개정일", "pk": false, "fk": false}, {"n": "effective_from", "t": "DATE", "nn": false, "c": "일반 시행일", "pk": false, "fk": false}, {"n": "effective_to", "t": "DATE", "nn": false, "c": "효력 종료일", "pk": false, "fk": false}, {"n": "date_status", "t": "VARCHAR(40)", "nn": true, "c": "날짜 확인 상태", "pk": false, "fk": false}, {"n": "review_status", "t": "VARCHAR(40)", "nn": true, "c": "검토 상태", "pk": false, "fk": false}, {"n": "availability_status", "t": "VARCHAR(40)", "nn": true, "c": "자료 이용 상태", "pk": false, "fk": false}, {"n": "previous_version_id", "t": "VARCHAR(64)", "nn": false, "c": "이전 개정본 ID", "pk": false, "fk": true}, {"n": "review_note", "t": "TEXT", "nn": false, "c": "예외·검토 메모", "pk": false, "fk": false}], "label": "규정 개정본"}, "regulation": {"cols": [{"n": "regulation_id", "t": "VARCHAR(64)", "nn": true, "c": "규정 ID", "pk": true, "fk": false}, {"n": "institution_id", "t": "VARCHAR(64)", "nn": true, "c": "기관 ID", "pk": false, "fk": true}, {"n": "name", "t": "VARCHAR(255)", "nn": true, "c": "규정명", "pk": false, "fk": false}, {"n": "category", "t": "VARCHAR(40)", "nn": true, "c": "업무 분류", "pk": false, "fk": false}, {"n": "document_kind", "t": "VARCHAR(40)", "nn": true, "c": "자료 성격", "pk": false, "fk": false}], "label": "규정"}, "regulation_node": {"cols": [{"n": "regulation_node_id", "t": "VARCHAR(64)", "nn": true, "c": "원문 항목 ID", "pk": true, "fk": false}, {"n": "regulation_version_id", "t": "VARCHAR(64)", "nn": true, "c": "개정본 ID", "pk": false, "fk": true}, {"n": "regulation_file_id", "t": "VARCHAR(64)", "nn": true, "c": "추출 파일 ID", "pk": false, "fk": true}, {"n": "parent_node_id", "t": "VARCHAR(64)", "nn": false, "c": "상위 항목 ID", "pk": false, "fk": true}, {"n": "node_type", "t": "VARCHAR(40)", "nn": true, "c": "항목 유형(조/항/호)", "pk": false, "fk": false}, {"n": "label", "t": "VARCHAR(255)", "nn": true, "c": "항목 표시(제N조)", "pk": false, "fk": false}, {"n": "title", "t": "VARCHAR(255)", "nn": false, "c": "항목 제목", "pk": false, "fk": false}, {"n": "path", "t": "VARCHAR(1024)", "nn": true, "c": "계층 경로", "pk": false, "fk": false}, {"n": "display_order", "t": "INT", "nn": true, "c": "표시 순서", "pk": false, "fk": false}, {"n": "body_text", "t": "TEXT", "nn": true, "c": "원문 본문", "pk": false, "fk": false}, {"n": "source_locator", "t": "JSON", "nn": true, "c": "원문 위치 메타데이터", "pk": false, "fk": false}, {"n": "effective_from_override", "t": "DATE", "nn": false, "c": "항목별 시행일 예외", "pk": false, "fk": false}, {"n": "effective_to_override", "t": "DATE", "nn": false, "c": "항목별 종료일 예외", "pk": false, "fk": false}, {"n": "extraction_status", "t": "VARCHAR(40)", "nn": true, "c": "항목 추출 상태", "pk": false, "fk": false}, {"n": "review_note", "t": "TEXT", "nn": false, "c": "검토 메모", "pk": false, "fk": false}], "label": "규정 조항 원문"}, "job_skill_map": {"cols": [{"n": "job_id", "t": "INT", "nn": true, "c": "직무 ID", "pk": true, "fk": true}, {"n": "skill_id", "t": "INT", "nn": true, "c": "스킬 ID", "pk": true, "fk": true}], "label": "직무-스킬"}, "rag_chunk_source": {"cols": [{"n": "rag_chunk_source_id", "t": "VARCHAR(64)", "nn": true, "c": "근거 연결 ID", "pk": true, "fk": false}, {"n": "rag_chunk_id", "t": "VARCHAR(64)", "nn": true, "c": "조각 ID", "pk": false, "fk": true}, {"n": "regulation_node_id", "t": "VARCHAR(64)", "nn": true, "c": "원문 항목 ID", "pk": false, "fk": true}, {"n": "source_order", "t": "INT", "nn": true, "c": "근거 순서", "pk": false, "fk": false}, {"n": "source_role", "t": "VARCHAR(40)", "nn": true, "c": "근거 역할", "pk": false, "fk": false}, {"n": "source_span", "t": "JSON", "nn": false, "c": "인용 구간", "pk": false, "fk": false}], "label": "조각 근거"}, "cert_skill_map": {"cols": [{"n": "cert_id", "t": "INT", "nn": true, "c": "자격증 ID", "pk": true, "fk": true}, {"n": "skill_id", "t": "INT", "nn": true, "c": "스킬 ID", "pk": true, "fk": true}], "label": "자격증-스킬"}, "employee": {"cols": [{"n": "employee_id", "t": "VARCHAR(64)", "nn": true, "c": "직원 ID", "pk": true, "fk": false}, {"n": "institution_id", "t": "VARCHAR(64)", "nn": true, "c": "소속 기관 ID", "pk": false, "fk": true}, {"n": "institution_membership_id", "t": "VARCHAR(64)", "nn": false, "c": "로그인 소속 연결", "pk": false, "fk": true}, {"n": "employee_code", "t": "VARCHAR(255)", "nn": false, "c": "사번", "pk": false, "fk": false}, {"n": "display_name", "t": "VARCHAR(255)", "nn": false, "c": "임직원 이름", "pk": false, "fk": false}, {"n": "data_origin", "t": "VARCHAR(40)", "nn": true, "c": "직원 데이터 구성", "pk": false, "fk": false}, {"n": "target_job_id", "t": "INT", "nn": false, "c": "목표 직무(CDP) ID ★직무 연계", "pk": false, "fk": true}, {"n": "is_degree_seeker", "t": "TINYINT(1)", "nn": false, "c": "사내 대학원/학위 지원 희망 여부", "pk": false, "fk": false}], "label": "직원"}, "employee_credential": {"cols": [{"n": "employee_credential_id", "t": "VARCHAR(64)", "nn": true, "c": "자격 이력 ID", "pk": true, "fk": false}, {"n": "employee_id", "t": "VARCHAR(64)", "nn": true, "c": "직원 ID", "pk": false, "fk": true}, {"n": "cert_id", "t": "INT", "nn": false, "c": "연계 공인 자격증 ID ★자격증 연계", "pk": false, "fk": true}, {"n": "credential_name", "t": "VARCHAR(255)", "nn": true, "c": "자격·인증명", "pk": false, "fk": false}, {"n": "issuer_name", "t": "VARCHAR(255)", "nn": false, "c": "발급기관(K-DATA 등)", "pk": false, "fk": false}, {"n": "awarded_on", "t": "DATE", "nn": false, "c": "취득일", "pk": false, "fk": false}, {"n": "expires_on", "t": "DATE", "nn": false, "c": "유효 종료일", "pk": false, "fk": false}, {"n": "record_source", "t": "VARCHAR(40)", "nn": true, "c": "입력 출처", "pk": false, "fk": false}, {"n": "verification_status", "t": "VARCHAR(40)", "nn": true, "c": "확인 상태", "pk": false, "fk": false}], "label": "자격 이력"}, "courses": {"cols": [{"n": "course_id", "t": "VARCHAR(50)", "nn": true, "c": "강좌 고유 ID", "pk": true, "fk": false}, {"n": "title", "t": "VARCHAR(200)", "nn": true, "c": "강좌명", "pk": false, "fk": false}, {"n": "category_name", "t": "VARCHAR(50)", "nn": false, "c": "강좌 분류", "pk": false, "fk": false}, {"n": "org_name", "t": "VARCHAR(100)", "nn": false, "c": "주관 기관(대학/MS)", "pk": false, "fk": false}, {"n": "url", "t": "VARCHAR(255)", "nn": false, "c": "200 OK 수강 링크", "pk": false, "fk": false}, {"n": "is_matchup", "t": "TINYINT(1)", "nn": false, "c": "단기인증 매치업 여부", "pk": false, "fk": false}, {"n": "cost", "t": "DECIMAL(10, 2)", "nn": false, "c": "수강 비용", "pk": false, "fk": false}, {"n": "duration_weeks", "t": "INT", "nn": false, "c": "교육 기간(주)", "pk": false, "fk": false}, {"n": "recruitment_status", "t": "VARCHAR(30)", "nn": false, "c": "모집 상태", "pk": false, "fk": false}, {"n": "syllabus_summary", "t": "TEXT", "nn": false, "c": "상세 교육 계획서 요약", "pk": false, "fk": false}, {"n": "platform", "t": "VARCHAR(50)", "nn": true, "c": "플랫폼(K-MOOC/MS Learn)", "pk": false, "fk": false}, {"n": "difficulty", "t": "VARCHAR(20)", "nn": true, "c": "난이도(BEGINNER/INTERMEDIATE/ADVANCED)", "pk": false, "fk": false}, {"n": "embedding", "t": "TEXT", "nn": false, "c": "강좌 1536차원 벡터 임베딩", "pk": false, "fk": false}, {"n": "last_batch_updated", "t": "DATETIME", "nn": false, "c": "최종 동기화 일시", "pk": false, "fk": false}], "label": "강좌"}, "regulation_file": {"cols": [{"n": "regulation_file_id", "t": "VARCHAR(64)", "nn": true, "c": "파일 ID", "pk": true, "fk": false}, {"n": "regulation_version_id", "t": "VARCHAR(64)", "nn": true, "c": "개정본 ID", "pk": false, "fk": true}, {"n": "source_file_id", "t": "VARCHAR(64)", "nn": false, "c": "원본 파일 ID", "pk": false, "fk": true}, {"n": "file_name", "t": "VARCHAR(255)", "nn": true, "c": "파일명", "pk": false, "fk": false}, {"n": "file_format", "t": "VARCHAR(40)", "nn": true, "c": "파일 형식", "pk": false, "fk": false}, {"n": "file_role", "t": "VARCHAR(40)", "nn": true, "c": "파일 역할", "pk": false, "fk": false}, {"n": "storage_key", "t": "VARCHAR(2048)", "nn": true, "c": "파일 저장 위치", "pk": false, "fk": false}, {"n": "source_type", "t": "VARCHAR(40)", "nn": true, "c": "출처 구분", "pk": false, "fk": false}, {"n": "source_url", "t": "VARCHAR(2048)", "nn": false, "c": "출처 주소", "pk": false, "fk": false}, {"n": "retrieved_at", "t": "DATETIME", "nn": true, "c": "확보일", "pk": false, "fk": false}, {"n": "file_hash", "t": "VARCHAR(128)", "nn": true, "c": "파일 해시", "pk": false, "fk": false}, {"n": "is_extraction_source", "t": "TINYINT(1)", "nn": true, "c": "대표 추출 여부", "pk": false, "fk": false}, {"n": "parse_status", "t": "VARCHAR(40)", "nn": true, "c": "추출 상태", "pk": false, "fk": false}, {"n": "access_level", "t": "VARCHAR(40)", "nn": true, "c": "접근 등급", "pk": false, "fk": false}], "label": "규정 파일"}, "regulation_reference": {"cols": [{"n": "regulation_reference_id", "t": "VARCHAR(64)", "nn": true, "c": "참조 관계 ID", "pk": true, "fk": false}, {"n": "regulation_node_id", "t": "VARCHAR(64)", "nn": true, "c": "참조 출발 항목 ID", "pk": false, "fk": true}, {"n": "reference_type", "t": "VARCHAR(40)", "nn": true, "c": "참조 관계 유형", "pk": false, "fk": false}, {"n": "target_text", "t": "TEXT", "nn": true, "c": "참조 대상 원문", "pk": false, "fk": false}, {"n": "target_regulation_id", "t": "VARCHAR(64)", "nn": false, "c": "참조 대상 규정 ID", "pk": false, "fk": true}, {"n": "target_version_id", "t": "VARCHAR(64)", "nn": false, "c": "참조 대상 개정본 ID", "pk": false, "fk": true}, {"n": "target_node_id", "t": "VARCHAR(64)", "nn": false, "c": "참조 대상 항목 ID", "pk": false, "fk": true}, {"n": "resolution_status", "t": "VARCHAR(40)", "nn": true, "c": "참조 확인 상태", "pk": false, "fk": false}, {"n": "review_note", "t": "TEXT", "nn": false, "c": "검토 메모", "pk": false, "fk": false}], "label": "조항 참조"}, "institution_membership": {"cols": [{"n": "institution_membership_id", "t": "VARCHAR(64)", "nn": true, "c": "기관 소속 ID", "pk": true, "fk": false}, {"n": "user_account_id", "t": "VARCHAR(64)", "nn": true, "c": "사용자 계정 ID", "pk": false, "fk": true}, {"n": "institution_id", "t": "VARCHAR(64)", "nn": true, "c": "기관 ID", "pk": false, "fk": true}, {"n": "role_code", "t": "VARCHAR(40)", "nn": true, "c": "서비스 역할(HR담당/코치/임직원)", "pk": false, "fk": false}, {"n": "membership_status", "t": "VARCHAR(40)", "nn": true, "c": "소속 상태", "pk": false, "fk": false}], "label": "기관 소속"}, "majors": {"cols": [{"n": "major_id", "t": "INT", "nn": true, "c": "학과 고유 ID", "pk": true, "fk": false}, {"n": "title", "t": "VARCHAR(100)", "nn": true, "c": "전공 학과명", "pk": false, "fk": false}, {"n": "curriculum", "t": "TEXT", "nn": false, "c": "정규 교육과정 요약", "pk": false, "fk": false}, {"n": "embedding", "t": "TEXT", "nn": false, "c": "학과 1536차원 벡터 임베딩", "pk": false, "fk": false}, {"n": "last_batch_updated", "t": "DATETIME", "nn": false, "c": "최종 동기화 일시", "pk": false, "fk": false}], "label": "전공 학과"}, "user_account": {"cols": [{"n": "user_account_id", "t": "VARCHAR(64)", "nn": true, "c": "사용자 계정 ID", "pk": true, "fk": false}, {"n": "account_status", "t": "VARCHAR(40)", "nn": true, "c": "계정 상태", "pk": false, "fk": false}], "label": "사용자 계정"}}, "order": ["institution", "rag_chunk", "skill_tags", "certifications", "employee_work_context", "major_skill_map", "books", "employee_evaluation_result", "regulation_scope", "employee_career", "book_skill_map", "evaluation_schema_source", "user_skill_gap", "employee_learning", "course_skill_map", "jobs", "employee_evaluation_item_result", "evaluation_item_definition", "evaluation_result_schema", "regulation_version", "regulation", "regulation_node", "job_skill_map", "rag_chunk_source", "cert_skill_map", "employee", "employee_credential", "courses", "regulation_file", "regulation_reference", "institution_membership", "majors", "user_account"], "rels": [{"k": "fk", "t": "major_skill_map", "c": "major_id", "rt": "majors", "rc": "major_id"}, {"k": "fk", "t": "major_skill_map", "c": "skill_id", "rt": "skill_tags", "rc": "skill_id"}, {"k": "fk", "t": "book_skill_map", "c": "isbn", "rt": "books", "rc": "isbn"}, {"k": "fk", "t": "book_skill_map", "c": "skill_id", "rt": "skill_tags", "rc": "skill_id"}, {"k": "fk", "t": "course_skill_map", "c": "course_id", "rt": "courses", "rc": "course_id"}, {"k": "fk", "t": "course_skill_map", "c": "skill_id", "rt": "skill_tags", "rc": "skill_id"}, {"k": "fk", "t": "job_skill_map", "c": "job_id", "rt": "jobs", "rc": "job_id"}, {"k": "fk", "t": "job_skill_map", "c": "skill_id", "rt": "skill_tags", "rc": "skill_id"}, {"k": "fk", "t": "cert_skill_map", "c": "cert_id", "rt": "certifications", "rc": "cert_id"}, {"k": "fk", "t": "cert_skill_map", "c": "skill_id", "rt": "skill_tags", "rc": "skill_id"}, {"k": "inf", "t": "institution_membership", "c": "user_account_id", "rt": "user_account", "rc": "user_account_id"}, {"k": "inf", "t": "institution_membership", "c": "institution_id", "rt": "institution", "rc": "institution_id"}, {"k": "inf", "t": "employee", "c": "institution_id", "rt": "institution", "rc": "institution_id"}, {"k": "inf", "t": "employee", "c": "institution_membership_id", "rt": "institution_membership", "rc": "institution_membership_id"}, {"k": "inf", "t": "employee", "c": "target_job_id", "rt": "jobs", "rc": "job_id"}, {"k": "inf", "t": "employee_work_context", "c": "employee_id", "rt": "employee", "rc": "employee_id"}, {"k": "inf", "t": "employee_career", "c": "employee_id", "rt": "employee", "rc": "employee_id"}, {"k": "inf", "t": "employee_credential", "c": "employee_id", "rt": "employee", "rc": "employee_id"}, {"k": "inf", "t": "employee_credential", "c": "cert_id", "rt": "certifications", "rc": "cert_id"}, {"k": "inf", "t": "employee_learning", "c": "employee_id", "rt": "employee", "rc": "employee_id"}, {"k": "inf", "t": "employee_learning", "c": "course_id", "rt": "courses", "rc": "course_id"}, {"k": "inf", "t": "user_skill_gap", "c": "employee_id", "rt": "employee", "rc": "employee_id"}, {"k": "inf", "t": "user_skill_gap", "c": "skill_id", "rt": "skill_tags", "rc": "skill_id"}, {"k": "inf", "t": "evaluation_result_schema", "c": "institution_id", "rt": "institution", "rc": "institution_id"}, {"k": "inf", "t": "evaluation_item_definition", "c": "evaluation_result_schema_id", "rt": "evaluation_result_schema", "rc": "evaluation_result_schema_id"}, {"k": "inf", "t": "evaluation_item_definition", "c": "parent_item_id", "rt": "evaluation_item_definition", "rc": "evaluation_item_definition_id"}, {"k": "inf", "t": "evaluation_item_definition", "c": "skill_id", "rt": "skill_tags", "rc": "skill_id"}, {"k": "inf", "t": "evaluation_schema_source", "c": "evaluation_result_schema_id", "rt": "evaluation_result_schema", "rc": "evaluation_result_schema_id"}, {"k": "inf", "t": "evaluation_schema_source", "c": "regulation_node_id", "rt": "regulation_node", "rc": "regulation_node_id"}, {"k": "inf", "t": "evaluation_schema_source", "c": "evaluation_item_definition_id", "rt": "evaluation_item_definition", "rc": "evaluation_item_definition_id"}, {"k": "inf", "t": "employee_evaluation_result", "c": "employee_id", "rt": "employee", "rc": "employee_id"}, {"k": "inf", "t": "employee_evaluation_result", "c": "evaluation_result_schema_id", "rt": "evaluation_result_schema", "rc": "evaluation_result_schema_id"}, {"k": "inf", "t": "employee_evaluation_item_result", "c": "employee_evaluation_result_id", "rt": "employee_evaluation_result", "rc": "employee_evaluation_result_id"}, {"k": "inf", "t": "employee_evaluation_item_result", "c": "evaluation_item_definition_id", "rt": "evaluation_item_definition", "rc": "evaluation_item_definition_id"}, {"k": "inf", "t": "regulation", "c": "institution_id", "rt": "institution", "rc": "institution_id"}, {"k": "inf", "t": "regulation_version", "c": "regulation_id", "rt": "regulation", "rc": "regulation_id"}, {"k": "inf", "t": "regulation_version", "c": "previous_version_id", "rt": "regulation_version", "rc": "regulation_version_id"}, {"k": "inf", "t": "regulation_file", "c": "regulation_version_id", "rt": "regulation_version", "rc": "regulation_version_id"}, {"k": "inf", "t": "regulation_file", "c": "source_file_id", "rt": "regulation_file", "rc": "regulation_file_id"}, {"k": "inf", "t": "regulation_node", "c": "regulation_version_id", "rt": "regulation_version", "rc": "regulation_version_id"}, {"k": "inf", "t": "regulation_node", "c": "regulation_file_id", "rt": "regulation_file", "rc": "regulation_file_id"}, {"k": "inf", "t": "regulation_node", "c": "parent_node_id", "rt": "regulation_node", "rc": "regulation_node_id"}, {"k": "inf", "t": "regulation_scope", "c": "regulation_node_id", "rt": "regulation_node", "rc": "regulation_node_id"}, {"k": "inf", "t": "regulation_scope", "c": "applies_to_node_id", "rt": "regulation_node", "rc": "regulation_node_id"}, {"k": "inf", "t": "regulation_reference", "c": "regulation_node_id", "rt": "regulation_node", "rc": "regulation_node_id"}, {"k": "inf", "t": "regulation_reference", "c": "target_regulation_id", "rt": "regulation", "rc": "regulation_id"}, {"k": "inf", "t": "regulation_reference", "c": "target_version_id", "rt": "regulation_version", "rc": "regulation_version_id"}, {"k": "inf", "t": "regulation_reference", "c": "target_node_id", "rt": "regulation_node", "rc": "regulation_node_id"}, {"k": "inf", "t": "rag_chunk", "c": "regulation_version_id", "rt": "regulation_version", "rc": "regulation_version_id"}, {"k": "inf", "t": "rag_chunk_source", "c": "rag_chunk_id", "rt": "rag_chunk", "rc": "rag_chunk_id"}, {"k": "inf", "t": "rag_chunk_source", "c": "regulation_node_id", "rt": "regulation_node", "rc": "regulation_node_id"}]};
+const T = D.tables;
+
+const PANELS = [
+  { id: 'p1', title: '기관 · 직원', color: 'c1', area: 'p1',
+    tables: ['user_account', 'institution_membership', 'institution', 'employee'] },
+  { id: 'p2', title: '평가', color: 'c3', area: 'p2',
+    tables: ['evaluation_result_schema', 'evaluation_item_definition', 'evaluation_schema_source',
+             'employee_evaluation_result', 'employee_evaluation_item_result'] },
+  { id: 'p3', title: '규정 · RAG', color: 'c4', area: 'p3', cols: 2,
+    tables: ['regulation', 'regulation_version', 'regulation_file', 'regulation_node',
+             'regulation_scope', 'regulation_reference', 'rag_chunk', 'rag_chunk_source'] },
+  { id: 'p4', title: '직원 이력', color: 'c2', area: 'p4',
+    tables: ['employee_work_context', 'employee_career', 'employee_credential', 'employee_learning', 'user_skill_gap'] },
+  { id: 'p5', title: '스킬 · 직무 · 교육 마스터', color: 'c5', area: 'p5', skill: true }
+];
+const SKILL_ROWS = [
+  ['jobs', 'job_skill_map'], ['certifications', 'cert_skill_map'], ['courses', 'course_skill_map'],
+  ['books', 'book_skill_map'], ['majors', 'major_skill_map']
+];
+
+const tableColor = {};
+const canvas = document.getElementById('canvas');
+const svg = document.getElementById('links');
+const cardEl = {};
+
+function makeCard(name, pc) {
+  const t = T[name];
+  const el = document.createElement('div');
+  el.className = 'card'; el.dataset.t = name; el.style.setProperty('--pc', `var(--${pc})`);
+  let h = `<div class="ch"><b>${t.label}</b><span>${name}</span></div>`;
+  for (const c of t.cols) {
+    const bd = c.pk && c.fk ? '<span class="bd pk">PK</span>' : c.pk ? '<span class="bd pk">PK</span>' : c.fk ? '<span class="bd fk">FK</span>' : '<span class="bd"></span>';
+    const fk2 = c.pk && c.fk ? '<span class="bd fk">FK</span>' : '';
+    h += `<div class="row${c.pk ? ' is-pk' : ''}" data-c="${c.n}" title="${c.n} — ${c.c} (${c.t}${c.nn ? ', NOT NULL' : ''})">` +
+         `${bd}${fk2}<span class="nm" data-en="${c.n}" data-kr="${c.c.replace(/"/g, '&quot;')}">${c.n}</span>` +
+         `<span class="ty">${c.t}</span></div>`;
+  }
+  el.innerHTML = h;
+  cardEl[name] = el; tableColor[name] = pc;
+  return el;
+}
+
+for (const p of PANELS) {
+  const pn = document.createElement('div');
+  pn.className = 'panel'; pn.style.setProperty('--pc', `var(--${p.color})`); pn.style.gridArea = p.area;
+  const n = p.skill ? 11 : p.tables.length;
+  pn.innerHTML = `<div class="ptitle">${p.title}<small>${n}개 테이블</small></div>`;
+  const body = document.createElement('div'); body.className = 'pbody';
+  if (p.skill) {
+    body.style.gridTemplateColumns = '280px 280px 280px'; body.style.columnGap = '90px'; body.style.justifyContent = 'space-between';
+    SKILL_ROWS.forEach((r, i) => {
+      const a = makeCard(r[0], p.color); a.style.gridColumn = 1; a.style.gridRow = i + 1; body.appendChild(a);
+      const b = makeCard(r[1], p.color); b.style.gridColumn = 2; b.style.gridRow = i + 1; b.style.alignSelf = 'center'; body.appendChild(b);
+    });
+    const s = makeCard('skill_tags', p.color); s.style.gridColumn = 3; s.style.gridRow = '1 / span 5'; s.style.alignSelf = 'center';
+    body.appendChild(s);
+  } else {
+    body.style.gridTemplateColumns = `repeat(${p.cols || 1}, 280px)`; body.style.columnGap = '60px';
+    for (const t of p.tables) body.appendChild(makeCard(t, p.color));
+  }
+  pn.appendChild(body); canvas.appendChild(pn);
+}
+
+document.getElementById('cT').textContent = Object.keys(T).length;
+document.getElementById('cR').textContent = D.rels.length + ' (선언 ' + D.rels.filter(r => r.k === 'fk').length + ' + 추정 ' + D.rels.filter(r => r.k === 'inf').length + ')';
+document.getElementById('lg').innerHTML = PANELS.map(p => `<span><span class="sw" style="background:var(--${p.color})"></span>${p.title}</span>`).join(' ');
+
+let scale = 1;
+const NS = 'http://www.w3.org/2000/svg';
+let drawn = [];
+
+function pos(el, cv) {
+  const r = el.getBoundingClientRect();
+  return { l: (r.left - cv.left) / scale, r: (r.right - cv.left) / scale, t: (r.top - cv.top) / scale, b: (r.bottom - cv.top) / scale };
+}
+
+function draw() {
+  svg.innerHTML = ''; drawn = [];
+  const cv = canvas.getBoundingClientRect();
+  const W = canvas.scrollWidth, H = canvas.scrollHeight;
+  svg.setAttribute('width', W); svg.setAttribute('height', H); svg.setAttribute('viewBox', `0 0 ${W} ${H}`);
+  const showInf = document.getElementById('tInf').checked;
+  D.rels.forEach((r, k) => {
+    if (r.k === 'inf' && !showInf) return;
+    const sc = cardEl[r.t], tc = cardEl[r.rt];
+    const sr = sc.querySelector(`.row[data-c="${r.c}"]`), tr = tc.querySelector(`.row[data-c="${r.rc}"]`);
+    const sp = pos(sc, cv), tp = pos(tc, cv), sy = (pos(sr, cv).t + pos(sr, cv).b) / 2, ty = (pos(tr, cv).t + pos(tr, cv).b) / 2;
+    let sx, tx, c1x, c2x, dir;
+    const gap = 6;
+    if (sp.r + 20 < tp.l) { sx = sp.r; tx = tp.l; dir = 1; const d = Math.max(50, (tx - sx) * 0.45); c1x = sx + d; c2x = tx - d; }
+    else if (tp.r + 20 < sp.l) { sx = sp.l; tx = tp.r; dir = -1; const d = Math.max(50, (sx - tx) * 0.45); c1x = sx - d; c2x = tx + d; }
+    else {
+      // 같은 열: 오른쪽으로 돌아서 연결
+      sx = sp.r; tx = tp.r; dir = 1;
+      const d = 26 + Math.min(Math.abs(ty - sy) * 0.08, 30) + (k % 4) * 7; c1x = sx + d; c2x = tx + d;
+    }
+    const col = `var(--${tableColor[r.t]})`;
+    const g = document.createElementNS(NS, 'g');
+    const p = document.createElementNS(NS, 'path');
+    p.setAttribute('d', `M${sx},${sy} C${c1x},${sy} ${c2x},${ty} ${tx},${ty}`);
+    p.setAttribute('class', 'ln ' + r.k); p.setAttribute('stroke', col);
+    g.appendChild(p);
+    // N 쪽(자식) 점, 1 쪽(부모) 막대
+    const dot = document.createElementNS(NS, 'circle');
+    dot.setAttribute('cx', sx + (sx === sp.r ? gap : -gap)); dot.setAttribute('cy', sy); dot.setAttribute('r', 3.6); dot.setAttribute('fill', col); dot.setAttribute('class', 'mk');
+    const side = (tx === tp.l) ? -1 : 1;
+    const bar = document.createElementNS(NS, 'line');
+    bar.setAttribute('x1', tx + side * 5); bar.setAttribute('x2', tx + side * 5); bar.setAttribute('y1', ty - 6); bar.setAttribute('y2', ty + 6);
+    bar.setAttribute('stroke', col); bar.setAttribute('stroke-width', 2.4); bar.setAttribute('class', 'mk');
+    g.appendChild(dot); g.appendChild(bar);
+    svg.appendChild(g);
+    drawn.push({ r, p, dot, bar, sr, tr });
+  });
+}
+
+function focus(name) {
+  const rel = new Set([name]);
+  for (const d of drawn) {
+    const hit = d.r.t === name || d.r.rt === name;
+    d.p.classList.toggle('on', hit); d.p.classList.toggle('dim', !hit);
+    d.dot.classList.toggle('dim', !hit); d.bar.classList.toggle('dim', !hit);
+    if (hit) { rel.add(d.r.t); rel.add(d.r.rt); d.sr.classList.add('link-hl'); d.tr.classList.add('link-hl'); }
+  }
+  for (const [n, el] of Object.entries(cardEl)) el.classList.toggle('dim', !rel.has(n));
+}
+function unfocus() {
+  for (const d of drawn) {
+    d.p.classList.remove('on', 'dim'); d.dot.classList.remove('dim'); d.bar.classList.remove('dim');
+    d.sr.classList.remove('link-hl'); d.tr.classList.remove('link-hl');
+  }
+  for (const el of Object.values(cardEl)) el.classList.remove('dim');
+}
+let pinned = null;
+for (const [n, el] of Object.entries(cardEl)) {
+  el.addEventListener('mouseenter', () => { if (!pinned) focus(n); });
+  el.addEventListener('mouseleave', () => { if (!pinned) unfocus(); });
+  el.addEventListener('click', (e) => { e.stopPropagation(); if (pinned === n) { pinned = null; unfocus(); } else { pinned = n; unfocus(); focus(n); } });
+}
+document.getElementById('viewport').addEventListener('click', () => { pinned = null; unfocus(); });
+
+const stage = document.getElementById('stage');
+function setScale(s) {
+  scale = Math.max(0.25, Math.min(1.6, s));
+  stage.style.transform = `scale(${scale})`;
+  stage.style.width = canvas.scrollWidth * scale + 'px'; stage.style.height = canvas.scrollHeight * scale + 'px';
+  document.getElementById('zv').textContent = Math.round(scale * 100) + '%';
+  draw(); if (pinned) focus(pinned);
+}
+function fit() { setScale(Math.min(1, (document.getElementById('viewport').clientWidth - 8) / canvas.scrollWidth)); }
+document.getElementById('zi').onclick = () => setScale(scale + 0.1);
+document.getElementById('zo').onclick = () => setScale(scale - 0.1);
+document.getElementById('zf').onclick = fit;
+document.getElementById('tInf').onchange = () => { draw(); if (pinned) focus(pinned); };
+document.getElementById('tKr').onchange = (e) => {
+  document.body.classList.toggle('kr', e.target.checked);
+  document.querySelectorAll('.nm').forEach(n => n.textContent = e.target.checked ? n.dataset.kr : n.dataset.en);
+};
+document.getElementById('tTheme').onclick = () => {
+  const r = document.documentElement, dark = getComputedStyle(r).getPropertyValue('--bg').trim() === '#14171d';
+  r.dataset.theme = dark ? 'light' : 'dark';
+};
+window.addEventListener('resize', fit);
+fit();
+</script>
+</body>
+</html>

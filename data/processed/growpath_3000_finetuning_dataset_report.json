@@ -1,0 +1,29 @@
+{
+  "status": "MERGED_SUCCESS",
+  "schema_format": "PURE_MESSAGES_ONLY (Retro-Sanitized v2)",
+  "merged_at": "2026-10-14T05:28:36.108327+00:00",
+  "total_merged_records": 2603,
+  "split_breakdown": {
+    "train": 2058,
+    "validation": 545
+  },
+  "task_breakdown": {
+    "assessment_plan_refine": 618,
+    "assessment_survey_gen": 131,
+    "agent_practical": 618,
+    "agent_certified": 618,
+    "agent_fasttrack": 618
+  },
+  "zero_group_leakage_verified": true,
+  "processing_stats": {
+    "cases_read": 618,
+    "total_candidates_seen": 3090,
+    "near_duplicate_removed": 487
+  },
+  "output_files": {
+    "single_json_array": "D:\\SKN_33\\Project_Final\\Skills_DB\\saved\\data\\processed\\growpath_3000_finetuning_dataset.json",
+    "single_jsonl": "D:\\SKN_33\\Project_Final\\Skills_DB\\saved\\data\\processed\\growpath_3000_finetuning_dataset.jsonl",
+    "train_jsonl": "D:\\SKN_33\\Project_Final\\Skills_DB\\saved\\data\\processed\\growpath_3000_finetuning_dataset_train.jsonl",
+    "validation_jsonl": "D:\\SKN_33\\Project_Final\\Skills_DB\\saved\\data\\processed\\growpath_3000_finetuning_dataset_validation.jsonl"
+  }
+}

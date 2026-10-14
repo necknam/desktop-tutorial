@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GrowPath AI 파인튜닝 데이터셋 분석 보고서</title>
+<style>
+:root{--ink:#172033;--muted:#5c667a;--line:#dce2eb;--bg:#f4f6fa;--blue:#3146a5;--teal:#087f8c;--purple:#6941c6;--orange:#a85d12}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.65 "Pretendard","Noto Sans KR",Arial,sans-serif}
+header{background:#151c35;color:white;padding:42px max(24px,calc((100% - 1120px)/2))}
+header .eyebrow{color:#aebdff;font-weight:700;font-size:13px;letter-spacing:.08em}
+h1{font-size:clamp(27px,4vw,40px);line-height:1.25;margin:10px 0 12px}header p{max-width:850px;color:#d5dbea;margin:0}
+main{max-width:1120px;margin:28px auto;padding:0 22px 48px}
+section,.kpi{background:#fff;border:1px solid var(--line);border-radius:16px;padding:25px;margin:18px 0;box-shadow:0 3px 12px #17203308}
+h2{font-size:23px;margin:0 0 12px}h3{font-size:17px;margin:20px 0 8px}
+.lead{color:var(--muted);margin-top:0}.grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+.kpi{margin:0;padding:18px}.kpi .label{font-size:12px;color:var(--muted);font-weight:700}.kpi .num{font-size:29px;font-weight:800;line-height:1.3;margin:5px 0}.kpi .desc{font-size:13px;color:var(--muted)}
+.note{background:#fff7e8;border-left:4px solid #d78b23;padding:13px 16px;border-radius:8px;margin:14px 0}
+.good{background:#edf8f6;border-left:4px solid var(--teal);padding:13px 16px;border-radius:8px;margin:14px 0}
+table{width:100%;border-collapse:collapse;font-size:14px;margin:10px 0 18px}th,td{padding:11px 12px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}th{background:#f1f4f9;font-weight:750}td.num{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+.barrow{display:grid;grid-template-columns:230px 1fr 75px;gap:12px;align-items:center;margin:12px 0;font-size:14px}.bar{height:13px;background:#e9edf5;border-radius:20px;overflow:hidden}.fill{height:100%;background:var(--blue);border-radius:20px}.barrow b{text-align:right}
+code{background:#f0f2f7;padding:2px 5px;border-radius:4px;font-size:.92em}pre{white-space:pre-wrap;overflow-wrap:anywhere;background:#11182b;color:#e7ebf5;padding:18px;border-radius:12px;font-size:13px;line-height:1.6;overflow-x:auto}
+.tag{display:inline-block;background:#edf0ff;color:#293d9a;padding:3px 9px;border-radius:20px;font-size:12px;font-weight:700;margin:2px}
+.cols{display:grid;grid-template-columns:1fr 1fr;gap:16px}.card{border:1px solid var(--line);border-radius:12px;padding:16px}.muted{color:var(--muted)}ul{padding-left:22px}li{margin:5px 0}.small{font-size:13px}.footer{color:var(--muted);font-size:12px;text-align:center;padding:20px}
+@media(max-width:760px){.grid{grid-template-columns:repeat(2,minmax(0,1fr))}.cols{grid-template-columns:1fr}.barrow{grid-template-columns:1fr 65px}.barrow .bar{grid-column:1/2}.barrow b{grid-column:2;grid-row:1}.grid .kpi{padding:13px}.kpi .num{font-size:24px}section{padding:18px}header{padding:30px 22px}}
+@media print{body{background:#fff}header{padding:25px;background:#151c35!important;-webkit-print-color-adjust:exact;print-color-adjust:exact}main{margin:0 auto}.kpi,section{box-shadow:none;break-inside:avoid}.no-print{display:none}}
+</style>
+</head>
+<body>
+<header>
+<div class="eyebrow">GROWPATH AI · DATASET ENGINEERING</div>
+<h1>파인튜닝 데이터셋 구조와 설계 의도</h1>
+<p>병합본과 학습·검증 분할 JSONL 3개를 직접 대조해 실제 레코드 수, 태스크별 분포, 메시지 구조, 출력 JSON 유효성, 분할 중복 여부를 정리했습니다. 이 보고서는 파일에서 확인되는 사실과 추가 검증이 필요한 주장을 구분합니다.</p>
+</header>
+<main>
+<div class="grid">
+<div class="kpi"><div class="label">실제 레코드 수</div><div class="num">2,603</div><div class="desc">병합본 2,603건 · train 2,058건 · validation 545건</div></div>
+<div class="kpi"><div class="label">레코드당 메시지</div><div class="num">3개</div><div class="desc">system · user · assistant</div></div>
+<div class="kpi"><div class="label">전체 메시지 수</div><div class="num">7,809</div><div class="desc">2,603건 × 3개 메시지</div></div>
+<div class="kpi"><div class="label">형식 오류 여부</div><div class="num">JSONL</div><div class="desc">3개 파일 모두 JSONL 파싱 오류 0건</div></div>
+</div>
+
+<section>
+<h2>1. 데이터셋 개요</h2>
+<p class="lead">이 데이터는 GrowPath AI의 계획 구체화, 사전 역량 설문 생성, 맞춤형 학습 로드맵 생성을 지도 미세조정(SFT) 방식으로 학습시키기 위한 대화형 예시입니다.</p>
+<div class="cols">
+<div class="card"><h3>입력 데이터</h3><ul>
+<li><b>system</b>: 에이전트 역할, 작업 지침, 금지 조건, 출력 JSON 규격</li>
+<li><b>user</b>: 프로젝트 계획·직무·가용 시간·스킬 진단·DB 검색 결과 등 작업 맥락</li>
+<li>user 입력은 일반 문장뿐 아니라 JSON 문자열, 계획 문서, 대화 이력을 포함할 수 있음</li>
+</ul></div>
+<div class="card"><h3>정답 데이터</h3><ul>
+<li><b>assistant</b>: 모델이 학습해야 할 목표 응답</li>
+<li>계획 구체화는 구조화 JSON, 설문 생성은 JSON 배열, 로드맵 생성은 JSON 객체 형태를 사용</li>
+<li>로드맵 응답에는 마일스톤과 실제 자원 ID, 규정 인용 등 구조화 필드가 포함됨</li>
+</ul></div>
+</div>
+<div class="note"><b>파일명과 실제 건수는 다릅니다.</b> 파일명은 3,000건을 나타내지만, 업로드된 JSONL을 직접 읽어 확인한 레코드는 2,603건입니다. 따라서 현재 파일만 근거로 “3,000건이 모두 들어 있다”고 기술하면 부정확합니다.</div>
+</section>
+
+<section>
+<h2>2. 실제 태스크 분포와 학습·검증 분할</h2>
+<p class="lead">병합본, train 파일, validation 파일을 각각 읽어 system 메시지의 역할 지침을 기준으로 태스크를 분류했습니다. 아래 수치는 업로드된 파일에서 직접 계산한 결과입니다.</p>
+<div class="grid">
+<div class="kpi"><div class="label">Train</div><div class="num">2,058</div><div class="desc">전체의 79.06%</div></div>
+<div class="kpi"><div class="label">Validation</div><div class="num">545</div><div class="desc">전체의 20.94%</div></div>
+<div class="kpi"><div class="label">분할 합계</div><div class="num">2,603</div><div class="desc">병합본과 일치</div></div>
+<div class="kpi"><div class="label">정확한 user 입력 중복</div><div class="num">0건</div><div class="desc">train과 validation 간 동일 user content 없음</div></div>
+</div>
+<h3>태스크별 레코드 수</h3>
+<table><thead><tr><th>태스크</th><th>학습 Train</th><th>검증 Validation</th><th>합계</th><th>전체 비율</th><th>학습 목표</th></tr></thead><tbody>
+<tr><td>계획 구체화</td><td class="num">489</td><td class="num">129</td><td class="num">618</td><td class="num">23.74%</td><td>초안·대화·제약 조건을 반영한 계획 정제</td></tr>
+<tr><td>사전 역량 설문 생성</td><td class="num">102</td><td class="num">29</td><td class="num">131</td><td class="num">5.03%</td><td>스킬 슬롯 기반 자기보고식 질문 생성</td></tr>
+<tr><td><code>agent_practical</code></td><td class="num">489</td><td class="num">129</td><td class="num">618</td><td class="num">23.74%</td><td>실무 구현·산출물·테스트 중심 로드맵</td></tr>
+<tr><td><code>agent_certified</code></td><td class="num">489</td><td class="num">129</td><td class="num">618</td><td class="num">23.74%</td><td>이론·표준·자격 중심 로드맵</td></tr>
+<tr><td><code>agent_fasttrack</code></td><td class="num">489</td><td class="num">129</td><td class="num">618</td><td class="num">23.74%</td><td>우선순위·병목·기간 압축 중심 로드맵</td></tr>
+<tr><th>합계</th><th class="num">2,058</th><th class="num">545</th><th class="num">2,603</th><th class="num">100%</th><th></th></tr>
+</tbody></table>
+<h3>분할 품질 점검 결과</h3>
+<ul>
+<li><b>레코드 수:</b> Train 2,058건 + Validation 545건 = 병합본 2,603건으로 일치합니다.</li>
+<li><b>분할 비율:</b> 약 79.06:20.94로, 정확히 80:20으로 나누어진 것은 아닙니다.</li>
+<li><b>정확한 레코드 중복:</b> train과 validation 사이에 전체 레코드가 완전히 같은 경우는 0건입니다.</li>
+<li><b>동일 user 입력 중복:</b> user 메시지의 전체 문자열이 정확히 같은 경우도 0건입니다.</li>
+<li><b>주의:</b> 동일 입력의 정확 중복이 없다는 결과만으로 유사 시나리오·의미 중복까지 없거나, 그룹 단위 데이터 누수가 전혀 없다고 단정할 수는 없습니다. 이를 확인하려면 프로젝트/시나리오 식별자 기반 분할 정보 또는 유사도 검사가 필요합니다.</li>
+</ul>
+<div class="note">파일명에는 “3000”이 포함되어 있지만 실제 병합본은 2,603건입니다. 현재 제공된 train/validation 파일은 병합본 전체를 건수상 구성하며, 3,000건 목표 대비 397건이 부족합니다. 생성 로그가 제공되지 않아 부족 원인은 이 파일들만으로 확정할 수 없습니다.</div>
+</section>
+<section>
+<h2>3. 서비스 흐름과 태스크별 학습 목표</h2>
+<div class="card"><h3>① 프로젝트 계획 구체화</h3>
+<p>초기 계획과 사용자 대화에서 합의한 학습 시간·우선순위·기술 범위를 반영해 최종 계획을 구조화합니다.</p>
+<ul><li><b>주요 입력:</b> 초기 계획, 대화 이력, 허용된 DB 스킬 태그, 출력 스키마</li><li><b>주요 출력:</b> <code>refined_plan</code>, <code>project_goal</code>, <code>project_scope</code>, <code>tech_stack</code>, <code>milestones</code>, <code>key_issues</code>, <code>deliverables</code>, <code>validation_criteria</code></li><li><b>학습 포인트:</b> 대화에서 확정된 조건을 계획에 반영하고, 정해진 스킬 태그나 출력 필드를 임의로 바꾸지 않음</li></ul></div>
+<div class="card"><h3>② 사전 역량 설문 생성</h3>
+<p>확정 계획과 슬롯 목록을 이용해 자기보고식 1~5점 척도에 맞는 질문을 만듭니다.</p>
+<ul><li><b>주요 입력:</b> <code>project_plan</code>, <code>project_goal</code>, <code>slots</code></li><li><b>주요 출력:</b> <code>sequence_no</code>, <code>skill_id</code>, <code>question</code>을 가진 JSON 배열</li><li><b>학습 포인트:</b> 각 질문에 지정 스킬과 세부 주제를 포함하고, 서술형 지시 대신 이해도를 묻는 의문문을 생성</li></ul></div>
+<div class="card"><h3>③ 맞춤형 로드맵 3안 생성</h3>
+<p>같은 프로젝트 맥락을 서로 다른 전략으로 풀어내되, 실제 검색 결과와 승인된 규정 근거의 범위를 벗어나지 않도록 합니다.</p>
+<table><thead><tr><th>전략</th><th>중점</th><th>구별되는 출력 특성</th></tr></thead><tbody>
+<tr><td><code>agent_practical</code></td><td>실무 적용</td><td>실행 과제, 구현 결과물, 테스트·검증 중심</td></tr>
+<tr><td><code>agent_certified</code></td><td>이론·자격</td><td>기본 원리, 표준 아키텍처, DB 검색 결과에 존재하는 자격증 중심</td></tr>
+<tr><td><code>agent_fasttrack</code></td><td>단기 납기</td><td>핵심 병목, 우선순위, 불필요한 학습 범위 축소</td></tr>
+</tbody></table>
+</section>
+
+<section>
+<h2>4. JSONL 레코드 형식</h2>
+<p class="lead">JSONL은 한 줄에 JSON 객체 하나를 저장합니다. 병합본과 두 분할 파일의 각 객체는 최상위 키 <code>messages</code>를 가지며, 메시지 배열은 system/user/assistant 순서로 구성됩니다.</p>
+<pre>{
+  "messages": [
+    {
+      "role": "system",
+      "content": "에이전트 역할, 수행 규칙, 출력 스키마..."
+    },
+    {
+      "role": "user",
+      "content": "프로젝트 입력, 대화 이력, 진단 결과, DB 검색 결과..."
+    },
+    {
+      "role": "assistant",
+      "content": "모델이 학습할 정답 응답..."
+    }
+  ]
+}</pre>
+<h3>필드 의미</h3>
+<table><thead><tr><th>필드</th><th>자료형</th><th>용도</th><th>점검 사항</th></tr></thead><tbody>
+<tr><td><code>messages</code></td><td>배열</td><td>한 학습 예시의 대화 이력</td><td>필수이며 메시지 구조가 일관적인지 확인</td></tr>
+<tr><td><code>role</code></td><td>문자열</td><td>발화 역할</td><td>현재 파일은 system, user, assistant를 각 1회 포함</td></tr>
+<tr><td><code>content</code></td><td>문자열</td><td>지침, 입력 맥락, 목표 응답</td><td>JSON 응답은 문자열 안에 JSON 텍스트로 들어갈 수 있음</td></tr>
+</tbody></table>
+<div class="good"><b>중요:</b> assistant의 content가 JSON 형식인 경우, 바깥쪽 JSONL 파싱 성공과 content 내부 JSON 파싱 성공은 서로 다른 검증입니다. 두 단계 모두 확인해야 합니다.</div>
+</section>
+
+<section>
+<h2>5. 실제 데이터에 나타나는 출력 JSON 예시</h2>
+<p class="lead">아래는 업로드된 데이터의 실제 필드명과 구조를 바탕으로 핵심 형태를 보여주는 축약 예시입니다. 긴 본문과 식별값은 이해를 위해 생략했으며, 실제 학습 레코드 전체를 그대로 복사한 것은 아닙니다.</p>
+<h3>예시 A — 계획 구체화 응답</h3>
+<pre>{
+  "project_goal": "운영 배포 전 결함 조기 발견을 위한 ...",
+  "project_scope": "시스템 & OS 보안 강화, 웹 애플리케이션 취약점 진단 ...",
+  "tech_stack": [
+    "시스템 & OS 보안 강화",
+    "웹 애플리케이션 취약점 진단",
+    "데이터 거버넌스 & 보안 규정 준수"
+  ],
+  "milestones": [
+    {"phase": 1, "name": "기반 구축", "goal": "아키텍처 셋업"},
+    {"phase": 2, "name": "핵심 구현", "goal": "비즈니스 로직 완성"},
+    {"phase": 3, "name": "안정화", "goal": "검증 및 배포"}
+  ],
+  "key_issues": ["핵심 기술 병목 이슈..."],
+  "deliverables": ["구체적인 엔지니어링 산출물..."],
+  "validation_criteria": ["측정 가능한 검증 기준..."]
+}</pre>
+<h3>예시 B — 설문 생성 응답</h3>
+<pre>[
+  {
+    "sequence_no": 1,
+    "skill_id": 33,
+    "question": "시스템 & OS 보안 강화의 핵심 아키텍처 원리와 기본 구조에 대해 얼마나 알고 있나요?"
+  },
+  {
+    "sequence_no": 2,
+    "skill_id": 34,
+    "question": "웹 애플리케이션 취약점 진단의 실무 프로젝트 환경 적용 및 구성 방법에 대해 얼마나 알고 있나요?"
+  }
+]</pre>
+<h3>예시 C — 로드맵 응답</h3>
+<pre>{
+  "strategy_title": "실무 중심 자동화 테스트 하네스 구축 로드맵",
+  "summary": "프로젝트 목표와 진단 결과를 반영한 실행 전략...",
+  "total_duration_weeks": 8,
+  "milestones": [
+    {
+      "phase_name": "Phase 1: 기반 환경 설계",
+      "duration": "2주",
+      "focus_goal": "격리 테스트 환경과 거버넌스 기반 확립",
+      "key_actions": ["아키텍처 설계", "검증 기준 정의"],
+      "recommended_courses": [{"course_id": "검색 결과의 실제 ID"}],
+      "recommended_books": [],
+      "recommended_certifications": []
+    }
+  ],
+  "regulation_citations": ["승인된 근거의 실제 rag_chunk_id"],
+  "regulation_summary": "승인된 규정 범위 내 요약 또는 규정 확인 필요"
+}</pre>
+<div class="note">예시의 ID 문자열은 형식 설명용 자리표시자입니다. 실제 응답에서는 검색 컨텍스트에 포함된 ID만 사용해야 하며, 예시용 ID를 그대로 학습 정답으로 사용하면 안 됩니다.</div>
+</section>
+
+<section>
+<h2>6. 근거 통제와 오류 방지 규칙</h2>
+<ul>
+<li><b>자원 추천 근거:</b> 강좌·도서·자격증은 user 컨텍스트에 포함된 실제 DB 검색 결과만 사용하도록 system 지침에 명시되어 있습니다.</li>
+<li><b>식별자만 출력:</b> 로드맵의 추천 자원 배열에는 제목이나 URL을 직접 작성하기보다 <code>course_id</code>, <code>isbn</code>, <code>cert_id</code>를 사용하도록 지시합니다.</li>
+<li><b>규정 승인 상태 구분:</b> <code>regulation_rag.approved</code>만 확정 규정 근거로 인용하며, <code>review_only</code>는 확정 근거로 사용하지 않도록 되어 있습니다.</li>
+<li><b>근거가 없을 때:</b> 승인 규정이 없으면 <code>regulation_citations: []</code>, <code>regulation_summary: "규정 확인 필요"</code>로 응답하도록 규정합니다.</li>
+<li><b>역량 점수 해석:</b> 1~5점 자기보고 결과는 이해도 응답이며, 실무 능력이 검증되었다는 의미로 과장하지 않도록 합니다.</li>
+<li><b>계획 기간과 성과:</b> 기간은 추정치로 취급하고, 측정되지 않은 성능 향상이나 합격을 보장하지 않도록 지시합니다.</li>
+</ul>
+<p class="muted small">이 항목들은 system 지침에 존재하는 설계 의도입니다. 지침에 규칙이 있다는 사실이 실제 모델의 오류율 0% 또는 규칙 준수 100%를 입증하는 것은 아닙니다.</p>
+</section>
+
+<section>
+<h2>7. 데이터 품질 검토 체크리스트</h2>
+<table><thead><tr><th>검토 항목</th><th>현재 파일에서 확인한 점</th><th>추가 검증 권장 사항</th></tr></thead><tbody>
+<tr><td>JSONL 파싱</td><td>병합본 2,603건, train 2,058건, validation 545건 모두 파싱 성공</td><td>재생성 시에도 CI에서 파싱 검증 수행</td></tr>
+<tr><td>메시지 구조</td><td>모든 레코드가 messages를 가지며 3개 메시지를 포함</td><td>role 순서·content 타입을 자동 검사</td></tr>
+<tr><td>태스크 라벨</td><td>계획 618건, 설문 131건, 로드맵 3종 각 618건으로 분류되어 전체 2,603건과 일치</td><td>태스크 분류 규칙을 코드로 고정하고 생성 시 라벨을 별도 저장</td></tr>
+<tr><td>학습/검증 분할</td><td>Train 2,058건, Validation 545건이며 합계가 병합본 2,603건과 일치. 정확한 user 입력 중복 0건</td><td>프로젝트/시나리오 그룹 기준 및 의미 유사도 기반 누수 검사 추가</td></tr>
+<tr><td>중복 제거</td><td>현재 파일만으로 제거 전후 건수나 유사도 기준은 확인 불가</td><td>정확 중복과 유사 중복을 각각 측정하고 기준·제거 건수를 기록</td></tr>
+<tr><td>내부 JSON 검증</td><td>3개 파일 전체 2,603건의 assistant content를 JSON으로 파싱했으며 실패 0건</td><td>태스크별 필수 키·자료형·허용 ID·스키마를 추가 검사</td></tr>
+<tr><td>Grounding 검증</td><td>system 지침에 DB 자원 및 승인 규정 제한이 명시됨</td><td>실제 컨텍스트와 assistant의 모든 ID·규정 인용을 자동 대조</td></tr>
+<tr><td>학습 평가</td><td>데이터 파일만으로 성능은 판단 불가</td><td>고정 검증 세트에서 JSON 유효성, 스키마 준수, ID 정확도, 규정 환각률을 측정</td></tr>
+</tbody></table>
+</section>
+
+<section>
+<h2>8. 보고서에서 바로잡아야 할 기존 표현</h2>
+<table><thead><tr><th>기존 HTML의 주장</th><th>권장 수정</th><th>이유</th></tr></thead><tbody>
+<tr><td>“3,000건”</td><td>“현재 파일 기준 2,603건”</td><td>실제 JSONL 줄 수와 불일치</td></tr>
+<tr><td>“Train/Validation 2,400/600”</td><td>“Train 2,058 / Validation 545”</td><td>업로드된 분할 파일의 실제 레코드 수</td></tr>
+<tr><td>“데이터 누수 0건”</td><td>“정확한 user 입력 중복은 0건; 그룹·의미 유사도 누수는 별도 검증 필요”</td><td>문자열 중복 검사는 시나리오 단위 누수를 모두 판별하지 못함</td></tr>
+<tr><td>“프롬프트 72% 압축”, “노이즈 0%”</td><td>측정 전에는 수치 삭제</td><td>비교 기준·측정 로그가 제공되지 않음</td></tr>
+<tr><td>“할루시네이션 0% 통제”</td><td>“근거 제한 규칙을 적용하며 평가 지표로 검증 필요”</td><td>지침 존재와 실제 오류율 0%는 다름</td></tr>
+<tr><td>“5단계 연쇄 생성 데이터”</td><td>“서비스 흐름은 연쇄적이나, JSONL 레코드는 개별 SFT 예시”</td><td>파일 각 줄은 단일 messages 예시이며 5개 연결 상태를 직접 저장하지 않음</td></tr>
+</tbody></table>
+</section>
+<div class="footer">GrowPath AI · 파인튜닝 데이터셋 구조 분석 · 업로드된 JSONL 직접 집계 기준</div>
+</main>
+</body>
+</html>

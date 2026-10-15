@@ -1,0 +1,2993 @@
+{
+  "source_file_hashes": {
+    "45e71183-ce61-59d1-b0ac-0c91d03a5b91": "b80cdb0be60c3e47bbe13c22a79ef4e2e101cae9dd5da8b76812538c602a5d51",
+    "8b7f759f-9e22-5b21-8af0-19fa9bea3235": "d343c7ea42c166a948f9f69b4715033447f8266c13ec97ea18ed6eeeb8f6e22e"
+  },
+  "source_text_visually_verified_by_codex": true,
+  "parents": {
+    "base_annex": {
+      "existing_node_id": "456583b1-143b-57e8-95ec-e7f6766b74b4",
+      "label": "별표1",
+      "title": "일반직·운영직 직급별 기준급 한계액표",
+      "source_locator": {
+        "pdf_page": 15,
+        "pdf_pages": [
+          15
+        ],
+        "line_ids": [
+          "p015l0001",
+          "p015l0002",
+          "p015l0003",
+          "p015l0004",
+          "p015l0005",
+          "p015l0006",
+          "p015l0007",
+          "p015l0008",
+          "p015l0009",
+          "p015l0010",
+          "p015l0011",
+          "p015l0012",
+          "p015l0013",
+          "p015l0014",
+          "p015l0015",
+          "p015l0016"
+        ],
+        "line_bboxes": [
+          [
+            56.609,
+            67.858,
+            538.16,
+            80.54
+          ],
+          [
+            68.603,
+            87.037,
+            538.16,
+            99.024
+          ],
+          [
+            68.603,
+            106.216,
+            538.16,
+            118.203
+          ],
+          [
+            68.603,
+            125.395,
+            145.037,
+            137.382
+          ],
+          [
+            172.706,
+            182.932,
+            422.051,
+            195.614
+          ],
+          [
+            462.229,
+            221.29,
+            538.268,
+            233.972
+          ],
+          [
+            154.116,
+            246.798,
+            415.335,
+            258.785
+          ],
+          [
+            85.034,
+            269.334,
+            490.414,
+            281.321
+          ],
+          [
+            64.525,
+            294.626,
+            488.711,
+            306.613
+          ],
+          [
+            77.958,
+            322.675,
+            488.711,
+            334.662
+          ],
+          [
+            88.032,
+            350.845,
+            488.711,
+            362.831
+          ],
+          [
+            88.032,
+            378.894,
+            488.711,
+            390.881
+          ],
+          [
+            88.032,
+            407.063,
+            488.711,
+            419.05
+          ],
+          [
+            88.032,
+            435.112,
+            488.711,
+            447.099
+          ],
+          [
+            88.032,
+            463.282,
+            488.711,
+            475.269
+          ],
+          [
+            88.032,
+            491.331,
+            488.711,
+            503.318
+          ]
+        ],
+        "row_bbox": null,
+        "original_extracted_text": "[별표 1] (제11조제1항 관련) <개정 2010.12.31., 2011.11.18., 2012.12.18.,\n2013.12.06., 2015.01.01., 2015.12.18., 2016.12.23., 2017.12.19., 2018.12.18.,\n2019.12.20., 2020.12.21., 2021.12.20., 2022.12.20., 2023.12.19., 2024.12.19.,\n2025.12.17.>\n일반직, 운영직 직원 직급별 기준급 한계액표\n(단위 : 천원)\n일반직 운영직\n직급 상한액 하한액 직급 상한액 하한액\n1급, 2급(갑) 103,524 53,556 1급 92,100 48,300\n2급(을) 91,836 47,256 2급 83,352 43,044\n3급 83,316 32,928 3급 73,548 30,240\n4급 73,980 26,496 4급 64,320 25,416\n5급 65,724 22,692 5급 58,620 22,308\n6급 66,324 22,512 6급 55,068 17,988\n7급 56,400 20,004 7급 47,532 17,076\n8급 49,896 17,016 8급 42,792 16,224",
+        "source_images": [
+          "report/source_images/연봉규정_p15.png"
+        ]
+      }
+    },
+    "position_annex": {
+      "existing_node_id": "3dc297f0-3c9e-558d-bce7-f9cfc7d3229e",
+      "label": "별표3",
+      "title": "직위 등급별 직무급표",
+      "source_locator": {
+        "pdf_page": 27,
+        "pdf_pages": [
+          27
+        ],
+        "line_ids": [
+          "p027l0001",
+          "p027l0002",
+          "p027l0003",
+          "p027l0004",
+          "p027l0005",
+          "p027l0006",
+          "p027l0007",
+          "p027l0008",
+          "p027l0009",
+          "p027l0010",
+          "p027l0011"
+        ],
+        "line_bboxes": [
+          [
+            56.609,
+            82.698,
+            209.191,
+            94.685
+          ],
+          [
+            219.121,
+            140.352,
+            375.037,
+            155.335
+          ],
+          [
+            448.077,
+            183.388,
+            538.172,
+            195.374
+          ],
+          [
+            220.56,
+            211.028,
+            380.674,
+            223.987
+          ],
+          [
+            88.512,
+            237.999,
+            506.148,
+            250.945
+          ],
+          [
+            75.799,
+            264.85,
+            519.053,
+            277.795
+          ],
+          [
+            218.402,
+            291.82,
+            376.357,
+            304.779
+          ],
+          [
+            279.568,
+            318.671,
+            315.163,
+            331.617
+          ],
+          [
+            56.609,
+            347.129,
+            538.148,
+            359.128
+          ],
+          [
+            76.279,
+            366.308,
+            538.124,
+            378.295
+          ],
+          [
+            76.279,
+            385.487,
+            253.159,
+            397.474
+          ]
+        ],
+        "row_bbox": null,
+        "original_extracted_text": "[별표 3] (제7조제2항 관련)\n직위 등급별 직무급표\n(단위 : 천원/년)\n1급․2급(갑)․2급(을) 직위\nA B C D E F G\n26,592 25,032 23,472 21,912 20,412 18,912 17,412\n2급(을)․3급 복수보임직위\n16,452\n※ 직위평가 대상 직위(업무지원직 직위 포함) 및 2급(을)․3급 복수보임 직위가 아닌 직위를\n수행하는 경우, 별도로 정한 경우를 제외하고는 “3급 직위” 직무급을 지급하며,\n세부사항은 사장이 따로 정한다.",
+        "source_images": [
+          "report/source_images/연봉규정세칙_p27.png"
+        ]
+      },
+      "notes": [
+        "※ 직위평가 대상 직위(업무지원직 직위 포함) 및 2급(을)․3급 복수보임 직위가 아닌 직위를\n수행하는 경우, 별도로 정한 경우를 제외하고는 “3급 직위” 직무급을 지급하며,\n세부사항은 사장이 따로 정한다."
+      ],
+      "effective_from_override": "2025-01-01"
+    },
+    "duty_general": {
+      "new_node_key": "salary:annex3-2",
+      "document_node_id": "bcb92fab-0b0f-5f90-b469-2fe591f07259",
+      "label": "별표3의2",
+      "title": "별표3의2 일반직 직무등급별 직무급",
+      "source_locator": {
+        "pdf_page": 28,
+        "pdf_pages": [
+          28
+        ],
+        "line_ids": [
+          "p028l0001",
+          "p028l0002",
+          "p028l0003",
+          "p028l0004",
+          "p028l0005",
+          "p028l0006",
+          "p028l0007",
+          "p028l0008"
+        ],
+        "line_bboxes": [
+          [
+            56.609,
+            82.698,
+            227.781,
+            94.685
+          ],
+          [
+            203.29,
+            121.173,
+            390.748,
+            136.156
+          ],
+          [
+            455.633,
+            156.945,
+            538.214,
+            167.973
+          ],
+          [
+            291.922,
+            188.133,
+            363.283,
+            201.079
+          ],
+          [
+            82.755,
+            204.436,
+            115.258,
+            217.381
+          ],
+          [
+            156.275,
+            220.738,
+            497.59,
+            233.684
+          ],
+          [
+            79.517,
+            260.295,
+            511.737,
+            273.24
+          ],
+          [
+            79.517,
+            307.043,
+            508.498,
+            319.989
+          ]
+        ],
+        "row_bbox": null,
+        "original_extracted_text": "[별표 3의2] (제7조제2항 관련)\n일반직 직무등급별 직무급\n(단위 : 천원/년)\n직 무 등 급\n구 분\nA B C D E F\n상한액 17,352 17,172 16,992 16,812 12,360 12,000\n하한액 14,520 14,340 14,160 13,980 7,944 7,584",
+        "source_images": [
+          "report/source_images/연봉규정세칙_p28.png"
+        ]
+      },
+      "effective_from_override": "2025-01-01"
+    },
+    "duty_operating": {
+      "new_node_key": "salary:annex3-3",
+      "document_node_id": "bcb92fab-0b0f-5f90-b469-2fe591f07259",
+      "label": "별표3의3",
+      "title": "별표3의3 운영직 직무등급별 직무급",
+      "source_locator": {
+        "pdf_page": 29,
+        "pdf_pages": [
+          29
+        ],
+        "line_ids": [
+          "p029l0001",
+          "p029l0002",
+          "p029l0003",
+          "p029l0004",
+          "p029l0005",
+          "p029l0006",
+          "p029l0007",
+          "p029l0008",
+          "p029l0009",
+          "p029l0010",
+          "p029l0011",
+          "p029l0012",
+          "p029l0013",
+          "p029l0014",
+          "p029l0015"
+        ],
+        "line_bboxes": [
+          [
+            56.609,
+            82.698,
+            227.781,
+            94.685
+          ],
+          [
+            56.609,
+            121.173,
+            345.515,
+            136.156
+          ],
+          [
+            455.633,
+            156.945,
+            538.214,
+            167.973
+          ],
+          [
+            291.922,
+            188.133,
+            363.283,
+            201.079
+          ],
+          [
+            82.755,
+            204.436,
+            115.258,
+            217.381
+          ],
+          [
+            172.946,
+            220.738,
+            482.317,
+            233.684
+          ],
+          [
+            79.517,
+            260.295,
+            495.186,
+            273.24
+          ],
+          [
+            79.517,
+            307.043,
+            491.947,
+            319.989
+          ],
+          [
+            56.609,
+            369.541,
+            345.515,
+            384.525
+          ],
+          [
+            455.633,
+            405.314,
+            538.214,
+            416.342
+          ],
+          [
+            291.922,
+            436.502,
+            363.283,
+            449.448
+          ],
+          [
+            82.755,
+            452.804,
+            115.258,
+            465.75
+          ],
+          [
+            162.872,
+            469.106,
+            491.346,
+            482.052
+          ],
+          [
+            79.517,
+            508.663,
+            505.14,
+            521.609
+          ],
+          [
+            79.517,
+            555.412,
+            501.902,
+            568.358
+          ]
+        ],
+        "row_bbox": null,
+        "original_extracted_text": "[별표 3의3] (제7조제2항 관련)\n1. 운영직 직무등급별 직무급(2025년 적용)\n(단위 : 천원/년)\n직 무 등 급\n구 분\nA B C D\n상한액 15,720 15,360 11,460 11,100\n하한액 12,564 12,204 7,944 7,584\n2. 운영직 직무등급별 직무급(2026년 적용)\n(단위 : 천원/년)\n직 무 등 급\n구 분\nA B C D E\n상한액 16,560 16,200 15,840 11,460 11,100\n하한액 13,164 12,804 12,444 7,944 7,584",
+        "source_images": [
+          "report/source_images/연봉규정세칙_p29.png"
+        ]
+      },
+      "effective_from_override": "2025-01-01"
+    }
+  },
+  "overtime_rows": [
+    {
+      "row_key": "OVERTIME-01",
+      "source_grade_labels": "일반직 3급, 운영직 3급",
+      "source_monthly_payment_hours": 9,
+      "text": "통상근무자 월 시간외(휴일)근무 수당 지급한도(원문): 일반직 3급, 운영직 3급 / 9h\n원문 제12조제1항의 실적에 따른 지급 기준. 제2항 주간 제한·제3항 특별한 경우의 문구와 함께 확인.",
+      "source_locator": {
+        "pdf_page": 5,
+        "pdf_pages": [
+          5
+        ],
+        "line_ids": [
+          "p005l0025"
+        ],
+        "line_bboxes": [
+          [
+            91.63,
+            524.978,
+            264.214,
+            534.927
+          ]
+        ],
+        "row_bbox": [
+          72.321,
+          523.108,
+          297.92,
+          535.934
+        ],
+        "original_extracted_text": "일반직 3급, 운영직 3급 9h",
+        "source_images": [
+          "report/source_images/연봉규정세칙_p05.png"
+        ]
+      },
+      "individual_payment_calculated": false
+    },
+    {
+      "row_key": "OVERTIME-02",
+      "source_grade_labels": "일반직 4급 이하, 운영직 4급 이하",
+      "source_monthly_payment_hours": 15,
+      "text": "통상근무자 월 시간외(휴일)근무 수당 지급한도(원문): 일반직 4급 이하, 운영직 4급 이하 / 15h\n원문 제12조제1항의 실적에 따른 지급 기준. 제2항 주간 제한·제3항 특별한 경우의 문구와 함께 확인.",
+      "source_locator": {
+        "pdf_page": 5,
+        "pdf_pages": [
+          5
+        ],
+        "line_ids": [
+          "p005l0026",
+          "p005l0027",
+          "p005l0028"
+        ],
+        "line_bboxes": [
+          [
+            79.157,
+            537.804,
+            212.285,
+            547.753
+          ],
+          [
+            250.184,
+            544.277,
+            266.972,
+            554.226
+          ],
+          [
+            135.766,
+            550.75,
+            155.676,
+            560.699
+          ]
+        ],
+        "row_bbox": [
+          72.321,
+          535.934,
+          297.92,
+          561.706
+        ],
+        "original_extracted_text": "일반직 4급 이하, 운영직 4급\n15h\n이하",
+        "source_images": [
+          "report/source_images/연봉규정세칙_p05.png"
+        ]
+      },
+      "individual_payment_calculated": false
+    }
+  ],
+  "original_merged_annex_node_id": "3dc297f0-3c9e-558d-bce7-f9cfc7d3229e",
+  "annex_application_date_source_node_id": "47956ad8-ea24-55af-a01d-fb434115ca3a",
+  "base_annex_date_note": {
+    "source_file_name_revision_candidate": "2025-12-16",
+    "source_annex_caption_revision_date": "2025-12-17",
+    "source_pdf_page": 15,
+    "effective_date_override_created": false,
+    "status": "different_source_dates_preserved_pending_confirmation"
+  },
+  "personal_salary_or_job_grade_assigned": false,
+  "money_rows": [
+    {
+      "row_key": "BASE-일반직-01",
+      "parent_key": "base_annex",
+      "grading_kind": "personnel_grade",
+      "source_labels": {
+        "job_family": "일반직",
+        "grade_label": "1급, 2급(갑)"
+      },
+      "upper_source_text": "103,524",
+      "lower_source_text": "53,556",
+      "source_values": {
+        "upper": 103524,
+        "lower": 53556,
+        "unit": "천원",
+        "application_year": null
+      },
+      "derived_values": {
+        "upper_krw": 103524000,
+        "lower_krw": 53556000,
+        "conversion_multiplier": 1000
+      },
+      "text": "일반직 | 원문 직급: 1급, 2급(갑)\n원문 금액 단위: 천원\n상한액: 103,524 / 하한액: 53,556\n원 환산(원문 천원 단위 × 1,000): 상한 103,524,000원 / 하한 53,556,000원",
+      "source_locator": {
+        "pdf_page": 15,
+        "pdf_pages": [
+          15
+        ],
+        "line_ids": [
+          "p015l0009"
+        ],
+        "line_bboxes": [
+          [
+            64.525,
+            294.626,
+            488.711,
+            306.613
+          ]
+        ],
+        "row_bbox": [
+          59.488,
+          285.88699999999994,
+          509.966,
+          314.05600000000004
+        ],
+        "original_extracted_text": "1급, 2급(갑) 103,524 53,556 1급 92,100 48,300",
+        "source_images": [
+          "report/source_images/연봉규정_p15.png"
+        ]
+      },
+      "actual_employee_salary": null,
+      "amount_kind": "range"
+    },
+    {
+      "row_key": "BASE-운영직-01",
+      "parent_key": "base_annex",
+      "grading_kind": "personnel_grade",
+      "source_labels": {
+        "job_family": "운영직",
+        "grade_label": "1급"
+      },
+      "upper_source_text": "92,100",
+      "lower_source_text": "48,300",
+      "source_values": {
+        "upper": 92100,
+        "lower": 48300,
+        "unit": "천원",
+        "application_year": null
+      },
+      "derived_values": {
+        "upper_krw": 92100000,
+        "lower_krw": 48300000,
+        "conversion_multiplier": 1000
+      },
+      "text": "운영직 | 원문 직급: 1급\n원문 금액 단위: 천원\n상한액: 92,100 / 하한액: 48,300\n원 환산(원문 천원 단위 × 1,000): 상한 92,100,000원 / 하한 48,300,000원",
+      "source_locator": {
+        "pdf_page": 15,
+        "pdf_pages": [
+          15
+        ],
+        "line_ids": [
+          "p015l0009"
+        ],
+        "line_bboxes": [
+          [
+            64.525,
+            294.626,
+            488.711,
+            306.613
+          ]
+        ],
+        "row_bbox": [
+          59.488,
+          285.88699999999994,
+          509.966,
+          314.05600000000004
+        ],
+        "original_extracted_text": "1급, 2급(갑) 103,524 53,556 1급 92,100 48,300",
+        "source_images": [
+          "report/source_images/연봉규정_p15.png"
+        ]
+      },
+      "actual_employee_salary": null,
+      "amount_kind": "range"
+    },
+    {
+      "row_key": "BASE-일반직-02",
+      "parent_key": "base_annex",
+      "grading_kind": "personnel_grade",
+      "source_labels": {
+        "job_family": "일반직",
+        "grade_label": "2급(을)"
+      },
+      "upper_source_text": "91,836",
+      "lower_source_text": "47,256",
+      "source_values": {
+        "upper": 91836,
+        "lower": 47256,
+        "unit": "천원",
+        "application_year": null
+      },
+      "derived_values": {
+        "upper_krw": 91836000,
+        "lower_krw": 47256000,
+        "conversion_multiplier": 1000
+      },
+      "text": "일반직 | 원문 직급: 2급(을)\n원문 금액 단위: 천원\n상한액: 91,836 / 하한액: 47,256\n원 환산(원문 천원 단위 × 1,000): 상한 91,836,000원 / 하한 47,256,000원",
+      "source_locator": {
+        "pdf_page": 15,
+        "pdf_pages": [
+          15
+        ],
+        "line_ids": [
+          "p015l0010"
+        ],
+        "line_bboxes": [
+          [
+            77.958,
+            322.675,
+            488.711,
+            334.662
+          ]
+        ],
+        "row_bbox": [
+          59.488,
+          314.05600000000004,
+          509.966,
+          342.106
+        ],
+        "original_extracted_text": "2급(을) 91,836 47,256 2급 83,352 43,044",
+        "source_images": [
+          "report/source_images/연봉규정_p15.png"
+        ]
+      },
+      "actual_employee_salary": null,
+      "amount_kind": "range"
+    },
+    {
+      "row_key": "BASE-운영직-02",
+      "parent_key": "base_annex",
+      "grading_kind": "personnel_grade",
+      "source_labels": {
+        "job_family": "운영직",
+        "grade_label": "2급"
+      },
+      "upper_source_text": "83,352",
+      "lower_source_text": "43,044",
+      "source_values": {
+        "upper": 83352,
+        "lower": 43044,
+        "unit": "천원",
+        "application_year": null
+      },
+      "derived_values": {
+        "upper_krw": 83352000,
+        "lower_krw": 43044000,
+        "conversion_multiplier": 1000
+      },
+      "text": "운영직 | 원문 직급: 2급\n원문 금액 단위: 천원\n상한액: 83,352 / 하한액: 43,044\n원 환산(원문 천원 단위 × 1,000): 상한 83,352,000원 / 하한 43,044,000원",
+      "source_locator": {
+        "pdf_page": 15,
+        "pdf_pages": [
+          15
+        ],
+        "line_ids": [
+          "p015l0010"
+        ],
+        "line_bboxes": [
+          [
+            77.958,
+            322.675,
+            488.711,
+            334.662
+          ]
+        ],
+        "row_bbox": [
+          59.488,
+          314.05600000000004,
+          509.966,
+          342.106
+        ],
+        "original_extracted_text": "2급(을) 91,836 47,256 2급 83,352 43,044",
+        "source_images": [
+          "report/source_images/연봉규정_p15.png"
+        ]
+      },
+      "actual_employee_salary": null,
+      "amount_kind": "range"
+    },
+    {
+      "row_key": "BASE-일반직-03",
+      "parent_key": "base_annex",
+      "grading_kind": "personnel_grade",
+      "source_labels": {
+        "job_family": "일반직",
+        "grade_label": "3급"
+      },
+      "upper_source_text": "83,316",
+      "lower_source_text": "32,928",
+      "source_values": {
+        "upper": 83316,
+        "lower": 32928,
+        "unit": "천원",
+        "application_year": null
+      },
+      "derived_values": {
+        "upper_krw": 83316000,
+        "lower_krw": 32928000,
+        "conversion_multiplier": 1000
+      },
+      "text": "일반직 | 원문 직급: 3급\n원문 금액 단위: 천원\n상한액: 83,316 / 하한액: 32,928\n원 환산(원문 천원 단위 × 1,000): 상한 83,316,000원 / 하한 32,928,000원",
+      "source_locator": {
+        "pdf_page": 15,
+        "pdf_pages": [
+          15
+        ],
+        "line_ids": [
+          "p015l0011"
+        ],
+        "line_bboxes": [
+          [
+            88.032,
+            350.845,
+            488.711,
+            362.831
+          ]
+        ],
+        "row_bbox": [
+          59.488,
+          342.106,
+          509.966,
+          370.275
+        ],
+        "original_extracted_text": "3급 83,316 32,928 3급 73,548 30,240",
+        "source_images": [
+          "report/source_images/연봉규정_p15.png"
+        ]
+      },
+      "actual_employee_salary": null,
+      "amount_kind": "range"
+    },
+    {
+      "row_key": "BASE-운영직-03",
+      "parent_key": "base_annex",
+      "grading_kind": "personnel_grade",
+      "source_labels": {
+        "job_family": "운영직",
+        "grade_label": "3급"
+      },
+      "upper_source_text": "73,548",
+      "lower_source_text": "30,240",
+      "source_values": {
+        "upper": 73548,
+        "lower": 30240,
+        "unit": "천원",
+        "application_year": null
+      },
+      "derived_values": {
+        "upper_krw": 73548000,
+        "lower_krw": 30240000,
+        "conversion_multiplier": 1000
+      },
+      "text": "운영직 | 원문 직급: 3급\n원문 금액 단위: 천원\n상한액: 73,548 / 하한액: 30,240\n원 환산(원문 천원 단위 × 1,000): 상한 73,548,000원 / 하한 30,240,000원",
+      "source_locator": {
+        "pdf_page": 15,
+        "pdf_pages": [
+          15
+        ],
+        "line_ids": [
+          "p015l0011"
+        ],
+        "line_bboxes": [
+          [
+            88.032,
+            350.845,
+            488.711,
+            362.831
+          ]
+        ],
+        "row_bbox": [
+          59.488,
+          342.106,
+          509.966,
+          370.275
+        ],
+        "original_extracted_text": "3급 83,316 32,928 3급 73,548 30,240",
+        "source_images": [
+          "report/source_images/연봉규정_p15.png"
+        ]
+      },
+      "actual_employee_salary": null,
+      "amount_kind": "range"
+    },
+    {
+      "row_key": "BASE-일반직-04",
+      "parent_key": "base_annex",
+      "grading_kind": "personnel_grade",
+      "source_labels": {
+        "job_family": "일반직",
+        "grade_label": "4급"
+      },
+      "upper_source_text": "73,980",
+      "lower_source_text": "26,496",
+      "source_values": {
+        "upper": 73980,
+        "lower": 26496,
+        "unit": "천원",
+        "application_year": null
+      },
+      "derived_values": {
+        "upper_krw": 73980000,
+        "lower_krw": 26496000,
+        "conversion_multiplier": 1000
+      },
+      "text": "일반직 | 원문 직급: 4급\n원문 금액 단위: 천원\n상한액: 73,980 / 하한액: 26,496\n원 환산(원문 천원 단위 × 1,000): 상한 73,980,000원 / 하한 26,496,000원",
+      "source_locator": {
+        "pdf_page": 15,
+        "pdf_pages": [
+          15
+        ],
+        "line_ids": [
+          "p015l0012"
+        ],
+        "line_bboxes": [
+          [
+            88.032,
+            378.894,
+            488.711,
+            390.881
+          ]
+        ],
+        "row_bbox": [
+          59.488,
+          370.275,
+          509.966,
+          398.324
+        ],
+        "original_extracted_text": "4급 73,980 26,496 4급 64,320 25,416",
+        "source_images": [
+          "report/source_images/연봉규정_p15.png"
+        ]
+      },
+      "actual_employee_salary": null,
+      "amount_kind": "range"
+    },
+    {
+      "row_key": "BASE-운영직-04",
+      "parent_key": "base_annex",
+      "grading_kind": "personnel_grade",
+      "source_labels": {
+        "job_family": "운영직",
+        "grade_label": "4급"
+      },
+      "upper_source_text": "64,320",
+      "lower_source_text": "25,416",
+      "source_values": {
+        "upper": 64320,
+        "lower": 25416,
+        "unit": "천원",
+        "application_year": null
+      },
+      "derived_values": {
+        "upper_krw": 64320000,
+        "lower_krw": 25416000,
+        "conversion_multiplier": 1000
+      },
+      "text": "운영직 | 원문 직급: 4급\n원문 금액 단위: 천원\n상한액: 64,320 / 하한액: 25,416\n원 환산(원문 천원 단위 × 1,000): 상한 64,320,000원 / 하한 25,416,000원",
+      "source_locator": {
+        "pdf_page": 15,
+        "pdf_pages": [
+          15
+        ],
+        "line_ids": [
+          "p015l0012"
+        ],
+        "line_bboxes": [
+          [
+            88.032,
+            378.894,
+            488.711,
+            390.881
+          ]
+        ],
+        "row_bbox": [
+          59.488,
+          370.275,
+          509.966,
+          398.324
+        ],
+        "original_extracted_text": "4급 73,980 26,496 4급 64,320 25,416",
+        "source_images": [
+          "report/source_images/연봉규정_p15.png"
+        ]
+      },
+      "actual_employee_salary": null,
+      "amount_kind": "range"
+    },
+    {
+      "row_key": "BASE-일반직-05",
+      "parent_key": "base_annex",
+      "grading_kind": "personnel_grade",
+      "source_labels": {
+        "job_family": "일반직",
+        "grade_label": "5급"
+      },
+      "upper_source_text": "65,724",
+      "lower_source_text": "22,692",
+      "source_values": {
+        "upper": 65724,
+        "lower": 22692,
+        "unit": "천원",
+        "application_year": null
+      },
+      "derived_values": {
+        "upper_krw": 65724000,
+        "lower_krw": 22692000,
+        "conversion_multiplier": 1000
+      },
+      "text": "일반직 | 원문 직급: 5급\n원문 금액 단위: 천원\n상한액: 65,724 / 하한액: 22,692\n원 환산(원문 천원 단위 × 1,000): 상한 65,724,000원 / 하한 22,692,000원",
+      "source_locator": {
+        "pdf_page": 15,
+        "pdf_pages": [
+          15
+        ],
+        "line_ids": [
+          "p015l0013"
+        ],
+        "line_bboxes": [
+          [
+            88.032,
+            407.063,
+            488.711,
+            419.05
+          ]
+        ],
+        "row_bbox": [
+          59.488,
+          398.324,
+          509.966,
+          426.493
+        ],
+        "original_extracted_text": "5급 65,724 22,692 5급 58,620 22,308",
+        "source_images": [
+          "report/source_images/연봉규정_p15.png"
+        ]
+      },
+      "actual_employee_salary": null,
+      "amount_kind": "range"
+    },
+    {
+      "row_key": "BASE-운영직-05",
+      "parent_key": "base_annex",
+      "grading_kind": "personnel_grade",
+      "source_labels": {
+        "job_family": "운영직",
+        "grade_label": "5급"
+      },
+      "upper_source_text": "58,620",
+      "lower_source_text": "22,308",
+      "source_values": {
+        "upper": 58620,
+        "lower": 22308,
+        "unit": "천원",
+        "application_year": null
+      },
+      "derived_values": {
+        "upper_krw": 58620000,
+        "lower_krw": 22308000,
+        "conversion_multiplier": 1000
+      },
+      "text": "운영직 | 원문 직급: 5급\n원문 금액 단위: 천원\n상한액: 58,620 / 하한액: 22,308\n원 환산(원문 천원 단위 × 1,000): 상한 58,620,000원 / 하한 22,308,000원",
+      "source_locator": {
+        "pdf_page": 15,
+        "pdf_pages": [
+          15
+        ],
+        "line_ids": [
+          "p015l0013"
+        ],
+        "line_bboxes": [
+          [
+            88.032,
+            407.063,
+            488.711,
+            419.05
+          ]
+        ],
+        "row_bbox": [
+          59.488,
+          398.324,
+          509.966,
+          426.493
+        ],
+        "original_extracted_text": "5급 65,724 22,692 5급 58,620 22,308",
+        "source_images": [
+          "report/source_images/연봉규정_p15.png"
+        ]
+      },
+      "actual_employee_salary": null,
+      "amount_kind": "range"
+    },
+    {
+      "row_key": "BASE-일반직-06",
+      "parent_key": "base_annex",
+      "grading_kind": "personnel_grade",
+      "source_labels": {
+        "job_family": "일반직",
+        "grade_label": "6급"
+      },
+      "upper_source_text": "66,324",
+      "lower_source_text": "22,512",
+      "source_values": {
+        "upper": 66324,
+        "lower": 22512,
+        "unit": "천원",
+        "application_year": null
+      },
+      "derived_values": {
+        "upper_krw": 66324000,
+        "lower_krw": 22512000,
+        "conversion_multiplier": 1000
+      },
+      "text": "일반직 | 원문 직급: 6급\n원문 금액 단위: 천원\n상한액: 66,324 / 하한액: 22,512\n원 환산(원문 천원 단위 × 1,000): 상한 66,324,000원 / 하한 22,512,000원",
+      "source_locator": {
+        "pdf_page": 15,
+        "pdf_pages": [
+          15
+        ],
+        "line_ids": [
+          "p015l0014"
+        ],
+        "line_bboxes": [
+          [
+            88.032,
+            435.112,
+            488.711,
+            447.099
+          ]
+        ],
+        "row_bbox": [
+          59.488,
+          426.493,
+          509.966,
+          454.543
+        ],
+        "original_extracted_text": "6급 66,324 22,512 6급 55,068 17,988",
+        "source_images": [
+          "report/source_images/연봉규정_p15.png"
+        ]
+      },
+      "actual_employee_salary": null,
+      "amount_kind": "range"
+    },
+    {
+      "row_key": "BASE-운영직-06",
+      "parent_key": "base_annex",
+      "grading_kind": "personnel_grade",
+      "source_labels": {
+        "job_family": "운영직",
+        "grade_label": "6급"
+      },
+      "upper_source_text": "55,068",
+      "lower_source_text": "17,988",
+      "source_values": {
+        "upper": 55068,
+        "lower": 17988,
+        "unit": "천원",
+        "application_year": null
+      },
+      "derived_values": {
+        "upper_krw": 55068000,
+        "lower_krw": 17988000,
+        "conversion_multiplier": 1000
+      },
+      "text": "운영직 | 원문 직급: 6급\n원문 금액 단위: 천원\n상한액: 55,068 / 하한액: 17,988\n원 환산(원문 천원 단위 × 1,000): 상한 55,068,000원 / 하한 17,988,000원",
+      "source_locator": {
+        "pdf_page": 15,
+        "pdf_pages": [
+          15
+        ],
+        "line_ids": [
+          "p015l0014"
+        ],
+        "line_bboxes": [
+          [
+            88.032,
+            435.112,
+            488.711,
+            447.099
+          ]
+        ],
+        "row_bbox": [
+          59.488,
+          426.493,
+          509.966,
+          454.543
+        ],
+        "original_extracted_text": "6급 66,324 22,512 6급 55,068 17,988",
+        "source_images": [
+          "report/source_images/연봉규정_p15.png"
+        ]
+      },
+      "actual_employee_salary": null,
+      "amount_kind": "range"
+    },
+    {
+      "row_key": "BASE-일반직-07",
+      "parent_key": "base_annex",
+      "grading_kind": "personnel_grade",
+      "source_labels": {
+        "job_family": "일반직",
+        "grade_label": "7급"
+      },
+      "upper_source_text": "56,400",
+      "lower_source_text": "20,004",
+      "source_values": {
+        "upper": 56400,
+        "lower": 20004,
+        "unit": "천원",
+        "application_year": null
+      },
+      "derived_values": {
+        "upper_krw": 56400000,
+        "lower_krw": 20004000,
+        "conversion_multiplier": 1000
+      },
+      "text": "일반직 | 원문 직급: 7급\n원문 금액 단위: 천원\n상한액: 56,400 / 하한액: 20,004\n원 환산(원문 천원 단위 × 1,000): 상한 56,400,000원 / 하한 20,004,000원",
+      "source_locator": {
+        "pdf_page": 15,
+        "pdf_pages": [
+          15
+        ],
+        "line_ids": [
+          "p015l0015"
+        ],
+        "line_bboxes": [
+          [
+            88.032,
+            463.282,
+            488.711,
+            475.269
+          ]
+        ],
+        "row_bbox": [
+          59.488,
+          454.543,
+          509.966,
+          482.712
+        ],
+        "original_extracted_text": "7급 56,400 20,004 7급 47,532 17,076",
+        "source_images": [
+          "report/source_images/연봉규정_p15.png"
+        ]
+      },
+      "actual_employee_salary": null,
+      "amount_kind": "range"
+    },
+    {
+      "row_key": "BASE-운영직-07",
+      "parent_key": "base_annex",
+      "grading_kind": "personnel_grade",
+      "source_labels": {
+        "job_family": "운영직",
+        "grade_label": "7급"
+      },
+      "upper_source_text": "47,532",
+      "lower_source_text": "17,076",
+      "source_values": {
+        "upper": 47532,
+        "lower": 17076,
+        "unit": "천원",
+        "application_year": null
+      },
+      "derived_values": {
+        "upper_krw": 47532000,
+        "lower_krw": 17076000,
+        "conversion_multiplier": 1000
+      },
+      "text": "운영직 | 원문 직급: 7급\n원문 금액 단위: 천원\n상한액: 47,532 / 하한액: 17,076\n원 환산(원문 천원 단위 × 1,000): 상한 47,532,000원 / 하한 17,076,000원",
+      "source_locator": {
+        "pdf_page": 15,
+        "pdf_pages": [
+          15
+        ],
+        "line_ids": [
+          "p015l0015"
+        ],
+        "line_bboxes": [
+          [
+            88.032,
+            463.282,
+            488.711,
+            475.269
+          ]
+        ],
+        "row_bbox": [
+          59.488,
+          454.543,
+          509.966,
+          482.712
+        ],
+        "original_extracted_text": "7급 56,400 20,004 7급 47,532 17,076",
+        "source_images": [
+          "report/source_images/연봉규정_p15.png"
+        ]
+      },
+      "actual_employee_salary": null,
+      "amount_kind": "range"
+    },
+    {
+      "row_key": "BASE-일반직-08",
+      "parent_key": "base_annex",
+      "grading_kind": "personnel_grade",
+      "source_labels": {
+        "job_family": "일반직",
+        "grade_label": "8급"
+      },
+      "upper_source_text": "49,896",
+      "lower_source_text": "17,016",
+      "source_values": {
+        "upper": 49896,
+        "lower": 17016,
+        "unit": "천원",
+        "application_year": null
+      },
+      "derived_values": {
+        "upper_krw": 49896000,
+        "lower_krw": 17016000,
+        "conversion_multiplier": 1000
+      },
+      "text": "일반직 | 원문 직급: 8급\n원문 금액 단위: 천원\n상한액: 49,896 / 하한액: 17,016\n원 환산(원문 천원 단위 × 1,000): 상한 49,896,000원 / 하한 17,016,000원",
+      "source_locator": {
+        "pdf_page": 15,
+        "pdf_pages": [
+          15
+        ],
+        "line_ids": [
+          "p015l0016"
+        ],
+        "line_bboxes": [
+          [
+            88.032,
+            491.331,
+            488.711,
+            503.318
+          ]
+        ],
+        "row_bbox": [
+          59.488,
+          482.712,
+          509.966,
+          510.761
+        ],
+        "original_extracted_text": "8급 49,896 17,016 8급 42,792 16,224",
+        "source_images": [
+          "report/source_images/연봉규정_p15.png"
+        ]
+      },
+      "actual_employee_salary": null,
+      "amount_kind": "range"
+    },
+    {
+      "row_key": "BASE-운영직-08",
+      "parent_key": "base_annex",
+      "grading_kind": "personnel_grade",
+      "source_labels": {
+        "job_family": "운영직",
+        "grade_label": "8급"
+      },
+      "upper_source_text": "42,792",
+      "lower_source_text": "16,224",
+      "source_values": {
+        "upper": 42792,
+        "lower": 16224,
+        "unit": "천원",
+        "application_year": null
+      },
+      "derived_values": {
+        "upper_krw": 42792000,
+        "lower_krw": 16224000,
+        "conversion_multiplier": 1000
+      },
+      "text": "운영직 | 원문 직급: 8급\n원문 금액 단위: 천원\n상한액: 42,792 / 하한액: 16,224\n원 환산(원문 천원 단위 × 1,000): 상한 42,792,000원 / 하한 16,224,000원",
+      "source_locator": {
+        "pdf_page": 15,
+        "pdf_pages": [
+          15
+        ],
+        "line_ids": [
+          "p015l0016"
+        ],
+        "line_bboxes": [
+          [
+            88.032,
+            491.331,
+            488.711,
+            503.318
+          ]
+        ],
+        "row_bbox": [
+          59.488,
+          482.712,
+          509.966,
+          510.761
+        ],
+        "original_extracted_text": "8급 49,896 17,016 8급 42,792 16,224",
+        "source_images": [
+          "report/source_images/연봉규정_p15.png"
+        ]
+      },
+      "actual_employee_salary": null,
+      "amount_kind": "range"
+    },
+    {
+      "row_key": "POSITION-A",
+      "parent_key": "position_annex",
+      "grading_kind": "position_grade",
+      "source_labels": {
+        "job_family": null,
+        "grade_label": "A",
+        "position_scope": "1급․2급(갑)․2급(을) 직위"
+      },
+      "source_values": {
+        "amount": 26592,
+        "unit": "천원/년",
+        "application_year": null
+      },
+      "derived_values": {
+        "amount_krw": 26592000,
+        "conversion_multiplier": 1000
+      },
+      "text": "직위 구분(원문): 1급․2급(갑)․2급(을) 직위 | 직위등급(원문): A\n원문 금액: 26,592 (단위: 천원/년)\n원 환산(원문 천원 단위 × 1,000): 26,592,000원",
+      "source_locator": {
+        "pdf_page": 27,
+        "pdf_pages": [
+          27
+        ],
+        "line_ids": [
+          "p027l0006"
+        ],
+        "line_bboxes": [
+          [
+            75.799,
+            264.85,
+            519.053,
+            277.795
+          ]
+        ],
+        "row_bbox": [
+          60.328,
+          257.23900000000003,
+          534.552,
+          284.20899999999995
+        ],
+        "original_extracted_text": "26,592 25,032 23,472 21,912 20,412 18,912 17,412",
+        "source_images": [
+          "report/source_images/연봉규정세칙_p27.png"
+        ]
+      },
+      "actual_employee_salary": null,
+      "amount_kind": "fixed_amount",
+      "amount_source_text": "26,592"
+    },
+    {
+      "row_key": "POSITION-B",
+      "parent_key": "position_annex",
+      "grading_kind": "position_grade",
+      "source_labels": {
+        "job_family": null,
+        "grade_label": "B",
+        "position_scope": "1급․2급(갑)․2급(을) 직위"
+      },
+      "source_values": {
+        "amount": 25032,
+        "unit": "천원/년",
+        "application_year": null
+      },
+      "derived_values": {
+        "amount_krw": 25032000,
+        "conversion_multiplier": 1000
+      },
+      "text": "직위 구분(원문): 1급․2급(갑)․2급(을) 직위 | 직위등급(원문): B\n원문 금액: 25,032 (단위: 천원/년)\n원 환산(원문 천원 단위 × 1,000): 25,032,000원",
+      "source_locator": {
+        "pdf_page": 27,
+        "pdf_pages": [
+          27
+        ],
+        "line_ids": [
+          "p027l0006"
+        ],
+        "line_bboxes": [
+          [
+            75.799,
+            264.85,
+            519.053,
+            277.795
+          ]
+        ],
+        "row_bbox": [
+          60.328,
+          257.23900000000003,
+          534.552,
+          284.20899999999995
+        ],
+        "original_extracted_text": "26,592 25,032 23,472 21,912 20,412 18,912 17,412",
+        "source_images": [
+          "report/source_images/연봉규정세칙_p27.png"
+        ]
+      },
+      "actual_employee_salary": null,
+      "amount_kind": "fixed_amount",
+      "amount_source_text": "25,032"
+    },
+    {
+      "row_key": "POSITION-C",
+      "parent_key": "position_annex",
+      "grading_kind": "position_grade",
+      "source_labels": {
+        "job_family": null,
+        "grade_label": "C",
+        "position_scope": "1급․2급(갑)․2급(을) 직위"
+      },
+      "source_values": {
+        "amount": 23472,
+        "unit": "천원/년",
+        "application_year": null
+      },
+      "derived_values": {
+        "amount_krw": 23472000,
+        "conversion_multiplier": 1000
+      },
+      "text": "직위 구분(원문): 1급․2급(갑)․2급(을) 직위 | 직위등급(원문): C\n원문 금액: 23,472 (단위: 천원/년)\n원 환산(원문 천원 단위 × 1,000): 23,472,000원",
+      "source_locator": {
+        "pdf_page": 27,
+        "pdf_pages": [
+          27
+        ],
+        "line_ids": [
+          "p027l0006"
+        ],
+        "line_bboxes": [
+          [
+            75.799,
+            264.85,
+            519.053,
+            277.795
+          ]
+        ],
+        "row_bbox": [
+          60.328,
+          257.23900000000003,
+          534.552,
+          284.20899999999995
+        ],
+        "original_extracted_text": "26,592 25,032 23,472 21,912 20,412 18,912 17,412",
+        "source_images": [
+          "report/source_images/연봉규정세칙_p27.png"
+        ]
+      },
+      "actual_employee_salary": null,
+      "amount_kind": "fixed_amount",
+      "amount_source_text": "23,472"
+    },
+    {
+      "row_key": "POSITION-D",
+      "parent_key": "position_annex",
+      "grading_kind": "position_grade",
+      "source_labels": {
+        "job_family": null,
+        "grade_label": "D",
+        "position_scope": "1급․2급(갑)․2급(을) 직위"
+      },
+      "source_values": {
+        "amount": 21912,
+        "unit": "천원/년",
+        "application_year": null
+      },
+      "derived_values": {
+        "amount_krw": 21912000,
+        "conversion_multiplier": 1000
+      },
+      "text": "직위 구분(원문): 1급․2급(갑)․2급(을) 직위 | 직위등급(원문): D\n원문 금액: 21,912 (단위: 천원/년)\n원 환산(원문 천원 단위 × 1,000): 21,912,000원",
+      "source_locator": {
+        "pdf_page": 27,
+        "pdf_pages": [
+          27
+        ],
+        "line_ids": [
+          "p027l0006"
+        ],
+        "line_bboxes": [
+          [
+            75.799,
+            264.85,
+            519.053,
+            277.795
+          ]
+        ],
+        "row_bbox": [
+          60.328,
+          257.23900000000003,
+          534.552,
+          284.20899999999995
+        ],
+        "original_extracted_text": "26,592 25,032 23,472 21,912 20,412 18,912 17,412",
+        "source_images": [
+          "report/source_images/연봉규정세칙_p27.png"
+        ]
+      },
+      "actual_employee_salary": null,
+      "amount_kind": "fixed_amount",
+      "amount_source_text": "21,912"
+    },
+    {
+      "row_key": "POSITION-E",
+      "parent_key": "position_annex",
+      "grading_kind": "position_grade",
+      "source_labels": {
+        "job_family": null,
+        "grade_label": "E",
+        "position_scope": "1급․2급(갑)․2급(을) 직위"
+      },
+      "source_values": {
+        "amount": 20412,
+        "unit": "천원/년",
+        "application_year": null
+      },
+      "derived_values": {
+        "amount_krw": 20412000,
+        "conversion_multiplier": 1000
+      },
+      "text": "직위 구분(원문): 1급․2급(갑)․2급(을) 직위 | 직위등급(원문): E\n원문 금액: 20,412 (단위: 천원/년)\n원 환산(원문 천원 단위 × 1,000): 20,412,000원",
+      "source_locator": {
+        "pdf_page": 27,
+        "pdf_pages": [
+          27
+        ],
+        "line_ids": [
+          "p027l0006"
+        ],
+        "line_bboxes": [
+          [
+            75.799,
+            264.85,
+            519.053,
+            277.795
+          ]
+        ],
+        "row_bbox": [
+          60.328,
+          257.23900000000003,
+          534.552,
+          284.20899999999995
+        ],
+        "original_extracted_text": "26,592 25,032 23,472 21,912 20,412 18,912 17,412",
+        "source_images": [
+          "report/source_images/연봉규정세칙_p27.png"
+        ]
+      },
+      "actual_employee_salary": null,
+      "amount_kind": "fixed_amount",
+      "amount_source_text": "20,412"
+    },
+    {
+      "row_key": "POSITION-F",
+      "parent_key": "position_annex",
+      "grading_kind": "position_grade",
+      "source_labels": {
+        "job_family": null,
+        "grade_label": "F",
+        "position_scope": "1급․2급(갑)․2급(을) 직위"
+      },
+      "source_values": {
+        "amount": 18912,
+        "unit": "천원/년",
+        "application_year": null
+      },
+      "derived_values": {
+        "amount_krw": 18912000,
+        "conversion_multiplier": 1000
+      },
+      "text": "직위 구분(원문): 1급․2급(갑)․2급(을) 직위 | 직위등급(원문): F\n원문 금액: 18,912 (단위: 천원/년)\n원 환산(원문 천원 단위 × 1,000): 18,912,000원",
+      "source_locator": {
+        "pdf_page": 27,
+        "pdf_pages": [
+          27
+        ],
+        "line_ids": [
+          "p027l0006"
+        ],
+        "line_bboxes": [
+          [
+            75.799,
+            264.85,
+            519.053,
+            277.795
+          ]
+        ],
+        "row_bbox": [
+          60.328,
+          257.23900000000003,
+          534.552,
+          284.20899999999995
+        ],
+        "original_extracted_text": "26,592 25,032 23,472 21,912 20,412 18,912 17,412",
+        "source_images": [
+          "report/source_images/연봉규정세칙_p27.png"
+        ]
+      },
+      "actual_employee_salary": null,
+      "amount_kind": "fixed_amount",
+      "amount_source_text": "18,912"
+    },
+    {
+      "row_key": "POSITION-G",
+      "parent_key": "position_annex",
+      "grading_kind": "position_grade",
+      "source_labels": {
+        "job_family": null,
+        "grade_label": "G",
+        "position_scope": "1급․2급(갑)․2급(을) 직위"
+      },
+      "source_values": {
+        "amount": 17412,
+        "unit": "천원/년",
+        "application_year": null
+      },
+      "derived_values": {
+        "amount_krw": 17412000,
+        "conversion_multiplier": 1000
+      },
+      "text": "직위 구분(원문): 1급․2급(갑)․2급(을) 직위 | 직위등급(원문): G\n원문 금액: 17,412 (단위: 천원/년)\n원 환산(원문 천원 단위 × 1,000): 17,412,000원",
+      "source_locator": {
+        "pdf_page": 27,
+        "pdf_pages": [
+          27
+        ],
+        "line_ids": [
+          "p027l0006"
+        ],
+        "line_bboxes": [
+          [
+            75.799,
+            264.85,
+            519.053,
+            277.795
+          ]
+        ],
+        "row_bbox": [
+          60.328,
+          257.23900000000003,
+          534.552,
+          284.20899999999995
+        ],
+        "original_extracted_text": "26,592 25,032 23,472 21,912 20,412 18,912 17,412",
+        "source_images": [
+          "report/source_images/연봉규정세칙_p27.png"
+        ]
+      },
+      "actual_employee_salary": null,
+      "amount_kind": "fixed_amount",
+      "amount_source_text": "17,412"
+    },
+    {
+      "row_key": "POSITION-DUAL",
+      "parent_key": "position_annex",
+      "grading_kind": "position_grade",
+      "source_labels": {
+        "job_family": null,
+        "grade_label": null,
+        "position_scope": "2급(을)․3급 복수보임직위"
+      },
+      "source_values": {
+        "amount": 16452,
+        "unit": "천원/년",
+        "application_year": null
+      },
+      "derived_values": {
+        "amount_krw": 16452000,
+        "conversion_multiplier": 1000
+      },
+      "text": "직위 구분(원문): 2급(을)․3급 복수보임직위\n원문 금액: 16,452 (단위: 천원/년)\n원 환산(원문 천원 단위 × 1,000): 16,452,000원",
+      "source_locator": {
+        "pdf_page": 27,
+        "pdf_pages": [
+          27
+        ],
+        "line_ids": [
+          "p027l0008"
+        ],
+        "line_bboxes": [
+          [
+            279.568,
+            318.671,
+            315.163,
+            331.617
+          ]
+        ],
+        "row_bbox": [
+          60.328,
+          311.05999999999995,
+          534.552,
+          338.03
+        ],
+        "original_extracted_text": "16,452",
+        "source_images": [
+          "report/source_images/연봉규정세칙_p27.png"
+        ]
+      },
+      "actual_employee_salary": null,
+      "amount_kind": "fixed_amount",
+      "amount_source_text": "16,452"
+    },
+    {
+      "row_key": "DUTY-일반직-SOURCE-A",
+      "parent_key": "duty_general",
+      "grading_kind": "job_grade",
+      "source_labels": {
+        "job_family": "일반직",
+        "grade_label": "A"
+      },
+      "upper_source_text": "17,352",
+      "lower_source_text": "14,520",
+      "source_values": {
+        "upper": 17352,
+        "lower": 14520,
+        "unit": "천원/년",
+        "application_year": null
+      },
+      "derived_values": {
+        "upper_krw": 17352000,
+        "lower_krw": 14520000,
+        "conversion_multiplier": 1000
+      },
+      "text": "일반직 | 원문 직무등급: A\n원문 금액 단위: 천원/년\n상한액: 17,352 / 하한액: 14,520\n원 환산(원문 천원 단위 × 1,000): 상한 17,352,000원 / 하한 14,520,000원",
+      "source_locator": {
+        "pdf_page": 28,
+        "pdf_pages": [
+          28
+        ],
+        "line_ids": [
+          "p028l0004",
+          "p028l0005",
+          "p028l0006",
+          "p028l0007",
+          "p028l0008"
+        ],
+        "line_bboxes": [
+          [
+            291.922,
+            188.133,
+            363.283,
+            201.079
+          ],
+          [
+            82.755,
+            204.436,
+            115.258,
+            217.381
+          ],
+          [
+            156.275,
+            220.738,
+            497.59,
+            233.684
+          ],
+          [
+            79.517,
+            260.295,
+            511.737,
+            273.24
+          ],
+          [
+            79.517,
+            307.043,
+            508.498,
+            319.989
+          ]
+        ],
+        "row_bbox": [
+          70.042,
+          177.64599999999996,
+          527.236,
+          336.232
+        ],
+        "original_extracted_text": "직 무 등 급\n구 분\nA B C D E F\n상한액 17,352 17,172 16,992 16,812 12,360 12,000\n하한액 14,520 14,340 14,160 13,980 7,944 7,584",
+        "source_images": [
+          "report/source_images/연봉규정세칙_p28.png"
+        ]
+      },
+      "actual_employee_salary": null,
+      "amount_kind": "range"
+    },
+    {
+      "row_key": "DUTY-일반직-SOURCE-B",
+      "parent_key": "duty_general",
+      "grading_kind": "job_grade",
+      "source_labels": {
+        "job_family": "일반직",
+        "grade_label": "B"
+      },
+      "upper_source_text": "17,172",
+      "lower_source_text": "14,340",
+      "source_values": {
+        "upper": 17172,
+        "lower": 14340,
+        "unit": "천원/년",
+        "application_year": null
+      },
+      "derived_values": {
+        "upper_krw": 17172000,
+        "lower_krw": 14340000,
+        "conversion_multiplier": 1000
+      },
+      "text": "일반직 | 원문 직무등급: B\n원문 금액 단위: 천원/년\n상한액: 17,172 / 하한액: 14,340\n원 환산(원문 천원 단위 × 1,000): 상한 17,172,000원 / 하한 14,340,000원",
+      "source_locator": {
+        "pdf_page": 28,
+        "pdf_pages": [
+          28
+        ],
+        "line_ids": [
+          "p028l0004",
+          "p028l0005",
+          "p028l0006",
+          "p028l0007",
+          "p028l0008"
+        ],
+        "line_bboxes": [
+          [
+            291.922,
+            188.133,
+            363.283,
+            201.079
+          ],
+          [
+            82.755,
+            204.436,
+            115.258,
+            217.381
+          ],
+          [
+            156.275,
+            220.738,
+            497.59,
+            233.684
+          ],
+          [
+            79.517,
+            260.295,
+            511.737,
+            273.24
+          ],
+          [
+            79.517,
+            307.043,
+            508.498,
+            319.989
+          ]
+        ],
+        "row_bbox": [
+          70.042,
+          177.64599999999996,
+          527.236,
+          336.232
+        ],
+        "original_extracted_text": "직 무 등 급\n구 분\nA B C D E F\n상한액 17,352 17,172 16,992 16,812 12,360 12,000\n하한액 14,520 14,340 14,160 13,980 7,944 7,584",
+        "source_images": [
+          "report/source_images/연봉규정세칙_p28.png"
+        ]
+      },
+      "actual_employee_salary": null,
+      "amount_kind": "range"
+    },
+    {
+      "row_key": "DUTY-일반직-SOURCE-C",
+      "parent_key": "duty_general",
+      "grading_kind": "job_grade",
+      "source_labels": {
+        "job_family": "일반직",
+        "grade_label": "C"
+      },
+      "upper_source_text": "16,992",
+      "lower_source_text": "14,160",
+      "source_values": {
+        "upper": 16992,
+        "lower": 14160,
+        "unit": "천원/년",
+        "application_year": null
+      },
+      "derived_values": {
+        "upper_krw": 16992000,
+        "lower_krw": 14160000,
+        "conversion_multiplier": 1000
+      },
+      "text": "일반직 | 원문 직무등급: C\n원문 금액 단위: 천원/년\n상한액: 16,992 / 하한액: 14,160\n원 환산(원문 천원 단위 × 1,000): 상한 16,992,000원 / 하한 14,160,000원",
+      "source_locator": {
+        "pdf_page": 28,
+        "pdf_pages": [
+          28
+        ],
+        "line_ids": [
+          "p028l0004",
+          "p028l0005",
+          "p028l0006",
+          "p028l0007",
+          "p028l0008"
+        ],
+        "line_bboxes": [
+          [
+            291.922,
+            188.133,
+            363.283,
+            201.079
+          ],
+          [
+            82.755,
+            204.436,
+            115.258,
+            217.381
+          ],
+          [
+            156.275,
+            220.738,
+            497.59,
+            233.684
+          ],
+          [
+            79.517,
+            260.295,
+            511.737,
+            273.24
+          ],
+          [
+            79.517,
+            307.043,
+            508.498,
+            319.989
+          ]
+        ],
+        "row_bbox": [
+          70.042,
+          177.64599999999996,
+          527.236,
+          336.232
+        ],
+        "original_extracted_text": "직 무 등 급\n구 분\nA B C D E F\n상한액 17,352 17,172 16,992 16,812 12,360 12,000\n하한액 14,520 14,340 14,160 13,980 7,944 7,584",
+        "source_images": [
+          "report/source_images/연봉규정세칙_p28.png"
+        ]
+      },
+      "actual_employee_salary": null,
+      "amount_kind": "range"
+    },
+    {
+      "row_key": "DUTY-일반직-SOURCE-D",
+      "parent_key": "duty_general",
+      "grading_kind": "job_grade",
+      "source_labels": {
+        "job_family": "일반직",
+        "grade_label": "D"
+      },
+      "upper_source_text": "16,812",
+      "lower_source_text": "13,980",
+      "source_values": {
+        "upper": 16812,
+        "lower": 13980,
+        "unit": "천원/년",
+        "application_year": null
+      },
+      "derived_values": {
+        "upper_krw": 16812000,
+        "lower_krw": 13980000,
+        "conversion_multiplier": 1000
+      },
+      "text": "일반직 | 원문 직무등급: D\n원문 금액 단위: 천원/년\n상한액: 16,812 / 하한액: 13,980\n원 환산(원문 천원 단위 × 1,000): 상한 16,812,000원 / 하한 13,980,000원",
+      "source_locator": {
+        "pdf_page": 28,
+        "pdf_pages": [
+          28
+        ],
+        "line_ids": [
+          "p028l0004",
+          "p028l0005",
+          "p028l0006",
+          "p028l0007",
+          "p028l0008"
+        ],
+        "line_bboxes": [
+          [
+            291.922,
+            188.133,
+            363.283,
+            201.079
+          ],
+          [
+            82.755,
+            204.436,
+            115.258,
+            217.381
+          ],
+          [
+            156.275,
+            220.738,
+            497.59,
+            233.684
+          ],
+          [
+            79.517,
+            260.295,
+            511.737,
+            273.24
+          ],
+          [
+            79.517,
+            307.043,
+            508.498,
+            319.989
+          ]
+        ],
+        "row_bbox": [
+          70.042,
+          177.64599999999996,
+          527.236,
+          336.232
+        ],
+        "original_extracted_text": "직 무 등 급\n구 분\nA B C D E F\n상한액 17,352 17,172 16,992 16,812 12,360 12,000\n하한액 14,520 14,340 14,160 13,980 7,944 7,584",
+        "source_images": [
+          "report/source_images/연봉규정세칙_p28.png"
+        ]
+      },
+      "actual_employee_salary": null,
+      "amount_kind": "range"
+    },
+    {
+      "row_key": "DUTY-일반직-SOURCE-E",
+      "parent_key": "duty_general",
+      "grading_kind": "job_grade",
+      "source_labels": {
+        "job_family": "일반직",
+        "grade_label": "E"
+      },
+      "upper_source_text": "12,360",
+      "lower_source_text": "7,944",
+      "source_values": {
+        "upper": 12360,
+        "lower": 7944,
+        "unit": "천원/년",
+        "application_year": null
+      },
+      "derived_values": {
+        "upper_krw": 12360000,
+        "lower_krw": 7944000,
+        "conversion_multiplier": 1000
+      },
+      "text": "일반직 | 원문 직무등급: E\n원문 금액 단위: 천원/년\n상한액: 12,360 / 하한액: 7,944\n원 환산(원문 천원 단위 × 1,000): 상한 12,360,000원 / 하한 7,944,000원",
+      "source_locator": {
+        "pdf_page": 28,
+        "pdf_pages": [
+          28
+        ],
+        "line_ids": [
+          "p028l0004",
+          "p028l0005",
+          "p028l0006",
+          "p028l0007",
+          "p028l0008"
+        ],
+        "line_bboxes": [
+          [
+            291.922,
+            188.133,
+            363.283,
+            201.079
+          ],
+          [
+            82.755,
+            204.436,
+            115.258,
+            217.381
+          ],
+          [
+            156.275,
+            220.738,
+            497.59,
+            233.684
+          ],
+          [
+            79.517,
+            260.295,
+            511.737,
+            273.24
+          ],
+          [
+            79.517,
+            307.043,
+            508.498,
+            319.989
+          ]
+        ],
+        "row_bbox": [
+          70.042,
+          177.64599999999996,
+          527.236,
+          336.232
+        ],
+        "original_extracted_text": "직 무 등 급\n구 분\nA B C D E F\n상한액 17,352 17,172 16,992 16,812 12,360 12,000\n하한액 14,520 14,340 14,160 13,980 7,944 7,584",
+        "source_images": [
+          "report/source_images/연봉규정세칙_p28.png"
+        ]
+      },
+      "actual_employee_salary": null,
+      "amount_kind": "range"
+    },
+    {
+      "row_key": "DUTY-일반직-SOURCE-F",
+      "parent_key": "duty_general",
+      "grading_kind": "job_grade",
+      "source_labels": {
+        "job_family": "일반직",
+        "grade_label": "F"
+      },
+      "upper_source_text": "12,000",
+      "lower_source_text": "7,584",
+      "source_values": {
+        "upper": 12000,
+        "lower": 7584,
+        "unit": "천원/년",
+        "application_year": null
+      },
+      "derived_values": {
+        "upper_krw": 12000000,
+        "lower_krw": 7584000,
+        "conversion_multiplier": 1000
+      },
+      "text": "일반직 | 원문 직무등급: F\n원문 금액 단위: 천원/년\n상한액: 12,000 / 하한액: 7,584\n원 환산(원문 천원 단위 × 1,000): 상한 12,000,000원 / 하한 7,584,000원",
+      "source_locator": {
+        "pdf_page": 28,
+        "pdf_pages": [
+          28
+        ],
+        "line_ids": [
+          "p028l0004",
+          "p028l0005",
+          "p028l0006",
+          "p028l0007",
+          "p028l0008"
+        ],
+        "line_bboxes": [
+          [
+            291.922,
+            188.133,
+            363.283,
+            201.079
+          ],
+          [
+            82.755,
+            204.436,
+            115.258,
+            217.381
+          ],
+          [
+            156.275,
+            220.738,
+            497.59,
+            233.684
+          ],
+          [
+            79.517,
+            260.295,
+            511.737,
+            273.24
+          ],
+          [
+            79.517,
+            307.043,
+            508.498,
+            319.989
+          ]
+        ],
+        "row_bbox": [
+          70.042,
+          177.64599999999996,
+          527.236,
+          336.232
+        ],
+        "original_extracted_text": "직 무 등 급\n구 분\nA B C D E F\n상한액 17,352 17,172 16,992 16,812 12,360 12,000\n하한액 14,520 14,340 14,160 13,980 7,944 7,584",
+        "source_images": [
+          "report/source_images/연봉규정세칙_p28.png"
+        ]
+      },
+      "actual_employee_salary": null,
+      "amount_kind": "range"
+    },
+    {
+      "row_key": "DUTY-운영직-2025-A",
+      "parent_key": "duty_operating",
+      "grading_kind": "job_grade",
+      "source_labels": {
+        "job_family": "운영직",
+        "grade_label": "A"
+      },
+      "upper_source_text": "15,720",
+      "lower_source_text": "12,564",
+      "source_values": {
+        "upper": 15720,
+        "lower": 12564,
+        "unit": "천원/년",
+        "application_year": 2025
+      },
+      "derived_values": {
+        "upper_krw": 15720000,
+        "lower_krw": 12564000,
+        "conversion_multiplier": 1000
+      },
+      "text": "운영직 | 원문 직무등급: A | 원문 적용년: 2025\n원문 금액 단위: 천원/년\n상한액: 15,720 / 하한액: 12,564\n원 환산(원문 천원 단위 × 1,000): 상한 15,720,000원 / 하한 12,564,000원",
+      "source_locator": {
+        "pdf_page": 29,
+        "pdf_pages": [
+          29
+        ],
+        "line_ids": [
+          "p029l0004",
+          "p029l0005",
+          "p029l0006",
+          "p029l0007",
+          "p029l0008"
+        ],
+        "line_bboxes": [
+          [
+            291.922,
+            188.133,
+            363.283,
+            201.079
+          ],
+          [
+            82.755,
+            204.436,
+            115.258,
+            217.381
+          ],
+          [
+            172.946,
+            220.738,
+            482.317,
+            233.684
+          ],
+          [
+            79.517,
+            260.295,
+            495.186,
+            273.24
+          ],
+          [
+            79.517,
+            307.043,
+            491.947,
+            319.989
+          ]
+        ],
+        "row_bbox": [
+          70.042,
+          177.64599999999996,
+          527.236,
+          336.232
+        ],
+        "original_extracted_text": "직 무 등 급\n구 분\nA B C D\n상한액 15,720 15,360 11,460 11,100\n하한액 12,564 12,204 7,944 7,584",
+        "source_images": [
+          "report/source_images/연봉규정세칙_p29.png"
+        ]
+      },
+      "actual_employee_salary": null,
+      "amount_kind": "range"
+    },
+    {
+      "row_key": "DUTY-운영직-2025-B",
+      "parent_key": "duty_operating",
+      "grading_kind": "job_grade",
+      "source_labels": {
+        "job_family": "운영직",
+        "grade_label": "B"
+      },
+      "upper_source_text": "15,360",
+      "lower_source_text": "12,204",
+      "source_values": {
+        "upper": 15360,
+        "lower": 12204,
+        "unit": "천원/년",
+        "application_year": 2025
+      },
+      "derived_values": {
+        "upper_krw": 15360000,
+        "lower_krw": 12204000,
+        "conversion_multiplier": 1000
+      },
+      "text": "운영직 | 원문 직무등급: B | 원문 적용년: 2025\n원문 금액 단위: 천원/년\n상한액: 15,360 / 하한액: 12,204\n원 환산(원문 천원 단위 × 1,000): 상한 15,360,000원 / 하한 12,204,000원",
+      "source_locator": {
+        "pdf_page": 29,
+        "pdf_pages": [
+          29
+        ],
+        "line_ids": [
+          "p029l0004",
+          "p029l0005",
+          "p029l0006",
+          "p029l0007",
+          "p029l0008"
+        ],
+        "line_bboxes": [
+          [
+            291.922,
+            188.133,
+            363.283,
+            201.079
+          ],
+          [
+            82.755,
+            204.436,
+            115.258,
+            217.381
+          ],
+          [
+            172.946,
+            220.738,
+            482.317,
+            233.684
+          ],
+          [
+            79.517,
+            260.295,
+            495.186,
+            273.24
+          ],
+          [
+            79.517,
+            307.043,
+            491.947,
+            319.989
+          ]
+        ],
+        "row_bbox": [
+          70.042,
+          177.64599999999996,
+          527.236,
+          336.232
+        ],
+        "original_extracted_text": "직 무 등 급\n구 분\nA B C D\n상한액 15,720 15,360 11,460 11,100\n하한액 12,564 12,204 7,944 7,584",
+        "source_images": [
+          "report/source_images/연봉규정세칙_p29.png"
+        ]
+      },
+      "actual_employee_salary": null,
+      "amount_kind": "range"
+    },
+    {
+      "row_key": "DUTY-운영직-2025-C",
+      "parent_key": "duty_operating",
+      "grading_kind": "job_grade",
+      "source_labels": {
+        "job_family": "운영직",
+        "grade_label": "C"
+      },
+      "upper_source_text": "11,460",
+      "lower_source_text": "7,944",
+      "source_values": {
+        "upper": 11460,
+        "lower": 7944,
+        "unit": "천원/년",
+        "application_year": 2025
+      },
+      "derived_values": {
+        "upper_krw": 11460000,
+        "lower_krw": 7944000,
+        "conversion_multiplier": 1000
+      },
+      "text": "운영직 | 원문 직무등급: C | 원문 적용년: 2025\n원문 금액 단위: 천원/년\n상한액: 11,460 / 하한액: 7,944\n원 환산(원문 천원 단위 × 1,000): 상한 11,460,000원 / 하한 7,944,000원",
+      "source_locator": {
+        "pdf_page": 29,
+        "pdf_pages": [
+          29
+        ],
+        "line_ids": [
+          "p029l0004",
+          "p029l0005",
+          "p029l0006",
+          "p029l0007",
+          "p029l0008"
+        ],
+        "line_bboxes": [
+          [
+            291.922,
+            188.133,
+            363.283,
+            201.079
+          ],
+          [
+            82.755,
+            204.436,
+            115.258,
+            217.381
+          ],
+          [
+            172.946,
+            220.738,
+            482.317,
+            233.684
+          ],
+          [
+            79.517,
+            260.295,
+            495.186,
+            273.24
+          ],
+          [
+            79.517,
+            307.043,
+            491.947,
+            319.989
+          ]
+        ],
+        "row_bbox": [
+          70.042,
+          177.64599999999996,
+          527.236,
+          336.232
+        ],
+        "original_extracted_text": "직 무 등 급\n구 분\nA B C D\n상한액 15,720 15,360 11,460 11,100\n하한액 12,564 12,204 7,944 7,584",
+        "source_images": [
+          "report/source_images/연봉규정세칙_p29.png"
+        ]
+      },
+      "actual_employee_salary": null,
+      "amount_kind": "range"
+    },
+    {
+      "row_key": "DUTY-운영직-2025-D",
+      "parent_key": "duty_operating",
+      "grading_kind": "job_grade",
+      "source_labels": {
+        "job_family": "운영직",
+        "grade_label": "D"
+      },
+      "upper_source_text": "11,100",
+      "lower_source_text": "7,584",
+      "source_values": {
+        "upper": 11100,
+        "lower": 7584,
+        "unit": "천원/년",
+        "application_year": 2025
+      },
+      "derived_values": {
+        "upper_krw": 11100000,
+        "lower_krw": 7584000,
+        "conversion_multiplier": 1000
+      },
+      "text": "운영직 | 원문 직무등급: D | 원문 적용년: 2025\n원문 금액 단위: 천원/년\n상한액: 11,100 / 하한액: 7,584\n원 환산(원문 천원 단위 × 1,000): 상한 11,100,000원 / 하한 7,584,000원",
+      "source_locator": {
+        "pdf_page": 29,
+        "pdf_pages": [
+          29
+        ],
+        "line_ids": [
+          "p029l0004",
+          "p029l0005",
+          "p029l0006",
+          "p029l0007",
+          "p029l0008"
+        ],
+        "line_bboxes": [
+          [
+            291.922,
+            188.133,
+            363.283,
+            201.079
+          ],
+          [
+            82.755,
+            204.436,
+            115.258,
+            217.381
+          ],
+          [
+            172.946,
+            220.738,
+            482.317,
+            233.684
+          ],
+          [
+            79.517,
+            260.295,
+            495.186,
+            273.24
+          ],
+          [
+            79.517,
+            307.043,
+            491.947,
+            319.989
+          ]
+        ],
+        "row_bbox": [
+          70.042,
+          177.64599999999996,
+          527.236,
+          336.232
+        ],
+        "original_extracted_text": "직 무 등 급\n구 분\nA B C D\n상한액 15,720 15,360 11,460 11,100\n하한액 12,564 12,204 7,944 7,584",
+        "source_images": [
+          "report/source_images/연봉규정세칙_p29.png"
+        ]
+      },
+      "actual_employee_salary": null,
+      "amount_kind": "range"
+    },
+    {
+      "row_key": "DUTY-운영직-2026-A",
+      "parent_key": "duty_operating",
+      "grading_kind": "job_grade",
+      "source_labels": {
+        "job_family": "운영직",
+        "grade_label": "A"
+      },
+      "upper_source_text": "16,560",
+      "lower_source_text": "13,164",
+      "source_values": {
+        "upper": 16560,
+        "lower": 13164,
+        "unit": "천원/년",
+        "application_year": 2026
+      },
+      "derived_values": {
+        "upper_krw": 16560000,
+        "lower_krw": 13164000,
+        "conversion_multiplier": 1000
+      },
+      "text": "운영직 | 원문 직무등급: A | 원문 적용년: 2026\n원문 금액 단위: 천원/년\n상한액: 16,560 / 하한액: 13,164\n원 환산(원문 천원 단위 × 1,000): 상한 16,560,000원 / 하한 13,164,000원",
+      "source_locator": {
+        "pdf_page": 29,
+        "pdf_pages": [
+          29
+        ],
+        "line_ids": [
+          "p029l0011",
+          "p029l0012",
+          "p029l0013",
+          "p029l0014",
+          "p029l0015"
+        ],
+        "line_bboxes": [
+          [
+            291.922,
+            436.502,
+            363.283,
+            449.448
+          ],
+          [
+            82.755,
+            452.804,
+            115.258,
+            465.75
+          ],
+          [
+            162.872,
+            469.106,
+            491.346,
+            482.052
+          ],
+          [
+            79.517,
+            508.663,
+            505.14,
+            521.609
+          ],
+          [
+            79.517,
+            555.412,
+            501.902,
+            568.358
+          ]
+        ],
+        "row_bbox": [
+          70.042,
+          426.014,
+          527.236,
+          584.6
+        ],
+        "original_extracted_text": "직 무 등 급\n구 분\nA B C D E\n상한액 16,560 16,200 15,840 11,460 11,100\n하한액 13,164 12,804 12,444 7,944 7,584",
+        "source_images": [
+          "report/source_images/연봉규정세칙_p29.png"
+        ]
+      },
+      "actual_employee_salary": null,
+      "amount_kind": "range"
+    },
+    {
+      "row_key": "DUTY-운영직-2026-B",
+      "parent_key": "duty_operating",
+      "grading_kind": "job_grade",
+      "source_labels": {
+        "job_family": "운영직",
+        "grade_label": "B"
+      },
+      "upper_source_text": "16,200",
+      "lower_source_text": "12,804",
+      "source_values": {
+        "upper": 16200,
+        "lower": 12804,
+        "unit": "천원/년",
+        "application_year": 2026
+      },
+      "derived_values": {
+        "upper_krw": 16200000,
+        "lower_krw": 12804000,
+        "conversion_multiplier": 1000
+      },
+      "text": "운영직 | 원문 직무등급: B | 원문 적용년: 2026\n원문 금액 단위: 천원/년\n상한액: 16,200 / 하한액: 12,804\n원 환산(원문 천원 단위 × 1,000): 상한 16,200,000원 / 하한 12,804,000원",
+      "source_locator": {
+        "pdf_page": 29,
+        "pdf_pages": [
+          29
+        ],
+        "line_ids": [
+          "p029l0011",
+          "p029l0012",
+          "p029l0013",
+          "p029l0014",
+          "p029l0015"
+        ],
+        "line_bboxes": [
+          [
+            291.922,
+            436.502,
+            363.283,
+            449.448
+          ],
+          [
+            82.755,
+            452.804,
+            115.258,
+            465.75
+          ],
+          [
+            162.872,
+            469.106,
+            491.346,
+            482.052
+          ],
+          [
+            79.517,
+            508.663,
+            505.14,
+            521.609
+          ],
+          [
+            79.517,
+            555.412,
+            501.902,
+            568.358
+          ]
+        ],
+        "row_bbox": [
+          70.042,
+          426.014,
+          527.236,
+          584.6
+        ],
+        "original_extracted_text": "직 무 등 급\n구 분\nA B C D E\n상한액 16,560 16,200 15,840 11,460 11,100\n하한액 13,164 12,804 12,444 7,944 7,584",
+        "source_images": [
+          "report/source_images/연봉규정세칙_p29.png"
+        ]
+      },
+      "actual_employee_salary": null,
+      "amount_kind": "range"
+    },
+    {
+      "row_key": "DUTY-운영직-2026-C",
+      "parent_key": "duty_operating",
+      "grading_kind": "job_grade",
+      "source_labels": {
+        "job_family": "운영직",
+        "grade_label": "C"
+      },
+      "upper_source_text": "15,840",
+      "lower_source_text": "12,444",
+      "source_values": {
+        "upper": 15840,
+        "lower": 12444,
+        "unit": "천원/년",
+        "application_year": 2026
+      },
+      "derived_values": {
+        "upper_krw": 15840000,
+        "lower_krw": 12444000,
+        "conversion_multiplier": 1000
+      },
+      "text": "운영직 | 원문 직무등급: C | 원문 적용년: 2026\n원문 금액 단위: 천원/년\n상한액: 15,840 / 하한액: 12,444\n원 환산(원문 천원 단위 × 1,000): 상한 15,840,000원 / 하한 12,444,000원",
+      "source_locator": {
+        "pdf_page": 29,
+        "pdf_pages": [
+          29
+        ],
+        "line_ids": [
+          "p029l0011",
+          "p029l0012",
+          "p029l0013",
+          "p029l0014",
+          "p029l0015"
+        ],
+        "line_bboxes": [
+          [
+            291.922,
+            436.502,
+            363.283,
+            449.448
+          ],
+          [
+            82.755,
+            452.804,
+            115.258,
+            465.75
+          ],
+          [
+            162.872,
+            469.106,
+            491.346,
+            482.052
+          ],
+          [
+            79.517,
+            508.663,
+            505.14,
+            521.609
+          ],
+          [
+            79.517,
+            555.412,
+            501.902,
+            568.358
+          ]
+        ],
+        "row_bbox": [
+          70.042,
+          426.014,
+          527.236,
+          584.6
+        ],
+        "original_extracted_text": "직 무 등 급\n구 분\nA B C D E\n상한액 16,560 16,200 15,840 11,460 11,100\n하한액 13,164 12,804 12,444 7,944 7,584",
+        "source_images": [
+          "report/source_images/연봉규정세칙_p29.png"
+        ]
+      },
+      "actual_employee_salary": null,
+      "amount_kind": "range"
+    },
+    {
+      "row_key": "DUTY-운영직-2026-D",
+      "parent_key": "duty_operating",
+      "grading_kind": "job_grade",
+      "source_labels": {
+        "job_family": "운영직",
+        "grade_label": "D"
+      },
+      "upper_source_text": "11,460",
+      "lower_source_text": "7,944",
+      "source_values": {
+        "upper": 11460,
+        "lower": 7944,
+        "unit": "천원/년",
+        "application_year": 2026
+      },
+      "derived_values": {
+        "upper_krw": 11460000,
+        "lower_krw": 7944000,
+        "conversion_multiplier": 1000
+      },
+      "text": "운영직 | 원문 직무등급: D | 원문 적용년: 2026\n원문 금액 단위: 천원/년\n상한액: 11,460 / 하한액: 7,944\n원 환산(원문 천원 단위 × 1,000): 상한 11,460,000원 / 하한 7,944,000원",
+      "source_locator": {
+        "pdf_page": 29,
+        "pdf_pages": [
+          29
+        ],
+        "line_ids": [
+          "p029l0011",
+          "p029l0012",
+          "p029l0013",
+          "p029l0014",
+          "p029l0015"
+        ],
+        "line_bboxes": [
+          [
+            291.922,
+            436.502,
+            363.283,
+            449.448
+          ],
+          [
+            82.755,
+            452.804,
+            115.258,
+            465.75
+          ],
+          [
+            162.872,
+            469.106,
+            491.346,
+            482.052
+          ],
+          [
+            79.517,
+            508.663,
+            505.14,
+            521.609
+          ],
+          [
+            79.517,
+            555.412,
+            501.902,
+            568.358
+          ]
+        ],
+        "row_bbox": [
+          70.042,
+          426.014,
+          527.236,
+          584.6
+        ],
+        "original_extracted_text": "직 무 등 급\n구 분\nA B C D E\n상한액 16,560 16,200 15,840 11,460 11,100\n하한액 13,164 12,804 12,444 7,944 7,584",
+        "source_images": [
+          "report/source_images/연봉규정세칙_p29.png"
+        ]
+      },
+      "actual_employee_salary": null,
+      "amount_kind": "range"
+    },
+    {
+      "row_key": "DUTY-운영직-2026-E",
+      "parent_key": "duty_operating",
+      "grading_kind": "job_grade",
+      "source_labels": {
+        "job_family": "운영직",
+        "grade_label": "E"
+      },
+      "upper_source_text": "11,100",
+      "lower_source_text": "7,584",
+      "source_values": {
+        "upper": 11100,
+        "lower": 7584,
+        "unit": "천원/년",
+        "application_year": 2026
+      },
+      "derived_values": {
+        "upper_krw": 11100000,
+        "lower_krw": 7584000,
+        "conversion_multiplier": 1000
+      },
+      "text": "운영직 | 원문 직무등급: E | 원문 적용년: 2026\n원문 금액 단위: 천원/년\n상한액: 11,100 / 하한액: 7,584\n원 환산(원문 천원 단위 × 1,000): 상한 11,100,000원 / 하한 7,584,000원",
+      "source_locator": {
+        "pdf_page": 29,
+        "pdf_pages": [
+          29
+        ],
+        "line_ids": [
+          "p029l0011",
+          "p029l0012",
+          "p029l0013",
+          "p029l0014",
+          "p029l0015"
+        ],
+        "line_bboxes": [
+          [
+            291.922,
+            436.502,
+            363.283,
+            449.448
+          ],
+          [
+            82.755,
+            452.804,
+            115.258,
+            465.75
+          ],
+          [
+            162.872,
+            469.106,
+            491.346,
+            482.052
+          ],
+          [
+            79.517,
+            508.663,
+            505.14,
+            521.609
+          ],
+          [
+            79.517,
+            555.412,
+            501.902,
+            568.358
+          ]
+        ],
+        "row_bbox": [
+          70.042,
+          426.014,
+          527.236,
+          584.6
+        ],
+        "original_extracted_text": "직 무 등 급\n구 분\nA B C D E\n상한액 16,560 16,200 15,840 11,460 11,100\n하한액 13,164 12,804 12,444 7,944 7,584",
+        "source_images": [
+          "report/source_images/연봉규정세칙_p29.png"
+        ]
+      },
+      "actual_employee_salary": null,
+      "amount_kind": "range"
+    }
+  ],
+  "misparsed_annex_continuations": [
+    {
+      "fragment_node_id": "42ce0205-7a40-5387-81b4-035af462f8d1",
+      "parent_article_node_id": "493aea07-e35e-5884-b144-de62b4a5af73",
+      "source_pdf_pages": [
+        20
+      ],
+      "source_supplement_date": "2015-12-21"
+    },
+    {
+      "fragment_node_id": "e5abcf31-f2a9-5603-b4e5-0f84a0e5e8d8",
+      "parent_article_node_id": "26ea80c1-ead1-5337-940e-533278a8e48b",
+      "source_pdf_pages": [
+        20
+      ],
+      "source_supplement_date": "2016-12-27"
+    }
+  ]
+}

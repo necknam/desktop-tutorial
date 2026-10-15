@@ -48,11 +48,12 @@ DO $$ BEGIN
 END $$;
 '''
 
-# Source data remains authoritative. No review state or original hash is overwritten.
+# Source data remains authoritative. Superseded/not_for_answer chunks are excluded from embedding.
 SOURCE_SQL = '''SELECT c.*, v.review_status AS version_review_status,
     v.availability_status, v.effective_from, v.effective_to
     FROM hr_regulation_pilot.rag_chunk c
     JOIN hr_regulation_pilot.regulation_version v USING (regulation_version_id)
+    WHERE c.search_status NOT IN ('superseded', 'not_for_answer')
     ORDER BY c.rag_chunk_id'''
 
 HASH_SQL = "encode(digest(convert_to(c.context_path || E'\\n\\n' || c.chunk_text,'UTF8'),'sha256'),'hex')"
@@ -238,6 +239,7 @@ def export_vectors(conn,output):
     rows = conn.execute(f'''SELECT e.rag_chunk_id,e.input_sha256,e.embedding::text AS embedding
         FROM {TABLE} e JOIN hr_regulation_pilot.rag_chunk c USING (rag_chunk_id)
         WHERE e.embedding_model=%s AND e.input_version=%s AND e.input_sha256={HASH_SQL}
+          AND c.search_status NOT IN ('superseded', 'not_for_answer')
         ORDER BY e.rag_chunk_id''',(MODEL,INPUT_VERSION)).fetchall()
     if len(rows)!=len(sources(conn)):
         raise ValueError('Some regulation vectors are missing/stale; finish embed before export.')

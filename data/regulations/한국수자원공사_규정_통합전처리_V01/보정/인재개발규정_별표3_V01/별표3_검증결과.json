@@ -1,0 +1,79 @@
+{
+  "result": "pass",
+  "check_count": 12,
+  "checks": [
+    {
+      "check": "직무군 3개·세부 분야 7개 중복과 누락 없음",
+      "result": "pass"
+    },
+    {
+      "check": "단계 2개·학습 블록 3개 순서와 원문 시기 구분",
+      "result": "pass"
+    },
+    {
+      "check": "공통 내용 2개·기초 분야별 6개·통합직무 분야별 12개 보존",
+      "result": "pass"
+    },
+    {
+      "check": "학습 블록 3개에 이해도 평가가 각각 연결되고 점수·합격선 미정",
+      "result": "pass"
+    },
+    {
+      "check": "전사 항목의 원문 행·좌표·원문 문자 일치",
+      "result": "pass"
+    },
+    {
+      "check": "학습 내용 20개가 연결한 원문 행에 존재",
+      "result": "pass"
+    },
+    {
+      "check": "도식의 문자 행 34개 모두 보정 근거에서 보존",
+      "result": "pass"
+    },
+    {
+      "check": "원문 주석 3개·별도 이수기준·분류체계·차수 통합 구분",
+      "result": "pass"
+    },
+    {
+      "check": "일반직5급 채용 신입사원 대상 근거와 개별 분야 미확정 보존",
+      "result": "pass"
+    },
+    {
+      "check": "공식 검토·개인별 자동 판정·검색 활성화·DB 적재 보류",
+      "result": "pass"
+    },
+    {
+      "check": "이해도 평가 기록 보존 방향 수용과 점수·역량 환산 미정 구분",
+      "result": "pass"
+    },
+    {
+      "check": "기존 시범본 44개 파일의 내용 해시 동일",
+      "result": "pass"
+    }
+  ],
+  "counts": {
+    "field_groups": 3,
+    "job_fields": 7,
+    "stages": 2,
+    "learning_blocks": 3,
+    "learning_topics": 20,
+    "evaluations": 3,
+    "conditions": 3
+  },
+  "original_files_preserved": 44,
+  "human_official_interpretation_completed": false,
+  "unverified": [
+    "브라우저 렌더링",
+    "직원별 적용·점수 기준",
+    "실제 DB 적재",
+    "기관 공식 해석"
+  ],
+  "browser_verification": {
+    "status": "not_verified",
+    "reason": "브라우저 로컬 파일 접근 제한. HTML 정적 검사만 수행."
+  },
+  "html_static_check": {
+    "embedded_source_image_hash_equal": "pass",
+    "external_dependencies": "none"
+  }
+}

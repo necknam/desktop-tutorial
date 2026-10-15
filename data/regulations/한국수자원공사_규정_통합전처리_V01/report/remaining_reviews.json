@@ -1,0 +1,542 @@
+{
+  "items": [
+    {
+      "id": "B04",
+      "title": "국외근무직원연봉및복지후생규정",
+      "kind": "applicability",
+      "detail": "다른 직군에 관한 질문에도 검색 가능. 질문자 본인에게 적용되는지는 원문 적용범위 확인 필요",
+      "priority": "deferred_or_source_confirmation"
+    },
+    {
+      "id": "B05",
+      "title": "실무직 보수기준",
+      "kind": "applicability",
+      "detail": "다른 직군에 관한 질문에도 검색 가능. 질문자 본인에게 적용되는지는 원문 적용범위 확인 필요",
+      "priority": "deferred_or_source_confirmation"
+    },
+    {
+      "id": "B05",
+      "title": "실무직 보수기준",
+      "kind": "ocr_or_layout",
+      "detail": "문자 없음: []; 원문 대조 전인 짧은 페이지: [1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]",
+      "priority": "deferred_or_source_confirmation"
+    },
+    {
+      "id": "B05",
+      "title": "실무직 보수기준",
+      "kind": "structure",
+      "detail": "제n조 형식의 본문 조항을 검출하지 못함",
+      "priority": "deferred_or_source_confirmation"
+    },
+    {
+      "id": "B05",
+      "title": "실무직 보수기준",
+      "kind": "amendment_date",
+      "detail": "원문 첫 장의 개정 차수·정확한 날짜를 확인하지 못함",
+      "priority": "deferred_or_source_confirmation"
+    },
+    {
+      "id": "B05",
+      "title": "실무직 보수기준",
+      "kind": "image_table_text",
+      "detail": "금액 표가 이미지여서 숫자 텍스트가 추출되지 않음. PDF 3쪽에는 시행일 2026.6.18. 표시; 파일명 개정일 2026.6.22.와 구분해 확인 필요",
+      "priority": "deferred_or_source_confirmation"
+    },
+    {
+      "id": "B08",
+      "title": "특수직 보수기준",
+      "kind": "applicability",
+      "detail": "다른 직군에 관한 질문에도 검색 가능. 질문자 본인에게 적용되는지는 원문 적용범위 확인 필요",
+      "priority": "deferred_or_source_confirmation"
+    },
+    {
+      "id": "B08",
+      "title": "특수직 보수기준",
+      "kind": "ocr_or_layout",
+      "detail": "문자 없음: []; 원문 대조 전인 짧은 페이지: [1, 3, 4, 5, 6, 7, 8, 9]",
+      "priority": "deferred_or_source_confirmation"
+    },
+    {
+      "id": "B08",
+      "title": "특수직 보수기준",
+      "kind": "structure",
+      "detail": "제n조 형식의 본문 조항을 검출하지 못함",
+      "priority": "deferred_or_source_confirmation"
+    },
+    {
+      "id": "B08",
+      "title": "특수직 보수기준",
+      "kind": "amendment_date",
+      "detail": "원문 첫 장의 개정 차수·정확한 날짜를 확인하지 못함",
+      "priority": "deferred_or_source_confirmation"
+    },
+    {
+      "id": "B08",
+      "title": "특수직 보수기준",
+      "kind": "image_table_text",
+      "detail": "금액 표가 이미지여서 숫자 텍스트가 추출되지 않음. PDF 3쪽에는 시행일 2026.6.18. 표시; 파일명 개정일 2026.6.22.와 구분해 확인 필요",
+      "priority": "deferred_or_source_confirmation"
+    },
+    {
+      "id": "B09",
+      "title": "국외근무직원복무규정",
+      "kind": "applicability",
+      "detail": "다른 직군에 관한 질문에도 검색 가능. 질문자 본인에게 적용되는지는 원문 적용범위 확인 필요",
+      "priority": "deferred_or_source_confirmation"
+    },
+    {
+      "id": "B11",
+      "title": "기간제근로자 관리규정",
+      "kind": "applicability",
+      "detail": "다른 직군에 관한 질문에도 검색 가능. 질문자 본인에게 적용되는지는 원문 적용범위 확인 필요",
+      "priority": "deferred_or_source_confirmation"
+    },
+    {
+      "id": "B12",
+      "title": "기간제근로자 관리기준",
+      "kind": "applicability",
+      "detail": "다른 직군에 관한 질문에도 검색 가능. 질문자 본인에게 적용되는지는 원문 적용범위 확인 필요",
+      "priority": "deferred_or_source_confirmation"
+    },
+    {
+      "id": "B14",
+      "title": "실무직 관리규정",
+      "kind": "applicability",
+      "detail": "다른 직군에 관한 질문에도 검색 가능. 질문자 본인에게 적용되는지는 원문 적용범위 확인 필요",
+      "priority": "deferred_or_source_confirmation"
+    },
+    {
+      "id": "B15",
+      "title": "실무직 관리기준",
+      "kind": "applicability",
+      "detail": "다른 직군에 관한 질문에도 검색 가능. 질문자 본인에게 적용되는지는 원문 적용범위 확인 필요",
+      "priority": "deferred_or_source_confirmation"
+    },
+    {
+      "id": "B16",
+      "title": "운영직관리세칙",
+      "kind": "applicability",
+      "detail": "다른 직군에 관한 질문에도 검색 가능. 질문자 본인에게 적용되는지는 원문 적용범위 확인 필요",
+      "priority": "deferred_or_source_confirmation"
+    },
+    {
+      "id": "B16",
+      "title": "운영직관리세칙",
+      "kind": "ocr_or_layout",
+      "detail": "문자 없음: []; 원문 대조 전인 짧은 페이지: [14, 15, 16, 17]",
+      "priority": "deferred_or_source_confirmation"
+    },
+    {
+      "id": "B16",
+      "title": "운영직관리세칙",
+      "kind": "effective_date",
+      "detail": "PDF 14~17쪽 부칙 문장이 일부만 표시됨. 사용자도 원본 PDF 뷰어에서 같은 현상을 확인(2026-10-13). 최신 시행일 추정 없이 보류. 전체 문장이 보이는 원문 재확보 필요.",
+      "priority": "deferred_or_source_confirmation"
+    },
+    {
+      "id": "B21",
+      "title": "전문직관리세칙",
+      "kind": "applicability",
+      "detail": "다른 직군에 관한 질문에도 검색 가능. 질문자 본인에게 적용되는지는 원문 적용범위 확인 필요",
+      "priority": "deferred_or_source_confirmation"
+    },
+    {
+      "id": "B22",
+      "title": "청원경찰관리규정",
+      "kind": "applicability",
+      "detail": "다른 직군에 관한 질문에도 검색 가능. 질문자 본인에게 적용되는지는 원문 적용범위 확인 필요",
+      "priority": "deferred_or_source_confirmation"
+    },
+    {
+      "id": "B23",
+      "title": "특정직관리세칙",
+      "kind": "applicability",
+      "detail": "다른 직군에 관한 질문에도 검색 가능. 질문자 본인에게 적용되는지는 원문 적용범위 확인 필요",
+      "priority": "deferred_or_source_confirmation"
+    },
+    {
+      "id": "B25",
+      "title": "위임전결규정",
+      "kind": "table_extraction",
+      "detail": "복잡한 대형 표의 셀 자동 분리를 건너뜀. 페이지·줄 텍스트와 원본 PDF를 보존했고 글자 좌표는 없음. 표 구조는 원문 검토 필요",
+      "priority": "deferred_or_source_confirmation"
+    },
+    {
+      "id": "P-28",
+      "title": "인재개발규정",
+      "kind": "source_gap",
+      "priority": "deferred_until_new_source",
+      "detail": "PDF9쪽 제28조제4항 후속 호 누락을 사용자가 확인. 현재 보이는 문구만 보존하며, 누락 없는 원문이 새로 제공되면 교육경비 회수 세부 기준을 확인."
+    },
+    {
+      "id": "P-DETAIL",
+      "title": "인재개발규정",
+      "kind": "institution_detail",
+      "priority": "deferred_until_new_source",
+      "detail": "평정 상세 인정기준·개인 대상 과정 수·직무분류·실제 교육일정 등 미확보. 정보 부족은 확인 필요로 안내.",
+      "priority_departments": [
+        "디지털관리처",
+        "인재경영실"
+      ],
+      "confirmed_virtual_job_candidates": [
+        "전산",
+        "행정"
+      ],
+      "institution_training_field_mapping_available": false,
+      "available_source_note": "직제규정 시행세칙 PDF46쪽의 직종·직렬 표를 보완. 이 표와 인재개발규정 PDF21쪽 교육 분야를 연결하는 기관 기준은 별도 확인 필요.",
+      "training_field_source_request_status": "user_reports_not_available",
+      "training_field_mapping_status": "requires_institution_evidence",
+      "user_interpretation_does_not_establish_exemption": true
+    },
+    {
+      "id": "B27-LINE",
+      "title": "직제규정",
+      "kind": "diagram_relationship",
+      "priority": "deferred_optional_scope",
+      "detail": "PDF27쪽 표시 명칭은 전사. 지휘선의 상하관계 상세 구조화는 미확정이며 직원 소속을 자동 배정하지 않음."
+    }
+  ],
+  "original_additional_queue_items": 24,
+  "original_additional_issue_closed": [
+    {
+      "id": "B27",
+      "kind": "ocr_or_layout",
+      "reason": "27쪽·28쪽·29~36쪽의 표시 문자 전사와 보정 행을 통합 data에 반영."
+    }
+  ],
+  "note": "검토 항목 수는 고유 문제 또는 질문 수와 다름. 현재 확보된 공사 규정에서 확인 가능한 전처리를 우선 완료했으며, 아래 미확인 항목은 새 근거가 제공될 때만 다시 검토한다.",
+  "review_scope_decision_2026_10_14": {
+    "basis": "사용자 확인: 기관 내부 자료와 누락된 원문은 현재 추가 확보가 어렵다. 현재 공사 규정에서 확인 가능한 수준을 전달 기준으로 삼는다.",
+    "current_action": "확인된 공사 원문과 출처 연결을 유지하고, 불확실한 값과 적용 관계는 미확인으로 남긴다.",
+    "deferred_without_new_evidence": [
+      "기관의 별도 휴가 절차·교육 분야 연결·개인 보수 및 교육 이력의 반복 탐색",
+      "운영직관리세칙과 인재개발규정의 원문에 보이지 않는 문구 추정",
+      "위임전결 대형 표의 모든 셀·결재권 의미 판정",
+      "직제규정 기구표의 지휘선 상세 관계 판정",
+      "모든 표의 의미 전수 대조와 사용자 보류 이미지 금액표 OCR"
+    ],
+    "resume_when": [
+      "기관 자료 또는 누락 없는 원문이 새로 제공됨",
+      "팀에서 특정 표·관계의 구조화가 필요하다고 요청함",
+      "사용자가 보류한 OCR 작업의 재개를 결정함",
+      "실제 직원 자료를 이용한 개인별 판정 범위가 별도로 정해짐"
+    ],
+    "external_reference_handling": "상위 법령·예규·지침은 교차 검증에만 사용한다. 공사 규정 전처리 행·검색 자료에 포함하려면 별도 사용자 확인이 필요하다.",
+    "unverified_content_filled_by_inference": false
+  },
+  "completed_user_reviews": [
+    {
+      "id": "P-42",
+      "title": "인사규정시행세칙",
+      "source_pdf_pages": [
+        14
+      ],
+      "source_articles": [
+        "제41조제1항",
+        "제42조"
+      ],
+      "status": "corrected_to_original_wording",
+      "reviewed_at": "2026-10-13",
+      "original_question": "연간 교육 실적과 해당 직급 재직기간 누적 교육훈련평정을 구분해 안내하는 방향",
+      "resolution": "사용자가 제41조제1항의 문구를 확인하여 안내 기준을 보완. 이전 비교 제안 전체를 수용한 기록으로 처리하지 않음.",
+      "record": "provenance/user_review_decisions.json#education_assessment_basis"
+    },
+    {
+      "id": "ORG-PRIORITY",
+      "title": "직제규정",
+      "source_pdf_pages": [
+        27,
+        30
+      ],
+      "status": "user_confirmed_review_scope",
+      "reviewed_at": "2026-10-13",
+      "resolution": "AI본부·경영부문의 두 부서 목록을 상담 검토 범위로 확인. 예비 소속은 디지털관리처와 인재경영실. 개인별 소속 확정·직무교육 분야 배정은 미실시.",
+      "record": "delivery_config.json#priority_profile.department_scope"
+    },
+    {
+      "id": "P-28-COMP",
+      "title": "인사규정시행세칙",
+      "source_pdf_pages": [
+        8
+      ],
+      "source_articles": [
+        "제28조제1항"
+      ],
+      "status": "user_accepted",
+      "reviewed_at": "2026-10-13",
+      "resolution": "원문의 예외를 보존하고 기관의 실제 평정 실시 여부를 확인한 뒤 안내. 자동 제외·0점 처리 없음.",
+      "record": "provenance/user_review_decisions.json#education_assessment_components_exception"
+    },
+    {
+      "id": "JOB-PRIORITY",
+      "title": "직제규정 시행세칙",
+      "source_pdf_pages": [
+        46
+      ],
+      "status": "user_accepted_for_virtual_profile_planning",
+      "reviewed_at": "2026-10-13",
+      "resolution": "예비 직무를 디지털관리처의 전산 업무와 인재경영실의 행정 업무로 검토. 개인 직원 이력 생성·신입교육 분야 자동 배정 없음.",
+      "record": "delivery_config.json#priority_profile.department_scope"
+    },
+    {
+      "id": "P-FIELD-SOURCE",
+      "title": "인재개발규정",
+      "source_pdf_pages": [
+        2,
+        21
+      ],
+      "status": "additional_materials_unavailable_confirmed_by_user",
+      "reviewed_at": "2026-10-13",
+      "resolution": "추가 자료는 현재 없음. 전산 업무의 표 미포함 사유에 대한 사용자 해석은 참고로 보존. 교육 분야 연결은 기관 확인 대기로 유지.",
+      "record": "provenance/user_review_decisions.json#training_field_mapping_availability"
+    },
+    {
+      "id": "PROM-MIN",
+      "title": "인사규정",
+      "source_pdf_pages": [
+        5
+      ],
+      "status": "user_accepted",
+      "reviewed_at": "2026-10-13",
+      "resolution": "최소 승진기간과 실제 승진 여부를 구분. 원문 기간값을 보존하고 개인 승진 확정을 자동 안내하지 않음.",
+      "record": "provenance/user_review_decisions.json#promotion_minimum_vs_appointment"
+    },
+    {
+      "id": "PROM-FIELD-IT",
+      "title": "인사규정시행세칙",
+      "source_pdf_pages": [
+        17,
+        18
+      ],
+      "status": "user_accepted",
+      "reviewed_at": "2026-10-13",
+      "resolution": "전산직렬이 확인되면 현장근무기간 요건의 제1항 적용 예외를 안내. 다른 승진 조건의 면제로 확대하지 않음.",
+      "record": "provenance/user_review_decisions.json#promotion_field_work_it_exception"
+    },
+    {
+      "id": "PROM-LEAVE",
+      "title": "인사규정",
+      "source_pdf_pages": [
+        6,
+        7,
+        8
+      ],
+      "status": "user_accepted",
+      "reviewed_at": "2026-10-13",
+      "resolution": "휴직 사유·기간과 원문 예외를 확인. 정보가 부족하면 개인 승진기간 확인 필요.",
+      "record": "provenance/user_review_decisions.json#promotion_leave_period"
+    },
+    {
+      "id": "PROM-CAREER",
+      "title": "인사규정시행세칙",
+      "source_pdf_pages": [
+        18
+      ],
+      "status": "user_accepted",
+      "reviewed_at": "2026-10-13",
+      "resolution": "경력직 현장근무기간 예외는 채용 직급 범위를 확인하여 안내. 4·5급 동일 간주를 다른 규정으로 확대하지 않음.",
+      "record": "provenance/user_review_decisions.json#promotion_field_work_career_exception"
+    },
+    {
+      "topic": "annual_leave_savings_materials",
+      "regulation": "한국수자원공사취업규칙",
+      "source_pdf_pages": [
+        9
+      ],
+      "source_article": "제33조의4제4항",
+      "user_answer": "현재 추가 자료 없음",
+      "record": "provenance/user_review_decisions.json#annual_leave_savings_materials"
+    },
+    {
+      "topic": "leave_period_weekend_exception",
+      "regulation": "한국수자원공사취업규칙",
+      "source_pdf_pages": [
+        9
+      ],
+      "source_article": "제33조의3",
+      "user_answer": "연차 예외까지 함께 보존·안내 (권장)",
+      "record": "provenance/user_review_decisions.json#leave_period_weekend_exception"
+    },
+    {
+      "topic": "가상 직원 예비 직책",
+      "regulation": "유연근무제운영기준",
+      "source_pdf_pages": [
+        2
+      ],
+      "source_article": "제4조제1호",
+      "user_answer": "5명 모두 부서장 아닌 팀원으로 우선 검토 (권장)",
+      "record": "provenance/user_review_decisions.json#virtual_staff_department_head_scope"
+    },
+    {
+      "topic": "가상 직원 예비 근무형태",
+      "regulation": "유연근무제운영기준",
+      "source_pdf_pages": [
+        2
+      ],
+      "source_article": "제4조제3호",
+      "user_answer": "5명 모두 교대근무하지 않는 직원으로 검토 (권장)",
+      "record": "provenance/user_review_decisions.json#virtual_staff_shift_work_scope"
+    },
+    {
+      "topic": "월 수당 지급한도·주간 근무 제한",
+      "regulation": "연봉규정시행세칙",
+      "source_pdf_pages": [
+        5
+      ],
+      "source_article": "제12조",
+      "user_answer": "월 지급한도·주간 근무 제한을 구분 (권장)",
+      "record": "provenance/user_review_decisions.json#overtime_monthly_payment_vs_weekly_work_limit"
+    },
+    {
+      "topic": "일반직 직무등급 연결 자료",
+      "regulation": "연봉규정시행세칙",
+      "source_pdf_pages": [
+        28
+      ],
+      "source_annex": "별표3의2",
+      "user_answer": "현재 추가 자료 없음",
+      "record": "provenance/user_review_decisions.json#salary_job_grade_mapping_materials"
+    },
+    {
+      "topic": "장기재직휴가 적용례·재부여 확인",
+      "regulation": "한국수자원공사취업규칙",
+      "source_pdf_pages": [
+        8,
+        26
+      ],
+      "source_articles": [
+        "제31조의5제2호사목",
+        "부칙제6조"
+      ],
+      "user_answer": "사용 이력 확인과 재부여는 기관 확인이 필요한 것은 권장하나, 해당 부칙은 적용례로써 시행일 기준으로는 해당하는 장기재직휴가를 한번만 부여하는 것으로 이해됨.",
+      "record": "provenance/user_review_decisions.json#long_service_leave_repeat_grant"
+    },
+    {
+      "topic": "배우자 출산휴가 가이드 보유 여부와 상위 근거 확인 방향",
+      "regulation": "한국수자원공사취업규칙",
+      "source_pdf_pages": [
+        27
+      ],
+      "source_annex": "별표1 첫 번째 주석",
+      "status": "material_availability_confirmed_external_basis_verified",
+      "recorded_at": "2026-10-14",
+      "resolution": "가이드는 미보유로 확인. 사용자 제안에 따라 최신 혁신지침 제42조의 경조사휴가 준용 근거를 확인. 현행 복무규정·예규 세부 대조는 후속 검토.",
+      "record": "provenance/user_review_decisions.json#public_institution_leave_external_basis"
+    },
+    {
+      "topic": "배우자 출산휴가의 법령 우선 안내와 예규·공사 기준 구분",
+      "source_documents": [
+        {
+          "title": "국가공무원 복무·징계 관련 예규 제225호",
+          "pdf_page": 186,
+          "printed_page": 182
+        },
+        {
+          "title": "남녀고용평등과 일ㆍ가정 양립 지원에 관한 법률",
+          "source_article": "제18조의2제3항",
+          "pdf_page": null
+        }
+      ],
+      "user_answer": "배우자 출산 휴가를 서로 다른 기준으로 설명하는 경우 국가공무원 관련 예규는 준용, 법령은 반드시 준수해야 하는 우선순위가 있으므로 법령을 우선으로 안내하되, 국가공무원 관련 예규에서는 어떻게 명기하고 있으며, 기관 내부 규정과 해석은 어떻게 하는지 확인할 필요가 있다고 생각함.",
+      "status": "user_accepted_with_law_priority_clarification",
+      "reviewed_at": "2026-10-14",
+      "record": "provenance/user_review_decisions.json#spouse_birth_leave_current_external_comparison"
+    }
+  ],
+  "general_staff_next_topics": [
+    "배우자 출산휴가의 공사 별도 신청·서류 절차와 다태아150일·5회 기준의 적용 관계(기관 자료 필요)",
+    "유연근무 개인 승인·근무 이력과 보수 계산에 필요한 실제 직원 자료가 제공되면 적용 범위 재확인"
+  ],
+  "promotion_personal_evaluation_pending": {
+    "priority_departments": [
+      "디지털관리처",
+      "인재경영실"
+    ],
+    "missing_employee_inputs": [
+      "직원별 직급·직렬·채용 유형 및 채용 직급",
+      "현재 직급 임용·재직 이력",
+      "현장근무 및 휴직·징계 등 관련 이력",
+      "공식 승진·명부 작성 기준일과 기관의 선발·임용자료"
+    ],
+    "employee_promotion_decisions_implemented": false
+  },
+  "annual_leave_followup": {
+    "source_file_name": "한국수자원공사취업규칙(2026년도 03월 10일 개정).pdf",
+    "source_pdf_pages": [
+      9
+    ],
+    "source_article": "제33조의4제4항",
+    "status": "requires_institution_materials",
+    "separate_procedure_materials": "user_reports_not_available"
+  },
+  "general_staff_work_information_pending": {
+    "employee_records_created": false,
+    "shift_work_status": "user_accepted_non_shift_for_virtual_planning",
+    "actual_job_duties_or_security_status": "not_provided",
+    "flexible_work_type_or_approval_records": "not_provided",
+    "individual_schedule_or_eligibility_implemented": false
+  },
+  "salary_followup": {
+    "job_grade_and_payment_mapping_materials": "user_reports_not_available",
+    "personal_payroll_or_performance_records": "not_provided",
+    "personal_salary_calculated": false,
+    "source_date_difference": {
+      "source_file_name_revision_candidate": "2025-12-16",
+      "source_annex_caption_revision_date": "2025-12-17",
+      "source_pdf_page": 15,
+      "effective_date_override_created": false,
+      "status": "different_source_dates_preserved_pending_confirmation"
+    },
+    "other_annex_heading_issue": {
+      "source_pdf_pages": [
+        20
+      ],
+      "source_fragment_node_ids": [
+        "42ce0205-7a40-5387-81b4-035af462f8d1",
+        "e5abcf31-f2a9-5603-b4e5-0f84a0e5e8d8"
+      ],
+      "issue": "부칙 본문의 별표 참조를 별표 제목으로 자동 분리한 오류2건",
+      "status": "corrected_in_unified_data"
+    }
+  },
+  "active_user_review": null,
+  "long_service_leave_followup": {
+    "commencement_date": "2025-07-22",
+    "user_application_case_interpretation_recorded": true,
+    "prior_use_history": "not_provided",
+    "post_commencement_repeat_grant_rule": "requires_institution_confirmation",
+    "external_law_freshness_review": "최신 복무규정의 관련 특별휴가 조항 변경 여부와 공사 원문의 관계를 별도 대조. 보존한 공사 일수·적용례를 외부 수치로 교체하지 않음."
+  },
+  "spouse_birth_leave_followup": {
+    "guide_materials": "user_reports_not_available",
+    "external_incorporation_basis": "verified_in_innovation_guideline_article42",
+    "external_guideline_revision_date": "2026-07-31",
+    "external_memo_latest_effective_date": "2026-10-01",
+    "status": "decree_annex2_days_verified_institution_procedures_and_scope_pending",
+    "pending": [
+      "K-water 신청·서류 등 별도 운영 절차",
+      "다태아150일·5회 기준과 법률50일 전 시작 기준의 적용 관계"
+    ],
+    "reference_record": "provenance/user_review_decisions.json#public_institution_leave_external_basis",
+    "memo_source_period_and_split": "PDF186쪽(책자182쪽) 확인 완료",
+    "source_days_match": "공사PDF27쪽과 예규PDF185쪽20·25일 일치",
+    "historical_application_case": "PDF187쪽(책자183쪽)2025-02-11 적용례 보존",
+    "labor_law_start_day_difference": "2026-09-18 시행 법률50일 / 예규30일",
+    "comparison_record": "provenance/external_sources/배우자출산휴가_대조.json",
+    "law_priority_handling_user_confirmed": true,
+    "decree_annex2_direct_comparison": "2026-10-02 시행본 별표2 PDF1쪽 직접 확인, 20일·다태아25일이 공사 별표1 및 예규와 일치",
+    "decree_annex2_source_kind": "external_comparison_only_not_regulation_data"
+  },
+  "flexible_work_type_source_review": {
+    "status": "source_values_recorded",
+    "source_rules": 11,
+    "individual_eligibility_calculated": false,
+    "source": "보정/유연근무제_유형별_V01/유형별_검토데이터.json"
+  },
+  "salary_status_source_review": {
+    "status": "source_values_recorded",
+    "source_rules": 8,
+    "personal_salary_calculated": false,
+    "source": "보정/일반직_신분변경보수_V01/신분변경_검토데이터.json"
+  }
+}

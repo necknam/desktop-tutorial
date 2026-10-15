@@ -1,0 +1,378 @@
+{
+  "revision": "V01",
+  "prepared_at": "2026-10-13T17:15:48+09:00",
+  "regulation_count": 28,
+  "pdf_page_count": 861,
+  "institution_code_namespace": "ALIO",
+  "source_file_hashes": {
+    "7363b09c-dbe7-56d4-ba94-d9e0979586eb": {
+      "file_name": "복지후생규정(2022년도 12월 개정).pdf",
+      "storage_key": "source/기타/복지후생규정(2022년도 12월 개정).pdf",
+      "sha256": "97b015a067f9c32b4154136949acec926d5accb5dd5a4e54122bba0f8be50798"
+    },
+    "18bb15ff-d14e-56e9-b7ee-77eddda331dc": {
+      "file_name": "복지후생규정시행세칙(2026년도 2월 27일 개정).pdf",
+      "storage_key": "source/기타/복지후생규정시행세칙(2026년도 2월 27일 개정).pdf",
+      "sha256": "7a76ea26fbbf2a3fe2edbf5e83d1614eba3d4f157bb1a1eba5ec7f318b521da8"
+    },
+    "30f18fb8-d19a-53cd-8f92-90eb9ac9b312": {
+      "file_name": "여비규정(2025년 10월 16일 개정).pdf",
+      "storage_key": "source/기타/여비규정(2025년 10월 16일 개정).pdf",
+      "sha256": "b775f00a50ee321a8cedcdbdc98c3df6d9ee024f594e02dd0e87f7d06034a313"
+    },
+    "d019b69b-b5b7-5880-8fb3-80e9887ddeef": {
+      "file_name": "국외근무직원연봉및복지후생규정(2025년 12월 18일 개정).pdf",
+      "storage_key": "source/보수/국외근무직원연봉및복지후생규정(2025년 12월 18일 개정).pdf",
+      "sha256": "9dd3b62a07438b1039c45882d34698533e447cc6e0e7397ca62c8e5648dba61c"
+    },
+    "ea70f726-58f2-5055-96be-214aff8dcb7f": {
+      "file_name": "실무직 보수기준(2026년 6월 22일 개정).pdf",
+      "storage_key": "source/보수/실무직 보수기준(2026년 6월 22일 개정).pdf",
+      "sha256": "828e1053aa1892ae38cf98421372032af86f7c82e573912b47dd244db9bff2f2"
+    },
+    "45e71183-ce61-59d1-b0ac-0c91d03a5b91": {
+      "file_name": "연봉규정(2025년 12월 16일 개정).pdf",
+      "storage_key": "source/보수/연봉규정(2025년 12월 16일 개정).pdf",
+      "sha256": "b80cdb0be60c3e47bbe13c22a79ef4e2e101cae9dd5da8b76812538c602a5d51"
+    },
+    "8b7f759f-9e22-5b21-8af0-19fa9bea3235": {
+      "file_name": "연봉규정시행세칙(2025년 12월 18일 개정).pdf",
+      "storage_key": "source/보수/연봉규정시행세칙(2025년 12월 18일 개정).pdf",
+      "sha256": "d343c7ea42c166a948f9f69b4715033447f8266c13ec97ea18ed6eeeb8f6e22e"
+    },
+    "2d011550-2882-5273-b4a0-7ddcc0041a5c": {
+      "file_name": "특수직 보수기준(2026년 6월 22일 개정).pdf",
+      "storage_key": "source/보수/특수직 보수기준(2026년 6월 22일 개정).pdf",
+      "sha256": "01afa593dad622735dfb98d9301702dfc978afd73d50871ca5a5ebc585175ac8"
+    },
+    "12c81ed8-ad04-5a09-b176-e0057cf8a013": {
+      "file_name": "국외근무직원복무규정(2025년도 11월 10일 개정).pdf",
+      "storage_key": "source/인사·복무·징계/국외근무직원복무규정(2025년도 11월 10일 개정).pdf",
+      "sha256": "971e6dfeee861bb3a27dc19dd551521244defc1623b14403788aa266d533b7f1"
+    },
+    "81e0b8d0-7fd2-54a6-bda0-ee628b4ca360": {
+      "file_name": "근무및부업관리규정(2025년도 11월 10일 개정).pdf",
+      "storage_key": "source/인사·복무·징계/근무및부업관리규정(2025년도 11월 10일 개정).pdf",
+      "sha256": "1574f9702b40bfbb64e9042593bee7156fc43f8ec53f4110822677c1abd63480"
+    },
+    "f3f66bfd-44b0-51e8-92a2-4c06a5131b83": {
+      "file_name": "기간제근로자 관리규정(2025년도 11월 11일 개정).pdf",
+      "storage_key": "source/인사·복무·징계/기간제근로자 관리규정(2025년도 11월 11일 개정).pdf",
+      "sha256": "c9b4a1e6fc9fdc4f39ddbdfe3af4ec6194c98c27a881836d12d7847c573eb334"
+    },
+    "0a10e33e-a685-5312-a876-7a53adb44935": {
+      "file_name": "기간제근로자 관리기준(2025년도 12월 31일 개정).pdf",
+      "storage_key": "source/인사·복무·징계/기간제근로자 관리기준(2025년도 12월 31일 개정).pdf",
+      "sha256": "6599e1cda85c01ce9f6d37fba6b766ee41518854c77c27cc4753ad93d163bc5c"
+    },
+    "8f1de38c-62d6-59d0-89e8-f3447d29caa9": {
+      "file_name": "내부임용시험시행지침(2022년도 05월 개정).pdf",
+      "storage_key": "source/인사·복무·징계/내부임용시험시행지침(2022년도 05월 개정).pdf",
+      "sha256": "34654b99b56cd00067b58fa98a2ffecf6abfce66ffd89859b6dddfee5f5e62b9"
+    },
+    "c788014b-9c44-5959-b789-9a0960eba8f6": {
+      "file_name": "실무직 관리규정(2025년도 12월 31일 개정).pdf",
+      "storage_key": "source/인사·복무·징계/실무직 관리규정(2025년도 12월 31일 개정).pdf",
+      "sha256": "f1d89446acc4c9241d5815c9a82391317183f7ea4c14ca240b976c4efdb8f6f3"
+    },
+    "1eb4254d-d9ef-570c-b24c-2486a76d9331": {
+      "file_name": "실무직 관리기준(2025년도 12월 31일 개정).pdf",
+      "storage_key": "source/인사·복무·징계/실무직 관리기준(2025년도 12월 31일 개정).pdf",
+      "sha256": "532d77166d1e1c3ff65e6376c893b26b388289fffbc5ecad96784531dcbcebd8"
+    },
+    "4462156e-3543-5acc-8d06-e82b916eaebd": {
+      "file_name": "운영직관리세칙(2024년도 12월 개정).pdf",
+      "storage_key": "source/인사·복무·징계/운영직관리세칙(2024년도 12월 개정).pdf",
+      "sha256": "4c201be3ff8471b5c6e9359450041aa70440a93bcc1fb86313ab8fb414cf2622"
+    },
+    "43ff502a-ee75-5f6f-be5a-6d7015c61515": {
+      "file_name": "유연근무제운영기준(2025년도 11월 10일 개정).pdf",
+      "storage_key": "source/인사·복무·징계/유연근무제운영기준(2025년도 11월 10일 개정).pdf",
+      "sha256": "f88e0e9a4ccb95731d7d6bb9774b6f0f7c3c5c40ae3d4ec60b7b526b30d8e5dd"
+    },
+    "158df759-e092-5c2e-bc14-0f91aef1c8b6": {
+      "file_name": "인사규정 채용 세칙(2026년도 3월 30일 개정).pdf",
+      "storage_key": "source/인사·복무·징계/인사규정 채용 세칙(2026년도 3월 30일 개정).pdf",
+      "sha256": "5983dba9c82dab170902c98165d34207094c99ea51917f97c761505d65898b7d"
+    },
+    "fe7fc6d9-0790-59a1-b66c-3259a9230217": {
+      "file_name": "인사규정(2026년도 8월 27일 개정).pdf",
+      "storage_key": "source/인사·복무·징계/인사규정(2026년도 8월 27일 개정).pdf",
+      "sha256": "1b6ec41b26c11c3821f72c403f6e2878cb2e7afa967e2309cb47d3ab01c68643"
+    },
+    "de82755e-1d59-5f98-b80d-2a47be55e517": {
+      "file_name": "인사규정시행세칙(2025년도 11월 10일 개정).pdf",
+      "storage_key": "source/인사·복무·징계/인사규정시행세칙(2025년도 11월 10일 개정).pdf",
+      "sha256": "1ad0ac2f6c7ecbbc12e952fedb8d9d8e2ccc2cf089e6c36ecc33d9b2005618ff"
+    },
+    "7d773952-33f1-51ef-abfb-e2c133aa09d7": {
+      "file_name": "전문직관리세칙(2024년도 12월 개정).pdf",
+      "storage_key": "source/인사·복무·징계/전문직관리세칙(2024년도 12월 개정).pdf",
+      "sha256": "2f156ec671bec612d29f59727860b5d6b8ca0a7db57ecf22a4a7e8c44027c6b5"
+    },
+    "49f1defd-27d2-5b65-a3bc-de6b8c771e59": {
+      "file_name": "청원경찰관리규정(2025년도 7월 개정).pdf",
+      "storage_key": "source/인사·복무·징계/청원경찰관리규정(2025년도 7월 개정).pdf",
+      "sha256": "fde1aa1a05f95b936c2066e724bc44039e7bb7c6dddbce8bc13db0a467f6e287"
+    },
+    "fdbd1090-49bc-5520-b141-b39340a671a1": {
+      "file_name": "특정직관리세칙(2024년도 12월 개정).pdf",
+      "storage_key": "source/인사·복무·징계/특정직관리세칙(2024년도 12월 개정).pdf",
+      "sha256": "4349a445b75d6559fdd40a5359d502a7bcebc234a78c58f32470f701f1c4c3a0"
+    },
+    "79dcabff-dd44-5ed2-aaf8-ec1ec7288400": {
+      "file_name": "한국수자원공사취업규칙(2026년도 03월 10일 개정).pdf",
+      "storage_key": "source/인사·복무·징계/한국수자원공사취업규칙(2026년도 03월 10일 개정).pdf",
+      "sha256": "f57219993cb77be6abc6dc0c5e264e49f073c119fdfdc3dc72993bbb8cb91a38"
+    },
+    "5376d358-4ee6-5a83-9628-c9222014e971": {
+      "file_name": "위임전결규정(2026년도 6월 1일 개정).pdf",
+      "storage_key": "source/직제/위임전결규정(2026년도 6월 1일 개정).pdf",
+      "sha256": "042165cab895ff2efd8f2ec032a0919b928dc2f40f2986db08a5891c5fde00b6"
+    },
+    "57889d2e-a721-562c-8fcc-516bf9f58bf5": {
+      "file_name": "직제규정 시행세칙(2026년도 07월 16일 개정).pdf",
+      "storage_key": "source/직제/직제규정 시행세칙(2026년도 07월 16일 개정).pdf",
+      "sha256": "44e655356bcb3536b989fb922c336328415736590030d946104f68518dabeb9e"
+    },
+    "bf01d765-9b8b-563d-a378-6f42aabc01a6": {
+      "file_name": "직제규정(2026년도 06월 18일 개정).pdf",
+      "storage_key": "source/직제/직제규정(2026년도 06월 18일 개정).pdf",
+      "sha256": "fd754780755edf791bf65f58076c896ebbbb999600d7acd48e8c7303df63262c"
+    },
+    "30562fdd-97df-5c4b-9535-1c7402d2b738": {
+      "file_name": "인재개발규정(2024년도 12월 개정).pdf",
+      "storage_key": "source/기타/인재개발규정(2024년도 12월 개정).pdf",
+      "sha256": "0835551b52e02b2471022af3e3bf4c65ce39d0816a9fba6b0cc6c5569b5b792f"
+    }
+  },
+  "counts": {
+    "institution": 1,
+    "regulation": 28,
+    "regulation_version": 28,
+    "regulation_file": 28,
+    "regulation_node": 3451,
+    "regulation_scope": 389,
+    "regulation_reference": 462,
+    "rag_chunk": 1552,
+    "rag_chunk_source": 1774
+  },
+  "schema_contract": {
+    "tables": 9,
+    "fields": 85,
+    "foreign_keys": 17,
+    "separate_db_schema_required": false
+  },
+  "manual_corrections_applied_to_data": true,
+  "superseded_chunks": 11,
+  "reference_links_added_by_unification": 23,
+  "validation": {
+    "structure_checks": 62,
+    "general_staff_source_cases": 35,
+    "rebuild_data_files": 18
+  },
+  "db_created": false,
+  "db_loaded": false,
+  "embeddings_created": false,
+  "actual_search_answer_test_run": false,
+  "source_unverified_items": "report/remaining_reviews.json",
+  "original_pilot_44_files_preserved": true,
+  "build_code_sha256": "b5c7c32a863dba9e7708f8af4348282eb0c5ddbda30a77d7192986a96e1b43db",
+  "article_labels_corrected_from_original_headings": 130,
+  "source_gap_chunks_annotated": 1,
+  "deleted_applicability_records_marked": 1,
+  "priority_profile": {
+    "job_family": "일반직",
+    "virtual_employee_count": 5,
+    "provisional_grade_scope": {
+      "grade_candidates": [
+        "3급",
+        "4급",
+        "5급"
+      ],
+      "source_document": "직제규정 시행세칙(2026년도 07월 16일 개정).pdf",
+      "source_pdf_page": 46,
+      "source_grade_range": "일반직 3~8급",
+      "status": "user_selected_for_future_virtual_profile_planning",
+      "individual_grade_assignments_created": false,
+      "team_member_position_treated_separately": true
+    },
+    "specific_employee_records_provided": false,
+    "priority_topics": [
+      "필수교육",
+      "교육 이수기한",
+      "승진 관련 교육",
+      "교육훈련평정",
+      "승진 요건·제한",
+      "연차·휴가",
+      "유연근무"
+    ],
+    "department_scope": {
+      "user_department_labels": [
+        "AI부서",
+        "경영부서"
+      ],
+      "review_status": "user_confirmed_review_scope",
+      "reviewed_at": "2026-10-13",
+      "user_answer": "위 두 부서 목록을 범위로 검토하고, 제안줬던 가상 예비부서로 디저털관리처와 인재경영실을 제안했던 것으로 기억하고 있어.",
+      "groups": [
+        {
+          "user_label": "AI부서",
+          "source_group_label": "AI본부",
+          "departments": [
+            "AI혁신처",
+            "디지털관리처",
+            "AI데이터센터"
+          ],
+          "provisional_employee_department": "디지털관리처",
+          "source_regulation_node_id": "5228c34d-1fed-5d1f-a44f-29b2ec514900",
+          "provisional_job": {
+            "job_category": "특수기술",
+            "job_series": "전산",
+            "job_description": "전산 업무"
+          },
+          "job_classification_source": {
+            "source_file_name": "직제규정 시행세칙(2026년도 07월 16일 개정).pdf",
+            "source_pdf_pages": [
+              46
+            ],
+            "source_annex": "별표4",
+            "grade_context": "일반직 3~8급"
+          }
+        },
+        {
+          "user_label": "경영부서",
+          "source_group_label": "경영부문",
+          "departments": [
+            "인재경영실",
+            "노사협력처",
+            "재무관리처",
+            "정보보안처",
+            "비상계획처"
+          ],
+          "provisional_employee_department": "인재경영실",
+          "source_regulation_node_id": "61b58b93-b9a8-5c6b-8876-b1292a5c7e5a",
+          "provisional_job": {
+            "job_category": "행정",
+            "job_series": "행정",
+            "job_description": "행정 업무"
+          },
+          "job_classification_source": {
+            "source_file_name": "직제규정 시행세칙(2026년도 07월 16일 개정).pdf",
+            "source_pdf_pages": [
+              46
+            ],
+            "source_annex": "별표4",
+            "grade_context": "일반직 3~8급"
+          }
+        }
+      ],
+      "source_file_name": "직제규정(2026년도 06월 18일 개정).pdf",
+      "source_pdf_pages": [
+        27,
+        30
+      ],
+      "provisional_department_status": "user_proposed_not_final_employee_assignment",
+      "employees_per_group": null,
+      "individual_grades_or_job_fields_provided": false,
+      "source_name_normalization": {
+        "user_written_name": "디저털관리처",
+        "source_name": "디지털관리처"
+      },
+      "institution_training_field_mapping_confirmed": false,
+      "employee_department_assignments_created": false,
+      "provisional_job_review_status": "user_accepted_for_virtual_profile_planning",
+      "provisional_job_user_answer": "예비 직무를 전산·행정으로 검토 (권장)",
+      "provisional_job_status": "virtual_profile_candidate_not_actual_employee_classification",
+      "additional_training_field_materials_status": "user_reports_not_available",
+      "training_field_mapping_review_status": "requires_institution_evidence"
+    },
+    "provisional_position_scope": {
+      "status": "user_accepted_for_virtual_profile_planning",
+      "reviewed_at": "2026-10-13",
+      "user_answer": "5명 모두 부서장 아닌 팀원으로 우선 검토 (권장)",
+      "employee_count": 5,
+      "department_head": false,
+      "position_label": "부서장이 아닌 팀원",
+      "actual_employee_records_created": false,
+      "shift_work_status": "user_accepted_non_shift_for_virtual_planning"
+    },
+    "provisional_work_pattern_scope": {
+      "status": "user_accepted_for_virtual_profile_planning",
+      "reviewed_at": "2026-10-13",
+      "user_answer": "5명 모두 교대근무하지 않는 직원으로 검토 (권장)",
+      "employee_count": 5,
+      "shift_work": false,
+      "employee_work_hours_assigned": false,
+      "actual_employee_records_created": false
+    }
+  },
+  "manual_correction_files": [
+    "보정/인재개발규정_별표1_V01/별표1_보정데이터.json",
+    "보정/인재개발규정_별표2_V01/별표2_보정데이터.json",
+    "보정/인재개발규정_별표3_V01/별표3_보정데이터.json",
+    "보정/직제규정시행세칙_직종직렬_V01/직종직렬_보정데이터.json",
+    "보정/직제규정_정원표_V01/정원표_보정데이터.json",
+    "보정/직제규정_기구_분장_V01/기구_분장_보정데이터.json",
+    "보정/일반직_승진검토_V01/승진_검토데이터.json",
+    "보정/취업규칙_연차검토_V01/연차_검토데이터.json",
+    "보정/유연근무제_원격직무_V01/원격직무_보정데이터.json",
+    "보정/일반직_보수검토_V01/보수_보정데이터.json",
+    "보정/취업규칙_경조사_장기재직_V01/휴가_보정데이터.json",
+    "보정/유연근무제_유형별_V01/유형별_검토데이터.json",
+    "보정/일반직_신분변경보수_V01/신분변경_검토데이터.json"
+  ],
+  "updated_at": "2026-10-14",
+  "external_reference_sources": [
+    {
+      "source_file": "provenance/external_sources/공공기관의 혁신에 관한 지침(2026.7.31. 개정).hwp",
+      "sha256": "03c7851bbae0cc5e7f5fc270c5f40481a718418bdfcab7c5b6541b6fa5251aa1",
+      "source_title": "공공기관의 혁신에 관한 지침",
+      "revision_date": "2026-07-31",
+      "source_point": "제1조·제2조·제42조·제48조",
+      "external_to_kwater_regulations": true,
+      "included_in_nine_data_tables": false,
+      "reference_record": "provenance/user_review_decisions.json#public_institution_leave_external_basis",
+      "local_comparison_only": true,
+      "file_in_delivery_archive": false
+    },
+    {
+      "source_file": "provenance/external_sources/국가공무원 복무·징계 관련 예규(제225호, 2026.10.1.).pdf",
+      "sha256": "5185bc4ebf8dadbba3a4fad73a50de22bf9b1939b81389f4795306c15bedcbfc",
+      "source_title": "국가공무원 복무·징계 관련 예규 제225호",
+      "effective_date": "2026-10-01",
+      "source_pdf_pages": [
+        185,
+        186,
+        187
+      ],
+      "total_pdf_pages": 360,
+      "external_to_kwater_regulations": true,
+      "included_in_nine_data_tables": false,
+      "reference_record": "provenance/external_sources/배우자출산휴가_대조.json",
+      "local_comparison_only": true,
+      "file_in_delivery_archive": false
+    },
+    {
+      "source_file": "provenance/external_sources/국가공무원 복무규정 별표2(2025.2.11. 개정, 2026.10.2. 시행본).pdf",
+      "sha256": "42bab275961a066964d7b668bc24fb3d09a84275d50183ccf6ba442f680c597f",
+      "source_title": "국가공무원 복무규정 별표2",
+      "table_last_amended": "2025-02-11",
+      "decree_effective_date": "2026-10-02",
+      "source_pdf_pages": [
+        1
+      ],
+      "external_to_kwater_regulations": true,
+      "included_in_nine_data_tables": false,
+      "local_comparison_only": true,
+      "file_in_delivery_archive": false,
+      "reference_record": "provenance/external_sources/배우자출산휴가_대조.json"
+    }
+  ],
+  "delivery_archive_policy": {
+    "exclude_directory": "provenance/external_sources",
+    "external_originals_in_archive": 0,
+    "external_material_added_to_regulation_or_rag_data": false,
+    "requires_user_decision_before_external_preprocessing": true
+  }
+}

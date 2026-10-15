@@ -1,0 +1,704 @@
+[
+  {
+    "table_key": "p027-table-1",
+    "page": 27,
+    "bbox": [
+      682.352,
+      186.173,
+      787.14,
+      211.741
+    ],
+    "rows": [
+      [
+        "",
+        "*"
+      ]
+    ],
+    "status": "needs_review",
+    "regulation_node_id": "05c95ffb-d371-5b13-94d1-c9b5637081a7"
+  },
+  {
+    "table_key": "p027-table-2",
+    "page": 27,
+    "bbox": [
+      71.04,
+      435.6,
+      154.68,
+      537.72
+    ],
+    "rows": [
+      [
+        ""
+      ],
+      [
+        ""
+      ],
+      [
+        ""
+      ],
+      [
+        ""
+      ]
+    ],
+    "status": "needs_review",
+    "regulation_node_id": "af6f2f92-ff8e-56e9-8c9c-f578f16c8fbd"
+  },
+  {
+    "table_key": "p027-table-3",
+    "page": 27,
+    "bbox": [
+      278.04,
+      435.6,
+      361.68,
+      563.16
+    ],
+    "rows": [
+      [
+        ""
+      ],
+      [
+        ""
+      ],
+      [
+        ""
+      ],
+      [
+        ""
+      ],
+      [
+        ""
+      ]
+    ],
+    "status": "needs_review",
+    "regulation_node_id": "59dcfff4-b4a0-558b-a8d3-ff0a2143486f"
+  },
+  {
+    "table_key": "p027-table-4",
+    "page": 27,
+    "bbox": [
+      378.6,
+      435.6,
+      462.12,
+      512.16
+    ],
+    "rows": [
+      [
+        ""
+      ],
+      [
+        ""
+      ],
+      [
+        ""
+      ]
+    ],
+    "status": "needs_review",
+    "regulation_node_id": "16aec533-ae46-543a-8d8f-02cc3b0ed0ff"
+  },
+  {
+    "table_key": "p027-table-5",
+    "page": 27,
+    "bbox": [
+      589.44,
+      435.6,
+      676.2,
+      563.16
+    ],
+    "rows": [
+      [
+        ""
+      ],
+      [
+        ""
+      ],
+      [
+        ""
+      ],
+      [
+        ""
+      ],
+      [
+        ""
+      ]
+    ],
+    "status": "needs_review",
+    "regulation_node_id": "54a70bfb-2b16-5f7b-86ab-b5d37b20f010"
+  },
+  {
+    "table_key": "p027-table-6",
+    "page": 27,
+    "bbox": [
+      693.12,
+      435.6,
+      776.88,
+      486.6
+    ],
+    "rows": [
+      [
+        ""
+      ],
+      [
+        ""
+      ]
+    ],
+    "status": "needs_review",
+    "regulation_node_id": "d051f16a-e7c4-5397-91d7-d7ddf25d7bbe"
+  },
+  {
+    "table_key": "p027-table-7",
+    "page": 27,
+    "bbox": [
+      793.8,
+      435.6,
+      877.44,
+      486.6
+    ],
+    "rows": [
+      [
+        ""
+      ],
+      [
+        ""
+      ]
+    ],
+    "status": "needs_review",
+    "regulation_node_id": "f63dbf70-ca2d-52cb-b89d-72b4176570d0"
+  },
+  {
+    "table_key": "p027-table-8",
+    "page": 27,
+    "bbox": [
+      894.48,
+      435.6,
+      978.12,
+      588.72
+    ],
+    "rows": [
+      [
+        ""
+      ],
+      [
+        ""
+      ],
+      [
+        ""
+      ],
+      [
+        ""
+      ],
+      [
+        ""
+      ],
+      [
+        ""
+      ]
+    ],
+    "status": "needs_review",
+    "regulation_node_id": "e061b00c-9297-59c0-a732-54ca5f973cd2"
+  },
+  {
+    "table_key": "p027-table-9",
+    "page": 27,
+    "bbox": [
+      997.92,
+      435.6,
+      1081.56,
+      486.6
+    ],
+    "rows": [
+      [
+        ""
+      ],
+      [
+        ""
+      ]
+    ],
+    "status": "needs_review",
+    "regulation_node_id": "79328944-2c95-58b9-9876-ce8bca0b6eb0"
+  },
+  {
+    "table_key": "p027-table-10",
+    "page": 27,
+    "bbox": [
+      1098.6,
+      435.6,
+      1182.24,
+      563.16
+    ],
+    "rows": [
+      [
+        ""
+      ],
+      [
+        ""
+      ],
+      [
+        ""
+      ],
+      [
+        ""
+      ],
+      [
+        ""
+      ]
+    ],
+    "status": "needs_review",
+    "regulation_node_id": "dbebe8a0-2aa7-5506-89ee-ca686ffbeec4"
+  },
+  {
+    "table_key": "p027-table-11",
+    "page": 27,
+    "bbox": [
+      1199.28,
+      435.6,
+      1282.92,
+      512.16
+    ],
+    "rows": [
+      [
+        ""
+      ],
+      [
+        ""
+      ],
+      [
+        ""
+      ]
+    ],
+    "status": "needs_review",
+    "regulation_node_id": "cd0c092c-2b5d-5806-bee2-fbb21f886cbd"
+  },
+  {
+    "table_key": "p027-table-12",
+    "page": 27,
+    "bbox": [
+      589.44,
+      716.64,
+      676.2,
+      844.2
+    ],
+    "rows": [
+      [
+        ""
+      ],
+      [
+        ""
+      ],
+      [
+        ""
+      ],
+      [
+        ""
+      ],
+      [
+        ""
+      ]
+    ],
+    "status": "needs_review",
+    "regulation_node_id": "02c0b677-00f5-5f46-a7de-53281a9c7d9c"
+  },
+  {
+    "table_key": "p027-table-13",
+    "page": 27,
+    "bbox": [
+      693.12,
+      716.64,
+      776.88,
+      844.2
+    ],
+    "rows": [
+      [
+        ""
+      ],
+      [
+        ""
+      ],
+      [
+        ""
+      ],
+      [
+        ""
+      ],
+      [
+        ""
+      ]
+    ],
+    "status": "needs_review",
+    "regulation_node_id": "6e66f68f-959b-5ea7-bdd6-92ffb0aae292"
+  },
+  {
+    "table_key": "p027-table-14",
+    "page": 27,
+    "bbox": [
+      793.8,
+      716.64,
+      877.44,
+      869.76
+    ],
+    "rows": [
+      [
+        ""
+      ],
+      [
+        ""
+      ],
+      [
+        ""
+      ],
+      [
+        ""
+      ],
+      [
+        ""
+      ],
+      [
+        ""
+      ]
+    ],
+    "status": "needs_review",
+    "regulation_node_id": "1d0a51dd-3f63-5213-8d44-f5019314fa49"
+  },
+  {
+    "table_key": "p027-table-15",
+    "page": 27,
+    "bbox": [
+      894.48,
+      716.64,
+      978.12,
+      869.76
+    ],
+    "rows": [
+      [
+        ""
+      ],
+      [
+        ""
+      ],
+      [
+        ""
+      ],
+      [
+        ""
+      ],
+      [
+        ""
+      ],
+      [
+        ""
+      ]
+    ],
+    "status": "needs_review",
+    "regulation_node_id": "56c5bb6a-ec7d-5dca-95dd-83e5d1772743"
+  },
+  {
+    "table_key": "p028-table-1",
+    "page": 28,
+    "bbox": [
+      74.04,
+      179.04,
+      521.28,
+      746.64
+    ],
+    "rows": [
+      [
+        "",
+        null,
+        ""
+      ],
+      [
+        "",
+        null,
+        ""
+      ],
+      [
+        "",
+        "",
+        ""
+      ],
+      [
+        null,
+        "",
+        ""
+      ],
+      [
+        "",
+        null,
+        ""
+      ],
+      [
+        "",
+        null,
+        ""
+      ],
+      [
+        "",
+        null,
+        ""
+      ],
+      [
+        "",
+        null,
+        ""
+      ]
+    ],
+    "status": "needs_review",
+    "regulation_node_id": "04ee0110-12fc-5df2-ad5d-7db23969f70b"
+  },
+  {
+    "table_key": "p029-table-1",
+    "page": 29,
+    "bbox": [
+      75.6,
+      169.92,
+      519.72,
+      762.48
+    ],
+    "rows": [
+      [
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        ""
+      ]
+    ],
+    "status": "needs_review",
+    "regulation_node_id": "9f8d398b-f9a4-51ba-bcb4-fe4bc327384c"
+  },
+  {
+    "table_key": "p030-table-1",
+    "page": 30,
+    "bbox": [
+      75.6,
+      78.0,
+      519.72,
+      762.84
+    ],
+    "rows": [
+      [
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        ""
+      ]
+    ],
+    "status": "needs_review",
+    "regulation_node_id": "a211a842-2e60-51c2-a58a-94005e9fb390"
+  },
+  {
+    "table_key": "p031-table-1",
+    "page": 31,
+    "bbox": [
+      75.6,
+      78.0,
+      519.72,
+      760.08
+    ],
+    "rows": [
+      [
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        ""
+      ]
+    ],
+    "status": "needs_review",
+    "regulation_node_id": "832ec5cc-6a5b-5c54-b40e-ce6954c3132c"
+  },
+  {
+    "table_key": "p032-table-1",
+    "page": 32,
+    "bbox": [
+      75.6,
+      78.0,
+      519.72,
+      762.0
+    ],
+    "rows": [
+      [
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        ""
+      ]
+    ],
+    "status": "needs_review",
+    "regulation_node_id": "3c6ef55a-57b3-5bef-8418-f2f6d9e74c27"
+  },
+  {
+    "table_key": "p033-table-1",
+    "page": 33,
+    "bbox": [
+      75.6,
+      97.2,
+      519.72,
+      759.0
+    ],
+    "rows": [
+      [
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        ""
+      ]
+    ],
+    "status": "needs_review",
+    "regulation_node_id": "2ffb9691-0830-5957-91cd-7c4f465f197e"
+  },
+  {
+    "table_key": "p034-table-1",
+    "page": 34,
+    "bbox": [
+      75.6,
+      97.2,
+      519.72,
+      759.24
+    ],
+    "rows": [
+      [
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        ""
+      ]
+    ],
+    "status": "needs_review",
+    "regulation_node_id": "79658a46-0e6e-5f7f-8daf-b008aa051ab0"
+  },
+  {
+    "table_key": "p035-table-1",
+    "page": 35,
+    "bbox": [
+      75.6,
+      78.0,
+      519.72,
+      757.08
+    ],
+    "rows": [
+      [
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        ""
+      ]
+    ],
+    "status": "needs_review",
+    "regulation_node_id": "a7915dcd-3885-5f31-9c8b-d5724aaacf2b"
+  },
+  {
+    "table_key": "p036-table-1",
+    "page": 36,
+    "bbox": [
+      75.6,
+      78.0,
+      519.72,
+      757.08
+    ],
+    "rows": [
+      [
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        ""
+      ]
+    ],
+    "status": "needs_review",
+    "regulation_node_id": "3a829d85-0f2d-5256-a0de-18f68a67a88a"
+  }
+]

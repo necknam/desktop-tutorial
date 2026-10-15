@@ -1,0 +1,894 @@
+{
+  "priority_job_family": "일반직",
+  "source_evidence": [
+    {
+      "source_file_name": "인사규정(2026년도 8월 27일 개정).pdf",
+      "node_id": "80f33baa-9c8e-52c4-98d0-e0795eb3941c",
+      "body_text": "제2조(적용범위) 직원(전문직, 운영직 및 특정직을 제외한다. 이하 같다)의 인사에 관하여 법령·정관\n및 다른 규정에 특별히 정한 것을 제외하고는 이 규정에 따른다. <개정 2019.06.25> <조 개정 2\n010.10.29>",
+      "source_locator": {
+        "coordinate_system": "PDF point; 원점=페이지 왼쪽 위",
+        "pdf_pages": [
+          1
+        ],
+        "lines": [
+          {
+            "line_id": "p001l0008",
+            "page": 1,
+            "bbox": [
+              70.882,
+              321.262,
+              522.858,
+              331.211
+            ]
+          },
+          {
+            "line_id": "p001l0009",
+            "page": 1,
+            "bbox": [
+              85.034,
+              336.916,
+              521.076,
+              347.154
+            ]
+          },
+          {
+            "line_id": "p001l0010",
+            "page": 1,
+            "bbox": [
+              85.034,
+              353.267,
+              135.484,
+              363.216
+            ]
+          }
+        ],
+        "section_kind": "body"
+      }
+    },
+    {
+      "source_file_name": "인사규정시행세칙(2025년도 11월 10일 개정).pdf",
+      "node_id": "404bb6fc-d0b9-5ee1-b2e6-f508f3c6cb16",
+      "body_text": "제2조(적용범위) 이 세칙은 「직제규정」 제5조에 따른 일반직 직원의 인사관리에 적용한다. <개정\n2016.12.01 ,개정 2017.06.28., 2019.11.12>\n<조 개정 2006.12.20,개정 2011.11.04>",
+      "source_locator": {
+        "coordinate_system": "PDF point; 원점=페이지 왼쪽 위",
+        "pdf_pages": [
+          1
+        ],
+        "lines": [
+          {
+            "line_id": "p001l0006",
+            "page": 1,
+            "bbox": [
+              58.693,
+              292.511,
+              510.364,
+              302.449
+            ]
+          },
+          {
+            "line_id": "p001l0007",
+            "page": 1,
+            "bbox": [
+              72.798,
+              308.555,
+              273.218,
+              318.492
+            ]
+          },
+          {
+            "line_id": "p001l0008",
+            "page": 1,
+            "bbox": [
+              77.699,
+              324.718,
+              256.005,
+              334.656
+            ]
+          }
+        ],
+        "section_kind": "body"
+      }
+    }
+  ],
+  "employee_conditions_automatically_mapped": false,
+  "note": "일반직 공통 인사 규정의 적용범위 원문을 우선 연결. 다른 규정의 준용·예외 및 개인별 적용은 별도 확인.",
+  "department_scope": {
+    "user_department_labels": [
+      "AI부서",
+      "경영부서"
+    ],
+    "review_status": "user_confirmed_review_scope",
+    "reviewed_at": "2026-10-13",
+    "user_answer": "위 두 부서 목록을 범위로 검토하고, 제안줬던 가상 예비부서로 디저털관리처와 인재경영실을 제안했던 것으로 기억하고 있어.",
+    "groups": [
+      {
+        "user_label": "AI부서",
+        "source_group_label": "AI본부",
+        "departments": [
+          "AI혁신처",
+          "디지털관리처",
+          "AI데이터센터"
+        ],
+        "provisional_employee_department": "디지털관리처",
+        "source_regulation_node_id": "5228c34d-1fed-5d1f-a44f-29b2ec514900",
+        "provisional_job": {
+          "job_category": "특수기술",
+          "job_series": "전산",
+          "job_description": "전산 업무"
+        },
+        "job_classification_source": {
+          "source_file_name": "직제규정 시행세칙(2026년도 07월 16일 개정).pdf",
+          "source_pdf_pages": [
+            46
+          ],
+          "source_annex": "별표4",
+          "grade_context": "일반직 3~8급"
+        }
+      },
+      {
+        "user_label": "경영부서",
+        "source_group_label": "경영부문",
+        "departments": [
+          "인재경영실",
+          "노사협력처",
+          "재무관리처",
+          "정보보안처",
+          "비상계획처"
+        ],
+        "provisional_employee_department": "인재경영실",
+        "source_regulation_node_id": "61b58b93-b9a8-5c6b-8876-b1292a5c7e5a",
+        "provisional_job": {
+          "job_category": "행정",
+          "job_series": "행정",
+          "job_description": "행정 업무"
+        },
+        "job_classification_source": {
+          "source_file_name": "직제규정 시행세칙(2026년도 07월 16일 개정).pdf",
+          "source_pdf_pages": [
+            46
+          ],
+          "source_annex": "별표4",
+          "grade_context": "일반직 3~8급"
+        }
+      }
+    ],
+    "source_file_name": "직제규정(2026년도 06월 18일 개정).pdf",
+    "source_pdf_pages": [
+      27,
+      30
+    ],
+    "provisional_department_status": "user_proposed_not_final_employee_assignment",
+    "employees_per_group": null,
+    "individual_grades_or_job_fields_provided": false,
+    "source_name_normalization": {
+      "user_written_name": "디저털관리처",
+      "source_name": "디지털관리처"
+    },
+    "institution_training_field_mapping_confirmed": false,
+    "employee_department_assignments_created": false,
+    "provisional_job_review_status": "user_accepted_for_virtual_profile_planning",
+    "provisional_job_user_answer": "예비 직무를 전산·행정으로 검토 (권장)",
+    "provisional_job_status": "virtual_profile_candidate_not_actual_employee_classification",
+    "additional_training_field_materials_status": "user_reports_not_available",
+    "training_field_mapping_review_status": "requires_institution_evidence"
+  },
+  "department_source_evidence": [
+    {
+      "regulation_node_id": "5228c34d-1fed-5d1f-a44f-29b2ec514900",
+      "regulation_version_id": "2483b6cc-8ae5-595a-9213-44fd885dda6b",
+      "regulation_file_id": "bf01d765-9b8b-563d-a378-6f42aabc01a6",
+      "body_text": "구분: AI본부\n분장업무:\n1. AI 및 디지털 기획, 전략 수립, 기술 지원\n2. 디지털플랫폼 구축·운영관리\n3. 전사 데이터 관련 정책 및 제도, 규정 총괄\n4. 전사 데이터 분석·활용 및 서비스\n5. 정보시스템, 정보통신망 등 구축 및 운영관리\n6. 기타 데이터 및 정보화 분야에 관한 사항\n소관부서: AI혁신처 / 디지털관리처 / AI데이터센터",
+      "source_locator": {
+        "coordinate_system": "이미지 전사: PDF 쪽수·원문 이미지 연결, 문자 좌표 없음",
+        "pdf_pages": [
+          30
+        ],
+        "printed_pages": [
+          30
+        ],
+        "lines": [],
+        "section_kind": "annex",
+        "transcription_method": "manual_pdf_image_reading",
+        "source_images": [
+          {
+            "pdf_page": 30,
+            "path": "source/page-30.png",
+            "sha256": "86968b64fcd1038320a91ae907877609edd631bc3f52d9f1d592300596eab9e8"
+          }
+        ],
+        "image_storage_base": "보정/직제규정_기구_분장_V01"
+      }
+    },
+    {
+      "regulation_node_id": "61b58b93-b9a8-5c6b-8876-b1292a5c7e5a",
+      "regulation_version_id": "2483b6cc-8ae5-595a-9213-44fd885dda6b",
+      "regulation_file_id": "bf01d765-9b8b-563d-a378-6f42aabc01a6",
+      "body_text": "구분: 경영부문\n분장업무:\n1. 문서, 행사, 사옥관리 등 경영지원 업무\n2. 인사제도·운영 및 채용\n3. 노무 및 복지 후생업무\n4. 회계, 결산 및 세무, 자금의 조달 및 운영\n5. 공사·용역 및 자재 계약관리, 자산관리 업무(국유재산 포함)\n6. 보안정책(시설, 인원, 문서, 암호자재, 방첩 등) 및 개인정보보호정책 관리 총괄\n7. 비상계획업무\n소관부서: 인재경영실 / 노사협력처 / 재무관리처 / 정보보안처 / 비상계획처",
+      "source_locator": {
+        "coordinate_system": "이미지 전사: PDF 쪽수·원문 이미지 연결, 문자 좌표 없음",
+        "pdf_pages": [
+          30
+        ],
+        "printed_pages": [
+          30
+        ],
+        "lines": [],
+        "section_kind": "annex",
+        "transcription_method": "manual_pdf_image_reading",
+        "source_images": [
+          {
+            "pdf_page": 30,
+            "path": "source/page-30.png",
+            "sha256": "86968b64fcd1038320a91ae907877609edd631bc3f52d9f1d592300596eab9e8"
+          }
+        ],
+        "image_storage_base": "보정/직제규정_기구_분장_V01"
+      }
+    }
+  ],
+  "job_classification_source_evidence": [
+    {
+      "regulation_node_id": "37951a8a-5f28-5125-a07d-c98c930caa36",
+      "regulation_version_id": "38964496-3d4e-5f82-8306-88a31e3d85e0",
+      "regulation_file_id": "57889d2e-a721-562c-8fcc-516bf9f58bf5",
+      "body_text": "대상 구분: 일반직\n직급: 3~8급\n직종: 행정\n직렬: 행정",
+      "source_locator": {
+        "coordinate_system": "PDF point; 원문 보정 자료의 문자 좌표",
+        "pdf_pages": [
+          46
+        ],
+        "printed_pages": [
+          46
+        ],
+        "lines": [
+          {
+            "line_id": "p046l0009",
+            "page": 46,
+            "bbox": [
+              288.48,
+              333.348,
+              461.76,
+              345.348
+            ]
+          },
+          {
+            "line_id": "p046l0010",
+            "page": 46,
+            "bbox": [
+              87.84,
+              351.468,
+              134.4,
+              363.468
+            ]
+          },
+          {
+            "line_id": "p046l0012",
+            "page": 46,
+            "bbox": [
+              167.64,
+              402.228,
+              209.64,
+              414.228
+            ]
+          }
+        ],
+        "section_kind": "annex",
+        "correction_source_locator": {
+          "pdf_page": 46,
+          "printed_page": 46,
+          "source_regulation_node_id": "66fea751-a1ad-5d3d-a824-136223046289",
+          "line_ids": [
+            "p046l0009",
+            "p046l0010",
+            "p046l0012"
+          ],
+          "line_bboxes": [
+            [
+              288.48,
+              333.348,
+              461.76,
+              345.348
+            ],
+            [
+              87.84,
+              351.468,
+              134.4,
+              363.468
+            ],
+            [
+              167.64,
+              402.228,
+              209.64,
+              414.228
+            ]
+          ],
+          "original_extracted_text": "행정 행정\n일 반 직\n3 ~ 8급",
+          "source_table_key": "p046-table-1",
+          "table_bbox": [
+            72.321,
+            177.646,
+            526.637,
+            499.014
+          ],
+          "source_images": [
+            {
+              "pdf_page": 46,
+              "path": "source/page-46.png",
+              "sha256": "e7f14e9b1a8425cf19a82e558e1e0808f1a25f5a930398a642f9b6d219e796d4"
+            }
+          ],
+          "image_storage_base": "보정/직제규정시행세칙_직종직렬_V01",
+          "transcription_method": "full_page_image_compared_with_raw_text_and_cells"
+        },
+        "source_images": [
+          {
+            "pdf_page": 46,
+            "path": "source/page-46.png",
+            "sha256": "e7f14e9b1a8425cf19a82e558e1e0808f1a25f5a930398a642f9b6d219e796d4"
+          }
+        ],
+        "image_storage_base": "보정/직제규정시행세칙_직종직렬_V01"
+      }
+    },
+    {
+      "regulation_node_id": "696b9b9d-83be-5898-a976-46870a7b958d",
+      "regulation_version_id": "38964496-3d4e-5f82-8306-88a31e3d85e0",
+      "regulation_file_id": "57889d2e-a721-562c-8fcc-516bf9f58bf5",
+      "body_text": "대상 구분: 일반직\n직급: 3~8급\n직종: 특수기술\n직렬: 지질, 조경, 건축, 전산, 선원",
+      "source_locator": {
+        "coordinate_system": "PDF point; 원문 보정 자료의 문자 좌표",
+        "pdf_pages": [
+          46
+        ],
+        "printed_pages": [
+          46
+        ],
+        "lines": [
+          {
+            "line_id": "p046l0010",
+            "page": 46,
+            "bbox": [
+              87.84,
+              351.468,
+              134.4,
+              363.468
+            ]
+          },
+          {
+            "line_id": "p046l0012",
+            "page": 46,
+            "bbox": [
+              167.64,
+              402.228,
+              209.64,
+              414.228
+            ]
+          },
+          {
+            "line_id": "p046l0014",
+            "page": 46,
+            "bbox": [
+              405.36,
+              461.508,
+              494.616,
+              473.508
+            ]
+          },
+          {
+            "line_id": "p046l0015",
+            "page": 46,
+            "bbox": [
+              276.96,
+              471.108,
+              323.52,
+              483.108
+            ]
+          },
+          {
+            "line_id": "p046l0016",
+            "page": 46,
+            "bbox": [
+              422.4,
+              480.708,
+              477.48,
+              492.708
+            ]
+          }
+        ],
+        "section_kind": "annex",
+        "correction_source_locator": {
+          "pdf_page": 46,
+          "printed_page": 46,
+          "source_regulation_node_id": "66fea751-a1ad-5d3d-a824-136223046289",
+          "line_ids": [
+            "p046l0010",
+            "p046l0012",
+            "p046l0014",
+            "p046l0015",
+            "p046l0016"
+          ],
+          "line_bboxes": [
+            [
+              87.84,
+              351.468,
+              134.4,
+              363.468
+            ],
+            [
+              167.64,
+              402.228,
+              209.64,
+              414.228
+            ],
+            [
+              405.36,
+              461.508,
+              494.616,
+              473.508
+            ],
+            [
+              276.96,
+              471.108,
+              323.52,
+              483.108
+            ],
+            [
+              422.4,
+              480.708,
+              477.48,
+              492.708
+            ]
+          ],
+          "original_extracted_text": "일 반 직\n3 ~ 8급\n지질, 조경, 건축,\n특수기술\n전산, 선원",
+          "source_table_key": "p046-table-1",
+          "table_bbox": [
+            72.321,
+            177.646,
+            526.637,
+            499.014
+          ],
+          "source_images": [
+            {
+              "pdf_page": 46,
+              "path": "source/page-46.png",
+              "sha256": "e7f14e9b1a8425cf19a82e558e1e0808f1a25f5a930398a642f9b6d219e796d4"
+            }
+          ],
+          "image_storage_base": "보정/직제규정시행세칙_직종직렬_V01",
+          "transcription_method": "full_page_image_compared_with_raw_text_and_cells"
+        },
+        "source_images": [
+          {
+            "pdf_page": 46,
+            "path": "source/page-46.png",
+            "sha256": "e7f14e9b1a8425cf19a82e558e1e0808f1a25f5a930398a642f9b6d219e796d4"
+          }
+        ],
+        "image_storage_base": "보정/직제규정시행세칙_직종직렬_V01"
+      }
+    }
+  ],
+  "training_field_source_evidence": [
+    {
+      "regulation_node_id": "f1360738-4cfd-5c87-a2c2-9785e49c886b",
+      "body_text": "*직무분야는 직무분류체계에 따른 세부직무를 분류․통합하여 구분",
+      "source_locator": {
+        "coordinate_system": "PDF point; 원문 보정 자료의 문자 좌표",
+        "pdf_pages": [
+          21
+        ],
+        "printed_pages": [
+          21
+        ],
+        "lines": [
+          {
+            "line_id": "p21l032",
+            "page": 21,
+            "bbox": [
+              47.52,
+              585.28,
+              455.08,
+              598.28
+            ]
+          }
+        ],
+        "section_kind": "annex",
+        "correction_source_locator": {
+          "pdf_page": 21,
+          "printed_page": 21,
+          "source_regulation_node_id": "16332bc1-75f8-595b-b771-e5a30fd650fd",
+          "source_table_key": "p21-table-1",
+          "source_table_node_id": "b2c39fd9-2ecb-5274-9768-8016d4093202",
+          "table_bbox": [
+            45.36,
+            138.0,
+            555.36,
+            575.28
+          ],
+          "line_ids": [
+            "p21l032"
+          ],
+          "line_bboxes": [
+            [
+              47.52,
+              585.28,
+              455.08,
+              598.28
+            ]
+          ],
+          "original_extracted_text": "*직무분야는 직무분류체계에 따른 세부직무를 분류․통합하여 구분",
+          "visual_group": null,
+          "visual_group_note": "분야·단계·평가의 병합 범위는 원문 전체 이미지로 대조. 문자 행에는 옆 칸의 글자가 함께 포함될 수 있음."
+        }
+      }
+    }
+  ],
+  "department_to_training_field_automatically_mapped": false,
+  "employee_records_created": false,
+  "training_field_mapping_review": {
+    "source_type": "user_reported_material_availability_with_unconfirmed_interpretation",
+    "reviewed_at": "2026-10-13",
+    "regulation_name": "인재개발규정",
+    "source_file_name": "인재개발규정(2024년도 12월 개정).pdf",
+    "source_pdf_pages": [
+      2,
+      21
+    ],
+    "source_articles": [
+      "제7조제5항",
+      "별표3 주석"
+    ],
+    "user_answer": "전산은 통합직무로 판단하지 않아 여기에서는 포함하지 않은 것으로 보이며, 이와 별개로 현재 추가 자료는 없다고 봐야할 것 같아.",
+    "additional_materials_status": "user_reports_not_available",
+    "priority_departments": [
+      "디지털관리처",
+      "인재경영실"
+    ],
+    "priority_job_candidates": [
+      "전산",
+      "행정"
+    ],
+    "user_hypothesis": {
+      "text": "전산은 통합직무로 판단하지 않아 별표3에 포함하지 않은 것으로 보임.",
+      "status": "user_interpretation_reference_only",
+      "institution_policy_confirmed": false,
+      "establishes_training_exemption": false
+    },
+    "source_target_text": "일반직 5급으로 채용하는 신입사원",
+    "handling": "일반직 5급 신입사원에 관한 제7조제5항 원문과 별표3 주석을 보존. 전산 업무의 교육 분야 연결 기준은 기관 확인 대기로 유지. 표의 분야 미표시를 교육 면제로 확정하지 않음.",
+    "training_field_assigned": false,
+    "training_exemption_confirmed": false,
+    "actual_employee_rules_implemented": false,
+    "source_evidence": [
+      {
+        "regulation_node_id": "67db5327-5548-52c1-9e6c-f1a0b7b0ed09",
+        "body_text": "제7조(학습시간 및 필수교육) ① 직원은 매년 기준학습시간 이상의 교육을 이수해야 하며 직급별 연\n간 기준학습시간은 별표 1과 같다. <개정 2018.12.27., 2022.10.07>\n② 직원이 이수하는 학습시간은 아래와 같이 인재개발담당부서 주관학습, 부서자체학습, 개인학\n습을 모두 포함하며, 세부적인 인정기준 및 절차는 인재개발담당부서의 장이 따로 정하여 시행한\n다. <개정 2018.12.27., 2022.10.07>\n1. 인재개발담당부서 주관학습: 인재개발담당부서에서 시행하는 정규 학습활동 (필수교육 포함)\n<개정 2018.12.27., 2022.10.07>\n2. 부서자체학습: 부서에서 업무와 연계하여 자체적으로 수행하는 학습활동 <개정 2018.12.27.,\n2022.10.07>\n3. 개인학습: 자기계발을 위한 개인학습활동 <개정 2018.12.27.>\n③ 직원들이 이수해야 할 해당 직급별 필요역량에 대한 필수교육은 별표 2와 같다.\n④ 승진 임용 (「인사규정」 제28조의2에 따른 직급 대우와 4급 과장 호칭 변경을 포함한다.)된 자\n는 다음 각 호의 기한 내 리더역량 필수교육을 이수하여야 한다. <신설 2024.12.26.>\n1. 2월 말까지 승진 임용된 자 : 승진임용된 다음해 10월 31일까지 <신설 2024.12.26.>\n2. 3월 이후 승진 임용된 자 : 승진임용된 다다음해 10월 31일까지 <신설 2024.12.26.>\n3. 제1호 및 제2호의 기간이 경과하기 전에 국외 파견 또는 휴직한 자 : 복귀한 다음해 10월 31\n일까지. 다만, 불가피한 경우 인재개발 담당부서장의 사전 승인을 받아 1년을 연장할 수 있\n다. <신설 2024.12.26.>\n⑤ 「인사규정」 제8조에 따라 일반직 5급으로 채용하는 신입사원에 대한 직무역량개발체계는 별\n표 3과 같다. <신설 2015.09.25, 개정 2018.12.27., 2024.12.26.>\n⑥ 「인사규정」 제8조의2에 따라 인턴을 직원으로 채용하는 경우에는 인턴기간동안 이수한 학습\n시간을 인턴 종료시 채용된 임용직급에서 이수한 학습시간으로 볼 수 있다. <신설 2015.09.25,\n개정 2018.12.27., 2022.10.07>\n⑦ 각 부서의 장은 체계적인 부서자체학습계획을 세우고 실행하는 등 직원들의 역량개발을 위해\n지속적인 노력을 하여야 한다. <신설 2018.12.27, 개정 2022.10.07.>\n[제목개정 2018.12.27]",
+        "source_locator": {
+          "coordinate_system": "PDF point; 원점=페이지 왼쪽 위",
+          "pdf_pages": [
+            2
+          ],
+          "printed_pages": [
+            2
+          ],
+          "lines": [
+            {
+              "line_id": "p02l011",
+              "page": 2,
+              "bbox": [
+                70.91,
+                287.881,
+                524.75,
+                297.961
+              ]
+            },
+            {
+              "line_id": "p02l012",
+              "page": 2,
+              "bbox": [
+                85.08,
+                303.711,
+                406.437,
+                313.791
+              ]
+            },
+            {
+              "line_id": "p02l013",
+              "page": 2,
+              "bbox": [
+                85.09,
+                320.021,
+                524.53,
+                330.101
+              ]
+            },
+            {
+              "line_id": "p02l014",
+              "page": 2,
+              "bbox": [
+                85.1,
+                336.091,
+                524.78,
+                346.171
+              ]
+            },
+            {
+              "line_id": "p02l015",
+              "page": 2,
+              "bbox": [
+                85.11,
+                351.921,
+                260.547,
+                362.001
+              ]
+            },
+            {
+              "line_id": "p02l016",
+              "page": 2,
+              "bbox": [
+                85.12,
+                368.231,
+                524.56,
+                378.311
+              ]
+            },
+            {
+              "line_id": "p02l017",
+              "page": 2,
+              "bbox": [
+                103.85,
+                384.061,
+                261.527,
+                394.141
+              ]
+            },
+            {
+              "line_id": "p02l018",
+              "page": 2,
+              "bbox": [
+                85.14,
+                400.371,
+                524.633,
+                410.451
+              ]
+            },
+            {
+              "line_id": "p02l019",
+              "page": 2,
+              "bbox": [
+                103.87,
+                416.441,
+                164.827,
+                426.521
+              ]
+            },
+            {
+              "line_id": "p02l020",
+              "page": 2,
+              "bbox": [
+                85.16,
+                432.511,
+                389.477,
+                442.591
+              ]
+            },
+            {
+              "line_id": "p02l021",
+              "page": 2,
+              "bbox": [
+                85.17,
+                448.821,
+                468.983,
+                458.901
+              ]
+            },
+            {
+              "line_id": "p02l022",
+              "page": 2,
+              "bbox": [
+                85.18,
+                464.891,
+                524.62,
+                474.971
+              ]
+            },
+            {
+              "line_id": "p02l023",
+              "page": 2,
+              "bbox": [
+                85.19,
+                480.961,
+                485.267,
+                491.041
+              ]
+            },
+            {
+              "line_id": "p02l024",
+              "page": 2,
+              "bbox": [
+                85.2,
+                497.031,
+                498.717,
+                507.111
+              ]
+            },
+            {
+              "line_id": "p02l025",
+              "page": 2,
+              "bbox": [
+                85.21,
+                513.341,
+                498.727,
+                523.421
+              ]
+            },
+            {
+              "line_id": "p02l026",
+              "page": 2,
+              "bbox": [
+                85.22,
+                529.411,
+                524.777,
+                539.491
+              ]
+            },
+            {
+              "line_id": "p02l027",
+              "page": 2,
+              "bbox": [
+                103.95,
+                545.481,
+                524.91,
+                555.561
+              ]
+            },
+            {
+              "line_id": "p02l028",
+              "page": 2,
+              "bbox": [
+                103.96,
+                561.551,
+                218.917,
+                571.631
+              ]
+            },
+            {
+              "line_id": "p02l029",
+              "page": 2,
+              "bbox": [
+                85.25,
+                577.621,
+                524.93,
+                587.701
+              ]
+            },
+            {
+              "line_id": "p02l030",
+              "page": 2,
+              "bbox": [
+                85.26,
+                593.691,
+                395.097,
+                603.771
+              ]
+            },
+            {
+              "line_id": "p02l031",
+              "page": 2,
+              "bbox": [
+                85.27,
+                609.761,
+                524.95,
+                619.841
+              ]
+            },
+            {
+              "line_id": "p02l032",
+              "page": 2,
+              "bbox": [
+                85.28,
+                625.831,
+                524.773,
+                635.911
+              ]
+            },
+            {
+              "line_id": "p02l033",
+              "page": 2,
+              "bbox": [
+                85.29,
+                641.901,
+                234.567,
+                651.981
+              ]
+            },
+            {
+              "line_id": "p02l034",
+              "page": 2,
+              "bbox": [
+                85.3,
+                657.971,
+                524.74,
+                668.051
+              ]
+            },
+            {
+              "line_id": "p02l035",
+              "page": 2,
+              "bbox": [
+                85.31,
+                674.041,
+                410.747,
+                684.121
+              ]
+            },
+            {
+              "line_id": "p02l036",
+              "page": 2,
+              "bbox": [
+                90.36,
+                690.111,
+                197.88,
+                700.191
+              ]
+            }
+          ],
+          "section_kind": "body"
+        }
+      },
+      {
+        "regulation_node_id": "f1360738-4cfd-5c87-a2c2-9785e49c886b",
+        "body_text": "*직무분야는 직무분류체계에 따른 세부직무를 분류․통합하여 구분",
+        "source_locator": {
+          "coordinate_system": "PDF point; 원문 보정 자료의 문자 좌표",
+          "pdf_pages": [
+            21
+          ],
+          "printed_pages": [
+            21
+          ],
+          "lines": [
+            {
+              "line_id": "p21l032",
+              "page": 21,
+              "bbox": [
+                47.52,
+                585.28,
+                455.08,
+                598.28
+              ]
+            }
+          ],
+          "section_kind": "annex",
+          "correction_source_locator": {
+            "pdf_page": 21,
+            "printed_page": 21,
+            "source_regulation_node_id": "16332bc1-75f8-595b-b771-e5a30fd650fd",
+            "source_table_key": "p21-table-1",
+            "source_table_node_id": "b2c39fd9-2ecb-5274-9768-8016d4093202",
+            "table_bbox": [
+              45.36,
+              138.0,
+              555.36,
+              575.28
+            ],
+            "line_ids": [
+              "p21l032"
+            ],
+            "line_bboxes": [
+              [
+                47.52,
+                585.28,
+                455.08,
+                598.28
+              ]
+            ],
+            "original_extracted_text": "*직무분야는 직무분류체계에 따른 세부직무를 분류․통합하여 구분",
+            "visual_group": null,
+            "visual_group_note": "분야·단계·평가의 병합 범위는 원문 전체 이미지로 대조. 문자 행에는 옆 칸의 글자가 함께 포함될 수 있음."
+          }
+        }
+      }
+    ]
+  }
+}

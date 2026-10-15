@@ -1,0 +1,914 @@
+{
+  "delivery_component": "regulation_evaluation_criteria_V01",
+  "base_delivery_version": "V10",
+  "base_delivery_sha256": "c1694906e53f406a74e44c882714fcf8f99a72cc4566f61c9e618ce296ae2e56",
+  "record_counts": {
+    "evaluation_result_schema": 11,
+    "evaluation_item_definition": 70,
+    "evaluation_schema_source": 172
+  },
+  "schema_codes": {
+    "COMPREHENSIVE_3_5": "862b4a19-28f8-54e2-9126-6b171f0138fe",
+    "COMPREHENSIVE_2EUL": "f7b53f12-a54a-57ef-96c9-4f07008ccb7d",
+    "WORK_3": "ecdb57be-d42f-5f72-98c7-494d1d84ca99",
+    "WORK_4_5": "428b38d2-722a-5578-aeea-63bb70845f03",
+    "WORK_2EUL": "b389b749-1893-571c-99e8-a1833f52723e",
+    "TRAINING_2급(을)": "05a4ecec-8c63-5d52-87a3-814199144306",
+    "TRAINING_3급": "2a139972-1b78-51fa-abe2-a3c584c1e371",
+    "TRAINING_4급": "a2cb396d-4f06-51bc-81a4-b6b97c074324",
+    "TRAINING_5급": "04bf8602-9f46-5c66-8e25-3e90192bfc78",
+    "CAREER_3_5": "e7484f26-307b-58a9-9245-b89c9879183d",
+    "ADJUSTMENT_2EUL_3_5": "63129bde-a76c-57cf-9848-f4624cf4e8b8"
+  },
+  "source_nodes": [
+    {
+      "regulation_node_id": "00bdefed-65db-5073-a0e8-adac0ff5a792",
+      "regulation_version_id": "baed2f1b-2de3-5162-82c4-d52cc29e3d5c",
+      "regulation_name": "인사규정시행세칙",
+      "version_label": "74차",
+      "amendment_date": "2025-11-10",
+      "general_effective_from": "2025-11-10",
+      "label": "제29조의8",
+      "title": "평정결과의 활용",
+      "source_pdf": "source/인사·복무·징계/인사규정시행세칙(2025년도 11월 10일 개정).pdf",
+      "pdf_pages": [
+        11
+      ],
+      "node_body_sha256": "4496159253a4872018823646f317c242e13c9a4799c400b7459fcf57eb3a6aa2",
+      "pdf_sha256": "1ad0ac2f6c7ecbbc12e952fedb8d9d8e2ccc2cf089e6c36ecc33d9b2005618ff"
+    },
+    {
+      "regulation_node_id": "069fb2ad-4a5c-5f7c-b071-b86b917db908",
+      "regulation_version_id": "5565f28d-29da-5ebd-bb8a-b0dc705f26d3",
+      "regulation_name": "인재개발규정",
+      "version_label": "22차",
+      "amendment_date": "2024-12-26",
+      "general_effective_from": "2025-01-01",
+      "label": "G-02:공통역량",
+      "title": "일반직 2급(을) 공통역량",
+      "source_pdf": "source/기타/인재개발규정(2024년도 12월 개정).pdf",
+      "pdf_pages": [
+        20
+      ],
+      "node_body_sha256": "a3d2654ec8a79f254ebe7694d9e814b33b9daa67effa9b0d2b3fd3faa89145d3",
+      "pdf_sha256": "0835551b52e02b2471022af3e3bf4c65ce39d0816a9fba6b0cc6c5569b5b792f"
+    },
+    {
+      "regulation_node_id": "12d63786-4b91-57bd-b706-ba0d5147cf60",
+      "regulation_version_id": "5565f28d-29da-5ebd-bb8a-b0dc705f26d3",
+      "regulation_name": "인재개발규정",
+      "version_label": "22차",
+      "amendment_date": "2024-12-26",
+      "general_effective_from": "2025-01-01",
+      "label": "G-05:리더역량",
+      "title": "일반직 5급 리더역량",
+      "source_pdf": "source/기타/인재개발규정(2024년도 12월 개정).pdf",
+      "pdf_pages": [
+        20
+      ],
+      "node_body_sha256": "edfda5ed6758a623a9a8ba6a14e877b18fc85f6e11240c42c758b6fed8cad5d8",
+      "pdf_sha256": "0835551b52e02b2471022af3e3bf4c65ce39d0816a9fba6b0cc6c5569b5b792f"
+    },
+    {
+      "regulation_node_id": "1fb3fb7e-39f5-5bf4-8663-292aecd64fbb",
+      "regulation_version_id": "baed2f1b-2de3-5162-82c4-d52cc29e3d5c",
+      "regulation_name": "인사규정시행세칙",
+      "version_label": "74차",
+      "amendment_date": "2025-11-10",
+      "general_effective_from": "2025-11-10",
+      "label": "제38조",
+      "title": "경력평정의 구분",
+      "source_pdf": "source/인사·복무·징계/인사규정시행세칙(2025년도 11월 10일 개정).pdf",
+      "pdf_pages": [
+        13
+      ],
+      "node_body_sha256": "a0cdb3cda086381aa4b968779b0e87e69a61824c26039cd071884638bfd4fbd8",
+      "pdf_sha256": "1ad0ac2f6c7ecbbc12e952fedb8d9d8e2ccc2cf089e6c36ecc33d9b2005618ff"
+    },
+    {
+      "regulation_node_id": "233d6549-913e-5e27-9731-9624aa17fce3",
+      "regulation_version_id": "5565f28d-29da-5ebd-bb8a-b0dc705f26d3",
+      "regulation_name": "인재개발규정",
+      "version_label": "22차",
+      "amendment_date": "2024-12-26",
+      "general_effective_from": "2025-01-01",
+      "label": "G-05:공통역량",
+      "title": "일반직 5급 공통역량",
+      "source_pdf": "source/기타/인재개발규정(2024년도 12월 개정).pdf",
+      "pdf_pages": [
+        20
+      ],
+      "node_body_sha256": "fe2bb28a9554a28c6816211bef41967530e3df88cf5b9d9fb5199ba63f78491e",
+      "pdf_sha256": "0835551b52e02b2471022af3e3bf4c65ce39d0816a9fba6b0cc6c5569b5b792f"
+    },
+    {
+      "regulation_node_id": "2497464f-4581-5b03-8bfa-c34e52c735c9",
+      "regulation_version_id": "5565f28d-29da-5ebd-bb8a-b0dc705f26d3",
+      "regulation_name": "인재개발규정",
+      "version_label": "22차",
+      "amendment_date": "2024-12-26",
+      "general_effective_from": "2025-01-01",
+      "label": "S1-R05",
+      "title": "일반직 및 운영직 5급",
+      "source_pdf": "source/기타/인재개발규정(2024년도 12월 개정).pdf",
+      "pdf_pages": [
+        19
+      ],
+      "node_body_sha256": "019f0859431781ba171922d6c9acdb21db7c40fab1a832e9d7561c70337d2a7d",
+      "pdf_sha256": "0835551b52e02b2471022af3e3bf4c65ce39d0816a9fba6b0cc6c5569b5b792f"
+    },
+    {
+      "regulation_node_id": "24b547c8-6ed8-538b-9395-713c721442cf",
+      "regulation_version_id": "baed2f1b-2de3-5162-82c4-d52cc29e3d5c",
+      "regulation_name": "인사규정시행세칙",
+      "version_label": "74차",
+      "amendment_date": "2025-11-10",
+      "general_effective_from": "2025-11-10",
+      "label": "제35조의2",
+      "title": "근무성적 적용",
+      "source_pdf": "source/인사·복무·징계/인사규정시행세칙(2025년도 11월 10일 개정).pdf",
+      "pdf_pages": [
+        12,
+        13
+      ],
+      "node_body_sha256": "8cf1ef11dbf3683c49edd8ced6cb174164a6a76f8ed95f2ae0a71462a8a7773d",
+      "pdf_sha256": "1ad0ac2f6c7ecbbc12e952fedb8d9d8e2ccc2cf089e6c36ecc33d9b2005618ff"
+    },
+    {
+      "regulation_node_id": "2bb0cd77-84ff-5ee6-9f4c-91febd1a7e7f",
+      "regulation_version_id": "baed2f1b-2de3-5162-82c4-d52cc29e3d5c",
+      "regulation_name": "인사규정시행세칙",
+      "version_label": "74차",
+      "amendment_date": "2025-11-10",
+      "general_effective_from": "2025-11-10",
+      "label": "제34조",
+      "title": "평정방법",
+      "source_pdf": "source/인사·복무·징계/인사규정시행세칙(2025년도 11월 10일 개정).pdf",
+      "pdf_pages": [
+        12
+      ],
+      "node_body_sha256": "5be35860ab45f3aaae6f25803053b1b3b653605489ab44a3b1b13470a9ec0d52",
+      "pdf_sha256": "1ad0ac2f6c7ecbbc12e952fedb8d9d8e2ccc2cf089e6c36ecc33d9b2005618ff"
+    },
+    {
+      "regulation_node_id": "2de529fe-dee5-5550-aabb-e7c8b9356e53",
+      "regulation_version_id": "baed2f1b-2de3-5162-82c4-d52cc29e3d5c",
+      "regulation_name": "인사규정시행세칙",
+      "version_label": "74차",
+      "amendment_date": "2025-11-10",
+      "general_effective_from": "2025-11-10",
+      "label": "제29조",
+      "title": "근무성적평정의 원칙",
+      "source_pdf": "source/인사·복무·징계/인사규정시행세칙(2025년도 11월 10일 개정).pdf",
+      "pdf_pages": [
+        9
+      ],
+      "node_body_sha256": "8f1fbea8f17c515ab4c13f5042881107ad7cd8b8e7fe5ecb51ecd02de7256817",
+      "pdf_sha256": "1ad0ac2f6c7ecbbc12e952fedb8d9d8e2ccc2cf089e6c36ecc33d9b2005618ff"
+    },
+    {
+      "regulation_node_id": "30eafdc2-51b2-5fd0-a409-c778b1702636",
+      "regulation_version_id": "baed2f1b-2de3-5162-82c4-d52cc29e3d5c",
+      "regulation_name": "인사규정시행세칙",
+      "version_label": "74차",
+      "amendment_date": "2025-11-10",
+      "general_effective_from": "2025-11-10",
+      "label": "제46조",
+      "title": "징계 등에 따른 감점",
+      "source_pdf": "source/인사·복무·징계/인사규정시행세칙(2025년도 11월 10일 개정).pdf",
+      "pdf_pages": [
+        16
+      ],
+      "node_body_sha256": "03277298a221177f3a737999ebdaa0951b8344999b3027533139c75bc32fc33f",
+      "pdf_sha256": "1ad0ac2f6c7ecbbc12e952fedb8d9d8e2ccc2cf089e6c36ecc33d9b2005618ff"
+    },
+    {
+      "regulation_node_id": "332f90fe-ac31-57e1-a4ea-71225273ae9c",
+      "regulation_version_id": "baed2f1b-2de3-5162-82c4-d52cc29e3d5c",
+      "regulation_name": "인사규정시행세칙",
+      "version_label": "74차",
+      "amendment_date": "2025-11-10",
+      "general_effective_from": "2025-11-10",
+      "label": "제44조의6",
+      "title": "근무가점",
+      "source_pdf": "source/인사·복무·징계/인사규정시행세칙(2025년도 11월 10일 개정).pdf",
+      "pdf_pages": [
+        16
+      ],
+      "node_body_sha256": "1a09e1e280350b093c4f6b9f789ad3de9191849dfe28937446fbc234db23ab6c",
+      "pdf_sha256": "1ad0ac2f6c7ecbbc12e952fedb8d9d8e2ccc2cf089e6c36ecc33d9b2005618ff"
+    },
+    {
+      "regulation_node_id": "33beee20-b88c-5eb0-b800-f70c18a3c87c",
+      "regulation_version_id": "5565f28d-29da-5ebd-bb8a-b0dc705f26d3",
+      "regulation_name": "인재개발규정",
+      "version_label": "22차",
+      "amendment_date": "2024-12-26",
+      "general_effective_from": "2025-01-01",
+      "label": "S1-R04",
+      "title": "일반직 및 운영직 4급",
+      "source_pdf": "source/기타/인재개발규정(2024년도 12월 개정).pdf",
+      "pdf_pages": [
+        19
+      ],
+      "node_body_sha256": "e8a916dada573e8e2a3092e5fe16eeab18276bba8621b4480d810147ef197c0a",
+      "pdf_sha256": "0835551b52e02b2471022af3e3bf4c65ce39d0816a9fba6b0cc6c5569b5b792f"
+    },
+    {
+      "regulation_node_id": "3494a8e7-266f-5e56-952a-00beb9319edb",
+      "regulation_version_id": "5565f28d-29da-5ebd-bb8a-b0dc705f26d3",
+      "regulation_name": "인재개발규정",
+      "version_label": "22차",
+      "amendment_date": "2024-12-26",
+      "general_effective_from": "2025-01-01",
+      "label": "G-05:직무역량",
+      "title": "일반직 5급 직무역량",
+      "source_pdf": "source/기타/인재개발규정(2024년도 12월 개정).pdf",
+      "pdf_pages": [
+        20
+      ],
+      "node_body_sha256": "5fc0d5da2cd8c6620515b8ea682cc2eb8edee9bdf7735f98554078dde5137fa8",
+      "pdf_sha256": "0835551b52e02b2471022af3e3bf4c65ce39d0816a9fba6b0cc6c5569b5b792f"
+    },
+    {
+      "regulation_node_id": "3a8d986f-eff3-51f3-b8e3-14e6890ff87f",
+      "regulation_version_id": "5565f28d-29da-5ebd-bb8a-b0dc705f26d3",
+      "regulation_name": "인재개발규정",
+      "version_label": "22차",
+      "amendment_date": "2024-12-26",
+      "general_effective_from": "2025-01-01",
+      "label": "C-09",
+      "title": "주석 C-09 개정 항목·누계 비율의 평정 반영 시점",
+      "source_pdf": "source/기타/인재개발규정(2024년도 12월 개정).pdf",
+      "pdf_pages": [
+        20
+      ],
+      "node_body_sha256": "3bd408d90e24a3a49bf0efb631957ed6fd2392b1e6fe10f76e31d0a444bb6a92",
+      "pdf_sha256": "0835551b52e02b2471022af3e3bf4c65ce39d0816a9fba6b0cc6c5569b5b792f"
+    },
+    {
+      "regulation_node_id": "3ece7dbc-1602-5c22-840a-14dce089f113",
+      "regulation_version_id": "5565f28d-29da-5ebd-bb8a-b0dc705f26d3",
+      "regulation_name": "인재개발규정",
+      "version_label": "22차",
+      "amendment_date": "2024-12-26",
+      "general_effective_from": "2025-01-01",
+      "label": "S1-R02",
+      "title": "일반직 및 운영직 2급(을)",
+      "source_pdf": "source/기타/인재개발규정(2024년도 12월 개정).pdf",
+      "pdf_pages": [
+        19
+      ],
+      "node_body_sha256": "a8d368f57acbc72400fb976597eb383c9bec17cc072773432518e8b213448103",
+      "pdf_sha256": "0835551b52e02b2471022af3e3bf4c65ce39d0816a9fba6b0cc6c5569b5b792f"
+    },
+    {
+      "regulation_node_id": "3fe3d300-2308-5891-9a60-3fc9dbdef796",
+      "regulation_version_id": "baed2f1b-2de3-5162-82c4-d52cc29e3d5c",
+      "regulation_name": "인사규정시행세칙",
+      "version_label": "74차",
+      "amendment_date": "2025-11-10",
+      "general_effective_from": "2025-11-10",
+      "label": "제29조의4",
+      "title": "근무성적평정표의 취급",
+      "source_pdf": "source/인사·복무·징계/인사규정시행세칙(2025년도 11월 10일 개정).pdf",
+      "pdf_pages": [
+        10
+      ],
+      "node_body_sha256": "82e6f350cef320f6d692fa5e049f80851508ddeac5d200cb01ac6d590905dca6",
+      "pdf_sha256": "1ad0ac2f6c7ecbbc12e952fedb8d9d8e2ccc2cf089e6c36ecc33d9b2005618ff"
+    },
+    {
+      "regulation_node_id": "40aedf0a-6300-5e36-964e-a3dcd141fb7a",
+      "regulation_version_id": "baed2f1b-2de3-5162-82c4-d52cc29e3d5c",
+      "regulation_name": "인사규정시행세칙",
+      "version_label": "74차",
+      "amendment_date": "2025-11-10",
+      "general_effective_from": "2025-11-10",
+      "label": "별표 8",
+      "title": "[별표 8] (제48조의2 관련)",
+      "source_pdf": "source/인사·복무·징계/인사규정시행세칙(2025년도 11월 10일 개정).pdf",
+      "pdf_pages": [
+        61
+      ],
+      "node_body_sha256": "cb3b9ab32718149942dc9fed8836d1c57da5e23022e4792fb1f1746441933938",
+      "pdf_sha256": "1ad0ac2f6c7ecbbc12e952fedb8d9d8e2ccc2cf089e6c36ecc33d9b2005618ff"
+    },
+    {
+      "regulation_node_id": "41e26cd2-1681-5303-bbe6-6564386315e5",
+      "regulation_version_id": "baed2f1b-2de3-5162-82c4-d52cc29e3d5c",
+      "regulation_name": "인사규정시행세칙",
+      "version_label": "74차",
+      "amendment_date": "2025-11-10",
+      "general_effective_from": "2025-11-10",
+      "label": "제28조",
+      "title": "평정점수의 구성",
+      "source_pdf": "source/인사·복무·징계/인사규정시행세칙(2025년도 11월 10일 개정).pdf",
+      "pdf_pages": [
+        8
+      ],
+      "node_body_sha256": "f7fa29b73c74aa646b0b1424c8173f25475fa98410bd4e804f5fc616672adb4e",
+      "pdf_sha256": "1ad0ac2f6c7ecbbc12e952fedb8d9d8e2ccc2cf089e6c36ecc33d9b2005618ff"
+    },
+    {
+      "regulation_node_id": "41f21a2b-eb02-5181-8924-a502d1d6680f",
+      "regulation_version_id": "baed2f1b-2de3-5162-82c4-d52cc29e3d5c",
+      "regulation_name": "인사규정시행세칙",
+      "version_label": "74차",
+      "amendment_date": "2025-11-10",
+      "general_effective_from": "2025-11-10",
+      "label": "제32조",
+      "title": "근무성적 평정자",
+      "source_pdf": "source/인사·복무·징계/인사규정시행세칙(2025년도 11월 10일 개정).pdf",
+      "pdf_pages": [
+        12
+      ],
+      "node_body_sha256": "ca2aace8a008d00d5a7c10ab23e01a346a871a6d993fb92c5f3eedb7662b2072",
+      "pdf_sha256": "1ad0ac2f6c7ecbbc12e952fedb8d9d8e2ccc2cf089e6c36ecc33d9b2005618ff"
+    },
+    {
+      "regulation_node_id": "476d63ba-d9a8-580b-88dc-a5723321599d",
+      "regulation_version_id": "5565f28d-29da-5ebd-bb8a-b0dc705f26d3",
+      "regulation_name": "인재개발규정",
+      "version_label": "22차",
+      "amendment_date": "2024-12-26",
+      "general_effective_from": "2025-01-01",
+      "label": "G-03:공통역량",
+      "title": "일반직 3급 공통역량",
+      "source_pdf": "source/기타/인재개발규정(2024년도 12월 개정).pdf",
+      "pdf_pages": [
+        20
+      ],
+      "node_body_sha256": "d402324853aafee553da2a606ecf7026361f5e331a065294fbcfe7e2e2990eb9",
+      "pdf_sha256": "0835551b52e02b2471022af3e3bf4c65ce39d0816a9fba6b0cc6c5569b5b792f"
+    },
+    {
+      "regulation_node_id": "4adf69d0-ff71-5c4f-b9dc-d4bb1afaf88b",
+      "regulation_version_id": "5565f28d-29da-5ebd-bb8a-b0dc705f26d3",
+      "regulation_name": "인재개발규정",
+      "version_label": "22차",
+      "amendment_date": "2024-12-26",
+      "general_effective_from": "2025-01-01",
+      "label": "S1-C02",
+      "title": "별표1 주석 S1-C02",
+      "source_pdf": "source/기타/인재개발규정(2024년도 12월 개정).pdf",
+      "pdf_pages": [
+        19
+      ],
+      "node_body_sha256": "9cb9b73119de6ac90a92d12810067bb50326d8f1604557e6850426460dc5cdfd",
+      "pdf_sha256": "0835551b52e02b2471022af3e3bf4c65ce39d0816a9fba6b0cc6c5569b5b792f"
+    },
+    {
+      "regulation_node_id": "4b796812-40ad-5f74-912d-016cca4237cf",
+      "regulation_version_id": "baed2f1b-2de3-5162-82c4-d52cc29e3d5c",
+      "regulation_name": "인사규정시행세칙",
+      "version_label": "74차",
+      "amendment_date": "2025-11-10",
+      "general_effective_from": "2025-11-10",
+      "label": "별표 7",
+      "title": "[별표 7] (제45조 관련)",
+      "source_pdf": "source/인사·복무·징계/인사규정시행세칙(2025년도 11월 10일 개정).pdf",
+      "pdf_pages": [
+        60
+      ],
+      "node_body_sha256": "ea40cbc935c1476e1b7cb27aff2ae254871a8b6e7792047bb56bc4b79121d3d6",
+      "pdf_sha256": "1ad0ac2f6c7ecbbc12e952fedb8d9d8e2ccc2cf089e6c36ecc33d9b2005618ff"
+    },
+    {
+      "regulation_node_id": "4e0951fe-e3b1-5a51-a321-f5e738d91782",
+      "regulation_version_id": "baed2f1b-2de3-5162-82c4-d52cc29e3d5c",
+      "regulation_name": "인사규정시행세칙",
+      "version_label": "74차",
+      "amendment_date": "2025-11-10",
+      "general_effective_from": "2025-11-10",
+      "label": "제29조의2",
+      "title": "근무성적평정의 예외",
+      "source_pdf": "source/인사·복무·징계/인사규정시행세칙(2025년도 11월 10일 개정).pdf",
+      "pdf_pages": [
+        9
+      ],
+      "node_body_sha256": "fdebe6a794ed2b343e5e4be5eeddbb4b6191bdda7069e6ff30905593efd3732b",
+      "pdf_sha256": "1ad0ac2f6c7ecbbc12e952fedb8d9d8e2ccc2cf089e6c36ecc33d9b2005618ff"
+    },
+    {
+      "regulation_node_id": "4e8ba8f2-fd77-5f52-8715-dd9475a4b14a",
+      "regulation_version_id": "baed2f1b-2de3-5162-82c4-d52cc29e3d5c",
+      "regulation_name": "인사규정시행세칙",
+      "version_label": "74차",
+      "amendment_date": "2025-11-10",
+      "general_effective_from": "2025-11-10",
+      "label": "제35조",
+      "title": "평정점 조정 및 확정",
+      "source_pdf": "source/인사·복무·징계/인사규정시행세칙(2025년도 11월 10일 개정).pdf",
+      "pdf_pages": [
+        12
+      ],
+      "node_body_sha256": "533b000e729c4dd92f18dba2ff595d561e537be5f408e7d9292cc5276031ba75",
+      "pdf_sha256": "1ad0ac2f6c7ecbbc12e952fedb8d9d8e2ccc2cf089e6c36ecc33d9b2005618ff"
+    },
+    {
+      "regulation_node_id": "50681d96-4f4d-512f-81d4-af5157748f9a",
+      "regulation_version_id": "5565f28d-29da-5ebd-bb8a-b0dc705f26d3",
+      "regulation_name": "인재개발규정",
+      "version_label": "22차",
+      "amendment_date": "2024-12-26",
+      "general_effective_from": "2025-01-01",
+      "label": "C-07",
+      "title": "주석 C-07 승진일에 따른 개정 기준 적용",
+      "source_pdf": "source/기타/인재개발규정(2024년도 12월 개정).pdf",
+      "pdf_pages": [
+        20
+      ],
+      "node_body_sha256": "96d566f2f52cc7f4c444a11da65e41c45c24a8b6d6fb42020e6e370d1915e621",
+      "pdf_sha256": "0835551b52e02b2471022af3e3bf4c65ce39d0816a9fba6b0cc6c5569b5b792f"
+    },
+    {
+      "regulation_node_id": "52f40d18-c375-5987-a172-5d8925d69c0f",
+      "regulation_version_id": "baed2f1b-2de3-5162-82c4-d52cc29e3d5c",
+      "regulation_name": "인사규정시행세칙",
+      "version_label": "74차",
+      "amendment_date": "2025-11-10",
+      "general_effective_from": "2025-11-10",
+      "label": "제43조",
+      "title": "교육훈련평정방법 등",
+      "source_pdf": "source/인사·복무·징계/인사규정시행세칙(2025년도 11월 10일 개정).pdf",
+      "pdf_pages": [
+        14
+      ],
+      "node_body_sha256": "1fb1bfb78f77c81902555337583604eb1e9b6720d229c8f09c6cbeb28e47cb04",
+      "pdf_sha256": "1ad0ac2f6c7ecbbc12e952fedb8d9d8e2ccc2cf089e6c36ecc33d9b2005618ff"
+    },
+    {
+      "regulation_node_id": "536e384b-5420-52e9-a047-ca26778febae",
+      "regulation_version_id": "5565f28d-29da-5ebd-bb8a-b0dc705f26d3",
+      "regulation_name": "인재개발규정",
+      "version_label": "22차",
+      "amendment_date": "2024-12-26",
+      "general_effective_from": "2025-01-01",
+      "label": "C-08",
+      "title": "주석 C-08 종전 직무이해Ⅱ 교육의 이수 인정",
+      "source_pdf": "source/기타/인재개발규정(2024년도 12월 개정).pdf",
+      "pdf_pages": [
+        20
+      ],
+      "node_body_sha256": "0bdf7f138c7d9f0084683cf384b9be4af0ec0b6cab37323833e7b58b261b957c",
+      "pdf_sha256": "0835551b52e02b2471022af3e3bf4c65ce39d0816a9fba6b0cc6c5569b5b792f"
+    },
+    {
+      "regulation_node_id": "550d6e30-379a-5804-8622-3c55d819b2e3",
+      "regulation_version_id": "5565f28d-29da-5ebd-bb8a-b0dc705f26d3",
+      "regulation_name": "인재개발규정",
+      "version_label": "22차",
+      "amendment_date": "2024-12-26",
+      "general_effective_from": "2025-01-01",
+      "label": "G-03:리더역량",
+      "title": "일반직 3급 리더역량",
+      "source_pdf": "source/기타/인재개발규정(2024년도 12월 개정).pdf",
+      "pdf_pages": [
+        20
+      ],
+      "node_body_sha256": "90db037cee717efad87cba898d61d06ed3f36c8b06c277b7999d4f11958ae032",
+      "pdf_sha256": "0835551b52e02b2471022af3e3bf4c65ce39d0816a9fba6b0cc6c5569b5b792f"
+    },
+    {
+      "regulation_node_id": "67db5327-5548-52c1-9e6c-f1a0b7b0ed09",
+      "regulation_version_id": "5565f28d-29da-5ebd-bb8a-b0dc705f26d3",
+      "regulation_name": "인재개발규정",
+      "version_label": "22차",
+      "amendment_date": "2024-12-26",
+      "general_effective_from": "2025-01-01",
+      "label": "제7조",
+      "title": "학습시간 및 필수교육",
+      "source_pdf": "source/기타/인재개발규정(2024년도 12월 개정).pdf",
+      "pdf_pages": [
+        2
+      ],
+      "node_body_sha256": "92a565b8309a7da8fb428da72996c739047716591c4eda81d93e089a220a9cfb",
+      "pdf_sha256": "0835551b52e02b2471022af3e3bf4c65ce39d0816a9fba6b0cc6c5569b5b792f"
+    },
+    {
+      "regulation_node_id": "683a6768-82ac-50a3-952d-3c2e44b4950b",
+      "regulation_version_id": "5565f28d-29da-5ebd-bb8a-b0dc705f26d3",
+      "regulation_name": "인재개발규정",
+      "version_label": "22차",
+      "amendment_date": "2024-12-26",
+      "general_effective_from": "2025-01-01",
+      "label": "S1-R03",
+      "title": "일반직 및 운영직 3급",
+      "source_pdf": "source/기타/인재개발규정(2024년도 12월 개정).pdf",
+      "pdf_pages": [
+        19
+      ],
+      "node_body_sha256": "666856feb19a632fcdd7754658f5b4dc32e93a4b357c5cba1825b36f0f9f2339",
+      "pdf_sha256": "0835551b52e02b2471022af3e3bf4c65ce39d0816a9fba6b0cc6c5569b5b792f"
+    },
+    {
+      "regulation_node_id": "6ce7c233-7441-5c0a-8868-786bc4206e4b",
+      "regulation_version_id": "baed2f1b-2de3-5162-82c4-d52cc29e3d5c",
+      "regulation_name": "인사규정시행세칙",
+      "version_label": "74차",
+      "amendment_date": "2025-11-10",
+      "general_effective_from": "2025-11-10",
+      "label": "제45조",
+      "title": "자격면허 등 가점",
+      "source_pdf": "source/인사·복무·징계/인사규정시행세칙(2025년도 11월 10일 개정).pdf",
+      "pdf_pages": [
+        16
+      ],
+      "node_body_sha256": "5802080264a31e2369b257ab0202661a26fb85f666dba8e603f7e046b2f95714",
+      "pdf_sha256": "1ad0ac2f6c7ecbbc12e952fedb8d9d8e2ccc2cf089e6c36ecc33d9b2005618ff"
+    },
+    {
+      "regulation_node_id": "6dea575f-18de-5c7f-b5b3-8a4bc8cedb5a",
+      "regulation_version_id": "baed2f1b-2de3-5162-82c4-d52cc29e3d5c",
+      "regulation_name": "인사규정시행세칙",
+      "version_label": "74차",
+      "amendment_date": "2025-11-10",
+      "general_effective_from": "2025-11-10",
+      "label": "제44조의3",
+      "title": "특수업적 가점",
+      "source_pdf": "source/인사·복무·징계/인사규정시행세칙(2025년도 11월 10일 개정).pdf",
+      "pdf_pages": [
+        15
+      ],
+      "node_body_sha256": "4e21f5161e946f8f0fc28269ca73a97eebe546676e30e5c2fe69f2f0a65a4798",
+      "pdf_sha256": "1ad0ac2f6c7ecbbc12e952fedb8d9d8e2ccc2cf089e6c36ecc33d9b2005618ff"
+    },
+    {
+      "regulation_node_id": "71fd7976-daff-5d52-8cd9-83fd85ea5325",
+      "regulation_version_id": "5565f28d-29da-5ebd-bb8a-b0dc705f26d3",
+      "regulation_name": "인재개발규정",
+      "version_label": "22차",
+      "amendment_date": "2024-12-26",
+      "general_effective_from": "2025-01-01",
+      "label": "G-02:직무역량",
+      "title": "일반직 2급(을) 직무역량",
+      "source_pdf": "source/기타/인재개발규정(2024년도 12월 개정).pdf",
+      "pdf_pages": [
+        20
+      ],
+      "node_body_sha256": "524e2d9166d1f9fa176a10d08d03e6eb02b9dce21917393ea468c1261c1667bf",
+      "pdf_sha256": "0835551b52e02b2471022af3e3bf4c65ce39d0816a9fba6b0cc6c5569b5b792f"
+    },
+    {
+      "regulation_node_id": "81aebb37-8e21-5216-a492-ac2edbc038de",
+      "regulation_version_id": "baed2f1b-2de3-5162-82c4-d52cc29e3d5c",
+      "regulation_name": "인사규정시행세칙",
+      "version_label": "74차",
+      "amendment_date": "2025-11-10",
+      "general_effective_from": "2025-11-10",
+      "label": "제44조",
+      "title": "포상가점",
+      "source_pdf": "source/인사·복무·징계/인사규정시행세칙(2025년도 11월 10일 개정).pdf",
+      "pdf_pages": [
+        14,
+        15
+      ],
+      "node_body_sha256": "a08706774d481f17a8290c2f5b29133c880d21ecc888b81f43060b74fe9abbe1",
+      "pdf_sha256": "1ad0ac2f6c7ecbbc12e952fedb8d9d8e2ccc2cf089e6c36ecc33d9b2005618ff"
+    },
+    {
+      "regulation_node_id": "84a1a35f-19e0-5b32-b937-a12d0c5ee399",
+      "regulation_version_id": "5565f28d-29da-5ebd-bb8a-b0dc705f26d3",
+      "regulation_name": "인재개발규정",
+      "version_label": "22차",
+      "amendment_date": "2024-12-26",
+      "general_effective_from": "2025-01-01",
+      "label": "G-04:직무역량",
+      "title": "일반직 4급 직무역량",
+      "source_pdf": "source/기타/인재개발규정(2024년도 12월 개정).pdf",
+      "pdf_pages": [
+        20
+      ],
+      "node_body_sha256": "45eda6640949bafe7656db39a395affc23efe9149223794d5667d53e029fb068",
+      "pdf_sha256": "0835551b52e02b2471022af3e3bf4c65ce39d0816a9fba6b0cc6c5569b5b792f"
+    },
+    {
+      "regulation_node_id": "89f60797-d067-5bd2-a037-55779397b6ad",
+      "regulation_version_id": "5565f28d-29da-5ebd-bb8a-b0dc705f26d3",
+      "regulation_name": "인재개발규정",
+      "version_label": "22차",
+      "amendment_date": "2024-12-26",
+      "general_effective_from": "2025-01-01",
+      "label": "S1-C01",
+      "title": "별표1 주석 S1-C01",
+      "source_pdf": "source/기타/인재개발규정(2024년도 12월 개정).pdf",
+      "pdf_pages": [
+        19
+      ],
+      "node_body_sha256": "4e1516e971599ed8de6090e740177a0104ac355559618ac4830b84eeaa53593b",
+      "pdf_sha256": "0835551b52e02b2471022af3e3bf4c65ce39d0816a9fba6b0cc6c5569b5b792f"
+    },
+    {
+      "regulation_node_id": "8bb918d8-52b2-59bd-9b88-5463d2fee074",
+      "regulation_version_id": "baed2f1b-2de3-5162-82c4-d52cc29e3d5c",
+      "regulation_name": "인사규정시행세칙",
+      "version_label": "74차",
+      "amendment_date": "2025-11-10",
+      "general_effective_from": "2025-11-10",
+      "label": "제41조",
+      "title": "교육훈련 평정대상",
+      "source_pdf": "source/인사·복무·징계/인사규정시행세칙(2025년도 11월 10일 개정).pdf",
+      "pdf_pages": [
+        14
+      ],
+      "node_body_sha256": "c3bbacb60f25042d677220f969b6d351247b123761a4a2d1b6f729c3723b6dc9",
+      "pdf_sha256": "1ad0ac2f6c7ecbbc12e952fedb8d9d8e2ccc2cf089e6c36ecc33d9b2005618ff"
+    },
+    {
+      "regulation_node_id": "8fe70bfc-e9f4-52cd-b414-fe54eeb9560e",
+      "regulation_version_id": "5565f28d-29da-5ebd-bb8a-b0dc705f26d3",
+      "regulation_name": "인재개발규정",
+      "version_label": "22차",
+      "amendment_date": "2024-12-26",
+      "general_effective_from": "2025-01-01",
+      "label": "G-04:리더역량",
+      "title": "일반직 4급 리더역량",
+      "source_pdf": "source/기타/인재개발규정(2024년도 12월 개정).pdf",
+      "pdf_pages": [
+        20
+      ],
+      "node_body_sha256": "71f39ea8f2319d1663ec4941437fa2de5a46628a2e09e30f13afa7fc6ee347e8",
+      "pdf_sha256": "0835551b52e02b2471022af3e3bf4c65ce39d0816a9fba6b0cc6c5569b5b792f"
+    },
+    {
+      "regulation_node_id": "902cb66c-b1a8-5b14-974c-bd12ffb925c4",
+      "regulation_version_id": "5565f28d-29da-5ebd-bb8a-b0dc705f26d3",
+      "regulation_name": "인재개발규정",
+      "version_label": "22차",
+      "amendment_date": "2024-12-26",
+      "general_effective_from": "2025-01-01",
+      "label": "C-02",
+      "title": "주석 C-02 직급별 필수교육의 최소 기간",
+      "source_pdf": "source/기타/인재개발규정(2024년도 12월 개정).pdf",
+      "pdf_pages": [
+        20
+      ],
+      "node_body_sha256": "777a8e772af30209329e1d25f1286f5f2a9cdfd9549d288ba1e168665178825c",
+      "pdf_sha256": "0835551b52e02b2471022af3e3bf4c65ce39d0816a9fba6b0cc6c5569b5b792f"
+    },
+    {
+      "regulation_node_id": "92cdfab6-70e9-51dd-a371-869bce0525a8",
+      "regulation_version_id": "baed2f1b-2de3-5162-82c4-d52cc29e3d5c",
+      "regulation_name": "인사규정시행세칙",
+      "version_label": "74차",
+      "amendment_date": "2025-11-10",
+      "general_effective_from": "2025-11-10",
+      "label": "제29조의7",
+      "title": "평정점수 확정",
+      "source_pdf": "source/인사·복무·징계/인사규정시행세칙(2025년도 11월 10일 개정).pdf",
+      "pdf_pages": [
+        11
+      ],
+      "node_body_sha256": "ba3811f5dadf908632fde757eb02468967e395db0074ce294f3377f91e993ee7",
+      "pdf_sha256": "1ad0ac2f6c7ecbbc12e952fedb8d9d8e2ccc2cf089e6c36ecc33d9b2005618ff"
+    },
+    {
+      "regulation_node_id": "9b483ce2-eabf-546f-bb38-db36633269ba",
+      "regulation_version_id": "5565f28d-29da-5ebd-bb8a-b0dc705f26d3",
+      "regulation_name": "인재개발규정",
+      "version_label": "22차",
+      "amendment_date": "2024-12-26",
+      "general_effective_from": "2025-01-01",
+      "label": "S1-C04",
+      "title": "별표1 주석 S1-C04",
+      "source_pdf": "source/기타/인재개발규정(2024년도 12월 개정).pdf",
+      "pdf_pages": [
+        19
+      ],
+      "node_body_sha256": "ff6746065cf22f8c372cda12f2d38ae1b208ee448971f17fe354975725157f34",
+      "pdf_sha256": "0835551b52e02b2471022af3e3bf4c65ce39d0816a9fba6b0cc6c5569b5b792f"
+    },
+    {
+      "regulation_node_id": "9d70d076-a785-5133-b5da-48fbace47cd0",
+      "regulation_version_id": "5565f28d-29da-5ebd-bb8a-b0dc705f26d3",
+      "regulation_name": "인재개발규정",
+      "version_label": "22차",
+      "amendment_date": "2024-12-26",
+      "general_effective_from": "2025-01-01",
+      "label": "G-04:공통역량",
+      "title": "일반직 4급 공통역량",
+      "source_pdf": "source/기타/인재개발규정(2024년도 12월 개정).pdf",
+      "pdf_pages": [
+        20
+      ],
+      "node_body_sha256": "0e571e7d442fab0636f02ead7b14d53ab27ab6417bfeeef3c258deae4c953ece",
+      "pdf_sha256": "0835551b52e02b2471022af3e3bf4c65ce39d0816a9fba6b0cc6c5569b5b792f"
+    },
+    {
+      "regulation_node_id": "9fca1eca-682a-56b1-b4eb-846f05de2ca3",
+      "regulation_version_id": "5565f28d-29da-5ebd-bb8a-b0dc705f26d3",
+      "regulation_name": "인재개발규정",
+      "version_label": "22차",
+      "amendment_date": "2024-12-26",
+      "general_effective_from": "2025-01-01",
+      "label": "C-03",
+      "title": "주석 C-03 경력직·고용전환 등 채용자의 리더교육",
+      "source_pdf": "source/기타/인재개발규정(2024년도 12월 개정).pdf",
+      "pdf_pages": [
+        20
+      ],
+      "node_body_sha256": "964c2b850b73345f00b1c29d0d8f9760637e181983012d64953572fa40fcd019",
+      "pdf_sha256": "0835551b52e02b2471022af3e3bf4c65ce39d0816a9fba6b0cc6c5569b5b792f"
+    },
+    {
+      "regulation_node_id": "a85a82a1-3d31-5a66-a6b9-499b466eba98",
+      "regulation_version_id": "baed2f1b-2de3-5162-82c4-d52cc29e3d5c",
+      "regulation_name": "인사규정시행세칙",
+      "version_label": "74차",
+      "amendment_date": "2025-11-10",
+      "general_effective_from": "2025-11-10",
+      "label": "제42조",
+      "title": "교육훈련 평정점수의 산정",
+      "source_pdf": "source/인사·복무·징계/인사규정시행세칙(2025년도 11월 10일 개정).pdf",
+      "pdf_pages": [
+        14
+      ],
+      "node_body_sha256": "5662a4a09bd5146e9ddb6b362fba64dac52a3a418dd797c65e4ff8a290a06411",
+      "pdf_sha256": "1ad0ac2f6c7ecbbc12e952fedb8d9d8e2ccc2cf089e6c36ecc33d9b2005618ff"
+    },
+    {
+      "regulation_node_id": "aa121a48-07b0-5f23-b15f-e655dc1202ed",
+      "regulation_version_id": "5565f28d-29da-5ebd-bb8a-b0dc705f26d3",
+      "regulation_name": "인재개발규정",
+      "version_label": "22차",
+      "amendment_date": "2024-12-26",
+      "general_effective_from": "2025-01-01",
+      "label": "G-02:리더역량",
+      "title": "일반직 2급(을) 리더역량",
+      "source_pdf": "source/기타/인재개발규정(2024년도 12월 개정).pdf",
+      "pdf_pages": [
+        20
+      ],
+      "node_body_sha256": "9eb0ce87231e90462c81753a27bcdaf45b0535d92c6c8230cffc28cacc6b1446",
+      "pdf_sha256": "0835551b52e02b2471022af3e3bf4c65ce39d0816a9fba6b0cc6c5569b5b792f"
+    },
+    {
+      "regulation_node_id": "aaccb179-d083-5e86-9bfe-5161dddd0340",
+      "regulation_version_id": "baed2f1b-2de3-5162-82c4-d52cc29e3d5c",
+      "regulation_name": "인사규정시행세칙",
+      "version_label": "74차",
+      "amendment_date": "2025-11-10",
+      "general_effective_from": "2025-11-10",
+      "label": "제29조의5",
+      "title": "근무성적평정표의 보관",
+      "source_pdf": "source/인사·복무·징계/인사규정시행세칙(2025년도 11월 10일 개정).pdf",
+      "pdf_pages": [
+        10
+      ],
+      "node_body_sha256": "350c9bee53067246cda13e411765defde7ae0b6e48c746e8bed312623e02f43b",
+      "pdf_sha256": "1ad0ac2f6c7ecbbc12e952fedb8d9d8e2ccc2cf089e6c36ecc33d9b2005618ff"
+    },
+    {
+      "regulation_node_id": "b235be36-28ea-52ee-8b7b-b969557db260",
+      "regulation_version_id": "baed2f1b-2de3-5162-82c4-d52cc29e3d5c",
+      "regulation_name": "인사규정시행세칙",
+      "version_label": "74차",
+      "amendment_date": "2025-11-10",
+      "general_effective_from": "2025-11-10",
+      "label": "제28조의2",
+      "title": "평정점수의 계산",
+      "source_pdf": "source/인사·복무·징계/인사규정시행세칙(2025년도 11월 10일 개정).pdf",
+      "pdf_pages": [
+        8
+      ],
+      "node_body_sha256": "370b8303dff33d557f1680cba35ae4e9f615719b869f4f500231e4e5d8f8e370",
+      "pdf_sha256": "1ad0ac2f6c7ecbbc12e952fedb8d9d8e2ccc2cf089e6c36ecc33d9b2005618ff"
+    },
+    {
+      "regulation_node_id": "cb821674-e14e-55e5-9b7d-46d87e608fcc",
+      "regulation_version_id": "5565f28d-29da-5ebd-bb8a-b0dc705f26d3",
+      "regulation_name": "인재개발규정",
+      "version_label": "22차",
+      "amendment_date": "2024-12-26",
+      "general_effective_from": "2025-01-01",
+      "label": "C-05",
+      "title": "주석 C-05 직무이해(Ⅱ)~(Ⅳ) 이수 내역의 평정 참고",
+      "source_pdf": "source/기타/인재개발규정(2024년도 12월 개정).pdf",
+      "pdf_pages": [
+        20
+      ],
+      "node_body_sha256": "610d6f11f1bf5a6b49b8568ff925411aca52db6649a2d53a2e3954b30b0b3954",
+      "pdf_sha256": "0835551b52e02b2471022af3e3bf4c65ce39d0816a9fba6b0cc6c5569b5b792f"
+    },
+    {
+      "regulation_node_id": "daafda13-3f81-5b84-9a84-ae570a3f3270",
+      "regulation_version_id": "baed2f1b-2de3-5162-82c4-d52cc29e3d5c",
+      "regulation_name": "인사규정시행세칙",
+      "version_label": "74차",
+      "amendment_date": "2025-11-10",
+      "general_effective_from": "2025-11-10",
+      "label": "별표 6",
+      "title": "[별표6] (제39조 관련)",
+      "source_pdf": "source/인사·복무·징계/인사규정시행세칙(2025년도 11월 10일 개정).pdf",
+      "pdf_pages": [
+        59
+      ],
+      "node_body_sha256": "056ce0137a8930fd27044633cab8937c4ce22658ca97ccb79f4ca612adb73b04",
+      "pdf_sha256": "1ad0ac2f6c7ecbbc12e952fedb8d9d8e2ccc2cf089e6c36ecc33d9b2005618ff"
+    },
+    {
+      "regulation_node_id": "dd95ce09-f007-5f64-8111-2b7ff56b57cd",
+      "regulation_version_id": "baed2f1b-2de3-5162-82c4-d52cc29e3d5c",
+      "regulation_name": "인사규정시행세칙",
+      "version_label": "74차",
+      "amendment_date": "2025-11-10",
+      "general_effective_from": "2025-11-10",
+      "label": "제39조",
+      "title": "경력평정점수 및 평정기간",
+      "source_pdf": "source/인사·복무·징계/인사규정시행세칙(2025년도 11월 10일 개정).pdf",
+      "pdf_pages": [
+        13
+      ],
+      "node_body_sha256": "468155e03975c78c760416b52aa58c0d9b5ff28d021089db1cb356c7219e2f16",
+      "pdf_sha256": "1ad0ac2f6c7ecbbc12e952fedb8d9d8e2ccc2cf089e6c36ecc33d9b2005618ff"
+    },
+    {
+      "regulation_node_id": "eab4efb8-0cf2-5cef-beeb-80bca91938b7",
+      "regulation_version_id": "baed2f1b-2de3-5162-82c4-d52cc29e3d5c",
+      "regulation_name": "인사규정시행세칙",
+      "version_label": "74차",
+      "amendment_date": "2025-11-10",
+      "general_effective_from": "2025-11-10",
+      "label": "제30조",
+      "title": "근무성적 평정표 등",
+      "source_pdf": "source/인사·복무·징계/인사규정시행세칙(2025년도 11월 10일 개정).pdf",
+      "pdf_pages": [
+        11,
+        12
+      ],
+      "node_body_sha256": "7a7ec5377cbb3b41d92a0a58ecd2e6c26e671ba692dc07baa3a2b967a3ccf472",
+      "pdf_sha256": "1ad0ac2f6c7ecbbc12e952fedb8d9d8e2ccc2cf089e6c36ecc33d9b2005618ff"
+    },
+    {
+      "regulation_node_id": "ecab1057-b772-5516-9f8d-d23eab2a498b",
+      "regulation_version_id": "5565f28d-29da-5ebd-bb8a-b0dc705f26d3",
+      "regulation_name": "인재개발규정",
+      "version_label": "22차",
+      "amendment_date": "2024-12-26",
+      "general_effective_from": "2025-01-01",
+      "label": "G-03:직무역량",
+      "title": "일반직 3급 직무역량",
+      "source_pdf": "source/기타/인재개발규정(2024년도 12월 개정).pdf",
+      "pdf_pages": [
+        20
+      ],
+      "node_body_sha256": "43f87911dd9bbcf8b38f5703231057c3b742bd64478442de42ed42af9d7df847",
+      "pdf_sha256": "0835551b52e02b2471022af3e3bf4c65ce39d0816a9fba6b0cc6c5569b5b792f"
+    },
+    {
+      "regulation_node_id": "f80ca70b-6800-59aa-8536-acd61cc23e8f",
+      "regulation_version_id": "29b9192e-3b2b-5f15-bb39-62a868b8bc3d",
+      "regulation_name": "인사규정",
+      "version_label": "64차",
+      "amendment_date": "2026-08-27",
+      "general_effective_from": "2026-08-27",
+      "label": "제23조",
+      "title": "승진소요최저연수",
+      "source_pdf": "source/인사·복무·징계/인사규정(2026년도 8월 27일 개정).pdf",
+      "pdf_pages": [
+        5
+      ],
+      "node_body_sha256": "6da17d97aa6f2ca8481499301b44ab1af5beeedfc280cdf5691ac711ee091d9f",
+      "pdf_sha256": "1b6ec41b26c11c3821f72c403f6e2878cb2e7afa967e2309cb47d3ab01c68643"
+    },
+    {
+      "regulation_node_id": "fb96135e-172c-579e-b717-2678fbd60f88",
+      "regulation_version_id": "baed2f1b-2de3-5162-82c4-d52cc29e3d5c",
+      "regulation_name": "인사규정시행세칙",
+      "version_label": "74차",
+      "amendment_date": "2025-11-10",
+      "general_effective_from": "2025-11-10",
+      "label": "제40조",
+      "title": "경력평정의 예외",
+      "source_pdf": "source/인사·복무·징계/인사규정시행세칙(2025년도 11월 10일 개정).pdf",
+      "pdf_pages": [
+        13,
+        14
+      ],
+      "node_body_sha256": "7fbe3560f777fcc56f0146d9ad10556ed579d6d736bc345db7d2bfd4f30116ce",
+      "pdf_sha256": "1ad0ac2f6c7ecbbc12e952fedb8d9d8e2ccc2cf089e6c36ecc33d9b2005618ff"
+    }
+  ],
+  "human_review_status": "needs_review",
+  "employee_outcomes_created": 0,
+  "external_comparison_sources_included": 0,
+  "actual_db_operations": 0,
+  "scope_note": "현재 일반직 행정·전산3~5급,2급(을)상급자 후보는참고. 기관 내부 인정기준·개인 이력은 미확인으로 보존.",
+  "files": {
+    "data/evaluation_item_definition.csv": "e322c78c5f90dcfa7b28c6bad62a1bec40f7384434cfda47bfa394f02e3bed39",
+    "data/evaluation_item_definition.json": "dc12770ab1fa5fd36b574e86a535b18fcb83a3318e334aa5c1b9cdaadb0f9a4b",
+    "data/evaluation_result_schema.csv": "37fbefb30e9991708ed4eadfec1ed66bfff882609fe190cb328d4c107ea65f78",
+    "data/evaluation_result_schema.json": "370f02f94adf600825bf419edc67775d08ce51dea532da67804b3f3a9ff557d4",
+    "data/evaluation_schema_source.csv": "f80a01fd0f9cbe47d531d0da765055d02f23370cb5c23813a998091a2e8f2cb6",
+    "data/evaluation_schema_source.json": "336431e00d14c337317cc7dc6e1d8172657d1461102eb5a9ca91d7c4407bf6bf"
+  },
+  "technical_validation": {
+    "local_checks": 22,
+    "checks_passed": 22,
+    "tests_run": 8,
+    "tests_passed": 8,
+    "scope": "로컬 파일·원문 연결 검사. 실제 DB·상담 시스템 미실행"
+  },
+  "design_doc_sha256": "8b77c91ad94c9b1677eb65d1ca0e3015df662222d65650b821b10e96b9e38fc2"
+}

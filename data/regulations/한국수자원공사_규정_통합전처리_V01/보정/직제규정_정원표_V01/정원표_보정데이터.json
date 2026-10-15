@@ -1,0 +1,327 @@
+{
+  "metadata": {
+    "title": "직제규정 별표2 정원표 이미지 전사 보정안",
+    "revision": "V01",
+    "source_file_name": "직제규정(2026년도 06월 18일 개정).pdf",
+    "source_storage_key": "source/직제/직제규정(2026년도 06월 18일 개정).pdf",
+    "source_sha256": "fd754780755edf791bf65f58076c896ebbbb999600d7acd48e8c7303df63262c",
+    "source_pdf_page": 28,
+    "regulation_version_id": "2483b6cc-8ae5-595a-9213-44fd885dda6b",
+    "regulation_file_id": "bf01d765-9b8b-563d-a378-6f42aabc01a6",
+    "amendment_date": "2026-06-18",
+    "general_effective_from": "2026-06-19",
+    "method": "PDF28쪽 전체 이미지에서 10개 행의 분류·숫자를 전사하고 소계·합계 대조",
+    "raw_pages_modified": false,
+    "main_data_tables_modified": false,
+    "db_loaded": false,
+    "search_activated": false,
+    "review_status": "quota_and_actual_headcount_distinction_confirmed",
+    "human_official_interpretation_completed": false,
+    "integration_note": "행 후보는 기존 schema.json의 필드에 맞춘 별도 추가 자료. 통합 담당자가 본 데이터와 병합할 때 ID·표시순서·원문 위치를 다시 확인한다."
+  },
+  "quota_rows": [
+    {
+      "row_id": "executive",
+      "source_row_order": 1,
+      "source_family_label": "임원",
+      "source_grade_label": null,
+      "quota_value": 7,
+      "row_kind": "detail",
+      "data_kind": "quota_as_stated_in_regulation",
+      "actual_employee_count": null,
+      "separate_grade_values": null,
+      "review_status": "source_transcribed_by_codex"
+    },
+    {
+      "row_id": "general_1",
+      "source_row_order": 2,
+      "source_family_label": "일반직",
+      "source_grade_label": "1급",
+      "quota_value": 61,
+      "row_kind": "detail",
+      "data_kind": "quota_as_stated_in_regulation",
+      "actual_employee_count": null,
+      "separate_grade_values": null,
+      "review_status": "source_transcribed_by_codex"
+    },
+    {
+      "row_id": "general_2",
+      "source_row_order": 3,
+      "source_family_label": "일반직",
+      "source_grade_label": "2급",
+      "quota_value": 396,
+      "row_kind": "detail",
+      "data_kind": "quota_as_stated_in_regulation",
+      "actual_employee_count": null,
+      "separate_grade_values": null,
+      "review_status": "source_transcribed_by_codex"
+    },
+    {
+      "row_id": "general_3_5",
+      "source_row_order": 4,
+      "source_family_label": "일반직",
+      "source_grade_label": "3～5급",
+      "quota_value": 3728,
+      "row_kind": "detail",
+      "data_kind": "quota_as_stated_in_regulation",
+      "actual_employee_count": null,
+      "separate_grade_values": null,
+      "review_status": "source_transcribed_by_codex"
+    },
+    {
+      "row_id": "general_6_8",
+      "source_row_order": 5,
+      "source_family_label": "일반직",
+      "source_grade_label": "6～8급",
+      "quota_value": 38,
+      "row_kind": "detail",
+      "data_kind": "quota_as_stated_in_regulation",
+      "actual_employee_count": null,
+      "separate_grade_values": null,
+      "review_status": "source_transcribed_by_codex"
+    },
+    {
+      "row_id": "general_subtotal",
+      "source_row_order": 6,
+      "source_family_label": "일반직",
+      "source_grade_label": "소계",
+      "quota_value": 4223,
+      "row_kind": "subtotal",
+      "data_kind": "quota_as_stated_in_regulation",
+      "actual_employee_count": null,
+      "separate_grade_values": null,
+      "review_status": "source_transcribed_by_codex"
+    },
+    {
+      "row_id": "professional",
+      "source_row_order": 7,
+      "source_family_label": "전문직",
+      "source_grade_label": null,
+      "quota_value": 234,
+      "row_kind": "detail",
+      "data_kind": "quota_as_stated_in_regulation",
+      "actual_employee_count": null,
+      "separate_grade_values": null,
+      "review_status": "source_transcribed_by_codex"
+    },
+    {
+      "row_id": "operational",
+      "source_row_order": 8,
+      "source_family_label": "운영직",
+      "source_grade_label": null,
+      "quota_value": 932,
+      "row_kind": "detail",
+      "data_kind": "quota_as_stated_in_regulation",
+      "actual_employee_count": null,
+      "separate_grade_values": null,
+      "review_status": "source_transcribed_by_codex"
+    },
+    {
+      "row_id": "specific",
+      "source_row_order": 9,
+      "source_family_label": "특정직",
+      "source_grade_label": null,
+      "quota_value": 78,
+      "row_kind": "detail",
+      "data_kind": "quota_as_stated_in_regulation",
+      "actual_employee_count": null,
+      "separate_grade_values": null,
+      "review_status": "source_transcribed_by_codex"
+    },
+    {
+      "row_id": "overall_total",
+      "source_row_order": 10,
+      "source_family_label": "합계",
+      "source_grade_label": null,
+      "quota_value": 5474,
+      "row_kind": "total",
+      "data_kind": "quota_as_stated_in_regulation",
+      "actual_employee_count": null,
+      "separate_grade_values": null,
+      "review_status": "source_transcribed_by_codex"
+    }
+  ],
+  "interpretation_guidance": {
+    "handling_review_status": "quota_and_actual_headcount_distinction_confirmed",
+    "accepted_handling": "정원표에 따른 정원과 실제 재직 인원인 현원을 구분하여 안내.",
+    "user_review": {
+      "reviewed_at": "2026-10-13",
+      "answer": "정원표에 따른 정원과 실제 인원(현원)을 구분해서 안내하는 권장안을 사용하는 것에 동의.",
+      "confirmed_scope": "정원과 현원의 구분",
+      "numeric_transcription_confirmed_by_user": false,
+      "institutional_interpretation_confirmed_by_user": false
+    },
+    "source_structure_handling": "3～5급·6～8급은 원문의 묶음 직급으로 보존. 개별 직급 수치는 이 표에 제시되어 있지 않아 임의 분배하지 않음.",
+    "operational_question_handling": "실제 직급별 운영 인원과 정원 초과 여부는 별도 인사자료와 제7조 등 운영 기준을 확인한 뒤 판단.",
+    "actual_staff_count_source": null,
+    "automated_decision_enabled": false
+  },
+  "related_provisions": [
+    {
+      "regulation_node_id": "6ac269d3-2354-5c61-9c34-43ee76f740dc",
+      "label": "제7조",
+      "body_text": "제7조(정원) ① 공사의 정원은 별표 2와 같으며, 정원 범위 내에서 1년 이상의 교육파견, 휴직, 대\n외기관파견 등을 운용할 수 있다. 다만, 정부와 협의하여 반영된 수탁사업종사직원, 임금피크제\n직원의 정원은 직제규정 시행세칙으로 정한다. <개정 2017.06.27, 2019.06.25, 2023.12.04>\n② 직급별 정원 범위에서 복수보임 직위에 필요한 2급 정원을 갑과 을로 구분 운영할 수 있으며,\n관리체계는 시행세칙으로 정한다.\n③ 제1항에도 불구하고 필요한 경우 총 정원 범위에서 3~5급·전문직간, 6~8급·운영직·특정직간\n정원을 통합하여 운영할 수 있다. < 신설 2012.06.26 >",
+      "source_locator": {
+        "coordinate_system": "PDF point; 원점=페이지 왼쪽 위",
+        "pdf_pages": [
+          2
+        ],
+        "lines": [
+          {
+            "line_id": "p002l0016",
+            "page": 2,
+            "bbox": [
+              70.92,
+              423.251,
+              518.619,
+              433.211
+            ]
+          },
+          {
+            "line_id": "p002l0017",
+            "page": 2,
+            "bbox": [
+              85.08,
+              439.331,
+              513.874,
+              449.291
+            ]
+          },
+          {
+            "line_id": "p002l0018",
+            "page": 2,
+            "bbox": [
+              85.08,
+              454.404,
+              502.885,
+              465.251
+            ]
+          },
+          {
+            "line_id": "p002l0019",
+            "page": 2,
+            "bbox": [
+              85.08,
+              471.491,
+              524.347,
+              481.451
+            ]
+          },
+          {
+            "line_id": "p002l0020",
+            "page": 2,
+            "bbox": [
+              85.08,
+              487.45,
+              234.286,
+              497.411
+            ]
+          },
+          {
+            "line_id": "p002l0021",
+            "page": 2,
+            "bbox": [
+              85.08,
+              503.651,
+              511.88,
+              513.611
+            ]
+          },
+          {
+            "line_id": "p002l0022",
+            "page": 2,
+            "bbox": [
+              85.08,
+              518.844,
+              334.602,
+              529.691
+            ]
+          }
+        ],
+        "section_kind": "body"
+      },
+      "text_sha256": "d60afe7c0156e48148e49a5d4abf2b805d348583d5750bda9542a0e2e5a41a39",
+      "relation": "별표2의 관련 본문. 정원과 통합 운영에 관한 제7조 원문 보존."
+    }
+  ],
+  "rag_row_candidates": {
+    "regulation_node": [
+      {
+        "regulation_node_id": "9957039a-2187-5543-bcb5-8b51731aa04c",
+        "regulation_version_id": "2483b6cc-8ae5-595a-9213-44fd885dda6b",
+        "regulation_file_id": "bf01d765-9b8b-563d-a378-6f42aabc01a6",
+        "parent_node_id": "466ee4c6-62f7-5819-9f66-652593a107e7",
+        "node_type": "annex",
+        "label": "별표2",
+        "title": "정원표",
+        "path": "직제규정 > 별표2 > 정원표",
+        "display_order": 146,
+        "body_text": "【별표 2】 (제7조제1항 관련)\n정원표\n구분 | 정원\n임원 | 7\n일반직 1급 | 61\n일반직 2급 | 396\n일반직 3～5급 | 3,728\n일반직 6～8급 | 38\n일반직 소계 | 4,223\n전문직 | 234\n운영직 | 932\n특정직 | 78\n합계 | 5,474",
+        "source_locator": {
+          "coordinate_system": "이미지 전사: PDF 쪽수로 연결, 문자 좌표 없음",
+          "pdf_pages": [
+            28
+          ],
+          "printed_pages": [
+            28
+          ],
+          "lines": [],
+          "section_kind": "annex",
+          "transcription_method": "manual_pdf_image_reading",
+          "source_image_sha256": "21c558e9db10586f932148e412138a890825ba23dc38cc0b776f1453cc50ced5"
+        },
+        "effective_from_override": null,
+        "effective_to_override": null,
+        "extraction_status": "manual_image_transcribed",
+        "review_note": "PDF28쪽 이미지 전사 보정 후보. 원문·자동 추출은 보존. 개인별 적용·기관 공식 해석 확인 전."
+      }
+    ],
+    "rag_chunk": [
+      {
+        "rag_chunk_id": "1b35224e-b458-52f1-bd5f-2d433112fc51",
+        "regulation_version_id": "2483b6cc-8ae5-595a-9213-44fd885dda6b",
+        "chunk_text": "직제규정 > 별표2 > 정원표\n【별표 2】 (제7조제1항 관련)\n정원표\n구분 | 정원\n임원 | 7\n일반직 1급 | 61\n일반직 2급 | 396\n일반직 3～5급 | 3,728\n일반직 6～8급 | 38\n일반직 소계 | 4,223\n전문직 | 234\n운영직 | 932\n특정직 | 78\n합계 | 5,474",
+        "chunk_type": "annex",
+        "context_path": "직제규정 > 별표2 > 정원표",
+        "content_hash": "76a741178e3134ee549b5f81277660104a43a59a38a3e26a6b2602b0fa634135",
+        "chunking_version": "manual-quota-v1",
+        "index_revision": "manual-quota-review-v1",
+        "embedding_model": null,
+        "search_status": "needs_review",
+        "created_at": "2026-10-13T16:05:20+09:00",
+        "token_count": null
+      }
+    ],
+    "rag_chunk_source": [
+      {
+        "rag_chunk_source_id": "fc8ed1aa-4dd0-53fd-8f84-b3681711050b",
+        "rag_chunk_id": "1b35224e-b458-52f1-bd5f-2d433112fc51",
+        "regulation_node_id": "9957039a-2187-5543-bcb5-8b51731aa04c",
+        "source_order": 1,
+        "source_role": "primary",
+        "source_span": {
+          "coordinate_system": "이미지 전사: PDF 쪽수로 연결, 문자 좌표 없음",
+          "pdf_pages": [
+            28
+          ],
+          "printed_pages": [
+            28
+          ],
+          "lines": [],
+          "section_kind": "annex",
+          "transcription_method": "manual_pdf_image_reading",
+          "source_image_sha256": "21c558e9db10586f932148e412138a890825ba23dc38cc0b776f1453cc50ced5"
+        }
+      }
+    ]
+  },
+  "source_note": "원래 raw/27_pages.json의 28쪽에는 쪽수만 추출돼 있음. 이 보정안은 원문을 수정하거나 원래 추출문을 덮어쓰지 않고 별도 보존한다.",
+  "delivery_integration": {
+    "included_in_unified_handoff": true,
+    "data_rows_applied": true,
+    "current_integration_report": "report/integration_ledger.json",
+    "db_loaded": false,
+    "search_activated": false,
+    "original_generation_metadata_is_historical": true
+  }
+}

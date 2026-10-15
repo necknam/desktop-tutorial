@@ -1,0 +1,305 @@
+{
+  "metadata": {
+    "title": "직제규정 별표4 소관부서명 교차 대조 후보",
+    "revision": "V01",
+    "original_source": {
+      "regulation_file_id": "bf01d765-9b8b-563d-a378-6f42aabc01a6",
+      "regulation_version_id": "2483b6cc-8ae5-595a-9213-44fd885dda6b",
+      "file_name": "직제규정(2026년도 06월 18일 개정).pdf",
+      "storage_key": "source/직제/직제규정(2026년도 06월 18일 개정).pdf",
+      "file_hash": "fd754780755edf791bf65f58076c896ebbbb999600d7acd48e8c7303df63262c",
+      "amendment_date": "2026-06-18",
+      "effective_from": "2026-06-19"
+    },
+    "supporting_source": {
+      "regulation_file_id": "57889d2e-a721-562c-8fcc-516bf9f58bf5",
+      "regulation_version_id": "38964496-3d4e-5f82-8306-88a31e3d85e0",
+      "file_name": "직제규정 시행세칙(2026년도 07월 16일 개정).pdf",
+      "storage_key": "source/직제/직제규정 시행세칙(2026년도 07월 16일 개정).pdf",
+      "file_hash": "44e655356bcb3536b989fb922c336328415736590030d946104f68518dabeb9e",
+      "amendment_date": "2026-07-16",
+      "effective_from": "2026-07-16"
+    },
+    "original_layout_review": {
+      "status": "source_overlap_confirmed_by_user",
+      "pdf_pages": [
+        34,
+        35
+      ],
+      "observation": "소관부서 칸 확대 이미지에서도 일부 부서명의 글자가 서로 겹쳐 보임. 불확실한 문자열과 업무별 부서 연결을 확정하지 않음.",
+      "crop_bbox_pdf_points": [
+        427,
+        90,
+        524,
+        758
+      ],
+      "render_resolution_dpi": 230,
+      "source_evidence": [
+        {
+          "pdf_page": 34,
+          "image_path": "report/source_images/B27-page-34-department-detail.png",
+          "image_sha256": "90a22024f5c8e46bfb79795fa57c28c4e457aca7261539533110aea2bef0e042"
+        },
+        {
+          "pdf_page": 35,
+          "image_path": "report/source_images/B27-page-35-department-detail.png",
+          "image_sha256": "4c838832ff69ccf065a2520c1581721da269dba31eafde577234fc29b03d78a6"
+        }
+      ],
+      "user_review": {
+        "reviewed_at": "2026-10-13",
+        "confirmed_observation": "원본에서도겹쳐 보여 읽기가 다소 어려움",
+        "user_suggestion": "기구표·직제규정 시행세칙의 조직도를 교차 대조하고 필요한 경우 사용자 확인 후 입력"
+      },
+      "correction_path": "보정/직제규정_부서명_V01/부서명_대조후보.json",
+      "name_decisions": {
+        "regional_water_support": {
+          "status": "user_confirmed_name",
+          "reviewed_at": "2026-10-13",
+          "confirmed_name": "유역수도지원센터(처)",
+          "answer": "유역수도지원센터(처)로 확인",
+          "confirmed_original_location": {
+            "pdf_page": 34,
+            "organization": "한강유역본부",
+            "column": "소관부서"
+          },
+          "review_scope": "명칭 확인. 다른 반복 위치·개별 번호 업무의 부서 대응 관계까지 확인한 것은 아님."
+        },
+        "jeju_cooperation": {
+          "status": "user_confirmed_name",
+          "reviewed_at": "2026-10-13",
+          "confirmed_name": "제주지역협력본부",
+          "answer": "세 명칭 모두 확인",
+          "confirmed_original_location": {
+            "pdf_page": 35,
+            "organization": "영·섬유역본부",
+            "column": "소관부서"
+          },
+          "review_scope": "소관부서 명칭 확인. 개별 번호 업무와 해당 부서의 대응 관계를 자동 생성하는 확인은 아님."
+        },
+        "gyeongbuk_cooperation": {
+          "status": "user_confirmed_name",
+          "reviewed_at": "2026-10-13",
+          "confirmed_name": "경북지역협력단",
+          "answer": "세 명칭 모두 확인",
+          "confirmed_original_location": {
+            "pdf_page": 35,
+            "organization": "낙동강유역본부",
+            "column": "소관부서"
+          },
+          "review_scope": "소관부서 명칭 확인. 개별 번호 업무와 해당 부서의 대응 관계를 자동 생성하는 확인은 아님."
+        },
+        "busan_ulsan_gyeongnam_cooperation": {
+          "status": "user_confirmed_name",
+          "reviewed_at": "2026-10-13",
+          "confirmed_name": "부산울산경남지역협력단",
+          "answer": "세 명칭 모두 확인",
+          "confirmed_original_location": {
+            "pdf_page": 35,
+            "organization": "낙동강유역본부",
+            "column": "소관부서"
+          },
+          "review_scope": "소관부서 명칭 확인. 개별 번호 업무와 해당 부서의 대응 관계를 자동 생성하는 확인은 아님."
+        }
+      },
+      "name_review_status": "four_names_confirmed_by_user"
+    },
+    "review_note": "사용자는 원본에서도 겹쳐 보여 읽기 어렵다고 확인하고 기구표·시행세칙 대조와 직접 확인 후 입력을 제안함.",
+    "version_note": "6월 직제규정과 7월 시행세칙의 개정본을 구분. 시행세칙의 부서명은 판독 보조 근거이며 6월 규정의 조직 변경·적용일을 자동 갱신하지 않음.",
+    "main_data_tables_modified": false,
+    "db_loaded": false,
+    "search_activated": false
+  },
+  "department_name_candidates": [
+    {
+      "candidate_id": "regional_water_support",
+      "candidate_name": "유역수도지원센터(처)",
+      "original_pdf_pages": [
+        34,
+        35
+      ],
+      "original_location": "별표4 분장업무표 오른쪽 소관부서 칸",
+      "original_text_extraction": "부서명 문자 없음; 이미지의 겹친 글자 확인",
+      "review_status": "user_confirmed_name",
+      "user_review": {
+        "status": "user_confirmed_name",
+        "reviewed_at": "2026-10-13",
+        "confirmed_name": "유역수도지원센터(처)",
+        "answer": "유역수도지원센터(처)로 확인",
+        "confirmed_original_location": {
+          "pdf_page": 34,
+          "organization": "한강유역본부",
+          "column": "소관부서"
+        },
+        "review_scope": "명칭 확인. 다른 반복 위치·개별 번호 업무의 부서 대응 관계까지 확인한 것은 아님."
+      },
+      "supporting_source_evidence": [
+        {
+          "pdf_page": 42,
+          "line_id": "p042l0004",
+          "bbox": [
+            520.32,
+            424.428,
+            1045.32,
+            436.428
+          ],
+          "source_text": "경영처 사업처 유역관리처 유역수도지원센터(처) 유역협력단",
+          "text_sha256": "57940e09bde743540d93e2ea044ec97b23f7644dd682d6ca28860b6ec2f5afa3"
+        },
+        {
+          "pdf_page": 43,
+          "line_id": "p043l0004",
+          "bbox": [
+            520.2,
+            433.548,
+            1045.56,
+            445.548
+          ],
+          "source_text": "경영처 사업처 유역관리처 유역수도지원센터(처) 유역협력단",
+          "text_sha256": "57940e09bde743540d93e2ea044ec97b23f7644dd682d6ca28860b6ec2f5afa3"
+        },
+        {
+          "pdf_page": 44,
+          "line_id": "p044l0004",
+          "bbox": [
+            520.56,
+            428.748,
+            1177.44,
+            440.748
+          ],
+          "source_text": "경영처 사업처 유역관리처 유역수도지원센터(처) 유역협력단 제주지역협력본부",
+          "text_sha256": "340c60d16f5709feab9c1515bfee9b2ce13f91796cbcc454ecf8b0919e88c60a"
+        },
+        {
+          "pdf_page": 45,
+          "line_id": "p045l0004",
+          "bbox": [
+            520.08,
+            409.548,
+            1188.24,
+            421.548
+          ],
+          "source_text": "경영처 사업처 유역관리처 유역수도지원센터(처) 경북지역협력단 부산울산경남지역협력단",
+          "text_sha256": "85ea9c86fb708e27d6cd40e5b57769526765ae33706b0bb2c5a0a3a3513a072a"
+        }
+      ],
+      "normalized_name_applied_to_main_data": false,
+      "individual_duty_department_mapping": null
+    },
+    {
+      "candidate_id": "jeju_cooperation",
+      "candidate_name": "제주지역협력본부",
+      "original_pdf_pages": [
+        35
+      ],
+      "original_location": "별표4 분장업무표 오른쪽 소관부서 칸",
+      "original_text_extraction": "부서명 문자 없음; 이미지의 겹친 글자 확인",
+      "review_status": "user_confirmed_name",
+      "user_review": {
+        "status": "user_confirmed_name",
+        "reviewed_at": "2026-10-13",
+        "confirmed_name": "제주지역협력본부",
+        "answer": "세 명칭 모두 확인",
+        "confirmed_original_location": {
+          "pdf_page": 35,
+          "organization": "영·섬유역본부",
+          "column": "소관부서"
+        },
+        "review_scope": "소관부서 명칭 확인. 개별 번호 업무와 해당 부서의 대응 관계를 자동 생성하는 확인은 아님."
+      },
+      "supporting_source_evidence": [
+        {
+          "pdf_page": 44,
+          "line_id": "p044l0004",
+          "bbox": [
+            520.56,
+            428.748,
+            1177.44,
+            440.748
+          ],
+          "source_text": "경영처 사업처 유역관리처 유역수도지원센터(처) 유역협력단 제주지역협력본부",
+          "text_sha256": "340c60d16f5709feab9c1515bfee9b2ce13f91796cbcc454ecf8b0919e88c60a"
+        }
+      ],
+      "normalized_name_applied_to_main_data": false,
+      "individual_duty_department_mapping": null
+    },
+    {
+      "candidate_id": "gyeongbuk_cooperation",
+      "candidate_name": "경북지역협력단",
+      "original_pdf_pages": [
+        35
+      ],
+      "original_location": "별표4 분장업무표 오른쪽 소관부서 칸",
+      "original_text_extraction": "부서명 문자 없음; 이미지의 겹친 글자 확인",
+      "review_status": "user_confirmed_name",
+      "user_review": {
+        "status": "user_confirmed_name",
+        "reviewed_at": "2026-10-13",
+        "confirmed_name": "경북지역협력단",
+        "answer": "세 명칭 모두 확인",
+        "confirmed_original_location": {
+          "pdf_page": 35,
+          "organization": "낙동강유역본부",
+          "column": "소관부서"
+        },
+        "review_scope": "소관부서 명칭 확인. 개별 번호 업무와 해당 부서의 대응 관계를 자동 생성하는 확인은 아님."
+      },
+      "supporting_source_evidence": [
+        {
+          "pdf_page": 45,
+          "line_id": "p045l0004",
+          "bbox": [
+            520.08,
+            409.548,
+            1188.24,
+            421.548
+          ],
+          "source_text": "경영처 사업처 유역관리처 유역수도지원센터(처) 경북지역협력단 부산울산경남지역협력단",
+          "text_sha256": "85ea9c86fb708e27d6cd40e5b57769526765ae33706b0bb2c5a0a3a3513a072a"
+        }
+      ],
+      "normalized_name_applied_to_main_data": false,
+      "individual_duty_department_mapping": null
+    },
+    {
+      "candidate_id": "busan_ulsan_gyeongnam_cooperation",
+      "candidate_name": "부산울산경남지역협력단",
+      "original_pdf_pages": [
+        35
+      ],
+      "original_location": "별표4 분장업무표 오른쪽 소관부서 칸",
+      "original_text_extraction": "부서명 문자 없음; 이미지의 겹친 글자 확인",
+      "review_status": "user_confirmed_name",
+      "user_review": {
+        "status": "user_confirmed_name",
+        "reviewed_at": "2026-10-13",
+        "confirmed_name": "부산울산경남지역협력단",
+        "answer": "세 명칭 모두 확인",
+        "confirmed_original_location": {
+          "pdf_page": 35,
+          "organization": "낙동강유역본부",
+          "column": "소관부서"
+        },
+        "review_scope": "소관부서 명칭 확인. 개별 번호 업무와 해당 부서의 대응 관계를 자동 생성하는 확인은 아님."
+      },
+      "supporting_source_evidence": [
+        {
+          "pdf_page": 45,
+          "line_id": "p045l0004",
+          "bbox": [
+            520.08,
+            409.548,
+            1188.24,
+            421.548
+          ],
+          "source_text": "경영처 사업처 유역관리처 유역수도지원센터(처) 경북지역협력단 부산울산경남지역협력단",
+          "text_sha256": "85ea9c86fb708e27d6cd40e5b57769526765ae33706b0bb2c5a0a3a3513a072a"
+        }
+      ],
+      "normalized_name_applied_to_main_data": false,
+      "individual_duty_department_mapping": null
+    }
+  ],
+  "handling": "확인된 이름만 보정 후보로 기록. 원문 이미지와 판독 보조 원문을 보존. 개별 분장업무와 특정 부서의 대응 관계는 별도 표 행 검토 전 생성하지 않음."
+}

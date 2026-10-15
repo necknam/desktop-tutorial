@@ -1,0 +1,4539 @@
+{
+  "metadata": {
+    "title": "직제규정 기구표·분장업무 이미지 전사",
+    "revision": "V01",
+    "source_file_name": "직제규정(2026년도 06월 18일 개정).pdf",
+    "source_storage_key": "source/직제/직제규정(2026년도 06월 18일 개정).pdf",
+    "source_sha256": "fd754780755edf791bf65f58076c896ebbbb999600d7acd48e8c7303df63262c",
+    "regulation_file_id": "bf01d765-9b8b-563d-a378-6f42aabc01a6",
+    "regulation_version_id": "2483b6cc-8ae5-595a-9213-44fd885dda6b",
+    "source_pdf_pages": [
+      27,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36
+    ],
+    "reviewer": "Codex",
+    "reviewed_at": "2026-10-13",
+    "method": "전체 페이지·확대 이미지 대조. 줄바꿈과 자간 공백 정리. 기구 표시 명칭·분장업무 번호·소관부서·주석 보존.",
+    "main_data_tables_modified": false,
+    "db_loaded": false,
+    "search_activated": false,
+    "human_official_interpretation_completed": false
+  },
+  "diagram": {
+    "source_annex_label": "별표1",
+    "pdf_page": 27,
+    "boxes": [
+      {
+        "occurrence_id": "box-001",
+        "source_area": "상단 표시",
+        "source_display_name": "이사회",
+        "name": "이사회",
+        "semantic_parent_id": null,
+        "pdf_page": 27
+      },
+      {
+        "occurrence_id": "box-002",
+        "source_area": "상단 표시",
+        "source_display_name": "사장",
+        "name": "사장",
+        "semantic_parent_id": null,
+        "pdf_page": 27
+      },
+      {
+        "occurrence_id": "box-003",
+        "source_area": "상단 표시",
+        "source_display_name": "상임감사위원",
+        "name": "상임감사위원",
+        "semantic_parent_id": null,
+        "pdf_page": 27
+      },
+      {
+        "occurrence_id": "box-004",
+        "source_area": "상단 표시",
+        "source_display_name": "부사장*",
+        "name": "부사장",
+        "semantic_parent_id": null,
+        "pdf_page": 27
+      },
+      {
+        "occurrence_id": "box-005",
+        "source_area": "사장 부근",
+        "source_display_name": "비서실",
+        "name": "비서실",
+        "semantic_parent_id": null,
+        "pdf_page": 27
+      },
+      {
+        "occurrence_id": "box-006",
+        "source_area": "사장 부근",
+        "source_display_name": "홍보실",
+        "name": "홍보실",
+        "semantic_parent_id": null,
+        "pdf_page": 27
+      },
+      {
+        "occurrence_id": "box-007",
+        "source_area": "상임감사위원 부근",
+        "source_display_name": "감사실",
+        "name": "감사실",
+        "semantic_parent_id": null,
+        "pdf_page": 27
+      },
+      {
+        "occurrence_id": "box-008",
+        "source_area": "안전본부",
+        "source_display_name": "안전본부",
+        "name": "안전본부",
+        "semantic_parent_id": null,
+        "pdf_page": 27
+      },
+      {
+        "occurrence_id": "box-009",
+        "source_area": "안전본부",
+        "source_display_name": "건설안전처",
+        "name": "건설안전처",
+        "semantic_parent_id": null,
+        "pdf_page": 27
+      },
+      {
+        "occurrence_id": "box-010",
+        "source_area": "기획부문",
+        "source_display_name": "기획부문",
+        "name": "기획부문",
+        "semantic_parent_id": null,
+        "pdf_page": 27
+      },
+      {
+        "occurrence_id": "box-011",
+        "source_area": "기획부문",
+        "source_display_name": "기획조정실",
+        "name": "기획조정실",
+        "semantic_parent_id": null,
+        "pdf_page": 27
+      },
+      {
+        "occurrence_id": "box-012",
+        "source_area": "기획부문",
+        "source_display_name": "신성장전략단",
+        "name": "신성장전략단",
+        "semantic_parent_id": null,
+        "pdf_page": 27
+      },
+      {
+        "occurrence_id": "box-013",
+        "source_area": "기획부문",
+        "source_display_name": "경영혁신실",
+        "name": "경영혁신실",
+        "semantic_parent_id": null,
+        "pdf_page": 27
+      },
+      {
+        "occurrence_id": "box-014",
+        "source_area": "기획부문",
+        "source_display_name": "법무실",
+        "name": "법무실",
+        "semantic_parent_id": null,
+        "pdf_page": 27
+      },
+      {
+        "occurrence_id": "box-015",
+        "source_area": "경영부문",
+        "source_display_name": "경영부문",
+        "name": "경영부문",
+        "semantic_parent_id": null,
+        "pdf_page": 27
+      },
+      {
+        "occurrence_id": "box-016",
+        "source_area": "경영부문",
+        "source_display_name": "인재경영실",
+        "name": "인재경영실",
+        "semantic_parent_id": null,
+        "pdf_page": 27
+      },
+      {
+        "occurrence_id": "box-017",
+        "source_area": "경영부문",
+        "source_display_name": "노사협력처",
+        "name": "노사협력처",
+        "semantic_parent_id": null,
+        "pdf_page": 27
+      },
+      {
+        "occurrence_id": "box-018",
+        "source_area": "경영부문",
+        "source_display_name": "재무관리처",
+        "name": "재무관리처",
+        "semantic_parent_id": null,
+        "pdf_page": 27
+      },
+      {
+        "occurrence_id": "box-019",
+        "source_area": "경영부문",
+        "source_display_name": "정보보안처",
+        "name": "정보보안처",
+        "semantic_parent_id": null,
+        "pdf_page": 27
+      },
+      {
+        "occurrence_id": "box-020",
+        "source_area": "경영부문",
+        "source_display_name": "비상계획처",
+        "name": "비상계획처",
+        "semantic_parent_id": null,
+        "pdf_page": 27
+      },
+      {
+        "occurrence_id": "box-021",
+        "source_area": "AI본부",
+        "source_display_name": "AI본부",
+        "name": "AI본부",
+        "semantic_parent_id": null,
+        "pdf_page": 27
+      },
+      {
+        "occurrence_id": "box-022",
+        "source_area": "AI본부",
+        "source_display_name": "AI혁신처",
+        "name": "AI혁신처",
+        "semantic_parent_id": null,
+        "pdf_page": 27
+      },
+      {
+        "occurrence_id": "box-023",
+        "source_area": "AI본부",
+        "source_display_name": "디지털관리처",
+        "name": "디지털관리처",
+        "semantic_parent_id": null,
+        "pdf_page": 27
+      },
+      {
+        "occurrence_id": "box-024",
+        "source_area": "AI본부",
+        "source_display_name": "AI데이터센터",
+        "name": "AI데이터센터",
+        "semantic_parent_id": null,
+        "pdf_page": 27
+      },
+      {
+        "occurrence_id": "box-025",
+        "source_area": "수자원환경부문",
+        "source_display_name": "수자원환경부문",
+        "name": "수자원환경부문",
+        "semantic_parent_id": null,
+        "pdf_page": 27
+      },
+      {
+        "occurrence_id": "box-026",
+        "source_area": "수자원환경부문",
+        "source_display_name": "수자원기획처",
+        "name": "수자원기획처",
+        "semantic_parent_id": null,
+        "pdf_page": 27
+      },
+      {
+        "occurrence_id": "box-027",
+        "source_area": "수자원환경부문",
+        "source_display_name": "수자원개발처",
+        "name": "수자원개발처",
+        "semantic_parent_id": null,
+        "pdf_page": 27
+      },
+      {
+        "occurrence_id": "box-028",
+        "source_area": "수자원환경부문",
+        "source_display_name": "수자원시설처",
+        "name": "수자원시설처",
+        "semantic_parent_id": null,
+        "pdf_page": 27
+      },
+      {
+        "occurrence_id": "box-029",
+        "source_area": "수자원환경부문",
+        "source_display_name": "수자원운영처",
+        "name": "수자원운영처",
+        "semantic_parent_id": null,
+        "pdf_page": 27
+      },
+      {
+        "occurrence_id": "box-030",
+        "source_area": "수자원환경부문",
+        "source_display_name": "수자원정책지원단",
+        "name": "수자원정책지원단",
+        "semantic_parent_id": null,
+        "pdf_page": 27
+      },
+      {
+        "occurrence_id": "box-031",
+        "source_area": "환경본부",
+        "source_display_name": "환경본부",
+        "name": "환경본부",
+        "semantic_parent_id": null,
+        "pdf_page": 27
+      },
+      {
+        "occurrence_id": "box-032",
+        "source_area": "환경본부",
+        "source_display_name": "물환경계획처",
+        "name": "물환경계획처",
+        "semantic_parent_id": null,
+        "pdf_page": 27
+      },
+      {
+        "occurrence_id": "box-033",
+        "source_area": "환경본부",
+        "source_display_name": "물환경관리처",
+        "name": "물환경관리처",
+        "semantic_parent_id": null,
+        "pdf_page": 27
+      },
+      {
+        "occurrence_id": "box-034",
+        "source_area": "재생에너지본부",
+        "source_display_name": "재생에너지본부",
+        "name": "재생에너지본부",
+        "semantic_parent_id": null,
+        "pdf_page": 27
+      },
+      {
+        "occurrence_id": "box-035",
+        "source_area": "재생에너지본부",
+        "source_display_name": "에너지기획처",
+        "name": "에너지기획처",
+        "semantic_parent_id": null,
+        "pdf_page": 27
+      },
+      {
+        "occurrence_id": "box-036",
+        "source_area": "재생에너지본부",
+        "source_display_name": "에너지사업처",
+        "name": "에너지사업처",
+        "semantic_parent_id": null,
+        "pdf_page": 27
+      },
+      {
+        "occurrence_id": "box-037",
+        "source_area": "수도부문",
+        "source_display_name": "수도부문",
+        "name": "수도부문",
+        "semantic_parent_id": null,
+        "pdf_page": 27
+      },
+      {
+        "occurrence_id": "box-038",
+        "source_area": "수도부문",
+        "source_display_name": "수도기획처",
+        "name": "수도기획처",
+        "semantic_parent_id": null,
+        "pdf_page": 27
+      },
+      {
+        "occurrence_id": "box-039",
+        "source_area": "수도부문",
+        "source_display_name": "수도개발처",
+        "name": "수도개발처",
+        "semantic_parent_id": null,
+        "pdf_page": 27
+      },
+      {
+        "occurrence_id": "box-040",
+        "source_area": "수도부문",
+        "source_display_name": "수도관리처",
+        "name": "수도관리처",
+        "semantic_parent_id": null,
+        "pdf_page": 27
+      },
+      {
+        "occurrence_id": "box-041",
+        "source_area": "수도부문",
+        "source_display_name": "지방수도처",
+        "name": "지방수도처",
+        "semantic_parent_id": null,
+        "pdf_page": 27
+      },
+      {
+        "occurrence_id": "box-042",
+        "source_area": "수도부문",
+        "source_display_name": "산업용수처",
+        "name": "산업용수처",
+        "semantic_parent_id": null,
+        "pdf_page": 27
+      },
+      {
+        "occurrence_id": "box-043",
+        "source_area": "수도부문",
+        "source_display_name": "물종합진단처",
+        "name": "물종합진단처",
+        "semantic_parent_id": null,
+        "pdf_page": 27
+      },
+      {
+        "occurrence_id": "box-044",
+        "source_area": "기술본부",
+        "source_display_name": "기술본부",
+        "name": "기술본부",
+        "semantic_parent_id": null,
+        "pdf_page": 27
+      },
+      {
+        "occurrence_id": "box-045",
+        "source_area": "기술본부",
+        "source_display_name": "기술기획처",
+        "name": "기술기획처",
+        "semantic_parent_id": null,
+        "pdf_page": 27
+      },
+      {
+        "occurrence_id": "box-046",
+        "source_area": "기술본부",
+        "source_display_name": "설계처",
+        "name": "설계처",
+        "semantic_parent_id": null,
+        "pdf_page": 27
+      },
+      {
+        "occurrence_id": "box-047",
+        "source_area": "그린인프라부문",
+        "source_display_name": "그린인프라부문",
+        "name": "그린인프라부문",
+        "semantic_parent_id": null,
+        "pdf_page": 27
+      },
+      {
+        "occurrence_id": "box-048",
+        "source_area": "그린인프라부문",
+        "source_display_name": "수변기획처",
+        "name": "수변기획처",
+        "semantic_parent_id": null,
+        "pdf_page": 27
+      },
+      {
+        "occurrence_id": "box-049",
+        "source_area": "그린인프라부문",
+        "source_display_name": "수변사업처",
+        "name": "수변사업처",
+        "semantic_parent_id": null,
+        "pdf_page": 27
+      },
+      {
+        "occurrence_id": "box-050",
+        "source_area": "그린인프라부문",
+        "source_display_name": "친수사업처",
+        "name": "친수사업처",
+        "semantic_parent_id": null,
+        "pdf_page": 27
+      },
+      {
+        "occurrence_id": "box-051",
+        "source_area": "그린인프라부문",
+        "source_display_name": "공간경관처",
+        "name": "공간경관처",
+        "semantic_parent_id": null,
+        "pdf_page": 27
+      },
+      {
+        "occurrence_id": "box-052",
+        "source_area": "그린인프라부문",
+        "source_display_name": "기후테크혁신처",
+        "name": "기후테크혁신처",
+        "semantic_parent_id": null,
+        "pdf_page": 27
+      },
+      {
+        "occurrence_id": "box-053",
+        "source_area": "글로벌사업본부",
+        "source_display_name": "글로벌사업본부",
+        "name": "글로벌사업본부",
+        "semantic_parent_id": null,
+        "pdf_page": 27
+      },
+      {
+        "occurrence_id": "box-054",
+        "source_area": "글로벌사업본부",
+        "source_display_name": "글로벌사업처",
+        "name": "글로벌사업처",
+        "semantic_parent_id": null,
+        "pdf_page": 27
+      },
+      {
+        "occurrence_id": "box-055",
+        "source_area": "글로벌사업본부",
+        "source_display_name": "글로벌협력처",
+        "name": "글로벌협력처",
+        "semantic_parent_id": null,
+        "pdf_page": 27
+      },
+      {
+        "occurrence_id": "box-056",
+        "source_area": "글로벌사업본부",
+        "source_display_name": "기후협력개발처",
+        "name": "기후협력개발처",
+        "semantic_parent_id": null,
+        "pdf_page": 27
+      },
+      {
+        "occurrence_id": "box-057",
+        "source_area": "별도 표시 기구",
+        "source_display_name": "K-water연구원",
+        "name": "K-water연구원",
+        "semantic_parent_id": null,
+        "pdf_page": 27
+      },
+      {
+        "occurrence_id": "box-058",
+        "source_area": "별도 표시 기구",
+        "source_display_name": "인재개발원",
+        "name": "인재개발원",
+        "semantic_parent_id": null,
+        "pdf_page": 27
+      },
+      {
+        "occurrence_id": "box-059",
+        "source_area": "별도 표시 기구",
+        "source_display_name": "도시본부",
+        "name": "도시본부",
+        "semantic_parent_id": null,
+        "pdf_page": 27
+      },
+      {
+        "occurrence_id": "box-060",
+        "source_area": "별도 표시 기구",
+        "source_display_name": "지사·단",
+        "name": "지사·단",
+        "semantic_parent_id": null,
+        "pdf_page": 27
+      },
+      {
+        "occurrence_id": "box-061",
+        "source_area": "한강유역본부",
+        "source_display_name": "한강유역본부",
+        "name": "한강유역본부",
+        "semantic_parent_id": null,
+        "pdf_page": 27
+      },
+      {
+        "occurrence_id": "box-062",
+        "source_area": "한강유역본부",
+        "source_display_name": "경영처",
+        "name": "경영처",
+        "semantic_parent_id": null,
+        "pdf_page": 27
+      },
+      {
+        "occurrence_id": "box-063",
+        "source_area": "한강유역본부",
+        "source_display_name": "사업처",
+        "name": "사업처",
+        "semantic_parent_id": null,
+        "pdf_page": 27
+      },
+      {
+        "occurrence_id": "box-064",
+        "source_area": "한강유역본부",
+        "source_display_name": "유역관리처",
+        "name": "유역관리처",
+        "semantic_parent_id": null,
+        "pdf_page": 27
+      },
+      {
+        "occurrence_id": "box-065",
+        "source_area": "한강유역본부",
+        "source_display_name": "유역수도지원센터(처)",
+        "name": "유역수도지원센터(처)",
+        "semantic_parent_id": null,
+        "pdf_page": 27
+      },
+      {
+        "occurrence_id": "box-066",
+        "source_area": "한강유역본부",
+        "source_display_name": "유역협력단",
+        "name": "유역협력단",
+        "semantic_parent_id": null,
+        "pdf_page": 27
+      },
+      {
+        "occurrence_id": "box-067",
+        "source_area": "금강유역본부",
+        "source_display_name": "금강유역본부",
+        "name": "금강유역본부",
+        "semantic_parent_id": null,
+        "pdf_page": 27
+      },
+      {
+        "occurrence_id": "box-068",
+        "source_area": "금강유역본부",
+        "source_display_name": "경영처",
+        "name": "경영처",
+        "semantic_parent_id": null,
+        "pdf_page": 27
+      },
+      {
+        "occurrence_id": "box-069",
+        "source_area": "금강유역본부",
+        "source_display_name": "사업처",
+        "name": "사업처",
+        "semantic_parent_id": null,
+        "pdf_page": 27
+      },
+      {
+        "occurrence_id": "box-070",
+        "source_area": "금강유역본부",
+        "source_display_name": "유역관리처",
+        "name": "유역관리처",
+        "semantic_parent_id": null,
+        "pdf_page": 27
+      },
+      {
+        "occurrence_id": "box-071",
+        "source_area": "금강유역본부",
+        "source_display_name": "유역수도지원센터(처)",
+        "name": "유역수도지원센터(처)",
+        "semantic_parent_id": null,
+        "pdf_page": 27
+      },
+      {
+        "occurrence_id": "box-072",
+        "source_area": "금강유역본부",
+        "source_display_name": "유역협력단",
+        "name": "유역협력단",
+        "semantic_parent_id": null,
+        "pdf_page": 27
+      },
+      {
+        "occurrence_id": "box-073",
+        "source_area": "영·섬유역본부",
+        "source_display_name": "영·섬유역본부",
+        "name": "영·섬유역본부",
+        "semantic_parent_id": null,
+        "pdf_page": 27
+      },
+      {
+        "occurrence_id": "box-074",
+        "source_area": "영·섬유역본부",
+        "source_display_name": "경영처",
+        "name": "경영처",
+        "semantic_parent_id": null,
+        "pdf_page": 27
+      },
+      {
+        "occurrence_id": "box-075",
+        "source_area": "영·섬유역본부",
+        "source_display_name": "사업처",
+        "name": "사업처",
+        "semantic_parent_id": null,
+        "pdf_page": 27
+      },
+      {
+        "occurrence_id": "box-076",
+        "source_area": "영·섬유역본부",
+        "source_display_name": "유역관리처",
+        "name": "유역관리처",
+        "semantic_parent_id": null,
+        "pdf_page": 27
+      },
+      {
+        "occurrence_id": "box-077",
+        "source_area": "영·섬유역본부",
+        "source_display_name": "유역수도지원센터(처)",
+        "name": "유역수도지원센터(처)",
+        "semantic_parent_id": null,
+        "pdf_page": 27
+      },
+      {
+        "occurrence_id": "box-078",
+        "source_area": "영·섬유역본부",
+        "source_display_name": "유역협력단",
+        "name": "유역협력단",
+        "semantic_parent_id": null,
+        "pdf_page": 27
+      },
+      {
+        "occurrence_id": "box-079",
+        "source_area": "영·섬유역본부",
+        "source_display_name": "제주지역협력본부",
+        "name": "제주지역협력본부",
+        "semantic_parent_id": null,
+        "pdf_page": 27
+      },
+      {
+        "occurrence_id": "box-080",
+        "source_area": "낙동강유역본부",
+        "source_display_name": "낙동강유역본부",
+        "name": "낙동강유역본부",
+        "semantic_parent_id": null,
+        "pdf_page": 27
+      },
+      {
+        "occurrence_id": "box-081",
+        "source_area": "낙동강유역본부",
+        "source_display_name": "경영처",
+        "name": "경영처",
+        "semantic_parent_id": null,
+        "pdf_page": 27
+      },
+      {
+        "occurrence_id": "box-082",
+        "source_area": "낙동강유역본부",
+        "source_display_name": "사업처",
+        "name": "사업처",
+        "semantic_parent_id": null,
+        "pdf_page": 27
+      },
+      {
+        "occurrence_id": "box-083",
+        "source_area": "낙동강유역본부",
+        "source_display_name": "유역관리처",
+        "name": "유역관리처",
+        "semantic_parent_id": null,
+        "pdf_page": 27
+      },
+      {
+        "occurrence_id": "box-084",
+        "source_area": "낙동강유역본부",
+        "source_display_name": "유역수도지원센터(처)",
+        "name": "유역수도지원센터(처)",
+        "semantic_parent_id": null,
+        "pdf_page": 27
+      },
+      {
+        "occurrence_id": "box-085",
+        "source_area": "낙동강유역본부",
+        "source_display_name": "경북지역협력단",
+        "name": "경북지역협력단",
+        "semantic_parent_id": null,
+        "pdf_page": 27
+      },
+      {
+        "occurrence_id": "box-086",
+        "source_area": "낙동강유역본부",
+        "source_display_name": "부산·울산·경남 지역협력단",
+        "name": "부산·울산·경남 지역협력단",
+        "semantic_parent_id": null,
+        "pdf_page": 27
+      }
+    ],
+    "footnote": "* 부사장은 제4조제4항의 규정에 따라 부문장 겸임",
+    "diagram_line_relationships": [],
+    "relationship_review_status": "followup_not_automatically_inferred"
+  },
+  "duty_table": {
+    "source_annex_label": "별표4",
+    "source_heading": "분장업무",
+    "related_article": "제9조제3항",
+    "rows": [
+      {
+        "row_key": "p29-r01",
+        "source_pdf_page": 29,
+        "source_page_row_order": 1,
+        "source_group_label": "사장직할",
+        "source_section_label": "본사",
+        "duties": [
+          {
+            "source_item_number": 1,
+            "text": "비서업무"
+          },
+          {
+            "source_item_number": 2,
+            "text": "대국민홍보 및 CIP업무"
+          },
+          {
+            "source_item_number": 3,
+            "text": "언론매체 및 대외기관 홍보업무"
+          }
+        ],
+        "departments": [
+          "비서실",
+          "홍보실"
+        ],
+        "department_cell_status": "specified",
+        "duty_department_pairs": [],
+        "individual_employee_duties_assigned": false,
+        "review_status": "image_transcribed_by_codex",
+        "source_locator": {
+          "coordinate_system": "이미지 전사: PDF 쪽수·원문 이미지 연결, 문자 좌표 없음",
+          "pdf_pages": [
+            29
+          ],
+          "printed_pages": [
+            29
+          ],
+          "lines": [],
+          "section_kind": "annex",
+          "transcription_method": "manual_pdf_image_reading",
+          "source_images": [
+            {
+              "pdf_page": 29,
+              "path": "source/page-29.png",
+              "sha256": "4f09a2b2d5081fa245b5646bd196bd821bfde71b09a5d10e277f0c3c330303c1"
+            }
+          ]
+        },
+        "regulation_node_candidate_id": "43839b2e-9925-523b-98dc-1eef3c552d0c"
+      },
+      {
+        "row_key": "p29-r02",
+        "source_pdf_page": 29,
+        "source_page_row_order": 2,
+        "source_group_label": "상임감사위원직할",
+        "source_section_label": "본사",
+        "duties": [
+          {
+            "source_item_number": 1,
+            "text": "내부감사 시행 및 외부감사 지원"
+          },
+          {
+            "source_item_number": 2,
+            "text": "사정 및 비위사항의 처리"
+          },
+          {
+            "source_item_number": 3,
+            "text": "대통령 비서실 및 국무총리실에서 이첩된 청원서의 처리"
+          }
+        ],
+        "departments": [
+          "감사실"
+        ],
+        "department_cell_status": "specified",
+        "duty_department_pairs": [],
+        "individual_employee_duties_assigned": false,
+        "review_status": "image_transcribed_by_codex",
+        "source_locator": {
+          "coordinate_system": "이미지 전사: PDF 쪽수·원문 이미지 연결, 문자 좌표 없음",
+          "pdf_pages": [
+            29
+          ],
+          "printed_pages": [
+            29
+          ],
+          "lines": [],
+          "section_kind": "annex",
+          "transcription_method": "manual_pdf_image_reading",
+          "source_images": [
+            {
+              "pdf_page": 29,
+              "path": "source/page-29.png",
+              "sha256": "4f09a2b2d5081fa245b5646bd196bd821bfde71b09a5d10e277f0c3c330303c1"
+            }
+          ]
+        },
+        "regulation_node_candidate_id": "53d98896-5141-5ea9-aec5-a1b237240acd"
+      },
+      {
+        "row_key": "p29-r03",
+        "source_pdf_page": 29,
+        "source_page_row_order": 3,
+        "source_group_label": "안전본부",
+        "source_section_label": "본사",
+        "duties": [
+          {
+            "source_item_number": 1,
+            "text": "안전보건관리체계 구축 및 제도 관리"
+          },
+          {
+            "source_item_number": 2,
+            "text": "재난·시설물·산업·건설안전 이행관리"
+          },
+          {
+            "source_item_number": 3,
+            "text": "건설·품질안전 이행관리"
+          }
+        ],
+        "departments": [
+          "건설안전처"
+        ],
+        "department_cell_status": "specified",
+        "duty_department_pairs": [],
+        "individual_employee_duties_assigned": false,
+        "review_status": "image_transcribed_by_codex",
+        "source_locator": {
+          "coordinate_system": "이미지 전사: PDF 쪽수·원문 이미지 연결, 문자 좌표 없음",
+          "pdf_pages": [
+            29
+          ],
+          "printed_pages": [
+            29
+          ],
+          "lines": [],
+          "section_kind": "annex",
+          "transcription_method": "manual_pdf_image_reading",
+          "source_images": [
+            {
+              "pdf_page": 29,
+              "path": "source/page-29.png",
+              "sha256": "4f09a2b2d5081fa245b5646bd196bd821bfde71b09a5d10e277f0c3c330303c1"
+            }
+          ]
+        },
+        "regulation_node_candidate_id": "fde790ec-e424-50c0-89a0-a6d9fc63aaac"
+      },
+      {
+        "row_key": "p29-r04",
+        "source_pdf_page": 29,
+        "source_page_row_order": 4,
+        "source_group_label": "기획부문",
+        "source_section_label": "본사",
+        "duties": [
+          {
+            "source_item_number": 1,
+            "text": "국회, 이사회, 조직 및 예산관리"
+          },
+          {
+            "source_item_number": 2,
+            "text": "공공기관 혁신 등 정부 정책 대응 총괄"
+          },
+          {
+            "source_item_number": 3,
+            "text": "장단기 경영계획, 전략 수립 및 정책화"
+          },
+          {
+            "source_item_number": 4,
+            "text": "국가 물관리체계 개선 정책 대응 및 기후위기대응 총괄"
+          },
+          {
+            "source_item_number": 5,
+            "text": "사업 분석·조정 및 신규 사업 기획(사업실명제 포함)"
+          },
+          {
+            "source_item_number": 6,
+            "text": "ESG경영, 경영혁신 등 경영관리 및 경영평가 업무"
+          },
+          {
+            "source_item_number": 7,
+            "text": "청렴도·내부통제 및 국내·외 출자회사 관리 총괄"
+          },
+          {
+            "source_item_number": 8,
+            "text": "관련법령·사규 관리, 소송업무(해외사업 지원 포함), 갈등관리 총괄"
+          },
+          {
+            "source_item_number": 9,
+            "text": "기타 공사 중요업무 전반에 대한 기획 및 관리"
+          }
+        ],
+        "departments": [
+          "기획조정실",
+          "신성장전략단",
+          "경영혁신실",
+          "법무실"
+        ],
+        "department_cell_status": "specified",
+        "duty_department_pairs": [],
+        "individual_employee_duties_assigned": false,
+        "review_status": "image_transcribed_by_codex",
+        "source_locator": {
+          "coordinate_system": "이미지 전사: PDF 쪽수·원문 이미지 연결, 문자 좌표 없음",
+          "pdf_pages": [
+            29
+          ],
+          "printed_pages": [
+            29
+          ],
+          "lines": [],
+          "section_kind": "annex",
+          "transcription_method": "manual_pdf_image_reading",
+          "source_images": [
+            {
+              "pdf_page": 29,
+              "path": "source/page-29.png",
+              "sha256": "4f09a2b2d5081fa245b5646bd196bd821bfde71b09a5d10e277f0c3c330303c1"
+            }
+          ]
+        },
+        "regulation_node_candidate_id": "f65f20f0-c744-5e26-9378-115b825656f0"
+      },
+      {
+        "row_key": "p30-r01",
+        "source_pdf_page": 30,
+        "source_page_row_order": 1,
+        "source_group_label": "경영부문",
+        "source_section_label": "본사",
+        "duties": [
+          {
+            "source_item_number": 1,
+            "text": "문서, 행사, 사옥관리 등 경영지원 업무"
+          },
+          {
+            "source_item_number": 2,
+            "text": "인사제도·운영 및 채용"
+          },
+          {
+            "source_item_number": 3,
+            "text": "노무 및 복지 후생업무"
+          },
+          {
+            "source_item_number": 4,
+            "text": "회계, 결산 및 세무, 자금의 조달 및 운영"
+          },
+          {
+            "source_item_number": 5,
+            "text": "공사·용역 및 자재 계약관리, 자산관리 업무(국유재산 포함)"
+          },
+          {
+            "source_item_number": 6,
+            "text": "보안정책(시설, 인원, 문서, 암호자재, 방첩 등) 및 개인정보보호정책 관리 총괄"
+          },
+          {
+            "source_item_number": 7,
+            "text": "비상계획업무"
+          }
+        ],
+        "departments": [
+          "인재경영실",
+          "노사협력처",
+          "재무관리처",
+          "정보보안처",
+          "비상계획처"
+        ],
+        "department_cell_status": "specified",
+        "duty_department_pairs": [],
+        "individual_employee_duties_assigned": false,
+        "review_status": "image_transcribed_by_codex",
+        "source_locator": {
+          "coordinate_system": "이미지 전사: PDF 쪽수·원문 이미지 연결, 문자 좌표 없음",
+          "pdf_pages": [
+            30
+          ],
+          "printed_pages": [
+            30
+          ],
+          "lines": [],
+          "section_kind": "annex",
+          "transcription_method": "manual_pdf_image_reading",
+          "source_images": [
+            {
+              "pdf_page": 30,
+              "path": "source/page-30.png",
+              "sha256": "86968b64fcd1038320a91ae907877609edd631bc3f52d9f1d592300596eab9e8"
+            }
+          ]
+        },
+        "regulation_node_candidate_id": "61b58b93-b9a8-5c6b-8876-b1292a5c7e5a"
+      },
+      {
+        "row_key": "p30-r02",
+        "source_pdf_page": 30,
+        "source_page_row_order": 2,
+        "source_group_label": "AI본부",
+        "source_section_label": "본사",
+        "duties": [
+          {
+            "source_item_number": 1,
+            "text": "AI 및 디지털 기획, 전략 수립, 기술 지원"
+          },
+          {
+            "source_item_number": 2,
+            "text": "디지털플랫폼 구축·운영관리"
+          },
+          {
+            "source_item_number": 3,
+            "text": "전사 데이터 관련 정책 및 제도, 규정 총괄"
+          },
+          {
+            "source_item_number": 4,
+            "text": "전사 데이터 분석·활용 및 서비스"
+          },
+          {
+            "source_item_number": 5,
+            "text": "정보시스템, 정보통신망 등 구축 및 운영관리"
+          },
+          {
+            "source_item_number": 6,
+            "text": "기타 데이터 및 정보화 분야에 관한 사항"
+          }
+        ],
+        "departments": [
+          "AI혁신처",
+          "디지털관리처",
+          "AI데이터센터"
+        ],
+        "department_cell_status": "specified",
+        "duty_department_pairs": [],
+        "individual_employee_duties_assigned": false,
+        "review_status": "image_transcribed_by_codex",
+        "source_locator": {
+          "coordinate_system": "이미지 전사: PDF 쪽수·원문 이미지 연결, 문자 좌표 없음",
+          "pdf_pages": [
+            30
+          ],
+          "printed_pages": [
+            30
+          ],
+          "lines": [],
+          "section_kind": "annex",
+          "transcription_method": "manual_pdf_image_reading",
+          "source_images": [
+            {
+              "pdf_page": 30,
+              "path": "source/page-30.png",
+              "sha256": "86968b64fcd1038320a91ae907877609edd631bc3f52d9f1d592300596eab9e8"
+            }
+          ]
+        },
+        "regulation_node_candidate_id": "5228c34d-1fed-5d1f-a44f-29b2ec514900"
+      },
+      {
+        "row_key": "p30-r03",
+        "source_pdf_page": 30,
+        "source_page_row_order": 3,
+        "source_group_label": "수자원환경부문",
+        "source_section_label": "본사",
+        "duties": [
+          {
+            "source_item_number": 1,
+            "text": "수자원사업 경영계획"
+          },
+          {
+            "source_item_number": 2,
+            "text": "댐 주변지역 지원사업, 거버넌스 관리, 지역협력, 보상 총괄"
+          },
+          {
+            "source_item_number": 3,
+            "text": "댐용수 영업, 공급 및 수요관리"
+          },
+          {
+            "source_item_number": 4,
+            "text": "국가물관리기본계획, 유역물관리종합계획, 하천유역수자원관리계획 등 법정계획 수립총괄"
+          },
+          {
+            "source_item_number": 5,
+            "text": "유역별 물관리 및 사업계획 수립"
+          },
+          {
+            "source_item_number": 6,
+            "text": "수자원 조사 총괄, 북한사업 조사"
+          },
+          {
+            "source_item_number": 7,
+            "text": "건설사업 타당성조사, 기본계획 수립 및 인허가 업무"
+          },
+          {
+            "source_item_number": 8,
+            "text": "수자원사업 개발 및 관리"
+          },
+          {
+            "source_item_number": 9,
+            "text": "지표수-지하수 연계 및 지하수 조사·사업 추진 총괄"
+          },
+          {
+            "source_item_number": 10,
+            "text": "수자원시설 운영 및 관리(아라뱃길 포함)"
+          },
+          {
+            "source_item_number": 11,
+            "text": "통합물관리(수량·수질) 추진 및 분쟁 총괄"
+          },
+          {
+            "source_item_number": 12,
+            "text": "전국 가뭄분석, 가뭄모니터링 및 예·경보 지원"
+          },
+          {
+            "source_item_number": 13,
+            "text": "보·하천 시설물 관리 및 정책지원 총괄"
+          },
+          {
+            "source_item_number": 14,
+            "text": "기타 위 호와 관련된 사항"
+          }
+        ],
+        "departments": [
+          "수자원기획처",
+          "수자원개발처",
+          "수자원시설처",
+          "수자원운영처",
+          "수자원정책지원단"
+        ],
+        "department_cell_status": "specified",
+        "duty_department_pairs": [],
+        "individual_employee_duties_assigned": false,
+        "review_status": "image_transcribed_by_codex",
+        "source_locator": {
+          "coordinate_system": "이미지 전사: PDF 쪽수·원문 이미지 연결, 문자 좌표 없음",
+          "pdf_pages": [
+            30
+          ],
+          "printed_pages": [
+            30
+          ],
+          "lines": [],
+          "section_kind": "annex",
+          "transcription_method": "manual_pdf_image_reading",
+          "source_images": [
+            {
+              "pdf_page": 30,
+              "path": "source/page-30.png",
+              "sha256": "86968b64fcd1038320a91ae907877609edd631bc3f52d9f1d592300596eab9e8"
+            }
+          ]
+        },
+        "regulation_node_candidate_id": "d4aa779f-7a87-50d2-9e91-3b889d77283e"
+      },
+      {
+        "row_key": "p31-r01",
+        "source_pdf_page": 31,
+        "source_page_row_order": 1,
+        "source_group_label": "환경본부",
+        "source_section_label": "본사",
+        "duties": [
+          {
+            "source_item_number": 1,
+            "text": "물환경·수생태 관리 및 수질개선 종합대책 수립·시행"
+          },
+          {
+            "source_item_number": 2,
+            "text": "물환경 개선, 경관생태 및 친환경·생태복원 업무"
+          },
+          {
+            "source_item_number": 3,
+            "text": "물환경 안전 분야 조사·연구 및 검증·평가사업 총괄"
+          },
+          {
+            "source_item_number": 4,
+            "text": "물환경 분야 수질사고 대응 및 유역 수질검사소 총괄"
+          }
+        ],
+        "departments": [
+          "물환경계획처",
+          "물환경관리처"
+        ],
+        "department_cell_status": "specified",
+        "duty_department_pairs": [],
+        "individual_employee_duties_assigned": false,
+        "review_status": "image_transcribed_by_codex",
+        "source_locator": {
+          "coordinate_system": "이미지 전사: PDF 쪽수·원문 이미지 연결, 문자 좌표 없음",
+          "pdf_pages": [
+            31
+          ],
+          "printed_pages": [
+            31
+          ],
+          "lines": [],
+          "section_kind": "annex",
+          "transcription_method": "manual_pdf_image_reading",
+          "source_images": [
+            {
+              "pdf_page": 31,
+              "path": "source/page-31.png",
+              "sha256": "411ab87feda78f3b16c5285af6f33386b6be19f6a88b2ae4ea4376224960c4d9"
+            }
+          ]
+        },
+        "regulation_node_candidate_id": "46fae090-e9e7-552b-b955-fd4f0b123ed5"
+      },
+      {
+        "row_key": "p31-r02",
+        "source_pdf_page": 31,
+        "source_page_row_order": 2,
+        "source_group_label": "재생에너지본부",
+        "source_section_label": "본사",
+        "duties": [
+          {
+            "source_item_number": 1,
+            "text": "탄소중립 등 녹색전환 정책 기획·지원 총괄"
+          },
+          {
+            "source_item_number": 2,
+            "text": "재생에너지 등 에너지사업 기획 및 정책지원"
+          },
+          {
+            "source_item_number": 3,
+            "text": "재생에너지 등 에너지사업 계획, 개발 및 관리"
+          },
+          {
+            "source_item_number": 4,
+            "text": "시화조력 관리 총괄"
+          },
+          {
+            "source_item_number": 5,
+            "text": "기타 녹색전환 및 에너지 등에 관한 사항"
+          }
+        ],
+        "departments": [
+          "에너지기획처",
+          "에너지사업처"
+        ],
+        "department_cell_status": "specified",
+        "duty_department_pairs": [],
+        "individual_employee_duties_assigned": false,
+        "review_status": "image_transcribed_by_codex",
+        "source_locator": {
+          "coordinate_system": "이미지 전사: PDF 쪽수·원문 이미지 연결, 문자 좌표 없음",
+          "pdf_pages": [
+            31
+          ],
+          "printed_pages": [
+            31
+          ],
+          "lines": [],
+          "section_kind": "annex",
+          "transcription_method": "manual_pdf_image_reading",
+          "source_images": [
+            {
+              "pdf_page": 31,
+              "path": "source/page-31.png",
+              "sha256": "411ab87feda78f3b16c5285af6f33386b6be19f6a88b2ae4ea4376224960c4d9"
+            }
+          ]
+        },
+        "regulation_node_candidate_id": "f7fa8c81-bbe2-503c-8f1c-705ba55a71f8"
+      },
+      {
+        "row_key": "p31-r03",
+        "source_pdf_page": 31,
+        "source_page_row_order": 3,
+        "source_group_label": "수도부문",
+        "source_section_label": "본사",
+        "duties": [
+          {
+            "source_item_number": 1,
+            "text": "수도사업 경영계획"
+          },
+          {
+            "source_item_number": 2,
+            "text": "물공급 제도 개선 및 국가수도종합계획 등 통합계획 수립"
+          },
+          {
+            "source_item_number": 3,
+            "text": "댐용수·수도 요금, 수도 영업·공급 및 수요관리"
+          },
+          {
+            "source_item_number": 4,
+            "text": "수도사업 개발 및 관리"
+          },
+          {
+            "source_item_number": 5,
+            "text": "수도시설 유지관리 및 종합개선"
+          },
+          {
+            "source_item_number": 6,
+            "text": "수도시설 운영 및 공급관리"
+          },
+          {
+            "source_item_number": 7,
+            "text": "수도시설 재난안전 및 위기관리 대응 총괄"
+          },
+          {
+            "source_item_number": 8,
+            "text": "유역수도지원센터 운영관리 총괄"
+          },
+          {
+            "source_item_number": 9,
+            "text": "국가수도정보센터 운영 및 관리"
+          },
+          {
+            "source_item_number": 10,
+            "text": "지방상수도 관리 및 종합개선"
+          },
+          {
+            "source_item_number": 11,
+            "text": "지방상수도 시설 운영 및 공급관리"
+          },
+          {
+            "source_item_number": 12,
+            "text": "산업용수사업 운영관리"
+          },
+          {
+            "source_item_number": 13,
+            "text": "초순수·해수담수화·재이용 등 사업개발"
+          },
+          {
+            "source_item_number": 14,
+            "text": "물인프라 기술진단·지원"
+          },
+          {
+            "source_item_number": 15,
+            "text": "기타 위 호와 관련된 사항"
+          }
+        ],
+        "departments": [
+          "수도기획처",
+          "수도개발처",
+          "수도관리처",
+          "지방수도처",
+          "산업용수처",
+          "물종합진단처"
+        ],
+        "department_cell_status": "specified",
+        "duty_department_pairs": [],
+        "individual_employee_duties_assigned": false,
+        "review_status": "image_transcribed_by_codex",
+        "source_locator": {
+          "coordinate_system": "이미지 전사: PDF 쪽수·원문 이미지 연결, 문자 좌표 없음",
+          "pdf_pages": [
+            31
+          ],
+          "printed_pages": [
+            31
+          ],
+          "lines": [],
+          "section_kind": "annex",
+          "transcription_method": "manual_pdf_image_reading",
+          "source_images": [
+            {
+              "pdf_page": 31,
+              "path": "source/page-31.png",
+              "sha256": "411ab87feda78f3b16c5285af6f33386b6be19f6a88b2ae4ea4376224960c4d9"
+            }
+          ]
+        },
+        "regulation_node_candidate_id": "f1b670d8-44e5-51d6-9a62-5d31ff5919be"
+      },
+      {
+        "row_key": "p32-r01",
+        "source_pdf_page": 32,
+        "source_page_row_order": 1,
+        "source_group_label": "기술본부",
+        "source_section_label": "본사",
+        "duties": [
+          {
+            "source_item_number": 1,
+            "text": "기술기획·전략 수립 및 미래기술 총괄"
+          },
+          {
+            "source_item_number": 2,
+            "text": "기술전략에 따른 기술과제 심의·선정 및 관리"
+          },
+          {
+            "source_item_number": 3,
+            "text": "건설사업 제도, 기술심의 및 건설원가 관리"
+          },
+          {
+            "source_item_number": 4,
+            "text": "기술기준 제·개정, 관리체계 개선 및 표준화"
+          },
+          {
+            "source_item_number": 5,
+            "text": "기본구상 수립 및 설계의 기술적 타당성 검토 및 기술 지원"
+          },
+          {
+            "source_item_number": 6,
+            "text": "수자원, 수도, 도시 및 에너지 사업 등 설계"
+          }
+        ],
+        "departments": [
+          "기술기획처",
+          "설계처"
+        ],
+        "department_cell_status": "specified",
+        "duty_department_pairs": [],
+        "individual_employee_duties_assigned": false,
+        "review_status": "image_transcribed_by_codex",
+        "source_locator": {
+          "coordinate_system": "이미지 전사: PDF 쪽수·원문 이미지 연결, 문자 좌표 없음",
+          "pdf_pages": [
+            32
+          ],
+          "printed_pages": [
+            32
+          ],
+          "lines": [],
+          "section_kind": "annex",
+          "transcription_method": "manual_pdf_image_reading",
+          "source_images": [
+            {
+              "pdf_page": 32,
+              "path": "source/page-32.png",
+              "sha256": "8664b1c934b02c7e853c50f71acc7348af0dc9ccb2330b0413b285de058e768a"
+            }
+          ]
+        },
+        "regulation_node_candidate_id": "aca5265b-8829-5a2b-8cf5-3c3f935611e9"
+      },
+      {
+        "row_key": "p32-r02",
+        "source_pdf_page": 32,
+        "source_page_row_order": 2,
+        "source_group_label": "그린인프라부문",
+        "source_section_label": "본사",
+        "duties": [
+          {
+            "source_item_number": 1,
+            "text": "수변사업 경영계획 및 사업관리"
+          },
+          {
+            "source_item_number": 2,
+            "text": "수변사업 추진 총괄"
+          },
+          {
+            "source_item_number": 3,
+            "text": "부산 에코델타 스마트시티 사업 추진 총괄"
+          },
+          {
+            "source_item_number": 4,
+            "text": "건축사업 계획 및 관리"
+          },
+          {
+            "source_item_number": 5,
+            "text": "조경사업 계획 및 관리"
+          },
+          {
+            "source_item_number": 6,
+            "text": "기타 국내·외 수변사업 등에 관한 사항"
+          },
+          {
+            "source_item_number": 7,
+            "text": "물산업 육성, 중소기업 동반성장 및 지원"
+          },
+          {
+            "source_item_number": 8,
+            "text": "신기술 및 특허 등 지식재산권 관리"
+          }
+        ],
+        "departments": [
+          "수변기획처",
+          "수변사업처",
+          "친수사업처",
+          "공간경관처",
+          "기후테크혁신처"
+        ],
+        "department_cell_status": "specified",
+        "duty_department_pairs": [],
+        "individual_employee_duties_assigned": false,
+        "review_status": "image_transcribed_by_codex",
+        "source_locator": {
+          "coordinate_system": "이미지 전사: PDF 쪽수·원문 이미지 연결, 문자 좌표 없음",
+          "pdf_pages": [
+            32
+          ],
+          "printed_pages": [
+            32
+          ],
+          "lines": [],
+          "section_kind": "annex",
+          "transcription_method": "manual_pdf_image_reading",
+          "source_images": [
+            {
+              "pdf_page": 32,
+              "path": "source/page-32.png",
+              "sha256": "8664b1c934b02c7e853c50f71acc7348af0dc9ccb2330b0413b285de058e768a"
+            }
+          ]
+        },
+        "regulation_node_candidate_id": "8bb8f37d-56cd-5c02-81d0-4798ab2a498c"
+      },
+      {
+        "row_key": "p32-r03",
+        "source_pdf_page": 32,
+        "source_page_row_order": 3,
+        "source_group_label": "글로벌사업본부",
+        "source_section_label": "본사",
+        "duties": [
+          {
+            "source_item_number": 1,
+            "text": "해외사업 추진전략 및 세부 시행계획 수립"
+          },
+          {
+            "source_item_number": 2,
+            "text": "해외사업 리스크관리"
+          },
+          {
+            "source_item_number": 3,
+            "text": "해외 투자사업 및 수주사업 개발·관리"
+          },
+          {
+            "source_item_number": 4,
+            "text": "해외사업 조사, 타당성 분석(재무, 법무, 기술) 및 금융조달"
+          },
+          {
+            "source_item_number": 5,
+            "text": "국제기구, 국가별 관계기관 협력 및 글로벌 네트워크 활동"
+          },
+          {
+            "source_item_number": 6,
+            "text": "ODA사업 개발, 수행 및 관리"
+          }
+        ],
+        "departments": [
+          "글로벌사업처",
+          "글로벌협력처",
+          "기후협력개발처"
+        ],
+        "department_cell_status": "specified",
+        "duty_department_pairs": [],
+        "individual_employee_duties_assigned": false,
+        "review_status": "image_transcribed_by_codex",
+        "source_locator": {
+          "coordinate_system": "이미지 전사: PDF 쪽수·원문 이미지 연결, 문자 좌표 없음",
+          "pdf_pages": [
+            32
+          ],
+          "printed_pages": [
+            32
+          ],
+          "lines": [],
+          "section_kind": "annex",
+          "transcription_method": "manual_pdf_image_reading",
+          "source_images": [
+            {
+              "pdf_page": 32,
+              "path": "source/page-32.png",
+              "sha256": "8664b1c934b02c7e853c50f71acc7348af0dc9ccb2330b0413b285de058e768a"
+            }
+          ]
+        },
+        "regulation_node_candidate_id": "53825549-a384-5832-84f1-10131ad3dc4d"
+      },
+      {
+        "row_key": "p33-r01",
+        "source_pdf_page": 33,
+        "source_page_row_order": 1,
+        "source_group_label": "K-water연구원",
+        "source_section_label": "K-water연구원, 인재개발원",
+        "duties": [
+          {
+            "source_item_number": 1,
+            "text": "수자원분야 연구개발 및 기술지원"
+          },
+          {
+            "source_item_number": 2,
+            "text": "상하수도분야 연구개발 및 기술지원"
+          },
+          {
+            "source_item_number": 3,
+            "text": "물에너지·설비분야 연구개발 및 기술지원"
+          },
+          {
+            "source_item_number": 4,
+            "text": "정책·경제 등 경영분야 연구 및 지원"
+          },
+          {
+            "source_item_number": 5,
+            "text": "인공지능 응용연구 및 기술 개발"
+          },
+          {
+            "source_item_number": 6,
+            "text": "연구관련 대외협력업무"
+          }
+        ],
+        "departments": [],
+        "department_cell_status": "source_blank",
+        "duty_department_pairs": [],
+        "individual_employee_duties_assigned": false,
+        "review_status": "image_transcribed_by_codex",
+        "source_locator": {
+          "coordinate_system": "이미지 전사: PDF 쪽수·원문 이미지 연결, 문자 좌표 없음",
+          "pdf_pages": [
+            33
+          ],
+          "printed_pages": [
+            33
+          ],
+          "lines": [],
+          "section_kind": "annex",
+          "transcription_method": "manual_pdf_image_reading",
+          "source_images": [
+            {
+              "pdf_page": 33,
+              "path": "source/page-33.png",
+              "sha256": "3001ba2300c1760ab40b9b98f261c9b0a2409eaa73a95c9fa50e4483f1f8af43"
+            }
+          ]
+        },
+        "regulation_node_candidate_id": "e3d35de0-8fdf-5625-8cdf-f99d1188d337"
+      },
+      {
+        "row_key": "p33-r02",
+        "source_pdf_page": 33,
+        "source_page_row_order": 2,
+        "source_group_label": "인재개발원",
+        "source_section_label": "K-water연구원, 인재개발원",
+        "duties": [
+          {
+            "source_item_number": 1,
+            "text": "중장기 인재육성 및 장·단기 교육계획 수립·시행"
+          },
+          {
+            "source_item_number": 2,
+            "text": "공무원·기업체 및 글로벌 교육과정 시행"
+          }
+        ],
+        "departments": [],
+        "department_cell_status": "source_blank",
+        "duty_department_pairs": [],
+        "individual_employee_duties_assigned": false,
+        "review_status": "image_transcribed_by_codex",
+        "source_locator": {
+          "coordinate_system": "이미지 전사: PDF 쪽수·원문 이미지 연결, 문자 좌표 없음",
+          "pdf_pages": [
+            33
+          ],
+          "printed_pages": [
+            33
+          ],
+          "lines": [],
+          "section_kind": "annex",
+          "transcription_method": "manual_pdf_image_reading",
+          "source_images": [
+            {
+              "pdf_page": 33,
+              "path": "source/page-33.png",
+              "sha256": "3001ba2300c1760ab40b9b98f261c9b0a2409eaa73a95c9fa50e4483f1f8af43"
+            }
+          ]
+        },
+        "regulation_node_candidate_id": "0193fd05-cfaa-56eb-be4f-b11beb13cb85"
+      },
+      {
+        "row_key": "p34-r01",
+        "source_pdf_page": 34,
+        "source_page_row_order": 1,
+        "source_group_label": "한강유역본부",
+        "source_section_label": "유역본부, 도시본부, 지사·단",
+        "duties": [
+          {
+            "source_item_number": 1,
+            "text": "조직, 인사, 예산, 평가, 청렴도 등 경영지원 업무"
+          },
+          {
+            "source_item_number": 2,
+            "text": "수돗물(댐용수 포함) 영업 및 신규 수요 창출"
+          },
+          {
+            "source_item_number": 3,
+            "text": "거버넌스 구축·운영, 홍보 총괄 및 지원"
+          },
+          {
+            "source_item_number": 4,
+            "text": "유역물관리위원회 지원 및 유역물관리종합계획 수립"
+          },
+          {
+            "source_item_number": 5,
+            "text": "수자원조사 및 환경 기초조사"
+          },
+          {
+            "source_item_number": 6,
+            "text": "사업계획 수립·운영 및 사업관리 총괄"
+          },
+          {
+            "source_item_number": 7,
+            "text": "수자원·수도건설사업 관리"
+          },
+          {
+            "source_item_number": 8,
+            "text": "유역 내 신재생에너지사업 관리"
+          },
+          {
+            "source_item_number": 9,
+            "text": "수량·수질관리 등 통합물관리 업무"
+          },
+          {
+            "source_item_number": 10,
+            "text": "수자원·수도시설 총괄 및 지원(진단, 안전점검 등)"
+          },
+          {
+            "source_item_number": 11,
+            "text": "재난·안전 및 리스크관리(경계 이상) 총괄 및 지원"
+          },
+          {
+            "source_item_number": 12,
+            "text": "댐-보 연계운영협의회 및 수계관리위원회 업무"
+          },
+          {
+            "source_item_number": 13,
+            "text": "유역 내 지방상수도 기술지원 및 현안 대응"
+          },
+          {
+            "source_item_number": 14,
+            "text": "지역 내 지방상수도 현대화사업, 스마트 관망관리"
+          }
+        ],
+        "departments": [
+          "경영처",
+          "사업처",
+          "유역관리처",
+          "유역수도지원센터(처)",
+          "유역협력단"
+        ],
+        "department_cell_status": "specified",
+        "duty_department_pairs": [],
+        "individual_employee_duties_assigned": false,
+        "review_status": "image_transcribed_by_codex",
+        "source_locator": {
+          "coordinate_system": "이미지 전사: PDF 쪽수·원문 이미지 연결, 문자 좌표 없음",
+          "pdf_pages": [
+            34
+          ],
+          "printed_pages": [
+            34
+          ],
+          "lines": [],
+          "section_kind": "annex",
+          "transcription_method": "manual_pdf_image_reading",
+          "source_images": [
+            {
+              "pdf_page": 34,
+              "path": "source/page-34.png",
+              "sha256": "45a697c72d9386ffe1e5fc0f99f1de4970e43eca84c5d315e58af382a3bd747a"
+            }
+          ]
+        },
+        "regulation_node_candidate_id": "f0cfceae-7c4f-52df-bd31-51a64c2bd842"
+      },
+      {
+        "row_key": "p34-r02",
+        "source_pdf_page": 34,
+        "source_page_row_order": 2,
+        "source_group_label": "금강유역본부",
+        "source_section_label": "유역본부, 도시본부, 지사·단",
+        "duties": [
+          {
+            "source_item_number": 1,
+            "text": "조직, 인사, 예산, 평가, 청렴도 등 경영지원 업무"
+          },
+          {
+            "source_item_number": 2,
+            "text": "수돗물(댐용수 포함) 영업 및 신규 수요 창출"
+          },
+          {
+            "source_item_number": 3,
+            "text": "거버넌스 구축·운영, 홍보 총괄 및 지원"
+          },
+          {
+            "source_item_number": 4,
+            "text": "유역물관리위원회 지원 및 유역물관리종합계획 수립"
+          },
+          {
+            "source_item_number": 5,
+            "text": "수자원조사 및 환경 기초조사"
+          },
+          {
+            "source_item_number": 6,
+            "text": "사업계획 수립·운영 및 사업관리 총괄"
+          },
+          {
+            "source_item_number": 7,
+            "text": "수자원·수도건설사업 관리"
+          },
+          {
+            "source_item_number": 8,
+            "text": "유역 내 신재생에너지사업 관리"
+          },
+          {
+            "source_item_number": 9,
+            "text": "수량·수질관리 등 통합물관리 업무"
+          },
+          {
+            "source_item_number": 10,
+            "text": "수자원·수도시설 총괄 및 지원(진단, 안전점검 등)"
+          },
+          {
+            "source_item_number": 11,
+            "text": "재난·안전 및 리스크관리(경계 이상) 총괄 및 지원"
+          },
+          {
+            "source_item_number": 12,
+            "text": "댐-보 연계운영협의회 및 수계관리위원회 업무"
+          },
+          {
+            "source_item_number": 13,
+            "text": "유역 내 지방상수도 기술지원 및 현안 대응"
+          },
+          {
+            "source_item_number": 14,
+            "text": "지역 내 지방상수도 현대화사업, 스마트 관망관리"
+          }
+        ],
+        "departments": [
+          "경영처",
+          "사업처",
+          "유역관리처",
+          "유역수도지원센터(처)",
+          "유역협력단"
+        ],
+        "department_cell_status": "specified",
+        "duty_department_pairs": [],
+        "individual_employee_duties_assigned": false,
+        "review_status": "image_transcribed_by_codex",
+        "source_locator": {
+          "coordinate_system": "이미지 전사: PDF 쪽수·원문 이미지 연결, 문자 좌표 없음",
+          "pdf_pages": [
+            34
+          ],
+          "printed_pages": [
+            34
+          ],
+          "lines": [],
+          "section_kind": "annex",
+          "transcription_method": "manual_pdf_image_reading",
+          "source_images": [
+            {
+              "pdf_page": 34,
+              "path": "source/page-34.png",
+              "sha256": "45a697c72d9386ffe1e5fc0f99f1de4970e43eca84c5d315e58af382a3bd747a"
+            }
+          ]
+        },
+        "regulation_node_candidate_id": "49a7f63a-7a1f-535a-b55a-4e1e62c59e0d"
+      },
+      {
+        "row_key": "p35-r01",
+        "source_pdf_page": 35,
+        "source_page_row_order": 1,
+        "source_group_label": "영·섬유역본부",
+        "source_section_label": "유역본부, 도시본부, 지사·단",
+        "duties": [
+          {
+            "source_item_number": 1,
+            "text": "조직, 인사, 예산, 평가, 청렴도 등 경영지원 업무"
+          },
+          {
+            "source_item_number": 2,
+            "text": "수돗물(댐용수 포함) 영업 및 신규 수요 창출"
+          },
+          {
+            "source_item_number": 3,
+            "text": "거버넌스 구축·운영, 홍보 총괄 및 지원"
+          },
+          {
+            "source_item_number": 4,
+            "text": "유역물관리위원회 지원 및 유역물관리종합계획 수립"
+          },
+          {
+            "source_item_number": 5,
+            "text": "수자원조사 및 환경 기초조사"
+          },
+          {
+            "source_item_number": 6,
+            "text": "사업계획 수립·운영 및 사업관리 총괄"
+          },
+          {
+            "source_item_number": 7,
+            "text": "수자원·수도건설사업 관리"
+          },
+          {
+            "source_item_number": 8,
+            "text": "유역 내 신재생에너지사업 관리"
+          },
+          {
+            "source_item_number": 9,
+            "text": "수량·수질관리 등 통합물관리 업무"
+          },
+          {
+            "source_item_number": 10,
+            "text": "수자원·수도시설 총괄 및 지원(진단, 안전점검 등)"
+          },
+          {
+            "source_item_number": 11,
+            "text": "재난·안전 및 리스크관리(경계 이상) 총괄 및 지원"
+          },
+          {
+            "source_item_number": 12,
+            "text": "댐-보 연계운영협의회 및 수계관리위원회 업무"
+          },
+          {
+            "source_item_number": 13,
+            "text": "유역 내 지방상수도 기술지원 및 현안 대응"
+          },
+          {
+            "source_item_number": 14,
+            "text": "지역 내 지방상수도 현대화사업, 스마트 관망관리"
+          }
+        ],
+        "departments": [
+          "경영처",
+          "사업처",
+          "유역관리처",
+          "유역수도지원센터(처)",
+          "유역협력단",
+          "제주지역협력본부"
+        ],
+        "department_cell_status": "specified",
+        "duty_department_pairs": [],
+        "individual_employee_duties_assigned": false,
+        "review_status": "image_transcribed_by_codex",
+        "source_locator": {
+          "coordinate_system": "이미지 전사: PDF 쪽수·원문 이미지 연결, 문자 좌표 없음",
+          "pdf_pages": [
+            35
+          ],
+          "printed_pages": [
+            35
+          ],
+          "lines": [],
+          "section_kind": "annex",
+          "transcription_method": "manual_pdf_image_reading",
+          "source_images": [
+            {
+              "pdf_page": 35,
+              "path": "source/page-35.png",
+              "sha256": "288f4cb267d62f6f6e5e4756e908d917f390b7377e2aafc62a89f5d6d4374ae6"
+            }
+          ]
+        },
+        "regulation_node_candidate_id": "5825716b-641e-5f3c-b917-64cdf60b092b"
+      },
+      {
+        "row_key": "p35-r02",
+        "source_pdf_page": 35,
+        "source_page_row_order": 2,
+        "source_group_label": "낙동강유역본부",
+        "source_section_label": "유역본부, 도시본부, 지사·단",
+        "duties": [
+          {
+            "source_item_number": 1,
+            "text": "조직, 인사, 예산, 평가, 청렴도 등 경영지원 업무"
+          },
+          {
+            "source_item_number": 2,
+            "text": "수돗물(댐용수 포함) 영업 및 신규 수요 창출"
+          },
+          {
+            "source_item_number": 3,
+            "text": "거버넌스 구축·운영, 홍보 총괄 및 지원"
+          },
+          {
+            "source_item_number": 4,
+            "text": "유역물관리위원회 지원 및 유역물관리종합계획 수립"
+          },
+          {
+            "source_item_number": 5,
+            "text": "수자원조사 및 환경 기초조사"
+          },
+          {
+            "source_item_number": 6,
+            "text": "사업계획 수립·운영 및 사업관리 총괄"
+          },
+          {
+            "source_item_number": 7,
+            "text": "수자원·수도건설사업 관리"
+          },
+          {
+            "source_item_number": 8,
+            "text": "유역 내 신재생에너지사업 관리"
+          },
+          {
+            "source_item_number": 9,
+            "text": "수량·수질관리 등 통합물관리 업무"
+          },
+          {
+            "source_item_number": 10,
+            "text": "수자원·수도시설 총괄 및 지원(진단, 안전점검 등)"
+          },
+          {
+            "source_item_number": 11,
+            "text": "재난·안전 및 리스크관리(경계 이상) 총괄 및 지원"
+          },
+          {
+            "source_item_number": 12,
+            "text": "댐-보 연계운영협의회 및 수계관리위원회 업무"
+          },
+          {
+            "source_item_number": 13,
+            "text": "유역 내 지방상수도 기술지원 및 현안 대응"
+          },
+          {
+            "source_item_number": 14,
+            "text": "지역 내 지방상수도 현대화사업, 스마트 관망관리"
+          }
+        ],
+        "departments": [
+          "경영처",
+          "사업처",
+          "유역관리처",
+          "유역수도지원센터(처)",
+          "경북지역협력단",
+          "부산울산경남지역협력단"
+        ],
+        "department_cell_status": "specified",
+        "duty_department_pairs": [],
+        "individual_employee_duties_assigned": false,
+        "review_status": "image_transcribed_by_codex",
+        "source_locator": {
+          "coordinate_system": "이미지 전사: PDF 쪽수·원문 이미지 연결, 문자 좌표 없음",
+          "pdf_pages": [
+            35
+          ],
+          "printed_pages": [
+            35
+          ],
+          "lines": [],
+          "section_kind": "annex",
+          "transcription_method": "manual_pdf_image_reading",
+          "source_images": [
+            {
+              "pdf_page": 35,
+              "path": "source/page-35.png",
+              "sha256": "288f4cb267d62f6f6e5e4756e908d917f390b7377e2aafc62a89f5d6d4374ae6"
+            }
+          ]
+        },
+        "regulation_node_candidate_id": "ced8f13d-9c1f-5685-abf2-e1dd8362e8fb"
+      },
+      {
+        "row_key": "p36-r01",
+        "source_pdf_page": 36,
+        "source_page_row_order": 1,
+        "source_group_label": "도시본부",
+        "source_section_label": "유역본부, 도시본부, 지사·단",
+        "duties": [
+          {
+            "source_item_number": 1,
+            "text": "본부 경영계획 수립 및 관리(안전관리 포함)"
+          },
+          {
+            "source_item_number": 2,
+            "text": "시화호 환경관리"
+          }
+        ],
+        "departments": [],
+        "department_cell_status": "source_blank",
+        "duty_department_pairs": [],
+        "individual_employee_duties_assigned": false,
+        "review_status": "image_transcribed_by_codex",
+        "source_locator": {
+          "coordinate_system": "이미지 전사: PDF 쪽수·원문 이미지 연결, 문자 좌표 없음",
+          "pdf_pages": [
+            36
+          ],
+          "printed_pages": [
+            36
+          ],
+          "lines": [],
+          "section_kind": "annex",
+          "transcription_method": "manual_pdf_image_reading",
+          "source_images": [
+            {
+              "pdf_page": 36,
+              "path": "source/page-36.png",
+              "sha256": "ce2743b24547e25235d74d261d3df3ad1c6e68f78530a3cd6a791207355b8b93"
+            }
+          ]
+        },
+        "regulation_node_candidate_id": "fa5f6848-4ec4-5f8f-b74b-2c7730759dd6"
+      },
+      {
+        "row_key": "p36-r02",
+        "source_pdf_page": 36,
+        "source_page_row_order": 2,
+        "source_group_label": "지사·단",
+        "source_section_label": "유역본부, 도시본부, 지사·단",
+        "duties": [
+          {
+            "source_item_number": 1,
+            "text": "수자원시설의 운영·관리"
+          },
+          {
+            "source_item_number": 2,
+            "text": "수질·수생태 등 물환경 관리"
+          },
+          {
+            "source_item_number": 3,
+            "text": "발전 등 에너지시설 운영·관리"
+          },
+          {
+            "source_item_number": 4,
+            "text": "상하수도시설의 운영·관리"
+          },
+          {
+            "source_item_number": 5,
+            "text": "산업단지, 지역개발 및 친수구역 등 도시조성"
+          },
+          {
+            "source_item_number": 6,
+            "text": "수자원시설의 건설"
+          },
+          {
+            "source_item_number": 7,
+            "text": "발전 등 에너지시설의 건설"
+          },
+          {
+            "source_item_number": 8,
+            "text": "수도시설의 건설"
+          },
+          {
+            "source_item_number": 9,
+            "text": "해외사업 개발 및 운영·관리"
+          },
+          {
+            "source_item_number": 10,
+            "text": "지방상수도 현대화사업, 스마트 관망관리"
+          }
+        ],
+        "departments": [],
+        "department_cell_status": "source_blank",
+        "duty_department_pairs": [],
+        "individual_employee_duties_assigned": false,
+        "review_status": "image_transcribed_by_codex",
+        "source_locator": {
+          "coordinate_system": "이미지 전사: PDF 쪽수·원문 이미지 연결, 문자 좌표 없음",
+          "pdf_pages": [
+            36
+          ],
+          "printed_pages": [
+            36
+          ],
+          "lines": [],
+          "section_kind": "annex",
+          "transcription_method": "manual_pdf_image_reading",
+          "source_images": [
+            {
+              "pdf_page": 36,
+              "path": "source/page-36.png",
+              "sha256": "ce2743b24547e25235d74d261d3df3ad1c6e68f78530a3cd6a791207355b8b93"
+            }
+          ]
+        },
+        "regulation_node_candidate_id": "964d4bd5-a228-5fb8-9fd2-2c3792169901"
+      }
+    ],
+    "blank_department_cell_means": "원문 공란. 하부기구 없음 또는 업무 담당 없음으로 판단하지 않음."
+  },
+  "user_reviews": {
+    "department_names": [
+      {
+        "candidate_id": "regional_water_support",
+        "candidate_name": "유역수도지원센터(처)",
+        "original_pdf_pages": [
+          34,
+          35
+        ],
+        "original_location": "별표4 분장업무표 오른쪽 소관부서 칸",
+        "original_text_extraction": "부서명 문자 없음; 이미지의 겹친 글자 확인",
+        "review_status": "user_confirmed_name",
+        "user_review": {
+          "status": "user_confirmed_name",
+          "reviewed_at": "2026-10-13",
+          "confirmed_name": "유역수도지원센터(처)",
+          "answer": "유역수도지원센터(처)로 확인",
+          "confirmed_original_location": {
+            "pdf_page": 34,
+            "organization": "한강유역본부",
+            "column": "소관부서"
+          },
+          "review_scope": "명칭 확인. 다른 반복 위치·개별 번호 업무의 부서 대응 관계까지 확인한 것은 아님."
+        },
+        "supporting_source_evidence": [
+          {
+            "pdf_page": 42,
+            "line_id": "p042l0004",
+            "bbox": [
+              520.32,
+              424.428,
+              1045.32,
+              436.428
+            ],
+            "source_text": "경영처 사업처 유역관리처 유역수도지원센터(처) 유역협력단",
+            "text_sha256": "57940e09bde743540d93e2ea044ec97b23f7644dd682d6ca28860b6ec2f5afa3"
+          },
+          {
+            "pdf_page": 43,
+            "line_id": "p043l0004",
+            "bbox": [
+              520.2,
+              433.548,
+              1045.56,
+              445.548
+            ],
+            "source_text": "경영처 사업처 유역관리처 유역수도지원센터(처) 유역협력단",
+            "text_sha256": "57940e09bde743540d93e2ea044ec97b23f7644dd682d6ca28860b6ec2f5afa3"
+          },
+          {
+            "pdf_page": 44,
+            "line_id": "p044l0004",
+            "bbox": [
+              520.56,
+              428.748,
+              1177.44,
+              440.748
+            ],
+            "source_text": "경영처 사업처 유역관리처 유역수도지원센터(처) 유역협력단 제주지역협력본부",
+            "text_sha256": "340c60d16f5709feab9c1515bfee9b2ce13f91796cbcc454ecf8b0919e88c60a"
+          },
+          {
+            "pdf_page": 45,
+            "line_id": "p045l0004",
+            "bbox": [
+              520.08,
+              409.548,
+              1188.24,
+              421.548
+            ],
+            "source_text": "경영처 사업처 유역관리처 유역수도지원센터(처) 경북지역협력단 부산울산경남지역협력단",
+            "text_sha256": "85ea9c86fb708e27d6cd40e5b57769526765ae33706b0bb2c5a0a3a3513a072a"
+          }
+        ],
+        "normalized_name_applied_to_main_data": false,
+        "individual_duty_department_mapping": null
+      },
+      {
+        "candidate_id": "jeju_cooperation",
+        "candidate_name": "제주지역협력본부",
+        "original_pdf_pages": [
+          35
+        ],
+        "original_location": "별표4 분장업무표 오른쪽 소관부서 칸",
+        "original_text_extraction": "부서명 문자 없음; 이미지의 겹친 글자 확인",
+        "review_status": "user_confirmed_name",
+        "user_review": {
+          "status": "user_confirmed_name",
+          "reviewed_at": "2026-10-13",
+          "confirmed_name": "제주지역협력본부",
+          "answer": "세 명칭 모두 확인",
+          "confirmed_original_location": {
+            "pdf_page": 35,
+            "organization": "영·섬유역본부",
+            "column": "소관부서"
+          },
+          "review_scope": "소관부서 명칭 확인. 개별 번호 업무와 해당 부서의 대응 관계를 자동 생성하는 확인은 아님."
+        },
+        "supporting_source_evidence": [
+          {
+            "pdf_page": 44,
+            "line_id": "p044l0004",
+            "bbox": [
+              520.56,
+              428.748,
+              1177.44,
+              440.748
+            ],
+            "source_text": "경영처 사업처 유역관리처 유역수도지원센터(처) 유역협력단 제주지역협력본부",
+            "text_sha256": "340c60d16f5709feab9c1515bfee9b2ce13f91796cbcc454ecf8b0919e88c60a"
+          }
+        ],
+        "normalized_name_applied_to_main_data": false,
+        "individual_duty_department_mapping": null
+      },
+      {
+        "candidate_id": "gyeongbuk_cooperation",
+        "candidate_name": "경북지역협력단",
+        "original_pdf_pages": [
+          35
+        ],
+        "original_location": "별표4 분장업무표 오른쪽 소관부서 칸",
+        "original_text_extraction": "부서명 문자 없음; 이미지의 겹친 글자 확인",
+        "review_status": "user_confirmed_name",
+        "user_review": {
+          "status": "user_confirmed_name",
+          "reviewed_at": "2026-10-13",
+          "confirmed_name": "경북지역협력단",
+          "answer": "세 명칭 모두 확인",
+          "confirmed_original_location": {
+            "pdf_page": 35,
+            "organization": "낙동강유역본부",
+            "column": "소관부서"
+          },
+          "review_scope": "소관부서 명칭 확인. 개별 번호 업무와 해당 부서의 대응 관계를 자동 생성하는 확인은 아님."
+        },
+        "supporting_source_evidence": [
+          {
+            "pdf_page": 45,
+            "line_id": "p045l0004",
+            "bbox": [
+              520.08,
+              409.548,
+              1188.24,
+              421.548
+            ],
+            "source_text": "경영처 사업처 유역관리처 유역수도지원센터(처) 경북지역협력단 부산울산경남지역협력단",
+            "text_sha256": "85ea9c86fb708e27d6cd40e5b57769526765ae33706b0bb2c5a0a3a3513a072a"
+          }
+        ],
+        "normalized_name_applied_to_main_data": false,
+        "individual_duty_department_mapping": null
+      },
+      {
+        "candidate_id": "busan_ulsan_gyeongnam_cooperation",
+        "candidate_name": "부산울산경남지역협력단",
+        "original_pdf_pages": [
+          35
+        ],
+        "original_location": "별표4 분장업무표 오른쪽 소관부서 칸",
+        "original_text_extraction": "부서명 문자 없음; 이미지의 겹친 글자 확인",
+        "review_status": "user_confirmed_name",
+        "user_review": {
+          "status": "user_confirmed_name",
+          "reviewed_at": "2026-10-13",
+          "confirmed_name": "부산울산경남지역협력단",
+          "answer": "세 명칭 모두 확인",
+          "confirmed_original_location": {
+            "pdf_page": 35,
+            "organization": "낙동강유역본부",
+            "column": "소관부서"
+          },
+          "review_scope": "소관부서 명칭 확인. 개별 번호 업무와 해당 부서의 대응 관계를 자동 생성하는 확인은 아님."
+        },
+        "supporting_source_evidence": [
+          {
+            "pdf_page": 45,
+            "line_id": "p045l0004",
+            "bbox": [
+              520.08,
+              409.548,
+              1188.24,
+              421.548
+            ],
+            "source_text": "경영처 사업처 유역관리처 유역수도지원센터(처) 경북지역협력단 부산울산경남지역협력단",
+            "text_sha256": "85ea9c86fb708e27d6cd40e5b57769526765ae33706b0bb2c5a0a3a3513a072a"
+          }
+        ],
+        "normalized_name_applied_to_main_data": false,
+        "individual_duty_department_mapping": null
+      }
+    ],
+    "duty_department_handling": {
+      "reviewed_at": "2026-10-13",
+      "answer": "목록은 함께 보존, 업무별 부서는 추가 근거로 확인 (권장)",
+      "scope": "원문 행의 업무 목록·소관부서 목록을 함께 보존. 업무별 담당부서 자동 배분 없음."
+    }
+  },
+  "related_provisions": [
+    {
+      "node_id": "da0241cc-24f6-589e-9d2c-6f2e6088b920",
+      "body_text": "제4조(임원) ① 공사의 임원은 상임이사와 비상임이사로 구분하고 상임이사는 사장과 상임감사위\n원, 부문장으로 한다. <개정 2016.12.01 ,개정 2017.12.29, 2020.01.16, 2020.03.24, 2020.08.0\n4, 2023.12.04>\n② 제1항에 따른 부문장은 기획부문장, 경영부문장, 수자원환경부문장, 수도부문장, 그린인프라부\n문장으로 한다. <2020.03.24, 개정 2020.08.04, 2020.12.14, 2023.12.04>\n③ 사장은 공사를 대표하고 공사의 업무를 총괄하며, 경영성과에 대하여 책임을 진다.\n④ 사장은 부문장 중에서 부사장겸부문장(이하 \"부사장\"이라 한다) 1인을 둘 수 있으며, 부사장은\n사장을 보좌하고 사장이 부득이한 사유로 그 직무를 수행할 수 없을 때에는 그 직무를 대행한다.\n<개정 2017.12.29, 2018.11.27, 2020.08.04, 2023.12.04>\n⑤ 부문장은 사장을 보좌하고, 사장과 부사장이 부득이한 사유로 그 직무를 수행할 수 없을 때에\n는 기획부문장, 경영부문장, 수자원환경부문장, 수도부문장, 그린인프라부문장 순으로 그 직무를\n대행한다. <개정 2010.12.02 ,개정 2013.12.03,개정 2014.09.03,개정 2014.12.08,개정\n2016.12.01,개정 2017.06.27,개정 2017.12.29, 2018.11.27, 2020.01.16, 2020.03.24,\n2020.08.04, 2020.12.14, 2023.12.04>\n⑥ 상임감사위원은 공사의 업무와 회계를 감사하고 공직기강 및 사정업무를 총괄한다.\n제4조의2 <본조 삭제 2005.11.28> <삭제 2005.11.28>\n직제규정",
+      "source_locator": {
+        "coordinate_system": "PDF point; 원점=페이지 왼쪽 위",
+        "pdf_pages": [
+          1,
+          2
+        ],
+        "lines": [
+          {
+            "line_id": "p001l0010",
+            "page": 1,
+            "bbox": [
+              70.92,
+              467.291,
+              511.846,
+              477.251
+            ]
+          },
+          {
+            "line_id": "p001l0011",
+            "page": 1,
+            "bbox": [
+              85.08,
+              482.364,
+              524.187,
+              493.211
+            ]
+          },
+          {
+            "line_id": "p001l0012",
+            "page": 1,
+            "bbox": [
+              85.08,
+              498.444,
+              155.002,
+              508.404
+            ]
+          },
+          {
+            "line_id": "p001l0013",
+            "page": 1,
+            "bbox": [
+              85.08,
+              515.53,
+              522.438,
+              525.491
+            ]
+          },
+          {
+            "line_id": "p001l0014",
+            "page": 1,
+            "bbox": [
+              85.08,
+              530.604,
+              421.486,
+              541.451
+            ]
+          },
+          {
+            "line_id": "p001l0015",
+            "page": 1,
+            "bbox": [
+              85.08,
+              547.69,
+              471.893,
+              557.651
+            ]
+          },
+          {
+            "line_id": "p001l0016",
+            "page": 1,
+            "bbox": [
+              85.08,
+              563.891,
+              521.143,
+              573.851
+            ]
+          },
+          {
+            "line_id": "p001l0017",
+            "page": 1,
+            "bbox": [
+              85.08,
+              579.85,
+              522.54,
+              589.811
+            ]
+          },
+          {
+            "line_id": "p001l0018",
+            "page": 1,
+            "bbox": [
+              85.08,
+              595.044,
+              350.026,
+              605.004
+            ]
+          },
+          {
+            "line_id": "p001l0019",
+            "page": 1,
+            "bbox": [
+              85.08,
+              612.131,
+              522.538,
+              622.091
+            ]
+          },
+          {
+            "line_id": "p001l0020",
+            "page": 1,
+            "bbox": [
+              85.08,
+              628.091,
+              516.862,
+              638.051
+            ]
+          },
+          {
+            "line_id": "p001l0021",
+            "page": 1,
+            "bbox": [
+              85.08,
+              643.164,
+              482.088,
+              654.011
+            ]
+          },
+          {
+            "line_id": "p001l0022",
+            "page": 1,
+            "bbox": [
+              85.08,
+              659.244,
+              480.108,
+              669.204
+            ]
+          },
+          {
+            "line_id": "p001l0023",
+            "page": 1,
+            "bbox": [
+              85.08,
+              675.204,
+              259.984,
+              685.164
+            ]
+          },
+          {
+            "line_id": "p001l0024",
+            "page": 1,
+            "bbox": [
+              85.08,
+              692.291,
+              473.433,
+              702.251
+            ]
+          },
+          {
+            "line_id": "p001l0025",
+            "page": 1,
+            "bbox": [
+              70.92,
+              722.411,
+              317.599,
+              732.371
+            ]
+          },
+          {
+            "line_id": "p002l0001",
+            "page": 2,
+            "bbox": [
+              70.92,
+              46.32,
+              110.861,
+              56.28
+            ]
+          }
+        ],
+        "section_kind": "body"
+      },
+      "text_sha256": "19d08221ab36c9d738845baf3d3b34e0d83ce292fb9912b4e62fc0cefebb0123"
+    },
+    {
+      "node_id": "41f0f91b-4b33-51af-8166-ada2c7251471",
+      "body_text": "제6조(기구) ① 공사는 본사와 K-water연구원, 인재개발원, 유역본부, 도시본부, 지사·단을 둔다.\n<개정 2012.12.05 ,개정 2013.12.03,개정 2014.12.08,개정 2015.12.09,개정 2016.12.01,개정\n2017.12.29, 2018.11.27, 2020.01.16, 2020.08.04, 2022.11.24, 2023.12.04>\n② 제1항에 따른 기구 및 지휘체계는 별표 1과 같다.\n③ 지사·단 등의 설치, 변경 또는 폐지는 시행세칙으로 정한다. < 개정 2013.12.03 ,개정\n2017.12.29>\n④ 제1항에 따른 각 기구에는 하부기구를 둘 수 있으며, 이에 대한 세부사항은 시행세칙으로 정\n한다.",
+      "source_locator": {
+        "coordinate_system": "PDF point; 원점=페이지 왼쪽 위",
+        "pdf_pages": [
+          2
+        ],
+        "lines": [
+          {
+            "line_id": "p002l0006",
+            "page": 2,
+            "bbox": [
+              70.92,
+              234.491,
+              511.499,
+              244.451
+            ]
+          },
+          {
+            "line_id": "p002l0007",
+            "page": 2,
+            "bbox": [
+              85.08,
+              249.564,
+              515.009,
+              259.524
+            ]
+          },
+          {
+            "line_id": "p002l0008",
+            "page": 2,
+            "bbox": [
+              85.08,
+              265.644,
+              439.968,
+              275.604
+            ]
+          },
+          {
+            "line_id": "p002l0009",
+            "page": 2,
+            "bbox": [
+              85.08,
+              282.731,
+              323.986,
+              292.691
+            ]
+          },
+          {
+            "line_id": "p002l0010",
+            "page": 2,
+            "bbox": [
+              85.08,
+              298.044,
+              487.902,
+              308.891
+            ]
+          },
+          {
+            "line_id": "p002l0011",
+            "page": 2,
+            "bbox": [
+              85.08,
+              314.004,
+              139.962,
+              323.964
+            ]
+          },
+          {
+            "line_id": "p002l0012",
+            "page": 2,
+            "bbox": [
+              85.08,
+              331.091,
+              524.313,
+              341.051
+            ]
+          },
+          {
+            "line_id": "p002l0013",
+            "page": 2,
+            "bbox": [
+              85.08,
+              347.051,
+              107.69,
+              357.011
+            ]
+          }
+        ],
+        "section_kind": "body"
+      },
+      "text_sha256": "742b043ea7cc745327117d3143791d43aba3cec17aa495a4fede734120852c4a"
+    },
+    {
+      "node_id": "98de58f1-1a7e-569b-8716-f06e16086316",
+      "body_text": "제9조(지휘체계 및 분장업무) ① 부사장, 각 부문장은 제6조제2항에 따른 소관 부서의 업무를 총괄\n하고, 소속직원을 지휘·감독한다. <개정 2012.12.05 ,개정 2013.12.03,개정 2014.12.08,개정 20\n16.12.01,개정 2017.12.29, 2020.01.16, 2020.08.04, 2023.12.04>\n② <삭제 2007.12.06>\n③ 부사장 및 각 부문 등의 분장업무는 별표 4와 같으며, 분장업무에는 해당 업무관련 법령 연구\n및 제도개선 사항이 포함된 것으로 본다. <개정 2016.12.01, 2020.01.16, 2020.08.04>",
+      "source_locator": {
+        "coordinate_system": "PDF point; 원점=페이지 왼쪽 위",
+        "pdf_pages": [
+          2,
+          3
+        ],
+        "lines": [
+          {
+            "line_id": "p002l0028",
+            "page": 2,
+            "bbox": [
+              70.92,
+              704.291,
+              521.738,
+              714.251
+            ]
+          },
+          {
+            "line_id": "p002l0029",
+            "page": 2,
+            "bbox": [
+              85.08,
+              719.364,
+              520.947,
+              730.211
+            ]
+          },
+          {
+            "line_id": "p002l0030",
+            "page": 2,
+            "bbox": [
+              85.08,
+              735.444,
+              390.067,
+              745.404
+            ]
+          },
+          {
+            "line_id": "p003l0001",
+            "page": 3,
+            "bbox": [
+              85.08,
+              82.331,
+              185.678,
+              92.291
+            ]
+          },
+          {
+            "line_id": "p003l0002",
+            "page": 3,
+            "bbox": [
+              85.08,
+              98.531,
+              523.434,
+              108.491
+            ]
+          },
+          {
+            "line_id": "p003l0003",
+            "page": 3,
+            "bbox": [
+              85.08,
+              113.604,
+              478.765,
+              124.451
+            ]
+          }
+        ],
+        "section_kind": "body"
+      },
+      "text_sha256": "68416dab46abb0f0db9fd4a5a77d8d47ded62d978770dea625be97aee6d78e51"
+    }
+  ],
+  "source_images": [
+    {
+      "pdf_page": 27,
+      "path": "source/page-27.png",
+      "sha256": "5b3ce6a1fa955e90ad99f105a47e1dc9724b96047bade513b3c59a46e87eb1a3"
+    },
+    {
+      "pdf_page": 29,
+      "path": "source/page-29.png",
+      "sha256": "4f09a2b2d5081fa245b5646bd196bd821bfde71b09a5d10e277f0c3c330303c1"
+    },
+    {
+      "pdf_page": 30,
+      "path": "source/page-30.png",
+      "sha256": "86968b64fcd1038320a91ae907877609edd631bc3f52d9f1d592300596eab9e8"
+    },
+    {
+      "pdf_page": 31,
+      "path": "source/page-31.png",
+      "sha256": "411ab87feda78f3b16c5285af6f33386b6be19f6a88b2ae4ea4376224960c4d9"
+    },
+    {
+      "pdf_page": 32,
+      "path": "source/page-32.png",
+      "sha256": "8664b1c934b02c7e853c50f71acc7348af0dc9ccb2330b0413b285de058e768a"
+    },
+    {
+      "pdf_page": 33,
+      "path": "source/page-33.png",
+      "sha256": "3001ba2300c1760ab40b9b98f261c9b0a2409eaa73a95c9fa50e4483f1f8af43"
+    },
+    {
+      "pdf_page": 34,
+      "path": "source/page-34.png",
+      "sha256": "45a697c72d9386ffe1e5fc0f99f1de4970e43eca84c5d315e58af382a3bd747a"
+    },
+    {
+      "pdf_page": 35,
+      "path": "source/page-35.png",
+      "sha256": "288f4cb267d62f6f6e5e4756e908d917f390b7377e2aafc62a89f5d6d4374ae6"
+    },
+    {
+      "pdf_page": 36,
+      "path": "source/page-36.png",
+      "sha256": "ce2743b24547e25235d74d261d3df3ad1c6e68f78530a3cd6a791207355b8b93"
+    }
+  ],
+  "rag_row_candidates": {
+    "regulation_node": [
+      {
+        "regulation_node_id": "9cdbc442-d519-5f40-b909-f66ef99c4a49",
+        "regulation_version_id": "2483b6cc-8ae5-595a-9213-44fd885dda6b",
+        "regulation_file_id": "bf01d765-9b8b-563d-a378-6f42aabc01a6",
+        "parent_node_id": "466ee4c6-62f7-5819-9f66-652593a107e7",
+        "node_type": "annex",
+        "label": "별표1",
+        "title": "기구표",
+        "path": "직제규정 > 별표1 > 기구표",
+        "display_order": 147,
+        "body_text": "【별표 1】 기구표 (제6조제2항 관련)\n상단 표시: 이사회, 사장, 상임감사위원, 부사장*\n기구명 전사 목록(그림의 표시 영역별 정리):\n사장 부근: 비서실, 홍보실\n상임감사위원 부근: 감사실\n안전본부: 안전본부, 건설안전처\n기획부문: 기획부문, 기획조정실, 신성장전략단, 경영혁신실, 법무실\n경영부문: 경영부문, 인재경영실, 노사협력처, 재무관리처, 정보보안처, 비상계획처\nAI본부: AI본부, AI혁신처, 디지털관리처, AI데이터센터\n수자원환경부문: 수자원환경부문, 수자원기획처, 수자원개발처, 수자원시설처, 수자원운영처, 수자원정책지원단\n환경본부: 환경본부, 물환경계획처, 물환경관리처\n재생에너지본부: 재생에너지본부, 에너지기획처, 에너지사업처\n수도부문: 수도부문, 수도기획처, 수도개발처, 수도관리처, 지방수도처, 산업용수처, 물종합진단처\n기술본부: 기술본부, 기술기획처, 설계처\n그린인프라부문: 그린인프라부문, 수변기획처, 수변사업처, 친수사업처, 공간경관처, 기후테크혁신처\n글로벌사업본부: 글로벌사업본부, 글로벌사업처, 글로벌협력처, 기후협력개발처\n별도 표시 기구: K-water연구원, 인재개발원, 도시본부, 지사·단\n한강유역본부: 한강유역본부, 경영처, 사업처, 유역관리처, 유역수도지원센터(처), 유역협력단\n금강유역본부: 금강유역본부, 경영처, 사업처, 유역관리처, 유역수도지원센터(처), 유역협력단\n영·섬유역본부: 영·섬유역본부, 경영처, 사업처, 유역관리처, 유역수도지원센터(처), 유역협력단, 제주지역협력본부\n낙동강유역본부: 낙동강유역본부, 경영처, 사업처, 유역관리처, 유역수도지원센터(처), 경북지역협력단, 부산·울산·경남 지역협력단\n* 부사장은 제4조제4항의 규정에 따라 부문장 겸임",
+        "source_locator": {
+          "coordinate_system": "이미지 전사: PDF 쪽수·원문 이미지 연결, 문자 좌표 없음",
+          "pdf_pages": [
+            27
+          ],
+          "printed_pages": [
+            27
+          ],
+          "lines": [],
+          "section_kind": "annex",
+          "transcription_method": "manual_pdf_image_reading",
+          "source_images": [
+            {
+              "pdf_page": 27,
+              "path": "source/page-27.png",
+              "sha256": "5b3ce6a1fa955e90ad99f105a47e1dc9724b96047bade513b3c59a46e87eb1a3"
+            }
+          ]
+        },
+        "effective_from_override": null,
+        "effective_to_override": null,
+        "extraction_status": "manual_image_transcribed",
+        "review_note": "원문 이미지 전사. 줄바꿈·자간 공백 정리. 부서명 교차 대조와 사용자 확인은 별도 근거 연결. 개인별 적용 자동 판정 없음. 명칭과 표시 영역 전사이며 기구 사이 지휘선·상하관계를 직원 소속 판단에 자동 사용하지 않음."
+      },
+      {
+        "regulation_node_id": "86043129-435f-516c-8100-100b379aa29b",
+        "regulation_version_id": "2483b6cc-8ae5-595a-9213-44fd885dda6b",
+        "regulation_file_id": "bf01d765-9b8b-563d-a378-6f42aabc01a6",
+        "parent_node_id": "466ee4c6-62f7-5819-9f66-652593a107e7",
+        "node_type": "annex",
+        "label": "별표4",
+        "title": "분장업무",
+        "path": "직제규정 > 별표4 > 분장업무",
+        "display_order": 148,
+        "body_text": "【별표 4】 (제9조제3항 관련) 분장업무\n구분: 사장직할\n분장업무:\n1. 비서업무\n2. 대국민홍보 및 CIP업무\n3. 언론매체 및 대외기관 홍보업무\n소관부서: 비서실 / 홍보실\n\n구분: 상임감사위원직할\n분장업무:\n1. 내부감사 시행 및 외부감사 지원\n2. 사정 및 비위사항의 처리\n3. 대통령 비서실 및 국무총리실에서 이첩된 청원서의 처리\n소관부서: 감사실\n\n구분: 안전본부\n분장업무:\n1. 안전보건관리체계 구축 및 제도 관리\n2. 재난·시설물·산업·건설안전 이행관리\n3. 건설·품질안전 이행관리\n소관부서: 건설안전처\n\n구분: 기획부문\n분장업무:\n1. 국회, 이사회, 조직 및 예산관리\n2. 공공기관 혁신 등 정부 정책 대응 총괄\n3. 장단기 경영계획, 전략 수립 및 정책화\n4. 국가 물관리체계 개선 정책 대응 및 기후위기대응 총괄\n5. 사업 분석·조정 및 신규 사업 기획(사업실명제 포함)\n6. ESG경영, 경영혁신 등 경영관리 및 경영평가 업무\n7. 청렴도·내부통제 및 국내·외 출자회사 관리 총괄\n8. 관련법령·사규 관리, 소송업무(해외사업 지원 포함), 갈등관리 총괄\n9. 기타 공사 중요업무 전반에 대한 기획 및 관리\n소관부서: 기획조정실 / 신성장전략단 / 경영혁신실 / 법무실\n\n구분: 경영부문\n분장업무:\n1. 문서, 행사, 사옥관리 등 경영지원 업무\n2. 인사제도·운영 및 채용\n3. 노무 및 복지 후생업무\n4. 회계, 결산 및 세무, 자금의 조달 및 운영\n5. 공사·용역 및 자재 계약관리, 자산관리 업무(국유재산 포함)\n6. 보안정책(시설, 인원, 문서, 암호자재, 방첩 등) 및 개인정보보호정책 관리 총괄\n7. 비상계획업무\n소관부서: 인재경영실 / 노사협력처 / 재무관리처 / 정보보안처 / 비상계획처\n\n구분: AI본부\n분장업무:\n1. AI 및 디지털 기획, 전략 수립, 기술 지원\n2. 디지털플랫폼 구축·운영관리\n3. 전사 데이터 관련 정책 및 제도, 규정 총괄\n4. 전사 데이터 분석·활용 및 서비스\n5. 정보시스템, 정보통신망 등 구축 및 운영관리\n6. 기타 데이터 및 정보화 분야에 관한 사항\n소관부서: AI혁신처 / 디지털관리처 / AI데이터센터\n\n구분: 수자원환경부문\n분장업무:\n1. 수자원사업 경영계획\n2. 댐 주변지역 지원사업, 거버넌스 관리, 지역협력, 보상 총괄\n3. 댐용수 영업, 공급 및 수요관리\n4. 국가물관리기본계획, 유역물관리종합계획, 하천유역수자원관리계획 등 법정계획 수립총괄\n5. 유역별 물관리 및 사업계획 수립\n6. 수자원 조사 총괄, 북한사업 조사\n7. 건설사업 타당성조사, 기본계획 수립 및 인허가 업무\n8. 수자원사업 개발 및 관리\n9. 지표수-지하수 연계 및 지하수 조사·사업 추진 총괄\n10. 수자원시설 운영 및 관리(아라뱃길 포함)\n11. 통합물관리(수량·수질) 추진 및 분쟁 총괄\n12. 전국 가뭄분석, 가뭄모니터링 및 예·경보 지원\n13. 보·하천 시설물 관리 및 정책지원 총괄\n14. 기타 위 호와 관련된 사항\n소관부서: 수자원기획처 / 수자원개발처 / 수자원시설처 / 수자원운영처 / 수자원정책지원단\n\n구분: 환경본부\n분장업무:\n1. 물환경·수생태 관리 및 수질개선 종합대책 수립·시행\n2. 물환경 개선, 경관생태 및 친환경·생태복원 업무\n3. 물환경 안전 분야 조사·연구 및 검증·평가사업 총괄\n4. 물환경 분야 수질사고 대응 및 유역 수질검사소 총괄\n소관부서: 물환경계획처 / 물환경관리처\n\n구분: 재생에너지본부\n분장업무:\n1. 탄소중립 등 녹색전환 정책 기획·지원 총괄\n2. 재생에너지 등 에너지사업 기획 및 정책지원\n3. 재생에너지 등 에너지사업 계획, 개발 및 관리\n4. 시화조력 관리 총괄\n5. 기타 녹색전환 및 에너지 등에 관한 사항\n소관부서: 에너지기획처 / 에너지사업처\n\n구분: 수도부문\n분장업무:\n1. 수도사업 경영계획\n2. 물공급 제도 개선 및 국가수도종합계획 등 통합계획 수립\n3. 댐용수·수도 요금, 수도 영업·공급 및 수요관리\n4. 수도사업 개발 및 관리\n5. 수도시설 유지관리 및 종합개선\n6. 수도시설 운영 및 공급관리\n7. 수도시설 재난안전 및 위기관리 대응 총괄\n8. 유역수도지원센터 운영관리 총괄\n9. 국가수도정보센터 운영 및 관리\n10. 지방상수도 관리 및 종합개선\n11. 지방상수도 시설 운영 및 공급관리\n12. 산업용수사업 운영관리\n13. 초순수·해수담수화·재이용 등 사업개발\n14. 물인프라 기술진단·지원\n15. 기타 위 호와 관련된 사항\n소관부서: 수도기획처 / 수도개발처 / 수도관리처 / 지방수도처 / 산업용수처 / 물종합진단처\n\n구분: 기술본부\n분장업무:\n1. 기술기획·전략 수립 및 미래기술 총괄\n2. 기술전략에 따른 기술과제 심의·선정 및 관리\n3. 건설사업 제도, 기술심의 및 건설원가 관리\n4. 기술기준 제·개정, 관리체계 개선 및 표준화\n5. 기본구상 수립 및 설계의 기술적 타당성 검토 및 기술 지원\n6. 수자원, 수도, 도시 및 에너지 사업 등 설계\n소관부서: 기술기획처 / 설계처\n\n구분: 그린인프라부문\n분장업무:\n1. 수변사업 경영계획 및 사업관리\n2. 수변사업 추진 총괄\n3. 부산 에코델타 스마트시티 사업 추진 총괄\n4. 건축사업 계획 및 관리\n5. 조경사업 계획 및 관리\n6. 기타 국내·외 수변사업 등에 관한 사항\n7. 물산업 육성, 중소기업 동반성장 및 지원\n8. 신기술 및 특허 등 지식재산권 관리\n소관부서: 수변기획처 / 수변사업처 / 친수사업처 / 공간경관처 / 기후테크혁신처\n\n구분: 글로벌사업본부\n분장업무:\n1. 해외사업 추진전략 및 세부 시행계획 수립\n2. 해외사업 리스크관리\n3. 해외 투자사업 및 수주사업 개발·관리\n4. 해외사업 조사, 타당성 분석(재무, 법무, 기술) 및 금융조달\n5. 국제기구, 국가별 관계기관 협력 및 글로벌 네트워크 활동\n6. ODA사업 개발, 수행 및 관리\n소관부서: 글로벌사업처 / 글로벌협력처 / 기후협력개발처\n\n구분: K-water연구원\n분장업무:\n1. 수자원분야 연구개발 및 기술지원\n2. 상하수도분야 연구개발 및 기술지원\n3. 물에너지·설비분야 연구개발 및 기술지원\n4. 정책·경제 등 경영분야 연구 및 지원\n5. 인공지능 응용연구 및 기술 개발\n6. 연구관련 대외협력업무\n소관부서: [원문 칸 공란]\n\n구분: 인재개발원\n분장업무:\n1. 중장기 인재육성 및 장·단기 교육계획 수립·시행\n2. 공무원·기업체 및 글로벌 교육과정 시행\n소관부서: [원문 칸 공란]\n\n구분: 한강유역본부\n분장업무:\n1. 조직, 인사, 예산, 평가, 청렴도 등 경영지원 업무\n2. 수돗물(댐용수 포함) 영업 및 신규 수요 창출\n3. 거버넌스 구축·운영, 홍보 총괄 및 지원\n4. 유역물관리위원회 지원 및 유역물관리종합계획 수립\n5. 수자원조사 및 환경 기초조사\n6. 사업계획 수립·운영 및 사업관리 총괄\n7. 수자원·수도건설사업 관리\n8. 유역 내 신재생에너지사업 관리\n9. 수량·수질관리 등 통합물관리 업무\n10. 수자원·수도시설 총괄 및 지원(진단, 안전점검 등)\n11. 재난·안전 및 리스크관리(경계 이상) 총괄 및 지원\n12. 댐-보 연계운영협의회 및 수계관리위원회 업무\n13. 유역 내 지방상수도 기술지원 및 현안 대응\n14. 지역 내 지방상수도 현대화사업, 스마트 관망관리\n소관부서: 경영처 / 사업처 / 유역관리처 / 유역수도지원센터(처) / 유역협력단\n\n구분: 금강유역본부\n분장업무:\n1. 조직, 인사, 예산, 평가, 청렴도 등 경영지원 업무\n2. 수돗물(댐용수 포함) 영업 및 신규 수요 창출\n3. 거버넌스 구축·운영, 홍보 총괄 및 지원\n4. 유역물관리위원회 지원 및 유역물관리종합계획 수립\n5. 수자원조사 및 환경 기초조사\n6. 사업계획 수립·운영 및 사업관리 총괄\n7. 수자원·수도건설사업 관리\n8. 유역 내 신재생에너지사업 관리\n9. 수량·수질관리 등 통합물관리 업무\n10. 수자원·수도시설 총괄 및 지원(진단, 안전점검 등)\n11. 재난·안전 및 리스크관리(경계 이상) 총괄 및 지원\n12. 댐-보 연계운영협의회 및 수계관리위원회 업무\n13. 유역 내 지방상수도 기술지원 및 현안 대응\n14. 지역 내 지방상수도 현대화사업, 스마트 관망관리\n소관부서: 경영처 / 사업처 / 유역관리처 / 유역수도지원센터(처) / 유역협력단\n\n구분: 영·섬유역본부\n분장업무:\n1. 조직, 인사, 예산, 평가, 청렴도 등 경영지원 업무\n2. 수돗물(댐용수 포함) 영업 및 신규 수요 창출\n3. 거버넌스 구축·운영, 홍보 총괄 및 지원\n4. 유역물관리위원회 지원 및 유역물관리종합계획 수립\n5. 수자원조사 및 환경 기초조사\n6. 사업계획 수립·운영 및 사업관리 총괄\n7. 수자원·수도건설사업 관리\n8. 유역 내 신재생에너지사업 관리\n9. 수량·수질관리 등 통합물관리 업무\n10. 수자원·수도시설 총괄 및 지원(진단, 안전점검 등)\n11. 재난·안전 및 리스크관리(경계 이상) 총괄 및 지원\n12. 댐-보 연계운영협의회 및 수계관리위원회 업무\n13. 유역 내 지방상수도 기술지원 및 현안 대응\n14. 지역 내 지방상수도 현대화사업, 스마트 관망관리\n소관부서: 경영처 / 사업처 / 유역관리처 / 유역수도지원센터(처) / 유역협력단 / 제주지역협력본부\n\n구분: 낙동강유역본부\n분장업무:\n1. 조직, 인사, 예산, 평가, 청렴도 등 경영지원 업무\n2. 수돗물(댐용수 포함) 영업 및 신규 수요 창출\n3. 거버넌스 구축·운영, 홍보 총괄 및 지원\n4. 유역물관리위원회 지원 및 유역물관리종합계획 수립\n5. 수자원조사 및 환경 기초조사\n6. 사업계획 수립·운영 및 사업관리 총괄\n7. 수자원·수도건설사업 관리\n8. 유역 내 신재생에너지사업 관리\n9. 수량·수질관리 등 통합물관리 업무\n10. 수자원·수도시설 총괄 및 지원(진단, 안전점검 등)\n11. 재난·안전 및 리스크관리(경계 이상) 총괄 및 지원\n12. 댐-보 연계운영협의회 및 수계관리위원회 업무\n13. 유역 내 지방상수도 기술지원 및 현안 대응\n14. 지역 내 지방상수도 현대화사업, 스마트 관망관리\n소관부서: 경영처 / 사업처 / 유역관리처 / 유역수도지원센터(처) / 경북지역협력단 / 부산울산경남지역협력단\n\n구분: 도시본부\n분장업무:\n1. 본부 경영계획 수립 및 관리(안전관리 포함)\n2. 시화호 환경관리\n소관부서: [원문 칸 공란]\n\n구분: 지사·단\n분장업무:\n1. 수자원시설의 운영·관리\n2. 수질·수생태 등 물환경 관리\n3. 발전 등 에너지시설 운영·관리\n4. 상하수도시설의 운영·관리\n5. 산업단지, 지역개발 및 친수구역 등 도시조성\n6. 수자원시설의 건설\n7. 발전 등 에너지시설의 건설\n8. 수도시설의 건설\n9. 해외사업 개발 및 운영·관리\n10. 지방상수도 현대화사업, 스마트 관망관리\n소관부서: [원문 칸 공란]",
+        "source_locator": {
+          "coordinate_system": "이미지 전사: PDF 쪽수·원문 이미지 연결, 문자 좌표 없음",
+          "pdf_pages": [
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36
+          ],
+          "printed_pages": [
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36
+          ],
+          "lines": [],
+          "section_kind": "annex",
+          "transcription_method": "manual_pdf_image_reading",
+          "source_images": [
+            {
+              "pdf_page": 29,
+              "path": "source/page-29.png",
+              "sha256": "4f09a2b2d5081fa245b5646bd196bd821bfde71b09a5d10e277f0c3c330303c1"
+            },
+            {
+              "pdf_page": 30,
+              "path": "source/page-30.png",
+              "sha256": "86968b64fcd1038320a91ae907877609edd631bc3f52d9f1d592300596eab9e8"
+            },
+            {
+              "pdf_page": 31,
+              "path": "source/page-31.png",
+              "sha256": "411ab87feda78f3b16c5285af6f33386b6be19f6a88b2ae4ea4376224960c4d9"
+            },
+            {
+              "pdf_page": 32,
+              "path": "source/page-32.png",
+              "sha256": "8664b1c934b02c7e853c50f71acc7348af0dc9ccb2330b0413b285de058e768a"
+            },
+            {
+              "pdf_page": 33,
+              "path": "source/page-33.png",
+              "sha256": "3001ba2300c1760ab40b9b98f261c9b0a2409eaa73a95c9fa50e4483f1f8af43"
+            },
+            {
+              "pdf_page": 34,
+              "path": "source/page-34.png",
+              "sha256": "45a697c72d9386ffe1e5fc0f99f1de4970e43eca84c5d315e58af382a3bd747a"
+            },
+            {
+              "pdf_page": 35,
+              "path": "source/page-35.png",
+              "sha256": "288f4cb267d62f6f6e5e4756e908d917f390b7377e2aafc62a89f5d6d4374ae6"
+            },
+            {
+              "pdf_page": 36,
+              "path": "source/page-36.png",
+              "sha256": "ce2743b24547e25235d74d261d3df3ad1c6e68f78530a3cd6a791207355b8b93"
+            }
+          ]
+        },
+        "effective_from_override": null,
+        "effective_to_override": null,
+        "extraction_status": "manual_image_transcribed",
+        "review_note": "원문 이미지 전사. 줄바꿈·자간 공백 정리. 부서명 교차 대조와 사용자 확인은 별도 근거 연결. 개인별 적용 자동 판정 없음."
+      },
+      {
+        "regulation_node_id": "43839b2e-9925-523b-98dc-1eef3c552d0c",
+        "regulation_version_id": "2483b6cc-8ae5-595a-9213-44fd885dda6b",
+        "regulation_file_id": "bf01d765-9b8b-563d-a378-6f42aabc01a6",
+        "parent_node_id": "86043129-435f-516c-8100-100b379aa29b",
+        "node_type": "table_row",
+        "label": "사장직할",
+        "title": "사장직할",
+        "path": "직제규정 > 별표4 > 사장직할",
+        "display_order": 149,
+        "body_text": "구분: 사장직할\n분장업무:\n1. 비서업무\n2. 대국민홍보 및 CIP업무\n3. 언론매체 및 대외기관 홍보업무\n소관부서: 비서실 / 홍보실",
+        "source_locator": {
+          "coordinate_system": "이미지 전사: PDF 쪽수·원문 이미지 연결, 문자 좌표 없음",
+          "pdf_pages": [
+            29
+          ],
+          "printed_pages": [
+            29
+          ],
+          "lines": [],
+          "section_kind": "annex",
+          "transcription_method": "manual_pdf_image_reading",
+          "source_images": [
+            {
+              "pdf_page": 29,
+              "path": "source/page-29.png",
+              "sha256": "4f09a2b2d5081fa245b5646bd196bd821bfde71b09a5d10e277f0c3c330303c1"
+            }
+          ]
+        },
+        "effective_from_override": null,
+        "effective_to_override": null,
+        "extraction_status": "manual_image_transcribed",
+        "review_note": "원문 이미지 전사. 줄바꿈·자간 공백 정리. 부서명 교차 대조와 사용자 확인은 별도 근거 연결. 개인별 적용 자동 판정 없음."
+      },
+      {
+        "regulation_node_id": "53d98896-5141-5ea9-aec5-a1b237240acd",
+        "regulation_version_id": "2483b6cc-8ae5-595a-9213-44fd885dda6b",
+        "regulation_file_id": "bf01d765-9b8b-563d-a378-6f42aabc01a6",
+        "parent_node_id": "86043129-435f-516c-8100-100b379aa29b",
+        "node_type": "table_row",
+        "label": "상임감사위원직할",
+        "title": "상임감사위원직할",
+        "path": "직제규정 > 별표4 > 상임감사위원직할",
+        "display_order": 150,
+        "body_text": "구분: 상임감사위원직할\n분장업무:\n1. 내부감사 시행 및 외부감사 지원\n2. 사정 및 비위사항의 처리\n3. 대통령 비서실 및 국무총리실에서 이첩된 청원서의 처리\n소관부서: 감사실",
+        "source_locator": {
+          "coordinate_system": "이미지 전사: PDF 쪽수·원문 이미지 연결, 문자 좌표 없음",
+          "pdf_pages": [
+            29
+          ],
+          "printed_pages": [
+            29
+          ],
+          "lines": [],
+          "section_kind": "annex",
+          "transcription_method": "manual_pdf_image_reading",
+          "source_images": [
+            {
+              "pdf_page": 29,
+              "path": "source/page-29.png",
+              "sha256": "4f09a2b2d5081fa245b5646bd196bd821bfde71b09a5d10e277f0c3c330303c1"
+            }
+          ]
+        },
+        "effective_from_override": null,
+        "effective_to_override": null,
+        "extraction_status": "manual_image_transcribed",
+        "review_note": "원문 이미지 전사. 줄바꿈·자간 공백 정리. 부서명 교차 대조와 사용자 확인은 별도 근거 연결. 개인별 적용 자동 판정 없음."
+      },
+      {
+        "regulation_node_id": "fde790ec-e424-50c0-89a0-a6d9fc63aaac",
+        "regulation_version_id": "2483b6cc-8ae5-595a-9213-44fd885dda6b",
+        "regulation_file_id": "bf01d765-9b8b-563d-a378-6f42aabc01a6",
+        "parent_node_id": "86043129-435f-516c-8100-100b379aa29b",
+        "node_type": "table_row",
+        "label": "안전본부",
+        "title": "안전본부",
+        "path": "직제규정 > 별표4 > 안전본부",
+        "display_order": 151,
+        "body_text": "구분: 안전본부\n분장업무:\n1. 안전보건관리체계 구축 및 제도 관리\n2. 재난·시설물·산업·건설안전 이행관리\n3. 건설·품질안전 이행관리\n소관부서: 건설안전처",
+        "source_locator": {
+          "coordinate_system": "이미지 전사: PDF 쪽수·원문 이미지 연결, 문자 좌표 없음",
+          "pdf_pages": [
+            29
+          ],
+          "printed_pages": [
+            29
+          ],
+          "lines": [],
+          "section_kind": "annex",
+          "transcription_method": "manual_pdf_image_reading",
+          "source_images": [
+            {
+              "pdf_page": 29,
+              "path": "source/page-29.png",
+              "sha256": "4f09a2b2d5081fa245b5646bd196bd821bfde71b09a5d10e277f0c3c330303c1"
+            }
+          ]
+        },
+        "effective_from_override": null,
+        "effective_to_override": null,
+        "extraction_status": "manual_image_transcribed",
+        "review_note": "원문 이미지 전사. 줄바꿈·자간 공백 정리. 부서명 교차 대조와 사용자 확인은 별도 근거 연결. 개인별 적용 자동 판정 없음."
+      },
+      {
+        "regulation_node_id": "f65f20f0-c744-5e26-9378-115b825656f0",
+        "regulation_version_id": "2483b6cc-8ae5-595a-9213-44fd885dda6b",
+        "regulation_file_id": "bf01d765-9b8b-563d-a378-6f42aabc01a6",
+        "parent_node_id": "86043129-435f-516c-8100-100b379aa29b",
+        "node_type": "table_row",
+        "label": "기획부문",
+        "title": "기획부문",
+        "path": "직제규정 > 별표4 > 기획부문",
+        "display_order": 152,
+        "body_text": "구분: 기획부문\n분장업무:\n1. 국회, 이사회, 조직 및 예산관리\n2. 공공기관 혁신 등 정부 정책 대응 총괄\n3. 장단기 경영계획, 전략 수립 및 정책화\n4. 국가 물관리체계 개선 정책 대응 및 기후위기대응 총괄\n5. 사업 분석·조정 및 신규 사업 기획(사업실명제 포함)\n6. ESG경영, 경영혁신 등 경영관리 및 경영평가 업무\n7. 청렴도·내부통제 및 국내·외 출자회사 관리 총괄\n8. 관련법령·사규 관리, 소송업무(해외사업 지원 포함), 갈등관리 총괄\n9. 기타 공사 중요업무 전반에 대한 기획 및 관리\n소관부서: 기획조정실 / 신성장전략단 / 경영혁신실 / 법무실",
+        "source_locator": {
+          "coordinate_system": "이미지 전사: PDF 쪽수·원문 이미지 연결, 문자 좌표 없음",
+          "pdf_pages": [
+            29
+          ],
+          "printed_pages": [
+            29
+          ],
+          "lines": [],
+          "section_kind": "annex",
+          "transcription_method": "manual_pdf_image_reading",
+          "source_images": [
+            {
+              "pdf_page": 29,
+              "path": "source/page-29.png",
+              "sha256": "4f09a2b2d5081fa245b5646bd196bd821bfde71b09a5d10e277f0c3c330303c1"
+            }
+          ]
+        },
+        "effective_from_override": null,
+        "effective_to_override": null,
+        "extraction_status": "manual_image_transcribed",
+        "review_note": "원문 이미지 전사. 줄바꿈·자간 공백 정리. 부서명 교차 대조와 사용자 확인은 별도 근거 연결. 개인별 적용 자동 판정 없음."
+      },
+      {
+        "regulation_node_id": "61b58b93-b9a8-5c6b-8876-b1292a5c7e5a",
+        "regulation_version_id": "2483b6cc-8ae5-595a-9213-44fd885dda6b",
+        "regulation_file_id": "bf01d765-9b8b-563d-a378-6f42aabc01a6",
+        "parent_node_id": "86043129-435f-516c-8100-100b379aa29b",
+        "node_type": "table_row",
+        "label": "경영부문",
+        "title": "경영부문",
+        "path": "직제규정 > 별표4 > 경영부문",
+        "display_order": 153,
+        "body_text": "구분: 경영부문\n분장업무:\n1. 문서, 행사, 사옥관리 등 경영지원 업무\n2. 인사제도·운영 및 채용\n3. 노무 및 복지 후생업무\n4. 회계, 결산 및 세무, 자금의 조달 및 운영\n5. 공사·용역 및 자재 계약관리, 자산관리 업무(국유재산 포함)\n6. 보안정책(시설, 인원, 문서, 암호자재, 방첩 등) 및 개인정보보호정책 관리 총괄\n7. 비상계획업무\n소관부서: 인재경영실 / 노사협력처 / 재무관리처 / 정보보안처 / 비상계획처",
+        "source_locator": {
+          "coordinate_system": "이미지 전사: PDF 쪽수·원문 이미지 연결, 문자 좌표 없음",
+          "pdf_pages": [
+            30
+          ],
+          "printed_pages": [
+            30
+          ],
+          "lines": [],
+          "section_kind": "annex",
+          "transcription_method": "manual_pdf_image_reading",
+          "source_images": [
+            {
+              "pdf_page": 30,
+              "path": "source/page-30.png",
+              "sha256": "86968b64fcd1038320a91ae907877609edd631bc3f52d9f1d592300596eab9e8"
+            }
+          ]
+        },
+        "effective_from_override": null,
+        "effective_to_override": null,
+        "extraction_status": "manual_image_transcribed",
+        "review_note": "원문 이미지 전사. 줄바꿈·자간 공백 정리. 부서명 교차 대조와 사용자 확인은 별도 근거 연결. 개인별 적용 자동 판정 없음."
+      },
+      {
+        "regulation_node_id": "5228c34d-1fed-5d1f-a44f-29b2ec514900",
+        "regulation_version_id": "2483b6cc-8ae5-595a-9213-44fd885dda6b",
+        "regulation_file_id": "bf01d765-9b8b-563d-a378-6f42aabc01a6",
+        "parent_node_id": "86043129-435f-516c-8100-100b379aa29b",
+        "node_type": "table_row",
+        "label": "AI본부",
+        "title": "AI본부",
+        "path": "직제규정 > 별표4 > AI본부",
+        "display_order": 154,
+        "body_text": "구분: AI본부\n분장업무:\n1. AI 및 디지털 기획, 전략 수립, 기술 지원\n2. 디지털플랫폼 구축·운영관리\n3. 전사 데이터 관련 정책 및 제도, 규정 총괄\n4. 전사 데이터 분석·활용 및 서비스\n5. 정보시스템, 정보통신망 등 구축 및 운영관리\n6. 기타 데이터 및 정보화 분야에 관한 사항\n소관부서: AI혁신처 / 디지털관리처 / AI데이터센터",
+        "source_locator": {
+          "coordinate_system": "이미지 전사: PDF 쪽수·원문 이미지 연결, 문자 좌표 없음",
+          "pdf_pages": [
+            30
+          ],
+          "printed_pages": [
+            30
+          ],
+          "lines": [],
+          "section_kind": "annex",
+          "transcription_method": "manual_pdf_image_reading",
+          "source_images": [
+            {
+              "pdf_page": 30,
+              "path": "source/page-30.png",
+              "sha256": "86968b64fcd1038320a91ae907877609edd631bc3f52d9f1d592300596eab9e8"
+            }
+          ]
+        },
+        "effective_from_override": null,
+        "effective_to_override": null,
+        "extraction_status": "manual_image_transcribed",
+        "review_note": "원문 이미지 전사. 줄바꿈·자간 공백 정리. 부서명 교차 대조와 사용자 확인은 별도 근거 연결. 개인별 적용 자동 판정 없음."
+      },
+      {
+        "regulation_node_id": "d4aa779f-7a87-50d2-9e91-3b889d77283e",
+        "regulation_version_id": "2483b6cc-8ae5-595a-9213-44fd885dda6b",
+        "regulation_file_id": "bf01d765-9b8b-563d-a378-6f42aabc01a6",
+        "parent_node_id": "86043129-435f-516c-8100-100b379aa29b",
+        "node_type": "table_row",
+        "label": "수자원환경부문",
+        "title": "수자원환경부문",
+        "path": "직제규정 > 별표4 > 수자원환경부문",
+        "display_order": 155,
+        "body_text": "구분: 수자원환경부문\n분장업무:\n1. 수자원사업 경영계획\n2. 댐 주변지역 지원사업, 거버넌스 관리, 지역협력, 보상 총괄\n3. 댐용수 영업, 공급 및 수요관리\n4. 국가물관리기본계획, 유역물관리종합계획, 하천유역수자원관리계획 등 법정계획 수립총괄\n5. 유역별 물관리 및 사업계획 수립\n6. 수자원 조사 총괄, 북한사업 조사\n7. 건설사업 타당성조사, 기본계획 수립 및 인허가 업무\n8. 수자원사업 개발 및 관리\n9. 지표수-지하수 연계 및 지하수 조사·사업 추진 총괄\n10. 수자원시설 운영 및 관리(아라뱃길 포함)\n11. 통합물관리(수량·수질) 추진 및 분쟁 총괄\n12. 전국 가뭄분석, 가뭄모니터링 및 예·경보 지원\n13. 보·하천 시설물 관리 및 정책지원 총괄\n14. 기타 위 호와 관련된 사항\n소관부서: 수자원기획처 / 수자원개발처 / 수자원시설처 / 수자원운영처 / 수자원정책지원단",
+        "source_locator": {
+          "coordinate_system": "이미지 전사: PDF 쪽수·원문 이미지 연결, 문자 좌표 없음",
+          "pdf_pages": [
+            30
+          ],
+          "printed_pages": [
+            30
+          ],
+          "lines": [],
+          "section_kind": "annex",
+          "transcription_method": "manual_pdf_image_reading",
+          "source_images": [
+            {
+              "pdf_page": 30,
+              "path": "source/page-30.png",
+              "sha256": "86968b64fcd1038320a91ae907877609edd631bc3f52d9f1d592300596eab9e8"
+            }
+          ]
+        },
+        "effective_from_override": null,
+        "effective_to_override": null,
+        "extraction_status": "manual_image_transcribed",
+        "review_note": "원문 이미지 전사. 줄바꿈·자간 공백 정리. 부서명 교차 대조와 사용자 확인은 별도 근거 연결. 개인별 적용 자동 판정 없음."
+      },
+      {
+        "regulation_node_id": "46fae090-e9e7-552b-b955-fd4f0b123ed5",
+        "regulation_version_id": "2483b6cc-8ae5-595a-9213-44fd885dda6b",
+        "regulation_file_id": "bf01d765-9b8b-563d-a378-6f42aabc01a6",
+        "parent_node_id": "86043129-435f-516c-8100-100b379aa29b",
+        "node_type": "table_row",
+        "label": "환경본부",
+        "title": "환경본부",
+        "path": "직제규정 > 별표4 > 환경본부",
+        "display_order": 156,
+        "body_text": "구분: 환경본부\n분장업무:\n1. 물환경·수생태 관리 및 수질개선 종합대책 수립·시행\n2. 물환경 개선, 경관생태 및 친환경·생태복원 업무\n3. 물환경 안전 분야 조사·연구 및 검증·평가사업 총괄\n4. 물환경 분야 수질사고 대응 및 유역 수질검사소 총괄\n소관부서: 물환경계획처 / 물환경관리처",
+        "source_locator": {
+          "coordinate_system": "이미지 전사: PDF 쪽수·원문 이미지 연결, 문자 좌표 없음",
+          "pdf_pages": [
+            31
+          ],
+          "printed_pages": [
+            31
+          ],
+          "lines": [],
+          "section_kind": "annex",
+          "transcription_method": "manual_pdf_image_reading",
+          "source_images": [
+            {
+              "pdf_page": 31,
+              "path": "source/page-31.png",
+              "sha256": "411ab87feda78f3b16c5285af6f33386b6be19f6a88b2ae4ea4376224960c4d9"
+            }
+          ]
+        },
+        "effective_from_override": null,
+        "effective_to_override": null,
+        "extraction_status": "manual_image_transcribed",
+        "review_note": "원문 이미지 전사. 줄바꿈·자간 공백 정리. 부서명 교차 대조와 사용자 확인은 별도 근거 연결. 개인별 적용 자동 판정 없음."
+      },
+      {
+        "regulation_node_id": "f7fa8c81-bbe2-503c-8f1c-705ba55a71f8",
+        "regulation_version_id": "2483b6cc-8ae5-595a-9213-44fd885dda6b",
+        "regulation_file_id": "bf01d765-9b8b-563d-a378-6f42aabc01a6",
+        "parent_node_id": "86043129-435f-516c-8100-100b379aa29b",
+        "node_type": "table_row",
+        "label": "재생에너지본부",
+        "title": "재생에너지본부",
+        "path": "직제규정 > 별표4 > 재생에너지본부",
+        "display_order": 157,
+        "body_text": "구분: 재생에너지본부\n분장업무:\n1. 탄소중립 등 녹색전환 정책 기획·지원 총괄\n2. 재생에너지 등 에너지사업 기획 및 정책지원\n3. 재생에너지 등 에너지사업 계획, 개발 및 관리\n4. 시화조력 관리 총괄\n5. 기타 녹색전환 및 에너지 등에 관한 사항\n소관부서: 에너지기획처 / 에너지사업처",
+        "source_locator": {
+          "coordinate_system": "이미지 전사: PDF 쪽수·원문 이미지 연결, 문자 좌표 없음",
+          "pdf_pages": [
+            31
+          ],
+          "printed_pages": [
+            31
+          ],
+          "lines": [],
+          "section_kind": "annex",
+          "transcription_method": "manual_pdf_image_reading",
+          "source_images": [
+            {
+              "pdf_page": 31,
+              "path": "source/page-31.png",
+              "sha256": "411ab87feda78f3b16c5285af6f33386b6be19f6a88b2ae4ea4376224960c4d9"
+            }
+          ]
+        },
+        "effective_from_override": null,
+        "effective_to_override": null,
+        "extraction_status": "manual_image_transcribed",
+        "review_note": "원문 이미지 전사. 줄바꿈·자간 공백 정리. 부서명 교차 대조와 사용자 확인은 별도 근거 연결. 개인별 적용 자동 판정 없음."
+      },
+      {
+        "regulation_node_id": "f1b670d8-44e5-51d6-9a62-5d31ff5919be",
+        "regulation_version_id": "2483b6cc-8ae5-595a-9213-44fd885dda6b",
+        "regulation_file_id": "bf01d765-9b8b-563d-a378-6f42aabc01a6",
+        "parent_node_id": "86043129-435f-516c-8100-100b379aa29b",
+        "node_type": "table_row",
+        "label": "수도부문",
+        "title": "수도부문",
+        "path": "직제규정 > 별표4 > 수도부문",
+        "display_order": 158,
+        "body_text": "구분: 수도부문\n분장업무:\n1. 수도사업 경영계획\n2. 물공급 제도 개선 및 국가수도종합계획 등 통합계획 수립\n3. 댐용수·수도 요금, 수도 영업·공급 및 수요관리\n4. 수도사업 개발 및 관리\n5. 수도시설 유지관리 및 종합개선\n6. 수도시설 운영 및 공급관리\n7. 수도시설 재난안전 및 위기관리 대응 총괄\n8. 유역수도지원센터 운영관리 총괄\n9. 국가수도정보센터 운영 및 관리\n10. 지방상수도 관리 및 종합개선\n11. 지방상수도 시설 운영 및 공급관리\n12. 산업용수사업 운영관리\n13. 초순수·해수담수화·재이용 등 사업개발\n14. 물인프라 기술진단·지원\n15. 기타 위 호와 관련된 사항\n소관부서: 수도기획처 / 수도개발처 / 수도관리처 / 지방수도처 / 산업용수처 / 물종합진단처",
+        "source_locator": {
+          "coordinate_system": "이미지 전사: PDF 쪽수·원문 이미지 연결, 문자 좌표 없음",
+          "pdf_pages": [
+            31
+          ],
+          "printed_pages": [
+            31
+          ],
+          "lines": [],
+          "section_kind": "annex",
+          "transcription_method": "manual_pdf_image_reading",
+          "source_images": [
+            {
+              "pdf_page": 31,
+              "path": "source/page-31.png",
+              "sha256": "411ab87feda78f3b16c5285af6f33386b6be19f6a88b2ae4ea4376224960c4d9"
+            }
+          ]
+        },
+        "effective_from_override": null,
+        "effective_to_override": null,
+        "extraction_status": "manual_image_transcribed",
+        "review_note": "원문 이미지 전사. 줄바꿈·자간 공백 정리. 부서명 교차 대조와 사용자 확인은 별도 근거 연결. 개인별 적용 자동 판정 없음."
+      },
+      {
+        "regulation_node_id": "aca5265b-8829-5a2b-8cf5-3c3f935611e9",
+        "regulation_version_id": "2483b6cc-8ae5-595a-9213-44fd885dda6b",
+        "regulation_file_id": "bf01d765-9b8b-563d-a378-6f42aabc01a6",
+        "parent_node_id": "86043129-435f-516c-8100-100b379aa29b",
+        "node_type": "table_row",
+        "label": "기술본부",
+        "title": "기술본부",
+        "path": "직제규정 > 별표4 > 기술본부",
+        "display_order": 159,
+        "body_text": "구분: 기술본부\n분장업무:\n1. 기술기획·전략 수립 및 미래기술 총괄\n2. 기술전략에 따른 기술과제 심의·선정 및 관리\n3. 건설사업 제도, 기술심의 및 건설원가 관리\n4. 기술기준 제·개정, 관리체계 개선 및 표준화\n5. 기본구상 수립 및 설계의 기술적 타당성 검토 및 기술 지원\n6. 수자원, 수도, 도시 및 에너지 사업 등 설계\n소관부서: 기술기획처 / 설계처",
+        "source_locator": {
+          "coordinate_system": "이미지 전사: PDF 쪽수·원문 이미지 연결, 문자 좌표 없음",
+          "pdf_pages": [
+            32
+          ],
+          "printed_pages": [
+            32
+          ],
+          "lines": [],
+          "section_kind": "annex",
+          "transcription_method": "manual_pdf_image_reading",
+          "source_images": [
+            {
+              "pdf_page": 32,
+              "path": "source/page-32.png",
+              "sha256": "8664b1c934b02c7e853c50f71acc7348af0dc9ccb2330b0413b285de058e768a"
+            }
+          ]
+        },
+        "effective_from_override": null,
+        "effective_to_override": null,
+        "extraction_status": "manual_image_transcribed",
+        "review_note": "원문 이미지 전사. 줄바꿈·자간 공백 정리. 부서명 교차 대조와 사용자 확인은 별도 근거 연결. 개인별 적용 자동 판정 없음."
+      },
+      {
+        "regulation_node_id": "8bb8f37d-56cd-5c02-81d0-4798ab2a498c",
+        "regulation_version_id": "2483b6cc-8ae5-595a-9213-44fd885dda6b",
+        "regulation_file_id": "bf01d765-9b8b-563d-a378-6f42aabc01a6",
+        "parent_node_id": "86043129-435f-516c-8100-100b379aa29b",
+        "node_type": "table_row",
+        "label": "그린인프라부문",
+        "title": "그린인프라부문",
+        "path": "직제규정 > 별표4 > 그린인프라부문",
+        "display_order": 160,
+        "body_text": "구분: 그린인프라부문\n분장업무:\n1. 수변사업 경영계획 및 사업관리\n2. 수변사업 추진 총괄\n3. 부산 에코델타 스마트시티 사업 추진 총괄\n4. 건축사업 계획 및 관리\n5. 조경사업 계획 및 관리\n6. 기타 국내·외 수변사업 등에 관한 사항\n7. 물산업 육성, 중소기업 동반성장 및 지원\n8. 신기술 및 특허 등 지식재산권 관리\n소관부서: 수변기획처 / 수변사업처 / 친수사업처 / 공간경관처 / 기후테크혁신처",
+        "source_locator": {
+          "coordinate_system": "이미지 전사: PDF 쪽수·원문 이미지 연결, 문자 좌표 없음",
+          "pdf_pages": [
+            32
+          ],
+          "printed_pages": [
+            32
+          ],
+          "lines": [],
+          "section_kind": "annex",
+          "transcription_method": "manual_pdf_image_reading",
+          "source_images": [
+            {
+              "pdf_page": 32,
+              "path": "source/page-32.png",
+              "sha256": "8664b1c934b02c7e853c50f71acc7348af0dc9ccb2330b0413b285de058e768a"
+            }
+          ]
+        },
+        "effective_from_override": null,
+        "effective_to_override": null,
+        "extraction_status": "manual_image_transcribed",
+        "review_note": "원문 이미지 전사. 줄바꿈·자간 공백 정리. 부서명 교차 대조와 사용자 확인은 별도 근거 연결. 개인별 적용 자동 판정 없음."
+      },
+      {
+        "regulation_node_id": "53825549-a384-5832-84f1-10131ad3dc4d",
+        "regulation_version_id": "2483b6cc-8ae5-595a-9213-44fd885dda6b",
+        "regulation_file_id": "bf01d765-9b8b-563d-a378-6f42aabc01a6",
+        "parent_node_id": "86043129-435f-516c-8100-100b379aa29b",
+        "node_type": "table_row",
+        "label": "글로벌사업본부",
+        "title": "글로벌사업본부",
+        "path": "직제규정 > 별표4 > 글로벌사업본부",
+        "display_order": 161,
+        "body_text": "구분: 글로벌사업본부\n분장업무:\n1. 해외사업 추진전략 및 세부 시행계획 수립\n2. 해외사업 리스크관리\n3. 해외 투자사업 및 수주사업 개발·관리\n4. 해외사업 조사, 타당성 분석(재무, 법무, 기술) 및 금융조달\n5. 국제기구, 국가별 관계기관 협력 및 글로벌 네트워크 활동\n6. ODA사업 개발, 수행 및 관리\n소관부서: 글로벌사업처 / 글로벌협력처 / 기후협력개발처",
+        "source_locator": {
+          "coordinate_system": "이미지 전사: PDF 쪽수·원문 이미지 연결, 문자 좌표 없음",
+          "pdf_pages": [
+            32
+          ],
+          "printed_pages": [
+            32
+          ],
+          "lines": [],
+          "section_kind": "annex",
+          "transcription_method": "manual_pdf_image_reading",
+          "source_images": [
+            {
+              "pdf_page": 32,
+              "path": "source/page-32.png",
+              "sha256": "8664b1c934b02c7e853c50f71acc7348af0dc9ccb2330b0413b285de058e768a"
+            }
+          ]
+        },
+        "effective_from_override": null,
+        "effective_to_override": null,
+        "extraction_status": "manual_image_transcribed",
+        "review_note": "원문 이미지 전사. 줄바꿈·자간 공백 정리. 부서명 교차 대조와 사용자 확인은 별도 근거 연결. 개인별 적용 자동 판정 없음."
+      },
+      {
+        "regulation_node_id": "e3d35de0-8fdf-5625-8cdf-f99d1188d337",
+        "regulation_version_id": "2483b6cc-8ae5-595a-9213-44fd885dda6b",
+        "regulation_file_id": "bf01d765-9b8b-563d-a378-6f42aabc01a6",
+        "parent_node_id": "86043129-435f-516c-8100-100b379aa29b",
+        "node_type": "table_row",
+        "label": "K-water연구원",
+        "title": "K-water연구원",
+        "path": "직제규정 > 별표4 > K-water연구원",
+        "display_order": 162,
+        "body_text": "구분: K-water연구원\n분장업무:\n1. 수자원분야 연구개발 및 기술지원\n2. 상하수도분야 연구개발 및 기술지원\n3. 물에너지·설비분야 연구개발 및 기술지원\n4. 정책·경제 등 경영분야 연구 및 지원\n5. 인공지능 응용연구 및 기술 개발\n6. 연구관련 대외협력업무\n소관부서: [원문 칸 공란]",
+        "source_locator": {
+          "coordinate_system": "이미지 전사: PDF 쪽수·원문 이미지 연결, 문자 좌표 없음",
+          "pdf_pages": [
+            33
+          ],
+          "printed_pages": [
+            33
+          ],
+          "lines": [],
+          "section_kind": "annex",
+          "transcription_method": "manual_pdf_image_reading",
+          "source_images": [
+            {
+              "pdf_page": 33,
+              "path": "source/page-33.png",
+              "sha256": "3001ba2300c1760ab40b9b98f261c9b0a2409eaa73a95c9fa50e4483f1f8af43"
+            }
+          ]
+        },
+        "effective_from_override": null,
+        "effective_to_override": null,
+        "extraction_status": "manual_image_transcribed",
+        "review_note": "원문 이미지 전사. 줄바꿈·자간 공백 정리. 부서명 교차 대조와 사용자 확인은 별도 근거 연결. 개인별 적용 자동 판정 없음."
+      },
+      {
+        "regulation_node_id": "0193fd05-cfaa-56eb-be4f-b11beb13cb85",
+        "regulation_version_id": "2483b6cc-8ae5-595a-9213-44fd885dda6b",
+        "regulation_file_id": "bf01d765-9b8b-563d-a378-6f42aabc01a6",
+        "parent_node_id": "86043129-435f-516c-8100-100b379aa29b",
+        "node_type": "table_row",
+        "label": "인재개발원",
+        "title": "인재개발원",
+        "path": "직제규정 > 별표4 > 인재개발원",
+        "display_order": 163,
+        "body_text": "구분: 인재개발원\n분장업무:\n1. 중장기 인재육성 및 장·단기 교육계획 수립·시행\n2. 공무원·기업체 및 글로벌 교육과정 시행\n소관부서: [원문 칸 공란]",
+        "source_locator": {
+          "coordinate_system": "이미지 전사: PDF 쪽수·원문 이미지 연결, 문자 좌표 없음",
+          "pdf_pages": [
+            33
+          ],
+          "printed_pages": [
+            33
+          ],
+          "lines": [],
+          "section_kind": "annex",
+          "transcription_method": "manual_pdf_image_reading",
+          "source_images": [
+            {
+              "pdf_page": 33,
+              "path": "source/page-33.png",
+              "sha256": "3001ba2300c1760ab40b9b98f261c9b0a2409eaa73a95c9fa50e4483f1f8af43"
+            }
+          ]
+        },
+        "effective_from_override": null,
+        "effective_to_override": null,
+        "extraction_status": "manual_image_transcribed",
+        "review_note": "원문 이미지 전사. 줄바꿈·자간 공백 정리. 부서명 교차 대조와 사용자 확인은 별도 근거 연결. 개인별 적용 자동 판정 없음."
+      },
+      {
+        "regulation_node_id": "f0cfceae-7c4f-52df-bd31-51a64c2bd842",
+        "regulation_version_id": "2483b6cc-8ae5-595a-9213-44fd885dda6b",
+        "regulation_file_id": "bf01d765-9b8b-563d-a378-6f42aabc01a6",
+        "parent_node_id": "86043129-435f-516c-8100-100b379aa29b",
+        "node_type": "table_row",
+        "label": "한강유역본부",
+        "title": "한강유역본부",
+        "path": "직제규정 > 별표4 > 한강유역본부",
+        "display_order": 164,
+        "body_text": "구분: 한강유역본부\n분장업무:\n1. 조직, 인사, 예산, 평가, 청렴도 등 경영지원 업무\n2. 수돗물(댐용수 포함) 영업 및 신규 수요 창출\n3. 거버넌스 구축·운영, 홍보 총괄 및 지원\n4. 유역물관리위원회 지원 및 유역물관리종합계획 수립\n5. 수자원조사 및 환경 기초조사\n6. 사업계획 수립·운영 및 사업관리 총괄\n7. 수자원·수도건설사업 관리\n8. 유역 내 신재생에너지사업 관리\n9. 수량·수질관리 등 통합물관리 업무\n10. 수자원·수도시설 총괄 및 지원(진단, 안전점검 등)\n11. 재난·안전 및 리스크관리(경계 이상) 총괄 및 지원\n12. 댐-보 연계운영협의회 및 수계관리위원회 업무\n13. 유역 내 지방상수도 기술지원 및 현안 대응\n14. 지역 내 지방상수도 현대화사업, 스마트 관망관리\n소관부서: 경영처 / 사업처 / 유역관리처 / 유역수도지원센터(처) / 유역협력단",
+        "source_locator": {
+          "coordinate_system": "이미지 전사: PDF 쪽수·원문 이미지 연결, 문자 좌표 없음",
+          "pdf_pages": [
+            34
+          ],
+          "printed_pages": [
+            34
+          ],
+          "lines": [],
+          "section_kind": "annex",
+          "transcription_method": "manual_pdf_image_reading",
+          "source_images": [
+            {
+              "pdf_page": 34,
+              "path": "source/page-34.png",
+              "sha256": "45a697c72d9386ffe1e5fc0f99f1de4970e43eca84c5d315e58af382a3bd747a"
+            }
+          ]
+        },
+        "effective_from_override": null,
+        "effective_to_override": null,
+        "extraction_status": "manual_image_transcribed",
+        "review_note": "원문 이미지 전사. 줄바꿈·자간 공백 정리. 부서명 교차 대조와 사용자 확인은 별도 근거 연결. 개인별 적용 자동 판정 없음."
+      },
+      {
+        "regulation_node_id": "49a7f63a-7a1f-535a-b55a-4e1e62c59e0d",
+        "regulation_version_id": "2483b6cc-8ae5-595a-9213-44fd885dda6b",
+        "regulation_file_id": "bf01d765-9b8b-563d-a378-6f42aabc01a6",
+        "parent_node_id": "86043129-435f-516c-8100-100b379aa29b",
+        "node_type": "table_row",
+        "label": "금강유역본부",
+        "title": "금강유역본부",
+        "path": "직제규정 > 별표4 > 금강유역본부",
+        "display_order": 165,
+        "body_text": "구분: 금강유역본부\n분장업무:\n1. 조직, 인사, 예산, 평가, 청렴도 등 경영지원 업무\n2. 수돗물(댐용수 포함) 영업 및 신규 수요 창출\n3. 거버넌스 구축·운영, 홍보 총괄 및 지원\n4. 유역물관리위원회 지원 및 유역물관리종합계획 수립\n5. 수자원조사 및 환경 기초조사\n6. 사업계획 수립·운영 및 사업관리 총괄\n7. 수자원·수도건설사업 관리\n8. 유역 내 신재생에너지사업 관리\n9. 수량·수질관리 등 통합물관리 업무\n10. 수자원·수도시설 총괄 및 지원(진단, 안전점검 등)\n11. 재난·안전 및 리스크관리(경계 이상) 총괄 및 지원\n12. 댐-보 연계운영협의회 및 수계관리위원회 업무\n13. 유역 내 지방상수도 기술지원 및 현안 대응\n14. 지역 내 지방상수도 현대화사업, 스마트 관망관리\n소관부서: 경영처 / 사업처 / 유역관리처 / 유역수도지원센터(처) / 유역협력단",
+        "source_locator": {
+          "coordinate_system": "이미지 전사: PDF 쪽수·원문 이미지 연결, 문자 좌표 없음",
+          "pdf_pages": [
+            34
+          ],
+          "printed_pages": [
+            34
+          ],
+          "lines": [],
+          "section_kind": "annex",
+          "transcription_method": "manual_pdf_image_reading",
+          "source_images": [
+            {
+              "pdf_page": 34,
+              "path": "source/page-34.png",
+              "sha256": "45a697c72d9386ffe1e5fc0f99f1de4970e43eca84c5d315e58af382a3bd747a"
+            }
+          ]
+        },
+        "effective_from_override": null,
+        "effective_to_override": null,
+        "extraction_status": "manual_image_transcribed",
+        "review_note": "원문 이미지 전사. 줄바꿈·자간 공백 정리. 부서명 교차 대조와 사용자 확인은 별도 근거 연결. 개인별 적용 자동 판정 없음."
+      },
+      {
+        "regulation_node_id": "5825716b-641e-5f3c-b917-64cdf60b092b",
+        "regulation_version_id": "2483b6cc-8ae5-595a-9213-44fd885dda6b",
+        "regulation_file_id": "bf01d765-9b8b-563d-a378-6f42aabc01a6",
+        "parent_node_id": "86043129-435f-516c-8100-100b379aa29b",
+        "node_type": "table_row",
+        "label": "영·섬유역본부",
+        "title": "영·섬유역본부",
+        "path": "직제규정 > 별표4 > 영·섬유역본부",
+        "display_order": 166,
+        "body_text": "구분: 영·섬유역본부\n분장업무:\n1. 조직, 인사, 예산, 평가, 청렴도 등 경영지원 업무\n2. 수돗물(댐용수 포함) 영업 및 신규 수요 창출\n3. 거버넌스 구축·운영, 홍보 총괄 및 지원\n4. 유역물관리위원회 지원 및 유역물관리종합계획 수립\n5. 수자원조사 및 환경 기초조사\n6. 사업계획 수립·운영 및 사업관리 총괄\n7. 수자원·수도건설사업 관리\n8. 유역 내 신재생에너지사업 관리\n9. 수량·수질관리 등 통합물관리 업무\n10. 수자원·수도시설 총괄 및 지원(진단, 안전점검 등)\n11. 재난·안전 및 리스크관리(경계 이상) 총괄 및 지원\n12. 댐-보 연계운영협의회 및 수계관리위원회 업무\n13. 유역 내 지방상수도 기술지원 및 현안 대응\n14. 지역 내 지방상수도 현대화사업, 스마트 관망관리\n소관부서: 경영처 / 사업처 / 유역관리처 / 유역수도지원센터(처) / 유역협력단 / 제주지역협력본부",
+        "source_locator": {
+          "coordinate_system": "이미지 전사: PDF 쪽수·원문 이미지 연결, 문자 좌표 없음",
+          "pdf_pages": [
+            35
+          ],
+          "printed_pages": [
+            35
+          ],
+          "lines": [],
+          "section_kind": "annex",
+          "transcription_method": "manual_pdf_image_reading",
+          "source_images": [
+            {
+              "pdf_page": 35,
+              "path": "source/page-35.png",
+              "sha256": "288f4cb267d62f6f6e5e4756e908d917f390b7377e2aafc62a89f5d6d4374ae6"
+            }
+          ]
+        },
+        "effective_from_override": null,
+        "effective_to_override": null,
+        "extraction_status": "manual_image_transcribed",
+        "review_note": "원문 이미지 전사. 줄바꿈·자간 공백 정리. 부서명 교차 대조와 사용자 확인은 별도 근거 연결. 개인별 적용 자동 판정 없음."
+      },
+      {
+        "regulation_node_id": "ced8f13d-9c1f-5685-abf2-e1dd8362e8fb",
+        "regulation_version_id": "2483b6cc-8ae5-595a-9213-44fd885dda6b",
+        "regulation_file_id": "bf01d765-9b8b-563d-a378-6f42aabc01a6",
+        "parent_node_id": "86043129-435f-516c-8100-100b379aa29b",
+        "node_type": "table_row",
+        "label": "낙동강유역본부",
+        "title": "낙동강유역본부",
+        "path": "직제규정 > 별표4 > 낙동강유역본부",
+        "display_order": 167,
+        "body_text": "구분: 낙동강유역본부\n분장업무:\n1. 조직, 인사, 예산, 평가, 청렴도 등 경영지원 업무\n2. 수돗물(댐용수 포함) 영업 및 신규 수요 창출\n3. 거버넌스 구축·운영, 홍보 총괄 및 지원\n4. 유역물관리위원회 지원 및 유역물관리종합계획 수립\n5. 수자원조사 및 환경 기초조사\n6. 사업계획 수립·운영 및 사업관리 총괄\n7. 수자원·수도건설사업 관리\n8. 유역 내 신재생에너지사업 관리\n9. 수량·수질관리 등 통합물관리 업무\n10. 수자원·수도시설 총괄 및 지원(진단, 안전점검 등)\n11. 재난·안전 및 리스크관리(경계 이상) 총괄 및 지원\n12. 댐-보 연계운영협의회 및 수계관리위원회 업무\n13. 유역 내 지방상수도 기술지원 및 현안 대응\n14. 지역 내 지방상수도 현대화사업, 스마트 관망관리\n소관부서: 경영처 / 사업처 / 유역관리처 / 유역수도지원센터(처) / 경북지역협력단 / 부산울산경남지역협력단",
+        "source_locator": {
+          "coordinate_system": "이미지 전사: PDF 쪽수·원문 이미지 연결, 문자 좌표 없음",
+          "pdf_pages": [
+            35
+          ],
+          "printed_pages": [
+            35
+          ],
+          "lines": [],
+          "section_kind": "annex",
+          "transcription_method": "manual_pdf_image_reading",
+          "source_images": [
+            {
+              "pdf_page": 35,
+              "path": "source/page-35.png",
+              "sha256": "288f4cb267d62f6f6e5e4756e908d917f390b7377e2aafc62a89f5d6d4374ae6"
+            }
+          ]
+        },
+        "effective_from_override": null,
+        "effective_to_override": null,
+        "extraction_status": "manual_image_transcribed",
+        "review_note": "원문 이미지 전사. 줄바꿈·자간 공백 정리. 부서명 교차 대조와 사용자 확인은 별도 근거 연결. 개인별 적용 자동 판정 없음."
+      },
+      {
+        "regulation_node_id": "fa5f6848-4ec4-5f8f-b74b-2c7730759dd6",
+        "regulation_version_id": "2483b6cc-8ae5-595a-9213-44fd885dda6b",
+        "regulation_file_id": "bf01d765-9b8b-563d-a378-6f42aabc01a6",
+        "parent_node_id": "86043129-435f-516c-8100-100b379aa29b",
+        "node_type": "table_row",
+        "label": "도시본부",
+        "title": "도시본부",
+        "path": "직제규정 > 별표4 > 도시본부",
+        "display_order": 168,
+        "body_text": "구분: 도시본부\n분장업무:\n1. 본부 경영계획 수립 및 관리(안전관리 포함)\n2. 시화호 환경관리\n소관부서: [원문 칸 공란]",
+        "source_locator": {
+          "coordinate_system": "이미지 전사: PDF 쪽수·원문 이미지 연결, 문자 좌표 없음",
+          "pdf_pages": [
+            36
+          ],
+          "printed_pages": [
+            36
+          ],
+          "lines": [],
+          "section_kind": "annex",
+          "transcription_method": "manual_pdf_image_reading",
+          "source_images": [
+            {
+              "pdf_page": 36,
+              "path": "source/page-36.png",
+              "sha256": "ce2743b24547e25235d74d261d3df3ad1c6e68f78530a3cd6a791207355b8b93"
+            }
+          ]
+        },
+        "effective_from_override": null,
+        "effective_to_override": null,
+        "extraction_status": "manual_image_transcribed",
+        "review_note": "원문 이미지 전사. 줄바꿈·자간 공백 정리. 부서명 교차 대조와 사용자 확인은 별도 근거 연결. 개인별 적용 자동 판정 없음."
+      },
+      {
+        "regulation_node_id": "964d4bd5-a228-5fb8-9fd2-2c3792169901",
+        "regulation_version_id": "2483b6cc-8ae5-595a-9213-44fd885dda6b",
+        "regulation_file_id": "bf01d765-9b8b-563d-a378-6f42aabc01a6",
+        "parent_node_id": "86043129-435f-516c-8100-100b379aa29b",
+        "node_type": "table_row",
+        "label": "지사·단",
+        "title": "지사·단",
+        "path": "직제규정 > 별표4 > 지사·단",
+        "display_order": 169,
+        "body_text": "구분: 지사·단\n분장업무:\n1. 수자원시설의 운영·관리\n2. 수질·수생태 등 물환경 관리\n3. 발전 등 에너지시설 운영·관리\n4. 상하수도시설의 운영·관리\n5. 산업단지, 지역개발 및 친수구역 등 도시조성\n6. 수자원시설의 건설\n7. 발전 등 에너지시설의 건설\n8. 수도시설의 건설\n9. 해외사업 개발 및 운영·관리\n10. 지방상수도 현대화사업, 스마트 관망관리\n소관부서: [원문 칸 공란]",
+        "source_locator": {
+          "coordinate_system": "이미지 전사: PDF 쪽수·원문 이미지 연결, 문자 좌표 없음",
+          "pdf_pages": [
+            36
+          ],
+          "printed_pages": [
+            36
+          ],
+          "lines": [],
+          "section_kind": "annex",
+          "transcription_method": "manual_pdf_image_reading",
+          "source_images": [
+            {
+              "pdf_page": 36,
+              "path": "source/page-36.png",
+              "sha256": "ce2743b24547e25235d74d261d3df3ad1c6e68f78530a3cd6a791207355b8b93"
+            }
+          ]
+        },
+        "effective_from_override": null,
+        "effective_to_override": null,
+        "extraction_status": "manual_image_transcribed",
+        "review_note": "원문 이미지 전사. 줄바꿈·자간 공백 정리. 부서명 교차 대조와 사용자 확인은 별도 근거 연결. 개인별 적용 자동 판정 없음."
+      }
+    ],
+    "rag_chunk": [
+      {
+        "rag_chunk_id": "b7eeb6e1-3bc9-54c1-b75f-ba4900fb3866",
+        "regulation_version_id": "2483b6cc-8ae5-595a-9213-44fd885dda6b",
+        "chunk_text": "직제규정 > 별표1 > 기구표\n【별표 1】 기구표 (제6조제2항 관련)\n상단 표시: 이사회, 사장, 상임감사위원, 부사장*\n기구명 전사 목록(그림의 표시 영역별 정리):\n사장 부근: 비서실, 홍보실\n상임감사위원 부근: 감사실\n안전본부: 안전본부, 건설안전처\n기획부문: 기획부문, 기획조정실, 신성장전략단, 경영혁신실, 법무실\n경영부문: 경영부문, 인재경영실, 노사협력처, 재무관리처, 정보보안처, 비상계획처\nAI본부: AI본부, AI혁신처, 디지털관리처, AI데이터센터\n수자원환경부문: 수자원환경부문, 수자원기획처, 수자원개발처, 수자원시설처, 수자원운영처, 수자원정책지원단\n환경본부: 환경본부, 물환경계획처, 물환경관리처\n재생에너지본부: 재생에너지본부, 에너지기획처, 에너지사업처\n수도부문: 수도부문, 수도기획처, 수도개발처, 수도관리처, 지방수도처, 산업용수처, 물종합진단처\n기술본부: 기술본부, 기술기획처, 설계처\n그린인프라부문: 그린인프라부문, 수변기획처, 수변사업처, 친수사업처, 공간경관처, 기후테크혁신처\n글로벌사업본부: 글로벌사업본부, 글로벌사업처, 글로벌협력처, 기후협력개발처\n별도 표시 기구: K-water연구원, 인재개발원, 도시본부, 지사·단\n한강유역본부: 한강유역본부, 경영처, 사업처, 유역관리처, 유역수도지원센터(처), 유역협력단\n금강유역본부: 금강유역본부, 경영처, 사업처, 유역관리처, 유역수도지원센터(처), 유역협력단\n영·섬유역본부: 영·섬유역본부, 경영처, 사업처, 유역관리처, 유역수도지원센터(처), 유역협력단, 제주지역협력본부\n낙동강유역본부: 낙동강유역본부, 경영처, 사업처, 유역관리처, 유역수도지원센터(처), 경북지역협력단, 부산·울산·경남 지역협력단\n* 부사장은 제4조제4항의 규정에 따라 부문장 겸임",
+        "chunk_type": "annex",
+        "context_path": "직제규정 > 별표1 > 기구표",
+        "content_hash": "43e7987ec7e017cdd9638bd9f75923b156dccffba786e389d8f77b85ea4361f0",
+        "chunking_version": "manual-org-duty-v1",
+        "index_revision": "manual-org-duty-review-v1",
+        "embedding_model": null,
+        "search_status": "needs_review",
+        "created_at": "2026-10-13T17:03:14+09:00",
+        "token_count": null
+      },
+      {
+        "rag_chunk_id": "48a702e3-782a-5b57-9e6a-31a5290d9fed",
+        "regulation_version_id": "2483b6cc-8ae5-595a-9213-44fd885dda6b",
+        "chunk_text": "직제규정 > 별표4 > 사장직할\n구분: 사장직할\n분장업무:\n1. 비서업무\n2. 대국민홍보 및 CIP업무\n3. 언론매체 및 대외기관 홍보업무\n소관부서: 비서실 / 홍보실",
+        "chunk_type": "annex",
+        "context_path": "직제규정 > 별표4 > 사장직할",
+        "content_hash": "242aefa9abcbe047faaaa9c45c82679d04afb5dff768bf3e241167a685de0df0",
+        "chunking_version": "manual-org-duty-v1",
+        "index_revision": "manual-org-duty-review-v1",
+        "embedding_model": null,
+        "search_status": "needs_review",
+        "created_at": "2026-10-13T17:03:14+09:00",
+        "token_count": null
+      },
+      {
+        "rag_chunk_id": "841163d6-5c00-5361-940a-0d595d801a1d",
+        "regulation_version_id": "2483b6cc-8ae5-595a-9213-44fd885dda6b",
+        "chunk_text": "직제규정 > 별표4 > 상임감사위원직할\n구분: 상임감사위원직할\n분장업무:\n1. 내부감사 시행 및 외부감사 지원\n2. 사정 및 비위사항의 처리\n3. 대통령 비서실 및 국무총리실에서 이첩된 청원서의 처리\n소관부서: 감사실",
+        "chunk_type": "annex",
+        "context_path": "직제규정 > 별표4 > 상임감사위원직할",
+        "content_hash": "3593b7d3b582fd787dee14f0e0e365e2deda22358b08848f635f36c7416a53d2",
+        "chunking_version": "manual-org-duty-v1",
+        "index_revision": "manual-org-duty-review-v1",
+        "embedding_model": null,
+        "search_status": "needs_review",
+        "created_at": "2026-10-13T17:03:14+09:00",
+        "token_count": null
+      },
+      {
+        "rag_chunk_id": "f2151507-f551-57b6-92bd-9f7fe40d5cbc",
+        "regulation_version_id": "2483b6cc-8ae5-595a-9213-44fd885dda6b",
+        "chunk_text": "직제규정 > 별표4 > 안전본부\n구분: 안전본부\n분장업무:\n1. 안전보건관리체계 구축 및 제도 관리\n2. 재난·시설물·산업·건설안전 이행관리\n3. 건설·품질안전 이행관리\n소관부서: 건설안전처",
+        "chunk_type": "annex",
+        "context_path": "직제규정 > 별표4 > 안전본부",
+        "content_hash": "409f19e6167f991859c9f8b3f3b8bc1bb7ab90c1ea3b4748c2f86d11767aea1d",
+        "chunking_version": "manual-org-duty-v1",
+        "index_revision": "manual-org-duty-review-v1",
+        "embedding_model": null,
+        "search_status": "needs_review",
+        "created_at": "2026-10-13T17:03:14+09:00",
+        "token_count": null
+      },
+      {
+        "rag_chunk_id": "8a91bab5-d415-5f1c-a350-894f4570f622",
+        "regulation_version_id": "2483b6cc-8ae5-595a-9213-44fd885dda6b",
+        "chunk_text": "직제규정 > 별표4 > 기획부문\n구분: 기획부문\n분장업무:\n1. 국회, 이사회, 조직 및 예산관리\n2. 공공기관 혁신 등 정부 정책 대응 총괄\n3. 장단기 경영계획, 전략 수립 및 정책화\n4. 국가 물관리체계 개선 정책 대응 및 기후위기대응 총괄\n5. 사업 분석·조정 및 신규 사업 기획(사업실명제 포함)\n6. ESG경영, 경영혁신 등 경영관리 및 경영평가 업무\n7. 청렴도·내부통제 및 국내·외 출자회사 관리 총괄\n8. 관련법령·사규 관리, 소송업무(해외사업 지원 포함), 갈등관리 총괄\n9. 기타 공사 중요업무 전반에 대한 기획 및 관리\n소관부서: 기획조정실 / 신성장전략단 / 경영혁신실 / 법무실",
+        "chunk_type": "annex",
+        "context_path": "직제규정 > 별표4 > 기획부문",
+        "content_hash": "eadbfcf9f872ee26aeaf6a3a8404da879e6dd18f376985d5f32337f50764ad5f",
+        "chunking_version": "manual-org-duty-v1",
+        "index_revision": "manual-org-duty-review-v1",
+        "embedding_model": null,
+        "search_status": "needs_review",
+        "created_at": "2026-10-13T17:03:14+09:00",
+        "token_count": null
+      },
+      {
+        "rag_chunk_id": "3859109d-e111-5bf8-8a3c-20deab73fbbf",
+        "regulation_version_id": "2483b6cc-8ae5-595a-9213-44fd885dda6b",
+        "chunk_text": "직제규정 > 별표4 > 경영부문\n구분: 경영부문\n분장업무:\n1. 문서, 행사, 사옥관리 등 경영지원 업무\n2. 인사제도·운영 및 채용\n3. 노무 및 복지 후생업무\n4. 회계, 결산 및 세무, 자금의 조달 및 운영\n5. 공사·용역 및 자재 계약관리, 자산관리 업무(국유재산 포함)\n6. 보안정책(시설, 인원, 문서, 암호자재, 방첩 등) 및 개인정보보호정책 관리 총괄\n7. 비상계획업무\n소관부서: 인재경영실 / 노사협력처 / 재무관리처 / 정보보안처 / 비상계획처",
+        "chunk_type": "annex",
+        "context_path": "직제규정 > 별표4 > 경영부문",
+        "content_hash": "ef1716d7679f7ec47c2908cabcdfd206d13709e6652e392e61ac80dd5937af0a",
+        "chunking_version": "manual-org-duty-v1",
+        "index_revision": "manual-org-duty-review-v1",
+        "embedding_model": null,
+        "search_status": "needs_review",
+        "created_at": "2026-10-13T17:03:14+09:00",
+        "token_count": null
+      },
+      {
+        "rag_chunk_id": "25f2b594-9936-5e6a-a22c-1f749af4dd40",
+        "regulation_version_id": "2483b6cc-8ae5-595a-9213-44fd885dda6b",
+        "chunk_text": "직제규정 > 별표4 > AI본부\n구분: AI본부\n분장업무:\n1. AI 및 디지털 기획, 전략 수립, 기술 지원\n2. 디지털플랫폼 구축·운영관리\n3. 전사 데이터 관련 정책 및 제도, 규정 총괄\n4. 전사 데이터 분석·활용 및 서비스\n5. 정보시스템, 정보통신망 등 구축 및 운영관리\n6. 기타 데이터 및 정보화 분야에 관한 사항\n소관부서: AI혁신처 / 디지털관리처 / AI데이터센터",
+        "chunk_type": "annex",
+        "context_path": "직제규정 > 별표4 > AI본부",
+        "content_hash": "b1c7b0f70751cb8018e360b2b4aea1610c319449c1e20d2b6a4a467e2725437b",
+        "chunking_version": "manual-org-duty-v1",
+        "index_revision": "manual-org-duty-review-v1",
+        "embedding_model": null,
+        "search_status": "needs_review",
+        "created_at": "2026-10-13T17:03:14+09:00",
+        "token_count": null
+      },
+      {
+        "rag_chunk_id": "b3c6efbf-cda6-580b-96f0-e7224ca14355",
+        "regulation_version_id": "2483b6cc-8ae5-595a-9213-44fd885dda6b",
+        "chunk_text": "직제규정 > 별표4 > 수자원환경부문\n구분: 수자원환경부문\n분장업무:\n1. 수자원사업 경영계획\n2. 댐 주변지역 지원사업, 거버넌스 관리, 지역협력, 보상 총괄\n3. 댐용수 영업, 공급 및 수요관리\n4. 국가물관리기본계획, 유역물관리종합계획, 하천유역수자원관리계획 등 법정계획 수립총괄\n5. 유역별 물관리 및 사업계획 수립\n6. 수자원 조사 총괄, 북한사업 조사\n7. 건설사업 타당성조사, 기본계획 수립 및 인허가 업무\n8. 수자원사업 개발 및 관리\n9. 지표수-지하수 연계 및 지하수 조사·사업 추진 총괄\n10. 수자원시설 운영 및 관리(아라뱃길 포함)\n11. 통합물관리(수량·수질) 추진 및 분쟁 총괄\n12. 전국 가뭄분석, 가뭄모니터링 및 예·경보 지원\n13. 보·하천 시설물 관리 및 정책지원 총괄\n14. 기타 위 호와 관련된 사항\n소관부서: 수자원기획처 / 수자원개발처 / 수자원시설처 / 수자원운영처 / 수자원정책지원단",
+        "chunk_type": "annex",
+        "context_path": "직제규정 > 별표4 > 수자원환경부문",
+        "content_hash": "555b22cbc12c9e13d93ab5730116682390301951cfba4c141c037ed61884851b",
+        "chunking_version": "manual-org-duty-v1",
+        "index_revision": "manual-org-duty-review-v1",
+        "embedding_model": null,
+        "search_status": "needs_review",
+        "created_at": "2026-10-13T17:03:14+09:00",
+        "token_count": null
+      },
+      {
+        "rag_chunk_id": "f0d7edb1-fb7d-5526-9fd5-d5c4aad4c320",
+        "regulation_version_id": "2483b6cc-8ae5-595a-9213-44fd885dda6b",
+        "chunk_text": "직제규정 > 별표4 > 환경본부\n구분: 환경본부\n분장업무:\n1. 물환경·수생태 관리 및 수질개선 종합대책 수립·시행\n2. 물환경 개선, 경관생태 및 친환경·생태복원 업무\n3. 물환경 안전 분야 조사·연구 및 검증·평가사업 총괄\n4. 물환경 분야 수질사고 대응 및 유역 수질검사소 총괄\n소관부서: 물환경계획처 / 물환경관리처",
+        "chunk_type": "annex",
+        "context_path": "직제규정 > 별표4 > 환경본부",
+        "content_hash": "c4ec356ddd4ad643ec88675ea039f29d852e0609bf92173f8ca97aca5e2e1bd9",
+        "chunking_version": "manual-org-duty-v1",
+        "index_revision": "manual-org-duty-review-v1",
+        "embedding_model": null,
+        "search_status": "needs_review",
+        "created_at": "2026-10-13T17:03:14+09:00",
+        "token_count": null
+      },
+      {
+        "rag_chunk_id": "193ab554-9292-59bd-a37d-c1e7209acaf3",
+        "regulation_version_id": "2483b6cc-8ae5-595a-9213-44fd885dda6b",
+        "chunk_text": "직제규정 > 별표4 > 재생에너지본부\n구분: 재생에너지본부\n분장업무:\n1. 탄소중립 등 녹색전환 정책 기획·지원 총괄\n2. 재생에너지 등 에너지사업 기획 및 정책지원\n3. 재생에너지 등 에너지사업 계획, 개발 및 관리\n4. 시화조력 관리 총괄\n5. 기타 녹색전환 및 에너지 등에 관한 사항\n소관부서: 에너지기획처 / 에너지사업처",
+        "chunk_type": "annex",
+        "context_path": "직제규정 > 별표4 > 재생에너지본부",
+        "content_hash": "1ce3e346c0176f7db140cd83150c42332ef2dd1791a79d92909b5b9c6712a0d5",
+        "chunking_version": "manual-org-duty-v1",
+        "index_revision": "manual-org-duty-review-v1",
+        "embedding_model": null,
+        "search_status": "needs_review",
+        "created_at": "2026-10-13T17:03:14+09:00",
+        "token_count": null
+      },
+      {
+        "rag_chunk_id": "f90f86e7-631e-5082-be9b-c82f40750229",
+        "regulation_version_id": "2483b6cc-8ae5-595a-9213-44fd885dda6b",
+        "chunk_text": "직제규정 > 별표4 > 수도부문\n구분: 수도부문\n분장업무:\n1. 수도사업 경영계획\n2. 물공급 제도 개선 및 국가수도종합계획 등 통합계획 수립\n3. 댐용수·수도 요금, 수도 영업·공급 및 수요관리\n4. 수도사업 개발 및 관리\n5. 수도시설 유지관리 및 종합개선\n6. 수도시설 운영 및 공급관리\n7. 수도시설 재난안전 및 위기관리 대응 총괄\n8. 유역수도지원센터 운영관리 총괄\n9. 국가수도정보센터 운영 및 관리\n10. 지방상수도 관리 및 종합개선\n11. 지방상수도 시설 운영 및 공급관리\n12. 산업용수사업 운영관리\n13. 초순수·해수담수화·재이용 등 사업개발\n14. 물인프라 기술진단·지원\n15. 기타 위 호와 관련된 사항\n소관부서: 수도기획처 / 수도개발처 / 수도관리처 / 지방수도처 / 산업용수처 / 물종합진단처",
+        "chunk_type": "annex",
+        "context_path": "직제규정 > 별표4 > 수도부문",
+        "content_hash": "b2c0b419f839d2b5be00d1837c68dfc3839f9691fb096004829396e68fcb1fa5",
+        "chunking_version": "manual-org-duty-v1",
+        "index_revision": "manual-org-duty-review-v1",
+        "embedding_model": null,
+        "search_status": "needs_review",
+        "created_at": "2026-10-13T17:03:14+09:00",
+        "token_count": null
+      },
+      {
+        "rag_chunk_id": "4b9d37eb-b8f2-5367-935f-adfb93804052",
+        "regulation_version_id": "2483b6cc-8ae5-595a-9213-44fd885dda6b",
+        "chunk_text": "직제규정 > 별표4 > 기술본부\n구분: 기술본부\n분장업무:\n1. 기술기획·전략 수립 및 미래기술 총괄\n2. 기술전략에 따른 기술과제 심의·선정 및 관리\n3. 건설사업 제도, 기술심의 및 건설원가 관리\n4. 기술기준 제·개정, 관리체계 개선 및 표준화\n5. 기본구상 수립 및 설계의 기술적 타당성 검토 및 기술 지원\n6. 수자원, 수도, 도시 및 에너지 사업 등 설계\n소관부서: 기술기획처 / 설계처",
+        "chunk_type": "annex",
+        "context_path": "직제규정 > 별표4 > 기술본부",
+        "content_hash": "a58814561094db365798ee54becd6906733b2064a203b2eee4eb6c3b60d1b713",
+        "chunking_version": "manual-org-duty-v1",
+        "index_revision": "manual-org-duty-review-v1",
+        "embedding_model": null,
+        "search_status": "needs_review",
+        "created_at": "2026-10-13T17:03:14+09:00",
+        "token_count": null
+      },
+      {
+        "rag_chunk_id": "a7175c88-e855-5441-9274-baece90ca23d",
+        "regulation_version_id": "2483b6cc-8ae5-595a-9213-44fd885dda6b",
+        "chunk_text": "직제규정 > 별표4 > 그린인프라부문\n구분: 그린인프라부문\n분장업무:\n1. 수변사업 경영계획 및 사업관리\n2. 수변사업 추진 총괄\n3. 부산 에코델타 스마트시티 사업 추진 총괄\n4. 건축사업 계획 및 관리\n5. 조경사업 계획 및 관리\n6. 기타 국내·외 수변사업 등에 관한 사항\n7. 물산업 육성, 중소기업 동반성장 및 지원\n8. 신기술 및 특허 등 지식재산권 관리\n소관부서: 수변기획처 / 수변사업처 / 친수사업처 / 공간경관처 / 기후테크혁신처",
+        "chunk_type": "annex",
+        "context_path": "직제규정 > 별표4 > 그린인프라부문",
+        "content_hash": "7dacb72c49b950389fb2822d7ff28afaa2ebef26a7bf1bc95e23c77772c37d62",
+        "chunking_version": "manual-org-duty-v1",
+        "index_revision": "manual-org-duty-review-v1",
+        "embedding_model": null,
+        "search_status": "needs_review",
+        "created_at": "2026-10-13T17:03:14+09:00",
+        "token_count": null
+      },
+      {
+        "rag_chunk_id": "bcaf1fac-4700-5b15-9784-04015cf3827d",
+        "regulation_version_id": "2483b6cc-8ae5-595a-9213-44fd885dda6b",
+        "chunk_text": "직제규정 > 별표4 > 글로벌사업본부\n구분: 글로벌사업본부\n분장업무:\n1. 해외사업 추진전략 및 세부 시행계획 수립\n2. 해외사업 리스크관리\n3. 해외 투자사업 및 수주사업 개발·관리\n4. 해외사업 조사, 타당성 분석(재무, 법무, 기술) 및 금융조달\n5. 국제기구, 국가별 관계기관 협력 및 글로벌 네트워크 활동\n6. ODA사업 개발, 수행 및 관리\n소관부서: 글로벌사업처 / 글로벌협력처 / 기후협력개발처",
+        "chunk_type": "annex",
+        "context_path": "직제규정 > 별표4 > 글로벌사업본부",
+        "content_hash": "8ab7e430a3115389129cc006cb1e1c80b5712945c86eaacb4ed90b77fad31041",
+        "chunking_version": "manual-org-duty-v1",
+        "index_revision": "manual-org-duty-review-v1",
+        "embedding_model": null,
+        "search_status": "needs_review",
+        "created_at": "2026-10-13T17:03:14+09:00",
+        "token_count": null
+      },
+      {
+        "rag_chunk_id": "19a5d255-bb82-5793-8996-d88b0a80cd54",
+        "regulation_version_id": "2483b6cc-8ae5-595a-9213-44fd885dda6b",
+        "chunk_text": "직제규정 > 별표4 > K-water연구원\n구분: K-water연구원\n분장업무:\n1. 수자원분야 연구개발 및 기술지원\n2. 상하수도분야 연구개발 및 기술지원\n3. 물에너지·설비분야 연구개발 및 기술지원\n4. 정책·경제 등 경영분야 연구 및 지원\n5. 인공지능 응용연구 및 기술 개발\n6. 연구관련 대외협력업무\n소관부서: [원문 칸 공란]",
+        "chunk_type": "annex",
+        "context_path": "직제규정 > 별표4 > K-water연구원",
+        "content_hash": "53d4b42429c4645d19b60217d5413b092ee3b6747d8cc84e828e84a377f05cbf",
+        "chunking_version": "manual-org-duty-v1",
+        "index_revision": "manual-org-duty-review-v1",
+        "embedding_model": null,
+        "search_status": "needs_review",
+        "created_at": "2026-10-13T17:03:14+09:00",
+        "token_count": null
+      },
+      {
+        "rag_chunk_id": "f7b527ba-f19b-590c-929b-f856c6d8dd3a",
+        "regulation_version_id": "2483b6cc-8ae5-595a-9213-44fd885dda6b",
+        "chunk_text": "직제규정 > 별표4 > 인재개발원\n구분: 인재개발원\n분장업무:\n1. 중장기 인재육성 및 장·단기 교육계획 수립·시행\n2. 공무원·기업체 및 글로벌 교육과정 시행\n소관부서: [원문 칸 공란]",
+        "chunk_type": "annex",
+        "context_path": "직제규정 > 별표4 > 인재개발원",
+        "content_hash": "856f3075453dced8edc8248b33a8c5f147d71640c9815a4a32f60bc349c802a3",
+        "chunking_version": "manual-org-duty-v1",
+        "index_revision": "manual-org-duty-review-v1",
+        "embedding_model": null,
+        "search_status": "needs_review",
+        "created_at": "2026-10-13T17:03:14+09:00",
+        "token_count": null
+      },
+      {
+        "rag_chunk_id": "7350bca9-764b-51f5-80c1-072f53c637d8",
+        "regulation_version_id": "2483b6cc-8ae5-595a-9213-44fd885dda6b",
+        "chunk_text": "직제규정 > 별표4 > 한강유역본부\n구분: 한강유역본부\n분장업무:\n1. 조직, 인사, 예산, 평가, 청렴도 등 경영지원 업무\n2. 수돗물(댐용수 포함) 영업 및 신규 수요 창출\n3. 거버넌스 구축·운영, 홍보 총괄 및 지원\n4. 유역물관리위원회 지원 및 유역물관리종합계획 수립\n5. 수자원조사 및 환경 기초조사\n6. 사업계획 수립·운영 및 사업관리 총괄\n7. 수자원·수도건설사업 관리\n8. 유역 내 신재생에너지사업 관리\n9. 수량·수질관리 등 통합물관리 업무\n10. 수자원·수도시설 총괄 및 지원(진단, 안전점검 등)\n11. 재난·안전 및 리스크관리(경계 이상) 총괄 및 지원\n12. 댐-보 연계운영협의회 및 수계관리위원회 업무\n13. 유역 내 지방상수도 기술지원 및 현안 대응\n14. 지역 내 지방상수도 현대화사업, 스마트 관망관리\n소관부서: 경영처 / 사업처 / 유역관리처 / 유역수도지원센터(처) / 유역협력단",
+        "chunk_type": "annex",
+        "context_path": "직제규정 > 별표4 > 한강유역본부",
+        "content_hash": "9ae5d3c37d6072462f57d7c8358eac3a100edb1f5fbd6aaaa54a824da23d2762",
+        "chunking_version": "manual-org-duty-v1",
+        "index_revision": "manual-org-duty-review-v1",
+        "embedding_model": null,
+        "search_status": "needs_review",
+        "created_at": "2026-10-13T17:03:14+09:00",
+        "token_count": null
+      },
+      {
+        "rag_chunk_id": "117b8542-b59f-5dee-9666-c6b2bb7f7c67",
+        "regulation_version_id": "2483b6cc-8ae5-595a-9213-44fd885dda6b",
+        "chunk_text": "직제규정 > 별표4 > 금강유역본부\n구분: 금강유역본부\n분장업무:\n1. 조직, 인사, 예산, 평가, 청렴도 등 경영지원 업무\n2. 수돗물(댐용수 포함) 영업 및 신규 수요 창출\n3. 거버넌스 구축·운영, 홍보 총괄 및 지원\n4. 유역물관리위원회 지원 및 유역물관리종합계획 수립\n5. 수자원조사 및 환경 기초조사\n6. 사업계획 수립·운영 및 사업관리 총괄\n7. 수자원·수도건설사업 관리\n8. 유역 내 신재생에너지사업 관리\n9. 수량·수질관리 등 통합물관리 업무\n10. 수자원·수도시설 총괄 및 지원(진단, 안전점검 등)\n11. 재난·안전 및 리스크관리(경계 이상) 총괄 및 지원\n12. 댐-보 연계운영협의회 및 수계관리위원회 업무\n13. 유역 내 지방상수도 기술지원 및 현안 대응\n14. 지역 내 지방상수도 현대화사업, 스마트 관망관리\n소관부서: 경영처 / 사업처 / 유역관리처 / 유역수도지원센터(처) / 유역협력단",
+        "chunk_type": "annex",
+        "context_path": "직제규정 > 별표4 > 금강유역본부",
+        "content_hash": "97e5894b9c6b76a71b2e3eda8540f07eaecf788ac6c5d122038fbe0f896f2600",
+        "chunking_version": "manual-org-duty-v1",
+        "index_revision": "manual-org-duty-review-v1",
+        "embedding_model": null,
+        "search_status": "needs_review",
+        "created_at": "2026-10-13T17:03:14+09:00",
+        "token_count": null
+      },
+      {
+        "rag_chunk_id": "832b2e74-d359-579b-b777-ab77152e944c",
+        "regulation_version_id": "2483b6cc-8ae5-595a-9213-44fd885dda6b",
+        "chunk_text": "직제규정 > 별표4 > 영·섬유역본부\n구분: 영·섬유역본부\n분장업무:\n1. 조직, 인사, 예산, 평가, 청렴도 등 경영지원 업무\n2. 수돗물(댐용수 포함) 영업 및 신규 수요 창출\n3. 거버넌스 구축·운영, 홍보 총괄 및 지원\n4. 유역물관리위원회 지원 및 유역물관리종합계획 수립\n5. 수자원조사 및 환경 기초조사\n6. 사업계획 수립·운영 및 사업관리 총괄\n7. 수자원·수도건설사업 관리\n8. 유역 내 신재생에너지사업 관리\n9. 수량·수질관리 등 통합물관리 업무\n10. 수자원·수도시설 총괄 및 지원(진단, 안전점검 등)\n11. 재난·안전 및 리스크관리(경계 이상) 총괄 및 지원\n12. 댐-보 연계운영협의회 및 수계관리위원회 업무\n13. 유역 내 지방상수도 기술지원 및 현안 대응\n14. 지역 내 지방상수도 현대화사업, 스마트 관망관리\n소관부서: 경영처 / 사업처 / 유역관리처 / 유역수도지원센터(처) / 유역협력단 / 제주지역협력본부",
+        "chunk_type": "annex",
+        "context_path": "직제규정 > 별표4 > 영·섬유역본부",
+        "content_hash": "8cfd547abf31164ac8c9d250b8fdd5a4042fc5cff17da9529cfcf2e0591b013a",
+        "chunking_version": "manual-org-duty-v1",
+        "index_revision": "manual-org-duty-review-v1",
+        "embedding_model": null,
+        "search_status": "needs_review",
+        "created_at": "2026-10-13T17:03:14+09:00",
+        "token_count": null
+      },
+      {
+        "rag_chunk_id": "aedaa305-64d6-5b1e-8f98-ac9646b0ff49",
+        "regulation_version_id": "2483b6cc-8ae5-595a-9213-44fd885dda6b",
+        "chunk_text": "직제규정 > 별표4 > 낙동강유역본부\n구분: 낙동강유역본부\n분장업무:\n1. 조직, 인사, 예산, 평가, 청렴도 등 경영지원 업무\n2. 수돗물(댐용수 포함) 영업 및 신규 수요 창출\n3. 거버넌스 구축·운영, 홍보 총괄 및 지원\n4. 유역물관리위원회 지원 및 유역물관리종합계획 수립\n5. 수자원조사 및 환경 기초조사\n6. 사업계획 수립·운영 및 사업관리 총괄\n7. 수자원·수도건설사업 관리\n8. 유역 내 신재생에너지사업 관리\n9. 수량·수질관리 등 통합물관리 업무\n10. 수자원·수도시설 총괄 및 지원(진단, 안전점검 등)\n11. 재난·안전 및 리스크관리(경계 이상) 총괄 및 지원\n12. 댐-보 연계운영협의회 및 수계관리위원회 업무\n13. 유역 내 지방상수도 기술지원 및 현안 대응\n14. 지역 내 지방상수도 현대화사업, 스마트 관망관리\n소관부서: 경영처 / 사업처 / 유역관리처 / 유역수도지원센터(처) / 경북지역협력단 / 부산울산경남지역협력단",
+        "chunk_type": "annex",
+        "context_path": "직제규정 > 별표4 > 낙동강유역본부",
+        "content_hash": "1cf4b17ca0dc44b076e201e726c6ab91d754d4887def69ea741bc2cd671ab515",
+        "chunking_version": "manual-org-duty-v1",
+        "index_revision": "manual-org-duty-review-v1",
+        "embedding_model": null,
+        "search_status": "needs_review",
+        "created_at": "2026-10-13T17:03:14+09:00",
+        "token_count": null
+      },
+      {
+        "rag_chunk_id": "5b9deb11-7eba-5b25-8ad8-15128e1877d6",
+        "regulation_version_id": "2483b6cc-8ae5-595a-9213-44fd885dda6b",
+        "chunk_text": "직제규정 > 별표4 > 도시본부\n구분: 도시본부\n분장업무:\n1. 본부 경영계획 수립 및 관리(안전관리 포함)\n2. 시화호 환경관리\n소관부서: [원문 칸 공란]",
+        "chunk_type": "annex",
+        "context_path": "직제규정 > 별표4 > 도시본부",
+        "content_hash": "949acdf2fefd5893bd4cf9437dc13c5f181c88a4dc90dd91aaa36ac97cf2a7b7",
+        "chunking_version": "manual-org-duty-v1",
+        "index_revision": "manual-org-duty-review-v1",
+        "embedding_model": null,
+        "search_status": "needs_review",
+        "created_at": "2026-10-13T17:03:14+09:00",
+        "token_count": null
+      },
+      {
+        "rag_chunk_id": "6ed0f235-95b9-53e8-8d95-03e8cea31c65",
+        "regulation_version_id": "2483b6cc-8ae5-595a-9213-44fd885dda6b",
+        "chunk_text": "직제규정 > 별표4 > 지사·단\n구분: 지사·단\n분장업무:\n1. 수자원시설의 운영·관리\n2. 수질·수생태 등 물환경 관리\n3. 발전 등 에너지시설 운영·관리\n4. 상하수도시설의 운영·관리\n5. 산업단지, 지역개발 및 친수구역 등 도시조성\n6. 수자원시설의 건설\n7. 발전 등 에너지시설의 건설\n8. 수도시설의 건설\n9. 해외사업 개발 및 운영·관리\n10. 지방상수도 현대화사업, 스마트 관망관리\n소관부서: [원문 칸 공란]",
+        "chunk_type": "annex",
+        "context_path": "직제규정 > 별표4 > 지사·단",
+        "content_hash": "d03e9d48a437604f067c9331a5fc6b432e9431453b7ce49a5d7f82825a7d87d2",
+        "chunking_version": "manual-org-duty-v1",
+        "index_revision": "manual-org-duty-review-v1",
+        "embedding_model": null,
+        "search_status": "needs_review",
+        "created_at": "2026-10-13T17:03:14+09:00",
+        "token_count": null
+      }
+    ],
+    "rag_chunk_source": [
+      {
+        "rag_chunk_source_id": "b4a1ea23-461a-521b-9d81-ef40b0ad434e",
+        "rag_chunk_id": "b7eeb6e1-3bc9-54c1-b75f-ba4900fb3866",
+        "regulation_node_id": "9cdbc442-d519-5f40-b909-f66ef99c4a49",
+        "source_order": 1,
+        "source_role": "primary",
+        "source_span": {
+          "coordinate_system": "이미지 전사: PDF 쪽수·원문 이미지 연결, 문자 좌표 없음",
+          "pdf_pages": [
+            27
+          ],
+          "printed_pages": [
+            27
+          ],
+          "lines": [],
+          "section_kind": "annex",
+          "transcription_method": "manual_pdf_image_reading",
+          "source_images": [
+            {
+              "pdf_page": 27,
+              "path": "source/page-27.png",
+              "sha256": "5b3ce6a1fa955e90ad99f105a47e1dc9724b96047bade513b3c59a46e87eb1a3"
+            }
+          ]
+        }
+      },
+      {
+        "rag_chunk_source_id": "59b6bc5e-63fb-597a-9a9d-41bd1a9ba836",
+        "rag_chunk_id": "48a702e3-782a-5b57-9e6a-31a5290d9fed",
+        "regulation_node_id": "43839b2e-9925-523b-98dc-1eef3c552d0c",
+        "source_order": 1,
+        "source_role": "primary",
+        "source_span": {
+          "coordinate_system": "이미지 전사: PDF 쪽수·원문 이미지 연결, 문자 좌표 없음",
+          "pdf_pages": [
+            29
+          ],
+          "printed_pages": [
+            29
+          ],
+          "lines": [],
+          "section_kind": "annex",
+          "transcription_method": "manual_pdf_image_reading",
+          "source_images": [
+            {
+              "pdf_page": 29,
+              "path": "source/page-29.png",
+              "sha256": "4f09a2b2d5081fa245b5646bd196bd821bfde71b09a5d10e277f0c3c330303c1"
+            }
+          ]
+        }
+      },
+      {
+        "rag_chunk_source_id": "b7ef1709-b061-5e6f-b9b8-108cccc26b98",
+        "rag_chunk_id": "841163d6-5c00-5361-940a-0d595d801a1d",
+        "regulation_node_id": "53d98896-5141-5ea9-aec5-a1b237240acd",
+        "source_order": 1,
+        "source_role": "primary",
+        "source_span": {
+          "coordinate_system": "이미지 전사: PDF 쪽수·원문 이미지 연결, 문자 좌표 없음",
+          "pdf_pages": [
+            29
+          ],
+          "printed_pages": [
+            29
+          ],
+          "lines": [],
+          "section_kind": "annex",
+          "transcription_method": "manual_pdf_image_reading",
+          "source_images": [
+            {
+              "pdf_page": 29,
+              "path": "source/page-29.png",
+              "sha256": "4f09a2b2d5081fa245b5646bd196bd821bfde71b09a5d10e277f0c3c330303c1"
+            }
+          ]
+        }
+      },
+      {
+        "rag_chunk_source_id": "1f91ffea-8ae7-5437-9146-61d5c040af86",
+        "rag_chunk_id": "f2151507-f551-57b6-92bd-9f7fe40d5cbc",
+        "regulation_node_id": "fde790ec-e424-50c0-89a0-a6d9fc63aaac",
+        "source_order": 1,
+        "source_role": "primary",
+        "source_span": {
+          "coordinate_system": "이미지 전사: PDF 쪽수·원문 이미지 연결, 문자 좌표 없음",
+          "pdf_pages": [
+            29
+          ],
+          "printed_pages": [
+            29
+          ],
+          "lines": [],
+          "section_kind": "annex",
+          "transcription_method": "manual_pdf_image_reading",
+          "source_images": [
+            {
+              "pdf_page": 29,
+              "path": "source/page-29.png",
+              "sha256": "4f09a2b2d5081fa245b5646bd196bd821bfde71b09a5d10e277f0c3c330303c1"
+            }
+          ]
+        }
+      },
+      {
+        "rag_chunk_source_id": "f4fc06c3-4ab6-56e2-999f-ea4bd9e0dcaf",
+        "rag_chunk_id": "8a91bab5-d415-5f1c-a350-894f4570f622",
+        "regulation_node_id": "f65f20f0-c744-5e26-9378-115b825656f0",
+        "source_order": 1,
+        "source_role": "primary",
+        "source_span": {
+          "coordinate_system": "이미지 전사: PDF 쪽수·원문 이미지 연결, 문자 좌표 없음",
+          "pdf_pages": [
+            29
+          ],
+          "printed_pages": [
+            29
+          ],
+          "lines": [],
+          "section_kind": "annex",
+          "transcription_method": "manual_pdf_image_reading",
+          "source_images": [
+            {
+              "pdf_page": 29,
+              "path": "source/page-29.png",
+              "sha256": "4f09a2b2d5081fa245b5646bd196bd821bfde71b09a5d10e277f0c3c330303c1"
+            }
+          ]
+        }
+      },
+      {
+        "rag_chunk_source_id": "238c5fa8-1a96-5cd1-bd47-a5985bc87b38",
+        "rag_chunk_id": "3859109d-e111-5bf8-8a3c-20deab73fbbf",
+        "regulation_node_id": "61b58b93-b9a8-5c6b-8876-b1292a5c7e5a",
+        "source_order": 1,
+        "source_role": "primary",
+        "source_span": {
+          "coordinate_system": "이미지 전사: PDF 쪽수·원문 이미지 연결, 문자 좌표 없음",
+          "pdf_pages": [
+            30
+          ],
+          "printed_pages": [
+            30
+          ],
+          "lines": [],
+          "section_kind": "annex",
+          "transcription_method": "manual_pdf_image_reading",
+          "source_images": [
+            {
+              "pdf_page": 30,
+              "path": "source/page-30.png",
+              "sha256": "86968b64fcd1038320a91ae907877609edd631bc3f52d9f1d592300596eab9e8"
+            }
+          ]
+        }
+      },
+      {
+        "rag_chunk_source_id": "fe2a5920-a507-58b0-8aa5-18f549052d7b",
+        "rag_chunk_id": "25f2b594-9936-5e6a-a22c-1f749af4dd40",
+        "regulation_node_id": "5228c34d-1fed-5d1f-a44f-29b2ec514900",
+        "source_order": 1,
+        "source_role": "primary",
+        "source_span": {
+          "coordinate_system": "이미지 전사: PDF 쪽수·원문 이미지 연결, 문자 좌표 없음",
+          "pdf_pages": [
+            30
+          ],
+          "printed_pages": [
+            30
+          ],
+          "lines": [],
+          "section_kind": "annex",
+          "transcription_method": "manual_pdf_image_reading",
+          "source_images": [
+            {
+              "pdf_page": 30,
+              "path": "source/page-30.png",
+              "sha256": "86968b64fcd1038320a91ae907877609edd631bc3f52d9f1d592300596eab9e8"
+            }
+          ]
+        }
+      },
+      {
+        "rag_chunk_source_id": "b18c4cd9-7073-5b36-8777-d75d2828d48d",
+        "rag_chunk_id": "b3c6efbf-cda6-580b-96f0-e7224ca14355",
+        "regulation_node_id": "d4aa779f-7a87-50d2-9e91-3b889d77283e",
+        "source_order": 1,
+        "source_role": "primary",
+        "source_span": {
+          "coordinate_system": "이미지 전사: PDF 쪽수·원문 이미지 연결, 문자 좌표 없음",
+          "pdf_pages": [
+            30
+          ],
+          "printed_pages": [
+            30
+          ],
+          "lines": [],
+          "section_kind": "annex",
+          "transcription_method": "manual_pdf_image_reading",
+          "source_images": [
+            {
+              "pdf_page": 30,
+              "path": "source/page-30.png",
+              "sha256": "86968b64fcd1038320a91ae907877609edd631bc3f52d9f1d592300596eab9e8"
+            }
+          ]
+        }
+      },
+      {
+        "rag_chunk_source_id": "4ecb109a-512f-5891-a6fe-7ef8da97eb69",
+        "rag_chunk_id": "f0d7edb1-fb7d-5526-9fd5-d5c4aad4c320",
+        "regulation_node_id": "46fae090-e9e7-552b-b955-fd4f0b123ed5",
+        "source_order": 1,
+        "source_role": "primary",
+        "source_span": {
+          "coordinate_system": "이미지 전사: PDF 쪽수·원문 이미지 연결, 문자 좌표 없음",
+          "pdf_pages": [
+            31
+          ],
+          "printed_pages": [
+            31
+          ],
+          "lines": [],
+          "section_kind": "annex",
+          "transcription_method": "manual_pdf_image_reading",
+          "source_images": [
+            {
+              "pdf_page": 31,
+              "path": "source/page-31.png",
+              "sha256": "411ab87feda78f3b16c5285af6f33386b6be19f6a88b2ae4ea4376224960c4d9"
+            }
+          ]
+        }
+      },
+      {
+        "rag_chunk_source_id": "13421cac-85ff-5a86-b748-dd30ec4ee95d",
+        "rag_chunk_id": "193ab554-9292-59bd-a37d-c1e7209acaf3",
+        "regulation_node_id": "f7fa8c81-bbe2-503c-8f1c-705ba55a71f8",
+        "source_order": 1,
+        "source_role": "primary",
+        "source_span": {
+          "coordinate_system": "이미지 전사: PDF 쪽수·원문 이미지 연결, 문자 좌표 없음",
+          "pdf_pages": [
+            31
+          ],
+          "printed_pages": [
+            31
+          ],
+          "lines": [],
+          "section_kind": "annex",
+          "transcription_method": "manual_pdf_image_reading",
+          "source_images": [
+            {
+              "pdf_page": 31,
+              "path": "source/page-31.png",
+              "sha256": "411ab87feda78f3b16c5285af6f33386b6be19f6a88b2ae4ea4376224960c4d9"
+            }
+          ]
+        }
+      },
+      {
+        "rag_chunk_source_id": "4cc60946-e0bb-59b1-b835-91e9c21ae6b7",
+        "rag_chunk_id": "f90f86e7-631e-5082-be9b-c82f40750229",
+        "regulation_node_id": "f1b670d8-44e5-51d6-9a62-5d31ff5919be",
+        "source_order": 1,
+        "source_role": "primary",
+        "source_span": {
+          "coordinate_system": "이미지 전사: PDF 쪽수·원문 이미지 연결, 문자 좌표 없음",
+          "pdf_pages": [
+            31
+          ],
+          "printed_pages": [
+            31
+          ],
+          "lines": [],
+          "section_kind": "annex",
+          "transcription_method": "manual_pdf_image_reading",
+          "source_images": [
+            {
+              "pdf_page": 31,
+              "path": "source/page-31.png",
+              "sha256": "411ab87feda78f3b16c5285af6f33386b6be19f6a88b2ae4ea4376224960c4d9"
+            }
+          ]
+        }
+      },
+      {
+        "rag_chunk_source_id": "89737b1e-35ee-5118-8b0a-8f0b3eb01dca",
+        "rag_chunk_id": "4b9d37eb-b8f2-5367-935f-adfb93804052",
+        "regulation_node_id": "aca5265b-8829-5a2b-8cf5-3c3f935611e9",
+        "source_order": 1,
+        "source_role": "primary",
+        "source_span": {
+          "coordinate_system": "이미지 전사: PDF 쪽수·원문 이미지 연결, 문자 좌표 없음",
+          "pdf_pages": [
+            32
+          ],
+          "printed_pages": [
+            32
+          ],
+          "lines": [],
+          "section_kind": "annex",
+          "transcription_method": "manual_pdf_image_reading",
+          "source_images": [
+            {
+              "pdf_page": 32,
+              "path": "source/page-32.png",
+              "sha256": "8664b1c934b02c7e853c50f71acc7348af0dc9ccb2330b0413b285de058e768a"
+            }
+          ]
+        }
+      },
+      {
+        "rag_chunk_source_id": "bd204ca3-a050-598b-b155-3f4dfa277bbd",
+        "rag_chunk_id": "a7175c88-e855-5441-9274-baece90ca23d",
+        "regulation_node_id": "8bb8f37d-56cd-5c02-81d0-4798ab2a498c",
+        "source_order": 1,
+        "source_role": "primary",
+        "source_span": {
+          "coordinate_system": "이미지 전사: PDF 쪽수·원문 이미지 연결, 문자 좌표 없음",
+          "pdf_pages": [
+            32
+          ],
+          "printed_pages": [
+            32
+          ],
+          "lines": [],
+          "section_kind": "annex",
+          "transcription_method": "manual_pdf_image_reading",
+          "source_images": [
+            {
+              "pdf_page": 32,
+              "path": "source/page-32.png",
+              "sha256": "8664b1c934b02c7e853c50f71acc7348af0dc9ccb2330b0413b285de058e768a"
+            }
+          ]
+        }
+      },
+      {
+        "rag_chunk_source_id": "bf053531-4ec8-5dfd-88d1-19ffa36c733b",
+        "rag_chunk_id": "bcaf1fac-4700-5b15-9784-04015cf3827d",
+        "regulation_node_id": "53825549-a384-5832-84f1-10131ad3dc4d",
+        "source_order": 1,
+        "source_role": "primary",
+        "source_span": {
+          "coordinate_system": "이미지 전사: PDF 쪽수·원문 이미지 연결, 문자 좌표 없음",
+          "pdf_pages": [
+            32
+          ],
+          "printed_pages": [
+            32
+          ],
+          "lines": [],
+          "section_kind": "annex",
+          "transcription_method": "manual_pdf_image_reading",
+          "source_images": [
+            {
+              "pdf_page": 32,
+              "path": "source/page-32.png",
+              "sha256": "8664b1c934b02c7e853c50f71acc7348af0dc9ccb2330b0413b285de058e768a"
+            }
+          ]
+        }
+      },
+      {
+        "rag_chunk_source_id": "ac27c243-44fe-503e-b14b-8f7749207be5",
+        "rag_chunk_id": "19a5d255-bb82-5793-8996-d88b0a80cd54",
+        "regulation_node_id": "e3d35de0-8fdf-5625-8cdf-f99d1188d337",
+        "source_order": 1,
+        "source_role": "primary",
+        "source_span": {
+          "coordinate_system": "이미지 전사: PDF 쪽수·원문 이미지 연결, 문자 좌표 없음",
+          "pdf_pages": [
+            33
+          ],
+          "printed_pages": [
+            33
+          ],
+          "lines": [],
+          "section_kind": "annex",
+          "transcription_method": "manual_pdf_image_reading",
+          "source_images": [
+            {
+              "pdf_page": 33,
+              "path": "source/page-33.png",
+              "sha256": "3001ba2300c1760ab40b9b98f261c9b0a2409eaa73a95c9fa50e4483f1f8af43"
+            }
+          ]
+        }
+      },
+      {
+        "rag_chunk_source_id": "15b05e77-aeff-5709-8cda-cd7251f612dc",
+        "rag_chunk_id": "f7b527ba-f19b-590c-929b-f856c6d8dd3a",
+        "regulation_node_id": "0193fd05-cfaa-56eb-be4f-b11beb13cb85",
+        "source_order": 1,
+        "source_role": "primary",
+        "source_span": {
+          "coordinate_system": "이미지 전사: PDF 쪽수·원문 이미지 연결, 문자 좌표 없음",
+          "pdf_pages": [
+            33
+          ],
+          "printed_pages": [
+            33
+          ],
+          "lines": [],
+          "section_kind": "annex",
+          "transcription_method": "manual_pdf_image_reading",
+          "source_images": [
+            {
+              "pdf_page": 33,
+              "path": "source/page-33.png",
+              "sha256": "3001ba2300c1760ab40b9b98f261c9b0a2409eaa73a95c9fa50e4483f1f8af43"
+            }
+          ]
+        }
+      },
+      {
+        "rag_chunk_source_id": "575b4ee0-4dfc-516b-b60b-a91842c3d8ff",
+        "rag_chunk_id": "7350bca9-764b-51f5-80c1-072f53c637d8",
+        "regulation_node_id": "f0cfceae-7c4f-52df-bd31-51a64c2bd842",
+        "source_order": 1,
+        "source_role": "primary",
+        "source_span": {
+          "coordinate_system": "이미지 전사: PDF 쪽수·원문 이미지 연결, 문자 좌표 없음",
+          "pdf_pages": [
+            34
+          ],
+          "printed_pages": [
+            34
+          ],
+          "lines": [],
+          "section_kind": "annex",
+          "transcription_method": "manual_pdf_image_reading",
+          "source_images": [
+            {
+              "pdf_page": 34,
+              "path": "source/page-34.png",
+              "sha256": "45a697c72d9386ffe1e5fc0f99f1de4970e43eca84c5d315e58af382a3bd747a"
+            }
+          ]
+        }
+      },
+      {
+        "rag_chunk_source_id": "a0cc4849-3fa7-5aee-9104-bf672a294936",
+        "rag_chunk_id": "117b8542-b59f-5dee-9666-c6b2bb7f7c67",
+        "regulation_node_id": "49a7f63a-7a1f-535a-b55a-4e1e62c59e0d",
+        "source_order": 1,
+        "source_role": "primary",
+        "source_span": {
+          "coordinate_system": "이미지 전사: PDF 쪽수·원문 이미지 연결, 문자 좌표 없음",
+          "pdf_pages": [
+            34
+          ],
+          "printed_pages": [
+            34
+          ],
+          "lines": [],
+          "section_kind": "annex",
+          "transcription_method": "manual_pdf_image_reading",
+          "source_images": [
+            {
+              "pdf_page": 34,
+              "path": "source/page-34.png",
+              "sha256": "45a697c72d9386ffe1e5fc0f99f1de4970e43eca84c5d315e58af382a3bd747a"
+            }
+          ]
+        }
+      },
+      {
+        "rag_chunk_source_id": "aad93e59-26b4-574d-8d95-a4824324101e",
+        "rag_chunk_id": "832b2e74-d359-579b-b777-ab77152e944c",
+        "regulation_node_id": "5825716b-641e-5f3c-b917-64cdf60b092b",
+        "source_order": 1,
+        "source_role": "primary",
+        "source_span": {
+          "coordinate_system": "이미지 전사: PDF 쪽수·원문 이미지 연결, 문자 좌표 없음",
+          "pdf_pages": [
+            35
+          ],
+          "printed_pages": [
+            35
+          ],
+          "lines": [],
+          "section_kind": "annex",
+          "transcription_method": "manual_pdf_image_reading",
+          "source_images": [
+            {
+              "pdf_page": 35,
+              "path": "source/page-35.png",
+              "sha256": "288f4cb267d62f6f6e5e4756e908d917f390b7377e2aafc62a89f5d6d4374ae6"
+            }
+          ]
+        }
+      },
+      {
+        "rag_chunk_source_id": "5a0a1bbc-7f1d-52d7-b0a5-82c9c9579663",
+        "rag_chunk_id": "aedaa305-64d6-5b1e-8f98-ac9646b0ff49",
+        "regulation_node_id": "ced8f13d-9c1f-5685-abf2-e1dd8362e8fb",
+        "source_order": 1,
+        "source_role": "primary",
+        "source_span": {
+          "coordinate_system": "이미지 전사: PDF 쪽수·원문 이미지 연결, 문자 좌표 없음",
+          "pdf_pages": [
+            35
+          ],
+          "printed_pages": [
+            35
+          ],
+          "lines": [],
+          "section_kind": "annex",
+          "transcription_method": "manual_pdf_image_reading",
+          "source_images": [
+            {
+              "pdf_page": 35,
+              "path": "source/page-35.png",
+              "sha256": "288f4cb267d62f6f6e5e4756e908d917f390b7377e2aafc62a89f5d6d4374ae6"
+            }
+          ]
+        }
+      },
+      {
+        "rag_chunk_source_id": "d7330730-e5a2-58aa-a5b6-7afa0d7865d0",
+        "rag_chunk_id": "5b9deb11-7eba-5b25-8ad8-15128e1877d6",
+        "regulation_node_id": "fa5f6848-4ec4-5f8f-b74b-2c7730759dd6",
+        "source_order": 1,
+        "source_role": "primary",
+        "source_span": {
+          "coordinate_system": "이미지 전사: PDF 쪽수·원문 이미지 연결, 문자 좌표 없음",
+          "pdf_pages": [
+            36
+          ],
+          "printed_pages": [
+            36
+          ],
+          "lines": [],
+          "section_kind": "annex",
+          "transcription_method": "manual_pdf_image_reading",
+          "source_images": [
+            {
+              "pdf_page": 36,
+              "path": "source/page-36.png",
+              "sha256": "ce2743b24547e25235d74d261d3df3ad1c6e68f78530a3cd6a791207355b8b93"
+            }
+          ]
+        }
+      },
+      {
+        "rag_chunk_source_id": "9616c3c6-4cbc-5b57-94e6-fd432aed02d7",
+        "rag_chunk_id": "6ed0f235-95b9-53e8-8d95-03e8cea31c65",
+        "regulation_node_id": "964d4bd5-a228-5fb8-9fd2-2c3792169901",
+        "source_order": 1,
+        "source_role": "primary",
+        "source_span": {
+          "coordinate_system": "이미지 전사: PDF 쪽수·원문 이미지 연결, 문자 좌표 없음",
+          "pdf_pages": [
+            36
+          ],
+          "printed_pages": [
+            36
+          ],
+          "lines": [],
+          "section_kind": "annex",
+          "transcription_method": "manual_pdf_image_reading",
+          "source_images": [
+            {
+              "pdf_page": 36,
+              "path": "source/page-36.png",
+              "sha256": "ce2743b24547e25235d74d261d3df3ad1c6e68f78530a3cd6a791207355b8b93"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "delivery_integration": {
+    "included_in_unified_handoff": true,
+    "data_rows_applied": true,
+    "current_integration_report": "report/integration_ledger.json",
+    "db_loaded": false,
+    "search_activated": false,
+    "original_generation_metadata_is_historical": true
+  }
+}

@@ -1,0 +1,1006 @@
+{
+  "regulation_title": "한국수자원공사취업규칙",
+  "source_file_name": "한국수자원공사취업규칙(2026년도 03월 10일 개정).pdf",
+  "source_file_sha256": "f57219993cb77be6abc6dc0c5e264e49f073c119fdfdc3dc72993bbb8cb91a38",
+  "source_pdf_pages": [
+    9
+  ],
+  "review_image": "report/source_images/취업규칙_p09.png",
+  "source_text_visually_verified_by_codex": true,
+  "source_facts": [
+    {
+      "rule_key": "ANNUAL-SOURCE-01",
+      "source_regulation_node_id": "ad736e89-249d-55fb-8b03-aba3acf20785",
+      "source_paragraph": "①",
+      "source_text": "① 공사는 1년간 80퍼센트 이상 출근한 직원에 대하여는 15일의 유급휴\n가를 주어야 한다. < 개정 2014.05.02. >",
+      "source_values": {
+        "attendance_period_years": 1,
+        "minimum_attendance_percent": 80,
+        "leave_days": 15
+      },
+      "source_locator": {
+        "coordinate_system": "PDF point; 원점=페이지 왼쪽 위",
+        "pdf_pages": [
+          9
+        ],
+        "lines": [
+          {
+            "line_id": "p009l0006",
+            "page": 9,
+            "bbox": [
+              58.99,
+              185.893,
+              512.952,
+              195.866
+            ]
+          },
+          {
+            "line_id": "p009l0007",
+            "page": 9,
+            "bbox": [
+              73.167,
+              201.874,
+              258.746,
+              211.846
+            ]
+          },
+          {
+            "line_id": "p009l0008",
+            "page": 9,
+            "bbox": [
+              73.167,
+              218.095,
+              512.952,
+              228.067
+            ]
+          },
+          {
+            "line_id": "p009l0009",
+            "page": 9,
+            "bbox": [
+              73.167,
+              234.075,
+              391.263,
+              244.048
+            ]
+          },
+          {
+            "line_id": "p009l0010",
+            "page": 9,
+            "bbox": [
+              73.167,
+              250.296,
+              212.73,
+              260.269
+            ]
+          },
+          {
+            "line_id": "p009l0011",
+            "page": 9,
+            "bbox": [
+              73.167,
+              266.517,
+              512.952,
+              276.49
+            ]
+          },
+          {
+            "line_id": "p009l0012",
+            "page": 9,
+            "bbox": [
+              73.167,
+              282.618,
+              512.952,
+              292.591
+            ]
+          },
+          {
+            "line_id": "p009l0013",
+            "page": 9,
+            "bbox": [
+              73.167,
+              298.598,
+              365.792,
+              308.571
+            ]
+          },
+          {
+            "line_id": "p009l0014",
+            "page": 9,
+            "bbox": [
+              73.167,
+              314.819,
+              512.952,
+              324.792
+            ]
+          },
+          {
+            "line_id": "p009l0015",
+            "page": 9,
+            "bbox": [
+              73.167,
+              330.8,
+              110.479,
+              340.773
+            ]
+          },
+          {
+            "line_id": "p009l0016",
+            "page": 9,
+            "bbox": [
+              73.167,
+              347.021,
+              512.952,
+              356.994
+            ]
+          },
+          {
+            "line_id": "p009l0017",
+            "page": 9,
+            "bbox": [
+              73.167,
+              363.122,
+              429.469,
+              373.094
+            ]
+          },
+          {
+            "line_id": "p009l0018",
+            "page": 9,
+            "bbox": [
+              73.167,
+              379.343,
+              513.072,
+              389.315
+            ]
+          },
+          {
+            "line_id": "p009l0019",
+            "page": 9,
+            "bbox": [
+              73.167,
+              395.323,
+              483.413,
+              405.296
+            ]
+          }
+        ],
+        "section_kind": "body"
+      },
+      "locator_covers": "제33조의2 전체",
+      "employee_leave_days_calculated": false
+    },
+    {
+      "rule_key": "ANNUAL-SOURCE-02",
+      "source_regulation_node_id": "ad736e89-249d-55fb-8b03-aba3acf20785",
+      "source_paragraph": "②",
+      "source_text": "② 계속 근로 연수가 1년 미만이거나 1년간 80퍼센트 미만 출근한 직원에 대하여는 1개월간 개\n근시 1일의 유급휴가를 주어야 한다. <개정 2014.05.02., 2018.12.21>",
+      "source_values": {
+        "condition_text": "계속 근로 연수가 1년 미만이거나 1년간 80퍼센트 미만 출근",
+        "full_attendance_months": 1,
+        "leave_days_per_full_attendance_month": 1
+      },
+      "source_locator": {
+        "coordinate_system": "PDF point; 원점=페이지 왼쪽 위",
+        "pdf_pages": [
+          9
+        ],
+        "lines": [
+          {
+            "line_id": "p009l0006",
+            "page": 9,
+            "bbox": [
+              58.99,
+              185.893,
+              512.952,
+              195.866
+            ]
+          },
+          {
+            "line_id": "p009l0007",
+            "page": 9,
+            "bbox": [
+              73.167,
+              201.874,
+              258.746,
+              211.846
+            ]
+          },
+          {
+            "line_id": "p009l0008",
+            "page": 9,
+            "bbox": [
+              73.167,
+              218.095,
+              512.952,
+              228.067
+            ]
+          },
+          {
+            "line_id": "p009l0009",
+            "page": 9,
+            "bbox": [
+              73.167,
+              234.075,
+              391.263,
+              244.048
+            ]
+          },
+          {
+            "line_id": "p009l0010",
+            "page": 9,
+            "bbox": [
+              73.167,
+              250.296,
+              212.73,
+              260.269
+            ]
+          },
+          {
+            "line_id": "p009l0011",
+            "page": 9,
+            "bbox": [
+              73.167,
+              266.517,
+              512.952,
+              276.49
+            ]
+          },
+          {
+            "line_id": "p009l0012",
+            "page": 9,
+            "bbox": [
+              73.167,
+              282.618,
+              512.952,
+              292.591
+            ]
+          },
+          {
+            "line_id": "p009l0013",
+            "page": 9,
+            "bbox": [
+              73.167,
+              298.598,
+              365.792,
+              308.571
+            ]
+          },
+          {
+            "line_id": "p009l0014",
+            "page": 9,
+            "bbox": [
+              73.167,
+              314.819,
+              512.952,
+              324.792
+            ]
+          },
+          {
+            "line_id": "p009l0015",
+            "page": 9,
+            "bbox": [
+              73.167,
+              330.8,
+              110.479,
+              340.773
+            ]
+          },
+          {
+            "line_id": "p009l0016",
+            "page": 9,
+            "bbox": [
+              73.167,
+              347.021,
+              512.952,
+              356.994
+            ]
+          },
+          {
+            "line_id": "p009l0017",
+            "page": 9,
+            "bbox": [
+              73.167,
+              363.122,
+              429.469,
+              373.094
+            ]
+          },
+          {
+            "line_id": "p009l0018",
+            "page": 9,
+            "bbox": [
+              73.167,
+              379.343,
+              513.072,
+              389.315
+            ]
+          },
+          {
+            "line_id": "p009l0019",
+            "page": 9,
+            "bbox": [
+              73.167,
+              395.323,
+              483.413,
+              405.296
+            ]
+          }
+        ],
+        "section_kind": "body"
+      },
+      "locator_covers": "제33조의2 전체",
+      "employee_leave_days_calculated": false
+    },
+    {
+      "rule_key": "ANNUAL-SOURCE-03",
+      "source_regulation_node_id": "ad736e89-249d-55fb-8b03-aba3acf20785",
+      "source_paragraph": "④",
+      "source_text": "④ 3년 이상 계속 근로한 직원에 대하여는 제1항에 따른 휴가에 최초 1년을 초과하는 계속 근로\n연수 매 2년에 대하여 1일을 가산한 유급휴가를 주어야 한다. 이 경우 가산휴가를 포함한 총 휴\n가일수는 25일을 한도로 한다. <개정 2018.12.21., 2026.03.10.>",
+      "source_values": {
+        "minimum_continuous_service_years": 3,
+        "initial_excluded_service_years": 1,
+        "additional_leave_per_service_years": 2,
+        "additional_leave_days": 1,
+        "total_leave_day_cap": 25,
+        "base_leave_reference": "제1항"
+      },
+      "source_locator": {
+        "coordinate_system": "PDF point; 원점=페이지 왼쪽 위",
+        "pdf_pages": [
+          9
+        ],
+        "lines": [
+          {
+            "line_id": "p009l0006",
+            "page": 9,
+            "bbox": [
+              58.99,
+              185.893,
+              512.952,
+              195.866
+            ]
+          },
+          {
+            "line_id": "p009l0007",
+            "page": 9,
+            "bbox": [
+              73.167,
+              201.874,
+              258.746,
+              211.846
+            ]
+          },
+          {
+            "line_id": "p009l0008",
+            "page": 9,
+            "bbox": [
+              73.167,
+              218.095,
+              512.952,
+              228.067
+            ]
+          },
+          {
+            "line_id": "p009l0009",
+            "page": 9,
+            "bbox": [
+              73.167,
+              234.075,
+              391.263,
+              244.048
+            ]
+          },
+          {
+            "line_id": "p009l0010",
+            "page": 9,
+            "bbox": [
+              73.167,
+              250.296,
+              212.73,
+              260.269
+            ]
+          },
+          {
+            "line_id": "p009l0011",
+            "page": 9,
+            "bbox": [
+              73.167,
+              266.517,
+              512.952,
+              276.49
+            ]
+          },
+          {
+            "line_id": "p009l0012",
+            "page": 9,
+            "bbox": [
+              73.167,
+              282.618,
+              512.952,
+              292.591
+            ]
+          },
+          {
+            "line_id": "p009l0013",
+            "page": 9,
+            "bbox": [
+              73.167,
+              298.598,
+              365.792,
+              308.571
+            ]
+          },
+          {
+            "line_id": "p009l0014",
+            "page": 9,
+            "bbox": [
+              73.167,
+              314.819,
+              512.952,
+              324.792
+            ]
+          },
+          {
+            "line_id": "p009l0015",
+            "page": 9,
+            "bbox": [
+              73.167,
+              330.8,
+              110.479,
+              340.773
+            ]
+          },
+          {
+            "line_id": "p009l0016",
+            "page": 9,
+            "bbox": [
+              73.167,
+              347.021,
+              512.952,
+              356.994
+            ]
+          },
+          {
+            "line_id": "p009l0017",
+            "page": 9,
+            "bbox": [
+              73.167,
+              363.122,
+              429.469,
+              373.094
+            ]
+          },
+          {
+            "line_id": "p009l0018",
+            "page": 9,
+            "bbox": [
+              73.167,
+              379.343,
+              513.072,
+              389.315
+            ]
+          },
+          {
+            "line_id": "p009l0019",
+            "page": 9,
+            "bbox": [
+              73.167,
+              395.323,
+              483.413,
+              405.296
+            ]
+          }
+        ],
+        "section_kind": "body"
+      },
+      "locator_covers": "제33조의2 전체",
+      "employee_leave_days_calculated": false
+    },
+    {
+      "rule_key": "ANNUAL-SOURCE-04",
+      "source_regulation_node_id": "ad736e89-249d-55fb-8b03-aba3acf20785",
+      "source_paragraph": "⑤",
+      "source_text": "⑤ 연차휴가는 오전 또는 오후의 반일 단위로도 나누어 사용할 수 있으며, 반일 2회는 휴가 1일\n로 본다.",
+      "source_values": {
+        "half_day_units_per_leave_day": 2
+      },
+      "source_locator": {
+        "coordinate_system": "PDF point; 원점=페이지 왼쪽 위",
+        "pdf_pages": [
+          9
+        ],
+        "lines": [
+          {
+            "line_id": "p009l0006",
+            "page": 9,
+            "bbox": [
+              58.99,
+              185.893,
+              512.952,
+              195.866
+            ]
+          },
+          {
+            "line_id": "p009l0007",
+            "page": 9,
+            "bbox": [
+              73.167,
+              201.874,
+              258.746,
+              211.846
+            ]
+          },
+          {
+            "line_id": "p009l0008",
+            "page": 9,
+            "bbox": [
+              73.167,
+              218.095,
+              512.952,
+              228.067
+            ]
+          },
+          {
+            "line_id": "p009l0009",
+            "page": 9,
+            "bbox": [
+              73.167,
+              234.075,
+              391.263,
+              244.048
+            ]
+          },
+          {
+            "line_id": "p009l0010",
+            "page": 9,
+            "bbox": [
+              73.167,
+              250.296,
+              212.73,
+              260.269
+            ]
+          },
+          {
+            "line_id": "p009l0011",
+            "page": 9,
+            "bbox": [
+              73.167,
+              266.517,
+              512.952,
+              276.49
+            ]
+          },
+          {
+            "line_id": "p009l0012",
+            "page": 9,
+            "bbox": [
+              73.167,
+              282.618,
+              512.952,
+              292.591
+            ]
+          },
+          {
+            "line_id": "p009l0013",
+            "page": 9,
+            "bbox": [
+              73.167,
+              298.598,
+              365.792,
+              308.571
+            ]
+          },
+          {
+            "line_id": "p009l0014",
+            "page": 9,
+            "bbox": [
+              73.167,
+              314.819,
+              512.952,
+              324.792
+            ]
+          },
+          {
+            "line_id": "p009l0015",
+            "page": 9,
+            "bbox": [
+              73.167,
+              330.8,
+              110.479,
+              340.773
+            ]
+          },
+          {
+            "line_id": "p009l0016",
+            "page": 9,
+            "bbox": [
+              73.167,
+              347.021,
+              512.952,
+              356.994
+            ]
+          },
+          {
+            "line_id": "p009l0017",
+            "page": 9,
+            "bbox": [
+              73.167,
+              363.122,
+              429.469,
+              373.094
+            ]
+          },
+          {
+            "line_id": "p009l0018",
+            "page": 9,
+            "bbox": [
+              73.167,
+              379.343,
+              513.072,
+              389.315
+            ]
+          },
+          {
+            "line_id": "p009l0019",
+            "page": 9,
+            "bbox": [
+              73.167,
+              395.323,
+              483.413,
+              405.296
+            ]
+          }
+        ],
+        "section_kind": "body"
+      },
+      "locator_covers": "제33조의2 전체",
+      "employee_leave_days_calculated": false
+    },
+    {
+      "rule_key": "ANNUAL-SOURCE-05",
+      "source_regulation_node_id": "ad736e89-249d-55fb-8b03-aba3acf20785",
+      "source_paragraph": "⑥",
+      "source_text": "⑥ 제1항부터 제5항까지에 따른 휴가는 1년간 행사하지 아니한 때에는 소멸된다. 다만, 공사의\n귀책사유로 사용하지 못한 경우에는 그러하지 아니하다. < 개정 2012.01.01. >",
+      "source_values": {
+        "exercise_period_years": 1,
+        "exception_text": "공사의 귀책사유로 사용하지 못한 경우",
+        "related_savings_article": "제33조의4"
+      },
+      "source_locator": {
+        "coordinate_system": "PDF point; 원점=페이지 왼쪽 위",
+        "pdf_pages": [
+          9
+        ],
+        "lines": [
+          {
+            "line_id": "p009l0006",
+            "page": 9,
+            "bbox": [
+              58.99,
+              185.893,
+              512.952,
+              195.866
+            ]
+          },
+          {
+            "line_id": "p009l0007",
+            "page": 9,
+            "bbox": [
+              73.167,
+              201.874,
+              258.746,
+              211.846
+            ]
+          },
+          {
+            "line_id": "p009l0008",
+            "page": 9,
+            "bbox": [
+              73.167,
+              218.095,
+              512.952,
+              228.067
+            ]
+          },
+          {
+            "line_id": "p009l0009",
+            "page": 9,
+            "bbox": [
+              73.167,
+              234.075,
+              391.263,
+              244.048
+            ]
+          },
+          {
+            "line_id": "p009l0010",
+            "page": 9,
+            "bbox": [
+              73.167,
+              250.296,
+              212.73,
+              260.269
+            ]
+          },
+          {
+            "line_id": "p009l0011",
+            "page": 9,
+            "bbox": [
+              73.167,
+              266.517,
+              512.952,
+              276.49
+            ]
+          },
+          {
+            "line_id": "p009l0012",
+            "page": 9,
+            "bbox": [
+              73.167,
+              282.618,
+              512.952,
+              292.591
+            ]
+          },
+          {
+            "line_id": "p009l0013",
+            "page": 9,
+            "bbox": [
+              73.167,
+              298.598,
+              365.792,
+              308.571
+            ]
+          },
+          {
+            "line_id": "p009l0014",
+            "page": 9,
+            "bbox": [
+              73.167,
+              314.819,
+              512.952,
+              324.792
+            ]
+          },
+          {
+            "line_id": "p009l0015",
+            "page": 9,
+            "bbox": [
+              73.167,
+              330.8,
+              110.479,
+              340.773
+            ]
+          },
+          {
+            "line_id": "p009l0016",
+            "page": 9,
+            "bbox": [
+              73.167,
+              347.021,
+              512.952,
+              356.994
+            ]
+          },
+          {
+            "line_id": "p009l0017",
+            "page": 9,
+            "bbox": [
+              73.167,
+              363.122,
+              429.469,
+              373.094
+            ]
+          },
+          {
+            "line_id": "p009l0018",
+            "page": 9,
+            "bbox": [
+              73.167,
+              379.343,
+              513.072,
+              389.315
+            ]
+          },
+          {
+            "line_id": "p009l0019",
+            "page": 9,
+            "bbox": [
+              73.167,
+              395.323,
+              483.413,
+              405.296
+            ]
+          }
+        ],
+        "section_kind": "body"
+      },
+      "locator_covers": "제33조의2 전체",
+      "employee_leave_days_calculated": false
+    },
+    {
+      "rule_key": "ANNUAL-SOURCE-06",
+      "source_regulation_node_id": "ad736e89-249d-55fb-8b03-aba3acf20785",
+      "source_paragraph": "⑦",
+      "source_text": "⑦ 직원이 심신의 휴식, 일 가정 양립 또는 자기계발 등을 위하여 10일 이상 연속된 휴가의 사용\n을 신청한 경우 공사는 업무수행에 지장이 없으면 승인하여야 한다. < 신설 2018.05.29. >",
+      "source_values": {
+        "minimum_consecutive_leave_days": 10,
+        "source_approval_condition": "업무수행에 지장이 없으면 승인하여야 한다"
+      },
+      "source_locator": {
+        "coordinate_system": "PDF point; 원점=페이지 왼쪽 위",
+        "pdf_pages": [
+          9
+        ],
+        "lines": [
+          {
+            "line_id": "p009l0006",
+            "page": 9,
+            "bbox": [
+              58.99,
+              185.893,
+              512.952,
+              195.866
+            ]
+          },
+          {
+            "line_id": "p009l0007",
+            "page": 9,
+            "bbox": [
+              73.167,
+              201.874,
+              258.746,
+              211.846
+            ]
+          },
+          {
+            "line_id": "p009l0008",
+            "page": 9,
+            "bbox": [
+              73.167,
+              218.095,
+              512.952,
+              228.067
+            ]
+          },
+          {
+            "line_id": "p009l0009",
+            "page": 9,
+            "bbox": [
+              73.167,
+              234.075,
+              391.263,
+              244.048
+            ]
+          },
+          {
+            "line_id": "p009l0010",
+            "page": 9,
+            "bbox": [
+              73.167,
+              250.296,
+              212.73,
+              260.269
+            ]
+          },
+          {
+            "line_id": "p009l0011",
+            "page": 9,
+            "bbox": [
+              73.167,
+              266.517,
+              512.952,
+              276.49
+            ]
+          },
+          {
+            "line_id": "p009l0012",
+            "page": 9,
+            "bbox": [
+              73.167,
+              282.618,
+              512.952,
+              292.591
+            ]
+          },
+          {
+            "line_id": "p009l0013",
+            "page": 9,
+            "bbox": [
+              73.167,
+              298.598,
+              365.792,
+              308.571
+            ]
+          },
+          {
+            "line_id": "p009l0014",
+            "page": 9,
+            "bbox": [
+              73.167,
+              314.819,
+              512.952,
+              324.792
+            ]
+          },
+          {
+            "line_id": "p009l0015",
+            "page": 9,
+            "bbox": [
+              73.167,
+              330.8,
+              110.479,
+              340.773
+            ]
+          },
+          {
+            "line_id": "p009l0016",
+            "page": 9,
+            "bbox": [
+              73.167,
+              347.021,
+              512.952,
+              356.994
+            ]
+          },
+          {
+            "line_id": "p009l0017",
+            "page": 9,
+            "bbox": [
+              73.167,
+              363.122,
+              429.469,
+              373.094
+            ]
+          },
+          {
+            "line_id": "p009l0018",
+            "page": 9,
+            "bbox": [
+              73.167,
+              379.343,
+              513.072,
+              389.315
+            ]
+          },
+          {
+            "line_id": "p009l0019",
+            "page": 9,
+            "bbox": [
+              73.167,
+              395.323,
+              483.413,
+              405.296
+            ]
+          }
+        ],
+        "section_kind": "body"
+      },
+      "locator_covers": "제33조의2 전체",
+      "employee_leave_days_calculated": false
+    }
+  ],
+  "deleted_source_paragraph": {
+    "source_paragraph": "③",
+    "source_text": "③ <삭제> <개정 2018.12.21.>",
+    "treated_as_active_rule": false
+  },
+  "context_connections": [
+    {
+      "target_chunk_id": "46ab738c-9dd8-5bbb-8849-094f51e9b4ab",
+      "context_node_ids": [
+        "7a0ac4bc-353e-5a59-8b78-e2c124a4c66c",
+        "84344702-e2b1-5c41-b293-91c7744e8a92"
+      ]
+    },
+    {
+      "target_chunk_id": "ad1e82db-01e8-54f1-bc85-e7b1cbbe8f8f",
+      "context_node_ids": [
+        "ad736e89-249d-55fb-8b03-aba3acf20785"
+      ]
+    }
+  ],
+  "employee_specific_rules_implemented": false,
+  "separate_savings_procedure_materials": "user_reports_not_available"
+}

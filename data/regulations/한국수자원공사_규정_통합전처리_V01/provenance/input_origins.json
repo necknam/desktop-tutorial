@@ -1,0 +1,52 @@
+[
+  {
+    "name": "한국수자원공사_추가규정_V01",
+    "table_counts": {
+      "institution": 1,
+      "regulation": 27,
+      "regulation_version": 27,
+      "regulation_file": 27,
+      "regulation_node": 3095,
+      "regulation_scope": 280,
+      "regulation_reference": 442,
+      "rag_chunk": 1295,
+      "rag_chunk_source": 1295
+    },
+    "data_file_sha256": {
+      "institution": "5ade0d38253104e9e90fb7f996a9eda98f161412f3bfd40e8d13b8f63d68b8f5",
+      "regulation": "262fb58d57cdc1b216e24ec6a071fc31ee5d41a0d299e83d7d2df6d10bc443ee",
+      "regulation_version": "6a25953980ae8445ade0a5ec1fba59fc5ba38a3602c7385a31e7a2e32bdd6d70",
+      "regulation_file": "ae05678faa9ac7ea0059c6f98b88bd49525d7e3b5c554313d528d0c5dfe49f6b",
+      "regulation_node": "8a96dacc2963b63150206afbcd77307fb676d3a47ac7abe628bd732da7a7a941",
+      "regulation_scope": "586de3ee15e85d79afcd5f6f65991c1ea43c16686482310c114a399002f95192",
+      "regulation_reference": "ad656d69f781a86ac1e161795b9a12c003d2a7fc564a14d88a6b306dae808d05",
+      "rag_chunk": "984a5e01a4d55ae1a00665e8ffad904829c6f5e712ab6e86f4ed52e449878479",
+      "rag_chunk_source": "f6fb3b3e0202e75305c626706c14f5e8259f21db25fa21fcebc4a44db7a5ade1"
+    }
+  },
+  {
+    "name": "인재개발규정_시범_V01",
+    "table_counts": {
+      "institution": 1,
+      "regulation": 1,
+      "regulation_version": 1,
+      "regulation_file": 1,
+      "regulation_node": 202,
+      "regulation_scope": 1,
+      "regulation_reference": 20,
+      "rag_chunk": 106,
+      "rag_chunk_source": 106
+    },
+    "data_file_sha256": {
+      "institution": "97c2b8e20bcfcafb3d991b32f412beca002ac0bbbec4087edd8601e3a53e8af7",
+      "regulation": "0cc177c41d783b75d4ff21225600f609b88cb9d6887da9d221b96b9fe89d3e10",
+      "regulation_version": "5d6694c2b2f82eaa1f5d9b6d3c62610bcae789040707a7bf26cfd2d3af985743",
+      "regulation_file": "8806d867d85f80844f4ffdfef90bd28c8e19bb0c54c15aaf6b4b908a9f80445a",
+      "regulation_node": "8519d520e9179049c49ba5d03a5fa00dabf5d7c7a8bc7e6cdff7b0d9035cb2ea",
+      "regulation_scope": "9a55c57f945f863e3cd845405c7700575218a04d00a97b6985d83f99a176b203",
+      "regulation_reference": "41622f56e7b2458f74dea1bfc89e51c64c58746c8daebe64278138d1d13d1951",
+      "rag_chunk": "6f87495be605a68dda3fc2af5dda740daaf9708938767b4cd5740c26b0f90b08",
+      "rag_chunk_source": "7f5096244bc08803b685a72bcf6381a4a12b959f2f754f732bd48d045954bbd2"
+    }
+  }
+]

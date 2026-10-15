@@ -2945,5 +2945,284 @@
         ]
       }
     ]
+  },
+  "hr_regulation_pilot.evaluation_result_schema": {
+    "columns": [
+      {
+        "column": "evaluation_result_schema_id",
+        "type": "VARCHAR(64)",
+        "not_null": true
+      },
+      {
+        "column": "institution_id",
+        "type": "VARCHAR(64)",
+        "not_null": true
+      },
+      {
+        "column": "schema_name",
+        "type": "VARCHAR(255)",
+        "not_null": true
+      },
+      {
+        "column": "version_label",
+        "type": "VARCHAR(255)",
+        "not_null": true
+      },
+      {
+        "column": "evaluation_kind",
+        "type": "VARCHAR(40)",
+        "not_null": true
+      },
+      {
+        "column": "applicability_condition",
+        "type": "JSONB",
+        "not_null": true
+      },
+      {
+        "column": "applicability_note",
+        "type": "TEXT",
+        "not_null": false
+      },
+      {
+        "column": "effective_from",
+        "type": "DATE",
+        "not_null": false
+      },
+      {
+        "column": "effective_to",
+        "type": "DATE",
+        "not_null": false
+      },
+      {
+        "column": "rule_origin",
+        "type": "VARCHAR(40)",
+        "not_null": true
+      },
+      {
+        "column": "source_status",
+        "type": "VARCHAR(40)",
+        "not_null": true
+      },
+      {
+        "column": "review_status",
+        "type": "VARCHAR(40)",
+        "not_null": true
+      },
+      {
+        "column": "calculation_rule",
+        "type": "JSONB",
+        "not_null": false
+      },
+      {
+        "column": "calculation_status",
+        "type": "VARCHAR(40)",
+        "not_null": true
+      },
+      {
+        "column": "source_note",
+        "type": "TEXT",
+        "not_null": false
+      }
+    ],
+    "pk": [
+      "evaluation_result_schema_id"
+    ],
+    "fks": [
+      {
+        "columns": [
+          "institution_id"
+        ],
+        "target": "hr_regulation_pilot.institution",
+        "target_columns": [
+          "institution_id"
+        ]
+      }
+    ]
+  },
+  "hr_regulation_pilot.evaluation_item_definition": {
+    "columns": [
+      {
+        "column": "evaluation_item_definition_id",
+        "type": "VARCHAR(64)",
+        "not_null": true
+      },
+      {
+        "column": "evaluation_result_schema_id",
+        "type": "VARCHAR(64)",
+        "not_null": true
+      },
+      {
+        "column": "parent_item_id",
+        "type": "VARCHAR(64)",
+        "not_null": false
+      },
+      {
+        "column": "skill_id",
+        "type": "INT",
+        "not_null": false
+      },
+      {
+        "column": "item_code",
+        "type": "VARCHAR(255)",
+        "not_null": true
+      },
+      {
+        "column": "item_name",
+        "type": "VARCHAR(255)",
+        "not_null": true
+      },
+      {
+        "column": "value_kind",
+        "type": "VARCHAR(40)",
+        "not_null": true
+      },
+      {
+        "column": "aggregation_role",
+        "type": "VARCHAR(40)",
+        "not_null": true
+      },
+      {
+        "column": "score_min",
+        "type": "NUMERIC(12,3)",
+        "not_null": false
+      },
+      {
+        "column": "score_max",
+        "type": "NUMERIC(12,3)",
+        "not_null": false
+      },
+      {
+        "column": "weight_percent",
+        "type": "NUMERIC(6,3)",
+        "not_null": false
+      },
+      {
+        "column": "unit",
+        "type": "VARCHAR(40)",
+        "not_null": false
+      },
+      {
+        "column": "scale_note",
+        "type": "TEXT",
+        "not_null": false
+      },
+      {
+        "column": "display_order",
+        "type": "INT",
+        "not_null": true
+      },
+      {
+        "column": "definition_note",
+        "type": "TEXT",
+        "not_null": false
+      }
+    ],
+    "pk": [
+      "evaluation_item_definition_id"
+    ],
+    "fks": [
+      {
+        "columns": [
+          "evaluation_result_schema_id"
+        ],
+        "target": "hr_regulation_pilot.evaluation_result_schema",
+        "target_columns": [
+          "evaluation_result_schema_id"
+        ]
+      },
+      {
+        "columns": [
+          "parent_item_id",
+          "evaluation_result_schema_id"
+        ],
+        "target": "hr_regulation_pilot.evaluation_item_definition",
+        "target_columns": [
+          "evaluation_item_definition_id",
+          "evaluation_result_schema_id"
+        ]
+      },
+      {
+        "columns": [
+          "skill_id"
+        ],
+        "target": "public.skill_tags",
+        "target_columns": [
+          "skill_id"
+        ]
+      }
+    ]
+  },
+  "hr_regulation_pilot.evaluation_schema_source": {
+    "columns": [
+      {
+        "column": "evaluation_schema_source_id",
+        "type": "VARCHAR(64)",
+        "not_null": true
+      },
+      {
+        "column": "evaluation_result_schema_id",
+        "type": "VARCHAR(64)",
+        "not_null": true
+      },
+      {
+        "column": "evaluation_item_definition_id",
+        "type": "VARCHAR(64)",
+        "not_null": false
+      },
+      {
+        "column": "regulation_node_id",
+        "type": "VARCHAR(64)",
+        "not_null": true
+      },
+      {
+        "column": "source_role",
+        "type": "VARCHAR(40)",
+        "not_null": true
+      },
+      {
+        "column": "review_status",
+        "type": "VARCHAR(40)",
+        "not_null": true
+      },
+      {
+        "column": "source_note",
+        "type": "TEXT",
+        "not_null": false
+      }
+    ],
+    "pk": [
+      "evaluation_schema_source_id"
+    ],
+    "fks": [
+      {
+        "columns": [
+          "evaluation_result_schema_id"
+        ],
+        "target": "hr_regulation_pilot.evaluation_result_schema",
+        "target_columns": [
+          "evaluation_result_schema_id"
+        ]
+      },
+      {
+        "columns": [
+          "regulation_node_id"
+        ],
+        "target": "hr_regulation_pilot.regulation_node",
+        "target_columns": [
+          "regulation_node_id"
+        ]
+      },
+      {
+        "columns": [
+          "evaluation_item_definition_id",
+          "evaluation_result_schema_id"
+        ],
+        "target": "hr_regulation_pilot.evaluation_item_definition",
+        "target_columns": [
+          "evaluation_item_definition_id",
+          "evaluation_result_schema_id"
+        ]
+      }
+    ]
   }
 }

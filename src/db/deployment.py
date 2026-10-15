@@ -13,6 +13,11 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
 CATALOG = json.loads((ROOT/'src/db/catalog.json').read_text(encoding='utf-8'))
+
+REGULATION_TABLES = ['hr_regulation_pilot.institution', 'hr_regulation_pilot.regulation', 'hr_regulation_pilot.regulation_version', 'hr_regulation_pilot.regulation_file', 'hr_regulation_pilot.regulation_node', 'hr_regulation_pilot.regulation_scope', 'hr_regulation_pilot.regulation_reference', 'hr_regulation_pilot.rag_chunk', 'hr_regulation_pilot.rag_chunk_source']
+EVALUATION_TABLES = ['hr_regulation_pilot.evaluation_result_schema', 'hr_regulation_pilot.evaluation_item_definition', 'hr_regulation_pilot.evaluation_schema_source']
+PACKAGE = ROOT / 'data' / 'regulations' / '한국수자원공사_규정_통합전처리_V01'
+
 # API fields absent in a response must be representable as unknown, not fabricated.
 INGESTION_NULLABLE = {'public.courses': ('cost', 'is_matchup', 'difficulty'),
                       'public.certifications': ('provider',)}
@@ -99,16 +104,17 @@ def row_order(table, rows):
     self_fks = [f for f in spec['fks'] if f['target'] == table]
     if not self_fks:
         return rows
-    dependencies = {}
-    for key, row in by_key.items():
-        refs = set()
-        for fk in self_fks:
-            if fk['target_columns'] != keys:
-                raise ValueError(f'Unsupported self-reference in {table}')
+    dependencies = {key: set() for key in by_key}
+    for fk in self_fks:
+        target_columns = fk['target_columns']
+        target_index = {tuple(row[c] for c in target_columns): key for key, row in by_key.items()}
+        for key, row in by_key.items():
             parent = tuple(row[c] for c in fk['columns'])
-            if all(v is not None for v in parent) and parent in by_key and parent != key:
-                refs.add(parent)
-        dependencies[key] = refs
+            if any(v is None for v in parent):
+                continue
+            parent_key = target_index.get(parent)
+            if parent_key is not None and parent_key != key:
+                dependencies[key].add(parent_key)
     pending, ordered = dict(by_key), []
     while pending:
         ready = [k for k in pending if not (dependencies[k] & pending.keys())]
@@ -117,6 +123,17 @@ def row_order(table, rows):
         for key in ready:
             ordered.append(pending.pop(key))
     return ordered
+
+
+def sanitize_null_bytes(value):
+    """Strip NUL (0x00) bytes which are prohibited in PostgreSQL text and jsonb fields."""
+    if isinstance(value, str):
+        return value.replace('\x00', '')
+    if isinstance(value, dict):
+        return {k: sanitize_null_bytes(v) for k, v in value.items()}
+    if isinstance(value, list):
+        return [sanitize_null_bytes(v) for v in value]
+    return value
 
 
 def validate_rows(table, rows):
@@ -128,7 +145,11 @@ def validate_rows(table, rows):
         if set(row) != expected:
             raise ValueError(f'Column set mismatch in {table}')
         for col in spec['columns']:
-            value = row[col['column']]
+            c_name = col['column']
+            value = row[c_name]
+            if isinstance(value, (str, dict, list)):
+                value = sanitize_null_bytes(value)
+                row[c_name] = value
             if col.get('not_null') and value is None:
                 raise ValueError(f"NULL in {table}.{col['column']}")
             if col['type'].startswith('vector(') and value is not None:
@@ -161,7 +182,10 @@ def connect(env_name):
 
 
 def normalize_type(value):
-    return value.replace('extensions.', '').replace('public.', '').lower()
+    value = value.replace('extensions.', '').replace('public.', '').lower()
+    value = value.replace('character varying', 'varchar')
+    value = value.replace('integer', 'int')
+    return value
 
 
 def check_schema(conn, allow_missing=False):
@@ -261,9 +285,16 @@ def upsert_rows(conn, table, rows):
     statement = f"INSERT INTO {table_sql(table)} ({', '.join(map(ident, fields))}) VALUES ({', '.join(slots)}) ON CONFLICT ({', '.join(map(ident,spec['pk']))}) {conflict}"
     values = []
     for r in rows:
-        values.append([Jsonb(r[c['column']]) if c['type']=='jsonb' and r[c['column']] is not None else
-                       json.dumps(r[c['column']]) if c['type'].startswith('vector(') and isinstance(r[c['column']], list) else r[c['column']]
-                      for c in spec['columns']])
+        row_vals = []
+        for c in spec['columns']:
+            val = sanitize_null_bytes(r[c['column']])
+            if c['type'] == 'jsonb' and val is not None:
+                row_vals.append(Jsonb(val))
+            elif c['type'].startswith('vector(') and isinstance(val, list):
+                row_vals.append(json.dumps(val))
+            else:
+                row_vals.append(val)
+        values.append(row_vals)
     with conn.cursor() as cur:
         cur.executemany(statement, values)
     return len(rows)
@@ -280,17 +311,135 @@ def sync_sequences(conn, tables):
                     COALESCE(pg_sequence_last_value(%s::regclass),1)), true)''',(seq,seq))
 
 
+def _verify_manifest_checksums(package, files_spec):
+    if isinstance(files_spec, dict):
+        for relative, checksum in files_spec.items():
+            if not isinstance(checksum, str):
+                continue
+            relative_path = Path(relative)
+            if relative_path.parts and relative_path.parts[0] == package.name:
+                target = package.parent / relative_path
+            else:
+                target = package / relative_path
+            if not target.is_file():
+                raise FileNotFoundError(f'Manifest file missing: {relative}')
+            if digest(target) != checksum.lower():
+                raise ValueError(f'Regulation package checksum mismatch: {relative}')
+    elif isinstance(files_spec, list):
+        for item in files_spec:
+            if not isinstance(item, dict):
+                continue
+            relative = item.get('path') or item.get('file') or item.get('relative_path')
+            checksum = item.get('sha256') or item.get('hash') or item.get('file_hash')
+            if not relative or not isinstance(checksum, str):
+                continue
+            relative_path = Path(relative)
+            if relative_path.parts and relative_path.parts[0] == package.name:
+                target = package.parent / relative_path
+            else:
+                target = package / relative_path
+            if not target.is_file():
+                raise FileNotFoundError(f'Manifest file missing: {relative}')
+            if digest(target) != checksum.lower():
+                raise ValueError(f'Regulation package checksum mismatch: {relative}')
+
+
 def package_rows(package):
-    checksums = json.loads((package/'report/package_checksums.json').read_text(encoding='utf-8'))
-    for relative, checksum in checksums.items():
-        if digest(inside(package, relative)) != checksum:
-            raise ValueError(f'Regulation package checksum mismatch: {relative}')
+    package = Path(package)
+    checksums_path = package / 'report' / 'package_checksums.json'
+    v11_manifest_candidates = [
+        package / 'delivery_V11_manifest.json',
+        package.parent / 'delivery_V11_manifest.json',
+    ]
+    v11_manifest_path = next((p for p in v11_manifest_candidates if p.is_file()), None)
+    report_manifest_path = package / 'report' / 'manifest.json'
+
+    expected_counts = None
+    if checksums_path.is_file():
+        checksums = json.loads(checksums_path.read_text(encoding='utf-8'))
+        for relative, checksum in checksums.items():
+            if digest(inside(package, relative)) != checksum:
+                raise ValueError(f'Regulation package checksum mismatch: {relative}')
+    else:
+        if v11_manifest_path is None and not report_manifest_path.is_file():
+            raise FileNotFoundError(f'Missing regulation package manifest in: {package}')
+        if v11_manifest_path is not None:
+            v11_manifest = json.loads(v11_manifest_path.read_text(encoding='utf-8'))
+            _verify_manifest_checksums(package, v11_manifest.get('files') or v11_manifest.get('checksums'))
+            if isinstance(v11_manifest.get('counts'), dict):
+                expected_counts = v11_manifest['counts']
+        if report_manifest_path.is_file():
+            rep_manifest = json.loads(report_manifest_path.read_text(encoding='utf-8'))
+            _verify_manifest_checksums(package, rep_manifest.get('files') or rep_manifest.get('checksums'))
+            if isinstance(rep_manifest.get('counts'), dict):
+                expected_counts = rep_manifest['counts']
+
     tables = {}
-    for table in CATALOG:
-        if table.startswith('hr_regulation_pilot.'):
-            path = package/'data'/f"{table.split('.')[1]}.json"
-            tables[table] = validate_rows(table,json.loads(path.read_text(encoding='utf-8')))
+    for table in REGULATION_TABLES:
+        short_name = table.split('.')[1]
+        path = package / 'data' / f'{short_name}.json'
+        if not path.is_file():
+            raise FileNotFoundError(f'Missing regulation table file: {path}')
+        rows = validate_rows(table, json.loads(path.read_text(encoding='utf-8')))
+        if isinstance(expected_counts, dict) and short_name in expected_counts:
+            if len(rows) != int(expected_counts[short_name]):
+                raise ValueError(f'Regulation row count mismatch for {table}: {len(rows)} != {expected_counts[short_name]}')
+        tables[table] = rows
+
+    for f_row in tables.get('hr_regulation_pilot.regulation_file', []):
+        pdf_path = inside(package, f_row['storage_key'])
+        if pdf_path.is_file() and digest(pdf_path) != str(f_row['file_hash']).lower():
+            raise ValueError(f"Source PDF hash mismatch: {f_row['storage_key']}")
+    for c_row in tables.get('hr_regulation_pilot.rag_chunk', []):
+        text_hash = hashlib.sha256(c_row['chunk_text'].encode('utf-8')).hexdigest()
+        if text_hash != str(c_row['content_hash']).lower():
+            raise ValueError(f"Chunk content_hash mismatch: {c_row['rag_chunk_id']}")
+
     return tables
+
+
+def evaluation_package_rows(package):
+    package = Path(package)
+    eval_dir = package / '평가기준_추가전처리' if (package / '평가기준_추가전처리').is_dir() else package
+    manifest_path = eval_dir / 'manifest.json'
+    if not manifest_path.is_file():
+        raise FileNotFoundError(f'Missing evaluation manifest: {manifest_path}')
+    manifest = json.loads(manifest_path.read_text(encoding='utf-8'))
+    if manifest.get('delivery_component') != 'regulation_evaluation_criteria_V01':
+        raise ValueError('Unexpected evaluation package component/version')
+    files = manifest.get('files')
+    if not isinstance(files, dict):
+        raise ValueError('Evaluation manifest has no valid files checksum map')
+    for relative, expected in files.items():
+        path = (eval_dir / relative).resolve()
+        if eval_dir.resolve() not in path.parents:
+            raise ValueError(f'Invalid path in evaluation manifest: {relative}')
+        if not path.is_file():
+            raise FileNotFoundError(f'Missing evaluation package file: {relative}')
+        if digest(path) != str(expected).lower():
+            raise ValueError(f'Evaluation package checksum mismatch: {relative}')
+    tables = {}
+    for name in ('evaluation_result_schema', 'evaluation_item_definition', 'evaluation_schema_source'):
+        path = eval_dir / 'data' / f'{name}.json'
+        rows = json.loads(path.read_text(encoding='utf-8'))
+        table = f'hr_regulation_pilot.{name}'
+        tables[table] = validate_rows(table, rows)
+    return tables
+
+
+def load_evaluation_criteria(conn, package):
+    tables = evaluation_package_rows(package)
+    node_ids = {r['regulation_node_id'] for r in conn.execute(
+        'SELECT regulation_node_id FROM hr_regulation_pilot.regulation_node').fetchall()}
+    missing_nodes = sorted({r['regulation_node_id'] for r in tables['hr_regulation_pilot.evaluation_schema_source']
+                            if r['regulation_node_id'] not in node_ids})
+    if missing_nodes:
+        raise ValueError(f'Evaluation criteria reference {len(missing_nodes)} regulation_node_id values absent from DB; load matching K-water regulation package first. Examples: {missing_nodes[:10]}')
+    check_schema(conn)
+    counts = {}
+    for table in table_order(tables):
+        counts[table] = upsert_rows(conn, table, tables[table])
+    return {'loaded': counts, 'review_status_preserved': True, 'skill_id_remapped': False}
 
 
 def load_regulations(conn, package):
@@ -324,10 +473,9 @@ def export_data(conn, output, model=None):
     if output.exists():
         raise ValueError('Export directory already exists; use a new directory.')
     output.mkdir(parents=True)
-    # One repeatable-read snapshot for all tables. Export can run before migrations on the source.
     conn.execute('SET TRANSACTION ISOLATION LEVEL REPEATABLE READ READ ONLY')
     conn.execute('SET LOCAL search_path TO public, extensions')
-    conn.execute('SET LOCAL row_security = off')  # Error instead of silently exporting RLS-filtered partial data.
+    conn.execute('SET LOCAL row_security = off')
     manifest = {'format_version':2,'kind':'database_export','created_at':datetime.now(timezone.utc).isoformat(),
                 'embedding_model':model,'embedding_model_status':'operator_supplied' if model else 'unknown',
                 'tables':[],'missing_tables':[]}
@@ -347,7 +495,6 @@ def export_data(conn, output, model=None):
                 stream.write(json.dumps(row,ensure_ascii=False,default=str,allow_nan=False)+'\n')
                 count += 1
         manifest['tables'].append({'table':table,'file':filename,'rows':count,'sha256':digest(path)})
-    # A manifest is written last. An interrupted export is intentionally not importable.
     (output/'manifest.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2),encoding='utf-8')
     return manifest
 
@@ -423,18 +570,20 @@ def demo_users(conn):
 
 
 def bootstrap(conn, directory, include_demo=False):
-    # Validate the bundle before any schema change. One outer transaction covers the complete bootstrap.
     manifest, tables = read_bundle(directory)
     if not tables.get('public.skill_tags'):
         raise ValueError('Bootstrap requires real skill_tags exported from the source DB.')
-    regulatory = {t for t in CATALOG if t.startswith('hr_regulation_pilot.')}
+    regulatory = set(REGULATION_TABLES)
     supplied = regulatory & tables.keys()
     if supplied and supplied != regulatory:
-        raise ValueError('Partial regulation export; include all nine regulation tables.')
+        raise ValueError('Partial regulation export; include all nine original regulation tables.')
     require_import_provenance(manifest,tables)
     result = {'schema': migrate(conn), 'data': import_data(conn,directory)}
     if not supplied:
-        result['regulations'] = load_regulations(conn,PILOT)
+        target_pkg = PACKAGE if PACKAGE.is_dir() else PILOT
+        result['regulations'] = load_regulations(conn, target_pkg)
+        if (target_pkg / '평가기준_추가전처리').is_dir():
+            result['evaluation_criteria'] = load_evaluation_criteria(conn, target_pkg)
     if include_demo:
         result['users'] = demo_users(conn)
     result['verification'] = verify(conn)
@@ -449,7 +598,9 @@ def main(argv=None):
     commands.add_parser('migrate', help='Apply missing schema migrations atomically')
     commands.add_parser('verify', help='Read-only schema/FK/count checks')
     reg = commands.add_parser('load-regulations', help='Load verified local regulation JSON')
-    reg.add_argument('--package',type=Path,default=PILOT)
+    reg.add_argument('--package',type=Path,default=PACKAGE if PACKAGE.is_dir() else PILOT)
+    eval_cmd = commands.add_parser('load-evaluation-criteria', help='Load checksum-verified K-water evaluation criteria')
+    eval_cmd.add_argument('--package', type=Path, default=PACKAGE)
     exp = commands.add_parser('export-data', help='Read real reference data/vectors from source')
     exp.add_argument('--output',type=Path,required=True)
     exp.add_argument('--embedding-model',nargs='?',default=None,help='Verified source model; omit if unknown (backup allowed, vector import blocked)')
@@ -466,11 +617,14 @@ def main(argv=None):
         manifest, tables = read_bundle(args.input)
         require_import_provenance(manifest,tables)
     if args.command == 'plan':
-        local = package_rows(PILOT)
+        target_pkg = PACKAGE if PACKAGE.is_dir() else PILOT
+        local = package_rows(target_pkg)
+        eval_rows = evaluation_package_rows(PACKAGE) if (PACKAGE / '평가기준_추가전처리').is_dir() else {}
         result = {'database_connection':False,'tables':len(CATALOG),
                   'migrations':[p.name for p in sorted(MIGRATIONS.glob('*.sql'))],
                   'transfer_order':table_order(TRANSFER_TABLES),
                   'local_regulation_rows':{k:len(v) for k,v in local.items()},
+                  'local_evaluation_criteria_rows':{k:len(v) for k,v in eval_rows.items()},
                   'skill_and_course_data':'Export from existing DB; no synthetic seeds',
                   'storage_files':'Regulation source files remain in the package; remote Storage upload is a separate deployment task.'}
     else:
@@ -479,6 +633,8 @@ def main(argv=None):
                 result = migrate(conn)
             elif args.command == 'load-regulations':
                 result = load_regulations(conn,args.package)
+            elif args.command == 'load-evaluation-criteria':
+                result = load_evaluation_criteria(conn, args.package)
             elif args.command == 'export-data':
                 result = export_data(conn,args.output,args.embedding_model)
             elif args.command == 'import-data':

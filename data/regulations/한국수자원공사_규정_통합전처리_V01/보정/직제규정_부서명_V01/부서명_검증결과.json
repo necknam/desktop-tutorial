@@ -1,0 +1,31 @@
+{
+  "result": "pass",
+  "check_count": 4,
+  "checks": [
+    {
+      "check": "부서명 후보 4개와 원문 위치 구분",
+      "result": "pass"
+    },
+    {
+      "check": "판독 보조 원문의 문자·줄 ID·좌표·해시 연결",
+      "result": "pass"
+    },
+    {
+      "check": "두 개정본의 원문 파일 해시·개정일 구분",
+      "result": "pass"
+    },
+    {
+      "check": "본 데이터·개별 업무 대응·DB·검색 자동 반영 보류",
+      "result": "pass"
+    }
+  ],
+  "counts": {
+    "department_name_candidates": 4,
+    "user_confirmed_names": 4
+  },
+  "unverified": [
+    "미확인 부서명의 사용자 대조",
+    "전체 분장업무 전사·개별 업무와 부서의 관계",
+    "기관의 공식 해석·본 데이터 통합"
+  ]
+}

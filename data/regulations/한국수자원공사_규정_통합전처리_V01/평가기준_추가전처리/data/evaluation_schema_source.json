@@ -1,0 +1,1550 @@
+[
+  {
+    "evaluation_schema_source_id": "01d42b54-298c-516f-8675-a1da254662d3",
+    "evaluation_result_schema_id": "862b4a19-28f8-54e2-9126-6b171f0138fe",
+    "evaluation_item_definition_id": null,
+    "regulation_node_id": "b235be36-28ea-52ee-8b7b-b969557db260",
+    "source_role": "precision",
+    "review_status": "needs_review",
+    "source_note": "인사규정시행세칙 제28조의2 / PDF 8쪽"
+  },
+  {
+    "evaluation_schema_source_id": "37bf4900-dcf1-50d2-b508-0b2561e6000d",
+    "evaluation_result_schema_id": "862b4a19-28f8-54e2-9126-6b171f0138fe",
+    "evaluation_item_definition_id": null,
+    "regulation_node_id": "41e26cd2-1681-5303-bbe6-6564386315e5",
+    "source_role": "basis",
+    "review_status": "needs_review",
+    "source_note": "인사규정시행세칙 제28조 / PDF 8쪽"
+  },
+  {
+    "evaluation_schema_source_id": "29e0bd2b-25b1-57da-b17f-0b60d6010e61",
+    "evaluation_result_schema_id": "862b4a19-28f8-54e2-9126-6b171f0138fe",
+    "evaluation_item_definition_id": null,
+    "regulation_node_id": "f80ca70b-6800-59aa-8536-acd61cc23e8f",
+    "source_role": "exception",
+    "review_status": "needs_review",
+    "source_note": "인사규정 제23조 / PDF 5쪽"
+  },
+  {
+    "evaluation_schema_source_id": "36edab98-47d1-5d80-8e2a-eb4d60e1cd47",
+    "evaluation_result_schema_id": "862b4a19-28f8-54e2-9126-6b171f0138fe",
+    "evaluation_item_definition_id": "b048df86-20df-53d0-862a-e2bb9b29614f",
+    "regulation_node_id": "41e26cd2-1681-5303-bbe6-6564386315e5",
+    "source_role": "form",
+    "review_status": "needs_review",
+    "source_note": "인사규정시행세칙 제28조 / PDF 8쪽"
+  },
+  {
+    "evaluation_schema_source_id": "d91cbb32-0ef7-5cae-ad6e-0a2e5175fb33",
+    "evaluation_result_schema_id": "862b4a19-28f8-54e2-9126-6b171f0138fe",
+    "evaluation_item_definition_id": "2210be04-1208-52fd-b06c-685414200b77",
+    "regulation_node_id": "41e26cd2-1681-5303-bbe6-6564386315e5",
+    "source_role": "form",
+    "review_status": "needs_review",
+    "source_note": "인사규정시행세칙 제28조 / PDF 8쪽"
+  },
+  {
+    "evaluation_schema_source_id": "2d648c27-5e83-5794-9ad7-017fe7a0c166",
+    "evaluation_result_schema_id": "862b4a19-28f8-54e2-9126-6b171f0138fe",
+    "evaluation_item_definition_id": "f9f86d4a-2a60-5f41-b7ad-566e8d5316e4",
+    "regulation_node_id": "41e26cd2-1681-5303-bbe6-6564386315e5",
+    "source_role": "form",
+    "review_status": "needs_review",
+    "source_note": "인사규정시행세칙 제28조 / PDF 8쪽"
+  },
+  {
+    "evaluation_schema_source_id": "207103b2-21e4-565c-8543-5ec2a1633fb5",
+    "evaluation_result_schema_id": "862b4a19-28f8-54e2-9126-6b171f0138fe",
+    "evaluation_item_definition_id": "8352b8ee-f677-52f0-9c59-35800d6941b7",
+    "regulation_node_id": "41e26cd2-1681-5303-bbe6-6564386315e5",
+    "source_role": "form",
+    "review_status": "needs_review",
+    "source_note": "인사규정시행세칙 제28조 / PDF 8쪽"
+  },
+  {
+    "evaluation_schema_source_id": "e21939ac-f282-5138-9046-61b37d12f3c8",
+    "evaluation_result_schema_id": "862b4a19-28f8-54e2-9126-6b171f0138fe",
+    "evaluation_item_definition_id": "8ea539ff-4646-5e1f-aa69-a885bac43cae",
+    "regulation_node_id": "41e26cd2-1681-5303-bbe6-6564386315e5",
+    "source_role": "form",
+    "review_status": "needs_review",
+    "source_note": "인사규정시행세칙 제28조 / PDF 8쪽"
+  },
+  {
+    "evaluation_schema_source_id": "d5bc3183-b3e1-5db1-b497-7d27ba22520c",
+    "evaluation_result_schema_id": "f7b53f12-a54a-57ef-96c9-4f07008ccb7d",
+    "evaluation_item_definition_id": null,
+    "regulation_node_id": "b235be36-28ea-52ee-8b7b-b969557db260",
+    "source_role": "precision",
+    "review_status": "needs_review",
+    "source_note": "인사규정시행세칙 제28조의2 / PDF 8쪽"
+  },
+  {
+    "evaluation_schema_source_id": "87095941-87fe-5e1c-bb9e-13771ef32ff9",
+    "evaluation_result_schema_id": "f7b53f12-a54a-57ef-96c9-4f07008ccb7d",
+    "evaluation_item_definition_id": null,
+    "regulation_node_id": "41e26cd2-1681-5303-bbe6-6564386315e5",
+    "source_role": "basis",
+    "review_status": "needs_review",
+    "source_note": "인사규정시행세칙 제28조 / PDF 8쪽"
+  },
+  {
+    "evaluation_schema_source_id": "fdd30288-c824-5f30-be26-5074ee758836",
+    "evaluation_result_schema_id": "f7b53f12-a54a-57ef-96c9-4f07008ccb7d",
+    "evaluation_item_definition_id": null,
+    "regulation_node_id": "f80ca70b-6800-59aa-8536-acd61cc23e8f",
+    "source_role": "exception",
+    "review_status": "needs_review",
+    "source_note": "인사규정 제23조 / PDF 5쪽"
+  },
+  {
+    "evaluation_schema_source_id": "75a8063a-b304-5c87-98ac-26db6624099e",
+    "evaluation_result_schema_id": "f7b53f12-a54a-57ef-96c9-4f07008ccb7d",
+    "evaluation_item_definition_id": "a8eadea4-e14a-58b7-a30b-9a2a31dcf79c",
+    "regulation_node_id": "41e26cd2-1681-5303-bbe6-6564386315e5",
+    "source_role": "form",
+    "review_status": "needs_review",
+    "source_note": "인사규정시행세칙 제28조 / PDF 8쪽"
+  },
+  {
+    "evaluation_schema_source_id": "b444d6e9-fdfa-5d87-8cc1-a22299b14424",
+    "evaluation_result_schema_id": "f7b53f12-a54a-57ef-96c9-4f07008ccb7d",
+    "evaluation_item_definition_id": "9c25977c-6c43-56dc-b560-b1c90adb91de",
+    "regulation_node_id": "41e26cd2-1681-5303-bbe6-6564386315e5",
+    "source_role": "form",
+    "review_status": "needs_review",
+    "source_note": "인사규정시행세칙 제28조 / PDF 8쪽"
+  },
+  {
+    "evaluation_schema_source_id": "8d72c2ab-d5a4-517b-9162-7632f0abe9ce",
+    "evaluation_result_schema_id": "f7b53f12-a54a-57ef-96c9-4f07008ccb7d",
+    "evaluation_item_definition_id": "ff5eec3c-5598-5f4c-8714-c16f9ab4af1c",
+    "regulation_node_id": "41e26cd2-1681-5303-bbe6-6564386315e5",
+    "source_role": "form",
+    "review_status": "needs_review",
+    "source_note": "인사규정시행세칙 제28조 / PDF 8쪽"
+  },
+  {
+    "evaluation_schema_source_id": "31b75edd-2331-50ff-909d-c94bfa6ea2d7",
+    "evaluation_result_schema_id": "f7b53f12-a54a-57ef-96c9-4f07008ccb7d",
+    "evaluation_item_definition_id": "ec64db05-5f17-5bb5-972a-bdd70beaa507",
+    "regulation_node_id": "41e26cd2-1681-5303-bbe6-6564386315e5",
+    "source_role": "form",
+    "review_status": "needs_review",
+    "source_note": "인사규정시행세칙 제28조 / PDF 8쪽"
+  },
+  {
+    "evaluation_schema_source_id": "0e6cfb5a-1b7b-559a-8033-7c8608c9c709",
+    "evaluation_result_schema_id": "ecdb57be-d42f-5f72-98c7-494d1d84ca99",
+    "evaluation_item_definition_id": null,
+    "regulation_node_id": "b235be36-28ea-52ee-8b7b-b969557db260",
+    "source_role": "precision",
+    "review_status": "needs_review",
+    "source_note": "인사규정시행세칙 제28조의2 / PDF 8쪽"
+  },
+  {
+    "evaluation_schema_source_id": "eb3eac12-7cd7-5100-b06b-0eb43dcebeb9",
+    "evaluation_result_schema_id": "ecdb57be-d42f-5f72-98c7-494d1d84ca99",
+    "evaluation_item_definition_id": null,
+    "regulation_node_id": "eab4efb8-0cf2-5cef-beeb-80bca91938b7",
+    "source_role": "weight",
+    "review_status": "needs_review",
+    "source_note": "인사규정시행세칙 제30조 / PDF 11,12쪽"
+  },
+  {
+    "evaluation_schema_source_id": "e61fb080-98ab-5c2c-b601-09988f87cea7",
+    "evaluation_result_schema_id": "ecdb57be-d42f-5f72-98c7-494d1d84ca99",
+    "evaluation_item_definition_id": null,
+    "regulation_node_id": "00bdefed-65db-5073-a0e8-adac0ff5a792",
+    "source_role": "classification",
+    "review_status": "needs_review",
+    "source_note": "인사규정시행세칙 제29조의8 / PDF 11쪽"
+  },
+  {
+    "evaluation_schema_source_id": "0dc85d49-5bf9-527a-be0d-50410018ce2b",
+    "evaluation_result_schema_id": "ecdb57be-d42f-5f72-98c7-494d1d84ca99",
+    "evaluation_item_definition_id": null,
+    "regulation_node_id": "2de529fe-dee5-5550-aabb-e7c8b9356e53",
+    "source_role": "basis",
+    "review_status": "needs_review",
+    "source_note": "인사규정시행세칙 제29조 / PDF 9쪽"
+  },
+  {
+    "evaluation_schema_source_id": "dd9e128b-c659-5212-9f16-5e84ac686b8e",
+    "evaluation_result_schema_id": "ecdb57be-d42f-5f72-98c7-494d1d84ca99",
+    "evaluation_item_definition_id": null,
+    "regulation_node_id": "4e0951fe-e3b1-5a51-a321-f5e738d91782",
+    "source_role": "exception",
+    "review_status": "needs_review",
+    "source_note": "인사규정시행세칙 제29조의2 / PDF 9쪽"
+  },
+  {
+    "evaluation_schema_source_id": "e18eeaa6-b0ff-5ade-a982-ec307b73315a",
+    "evaluation_result_schema_id": "ecdb57be-d42f-5f72-98c7-494d1d84ca99",
+    "evaluation_item_definition_id": null,
+    "regulation_node_id": "3fe3d300-2308-5891-9a60-3fc9dbdef796",
+    "source_role": "access",
+    "review_status": "needs_review",
+    "source_note": "인사규정시행세칙 제29조의4 / PDF 10쪽"
+  },
+  {
+    "evaluation_schema_source_id": "a503669d-d598-52d3-b1e2-02f59e0333a7",
+    "evaluation_result_schema_id": "ecdb57be-d42f-5f72-98c7-494d1d84ca99",
+    "evaluation_item_definition_id": null,
+    "regulation_node_id": "aaccb179-d083-5e86-9bfe-5161dddd0340",
+    "source_role": "retention",
+    "review_status": "needs_review",
+    "source_note": "인사규정시행세칙 제29조의5 / PDF 10쪽"
+  },
+  {
+    "evaluation_schema_source_id": "a60fffc9-d87a-5deb-915a-c8ea8a854d89",
+    "evaluation_result_schema_id": "ecdb57be-d42f-5f72-98c7-494d1d84ca99",
+    "evaluation_item_definition_id": null,
+    "regulation_node_id": "41f21a2b-eb02-5181-8924-a502d1d6680f",
+    "source_role": "basis",
+    "review_status": "needs_review",
+    "source_note": "인사규정시행세칙 제32조 / PDF 12쪽"
+  },
+  {
+    "evaluation_schema_source_id": "c50fcad3-cf02-5fe3-872a-330ee5c2ca47",
+    "evaluation_result_schema_id": "ecdb57be-d42f-5f72-98c7-494d1d84ca99",
+    "evaluation_item_definition_id": null,
+    "regulation_node_id": "2bb0cd77-84ff-5ee6-9f4c-91febd1a7e7f",
+    "source_role": "basis",
+    "review_status": "needs_review",
+    "source_note": "인사규정시행세칙 제34조 / PDF 12쪽"
+  },
+  {
+    "evaluation_schema_source_id": "a7de80f2-f9f5-5fe3-83ef-b1e3371f1431",
+    "evaluation_result_schema_id": "ecdb57be-d42f-5f72-98c7-494d1d84ca99",
+    "evaluation_item_definition_id": null,
+    "regulation_node_id": "4e8ba8f2-fd77-5f52-8715-dd9475a4b14a",
+    "source_role": "formula",
+    "review_status": "needs_review",
+    "source_note": "인사규정시행세칙 제35조 / PDF 12쪽"
+  },
+  {
+    "evaluation_schema_source_id": "b141e828-cde9-5622-8dd3-db7f40ae7870",
+    "evaluation_result_schema_id": "ecdb57be-d42f-5f72-98c7-494d1d84ca99",
+    "evaluation_item_definition_id": null,
+    "regulation_node_id": "24b547c8-6ed8-538b-9395-713c721442cf",
+    "source_role": "classification",
+    "review_status": "needs_review",
+    "source_note": "인사규정시행세칙 제35조의2 / PDF 12,13쪽"
+  },
+  {
+    "evaluation_schema_source_id": "510ebaad-f588-516c-a7f6-657210d48e6b",
+    "evaluation_result_schema_id": "ecdb57be-d42f-5f72-98c7-494d1d84ca99",
+    "evaluation_item_definition_id": "f312523d-5a6c-5421-b03b-5a88ed80fc36",
+    "regulation_node_id": "41e26cd2-1681-5303-bbe6-6564386315e5",
+    "source_role": "form",
+    "review_status": "needs_review",
+    "source_note": "인사규정시행세칙 제28조 / PDF 8쪽"
+  },
+  {
+    "evaluation_schema_source_id": "5e41990f-bc39-5979-a584-b897cc54c028",
+    "evaluation_result_schema_id": "ecdb57be-d42f-5f72-98c7-494d1d84ca99",
+    "evaluation_item_definition_id": "04b76e58-2056-5d40-baf8-caa48f3d390b",
+    "regulation_node_id": "eab4efb8-0cf2-5cef-beeb-80bca91938b7",
+    "source_role": "form",
+    "review_status": "needs_review",
+    "source_note": "인사규정시행세칙 제30조 / PDF 11,12쪽"
+  },
+  {
+    "evaluation_schema_source_id": "0a5f3cdf-d85f-5971-83be-8417bc363a58",
+    "evaluation_result_schema_id": "ecdb57be-d42f-5f72-98c7-494d1d84ca99",
+    "evaluation_item_definition_id": "b47f7c8b-4b90-52fb-b8dc-abd429bfc2d0",
+    "regulation_node_id": "eab4efb8-0cf2-5cef-beeb-80bca91938b7",
+    "source_role": "form",
+    "review_status": "needs_review",
+    "source_note": "인사규정시행세칙 제30조 / PDF 11,12쪽"
+  },
+  {
+    "evaluation_schema_source_id": "29867af3-21a6-576d-b4f7-8ef2f6cff7bd",
+    "evaluation_result_schema_id": "ecdb57be-d42f-5f72-98c7-494d1d84ca99",
+    "evaluation_item_definition_id": "d523d0cc-6ca1-55a0-ac24-2042bc1b97ed",
+    "regulation_node_id": "eab4efb8-0cf2-5cef-beeb-80bca91938b7",
+    "source_role": "form",
+    "review_status": "needs_review",
+    "source_note": "인사규정시행세칙 제30조 / PDF 11,12쪽"
+  },
+  {
+    "evaluation_schema_source_id": "71cace65-e6ef-5d40-b968-bfb4c39ef400",
+    "evaluation_result_schema_id": "ecdb57be-d42f-5f72-98c7-494d1d84ca99",
+    "evaluation_item_definition_id": "f022010d-72f8-5875-8869-a346d399a1f7",
+    "regulation_node_id": "eab4efb8-0cf2-5cef-beeb-80bca91938b7",
+    "source_role": "form",
+    "review_status": "needs_review",
+    "source_note": "인사규정시행세칙 제30조 / PDF 11,12쪽"
+  },
+  {
+    "evaluation_schema_source_id": "aff04ec4-8505-5854-95ef-38ed5615a6a7",
+    "evaluation_result_schema_id": "ecdb57be-d42f-5f72-98c7-494d1d84ca99",
+    "evaluation_item_definition_id": "d8b12a5c-6470-5089-9759-72a7e79b6067",
+    "regulation_node_id": "eab4efb8-0cf2-5cef-beeb-80bca91938b7",
+    "source_role": "form",
+    "review_status": "needs_review",
+    "source_note": "인사규정시행세칙 제30조 / PDF 11,12쪽"
+  },
+  {
+    "evaluation_schema_source_id": "ac98b861-5201-547a-adf7-f1cc34abf676",
+    "evaluation_result_schema_id": "ecdb57be-d42f-5f72-98c7-494d1d84ca99",
+    "evaluation_item_definition_id": "a5843826-7604-5404-9bcc-0fc57bd1b820",
+    "regulation_node_id": "eab4efb8-0cf2-5cef-beeb-80bca91938b7",
+    "source_role": "form",
+    "review_status": "needs_review",
+    "source_note": "인사규정시행세칙 제30조 / PDF 11,12쪽"
+  },
+  {
+    "evaluation_schema_source_id": "fd60f765-23bd-55b7-89f1-e942f2869d2c",
+    "evaluation_result_schema_id": "ecdb57be-d42f-5f72-98c7-494d1d84ca99",
+    "evaluation_item_definition_id": "928c3066-836a-5fd1-8d69-482c9ffa08ba",
+    "regulation_node_id": "eab4efb8-0cf2-5cef-beeb-80bca91938b7",
+    "source_role": "form",
+    "review_status": "needs_review",
+    "source_note": "인사규정시행세칙 제30조 / PDF 11,12쪽"
+  },
+  {
+    "evaluation_schema_source_id": "8257385c-5c12-515e-b162-14791743cc8d",
+    "evaluation_result_schema_id": "428b38d2-722a-5578-aeea-63bb70845f03",
+    "evaluation_item_definition_id": null,
+    "regulation_node_id": "b235be36-28ea-52ee-8b7b-b969557db260",
+    "source_role": "precision",
+    "review_status": "needs_review",
+    "source_note": "인사규정시행세칙 제28조의2 / PDF 8쪽"
+  },
+  {
+    "evaluation_schema_source_id": "839cb4f6-0741-5171-9f8e-e7c23a70d23e",
+    "evaluation_result_schema_id": "428b38d2-722a-5578-aeea-63bb70845f03",
+    "evaluation_item_definition_id": null,
+    "regulation_node_id": "eab4efb8-0cf2-5cef-beeb-80bca91938b7",
+    "source_role": "weight",
+    "review_status": "needs_review",
+    "source_note": "인사규정시행세칙 제30조 / PDF 11,12쪽"
+  },
+  {
+    "evaluation_schema_source_id": "24289995-0c27-5f67-8e29-62971e55f387",
+    "evaluation_result_schema_id": "428b38d2-722a-5578-aeea-63bb70845f03",
+    "evaluation_item_definition_id": null,
+    "regulation_node_id": "00bdefed-65db-5073-a0e8-adac0ff5a792",
+    "source_role": "classification",
+    "review_status": "needs_review",
+    "source_note": "인사규정시행세칙 제29조의8 / PDF 11쪽"
+  },
+  {
+    "evaluation_schema_source_id": "9665c55b-9b7c-526b-a48e-828cfe62d67f",
+    "evaluation_result_schema_id": "428b38d2-722a-5578-aeea-63bb70845f03",
+    "evaluation_item_definition_id": null,
+    "regulation_node_id": "2de529fe-dee5-5550-aabb-e7c8b9356e53",
+    "source_role": "basis",
+    "review_status": "needs_review",
+    "source_note": "인사규정시행세칙 제29조 / PDF 9쪽"
+  },
+  {
+    "evaluation_schema_source_id": "ba5674f1-e050-5359-980a-daec74408fda",
+    "evaluation_result_schema_id": "428b38d2-722a-5578-aeea-63bb70845f03",
+    "evaluation_item_definition_id": null,
+    "regulation_node_id": "4e0951fe-e3b1-5a51-a321-f5e738d91782",
+    "source_role": "exception",
+    "review_status": "needs_review",
+    "source_note": "인사규정시행세칙 제29조의2 / PDF 9쪽"
+  },
+  {
+    "evaluation_schema_source_id": "c70957ef-ccda-5167-b48e-ce8550c7b02e",
+    "evaluation_result_schema_id": "428b38d2-722a-5578-aeea-63bb70845f03",
+    "evaluation_item_definition_id": null,
+    "regulation_node_id": "3fe3d300-2308-5891-9a60-3fc9dbdef796",
+    "source_role": "access",
+    "review_status": "needs_review",
+    "source_note": "인사규정시행세칙 제29조의4 / PDF 10쪽"
+  },
+  {
+    "evaluation_schema_source_id": "fc18d6f9-ef67-5edf-9630-2817ecb6ecee",
+    "evaluation_result_schema_id": "428b38d2-722a-5578-aeea-63bb70845f03",
+    "evaluation_item_definition_id": null,
+    "regulation_node_id": "aaccb179-d083-5e86-9bfe-5161dddd0340",
+    "source_role": "retention",
+    "review_status": "needs_review",
+    "source_note": "인사규정시행세칙 제29조의5 / PDF 10쪽"
+  },
+  {
+    "evaluation_schema_source_id": "9bca346e-d1fb-5cc6-ba4a-600fa5c9d7a0",
+    "evaluation_result_schema_id": "428b38d2-722a-5578-aeea-63bb70845f03",
+    "evaluation_item_definition_id": null,
+    "regulation_node_id": "41f21a2b-eb02-5181-8924-a502d1d6680f",
+    "source_role": "basis",
+    "review_status": "needs_review",
+    "source_note": "인사규정시행세칙 제32조 / PDF 12쪽"
+  },
+  {
+    "evaluation_schema_source_id": "83fc7f1b-823b-5833-ad4f-11cdc9e0b85c",
+    "evaluation_result_schema_id": "428b38d2-722a-5578-aeea-63bb70845f03",
+    "evaluation_item_definition_id": null,
+    "regulation_node_id": "2bb0cd77-84ff-5ee6-9f4c-91febd1a7e7f",
+    "source_role": "basis",
+    "review_status": "needs_review",
+    "source_note": "인사규정시행세칙 제34조 / PDF 12쪽"
+  },
+  {
+    "evaluation_schema_source_id": "2b58a0cf-a55c-53c6-8a96-bc7194d22022",
+    "evaluation_result_schema_id": "428b38d2-722a-5578-aeea-63bb70845f03",
+    "evaluation_item_definition_id": null,
+    "regulation_node_id": "4e8ba8f2-fd77-5f52-8715-dd9475a4b14a",
+    "source_role": "formula",
+    "review_status": "needs_review",
+    "source_note": "인사규정시행세칙 제35조 / PDF 12쪽"
+  },
+  {
+    "evaluation_schema_source_id": "8790a84e-eb8b-5ef9-b254-fd927ee42bb6",
+    "evaluation_result_schema_id": "428b38d2-722a-5578-aeea-63bb70845f03",
+    "evaluation_item_definition_id": null,
+    "regulation_node_id": "24b547c8-6ed8-538b-9395-713c721442cf",
+    "source_role": "classification",
+    "review_status": "needs_review",
+    "source_note": "인사규정시행세칙 제35조의2 / PDF 12,13쪽"
+  },
+  {
+    "evaluation_schema_source_id": "8ecba9d5-f516-5e38-b5ba-69223e0a9a35",
+    "evaluation_result_schema_id": "428b38d2-722a-5578-aeea-63bb70845f03",
+    "evaluation_item_definition_id": "a99829cd-6fc5-5b84-9b1d-6f87df486ef9",
+    "regulation_node_id": "41e26cd2-1681-5303-bbe6-6564386315e5",
+    "source_role": "form",
+    "review_status": "needs_review",
+    "source_note": "인사규정시행세칙 제28조 / PDF 8쪽"
+  },
+  {
+    "evaluation_schema_source_id": "745539f4-acc6-5fd4-a1d9-f8ec04a3945f",
+    "evaluation_result_schema_id": "428b38d2-722a-5578-aeea-63bb70845f03",
+    "evaluation_item_definition_id": "d83e9689-f6b0-5821-a9fb-d852422488a7",
+    "regulation_node_id": "eab4efb8-0cf2-5cef-beeb-80bca91938b7",
+    "source_role": "form",
+    "review_status": "needs_review",
+    "source_note": "인사규정시행세칙 제30조 / PDF 11,12쪽"
+  },
+  {
+    "evaluation_schema_source_id": "5e934951-001a-5782-a6b3-d8297959107e",
+    "evaluation_result_schema_id": "428b38d2-722a-5578-aeea-63bb70845f03",
+    "evaluation_item_definition_id": "92694619-a202-5860-9fcd-b027b54c0b91",
+    "regulation_node_id": "eab4efb8-0cf2-5cef-beeb-80bca91938b7",
+    "source_role": "form",
+    "review_status": "needs_review",
+    "source_note": "인사규정시행세칙 제30조 / PDF 11,12쪽"
+  },
+  {
+    "evaluation_schema_source_id": "4c9a4e0e-0d67-5079-99ae-e329af021951",
+    "evaluation_result_schema_id": "428b38d2-722a-5578-aeea-63bb70845f03",
+    "evaluation_item_definition_id": "c8ea38a6-f9ef-5b8a-b94b-a7ff4fd75348",
+    "regulation_node_id": "eab4efb8-0cf2-5cef-beeb-80bca91938b7",
+    "source_role": "form",
+    "review_status": "needs_review",
+    "source_note": "인사규정시행세칙 제30조 / PDF 11,12쪽"
+  },
+  {
+    "evaluation_schema_source_id": "4ff92d9d-0589-5377-9c96-8ad561d68bd7",
+    "evaluation_result_schema_id": "428b38d2-722a-5578-aeea-63bb70845f03",
+    "evaluation_item_definition_id": "7fee1ce0-7f66-5039-a821-722983dbfce1",
+    "regulation_node_id": "eab4efb8-0cf2-5cef-beeb-80bca91938b7",
+    "source_role": "form",
+    "review_status": "needs_review",
+    "source_note": "인사규정시행세칙 제30조 / PDF 11,12쪽"
+  },
+  {
+    "evaluation_schema_source_id": "926ca6bb-ca76-54f5-86e9-ef2efba672d8",
+    "evaluation_result_schema_id": "428b38d2-722a-5578-aeea-63bb70845f03",
+    "evaluation_item_definition_id": "17e182ca-151e-5fe2-b0fb-fa41fdb55a0e",
+    "regulation_node_id": "eab4efb8-0cf2-5cef-beeb-80bca91938b7",
+    "source_role": "form",
+    "review_status": "needs_review",
+    "source_note": "인사규정시행세칙 제30조 / PDF 11,12쪽"
+  },
+  {
+    "evaluation_schema_source_id": "5e95c089-cc0c-535f-adb8-ee682680354f",
+    "evaluation_result_schema_id": "428b38d2-722a-5578-aeea-63bb70845f03",
+    "evaluation_item_definition_id": "3104a740-9bb3-5ba3-ab4e-1140c0616254",
+    "regulation_node_id": "eab4efb8-0cf2-5cef-beeb-80bca91938b7",
+    "source_role": "form",
+    "review_status": "needs_review",
+    "source_note": "인사규정시행세칙 제30조 / PDF 11,12쪽"
+  },
+  {
+    "evaluation_schema_source_id": "afb682fc-3669-596c-ad17-df0e8e115d1e",
+    "evaluation_result_schema_id": "428b38d2-722a-5578-aeea-63bb70845f03",
+    "evaluation_item_definition_id": "19ef06b0-58d9-5428-8d65-587f2efc0684",
+    "regulation_node_id": "eab4efb8-0cf2-5cef-beeb-80bca91938b7",
+    "source_role": "form",
+    "review_status": "needs_review",
+    "source_note": "인사규정시행세칙 제30조 / PDF 11,12쪽"
+  },
+  {
+    "evaluation_schema_source_id": "1d8e9ab5-0393-5e5f-9948-a3589155b139",
+    "evaluation_result_schema_id": "b389b749-1893-571c-99e8-a1833f52723e",
+    "evaluation_item_definition_id": null,
+    "regulation_node_id": "b235be36-28ea-52ee-8b7b-b969557db260",
+    "source_role": "precision",
+    "review_status": "needs_review",
+    "source_note": "인사규정시행세칙 제28조의2 / PDF 8쪽"
+  },
+  {
+    "evaluation_schema_source_id": "83989726-18e9-58bf-a3dc-4f55c3d4ae7b",
+    "evaluation_result_schema_id": "b389b749-1893-571c-99e8-a1833f52723e",
+    "evaluation_item_definition_id": null,
+    "regulation_node_id": "92cdfab6-70e9-51dd-a371-869bce0525a8",
+    "source_role": "weight",
+    "review_status": "needs_review",
+    "source_note": "인사규정시행세칙 제29조의7 / PDF 11쪽"
+  },
+  {
+    "evaluation_schema_source_id": "021bc354-b04c-55a3-b4c6-ff0706523456",
+    "evaluation_result_schema_id": "b389b749-1893-571c-99e8-a1833f52723e",
+    "evaluation_item_definition_id": null,
+    "regulation_node_id": "00bdefed-65db-5073-a0e8-adac0ff5a792",
+    "source_role": "classification",
+    "review_status": "needs_review",
+    "source_note": "인사규정시행세칙 제29조의8 / PDF 11쪽"
+  },
+  {
+    "evaluation_schema_source_id": "12c4be23-6e89-5bd6-88df-6948ad2fba0a",
+    "evaluation_result_schema_id": "b389b749-1893-571c-99e8-a1833f52723e",
+    "evaluation_item_definition_id": "a92d5bfa-8ee3-59ef-95ed-8a15bcd6d5b6",
+    "regulation_node_id": "41e26cd2-1681-5303-bbe6-6564386315e5",
+    "source_role": "form",
+    "review_status": "needs_review",
+    "source_note": "인사규정시행세칙 제28조 / PDF 8쪽"
+  },
+  {
+    "evaluation_schema_source_id": "1399ea43-c10d-5d34-8afc-9564cdabda6b",
+    "evaluation_result_schema_id": "b389b749-1893-571c-99e8-a1833f52723e",
+    "evaluation_item_definition_id": "528e24c1-4135-52fe-b69f-a84d80e0065e",
+    "regulation_node_id": "92cdfab6-70e9-51dd-a371-869bce0525a8",
+    "source_role": "form",
+    "review_status": "needs_review",
+    "source_note": "인사규정시행세칙 제29조의7 / PDF 11쪽"
+  },
+  {
+    "evaluation_schema_source_id": "b828618b-331a-5922-93a1-fc6cdbcdf4e8",
+    "evaluation_result_schema_id": "b389b749-1893-571c-99e8-a1833f52723e",
+    "evaluation_item_definition_id": "4aae7fc2-330c-5aae-a9f9-c6bbc2462b95",
+    "regulation_node_id": "92cdfab6-70e9-51dd-a371-869bce0525a8",
+    "source_role": "form",
+    "review_status": "needs_review",
+    "source_note": "인사규정시행세칙 제29조의7 / PDF 11쪽"
+  },
+  {
+    "evaluation_schema_source_id": "b5cd334c-2289-52a2-a1e8-1ccf5a921145",
+    "evaluation_result_schema_id": "05a4ecec-8c63-5d52-87a3-814199144306",
+    "evaluation_item_definition_id": null,
+    "regulation_node_id": "b235be36-28ea-52ee-8b7b-b969557db260",
+    "source_role": "precision",
+    "review_status": "needs_review",
+    "source_note": "인사규정시행세칙 제28조의2 / PDF 8쪽"
+  },
+  {
+    "evaluation_schema_source_id": "32cf7900-d313-5a8c-b2b5-7828363113ce",
+    "evaluation_result_schema_id": "05a4ecec-8c63-5d52-87a3-814199144306",
+    "evaluation_item_definition_id": null,
+    "regulation_node_id": "8bb918d8-52b2-59bd-9b88-5463d2fee074",
+    "source_role": "exception",
+    "review_status": "needs_review",
+    "source_note": "인사규정시행세칙 제41조 / PDF 14쪽"
+  },
+  {
+    "evaluation_schema_source_id": "25e0fac2-8e0b-5939-a559-ae0ae3c0b83d",
+    "evaluation_result_schema_id": "05a4ecec-8c63-5d52-87a3-814199144306",
+    "evaluation_item_definition_id": null,
+    "regulation_node_id": "a85a82a1-3d31-5a66-a6b9-499b466eba98",
+    "source_role": "formula",
+    "review_status": "needs_review",
+    "source_note": "인사규정시행세칙 제42조 / PDF 14쪽"
+  },
+  {
+    "evaluation_schema_source_id": "56260b5a-a9e0-52c9-9db7-9c75bdf4aa42",
+    "evaluation_result_schema_id": "05a4ecec-8c63-5d52-87a3-814199144306",
+    "evaluation_item_definition_id": null,
+    "regulation_node_id": "52f40d18-c375-5987-a172-5d8925d69c0f",
+    "source_role": "basis",
+    "review_status": "needs_review",
+    "source_note": "인사규정시행세칙 제43조 / PDF 14쪽"
+  },
+  {
+    "evaluation_schema_source_id": "49c32c79-60c3-53cf-af82-27aa12212611",
+    "evaluation_result_schema_id": "05a4ecec-8c63-5d52-87a3-814199144306",
+    "evaluation_item_definition_id": null,
+    "regulation_node_id": "67db5327-5548-52c1-9e6c-f1a0b7b0ed09",
+    "source_role": "basis",
+    "review_status": "needs_review",
+    "source_note": "인재개발규정 제7조 / PDF 2쪽"
+  },
+  {
+    "evaluation_schema_source_id": "543e7712-0730-57a3-bbba-629f45ad28cb",
+    "evaluation_result_schema_id": "05a4ecec-8c63-5d52-87a3-814199144306",
+    "evaluation_item_definition_id": null,
+    "regulation_node_id": "89f60797-d067-5bd2-a037-55779397b6ad",
+    "source_role": "basis",
+    "review_status": "needs_review",
+    "source_note": "인재개발규정 S1-C01 / PDF 19쪽"
+  },
+  {
+    "evaluation_schema_source_id": "99f7a931-2428-5884-b6df-565d7e592b10",
+    "evaluation_result_schema_id": "05a4ecec-8c63-5d52-87a3-814199144306",
+    "evaluation_item_definition_id": null,
+    "regulation_node_id": "4adf69d0-ff71-5c4f-b9dc-d4bb1afaf88b",
+    "source_role": "basis",
+    "review_status": "needs_review",
+    "source_note": "인재개발규정 S1-C02 / PDF 19쪽"
+  },
+  {
+    "evaluation_schema_source_id": "8fc7d8fd-3f01-5d0b-a726-652b6524703f",
+    "evaluation_result_schema_id": "05a4ecec-8c63-5d52-87a3-814199144306",
+    "evaluation_item_definition_id": null,
+    "regulation_node_id": "9b483ce2-eabf-546f-bb38-db36633269ba",
+    "source_role": "basis",
+    "review_status": "needs_review",
+    "source_note": "인재개발규정 S1-C04 / PDF 19쪽"
+  },
+  {
+    "evaluation_schema_source_id": "0b5e7109-6ad9-5ab6-92e8-cbc9c4c659db",
+    "evaluation_result_schema_id": "05a4ecec-8c63-5d52-87a3-814199144306",
+    "evaluation_item_definition_id": null,
+    "regulation_node_id": "902cb66c-b1a8-5b14-974c-bd12ffb925c4",
+    "source_role": "exception",
+    "review_status": "needs_review",
+    "source_note": "인재개발규정 C-02 / PDF 20쪽"
+  },
+  {
+    "evaluation_schema_source_id": "59a2cf8c-7eba-5063-9dfd-4ea55ec63cb0",
+    "evaluation_result_schema_id": "05a4ecec-8c63-5d52-87a3-814199144306",
+    "evaluation_item_definition_id": null,
+    "regulation_node_id": "9fca1eca-682a-56b1-b4eb-846f05de2ca3",
+    "source_role": "exception",
+    "review_status": "needs_review",
+    "source_note": "인재개발규정 C-03 / PDF 20쪽"
+  },
+  {
+    "evaluation_schema_source_id": "23ec5863-35c3-51c2-9d5e-4fc6f78fa98f",
+    "evaluation_result_schema_id": "05a4ecec-8c63-5d52-87a3-814199144306",
+    "evaluation_item_definition_id": null,
+    "regulation_node_id": "cb821674-e14e-55e5-9b7d-46d87e608fcc",
+    "source_role": "exception",
+    "review_status": "needs_review",
+    "source_note": "인재개발규정 C-05 / PDF 20쪽"
+  },
+  {
+    "evaluation_schema_source_id": "124b1fc3-d220-5125-a013-88d40ddb9832",
+    "evaluation_result_schema_id": "05a4ecec-8c63-5d52-87a3-814199144306",
+    "evaluation_item_definition_id": null,
+    "regulation_node_id": "50681d96-4f4d-512f-81d4-af5157748f9a",
+    "source_role": "exception",
+    "review_status": "needs_review",
+    "source_note": "인재개발규정 C-07 / PDF 20쪽"
+  },
+  {
+    "evaluation_schema_source_id": "139ab832-9635-5601-be4e-600f81d9264a",
+    "evaluation_result_schema_id": "05a4ecec-8c63-5d52-87a3-814199144306",
+    "evaluation_item_definition_id": null,
+    "regulation_node_id": "536e384b-5420-52e9-a047-ca26778febae",
+    "source_role": "exception",
+    "review_status": "needs_review",
+    "source_note": "인재개발규정 C-08 / PDF 20쪽"
+  },
+  {
+    "evaluation_schema_source_id": "a840b717-e2a9-5432-a18d-e94886b8768e",
+    "evaluation_result_schema_id": "05a4ecec-8c63-5d52-87a3-814199144306",
+    "evaluation_item_definition_id": null,
+    "regulation_node_id": "3a8d986f-eff3-51f3-b8e3-14e6890ff87f",
+    "source_role": "exception",
+    "review_status": "needs_review",
+    "source_note": "인재개발규정 C-09 / PDF 20쪽"
+  },
+  {
+    "evaluation_schema_source_id": "bdb49ff4-e39b-5b42-9dab-c21326b8259f",
+    "evaluation_result_schema_id": "05a4ecec-8c63-5d52-87a3-814199144306",
+    "evaluation_item_definition_id": "1cbf53e7-b816-5cde-81a7-5229612a3302",
+    "regulation_node_id": "a85a82a1-3d31-5a66-a6b9-499b466eba98",
+    "source_role": "form",
+    "review_status": "needs_review",
+    "source_note": "인사규정시행세칙 제42조 / PDF 14쪽"
+  },
+  {
+    "evaluation_schema_source_id": "a83697fc-094a-57da-85cd-358f4bfc0114",
+    "evaluation_result_schema_id": "05a4ecec-8c63-5d52-87a3-814199144306",
+    "evaluation_item_definition_id": "a64be254-10fd-5522-8cda-7f6e1913bc51",
+    "regulation_node_id": "3ece7dbc-1602-5c22-840a-14dce089f113",
+    "source_role": "form",
+    "review_status": "needs_review",
+    "source_note": "인재개발규정 S1-R02 / PDF 19쪽"
+  },
+  {
+    "evaluation_schema_source_id": "82920b0f-61b3-5778-8f50-8170aa569d10",
+    "evaluation_result_schema_id": "05a4ecec-8c63-5d52-87a3-814199144306",
+    "evaluation_item_definition_id": "2f94e0af-93ea-5816-9853-4f32d31e3799",
+    "regulation_node_id": "069fb2ad-4a5c-5f7c-b071-b86b917db908",
+    "source_role": "form",
+    "review_status": "needs_review",
+    "source_note": "인재개발규정 G-02:공통역량 / PDF 20쪽"
+  },
+  {
+    "evaluation_schema_source_id": "d1955fed-1017-54a3-8500-8dc5ba9bb92d",
+    "evaluation_result_schema_id": "05a4ecec-8c63-5d52-87a3-814199144306",
+    "evaluation_item_definition_id": "6b9814c8-0822-594d-b55a-422400331892",
+    "regulation_node_id": "aa121a48-07b0-5f23-b15f-e655dc1202ed",
+    "source_role": "form",
+    "review_status": "needs_review",
+    "source_note": "인재개발규정 G-02:리더역량 / PDF 20쪽"
+  },
+  {
+    "evaluation_schema_source_id": "fd607a7d-030b-506f-92b4-3e399435aab9",
+    "evaluation_result_schema_id": "05a4ecec-8c63-5d52-87a3-814199144306",
+    "evaluation_item_definition_id": "b216e0d6-ece4-5020-b7dd-07ac50a4c7f2",
+    "regulation_node_id": "71fd7976-daff-5d52-8cd9-83fd85ea5325",
+    "source_role": "form",
+    "review_status": "needs_review",
+    "source_note": "인재개발규정 G-02:직무역량 / PDF 20쪽"
+  },
+  {
+    "evaluation_schema_source_id": "63896ac6-5627-5700-9207-b15003f72571",
+    "evaluation_result_schema_id": "2a139972-1b78-51fa-abe2-a3c584c1e371",
+    "evaluation_item_definition_id": null,
+    "regulation_node_id": "b235be36-28ea-52ee-8b7b-b969557db260",
+    "source_role": "precision",
+    "review_status": "needs_review",
+    "source_note": "인사규정시행세칙 제28조의2 / PDF 8쪽"
+  },
+  {
+    "evaluation_schema_source_id": "9f3c5b57-74dc-5a23-9c34-d6c1bf986307",
+    "evaluation_result_schema_id": "2a139972-1b78-51fa-abe2-a3c584c1e371",
+    "evaluation_item_definition_id": null,
+    "regulation_node_id": "8bb918d8-52b2-59bd-9b88-5463d2fee074",
+    "source_role": "exception",
+    "review_status": "needs_review",
+    "source_note": "인사규정시행세칙 제41조 / PDF 14쪽"
+  },
+  {
+    "evaluation_schema_source_id": "4576b5b5-4c63-59ea-bcc6-96d6f655b8e9",
+    "evaluation_result_schema_id": "2a139972-1b78-51fa-abe2-a3c584c1e371",
+    "evaluation_item_definition_id": null,
+    "regulation_node_id": "a85a82a1-3d31-5a66-a6b9-499b466eba98",
+    "source_role": "formula",
+    "review_status": "needs_review",
+    "source_note": "인사규정시행세칙 제42조 / PDF 14쪽"
+  },
+  {
+    "evaluation_schema_source_id": "182f9606-f570-5036-875b-eaf3b371aaf6",
+    "evaluation_result_schema_id": "2a139972-1b78-51fa-abe2-a3c584c1e371",
+    "evaluation_item_definition_id": null,
+    "regulation_node_id": "52f40d18-c375-5987-a172-5d8925d69c0f",
+    "source_role": "basis",
+    "review_status": "needs_review",
+    "source_note": "인사규정시행세칙 제43조 / PDF 14쪽"
+  },
+  {
+    "evaluation_schema_source_id": "12878857-4f43-5e4d-ac8b-62cc37325f4a",
+    "evaluation_result_schema_id": "2a139972-1b78-51fa-abe2-a3c584c1e371",
+    "evaluation_item_definition_id": null,
+    "regulation_node_id": "67db5327-5548-52c1-9e6c-f1a0b7b0ed09",
+    "source_role": "basis",
+    "review_status": "needs_review",
+    "source_note": "인재개발규정 제7조 / PDF 2쪽"
+  },
+  {
+    "evaluation_schema_source_id": "b0bf50db-0d98-50a2-8e2a-751930e3d5fe",
+    "evaluation_result_schema_id": "2a139972-1b78-51fa-abe2-a3c584c1e371",
+    "evaluation_item_definition_id": null,
+    "regulation_node_id": "89f60797-d067-5bd2-a037-55779397b6ad",
+    "source_role": "basis",
+    "review_status": "needs_review",
+    "source_note": "인재개발규정 S1-C01 / PDF 19쪽"
+  },
+  {
+    "evaluation_schema_source_id": "c45e1903-d24c-5cb1-a243-8a6f170e9bf1",
+    "evaluation_result_schema_id": "2a139972-1b78-51fa-abe2-a3c584c1e371",
+    "evaluation_item_definition_id": null,
+    "regulation_node_id": "4adf69d0-ff71-5c4f-b9dc-d4bb1afaf88b",
+    "source_role": "basis",
+    "review_status": "needs_review",
+    "source_note": "인재개발규정 S1-C02 / PDF 19쪽"
+  },
+  {
+    "evaluation_schema_source_id": "3e6de160-825d-527e-ab52-9f11eee67088",
+    "evaluation_result_schema_id": "2a139972-1b78-51fa-abe2-a3c584c1e371",
+    "evaluation_item_definition_id": null,
+    "regulation_node_id": "9b483ce2-eabf-546f-bb38-db36633269ba",
+    "source_role": "basis",
+    "review_status": "needs_review",
+    "source_note": "인재개발규정 S1-C04 / PDF 19쪽"
+  },
+  {
+    "evaluation_schema_source_id": "39ae8ec3-2ab8-5a4b-9363-e95ddcc48971",
+    "evaluation_result_schema_id": "2a139972-1b78-51fa-abe2-a3c584c1e371",
+    "evaluation_item_definition_id": null,
+    "regulation_node_id": "902cb66c-b1a8-5b14-974c-bd12ffb925c4",
+    "source_role": "exception",
+    "review_status": "needs_review",
+    "source_note": "인재개발규정 C-02 / PDF 20쪽"
+  },
+  {
+    "evaluation_schema_source_id": "70c5cf47-644f-5cdf-bb70-39677411a817",
+    "evaluation_result_schema_id": "2a139972-1b78-51fa-abe2-a3c584c1e371",
+    "evaluation_item_definition_id": null,
+    "regulation_node_id": "9fca1eca-682a-56b1-b4eb-846f05de2ca3",
+    "source_role": "exception",
+    "review_status": "needs_review",
+    "source_note": "인재개발규정 C-03 / PDF 20쪽"
+  },
+  {
+    "evaluation_schema_source_id": "3168105d-881f-54d0-8feb-b0487a527244",
+    "evaluation_result_schema_id": "2a139972-1b78-51fa-abe2-a3c584c1e371",
+    "evaluation_item_definition_id": null,
+    "regulation_node_id": "cb821674-e14e-55e5-9b7d-46d87e608fcc",
+    "source_role": "exception",
+    "review_status": "needs_review",
+    "source_note": "인재개발규정 C-05 / PDF 20쪽"
+  },
+  {
+    "evaluation_schema_source_id": "ff6b64e8-1036-5d0d-b6c2-1f6ad47e131b",
+    "evaluation_result_schema_id": "2a139972-1b78-51fa-abe2-a3c584c1e371",
+    "evaluation_item_definition_id": null,
+    "regulation_node_id": "50681d96-4f4d-512f-81d4-af5157748f9a",
+    "source_role": "exception",
+    "review_status": "needs_review",
+    "source_note": "인재개발규정 C-07 / PDF 20쪽"
+  },
+  {
+    "evaluation_schema_source_id": "4c2cee52-acd6-5a1c-9026-d9825e8e1b2b",
+    "evaluation_result_schema_id": "2a139972-1b78-51fa-abe2-a3c584c1e371",
+    "evaluation_item_definition_id": null,
+    "regulation_node_id": "536e384b-5420-52e9-a047-ca26778febae",
+    "source_role": "exception",
+    "review_status": "needs_review",
+    "source_note": "인재개발규정 C-08 / PDF 20쪽"
+  },
+  {
+    "evaluation_schema_source_id": "5572564e-54ec-5bdb-bf52-0f0d8eb97fd7",
+    "evaluation_result_schema_id": "2a139972-1b78-51fa-abe2-a3c584c1e371",
+    "evaluation_item_definition_id": null,
+    "regulation_node_id": "3a8d986f-eff3-51f3-b8e3-14e6890ff87f",
+    "source_role": "exception",
+    "review_status": "needs_review",
+    "source_note": "인재개발규정 C-09 / PDF 20쪽"
+  },
+  {
+    "evaluation_schema_source_id": "fddab840-1781-5737-882b-7e3c896effd3",
+    "evaluation_result_schema_id": "2a139972-1b78-51fa-abe2-a3c584c1e371",
+    "evaluation_item_definition_id": "c4a5e34b-2feb-54b6-9915-c180f2b7880f",
+    "regulation_node_id": "a85a82a1-3d31-5a66-a6b9-499b466eba98",
+    "source_role": "form",
+    "review_status": "needs_review",
+    "source_note": "인사규정시행세칙 제42조 / PDF 14쪽"
+  },
+  {
+    "evaluation_schema_source_id": "fac73b8b-c39d-5a06-9ea4-c5dac3a00370",
+    "evaluation_result_schema_id": "2a139972-1b78-51fa-abe2-a3c584c1e371",
+    "evaluation_item_definition_id": "18b2c6e2-ffe9-559c-bb69-60aa9ea93564",
+    "regulation_node_id": "683a6768-82ac-50a3-952d-3c2e44b4950b",
+    "source_role": "form",
+    "review_status": "needs_review",
+    "source_note": "인재개발규정 S1-R03 / PDF 19쪽"
+  },
+  {
+    "evaluation_schema_source_id": "09f40497-54dd-55be-8226-069a5d67fce1",
+    "evaluation_result_schema_id": "2a139972-1b78-51fa-abe2-a3c584c1e371",
+    "evaluation_item_definition_id": "cedfccf2-cead-5ee5-8c6c-2a5013deba80",
+    "regulation_node_id": "476d63ba-d9a8-580b-88dc-a5723321599d",
+    "source_role": "form",
+    "review_status": "needs_review",
+    "source_note": "인재개발규정 G-03:공통역량 / PDF 20쪽"
+  },
+  {
+    "evaluation_schema_source_id": "3ca4ad59-66b1-5505-8197-50c3643ebe19",
+    "evaluation_result_schema_id": "2a139972-1b78-51fa-abe2-a3c584c1e371",
+    "evaluation_item_definition_id": "a0765d77-690e-5f59-bc59-19a2360ebf7f",
+    "regulation_node_id": "550d6e30-379a-5804-8622-3c55d819b2e3",
+    "source_role": "form",
+    "review_status": "needs_review",
+    "source_note": "인재개발규정 G-03:리더역량 / PDF 20쪽"
+  },
+  {
+    "evaluation_schema_source_id": "ed15f9b2-b4a7-546f-bc69-ecbd4ba59e25",
+    "evaluation_result_schema_id": "2a139972-1b78-51fa-abe2-a3c584c1e371",
+    "evaluation_item_definition_id": "096ff841-4549-5aad-b993-57176bac106e",
+    "regulation_node_id": "ecab1057-b772-5516-9f8d-d23eab2a498b",
+    "source_role": "form",
+    "review_status": "needs_review",
+    "source_note": "인재개발규정 G-03:직무역량 / PDF 20쪽"
+  },
+  {
+    "evaluation_schema_source_id": "83b95600-8147-500b-94ed-6c3145e7f1f8",
+    "evaluation_result_schema_id": "a2cb396d-4f06-51bc-81a4-b6b97c074324",
+    "evaluation_item_definition_id": null,
+    "regulation_node_id": "b235be36-28ea-52ee-8b7b-b969557db260",
+    "source_role": "precision",
+    "review_status": "needs_review",
+    "source_note": "인사규정시행세칙 제28조의2 / PDF 8쪽"
+  },
+  {
+    "evaluation_schema_source_id": "5624af1d-1b16-53cf-8e21-4ef9cdf8511c",
+    "evaluation_result_schema_id": "a2cb396d-4f06-51bc-81a4-b6b97c074324",
+    "evaluation_item_definition_id": null,
+    "regulation_node_id": "8bb918d8-52b2-59bd-9b88-5463d2fee074",
+    "source_role": "exception",
+    "review_status": "needs_review",
+    "source_note": "인사규정시행세칙 제41조 / PDF 14쪽"
+  },
+  {
+    "evaluation_schema_source_id": "6d262f13-c67b-52e0-a177-292cbfb0632c",
+    "evaluation_result_schema_id": "a2cb396d-4f06-51bc-81a4-b6b97c074324",
+    "evaluation_item_definition_id": null,
+    "regulation_node_id": "a85a82a1-3d31-5a66-a6b9-499b466eba98",
+    "source_role": "formula",
+    "review_status": "needs_review",
+    "source_note": "인사규정시행세칙 제42조 / PDF 14쪽"
+  },
+  {
+    "evaluation_schema_source_id": "2df6995f-bf3f-57d2-bdd0-bd8ca54acee9",
+    "evaluation_result_schema_id": "a2cb396d-4f06-51bc-81a4-b6b97c074324",
+    "evaluation_item_definition_id": null,
+    "regulation_node_id": "52f40d18-c375-5987-a172-5d8925d69c0f",
+    "source_role": "basis",
+    "review_status": "needs_review",
+    "source_note": "인사규정시행세칙 제43조 / PDF 14쪽"
+  },
+  {
+    "evaluation_schema_source_id": "2f10ec8f-a82d-5a81-b884-57a7c7a1d558",
+    "evaluation_result_schema_id": "a2cb396d-4f06-51bc-81a4-b6b97c074324",
+    "evaluation_item_definition_id": null,
+    "regulation_node_id": "67db5327-5548-52c1-9e6c-f1a0b7b0ed09",
+    "source_role": "basis",
+    "review_status": "needs_review",
+    "source_note": "인재개발규정 제7조 / PDF 2쪽"
+  },
+  {
+    "evaluation_schema_source_id": "175398e6-d58a-54cb-b85b-7e08604a5566",
+    "evaluation_result_schema_id": "a2cb396d-4f06-51bc-81a4-b6b97c074324",
+    "evaluation_item_definition_id": null,
+    "regulation_node_id": "89f60797-d067-5bd2-a037-55779397b6ad",
+    "source_role": "basis",
+    "review_status": "needs_review",
+    "source_note": "인재개발규정 S1-C01 / PDF 19쪽"
+  },
+  {
+    "evaluation_schema_source_id": "313f76f6-37dd-5d82-8e68-27469040e8f8",
+    "evaluation_result_schema_id": "a2cb396d-4f06-51bc-81a4-b6b97c074324",
+    "evaluation_item_definition_id": null,
+    "regulation_node_id": "4adf69d0-ff71-5c4f-b9dc-d4bb1afaf88b",
+    "source_role": "basis",
+    "review_status": "needs_review",
+    "source_note": "인재개발규정 S1-C02 / PDF 19쪽"
+  },
+  {
+    "evaluation_schema_source_id": "7454deab-67fd-5989-a595-e1bcfb21e789",
+    "evaluation_result_schema_id": "a2cb396d-4f06-51bc-81a4-b6b97c074324",
+    "evaluation_item_definition_id": null,
+    "regulation_node_id": "9b483ce2-eabf-546f-bb38-db36633269ba",
+    "source_role": "basis",
+    "review_status": "needs_review",
+    "source_note": "인재개발규정 S1-C04 / PDF 19쪽"
+  },
+  {
+    "evaluation_schema_source_id": "d7060539-0141-5a96-8643-432a964fb1ea",
+    "evaluation_result_schema_id": "a2cb396d-4f06-51bc-81a4-b6b97c074324",
+    "evaluation_item_definition_id": null,
+    "regulation_node_id": "902cb66c-b1a8-5b14-974c-bd12ffb925c4",
+    "source_role": "exception",
+    "review_status": "needs_review",
+    "source_note": "인재개발규정 C-02 / PDF 20쪽"
+  },
+  {
+    "evaluation_schema_source_id": "fdcdd619-4a85-5b78-9e11-810398c41c9b",
+    "evaluation_result_schema_id": "a2cb396d-4f06-51bc-81a4-b6b97c074324",
+    "evaluation_item_definition_id": null,
+    "regulation_node_id": "9fca1eca-682a-56b1-b4eb-846f05de2ca3",
+    "source_role": "exception",
+    "review_status": "needs_review",
+    "source_note": "인재개발규정 C-03 / PDF 20쪽"
+  },
+  {
+    "evaluation_schema_source_id": "520e77eb-695d-5dc9-b00b-4d7e560f44a2",
+    "evaluation_result_schema_id": "a2cb396d-4f06-51bc-81a4-b6b97c074324",
+    "evaluation_item_definition_id": null,
+    "regulation_node_id": "cb821674-e14e-55e5-9b7d-46d87e608fcc",
+    "source_role": "exception",
+    "review_status": "needs_review",
+    "source_note": "인재개발규정 C-05 / PDF 20쪽"
+  },
+  {
+    "evaluation_schema_source_id": "26fea67f-fe54-5593-8f62-e61b1bd930ea",
+    "evaluation_result_schema_id": "a2cb396d-4f06-51bc-81a4-b6b97c074324",
+    "evaluation_item_definition_id": null,
+    "regulation_node_id": "50681d96-4f4d-512f-81d4-af5157748f9a",
+    "source_role": "exception",
+    "review_status": "needs_review",
+    "source_note": "인재개발규정 C-07 / PDF 20쪽"
+  },
+  {
+    "evaluation_schema_source_id": "eb831b2b-9eff-5ded-b866-98d268cfc8c4",
+    "evaluation_result_schema_id": "a2cb396d-4f06-51bc-81a4-b6b97c074324",
+    "evaluation_item_definition_id": null,
+    "regulation_node_id": "536e384b-5420-52e9-a047-ca26778febae",
+    "source_role": "exception",
+    "review_status": "needs_review",
+    "source_note": "인재개발규정 C-08 / PDF 20쪽"
+  },
+  {
+    "evaluation_schema_source_id": "39b5bd2a-61c9-5ba2-981e-03f76db1d348",
+    "evaluation_result_schema_id": "a2cb396d-4f06-51bc-81a4-b6b97c074324",
+    "evaluation_item_definition_id": null,
+    "regulation_node_id": "3a8d986f-eff3-51f3-b8e3-14e6890ff87f",
+    "source_role": "exception",
+    "review_status": "needs_review",
+    "source_note": "인재개발규정 C-09 / PDF 20쪽"
+  },
+  {
+    "evaluation_schema_source_id": "b8505e6f-798c-5f41-a71f-b0b9aff131ad",
+    "evaluation_result_schema_id": "a2cb396d-4f06-51bc-81a4-b6b97c074324",
+    "evaluation_item_definition_id": "46c2d2ee-6f12-5135-8689-b1a9ff98dce9",
+    "regulation_node_id": "a85a82a1-3d31-5a66-a6b9-499b466eba98",
+    "source_role": "form",
+    "review_status": "needs_review",
+    "source_note": "인사규정시행세칙 제42조 / PDF 14쪽"
+  },
+  {
+    "evaluation_schema_source_id": "cd0cb35d-0d25-5cf0-9251-7b845ee7d872",
+    "evaluation_result_schema_id": "a2cb396d-4f06-51bc-81a4-b6b97c074324",
+    "evaluation_item_definition_id": "9db38c22-502d-58ca-a67d-76d4a32e8971",
+    "regulation_node_id": "33beee20-b88c-5eb0-b800-f70c18a3c87c",
+    "source_role": "form",
+    "review_status": "needs_review",
+    "source_note": "인재개발규정 S1-R04 / PDF 19쪽"
+  },
+  {
+    "evaluation_schema_source_id": "dd31fd4a-404b-5006-af51-e2d38e424006",
+    "evaluation_result_schema_id": "a2cb396d-4f06-51bc-81a4-b6b97c074324",
+    "evaluation_item_definition_id": "3dc5b571-4cd2-5006-a101-f7b84b514239",
+    "regulation_node_id": "9d70d076-a785-5133-b5da-48fbace47cd0",
+    "source_role": "form",
+    "review_status": "needs_review",
+    "source_note": "인재개발규정 G-04:공통역량 / PDF 20쪽"
+  },
+  {
+    "evaluation_schema_source_id": "e838e19c-95db-585d-95c0-f5faf1234997",
+    "evaluation_result_schema_id": "a2cb396d-4f06-51bc-81a4-b6b97c074324",
+    "evaluation_item_definition_id": "199824d9-de25-53fa-b368-287e83104ee5",
+    "regulation_node_id": "8fe70bfc-e9f4-52cd-b414-fe54eeb9560e",
+    "source_role": "form",
+    "review_status": "needs_review",
+    "source_note": "인재개발규정 G-04:리더역량 / PDF 20쪽"
+  },
+  {
+    "evaluation_schema_source_id": "b79fc44d-3d89-5fcb-b4f8-6f33880048e9",
+    "evaluation_result_schema_id": "a2cb396d-4f06-51bc-81a4-b6b97c074324",
+    "evaluation_item_definition_id": "0bf015be-efb9-5ddf-a152-95d47fe78ef3",
+    "regulation_node_id": "84a1a35f-19e0-5b32-b937-a12d0c5ee399",
+    "source_role": "form",
+    "review_status": "needs_review",
+    "source_note": "인재개발규정 G-04:직무역량 / PDF 20쪽"
+  },
+  {
+    "evaluation_schema_source_id": "a6050dab-9fd8-5131-8b3f-6344a174aba5",
+    "evaluation_result_schema_id": "04bf8602-9f46-5c66-8e25-3e90192bfc78",
+    "evaluation_item_definition_id": null,
+    "regulation_node_id": "b235be36-28ea-52ee-8b7b-b969557db260",
+    "source_role": "precision",
+    "review_status": "needs_review",
+    "source_note": "인사규정시행세칙 제28조의2 / PDF 8쪽"
+  },
+  {
+    "evaluation_schema_source_id": "e40bfee5-e6a6-5a68-aa79-7b3b534fe9b3",
+    "evaluation_result_schema_id": "04bf8602-9f46-5c66-8e25-3e90192bfc78",
+    "evaluation_item_definition_id": null,
+    "regulation_node_id": "8bb918d8-52b2-59bd-9b88-5463d2fee074",
+    "source_role": "exception",
+    "review_status": "needs_review",
+    "source_note": "인사규정시행세칙 제41조 / PDF 14쪽"
+  },
+  {
+    "evaluation_schema_source_id": "57eb971f-9643-56ea-ae99-e17b15b00bb4",
+    "evaluation_result_schema_id": "04bf8602-9f46-5c66-8e25-3e90192bfc78",
+    "evaluation_item_definition_id": null,
+    "regulation_node_id": "a85a82a1-3d31-5a66-a6b9-499b466eba98",
+    "source_role": "formula",
+    "review_status": "needs_review",
+    "source_note": "인사규정시행세칙 제42조 / PDF 14쪽"
+  },
+  {
+    "evaluation_schema_source_id": "6f33d819-4290-54a0-919b-c72c25b331c6",
+    "evaluation_result_schema_id": "04bf8602-9f46-5c66-8e25-3e90192bfc78",
+    "evaluation_item_definition_id": null,
+    "regulation_node_id": "52f40d18-c375-5987-a172-5d8925d69c0f",
+    "source_role": "basis",
+    "review_status": "needs_review",
+    "source_note": "인사규정시행세칙 제43조 / PDF 14쪽"
+  },
+  {
+    "evaluation_schema_source_id": "df37fee1-67b9-5080-a8b9-36211079386d",
+    "evaluation_result_schema_id": "04bf8602-9f46-5c66-8e25-3e90192bfc78",
+    "evaluation_item_definition_id": null,
+    "regulation_node_id": "67db5327-5548-52c1-9e6c-f1a0b7b0ed09",
+    "source_role": "basis",
+    "review_status": "needs_review",
+    "source_note": "인재개발규정 제7조 / PDF 2쪽"
+  },
+  {
+    "evaluation_schema_source_id": "e3838d9e-9ed4-5984-ac4c-2dec07bc56c5",
+    "evaluation_result_schema_id": "04bf8602-9f46-5c66-8e25-3e90192bfc78",
+    "evaluation_item_definition_id": null,
+    "regulation_node_id": "89f60797-d067-5bd2-a037-55779397b6ad",
+    "source_role": "basis",
+    "review_status": "needs_review",
+    "source_note": "인재개발규정 S1-C01 / PDF 19쪽"
+  },
+  {
+    "evaluation_schema_source_id": "ef75763c-57cb-5894-bdfa-1cb77d8c0037",
+    "evaluation_result_schema_id": "04bf8602-9f46-5c66-8e25-3e90192bfc78",
+    "evaluation_item_definition_id": null,
+    "regulation_node_id": "4adf69d0-ff71-5c4f-b9dc-d4bb1afaf88b",
+    "source_role": "basis",
+    "review_status": "needs_review",
+    "source_note": "인재개발규정 S1-C02 / PDF 19쪽"
+  },
+  {
+    "evaluation_schema_source_id": "64c4bc33-3efb-5bc5-8134-791902631529",
+    "evaluation_result_schema_id": "04bf8602-9f46-5c66-8e25-3e90192bfc78",
+    "evaluation_item_definition_id": null,
+    "regulation_node_id": "9b483ce2-eabf-546f-bb38-db36633269ba",
+    "source_role": "basis",
+    "review_status": "needs_review",
+    "source_note": "인재개발규정 S1-C04 / PDF 19쪽"
+  },
+  {
+    "evaluation_schema_source_id": "479f0b59-08c1-54e7-ad02-d83a79810f8c",
+    "evaluation_result_schema_id": "04bf8602-9f46-5c66-8e25-3e90192bfc78",
+    "evaluation_item_definition_id": null,
+    "regulation_node_id": "902cb66c-b1a8-5b14-974c-bd12ffb925c4",
+    "source_role": "exception",
+    "review_status": "needs_review",
+    "source_note": "인재개발규정 C-02 / PDF 20쪽"
+  },
+  {
+    "evaluation_schema_source_id": "3c2a008c-879c-573d-8f87-61c8a6c5a6b2",
+    "evaluation_result_schema_id": "04bf8602-9f46-5c66-8e25-3e90192bfc78",
+    "evaluation_item_definition_id": null,
+    "regulation_node_id": "9fca1eca-682a-56b1-b4eb-846f05de2ca3",
+    "source_role": "exception",
+    "review_status": "needs_review",
+    "source_note": "인재개발규정 C-03 / PDF 20쪽"
+  },
+  {
+    "evaluation_schema_source_id": "f80b3102-f3cc-505c-9505-e96eaee1796b",
+    "evaluation_result_schema_id": "04bf8602-9f46-5c66-8e25-3e90192bfc78",
+    "evaluation_item_definition_id": null,
+    "regulation_node_id": "cb821674-e14e-55e5-9b7d-46d87e608fcc",
+    "source_role": "exception",
+    "review_status": "needs_review",
+    "source_note": "인재개발규정 C-05 / PDF 20쪽"
+  },
+  {
+    "evaluation_schema_source_id": "fc171e8f-f2fb-5369-a555-92f4c5a9095f",
+    "evaluation_result_schema_id": "04bf8602-9f46-5c66-8e25-3e90192bfc78",
+    "evaluation_item_definition_id": null,
+    "regulation_node_id": "50681d96-4f4d-512f-81d4-af5157748f9a",
+    "source_role": "exception",
+    "review_status": "needs_review",
+    "source_note": "인재개발규정 C-07 / PDF 20쪽"
+  },
+  {
+    "evaluation_schema_source_id": "4a2a07e5-0641-52c1-b88e-082271aa99c8",
+    "evaluation_result_schema_id": "04bf8602-9f46-5c66-8e25-3e90192bfc78",
+    "evaluation_item_definition_id": null,
+    "regulation_node_id": "536e384b-5420-52e9-a047-ca26778febae",
+    "source_role": "exception",
+    "review_status": "needs_review",
+    "source_note": "인재개발규정 C-08 / PDF 20쪽"
+  },
+  {
+    "evaluation_schema_source_id": "421a64ac-19d0-51ca-8716-6551c6e83f47",
+    "evaluation_result_schema_id": "04bf8602-9f46-5c66-8e25-3e90192bfc78",
+    "evaluation_item_definition_id": null,
+    "regulation_node_id": "3a8d986f-eff3-51f3-b8e3-14e6890ff87f",
+    "source_role": "exception",
+    "review_status": "needs_review",
+    "source_note": "인재개발규정 C-09 / PDF 20쪽"
+  },
+  {
+    "evaluation_schema_source_id": "862a3a83-d7ed-5792-b851-9b811838171a",
+    "evaluation_result_schema_id": "04bf8602-9f46-5c66-8e25-3e90192bfc78",
+    "evaluation_item_definition_id": "35d175c5-96c5-5b29-8f6d-ca112fe681b2",
+    "regulation_node_id": "a85a82a1-3d31-5a66-a6b9-499b466eba98",
+    "source_role": "form",
+    "review_status": "needs_review",
+    "source_note": "인사규정시행세칙 제42조 / PDF 14쪽"
+  },
+  {
+    "evaluation_schema_source_id": "cdd94f22-948e-5ea1-9e52-2512779e0df1",
+    "evaluation_result_schema_id": "04bf8602-9f46-5c66-8e25-3e90192bfc78",
+    "evaluation_item_definition_id": "3575c6a0-da8b-52de-923f-2cdc07bf2bc9",
+    "regulation_node_id": "2497464f-4581-5b03-8bfa-c34e52c735c9",
+    "source_role": "form",
+    "review_status": "needs_review",
+    "source_note": "인재개발규정 S1-R05 / PDF 19쪽"
+  },
+  {
+    "evaluation_schema_source_id": "edc18ab0-ff34-50ea-9f0a-b507ab2fd422",
+    "evaluation_result_schema_id": "04bf8602-9f46-5c66-8e25-3e90192bfc78",
+    "evaluation_item_definition_id": "3f9207d7-160e-5bb3-a200-507d7f6405c7",
+    "regulation_node_id": "233d6549-913e-5e27-9731-9624aa17fce3",
+    "source_role": "form",
+    "review_status": "needs_review",
+    "source_note": "인재개발규정 G-05:공통역량 / PDF 20쪽"
+  },
+  {
+    "evaluation_schema_source_id": "69748332-6042-5414-b6cc-b67c446b7585",
+    "evaluation_result_schema_id": "04bf8602-9f46-5c66-8e25-3e90192bfc78",
+    "evaluation_item_definition_id": "fb830ab7-3cd0-5f55-9410-881e5ed46548",
+    "regulation_node_id": "12d63786-4b91-57bd-b706-ba0d5147cf60",
+    "source_role": "form",
+    "review_status": "needs_review",
+    "source_note": "인재개발규정 G-05:리더역량 / PDF 20쪽"
+  },
+  {
+    "evaluation_schema_source_id": "4878bf6e-5c88-5dba-8117-46df44ab75fa",
+    "evaluation_result_schema_id": "04bf8602-9f46-5c66-8e25-3e90192bfc78",
+    "evaluation_item_definition_id": "19b71df4-44ed-5031-b8e8-80a67a0d87b1",
+    "regulation_node_id": "3494a8e7-266f-5e56-952a-00beb9319edb",
+    "source_role": "form",
+    "review_status": "needs_review",
+    "source_note": "인재개발규정 G-05:직무역량 / PDF 20쪽"
+  },
+  {
+    "evaluation_schema_source_id": "a7397777-b6a6-590a-b4c1-91f2adf6c4ea",
+    "evaluation_result_schema_id": "e7484f26-307b-58a9-9245-b89c9879183d",
+    "evaluation_item_definition_id": null,
+    "regulation_node_id": "b235be36-28ea-52ee-8b7b-b969557db260",
+    "source_role": "precision",
+    "review_status": "needs_review",
+    "source_note": "인사규정시행세칙 제28조의2 / PDF 8쪽"
+  },
+  {
+    "evaluation_schema_source_id": "9ed02339-8bcf-5037-9a10-8f0531a7f454",
+    "evaluation_result_schema_id": "e7484f26-307b-58a9-9245-b89c9879183d",
+    "evaluation_item_definition_id": null,
+    "regulation_node_id": "1fb3fb7e-39f5-5bf4-8663-292aecd64fbb",
+    "source_role": "basis",
+    "review_status": "needs_review",
+    "source_note": "인사규정시행세칙 제38조 / PDF 13쪽"
+  },
+  {
+    "evaluation_schema_source_id": "3517ab21-d85d-59da-9aab-52133608af80",
+    "evaluation_result_schema_id": "e7484f26-307b-58a9-9245-b89c9879183d",
+    "evaluation_item_definition_id": null,
+    "regulation_node_id": "dd95ce09-f007-5f64-8111-2b7ff56b57cd",
+    "source_role": "formula",
+    "review_status": "needs_review",
+    "source_note": "인사규정시행세칙 제39조 / PDF 13쪽"
+  },
+  {
+    "evaluation_schema_source_id": "7029f5c0-ed46-5d0a-9fbb-c660eb162dea",
+    "evaluation_result_schema_id": "e7484f26-307b-58a9-9245-b89c9879183d",
+    "evaluation_item_definition_id": null,
+    "regulation_node_id": "fb96135e-172c-579e-b717-2678fbd60f88",
+    "source_role": "exception",
+    "review_status": "needs_review",
+    "source_note": "인사규정시행세칙 제40조 / PDF 13,14쪽"
+  },
+  {
+    "evaluation_schema_source_id": "2092130e-e76e-5672-808d-c251b4e8aa1d",
+    "evaluation_result_schema_id": "e7484f26-307b-58a9-9245-b89c9879183d",
+    "evaluation_item_definition_id": null,
+    "regulation_node_id": "daafda13-3f81-5b84-9a84-ae570a3f3270",
+    "source_role": "lookup_table",
+    "review_status": "needs_review",
+    "source_note": "인사규정시행세칙 별표 6 / PDF 59쪽"
+  },
+  {
+    "evaluation_schema_source_id": "104c7acf-e7d9-5fe4-a270-94eec19bdd39",
+    "evaluation_result_schema_id": "e7484f26-307b-58a9-9245-b89c9879183d",
+    "evaluation_item_definition_id": null,
+    "regulation_node_id": "f80ca70b-6800-59aa-8536-acd61cc23e8f",
+    "source_role": "basis",
+    "review_status": "needs_review",
+    "source_note": "인사규정 제23조 / PDF 5쪽"
+  },
+  {
+    "evaluation_schema_source_id": "43c627f7-6790-5ea6-8488-4c22a558d6f2",
+    "evaluation_result_schema_id": "e7484f26-307b-58a9-9245-b89c9879183d",
+    "evaluation_item_definition_id": "40a214f1-874d-5129-830c-f9db049d3967",
+    "regulation_node_id": "dd95ce09-f007-5f64-8111-2b7ff56b57cd",
+    "source_role": "form",
+    "review_status": "needs_review",
+    "source_note": "인사규정시행세칙 제39조 / PDF 13쪽"
+  },
+  {
+    "evaluation_schema_source_id": "3d4ded9f-533c-5986-9199-70649ea785bc",
+    "evaluation_result_schema_id": "e7484f26-307b-58a9-9245-b89c9879183d",
+    "evaluation_item_definition_id": "863d3bbf-b3e6-5bf5-98ce-97f398cb3043",
+    "regulation_node_id": "dd95ce09-f007-5f64-8111-2b7ff56b57cd",
+    "source_role": "form",
+    "review_status": "needs_review",
+    "source_note": "인사규정시행세칙 제39조 / PDF 13쪽"
+  },
+  {
+    "evaluation_schema_source_id": "72165fee-b8a8-50cc-a87a-22342623a4ff",
+    "evaluation_result_schema_id": "e7484f26-307b-58a9-9245-b89c9879183d",
+    "evaluation_item_definition_id": "c5543e0b-093b-5c6d-92ae-9d815948458b",
+    "regulation_node_id": "dd95ce09-f007-5f64-8111-2b7ff56b57cd",
+    "source_role": "form",
+    "review_status": "needs_review",
+    "source_note": "인사규정시행세칙 제39조 / PDF 13쪽"
+  },
+  {
+    "evaluation_schema_source_id": "d8002e1e-d12c-5c9b-a193-4ccc40a2be14",
+    "evaluation_result_schema_id": "63129bde-a76c-57cf-9848-f4624cf4e8b8",
+    "evaluation_item_definition_id": null,
+    "regulation_node_id": "b235be36-28ea-52ee-8b7b-b969557db260",
+    "source_role": "precision",
+    "review_status": "needs_review",
+    "source_note": "인사규정시행세칙 제28조의2 / PDF 8쪽"
+  },
+  {
+    "evaluation_schema_source_id": "b4ac831c-a50b-5fa3-af54-87b7d0a80f03",
+    "evaluation_result_schema_id": "63129bde-a76c-57cf-9848-f4624cf4e8b8",
+    "evaluation_item_definition_id": null,
+    "regulation_node_id": "41e26cd2-1681-5303-bbe6-6564386315e5",
+    "source_role": "basis",
+    "review_status": "needs_review",
+    "source_note": "인사규정시행세칙 제28조 / PDF 8쪽"
+  },
+  {
+    "evaluation_schema_source_id": "f7a4f99e-fa48-5812-b8d9-64f138eaf1ca",
+    "evaluation_result_schema_id": "63129bde-a76c-57cf-9848-f4624cf4e8b8",
+    "evaluation_item_definition_id": null,
+    "regulation_node_id": "81aebb37-8e21-5216-a492-ac2edbc038de",
+    "source_role": "exception",
+    "review_status": "needs_review",
+    "source_note": "인사규정시행세칙 제44조 / PDF 14,15쪽"
+  },
+  {
+    "evaluation_schema_source_id": "98efafe9-2350-5eb4-82e0-96575ab9d863",
+    "evaluation_result_schema_id": "63129bde-a76c-57cf-9848-f4624cf4e8b8",
+    "evaluation_item_definition_id": null,
+    "regulation_node_id": "6dea575f-18de-5c7f-b5b3-8a4bc8cedb5a",
+    "source_role": "exception",
+    "review_status": "needs_review",
+    "source_note": "인사규정시행세칙 제44조의3 / PDF 15쪽"
+  },
+  {
+    "evaluation_schema_source_id": "9df08275-bb6b-5539-93cc-d566c7ed0676",
+    "evaluation_result_schema_id": "63129bde-a76c-57cf-9848-f4624cf4e8b8",
+    "evaluation_item_definition_id": null,
+    "regulation_node_id": "332f90fe-ac31-57e1-a4ea-71225273ae9c",
+    "source_role": "exception",
+    "review_status": "needs_review",
+    "source_note": "인사규정시행세칙 제44조의6 / PDF 16쪽"
+  },
+  {
+    "evaluation_schema_source_id": "2bed09a4-92ad-5977-a007-d830b17d38d4",
+    "evaluation_result_schema_id": "63129bde-a76c-57cf-9848-f4624cf4e8b8",
+    "evaluation_item_definition_id": null,
+    "regulation_node_id": "6ce7c233-7441-5c0a-8868-786bc4206e4b",
+    "source_role": "exception",
+    "review_status": "needs_review",
+    "source_note": "인사규정시행세칙 제45조 / PDF 16쪽"
+  },
+  {
+    "evaluation_schema_source_id": "7f086b5a-f069-5a6f-8cf5-0107d6c8bc80",
+    "evaluation_result_schema_id": "63129bde-a76c-57cf-9848-f4624cf4e8b8",
+    "evaluation_item_definition_id": null,
+    "regulation_node_id": "30eafdc2-51b2-5fd0-a409-c778b1702636",
+    "source_role": "exception",
+    "review_status": "needs_review",
+    "source_note": "인사규정시행세칙 제46조 / PDF 16쪽"
+  },
+  {
+    "evaluation_schema_source_id": "97110c9c-07af-5acb-be3d-6abc0ea1410e",
+    "evaluation_result_schema_id": "63129bde-a76c-57cf-9848-f4624cf4e8b8",
+    "evaluation_item_definition_id": null,
+    "regulation_node_id": "4b796812-40ad-5f74-912d-016cca4237cf",
+    "source_role": "lookup_table",
+    "review_status": "needs_review",
+    "source_note": "인사규정시행세칙 별표 7 / PDF 60쪽"
+  },
+  {
+    "evaluation_schema_source_id": "a2e3a23d-5c2b-5e79-84ed-68fc90fe59a4",
+    "evaluation_result_schema_id": "63129bde-a76c-57cf-9848-f4624cf4e8b8",
+    "evaluation_item_definition_id": null,
+    "regulation_node_id": "40aedf0a-6300-5e36-964e-a3dcd141fb7a",
+    "source_role": "lookup_table",
+    "review_status": "needs_review",
+    "source_note": "인사규정시행세칙 별표 8 / PDF 61쪽"
+  },
+  {
+    "evaluation_schema_source_id": "3a70e4cc-a01c-543c-941c-67a5f0020e10",
+    "evaluation_result_schema_id": "63129bde-a76c-57cf-9848-f4624cf4e8b8",
+    "evaluation_item_definition_id": "27031fc9-494c-5561-b76b-16c9d5a138bc",
+    "regulation_node_id": "41e26cd2-1681-5303-bbe6-6564386315e5",
+    "source_role": "form",
+    "review_status": "needs_review",
+    "source_note": "인사규정시행세칙 제28조 / PDF 8쪽"
+  },
+  {
+    "evaluation_schema_source_id": "176a8394-b17a-57b0-a250-f2ecb70a3aa4",
+    "evaluation_result_schema_id": "63129bde-a76c-57cf-9848-f4624cf4e8b8",
+    "evaluation_item_definition_id": "267554a9-9021-5b78-b87d-abba74647b17",
+    "regulation_node_id": "81aebb37-8e21-5216-a492-ac2edbc038de",
+    "source_role": "form",
+    "review_status": "needs_review",
+    "source_note": "인사규정시행세칙 제44조 / PDF 14,15쪽"
+  },
+  {
+    "evaluation_schema_source_id": "276a5c2c-63aa-5ee5-944c-4c6c45ee776f",
+    "evaluation_result_schema_id": "63129bde-a76c-57cf-9848-f4624cf4e8b8",
+    "evaluation_item_definition_id": "604ddab9-862a-5b44-81d4-537031b94066",
+    "regulation_node_id": "81aebb37-8e21-5216-a492-ac2edbc038de",
+    "source_role": "form",
+    "review_status": "needs_review",
+    "source_note": "인사규정시행세칙 제44조 / PDF 14,15쪽"
+  },
+  {
+    "evaluation_schema_source_id": "dec5c9ec-4a24-538d-99eb-97bb3c1258a6",
+    "evaluation_result_schema_id": "63129bde-a76c-57cf-9848-f4624cf4e8b8",
+    "evaluation_item_definition_id": "18cd8b1e-2e53-5af8-a4a4-a89a420c470d",
+    "regulation_node_id": "81aebb37-8e21-5216-a492-ac2edbc038de",
+    "source_role": "form",
+    "review_status": "needs_review",
+    "source_note": "인사규정시행세칙 제44조 / PDF 14,15쪽"
+  },
+  {
+    "evaluation_schema_source_id": "be049872-4b76-5e3e-8eb2-ab3e08750f98",
+    "evaluation_result_schema_id": "63129bde-a76c-57cf-9848-f4624cf4e8b8",
+    "evaluation_item_definition_id": "59e8723c-b7dc-50d7-bdd8-d64644299f28",
+    "regulation_node_id": "81aebb37-8e21-5216-a492-ac2edbc038de",
+    "source_role": "form",
+    "review_status": "needs_review",
+    "source_note": "인사규정시행세칙 제44조 / PDF 14,15쪽"
+  },
+  {
+    "evaluation_schema_source_id": "e3b8d9a8-a46d-55b6-a7e5-a750234509ac",
+    "evaluation_result_schema_id": "63129bde-a76c-57cf-9848-f4624cf4e8b8",
+    "evaluation_item_definition_id": "d8a1f22c-c09d-55df-825d-35ca30d19517",
+    "regulation_node_id": "81aebb37-8e21-5216-a492-ac2edbc038de",
+    "source_role": "form",
+    "review_status": "needs_review",
+    "source_note": "인사규정시행세칙 제44조 / PDF 14,15쪽"
+  },
+  {
+    "evaluation_schema_source_id": "753af560-29b2-54d4-ba21-1ed83e37edf9",
+    "evaluation_result_schema_id": "63129bde-a76c-57cf-9848-f4624cf4e8b8",
+    "evaluation_item_definition_id": "3fdacd22-bddb-5895-810a-e92b35df1696",
+    "regulation_node_id": "81aebb37-8e21-5216-a492-ac2edbc038de",
+    "source_role": "form",
+    "review_status": "needs_review",
+    "source_note": "인사규정시행세칙 제44조 / PDF 14,15쪽"
+  },
+  {
+    "evaluation_schema_source_id": "457d70dd-f09d-5f20-bbdc-5cdb6bb7a4bb",
+    "evaluation_result_schema_id": "63129bde-a76c-57cf-9848-f4624cf4e8b8",
+    "evaluation_item_definition_id": "a7284f0c-1d1d-5e98-9fdb-c24108b8f447",
+    "regulation_node_id": "6dea575f-18de-5c7f-b5b3-8a4bc8cedb5a",
+    "source_role": "form",
+    "review_status": "needs_review",
+    "source_note": "인사규정시행세칙 제44조의3 / PDF 15쪽"
+  },
+  {
+    "evaluation_schema_source_id": "a6304522-6abe-52f1-a243-e78a940a1046",
+    "evaluation_result_schema_id": "63129bde-a76c-57cf-9848-f4624cf4e8b8",
+    "evaluation_item_definition_id": "031351dd-01ff-56e2-a7e0-9f299a73f293",
+    "regulation_node_id": "332f90fe-ac31-57e1-a4ea-71225273ae9c",
+    "source_role": "form",
+    "review_status": "needs_review",
+    "source_note": "인사규정시행세칙 제44조의6 / PDF 16쪽"
+  },
+  {
+    "evaluation_schema_source_id": "0cf42f28-14bc-5f80-9809-54ad9b0828e7",
+    "evaluation_result_schema_id": "63129bde-a76c-57cf-9848-f4624cf4e8b8",
+    "evaluation_item_definition_id": "535902a8-8ee0-5130-a7f4-00793279ddcc",
+    "regulation_node_id": "6ce7c233-7441-5c0a-8868-786bc4206e4b",
+    "source_role": "form",
+    "review_status": "needs_review",
+    "source_note": "인사규정시행세칙 제45조 / PDF 16쪽"
+  },
+  {
+    "evaluation_schema_source_id": "c130e813-6fad-505d-8dec-c2eeb5ec67a5",
+    "evaluation_result_schema_id": "63129bde-a76c-57cf-9848-f4624cf4e8b8",
+    "evaluation_item_definition_id": "9e451e1f-762f-575e-a43f-d2574e1d2c4c",
+    "regulation_node_id": "6ce7c233-7441-5c0a-8868-786bc4206e4b",
+    "source_role": "form",
+    "review_status": "needs_review",
+    "source_note": "인사규정시행세칙 제45조 / PDF 16쪽"
+  },
+  {
+    "evaluation_schema_source_id": "e8a8aafa-7e4a-5576-9342-36e5b01590b5",
+    "evaluation_result_schema_id": "63129bde-a76c-57cf-9848-f4624cf4e8b8",
+    "evaluation_item_definition_id": "6f716648-26f7-5737-a7bb-0f73ce74ab74",
+    "regulation_node_id": "6ce7c233-7441-5c0a-8868-786bc4206e4b",
+    "source_role": "form",
+    "review_status": "needs_review",
+    "source_note": "인사규정시행세칙 제45조 / PDF 16쪽"
+  },
+  {
+    "evaluation_schema_source_id": "85a20f18-6b8f-5800-9a09-66a020aa3f34",
+    "evaluation_result_schema_id": "63129bde-a76c-57cf-9848-f4624cf4e8b8",
+    "evaluation_item_definition_id": "b8410cd6-76f6-5bfd-a6d4-56eb13e3dd42",
+    "regulation_node_id": "30eafdc2-51b2-5fd0-a409-c778b1702636",
+    "source_role": "form",
+    "review_status": "needs_review",
+    "source_note": "인사규정시행세칙 제46조 / PDF 16쪽"
+  },
+  {
+    "evaluation_schema_source_id": "29837a5c-9d8f-54c0-a2e6-7a6334526101",
+    "evaluation_result_schema_id": "63129bde-a76c-57cf-9848-f4624cf4e8b8",
+    "evaluation_item_definition_id": "21761ccf-a6f4-5d07-8dd5-31e16796d30d",
+    "regulation_node_id": "30eafdc2-51b2-5fd0-a409-c778b1702636",
+    "source_role": "form",
+    "review_status": "needs_review",
+    "source_note": "인사규정시행세칙 제46조 / PDF 16쪽"
+  },
+  {
+    "evaluation_schema_source_id": "36062608-6943-592f-8be2-f9b2240c077e",
+    "evaluation_result_schema_id": "63129bde-a76c-57cf-9848-f4624cf4e8b8",
+    "evaluation_item_definition_id": "55e22834-22c4-5354-a3fe-c49898083d83",
+    "regulation_node_id": "30eafdc2-51b2-5fd0-a409-c778b1702636",
+    "source_role": "form",
+    "review_status": "needs_review",
+    "source_note": "인사규정시행세칙 제46조 / PDF 16쪽"
+  },
+  {
+    "evaluation_schema_source_id": "1aa918c4-8667-5b48-b946-cd9ab5e03ab2",
+    "evaluation_result_schema_id": "63129bde-a76c-57cf-9848-f4624cf4e8b8",
+    "evaluation_item_definition_id": "32650c0d-b1ef-589c-b1f2-0343231eed48",
+    "regulation_node_id": "30eafdc2-51b2-5fd0-a409-c778b1702636",
+    "source_role": "form",
+    "review_status": "needs_review",
+    "source_note": "인사규정시행세칙 제46조 / PDF 16쪽"
+  },
+  {
+    "evaluation_schema_source_id": "14bfb775-b1e9-5a60-8903-c1641e06c021",
+    "evaluation_result_schema_id": "63129bde-a76c-57cf-9848-f4624cf4e8b8",
+    "evaluation_item_definition_id": "8dc68d47-0708-59bd-a7f5-b54edf40c1a9",
+    "regulation_node_id": "30eafdc2-51b2-5fd0-a409-c778b1702636",
+    "source_role": "form",
+    "review_status": "needs_review",
+    "source_note": "인사규정시행세칙 제46조 / PDF 16쪽"
+  },
+  {
+    "evaluation_schema_source_id": "526ba1d9-f19f-5dc1-ba83-b91862e6eebb",
+    "evaluation_result_schema_id": "63129bde-a76c-57cf-9848-f4624cf4e8b8",
+    "evaluation_item_definition_id": "8b14bbc1-8bd2-51f0-8727-77ddf28e2ee2",
+    "regulation_node_id": "30eafdc2-51b2-5fd0-a409-c778b1702636",
+    "source_role": "form",
+    "review_status": "needs_review",
+    "source_note": "인사규정시행세칙 제46조 / PDF 16쪽"
+  },
+  {
+    "evaluation_schema_source_id": "4d437fd6-9e62-5c53-8beb-61d91d2b6db9",
+    "evaluation_result_schema_id": "63129bde-a76c-57cf-9848-f4624cf4e8b8",
+    "evaluation_item_definition_id": "c8689b32-c350-5dd6-ace7-39ff3fb988e2",
+    "regulation_node_id": "30eafdc2-51b2-5fd0-a409-c778b1702636",
+    "source_role": "form",
+    "review_status": "needs_review",
+    "source_note": "인사규정시행세칙 제46조 / PDF 16쪽"
+  }
+]

@@ -37,8 +37,20 @@ def serializable(value):
 class Query:
     """Small compatibility layer for existing .client.table(...) call sites."""
     def __init__(self, db, table):
-        self.db, self.table_name = db, table
-        self.spec = CATALOG.get('public.' + table)
+        self.db = db
+        if '.' in table:
+            self.full_table = table
+            self.table_name = table.split('.')[1]
+        elif ('public.' + table) in CATALOG:
+            self.full_table = 'public.' + table
+            self.table_name = table
+        elif ('hr_regulation_pilot.' + table) in CATALOG:
+            self.full_table = 'hr_regulation_pilot.' + table
+            self.table_name = table
+        else:
+            self.full_table = 'public.' + table
+            self.table_name = table
+        self.spec = CATALOG.get(self.full_table)
         if self.spec is None:
             raise ValueError('Unsupported public table')
         self.columns = {c['column']: c for c in self.spec['columns']}
@@ -104,7 +116,8 @@ class Query:
         return value
 
     def _run(self, conn):
-        table = 'public.' + ident(self.table_name)
+        schema_part, table_part = self.full_table.split('.')
+        table = ident(schema_part) + '.' + ident(table_part)
         predicates, params = [], []
         for col, operator, value in self.filters:
             if value is None and operator in ('=', '<>'):
@@ -420,6 +433,21 @@ class DatabaseClient:
         rates = stats['rates']
         return {'should_trigger': stats['total_selections'] >= threshold, 'current_real_selections': stats['total_selections'],
                 'lowest_agent_id': min(rates, key=rates.get) if rates else None, 'selection_rates': rates}
+
+    def get_evaluation_schemas(self, evaluation_kind=None):
+        query = self.table('evaluation_result_schema').select()
+        if evaluation_kind:
+            query.eq('evaluation_kind', evaluation_kind)
+        return query.execute().data
+
+    def get_evaluation_items(self, schema_id):
+        return self.table('evaluation_item_definition').select().eq('evaluation_result_schema_id', schema_id).order('display_order').execute().data
+
+    def get_evaluation_sources(self, schema_id, item_id=None):
+        query = self.table('evaluation_schema_source').select().eq('evaluation_result_schema_id', schema_id)
+        if item_id:
+            query.eq('evaluation_item_definition_id', item_id)
+        return query.execute().data
 
 
 db_client = DatabaseClient()

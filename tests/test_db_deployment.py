@@ -63,7 +63,7 @@ class DeploymentTests(unittest.TestCase):
 
     def test_foreign_key_order(self):
         order = db.table_order(db.CATALOG)
-        self.assertEqual(len(order),42)
+        self.assertEqual(len(order),45)
         position = {t:i for i,t in enumerate(order)}
         for table, spec in db.CATALOG.items():
             for fk in spec['fks']:
@@ -83,6 +83,26 @@ class DeploymentTests(unittest.TestCase):
                     if all(v is not None for v in key):
                         self.assertIn(key,targets)
 
+    def test_kwater_v11_and_evaluation_criteria_integrity(self):
+        if not db.PACKAGE.is_dir():
+            self.skipTest('K-water V11 package not present')
+        reg_tables = db.package_rows(db.PACKAGE)
+        eval_tables = db.evaluation_package_rows(db.PACKAGE)
+        self.assertEqual(len(reg_tables['hr_regulation_pilot.regulation']), 28)
+        self.assertEqual(len(reg_tables['hr_regulation_pilot.regulation_node']), 3451)
+        self.assertEqual(len(reg_tables['hr_regulation_pilot.rag_chunk']), 1552)
+        self.assertEqual(len(eval_tables['hr_regulation_pilot.evaluation_result_schema']), 11)
+        self.assertEqual(len(eval_tables['hr_regulation_pilot.evaluation_item_definition']), 70)
+        self.assertEqual(len(eval_tables['hr_regulation_pilot.evaluation_schema_source']), 172)
+        combined = {**reg_tables, **eval_tables, 'public.skill_tags': []}
+        for table, rows in eval_tables.items():
+            for fk in db.CATALOG[table]['fks']:
+                targets = {tuple(r[c] for c in fk['target_columns']) for r in combined[fk['target']]}
+                for row in rows:
+                    key = tuple(row[c] for c in fk['columns'])
+                    if all(v is not None for v in key):
+                        self.assertIn(key, targets)
+
     def test_self_parent_before_child(self):
         table = 'hr_regulation_pilot.regulation_node'
         ordered = db.row_order(table,list(reversed(db.package_rows(db.PILOT)[table])))
@@ -91,6 +111,18 @@ class DeploymentTests(unittest.TestCase):
             if row['parent_node_id']:
                 self.assertIn(row['parent_node_id'],seen)
             seen.add(row['regulation_node_id'])
+
+    def test_evaluation_item_self_parent_before_child(self):
+        if not (db.PACKAGE / '평가기준_추가전처리').is_dir():
+            self.skipTest('Evaluation criteria package not present')
+        table = 'hr_regulation_pilot.evaluation_item_definition'
+        rows = db.evaluation_package_rows(db.PACKAGE)[table]
+        ordered = db.row_order(table, list(reversed(rows)))
+        seen = set()
+        for row in ordered:
+            if row['parent_item_id']:
+                self.assertIn((row['parent_item_id'], row['evaluation_result_schema_id']), seen)
+            seen.add((row['evaluation_item_definition_id'], row['evaluation_result_schema_id']))
 
     def test_parent_cycle_rejected(self):
         rows = [{'regulation_node_id':'a','parent_node_id':'b'}, {'regulation_node_id':'b','parent_node_id':'a'}]
@@ -159,7 +191,7 @@ class DeploymentTests(unittest.TestCase):
         with patch.object(db,'check_schema'):
             first = db.migrate(conn)
             second = db.migrate(conn)
-            self.assertEqual(len(first['applied']),4)
+            self.assertEqual(len(first['applied']),5)
             self.assertEqual(second['applied'],[])
             conn.applied[first['applied'][0]] = 'modified'
             with self.assertRaisesRegex(ValueError,'migration changed'):

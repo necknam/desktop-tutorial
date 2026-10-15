@@ -1,0 +1,55 @@
+{
+  "result": "pass",
+  "check_count": 9,
+  "checks": [
+    {
+      "check": "별표1·별표4와 원문 관련 조항 보존",
+      "result": "pass"
+    },
+    {
+      "check": "원문 21개 행·165개 번호 업무·8쪽별 개수",
+      "result": "pass"
+    },
+    {
+      "check": "공란 4행 보존·업무별 부서 및 개인 업무 임의 배분 없음",
+      "result": "pass"
+    },
+    {
+      "check": "기구표 표시 명칭 86개·주석 보존·지휘관계 미추정",
+      "result": "pass"
+    },
+    {
+      "check": "원문 PDF·9개 원문 이미지 해시 연결",
+      "result": "pass"
+    },
+    {
+      "check": "관련 본문 항목·문자 해시 일치",
+      "result": "pass"
+    },
+    {
+      "check": "공통 스키마 필드·필수값·후보 ID 중복 검증",
+      "result": "pass"
+    },
+    {
+      "check": "후보 외래키·부모 항목·검색 근거 연결",
+      "result": "pass"
+    },
+    {
+      "check": "검색 후보 22개·내용 해시·임베딩 및 검색 보류",
+      "result": "pass"
+    }
+  ],
+  "counts": {
+    "diagram_box_labels": 86,
+    "duty_rows": 21,
+    "numbered_duties": 165,
+    "regulation_node": 23,
+    "rag_chunk": 22,
+    "rag_chunk_source": 22
+  },
+  "unverified": [
+    "기구표 지휘선의 상하관계 상세 구조화",
+    "개별 업무와 부서·직원 대응의 추가 기준",
+    "기관 공식 해석·DB 적재·실제 검색 품질"
+  ]
+}

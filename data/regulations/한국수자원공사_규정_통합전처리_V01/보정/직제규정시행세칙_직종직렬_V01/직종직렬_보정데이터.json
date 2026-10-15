@@ -1,0 +1,483 @@
+{
+  "metadata": {
+    "title": "직제규정 시행세칙 별표4 직종·직렬 원문 보정",
+    "revision": "V01",
+    "source_storage_key": "source/직제/직제규정 시행세칙(2026년도 07월 16일 개정).pdf",
+    "regulation_file_id": "57889d2e-a721-562c-8fcc-516bf9f58bf5",
+    "source_sha256": "44e655356bcb3536b989fb922c336328415736590030d946104f68518dabeb9e",
+    "source_pdf_page": 46,
+    "source_regulation_node_id": "66fea751-a1ad-5d3d-a824-136223046289",
+    "reviewer": "Codex",
+    "reviewed_at": "2026-10-13",
+    "individual_employee_obligation_determined": false,
+    "db_loaded": false,
+    "search_activated": false
+  },
+  "rows": [
+    {
+      "row_key": "J4-R01",
+      "job_family": "일반직",
+      "source_grade_text": "1급 / 2급(갑)",
+      "job_category": null,
+      "job_series": null,
+      "source_merged_category_series_text": "-",
+      "source_state": "source_dash",
+      "source_locator": {
+        "pdf_page": 46,
+        "printed_page": 46,
+        "source_regulation_node_id": "66fea751-a1ad-5d3d-a824-136223046289",
+        "line_ids": [
+          "p046l0005",
+          "p046l0006",
+          "p046l0007",
+          "p046l0010"
+        ],
+        "line_bboxes": [
+          [
+            179.76,
+            224.748,
+            197.52,
+            236.748
+          ],
+          [
+            375.12,
+            234.348,
+            379.104,
+            246.348
+          ],
+          [
+            170.28,
+            243.948,
+            206.904,
+            255.948
+          ],
+          [
+            87.84,
+            351.468,
+            134.4,
+            363.468
+          ]
+        ],
+        "original_extracted_text": "1급\n-\n2급(갑)\n일 반 직",
+        "source_table_key": "p046-table-1",
+        "table_bbox": [
+          72.321,
+          177.646,
+          526.637,
+          499.014
+        ],
+        "source_images": [
+          {
+            "pdf_page": 46,
+            "path": "source/page-46.png",
+            "sha256": "e7f14e9b1a8425cf19a82e558e1e0808f1a25f5a930398a642f9b6d219e796d4"
+          }
+        ],
+        "image_storage_base": "보정/직제규정시행세칙_직종직렬_V01",
+        "transcription_method": "full_page_image_compared_with_raw_text_and_cells"
+      },
+      "review_status": "image_compared_by_codex",
+      "individual_employee_assignment_confirmed": false
+    },
+    {
+      "row_key": "J4-R02",
+      "job_family": "일반직",
+      "source_grade_text": "2급(을)",
+      "job_category": null,
+      "job_series": null,
+      "source_merged_category_series_text": "행정, 기술",
+      "source_state": "merged_category_series",
+      "source_locator": {
+        "pdf_page": 46,
+        "printed_page": 46,
+        "source_regulation_node_id": "66fea751-a1ad-5d3d-a824-136223046289",
+        "line_ids": [
+          "p046l0008",
+          "p046l0010"
+        ],
+        "line_bboxes": [
+          [
+            170.28,
+            285.108,
+            404.76,
+            297.108
+          ],
+          [
+            87.84,
+            351.468,
+            134.4,
+            363.468
+          ]
+        ],
+        "original_extracted_text": "2급(을) 행정, 기술\n일 반 직",
+        "source_table_key": "p046-table-1",
+        "table_bbox": [
+          72.321,
+          177.646,
+          526.637,
+          499.014
+        ],
+        "source_images": [
+          {
+            "pdf_page": 46,
+            "path": "source/page-46.png",
+            "sha256": "e7f14e9b1a8425cf19a82e558e1e0808f1a25f5a930398a642f9b6d219e796d4"
+          }
+        ],
+        "image_storage_base": "보정/직제규정시행세칙_직종직렬_V01",
+        "transcription_method": "full_page_image_compared_with_raw_text_and_cells"
+      },
+      "review_status": "image_compared_by_codex",
+      "individual_employee_assignment_confirmed": false
+    },
+    {
+      "row_key": "J4-R03",
+      "job_family": "일반직",
+      "source_grade_text": "3~8급",
+      "job_category": "행정",
+      "job_series": [
+        "행정"
+      ],
+      "source_merged_category_series_text": null,
+      "source_state": "separate_category_series",
+      "source_locator": {
+        "pdf_page": 46,
+        "printed_page": 46,
+        "source_regulation_node_id": "66fea751-a1ad-5d3d-a824-136223046289",
+        "line_ids": [
+          "p046l0009",
+          "p046l0010",
+          "p046l0012"
+        ],
+        "line_bboxes": [
+          [
+            288.48,
+            333.348,
+            461.76,
+            345.348
+          ],
+          [
+            87.84,
+            351.468,
+            134.4,
+            363.468
+          ],
+          [
+            167.64,
+            402.228,
+            209.64,
+            414.228
+          ]
+        ],
+        "original_extracted_text": "행정 행정\n일 반 직\n3 ~ 8급",
+        "source_table_key": "p046-table-1",
+        "table_bbox": [
+          72.321,
+          177.646,
+          526.637,
+          499.014
+        ],
+        "source_images": [
+          {
+            "pdf_page": 46,
+            "path": "source/page-46.png",
+            "sha256": "e7f14e9b1a8425cf19a82e558e1e0808f1a25f5a930398a642f9b6d219e796d4"
+          }
+        ],
+        "image_storage_base": "보정/직제규정시행세칙_직종직렬_V01",
+        "transcription_method": "full_page_image_compared_with_raw_text_and_cells"
+      },
+      "review_status": "image_compared_by_codex",
+      "individual_employee_assignment_confirmed": false
+    },
+    {
+      "row_key": "J4-R04",
+      "job_family": "일반직",
+      "source_grade_text": "3~8급",
+      "job_category": "시설기술",
+      "job_series": [
+        "토목",
+        "환경"
+      ],
+      "source_merged_category_series_text": null,
+      "source_state": "separate_category_series",
+      "source_locator": {
+        "pdf_page": 46,
+        "printed_page": 46,
+        "source_regulation_node_id": "66fea751-a1ad-5d3d-a824-136223046289",
+        "line_ids": [
+          "p046l0010",
+          "p046l0011",
+          "p046l0012"
+        ],
+        "line_bboxes": [
+          [
+            87.84,
+            351.468,
+            134.4,
+            363.468
+          ],
+          [
+            276.96,
+            379.308,
+            477.48,
+            391.308
+          ],
+          [
+            167.64,
+            402.228,
+            209.64,
+            414.228
+          ]
+        ],
+        "original_extracted_text": "일 반 직\n시설기술 토목, 환경\n3 ~ 8급",
+        "source_table_key": "p046-table-1",
+        "table_bbox": [
+          72.321,
+          177.646,
+          526.637,
+          499.014
+        ],
+        "source_images": [
+          {
+            "pdf_page": 46,
+            "path": "source/page-46.png",
+            "sha256": "e7f14e9b1a8425cf19a82e558e1e0808f1a25f5a930398a642f9b6d219e796d4"
+          }
+        ],
+        "image_storage_base": "보정/직제규정시행세칙_직종직렬_V01",
+        "transcription_method": "full_page_image_compared_with_raw_text_and_cells"
+      },
+      "review_status": "image_compared_by_codex",
+      "individual_employee_assignment_confirmed": false
+    },
+    {
+      "row_key": "J4-R05",
+      "job_family": "일반직",
+      "source_grade_text": "3~8급",
+      "job_category": "설비기술",
+      "job_series": [
+        "전기",
+        "기계",
+        "전자통신"
+      ],
+      "source_merged_category_series_text": null,
+      "source_state": "separate_category_series",
+      "source_locator": {
+        "pdf_page": 46,
+        "printed_page": 46,
+        "source_regulation_node_id": "66fea751-a1ad-5d3d-a824-136223046289",
+        "line_ids": [
+          "p046l0010",
+          "p046l0012",
+          "p046l0013"
+        ],
+        "line_bboxes": [
+          [
+            87.84,
+            351.468,
+            134.4,
+            363.468
+          ],
+          [
+            167.64,
+            402.228,
+            209.64,
+            414.228
+          ],
+          [
+            276.96,
+            425.268,
+            504.84,
+            437.268
+          ]
+        ],
+        "original_extracted_text": "일 반 직\n3 ~ 8급\n설비기술 전기, 기계, 전자통신",
+        "source_table_key": "p046-table-1",
+        "table_bbox": [
+          72.321,
+          177.646,
+          526.637,
+          499.014
+        ],
+        "source_images": [
+          {
+            "pdf_page": 46,
+            "path": "source/page-46.png",
+            "sha256": "e7f14e9b1a8425cf19a82e558e1e0808f1a25f5a930398a642f9b6d219e796d4"
+          }
+        ],
+        "image_storage_base": "보정/직제규정시행세칙_직종직렬_V01",
+        "transcription_method": "full_page_image_compared_with_raw_text_and_cells"
+      },
+      "review_status": "image_compared_by_codex",
+      "individual_employee_assignment_confirmed": false
+    },
+    {
+      "row_key": "J4-R06",
+      "job_family": "일반직",
+      "source_grade_text": "3~8급",
+      "job_category": "특수기술",
+      "job_series": [
+        "지질",
+        "조경",
+        "건축",
+        "전산",
+        "선원"
+      ],
+      "source_merged_category_series_text": null,
+      "source_state": "separate_category_series",
+      "source_locator": {
+        "pdf_page": 46,
+        "printed_page": 46,
+        "source_regulation_node_id": "66fea751-a1ad-5d3d-a824-136223046289",
+        "line_ids": [
+          "p046l0010",
+          "p046l0012",
+          "p046l0014",
+          "p046l0015",
+          "p046l0016"
+        ],
+        "line_bboxes": [
+          [
+            87.84,
+            351.468,
+            134.4,
+            363.468
+          ],
+          [
+            167.64,
+            402.228,
+            209.64,
+            414.228
+          ],
+          [
+            405.36,
+            461.508,
+            494.616,
+            473.508
+          ],
+          [
+            276.96,
+            471.108,
+            323.52,
+            483.108
+          ],
+          [
+            422.4,
+            480.708,
+            477.48,
+            492.708
+          ]
+        ],
+        "original_extracted_text": "일 반 직\n3 ~ 8급\n지질, 조경, 건축,\n특수기술\n전산, 선원",
+        "source_table_key": "p046-table-1",
+        "table_bbox": [
+          72.321,
+          177.646,
+          526.637,
+          499.014
+        ],
+        "source_images": [
+          {
+            "pdf_page": 46,
+            "path": "source/page-46.png",
+            "sha256": "e7f14e9b1a8425cf19a82e558e1e0808f1a25f5a930398a642f9b6d219e796d4"
+          }
+        ],
+        "image_storage_base": "보정/직제규정시행세칙_직종직렬_V01",
+        "transcription_method": "full_page_image_compared_with_raw_text_and_cells"
+      },
+      "review_status": "image_compared_by_codex",
+      "individual_employee_assignment_confirmed": false
+    }
+  ],
+  "notes": [
+    {
+      "note_id": "J4-C01",
+      "source_text": "* 직렬 : 직무의 종류가 유사하고 그 책임과 곤란성의 정도가 서로 다른 직급의 군",
+      "source_locator": {
+        "pdf_page": 46,
+        "printed_page": 46,
+        "source_regulation_node_id": "66fea751-a1ad-5d3d-a824-136223046289",
+        "line_ids": [
+          "p046l0017"
+        ],
+        "line_bboxes": [
+          [
+            70.92,
+            508.788,
+            510.72,
+            520.788
+          ]
+        ],
+        "original_extracted_text": "* 직렬 : 직무의 종류가 유사하고 그 책임과 곤란성의 정도가 서로 다른 직급의 군",
+        "source_table_key": "p046-table-1",
+        "table_bbox": [
+          72.321,
+          177.646,
+          526.637,
+          499.014
+        ],
+        "source_images": [
+          {
+            "pdf_page": 46,
+            "path": "source/page-46.png",
+            "sha256": "e7f14e9b1a8425cf19a82e558e1e0808f1a25f5a930398a642f9b6d219e796d4"
+          }
+        ],
+        "image_storage_base": "보정/직제규정시행세칙_직종직렬_V01",
+        "transcription_method": "full_page_image_compared_with_raw_text_and_cells"
+      }
+    },
+    {
+      "note_id": "J4-C02",
+      "source_text": "* 직종 : 직무의 성질이 유사한 직렬의 군",
+      "source_locator": {
+        "pdf_page": 46,
+        "printed_page": 46,
+        "source_regulation_node_id": "66fea751-a1ad-5d3d-a824-136223046289",
+        "line_ids": [
+          "p046l0018"
+        ],
+        "line_bboxes": [
+          [
+            76.68,
+            527.988,
+            297.6,
+            539.988
+          ]
+        ],
+        "original_extracted_text": "* 직종 : 직무의 성질이 유사한 직렬의 군",
+        "source_table_key": "p046-table-1",
+        "table_bbox": [
+          72.321,
+          177.646,
+          526.637,
+          499.014
+        ],
+        "source_images": [
+          {
+            "pdf_page": 46,
+            "path": "source/page-46.png",
+            "sha256": "e7f14e9b1a8425cf19a82e558e1e0808f1a25f5a930398a642f9b6d219e796d4"
+          }
+        ],
+        "image_storage_base": "보정/직제규정시행세칙_직종직렬_V01",
+        "transcription_method": "full_page_image_compared_with_raw_text_and_cells"
+      }
+    }
+  ],
+  "handling_notes": [
+    "직종·직렬 병합 칸은 두 칸의 값으로 임의 분리하지 않음.",
+    "1급·2급(갑)의 대시를 직무 없음으로 확정하지 않음.",
+    "직렬과 인재개발규정 별표3의 교육 분야는 별도 구분. 교육 분야 연결 기준은 미확보."
+  ],
+  "delivery_integration": {
+    "included_in_unified_handoff": true,
+    "data_rows_applied": true,
+    "current_integration_report": "report/integration_ledger.json",
+    "db_loaded": false,
+    "search_activated": false
+  }
+}

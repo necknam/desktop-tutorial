@@ -1,0 +1,51 @@
+{
+  "result": "pass",
+  "checks": [
+    {
+      "check": "원문 10행·직급 묶음·소계·합계 구분",
+      "result": "pass"
+    },
+    {
+      "check": "일반직 4개 직급 묶음 합계와 소계 4223 일치",
+      "result": "pass"
+    },
+    {
+      "check": "세부 행 합계와 전체 정원 5474 일치",
+      "result": "pass"
+    },
+    {
+      "check": "현재 인원·개별 직급 수치를 임의 생성하지 않음",
+      "result": "pass"
+    },
+    {
+      "check": "원문 PDF·원문 이미지 해시 연결",
+      "result": "pass"
+    },
+    {
+      "check": "기존 스키마와 후보 행의 필드·필수값·ID 중복 확인",
+      "result": "pass"
+    },
+    {
+      "check": "행 후보를 포함한 외래키 연결",
+      "result": "pass"
+    },
+    {
+      "check": "RAG 본문 해시·원문 페이지·검색 보류",
+      "result": "pass"
+    }
+  ],
+  "check_count": 8,
+  "counts": {
+    "quota_rows": 10,
+    "regulation_node_candidates": 1,
+    "rag_chunk_candidates": 1,
+    "rag_chunk_source_candidates": 1
+  },
+  "unverified": [
+    "숫자 전사의 사람 대조",
+    "기관의 공식 해석·실제 정원 운영",
+    "실제 DB 반영·검색 활성화",
+    "브라우저 화면"
+  ],
+  "main_data_tables_modified": false
+}

@@ -1,0 +1,325 @@
+{
+  "metadata": {
+    "title": "일반직 승진 요건·제한 검토",
+    "revision": "V01",
+    "reviewed_at": "2026-10-13",
+    "reviewer": "Codex",
+    "priority_departments": [
+      "디지털관리처",
+      "인재경영실"
+    ],
+    "actual_employee_rules_implemented": false,
+    "db_loaded": false,
+    "search_activated": false
+  },
+  "minimum_durations": [
+    {
+      "rule_key": "PROM-MIN-02",
+      "source_item_number": 2,
+      "source_text": "2. 2급(을)에서 2급(갑) : 2년 6개월",
+      "source_values": {
+        "from_grade": "2급(을)",
+        "to_grade": "2급(갑)",
+        "minimum_duration_text": "2년 6개월",
+        "minimum_years": 2,
+        "minimum_months": 6
+      },
+      "derived_values": {
+        "duration_in_months": 30,
+        "method": "year_times_12_plus_month",
+        "use": "단위 환산 값. 개인 승진 가능일 계산값 아님."
+      },
+      "source_regulation_node_id": "f80ca70b-6800-59aa-8536-acd61cc23e8f",
+      "source_locator": {
+        "pdf_pages": [
+          5
+        ],
+        "lines": [
+          {
+            "line_id": "p005l0013",
+            "page": 5,
+            "bbox": [
+              85.034,
+              376.402,
+              244.129,
+              386.351
+            ]
+          }
+        ]
+      },
+      "employee_eligibility_decision": null
+    },
+    {
+      "rule_key": "PROM-MIN-03",
+      "source_item_number": 3,
+      "source_text": "3. 3급에서 2급(을) : 2년 6개월",
+      "source_values": {
+        "from_grade": "3급",
+        "to_grade": "2급(을)",
+        "minimum_duration_text": "2년 6개월",
+        "minimum_years": 2,
+        "minimum_months": 6
+      },
+      "derived_values": {
+        "duration_in_months": 30,
+        "method": "year_times_12_plus_month",
+        "use": "단위 환산 값. 개인 승진 가능일 계산값 아님."
+      },
+      "source_regulation_node_id": "f80ca70b-6800-59aa-8536-acd61cc23e8f",
+      "source_locator": {
+        "pdf_pages": [
+          5
+        ],
+        "lines": [
+          {
+            "line_id": "p005l0014",
+            "page": 5,
+            "bbox": [
+              85.034,
+              392.584,
+              228.058,
+              402.533
+            ]
+          }
+        ]
+      },
+      "employee_eligibility_decision": null
+    },
+    {
+      "rule_key": "PROM-MIN-04",
+      "source_item_number": 4,
+      "source_text": "4. 4급에서 3급 : 3년",
+      "source_values": {
+        "from_grade": "4급",
+        "to_grade": "3급",
+        "minimum_duration_text": "3년",
+        "minimum_years": 3,
+        "minimum_months": 0
+      },
+      "derived_values": {
+        "duration_in_months": 36,
+        "method": "year_times_12_plus_month",
+        "use": "단위 환산 값. 개인 승진 가능일 계산값 아님."
+      },
+      "source_regulation_node_id": "f80ca70b-6800-59aa-8536-acd61cc23e8f",
+      "source_locator": {
+        "pdf_pages": [
+          5
+        ],
+        "lines": [
+          {
+            "line_id": "p005l0015",
+            "page": 5,
+            "bbox": [
+              85.034,
+              408.766,
+              182.003,
+              418.716
+            ]
+          }
+        ]
+      },
+      "employee_eligibility_decision": null
+    },
+    {
+      "rule_key": "PROM-MIN-05",
+      "source_item_number": 5,
+      "source_text": "5. 5급에서 4급 : 2년",
+      "source_values": {
+        "from_grade": "5급",
+        "to_grade": "4급",
+        "minimum_duration_text": "2년",
+        "minimum_years": 2,
+        "minimum_months": 0
+      },
+      "derived_values": {
+        "duration_in_months": 24,
+        "method": "year_times_12_plus_month",
+        "use": "단위 환산 값. 개인 승진 가능일 계산값 아님."
+      },
+      "source_regulation_node_id": "f80ca70b-6800-59aa-8536-acd61cc23e8f",
+      "source_locator": {
+        "pdf_pages": [
+          5
+        ],
+        "lines": [
+          {
+            "line_id": "p005l0016",
+            "page": 5,
+            "bbox": [
+              85.034,
+              424.949,
+              182.003,
+              434.898
+            ]
+          }
+        ]
+      },
+      "employee_eligibility_decision": null
+    },
+    {
+      "rule_key": "PROM-MIN-06",
+      "source_item_number": 6,
+      "source_text": "6. 6급에서 5급 : 2년",
+      "source_values": {
+        "from_grade": "6급",
+        "to_grade": "5급",
+        "minimum_duration_text": "2년",
+        "minimum_years": 2,
+        "minimum_months": 0
+      },
+      "derived_values": {
+        "duration_in_months": 24,
+        "method": "year_times_12_plus_month",
+        "use": "단위 환산 값. 개인 승진 가능일 계산값 아님."
+      },
+      "source_regulation_node_id": "f80ca70b-6800-59aa-8536-acd61cc23e8f",
+      "source_locator": {
+        "pdf_pages": [
+          5
+        ],
+        "lines": [
+          {
+            "line_id": "p005l0017",
+            "page": 5,
+            "bbox": [
+              85.034,
+              441.131,
+              182.003,
+              451.08
+            ]
+          }
+        ]
+      },
+      "employee_eligibility_decision": null
+    },
+    {
+      "rule_key": "PROM-MIN-07",
+      "source_item_number": 7,
+      "source_text": "7. 7급에서 6급 : 2년",
+      "source_values": {
+        "from_grade": "7급",
+        "to_grade": "6급",
+        "minimum_duration_text": "2년",
+        "minimum_years": 2,
+        "minimum_months": 0
+      },
+      "derived_values": {
+        "duration_in_months": 24,
+        "method": "year_times_12_plus_month",
+        "use": "단위 환산 값. 개인 승진 가능일 계산값 아님."
+      },
+      "source_regulation_node_id": "f80ca70b-6800-59aa-8536-acd61cc23e8f",
+      "source_locator": {
+        "pdf_pages": [
+          5
+        ],
+        "lines": [
+          {
+            "line_id": "p005l0018",
+            "page": 5,
+            "bbox": [
+              85.034,
+              457.313,
+              182.003,
+              467.263
+            ]
+          }
+        ]
+      },
+      "employee_eligibility_decision": null
+    },
+    {
+      "rule_key": "PROM-MIN-08",
+      "source_item_number": 8,
+      "source_text": "8. 8급에서 7급 : 2년 <조 개정 2010.10.29,개정 2014.03.26>",
+      "source_values": {
+        "from_grade": "8급",
+        "to_grade": "7급",
+        "minimum_duration_text": "2년",
+        "minimum_years": 2,
+        "minimum_months": 0
+      },
+      "derived_values": {
+        "duration_in_months": 24,
+        "method": "year_times_12_plus_month",
+        "use": "단위 환산 값. 개인 승진 가능일 계산값 아님."
+      },
+      "source_regulation_node_id": "f80ca70b-6800-59aa-8536-acd61cc23e8f",
+      "source_locator": {
+        "pdf_pages": [
+          5
+        ],
+        "lines": [
+          {
+            "line_id": "p005l0019",
+            "page": 5,
+            "bbox": [
+              85.034,
+              473.496,
+              365.878,
+              483.445
+            ]
+          }
+        ]
+      },
+      "employee_eligibility_decision": null
+    }
+  ],
+  "deleted_item": {
+    "source_item_number": 1,
+    "source_text": "1. 삭제 (99. 3. 9)",
+    "treated_as_active_rule": false
+  },
+  "minimum_context": {
+    "primary_node_id": "f80ca70b-6800-59aa-8536-acd61cc23e8f",
+    "target_chunk_id": "3426ecd4-811f-5bc6-a3d8-ff7a2abb4f05",
+    "context_node_ids": [
+      "bf3ccb52-c795-574e-8095-eab5e38a64d4",
+      "d7f8bdc1-48ac-58dd-b4a7-82f665ced7d3",
+      "981142fb-5140-5892-ae05-a6c95c82bcee"
+    ],
+    "purpose": "최소 기간의 원문과 승진 원칙·임용방법·제한의 원문을 함께 연결. 개인 승진 판정은 미구현."
+  },
+  "source_documents": [
+    {
+      "file_id": "fe7fc6d9-0790-59a1-b66c-3259a9230217",
+      "source_storage_key": "source/인사·복무·징계/인사규정(2026년도 8월 27일 개정).pdf",
+      "sha256": "1b6ec41b26c11c3821f72c403f6e2878cb2e7afa967e2309cb47d3ab01c68643",
+      "pdf_pages": [
+        5,
+        6
+      ]
+    }
+  ],
+  "delivery_integration": {
+    "included_in_unified_handoff": true,
+    "structured_minimum_values_in": "data/regulation_scope.json",
+    "current_integration_report": "report/integration_ledger.json",
+    "actual_employee_rules_implemented": false
+  },
+  "leave_reference_context": {
+    "target_node_id": "981142fb-5140-5892-ae05-a6c95c82bcee",
+    "target_chunk_id": "9badb369-6334-56f1-833e-5fa63717e673",
+    "context_node_id": "91ba6090-f334-5064-a470-c31205adb08a",
+    "purpose": "제26조의 휴직 예외가 참조하는 제31조 휴직 종류 원문 연결. 개인별 기간 산정은 미구현."
+  },
+  "source_provisions": [
+    {
+      "regulation_node_id": "981142fb-5140-5892-ae05-a6c95c82bcee",
+      "source_pdf_pages": [
+        5,
+        6
+      ],
+      "source_text": "제26조(승진의 제한) ① 다음 각 호의 어느 하나에 해당하는 자는 승진대상에서 제외한다. < 개정\n2012.03.30 ,개정 2015.06.16,개정 2016.12.06>\n1. 징계처분, 직위해제 및 휴직 중에 있는 자. 다만. 제31조제7호에 따라 휴직 중인 자는 제외한\n다. <개정 2016.12.06, 2024.12.24.>\n2. 징계처분의 집행이 종료된 날부터(견책은 처분일부터) 다음 각 목의 기간(금품 및 향응 수수,\n공금의 횡령·유용·배임·절도·사기, 음주운전(음주측정 불응 포함), 성폭력·성매매·성희롱, 채용비\n위행위, 「임직원행동강령」제20조의2에 대한 징계처분의 경우 각각 6개월을 더한 기간)이 지나\n지 아니한 자 <개정 2016.12.06, 2019.06.25, 2020.08.05, 2023.06.27>\n가. 견책 : 6개월 <개정 2019.06.25>\n나. 감봉 : 12개월 <개정 2019.06.25>\n다. 정직 및 강등 : 18개월 <개정 2014.03.26, 2019.06.25>\n3. 직위해제기간, 휴직기간, 징계처분기간 및 제2호의 제한기간을 승진소요최저연수에 가산하여\n동기간이 지나지 아니한 자. 다만, 제31조 제3호, 제5호(국외 교육훈련 및 공사 사업관련 해외\n특수목적법인에 임시로 고용된 경우로서 3년에 한한다), 제7호 및 제13호에 따른 휴직의 경우\n에는 휴직기간에 산입하지 아니한다. <개정 2012.03.30 ,개정 2014.03.26,개정 2014.05.27,\n개정 2016.12.06,개정 2017.02.28,개정 2018.06.26, 2018.11.01, 2019.06.25, 2023.06.27,\n2024.12.24.>\n4. 승진기준일전 최근 근무성적평정이 \"가\"인 자 <개정 2012.03.30 ,개정 2016.12.06, 2019.06.\n25>\n5. 정직 이상의 중징계 처분이 요구된 날부터 징계처분일 전까지 해당기간 중에 있는 자. 다만,\n금품 및 향응수수, 공금의 횡령·유용, 성폭력·성매매·성희롱, 채용비위에 대한 경우는 경징계\n처분요구를 포함한다. <신설 2015.06.16, 개정 2019.06.25>\n② 제1항제1호부터 제3호까지의 규정에도 불구하고 징계 또는 직위해제처분이나 직위해제처분의\n사유가 된 사건이 법원의 판결이나 노동위원회의 결정에 따라 무죄, 무효 또는 취소된 경우 그\n처분기간과 제한기간은 승진소요최저연수에 산입한다. <신설 2023.06.27>\n③ 삭제 (2000. 7. 5)\n④ 제1항에 따라 승진 제한기간 중에 있는 자가 다시 징계처분을 받았을 때에는 당초 처분에 따\n른 제한기간이 만료된 날부터 새로운 제한기간을 가산한다. <개정 2012.03.30 ,개정\n2014.03.26,개정 2016.12.06, 2019.06.25>\n⑤ 징계처분을 받은 자가 직무수행상의 공적으로 포상을 받은 때에는 세칙이 정하는 바에 따라\n제1항 제2호에 따른 기간을 단축하거나 면제할 수 있다. < 개정 2014.03.26 >"
+    },
+    {
+      "regulation_node_id": "91ba6090-f334-5064-a470-c31205adb08a",
+      "source_pdf_pages": [
+        7,
+        8
+      ],
+      "source_text": "제31조(휴직) 직원이 다음 각호의 어느 하나에 해당할 때에는 휴직을 명할 수 있다.\n1. 신체, 정신상의 쇠약으로 인한 요양기간이 연간 누계 60일을 초과하는 때(질병휴직) <개정 20\n20.08.05>\n2. 「병역법」에 따른 병역 복무를 위하여 징집 또는 소집된 때 <개정 2019.06.25>\n3. 공상 치료기간이 연간 누계 60일을 초과하는 때\n4. 천재지변 등으로 생사 또는 소재가 불명하게 되었을 때 <개정 2019.06.25>\n5. 공사업무와 유관한 분야의 국외 교육훈련을 하거나 국제기구, 외국기관, 공사 사업관련 해외\n특수목적법인에 임시로 고용될 때 <개정 2018.06.26, 2019.06.25, 2023.06.27>\n6. 법률의 규정에 따른 의무를 수행하기 위하여 직무를 이탈할 때 <개정 2019.06.25>\n7. 만 8세 이하 또는 초등학교 2학년 이하의 자녀를 양육하기 위하여 필요하거나 여성직원이 임\n신 또는 출산하게 된 경우 또는 남성 직원이 고용노동부령으로 정하는 유산, 조산 등 위험이\n있는 임신 중인 배우자를 돌보려고 하는 경우 <개정 2017.02.28 개정 2012.03.30 ,개정 201\n5.06.16, 2019.06.25, 2026.08.27.>\n8. 사고 또는 질병으로 장기간 요양이 필요한 조부모, 부모(배우자의 부모를 포함한다), 배우자,\n자녀 또는 손자녀를 간호하기 위하여 필요한 때. 다만, 조부모나 손자녀의 간호를 위하여 휴\n직할 수 있는 경우는 본인 외에는 간호할 수 있는 사람이 없는 경우로 한정한다. < 개정 201\n4.03.26 >\n9. <삭제 2014.05.27>\n10. 「산업안전보건법 시행규칙」 제220조에 해당하는 질병자 또는 그 질병이 의심되는 직원으로\n서 의사의 진단을 받지 않는 경우 <개정 2019.06.25, 2020.08.05>\n11. 3년 이상 근속한 직원의 배우자가 외국에서 1년 이상 근무, 교육파견(연수·휴직포함)하여 동\n반하게 된 경우\n12. 학위취득을 목적으로 외국에서 유학하거나 외국대학 등 공인기관(정규교육기관)이 개설한 교\n육과정에서 어학연수할 때(사설어학원, 개인교습기관 등을 통한 어학연수과정은 제외) < 신설\n2015.06.16 >\n13. 사내벤처제도에 따른 별도법인 설립·운영이 필요하다고 인정될 경우 <신설 2017.12.26, 개\n정 2019.06.25>\n14. 난임직원이 임신을 위하여 의사소견을 첨부 후 그에 따른 휴직을 요청하는 때 <신설 2020.0\n8.05>\n15. 10년 이상 장기 근속한 직원이 자기개발을 위한 학습·연구나 직무와 관련된 연구과제 수행\n등을 하기 위해 휴직을 신청할 때 <신설 2024.03.26>\n16. 「남녀고용평등법 시행규칙」제15조에서 정하는 사유로 만 8세 이하 또는 초등학교 2학년 이\n하의 자녀의 돌봄이 필요한 경우 <신설 2026.08.27.> <조 개정 2012.03.30,개정 2014.03.26>"
+    }
+  ]
+}

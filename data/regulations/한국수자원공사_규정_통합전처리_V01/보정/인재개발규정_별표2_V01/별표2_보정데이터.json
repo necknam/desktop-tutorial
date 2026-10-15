@@ -1,0 +1,4859 @@
+{
+  "metadata": {
+    "correction_id": "e9bf4afe-b041-5211-ab41-ab34b96ad8c2",
+    "correction_version": "V04",
+    "document_title": "별표 2 · 직군·직급별 필수교육 및 적용 조건 보정안",
+    "based_on_regulation_node_id": "b636b617-1ddd-5d98-be44-9e725925e174",
+    "regulation_version_id": "5565f28d-29da-5ebd-bb8a-b0dc705f26d3",
+    "regulation_file_id": "30562fdd-97df-5c4b-9535-1c7402d2b738",
+    "source_sha256": "0835551b52e02b2471022af3e3bf4c65ce39d0816a9fba6b0cc6c5569b5b792f",
+    "pdf_page": 20,
+    "amendment_date": "2024-12-26",
+    "retrieved_at": "2026-10-01T09:39:00+09:00",
+    "created_at": "2026-10-13T15:26:37+09:00",
+    "review_status": "pending_user_review",
+    "human_reviewed_by": null,
+    "method": "원문 이미지·원문 텍스트·자동 추출 셀을 대조하여 작성한 전사 보정안",
+    "original_and_auto_extraction_modified": false,
+    "annex3_modified": false,
+    "search_activated": false,
+    "db_loaded": false,
+    "db_handoff_note": "기존 별표2 원문 노드 ID에 연결하는 보정 참고 JSON. 기존 테이블·검색 조각은 변경하지 않음. 사용자 검토 후 통합 담당자가 원문·보정값을 함께 저장하는 방식으로 대응."
+  },
+  "state_legend": {
+    "course_list": "원문에 과정명이 기재된 칸",
+    "separately_defined": "별도 방침으로 시행하는 과정이라고 기재된 칸",
+    "source_dash": "원문 - 표시. 다른 교육 의무의 부재까지 확정하지 않음",
+    "source_blank": "원문 공란. 면제·교육 없음으로 해석하지 않음"
+  },
+  "targets": [
+    {
+      "target_code": "G-01",
+      "job_family": "일반직",
+      "grade_label": "1급 / 2급(갑)",
+      "grade_labels": [
+        "1급",
+        "2급(갑)"
+      ],
+      "original_column": 1
+    },
+    {
+      "target_code": "G-02",
+      "job_family": "일반직",
+      "grade_label": "2급(을)",
+      "grade_labels": [
+        "2급(을)"
+      ],
+      "original_column": 2
+    },
+    {
+      "target_code": "G-03",
+      "job_family": "일반직",
+      "grade_label": "3급",
+      "grade_labels": [
+        "3급"
+      ],
+      "original_column": 3
+    },
+    {
+      "target_code": "G-04",
+      "job_family": "일반직",
+      "grade_label": "4급",
+      "grade_labels": [
+        "4급"
+      ],
+      "original_column": 4
+    },
+    {
+      "target_code": "G-05",
+      "job_family": "일반직",
+      "grade_label": "5급",
+      "grade_labels": [
+        "5급"
+      ],
+      "original_column": 5
+    },
+    {
+      "target_code": "G-06",
+      "job_family": "일반직",
+      "grade_label": "6급 이하",
+      "grade_labels": [
+        "6급 이하"
+      ],
+      "original_column": 6
+    },
+    {
+      "target_code": "O-01",
+      "job_family": "운영직",
+      "grade_label": "직급 구분 없음(원문)",
+      "grade_labels": [],
+      "original_column": 7
+    },
+    {
+      "target_code": "P-01",
+      "job_family": "전문직",
+      "grade_label": "직급 구분 없음(원문)",
+      "grade_labels": [],
+      "original_column": 8
+    }
+  ],
+  "requirements": [
+    {
+      "requirement_id": "450f5a5d-c7ca-550a-bde4-893525487917",
+      "requirement_key": "G-01:공통역량",
+      "regulation_node_id": "b636b617-1ddd-5d98-be44-9e725925e174",
+      "regulation_version_id": "5565f28d-29da-5ebd-bb8a-b0dc705f26d3",
+      "target_code": "G-01",
+      "job_family": "일반직",
+      "grade_label": "1급 / 2급(갑)",
+      "grade_labels": [
+        "1급",
+        "2급(갑)"
+      ],
+      "competency_domain": "공통역량",
+      "source_state": "separately_defined",
+      "courses": [],
+      "content_text": "사장방침을 받아 별도로 시행하는 과정",
+      "condition_ids": [
+        "C-02"
+      ],
+      "interpretation_note": "구체적인 과정명은 이 별표에서 정하지 않고 사장방침을 받아 별도로 시행한다.",
+      "source_locator": {
+        "pdf_page": 20,
+        "printed_page": 20,
+        "source_regulation_node_id": "b636b617-1ddd-5d98-be44-9e725925e174",
+        "line_ids": [
+          "p20l008"
+        ],
+        "line_bboxes": [
+          [
+            62.64,
+            195.84,
+            425.04,
+            207.84
+          ]
+        ],
+        "original_extracted_text": "공통역량 사장방침을 받아 별도로 시행하는 과정",
+        "source_table_key": "p20-table-1",
+        "source_table_node_id": "9f52a0bb-a5cf-58d0-9d76-fbd1e6a61677",
+        "table_bbox": [
+          59.52,
+          147.84,
+          535.68,
+          354.24
+        ],
+        "raw_row_index_zero_based": 2,
+        "raw_column_index_zero_based": 1,
+        "raw_extracted_cell": "사장방침을 받아 별도로 시행하는 과정",
+        "merged_region_key": "main-common-all-targets"
+      },
+      "review_status": "pending_user_review"
+    },
+    {
+      "requirement_id": "6abea7f2-f106-51b4-9961-f4f3d9227f62",
+      "requirement_key": "G-01:리더역량",
+      "regulation_node_id": "b636b617-1ddd-5d98-be44-9e725925e174",
+      "regulation_version_id": "5565f28d-29da-5ebd-bb8a-b0dc705f26d3",
+      "target_code": "G-01",
+      "job_family": "일반직",
+      "grade_label": "1급 / 2급(갑)",
+      "grade_labels": [
+        "1급",
+        "2급(갑)"
+      ],
+      "competency_domain": "리더역량",
+      "source_state": "course_list",
+      "courses": [
+        {
+          "course_name": "신임처장",
+          "education_areas": []
+        },
+        {
+          "course_name": "부서장 리더십아카데미",
+          "education_areas": []
+        }
+      ],
+      "content_text": null,
+      "condition_ids": [
+        "C-02",
+        "C-03",
+        "C-01"
+      ],
+      "interpretation_note": "같은 셀에 나열된 과정이다. 개인별 해당 과정·모든 과정 이수 여부를 이 보정표에서 확정하지 않는다.",
+      "source_locator": {
+        "pdf_page": 20,
+        "printed_page": 20,
+        "source_regulation_node_id": "b636b617-1ddd-5d98-be44-9e725925e174",
+        "line_ids": [
+          "p20l009",
+          "p20l010",
+          "p20l011",
+          "p20l012"
+        ],
+        "line_bboxes": [
+          [
+            108.48,
+            215.532,
+            490.56,
+            228.24
+          ],
+          [
+            62.64,
+            239.52,
+            432.48,
+            252.24
+          ],
+          [
+            118.08,
+            252.24,
+            205.92,
+            264.24
+          ],
+          [
+            118.08,
+            264.24,
+            215.52,
+            276.24
+          ]
+        ],
+        "original_extracted_text": "◾신임처장 ◾신임부장 ◾신임차장 ◾신임과장 ◾신입사원 ◾신입사원\n리더역량 ◾부서장 ◾부장 ◾신임대리 -\n리더십 리더십\n아카데미 아카데미",
+        "source_table_key": "p20-table-1",
+        "source_table_node_id": "9f52a0bb-a5cf-58d0-9d76-fbd1e6a61677",
+        "table_bbox": [
+          59.52,
+          147.84,
+          535.68,
+          354.24
+        ],
+        "raw_row_index_zero_based": 3,
+        "raw_column_index_zero_based": 1,
+        "raw_extracted_cell": "◾신임처장\n◾부서장\n리더십\n아카데미",
+        "merged_region_key": null
+      },
+      "review_status": "pending_user_review"
+    },
+    {
+      "requirement_id": "52a5d66a-436b-5a02-8bf6-2634da069bc4",
+      "requirement_key": "G-01:직무역량",
+      "regulation_node_id": "b636b617-1ddd-5d98-be44-9e725925e174",
+      "regulation_version_id": "5565f28d-29da-5ebd-bb8a-b0dc705f26d3",
+      "target_code": "G-01",
+      "job_family": "일반직",
+      "grade_label": "1급 / 2급(갑)",
+      "grade_labels": [
+        "1급",
+        "2급(갑)"
+      ],
+      "competency_domain": "직무역량",
+      "source_state": "source_dash",
+      "courses": [],
+      "content_text": null,
+      "condition_ids": [
+        "C-02"
+      ],
+      "interpretation_note": "원문의 - 표기를 보존한다. 이 표 밖의 교육 의무까지 없다고 판단하지 않는다.",
+      "source_locator": {
+        "pdf_page": 20,
+        "printed_page": 20,
+        "source_regulation_node_id": "b636b617-1ddd-5d98-be44-9e725925e174",
+        "line_ids": [
+          "p20l013",
+          "p20l014",
+          "p20l015",
+          "p20l016",
+          "p20l017",
+          "p20l018",
+          "p20l019",
+          "p20l020"
+        ],
+        "line_bboxes": [
+          [
+            165.12,
+            276.972,
+            408.0,
+            289.68
+          ],
+          [
+            286.8,
+            290.96,
+            353.48,
+            301.96
+          ],
+          [
+            286.8,
+            304.16,
+            351.56,
+            315.16
+          ],
+          [
+            62.64,
+            309.6,
+            477.84,
+            322.32
+          ],
+          [
+            286.8,
+            317.36,
+            353.0,
+            328.36
+          ],
+          [
+            227.28,
+            324.08,
+            291.32,
+            335.08
+          ],
+          [
+            294.96,
+            330.56,
+            353.48,
+            341.56
+          ],
+          [
+            286.8,
+            343.76,
+            351.56,
+            354.76
+          ]
+        ],
+        "original_extracted_text": "◾직무이해(Ⅳ)◾직무이해(Ⅲ)◾직무이해(Ⅱ)◾직무이해(Ⅰ)\n-수자원(기본)\n-수도(기본)\n직무역량 - -통합기술(심화) - -\n-Green·Digital·\n-통합경영(심화)\nGlobal(기본)\n-경영(기본)",
+        "source_table_key": "p20-table-1",
+        "source_table_node_id": "9f52a0bb-a5cf-58d0-9d76-fbd1e6a61677",
+        "table_bbox": [
+          59.52,
+          147.84,
+          535.68,
+          354.24
+        ],
+        "raw_row_index_zero_based": 4,
+        "raw_column_index_zero_based": 1,
+        "raw_extracted_cell": "-",
+        "merged_region_key": null
+      },
+      "review_status": "pending_user_review"
+    },
+    {
+      "requirement_id": "00b71636-4276-5948-8e10-4529d4444f13",
+      "requirement_key": "G-02:공통역량",
+      "regulation_node_id": "b636b617-1ddd-5d98-be44-9e725925e174",
+      "regulation_version_id": "5565f28d-29da-5ebd-bb8a-b0dc705f26d3",
+      "target_code": "G-02",
+      "job_family": "일반직",
+      "grade_label": "2급(을)",
+      "grade_labels": [
+        "2급(을)"
+      ],
+      "competency_domain": "공통역량",
+      "source_state": "separately_defined",
+      "courses": [],
+      "content_text": "사장방침을 받아 별도로 시행하는 과정",
+      "condition_ids": [
+        "C-02"
+      ],
+      "interpretation_note": "구체적인 과정명은 이 별표에서 정하지 않고 사장방침을 받아 별도로 시행한다.",
+      "source_locator": {
+        "pdf_page": 20,
+        "printed_page": 20,
+        "source_regulation_node_id": "b636b617-1ddd-5d98-be44-9e725925e174",
+        "line_ids": [
+          "p20l008"
+        ],
+        "line_bboxes": [
+          [
+            62.64,
+            195.84,
+            425.04,
+            207.84
+          ]
+        ],
+        "original_extracted_text": "공통역량 사장방침을 받아 별도로 시행하는 과정",
+        "source_table_key": "p20-table-1",
+        "source_table_node_id": "9f52a0bb-a5cf-58d0-9d76-fbd1e6a61677",
+        "table_bbox": [
+          59.52,
+          147.84,
+          535.68,
+          354.24
+        ],
+        "raw_row_index_zero_based": 2,
+        "raw_column_index_zero_based": 2,
+        "raw_extracted_cell": null,
+        "merged_region_key": "main-common-all-targets"
+      },
+      "review_status": "pending_user_review"
+    },
+    {
+      "requirement_id": "8eda8407-37a8-53dd-8ee8-35e751d8cb70",
+      "requirement_key": "G-02:리더역량",
+      "regulation_node_id": "b636b617-1ddd-5d98-be44-9e725925e174",
+      "regulation_version_id": "5565f28d-29da-5ebd-bb8a-b0dc705f26d3",
+      "target_code": "G-02",
+      "job_family": "일반직",
+      "grade_label": "2급(을)",
+      "grade_labels": [
+        "2급(을)"
+      ],
+      "competency_domain": "리더역량",
+      "source_state": "course_list",
+      "courses": [
+        {
+          "course_name": "신임부장",
+          "education_areas": []
+        },
+        {
+          "course_name": "부장 리더십아카데미",
+          "education_areas": []
+        }
+      ],
+      "content_text": null,
+      "condition_ids": [
+        "C-02",
+        "C-03",
+        "C-01"
+      ],
+      "interpretation_note": "같은 셀에 나열된 과정이다. 개인별 해당 과정·모든 과정 이수 여부를 이 보정표에서 확정하지 않는다.",
+      "source_locator": {
+        "pdf_page": 20,
+        "printed_page": 20,
+        "source_regulation_node_id": "b636b617-1ddd-5d98-be44-9e725925e174",
+        "line_ids": [
+          "p20l009",
+          "p20l010",
+          "p20l011",
+          "p20l012"
+        ],
+        "line_bboxes": [
+          [
+            108.48,
+            215.532,
+            490.56,
+            228.24
+          ],
+          [
+            62.64,
+            239.52,
+            432.48,
+            252.24
+          ],
+          [
+            118.08,
+            252.24,
+            205.92,
+            264.24
+          ],
+          [
+            118.08,
+            264.24,
+            215.52,
+            276.24
+          ]
+        ],
+        "original_extracted_text": "◾신임처장 ◾신임부장 ◾신임차장 ◾신임과장 ◾신입사원 ◾신입사원\n리더역량 ◾부서장 ◾부장 ◾신임대리 -\n리더십 리더십\n아카데미 아카데미",
+        "source_table_key": "p20-table-1",
+        "source_table_node_id": "9f52a0bb-a5cf-58d0-9d76-fbd1e6a61677",
+        "table_bbox": [
+          59.52,
+          147.84,
+          535.68,
+          354.24
+        ],
+        "raw_row_index_zero_based": 3,
+        "raw_column_index_zero_based": 2,
+        "raw_extracted_cell": "◾신임부장\n◾부장\n리더십\n아카데미",
+        "merged_region_key": null
+      },
+      "review_status": "pending_user_review"
+    },
+    {
+      "requirement_id": "0c97a0a4-5bcd-575f-9383-2e38e9bf0a1d",
+      "requirement_key": "G-02:직무역량",
+      "regulation_node_id": "b636b617-1ddd-5d98-be44-9e725925e174",
+      "regulation_version_id": "5565f28d-29da-5ebd-bb8a-b0dc705f26d3",
+      "target_code": "G-02",
+      "job_family": "일반직",
+      "grade_label": "2급(을)",
+      "grade_labels": [
+        "2급(을)"
+      ],
+      "competency_domain": "직무역량",
+      "source_state": "course_list",
+      "courses": [
+        {
+          "course_name": "직무이해(Ⅳ)",
+          "education_areas": []
+        }
+      ],
+      "content_text": null,
+      "condition_ids": [
+        "C-02",
+        "C-05",
+        "C-06",
+        "C-07",
+        "C-09"
+      ],
+      "interpretation_note": "같은 셀에 나열된 과정이다. 개인별 해당 과정·모든 과정 이수 여부를 이 보정표에서 확정하지 않는다.",
+      "source_locator": {
+        "pdf_page": 20,
+        "printed_page": 20,
+        "source_regulation_node_id": "b636b617-1ddd-5d98-be44-9e725925e174",
+        "line_ids": [
+          "p20l013",
+          "p20l014",
+          "p20l015",
+          "p20l016",
+          "p20l017",
+          "p20l018",
+          "p20l019",
+          "p20l020"
+        ],
+        "line_bboxes": [
+          [
+            165.12,
+            276.972,
+            408.0,
+            289.68
+          ],
+          [
+            286.8,
+            290.96,
+            353.48,
+            301.96
+          ],
+          [
+            286.8,
+            304.16,
+            351.56,
+            315.16
+          ],
+          [
+            62.64,
+            309.6,
+            477.84,
+            322.32
+          ],
+          [
+            286.8,
+            317.36,
+            353.0,
+            328.36
+          ],
+          [
+            227.28,
+            324.08,
+            291.32,
+            335.08
+          ],
+          [
+            294.96,
+            330.56,
+            353.48,
+            341.56
+          ],
+          [
+            286.8,
+            343.76,
+            351.56,
+            354.76
+          ]
+        ],
+        "original_extracted_text": "◾직무이해(Ⅳ)◾직무이해(Ⅲ)◾직무이해(Ⅱ)◾직무이해(Ⅰ)\n-수자원(기본)\n-수도(기본)\n직무역량 - -통합기술(심화) - -\n-Green·Digital·\n-통합경영(심화)\nGlobal(기본)\n-경영(기본)",
+        "source_table_key": "p20-table-1",
+        "source_table_node_id": "9f52a0bb-a5cf-58d0-9d76-fbd1e6a61677",
+        "table_bbox": [
+          59.52,
+          147.84,
+          535.68,
+          354.24
+        ],
+        "raw_row_index_zero_based": 4,
+        "raw_column_index_zero_based": 2,
+        "raw_extracted_cell": "◾직무이해(Ⅳ",
+        "merged_region_key": null
+      },
+      "review_status": "pending_user_review"
+    },
+    {
+      "requirement_id": "ae2e2eb3-9738-555e-9093-6d9d8bf1eb6a",
+      "requirement_key": "G-03:공통역량",
+      "regulation_node_id": "b636b617-1ddd-5d98-be44-9e725925e174",
+      "regulation_version_id": "5565f28d-29da-5ebd-bb8a-b0dc705f26d3",
+      "target_code": "G-03",
+      "job_family": "일반직",
+      "grade_label": "3급",
+      "grade_labels": [
+        "3급"
+      ],
+      "competency_domain": "공통역량",
+      "source_state": "separately_defined",
+      "courses": [],
+      "content_text": "사장방침을 받아 별도로 시행하는 과정",
+      "condition_ids": [
+        "C-02"
+      ],
+      "interpretation_note": "구체적인 과정명은 이 별표에서 정하지 않고 사장방침을 받아 별도로 시행한다.",
+      "source_locator": {
+        "pdf_page": 20,
+        "printed_page": 20,
+        "source_regulation_node_id": "b636b617-1ddd-5d98-be44-9e725925e174",
+        "line_ids": [
+          "p20l008"
+        ],
+        "line_bboxes": [
+          [
+            62.64,
+            195.84,
+            425.04,
+            207.84
+          ]
+        ],
+        "original_extracted_text": "공통역량 사장방침을 받아 별도로 시행하는 과정",
+        "source_table_key": "p20-table-1",
+        "source_table_node_id": "9f52a0bb-a5cf-58d0-9d76-fbd1e6a61677",
+        "table_bbox": [
+          59.52,
+          147.84,
+          535.68,
+          354.24
+        ],
+        "raw_row_index_zero_based": 2,
+        "raw_column_index_zero_based": 3,
+        "raw_extracted_cell": null,
+        "merged_region_key": "main-common-all-targets"
+      },
+      "review_status": "pending_user_review"
+    },
+    {
+      "requirement_id": "b341ab4f-f229-59cd-8da0-b7a5ab29df6c",
+      "requirement_key": "G-03:리더역량",
+      "regulation_node_id": "b636b617-1ddd-5d98-be44-9e725925e174",
+      "regulation_version_id": "5565f28d-29da-5ebd-bb8a-b0dc705f26d3",
+      "target_code": "G-03",
+      "job_family": "일반직",
+      "grade_label": "3급",
+      "grade_labels": [
+        "3급"
+      ],
+      "competency_domain": "리더역량",
+      "source_state": "course_list",
+      "courses": [
+        {
+          "course_name": "신임차장",
+          "education_areas": []
+        }
+      ],
+      "content_text": null,
+      "condition_ids": [
+        "C-02",
+        "C-03"
+      ],
+      "interpretation_note": "같은 셀에 나열된 과정이다. 개인별 해당 과정·모든 과정 이수 여부를 이 보정표에서 확정하지 않는다.",
+      "source_locator": {
+        "pdf_page": 20,
+        "printed_page": 20,
+        "source_regulation_node_id": "b636b617-1ddd-5d98-be44-9e725925e174",
+        "line_ids": [
+          "p20l009",
+          "p20l010",
+          "p20l011",
+          "p20l012"
+        ],
+        "line_bboxes": [
+          [
+            108.48,
+            215.532,
+            490.56,
+            228.24
+          ],
+          [
+            62.64,
+            239.52,
+            432.48,
+            252.24
+          ],
+          [
+            118.08,
+            252.24,
+            205.92,
+            264.24
+          ],
+          [
+            118.08,
+            264.24,
+            215.52,
+            276.24
+          ]
+        ],
+        "original_extracted_text": "◾신임처장 ◾신임부장 ◾신임차장 ◾신임과장 ◾신입사원 ◾신입사원\n리더역량 ◾부서장 ◾부장 ◾신임대리 -\n리더십 리더십\n아카데미 아카데미",
+        "source_table_key": "p20-table-1",
+        "source_table_node_id": "9f52a0bb-a5cf-58d0-9d76-fbd1e6a61677",
+        "table_bbox": [
+          59.52,
+          147.84,
+          535.68,
+          354.24
+        ],
+        "raw_row_index_zero_based": 3,
+        "raw_column_index_zero_based": 3,
+        "raw_extracted_cell": "◾신임차장",
+        "merged_region_key": null
+      },
+      "review_status": "pending_user_review"
+    },
+    {
+      "requirement_id": "7303c105-5201-5b32-b17b-11c65ab202b8",
+      "requirement_key": "G-03:직무역량",
+      "regulation_node_id": "b636b617-1ddd-5d98-be44-9e725925e174",
+      "regulation_version_id": "5565f28d-29da-5ebd-bb8a-b0dc705f26d3",
+      "target_code": "G-03",
+      "job_family": "일반직",
+      "grade_label": "3급",
+      "grade_labels": [
+        "3급"
+      ],
+      "competency_domain": "직무역량",
+      "source_state": "course_list",
+      "courses": [
+        {
+          "course_name": "직무이해(Ⅲ)",
+          "education_areas": [
+            "통합기술(심화)",
+            "통합경영(심화)"
+          ]
+        }
+      ],
+      "content_text": null,
+      "condition_ids": [
+        "C-02",
+        "C-05",
+        "C-06",
+        "C-07",
+        "C-09"
+      ],
+      "interpretation_note": "같은 셀에 나열된 과정이다. 개인별 해당 과정·모든 과정 이수 여부를 이 보정표에서 확정하지 않는다.",
+      "source_locator": {
+        "pdf_page": 20,
+        "printed_page": 20,
+        "source_regulation_node_id": "b636b617-1ddd-5d98-be44-9e725925e174",
+        "line_ids": [
+          "p20l013",
+          "p20l014",
+          "p20l015",
+          "p20l016",
+          "p20l017",
+          "p20l018",
+          "p20l019",
+          "p20l020"
+        ],
+        "line_bboxes": [
+          [
+            165.12,
+            276.972,
+            408.0,
+            289.68
+          ],
+          [
+            286.8,
+            290.96,
+            353.48,
+            301.96
+          ],
+          [
+            286.8,
+            304.16,
+            351.56,
+            315.16
+          ],
+          [
+            62.64,
+            309.6,
+            477.84,
+            322.32
+          ],
+          [
+            286.8,
+            317.36,
+            353.0,
+            328.36
+          ],
+          [
+            227.28,
+            324.08,
+            291.32,
+            335.08
+          ],
+          [
+            294.96,
+            330.56,
+            353.48,
+            341.56
+          ],
+          [
+            286.8,
+            343.76,
+            351.56,
+            354.76
+          ]
+        ],
+        "original_extracted_text": "◾직무이해(Ⅳ)◾직무이해(Ⅲ)◾직무이해(Ⅱ)◾직무이해(Ⅰ)\n-수자원(기본)\n-수도(기본)\n직무역량 - -통합기술(심화) - -\n-Green·Digital·\n-통합경영(심화)\nGlobal(기본)\n-경영(기본)",
+        "source_table_key": "p20-table-1",
+        "source_table_node_id": "9f52a0bb-a5cf-58d0-9d76-fbd1e6a61677",
+        "table_bbox": [
+          59.52,
+          147.84,
+          535.68,
+          354.24
+        ],
+        "raw_row_index_zero_based": 4,
+        "raw_column_index_zero_based": 3,
+        "raw_extracted_cell": ")◾직무이해(Ⅲ\n-통합기술(심화\n-통합경영(심화",
+        "merged_region_key": null
+      },
+      "review_status": "pending_user_review"
+    },
+    {
+      "requirement_id": "ce0d84cb-00f1-5876-9acf-d96a057e72ea",
+      "requirement_key": "G-04:공통역량",
+      "regulation_node_id": "b636b617-1ddd-5d98-be44-9e725925e174",
+      "regulation_version_id": "5565f28d-29da-5ebd-bb8a-b0dc705f26d3",
+      "target_code": "G-04",
+      "job_family": "일반직",
+      "grade_label": "4급",
+      "grade_labels": [
+        "4급"
+      ],
+      "competency_domain": "공통역량",
+      "source_state": "separately_defined",
+      "courses": [],
+      "content_text": "사장방침을 받아 별도로 시행하는 과정",
+      "condition_ids": [
+        "C-02"
+      ],
+      "interpretation_note": "구체적인 과정명은 이 별표에서 정하지 않고 사장방침을 받아 별도로 시행한다.",
+      "source_locator": {
+        "pdf_page": 20,
+        "printed_page": 20,
+        "source_regulation_node_id": "b636b617-1ddd-5d98-be44-9e725925e174",
+        "line_ids": [
+          "p20l008"
+        ],
+        "line_bboxes": [
+          [
+            62.64,
+            195.84,
+            425.04,
+            207.84
+          ]
+        ],
+        "original_extracted_text": "공통역량 사장방침을 받아 별도로 시행하는 과정",
+        "source_table_key": "p20-table-1",
+        "source_table_node_id": "9f52a0bb-a5cf-58d0-9d76-fbd1e6a61677",
+        "table_bbox": [
+          59.52,
+          147.84,
+          535.68,
+          354.24
+        ],
+        "raw_row_index_zero_based": 2,
+        "raw_column_index_zero_based": 4,
+        "raw_extracted_cell": null,
+        "merged_region_key": "main-common-all-targets"
+      },
+      "review_status": "pending_user_review"
+    },
+    {
+      "requirement_id": "af61a16d-2f5d-5c7e-b249-4355b490c26e",
+      "requirement_key": "G-04:리더역량",
+      "regulation_node_id": "b636b617-1ddd-5d98-be44-9e725925e174",
+      "regulation_version_id": "5565f28d-29da-5ebd-bb8a-b0dc705f26d3",
+      "target_code": "G-04",
+      "job_family": "일반직",
+      "grade_label": "4급",
+      "grade_labels": [
+        "4급"
+      ],
+      "competency_domain": "리더역량",
+      "source_state": "course_list",
+      "courses": [
+        {
+          "course_name": "신임과장",
+          "education_areas": []
+        },
+        {
+          "course_name": "신임대리",
+          "education_areas": []
+        }
+      ],
+      "content_text": null,
+      "condition_ids": [
+        "C-02",
+        "C-03"
+      ],
+      "interpretation_note": "같은 셀에 나열된 과정이다. 개인별 해당 과정·모든 과정 이수 여부를 이 보정표에서 확정하지 않는다.",
+      "source_locator": {
+        "pdf_page": 20,
+        "printed_page": 20,
+        "source_regulation_node_id": "b636b617-1ddd-5d98-be44-9e725925e174",
+        "line_ids": [
+          "p20l009",
+          "p20l010",
+          "p20l011",
+          "p20l012"
+        ],
+        "line_bboxes": [
+          [
+            108.48,
+            215.532,
+            490.56,
+            228.24
+          ],
+          [
+            62.64,
+            239.52,
+            432.48,
+            252.24
+          ],
+          [
+            118.08,
+            252.24,
+            205.92,
+            264.24
+          ],
+          [
+            118.08,
+            264.24,
+            215.52,
+            276.24
+          ]
+        ],
+        "original_extracted_text": "◾신임처장 ◾신임부장 ◾신임차장 ◾신임과장 ◾신입사원 ◾신입사원\n리더역량 ◾부서장 ◾부장 ◾신임대리 -\n리더십 리더십\n아카데미 아카데미",
+        "source_table_key": "p20-table-1",
+        "source_table_node_id": "9f52a0bb-a5cf-58d0-9d76-fbd1e6a61677",
+        "table_bbox": [
+          59.52,
+          147.84,
+          535.68,
+          354.24
+        ],
+        "raw_row_index_zero_based": 3,
+        "raw_column_index_zero_based": 4,
+        "raw_extracted_cell": "◾신임과장\n◾신임대리",
+        "merged_region_key": null
+      },
+      "review_status": "pending_user_review"
+    },
+    {
+      "requirement_id": "ad3ae4ab-6723-501d-ba4d-cba9e8ccd5a1",
+      "requirement_key": "G-04:직무역량",
+      "regulation_node_id": "b636b617-1ddd-5d98-be44-9e725925e174",
+      "regulation_version_id": "5565f28d-29da-5ebd-bb8a-b0dc705f26d3",
+      "target_code": "G-04",
+      "job_family": "일반직",
+      "grade_label": "4급",
+      "grade_labels": [
+        "4급"
+      ],
+      "competency_domain": "직무역량",
+      "source_state": "course_list",
+      "courses": [
+        {
+          "course_name": "직무이해(Ⅱ)",
+          "education_areas": [
+            "수자원(기본)",
+            "수도(기본)",
+            "Green·Digital·Global(기본)",
+            "경영(기본)"
+          ]
+        }
+      ],
+      "content_text": null,
+      "condition_ids": [
+        "C-02",
+        "C-05",
+        "C-06",
+        "C-07",
+        "C-09",
+        "C-08"
+      ],
+      "interpretation_note": "같은 셀에 나열된 과정이다. 개인별 해당 과정·모든 과정 이수 여부를 이 보정표에서 확정하지 않는다.",
+      "source_locator": {
+        "pdf_page": 20,
+        "printed_page": 20,
+        "source_regulation_node_id": "b636b617-1ddd-5d98-be44-9e725925e174",
+        "line_ids": [
+          "p20l013",
+          "p20l014",
+          "p20l015",
+          "p20l016",
+          "p20l017",
+          "p20l018",
+          "p20l019",
+          "p20l020"
+        ],
+        "line_bboxes": [
+          [
+            165.12,
+            276.972,
+            408.0,
+            289.68
+          ],
+          [
+            286.8,
+            290.96,
+            353.48,
+            301.96
+          ],
+          [
+            286.8,
+            304.16,
+            351.56,
+            315.16
+          ],
+          [
+            62.64,
+            309.6,
+            477.84,
+            322.32
+          ],
+          [
+            286.8,
+            317.36,
+            353.0,
+            328.36
+          ],
+          [
+            227.28,
+            324.08,
+            291.32,
+            335.08
+          ],
+          [
+            294.96,
+            330.56,
+            353.48,
+            341.56
+          ],
+          [
+            286.8,
+            343.76,
+            351.56,
+            354.76
+          ]
+        ],
+        "original_extracted_text": "◾직무이해(Ⅳ)◾직무이해(Ⅲ)◾직무이해(Ⅱ)◾직무이해(Ⅰ)\n-수자원(기본)\n-수도(기본)\n직무역량 - -통합기술(심화) - -\n-Green·Digital·\n-통합경영(심화)\nGlobal(기본)\n-경영(기본)",
+        "source_table_key": "p20-table-1",
+        "source_table_node_id": "9f52a0bb-a5cf-58d0-9d76-fbd1e6a61677",
+        "table_bbox": [
+          59.52,
+          147.84,
+          535.68,
+          354.24
+        ],
+        "raw_row_index_zero_based": 4,
+        "raw_column_index_zero_based": 4,
+        "raw_extracted_cell": ")◾직무이해(Ⅱ\n-수자원(기본\n-수도(기본)\n)\n-Green·Digital\n)\nGlobal(기본\n-경영(기본)",
+        "merged_region_key": null
+      },
+      "review_status": "pending_user_review"
+    },
+    {
+      "requirement_id": "8516cefb-bfae-513b-86c6-b9df92cdd95b",
+      "requirement_key": "G-05:공통역량",
+      "regulation_node_id": "b636b617-1ddd-5d98-be44-9e725925e174",
+      "regulation_version_id": "5565f28d-29da-5ebd-bb8a-b0dc705f26d3",
+      "target_code": "G-05",
+      "job_family": "일반직",
+      "grade_label": "5급",
+      "grade_labels": [
+        "5급"
+      ],
+      "competency_domain": "공통역량",
+      "source_state": "separately_defined",
+      "courses": [],
+      "content_text": "사장방침을 받아 별도로 시행하는 과정",
+      "condition_ids": [
+        "C-02"
+      ],
+      "interpretation_note": "구체적인 과정명은 이 별표에서 정하지 않고 사장방침을 받아 별도로 시행한다.",
+      "source_locator": {
+        "pdf_page": 20,
+        "printed_page": 20,
+        "source_regulation_node_id": "b636b617-1ddd-5d98-be44-9e725925e174",
+        "line_ids": [
+          "p20l008"
+        ],
+        "line_bboxes": [
+          [
+            62.64,
+            195.84,
+            425.04,
+            207.84
+          ]
+        ],
+        "original_extracted_text": "공통역량 사장방침을 받아 별도로 시행하는 과정",
+        "source_table_key": "p20-table-1",
+        "source_table_node_id": "9f52a0bb-a5cf-58d0-9d76-fbd1e6a61677",
+        "table_bbox": [
+          59.52,
+          147.84,
+          535.68,
+          354.24
+        ],
+        "raw_row_index_zero_based": 2,
+        "raw_column_index_zero_based": 5,
+        "raw_extracted_cell": null,
+        "merged_region_key": "main-common-all-targets"
+      },
+      "review_status": "pending_user_review"
+    },
+    {
+      "requirement_id": "a567db50-d57d-588c-a605-b98d82797c80",
+      "requirement_key": "G-05:리더역량",
+      "regulation_node_id": "b636b617-1ddd-5d98-be44-9e725925e174",
+      "regulation_version_id": "5565f28d-29da-5ebd-bb8a-b0dc705f26d3",
+      "target_code": "G-05",
+      "job_family": "일반직",
+      "grade_label": "5급",
+      "grade_labels": [
+        "5급"
+      ],
+      "competency_domain": "리더역량",
+      "source_state": "course_list",
+      "courses": [
+        {
+          "course_name": "신입사원",
+          "education_areas": []
+        }
+      ],
+      "content_text": null,
+      "condition_ids": [
+        "C-02",
+        "C-03"
+      ],
+      "interpretation_note": "같은 셀에 나열된 과정이다. 개인별 해당 과정·모든 과정 이수 여부를 이 보정표에서 확정하지 않는다.",
+      "source_locator": {
+        "pdf_page": 20,
+        "printed_page": 20,
+        "source_regulation_node_id": "b636b617-1ddd-5d98-be44-9e725925e174",
+        "line_ids": [
+          "p20l009",
+          "p20l010",
+          "p20l011",
+          "p20l012"
+        ],
+        "line_bboxes": [
+          [
+            108.48,
+            215.532,
+            490.56,
+            228.24
+          ],
+          [
+            62.64,
+            239.52,
+            432.48,
+            252.24
+          ],
+          [
+            118.08,
+            252.24,
+            205.92,
+            264.24
+          ],
+          [
+            118.08,
+            264.24,
+            215.52,
+            276.24
+          ]
+        ],
+        "original_extracted_text": "◾신임처장 ◾신임부장 ◾신임차장 ◾신임과장 ◾신입사원 ◾신입사원\n리더역량 ◾부서장 ◾부장 ◾신임대리 -\n리더십 리더십\n아카데미 아카데미",
+        "source_table_key": "p20-table-1",
+        "source_table_node_id": "9f52a0bb-a5cf-58d0-9d76-fbd1e6a61677",
+        "table_bbox": [
+          59.52,
+          147.84,
+          535.68,
+          354.24
+        ],
+        "raw_row_index_zero_based": 3,
+        "raw_column_index_zero_based": 5,
+        "raw_extracted_cell": "◾신입사원",
+        "merged_region_key": null
+      },
+      "review_status": "pending_user_review"
+    },
+    {
+      "requirement_id": "28ed6bd5-46f1-5a2a-9c26-c7fe088c0282",
+      "requirement_key": "G-05:직무역량",
+      "regulation_node_id": "b636b617-1ddd-5d98-be44-9e725925e174",
+      "regulation_version_id": "5565f28d-29da-5ebd-bb8a-b0dc705f26d3",
+      "target_code": "G-05",
+      "job_family": "일반직",
+      "grade_label": "5급",
+      "grade_labels": [
+        "5급"
+      ],
+      "competency_domain": "직무역량",
+      "source_state": "course_list",
+      "courses": [
+        {
+          "course_name": "직무이해(Ⅰ)",
+          "education_areas": []
+        }
+      ],
+      "content_text": null,
+      "condition_ids": [
+        "C-02",
+        "C-04"
+      ],
+      "interpretation_note": "같은 셀에 나열된 과정이다. 개인별 해당 과정·모든 과정 이수 여부를 이 보정표에서 확정하지 않는다.",
+      "source_locator": {
+        "pdf_page": 20,
+        "printed_page": 20,
+        "source_regulation_node_id": "b636b617-1ddd-5d98-be44-9e725925e174",
+        "line_ids": [
+          "p20l013",
+          "p20l014",
+          "p20l015",
+          "p20l016",
+          "p20l017",
+          "p20l018",
+          "p20l019",
+          "p20l020"
+        ],
+        "line_bboxes": [
+          [
+            165.12,
+            276.972,
+            408.0,
+            289.68
+          ],
+          [
+            286.8,
+            290.96,
+            353.48,
+            301.96
+          ],
+          [
+            286.8,
+            304.16,
+            351.56,
+            315.16
+          ],
+          [
+            62.64,
+            309.6,
+            477.84,
+            322.32
+          ],
+          [
+            286.8,
+            317.36,
+            353.0,
+            328.36
+          ],
+          [
+            227.28,
+            324.08,
+            291.32,
+            335.08
+          ],
+          [
+            294.96,
+            330.56,
+            353.48,
+            341.56
+          ],
+          [
+            286.8,
+            343.76,
+            351.56,
+            354.76
+          ]
+        ],
+        "original_extracted_text": "◾직무이해(Ⅳ)◾직무이해(Ⅲ)◾직무이해(Ⅱ)◾직무이해(Ⅰ)\n-수자원(기본)\n-수도(기본)\n직무역량 - -통합기술(심화) - -\n-Green·Digital·\n-통합경영(심화)\nGlobal(기본)\n-경영(기본)",
+        "source_table_key": "p20-table-1",
+        "source_table_node_id": "9f52a0bb-a5cf-58d0-9d76-fbd1e6a61677",
+        "table_bbox": [
+          59.52,
+          147.84,
+          535.68,
+          354.24
+        ],
+        "raw_row_index_zero_based": 4,
+        "raw_column_index_zero_based": 5,
+        "raw_extracted_cell": ")◾직무이해(Ⅰ\n)\n·\n)",
+        "merged_region_key": null
+      },
+      "review_status": "pending_user_review"
+    },
+    {
+      "requirement_id": "00ba933d-1855-50a7-846d-faa8e34be0ed",
+      "requirement_key": "G-06:공통역량",
+      "regulation_node_id": "b636b617-1ddd-5d98-be44-9e725925e174",
+      "regulation_version_id": "5565f28d-29da-5ebd-bb8a-b0dc705f26d3",
+      "target_code": "G-06",
+      "job_family": "일반직",
+      "grade_label": "6급 이하",
+      "grade_labels": [
+        "6급 이하"
+      ],
+      "competency_domain": "공통역량",
+      "source_state": "separately_defined",
+      "courses": [],
+      "content_text": "사장방침을 받아 별도로 시행하는 과정",
+      "condition_ids": [
+        "C-02"
+      ],
+      "interpretation_note": "구체적인 과정명은 이 별표에서 정하지 않고 사장방침을 받아 별도로 시행한다.",
+      "source_locator": {
+        "pdf_page": 20,
+        "printed_page": 20,
+        "source_regulation_node_id": "b636b617-1ddd-5d98-be44-9e725925e174",
+        "line_ids": [
+          "p20l008"
+        ],
+        "line_bboxes": [
+          [
+            62.64,
+            195.84,
+            425.04,
+            207.84
+          ]
+        ],
+        "original_extracted_text": "공통역량 사장방침을 받아 별도로 시행하는 과정",
+        "source_table_key": "p20-table-1",
+        "source_table_node_id": "9f52a0bb-a5cf-58d0-9d76-fbd1e6a61677",
+        "table_bbox": [
+          59.52,
+          147.84,
+          535.68,
+          354.24
+        ],
+        "raw_row_index_zero_based": 2,
+        "raw_column_index_zero_based": 6,
+        "raw_extracted_cell": null,
+        "merged_region_key": "main-common-all-targets"
+      },
+      "review_status": "pending_user_review"
+    },
+    {
+      "requirement_id": "744cbb2f-cdd8-5455-ac23-e00e33c193b4",
+      "requirement_key": "G-06:리더역량",
+      "regulation_node_id": "b636b617-1ddd-5d98-be44-9e725925e174",
+      "regulation_version_id": "5565f28d-29da-5ebd-bb8a-b0dc705f26d3",
+      "target_code": "G-06",
+      "job_family": "일반직",
+      "grade_label": "6급 이하",
+      "grade_labels": [
+        "6급 이하"
+      ],
+      "competency_domain": "리더역량",
+      "source_state": "source_dash",
+      "courses": [],
+      "content_text": null,
+      "condition_ids": [
+        "C-02",
+        "C-03"
+      ],
+      "interpretation_note": "원문의 - 표기를 보존한다. 이 표 밖의 교육 의무까지 없다고 판단하지 않는다.",
+      "source_locator": {
+        "pdf_page": 20,
+        "printed_page": 20,
+        "source_regulation_node_id": "b636b617-1ddd-5d98-be44-9e725925e174",
+        "line_ids": [
+          "p20l009",
+          "p20l010",
+          "p20l011",
+          "p20l012"
+        ],
+        "line_bboxes": [
+          [
+            108.48,
+            215.532,
+            490.56,
+            228.24
+          ],
+          [
+            62.64,
+            239.52,
+            432.48,
+            252.24
+          ],
+          [
+            118.08,
+            252.24,
+            205.92,
+            264.24
+          ],
+          [
+            118.08,
+            264.24,
+            215.52,
+            276.24
+          ]
+        ],
+        "original_extracted_text": "◾신임처장 ◾신임부장 ◾신임차장 ◾신임과장 ◾신입사원 ◾신입사원\n리더역량 ◾부서장 ◾부장 ◾신임대리 -\n리더십 리더십\n아카데미 아카데미",
+        "source_table_key": "p20-table-1",
+        "source_table_node_id": "9f52a0bb-a5cf-58d0-9d76-fbd1e6a61677",
+        "table_bbox": [
+          59.52,
+          147.84,
+          535.68,
+          354.24
+        ],
+        "raw_row_index_zero_based": 3,
+        "raw_column_index_zero_based": 6,
+        "raw_extracted_cell": "-",
+        "merged_region_key": null
+      },
+      "review_status": "pending_user_review"
+    },
+    {
+      "requirement_id": "70c67d81-6eba-5751-b386-453b03a94e3e",
+      "requirement_key": "G-06:직무역량",
+      "regulation_node_id": "b636b617-1ddd-5d98-be44-9e725925e174",
+      "regulation_version_id": "5565f28d-29da-5ebd-bb8a-b0dc705f26d3",
+      "target_code": "G-06",
+      "job_family": "일반직",
+      "grade_label": "6급 이하",
+      "grade_labels": [
+        "6급 이하"
+      ],
+      "competency_domain": "직무역량",
+      "source_state": "source_dash",
+      "courses": [],
+      "content_text": null,
+      "condition_ids": [
+        "C-02"
+      ],
+      "interpretation_note": "원문의 - 표기를 보존한다. 이 표 밖의 교육 의무까지 없다고 판단하지 않는다.",
+      "source_locator": {
+        "pdf_page": 20,
+        "printed_page": 20,
+        "source_regulation_node_id": "b636b617-1ddd-5d98-be44-9e725925e174",
+        "line_ids": [
+          "p20l013",
+          "p20l014",
+          "p20l015",
+          "p20l016",
+          "p20l017",
+          "p20l018",
+          "p20l019",
+          "p20l020"
+        ],
+        "line_bboxes": [
+          [
+            165.12,
+            276.972,
+            408.0,
+            289.68
+          ],
+          [
+            286.8,
+            290.96,
+            353.48,
+            301.96
+          ],
+          [
+            286.8,
+            304.16,
+            351.56,
+            315.16
+          ],
+          [
+            62.64,
+            309.6,
+            477.84,
+            322.32
+          ],
+          [
+            286.8,
+            317.36,
+            353.0,
+            328.36
+          ],
+          [
+            227.28,
+            324.08,
+            291.32,
+            335.08
+          ],
+          [
+            294.96,
+            330.56,
+            353.48,
+            341.56
+          ],
+          [
+            286.8,
+            343.76,
+            351.56,
+            354.76
+          ]
+        ],
+        "original_extracted_text": "◾직무이해(Ⅳ)◾직무이해(Ⅲ)◾직무이해(Ⅱ)◾직무이해(Ⅰ)\n-수자원(기본)\n-수도(기본)\n직무역량 - -통합기술(심화) - -\n-Green·Digital·\n-통합경영(심화)\nGlobal(기본)\n-경영(기본)",
+        "source_table_key": "p20-table-1",
+        "source_table_node_id": "9f52a0bb-a5cf-58d0-9d76-fbd1e6a61677",
+        "table_bbox": [
+          59.52,
+          147.84,
+          535.68,
+          354.24
+        ],
+        "raw_row_index_zero_based": 4,
+        "raw_column_index_zero_based": 6,
+        "raw_extracted_cell": ")\n-",
+        "merged_region_key": null
+      },
+      "review_status": "pending_user_review"
+    },
+    {
+      "requirement_id": "4fc29717-7ef1-5908-a7f5-c1f5a2ce3f38",
+      "requirement_key": "O-01:공통역량",
+      "regulation_node_id": "b636b617-1ddd-5d98-be44-9e725925e174",
+      "regulation_version_id": "5565f28d-29da-5ebd-bb8a-b0dc705f26d3",
+      "target_code": "O-01",
+      "job_family": "운영직",
+      "grade_label": "직급 구분 없음(원문)",
+      "grade_labels": [],
+      "competency_domain": "공통역량",
+      "source_state": "separately_defined",
+      "courses": [],
+      "content_text": "사장방침을 받아 별도로 시행하는 과정",
+      "condition_ids": [
+        "C-02"
+      ],
+      "interpretation_note": "구체적인 과정명은 이 별표에서 정하지 않고 사장방침을 받아 별도로 시행한다.",
+      "source_locator": {
+        "pdf_page": 20,
+        "printed_page": 20,
+        "source_regulation_node_id": "b636b617-1ddd-5d98-be44-9e725925e174",
+        "line_ids": [
+          "p20l008"
+        ],
+        "line_bboxes": [
+          [
+            62.64,
+            195.84,
+            425.04,
+            207.84
+          ]
+        ],
+        "original_extracted_text": "공통역량 사장방침을 받아 별도로 시행하는 과정",
+        "source_table_key": "p20-table-1",
+        "source_table_node_id": "9f52a0bb-a5cf-58d0-9d76-fbd1e6a61677",
+        "table_bbox": [
+          59.52,
+          147.84,
+          535.68,
+          354.24
+        ],
+        "raw_row_index_zero_based": 2,
+        "raw_column_index_zero_based": 7,
+        "raw_extracted_cell": null,
+        "merged_region_key": "main-common-all-targets"
+      },
+      "review_status": "pending_user_review"
+    },
+    {
+      "requirement_id": "667437f3-b02c-5b98-832f-0e4266d9ee93",
+      "requirement_key": "O-01:리더역량",
+      "regulation_node_id": "b636b617-1ddd-5d98-be44-9e725925e174",
+      "regulation_version_id": "5565f28d-29da-5ebd-bb8a-b0dc705f26d3",
+      "target_code": "O-01",
+      "job_family": "운영직",
+      "grade_label": "직급 구분 없음(원문)",
+      "grade_labels": [],
+      "competency_domain": "리더역량",
+      "source_state": "course_list",
+      "courses": [
+        {
+          "course_name": "신입사원",
+          "education_areas": []
+        }
+      ],
+      "content_text": null,
+      "condition_ids": [
+        "C-02",
+        "C-03"
+      ],
+      "interpretation_note": "같은 셀에 나열된 과정이다. 개인별 해당 과정·모든 과정 이수 여부를 이 보정표에서 확정하지 않는다.",
+      "source_locator": {
+        "pdf_page": 20,
+        "printed_page": 20,
+        "source_regulation_node_id": "b636b617-1ddd-5d98-be44-9e725925e174",
+        "line_ids": [
+          "p20l009",
+          "p20l010",
+          "p20l011",
+          "p20l012"
+        ],
+        "line_bboxes": [
+          [
+            108.48,
+            215.532,
+            490.56,
+            228.24
+          ],
+          [
+            62.64,
+            239.52,
+            432.48,
+            252.24
+          ],
+          [
+            118.08,
+            252.24,
+            205.92,
+            264.24
+          ],
+          [
+            118.08,
+            264.24,
+            215.52,
+            276.24
+          ]
+        ],
+        "original_extracted_text": "◾신임처장 ◾신임부장 ◾신임차장 ◾신임과장 ◾신입사원 ◾신입사원\n리더역량 ◾부서장 ◾부장 ◾신임대리 -\n리더십 리더십\n아카데미 아카데미",
+        "source_table_key": "p20-table-1",
+        "source_table_node_id": "9f52a0bb-a5cf-58d0-9d76-fbd1e6a61677",
+        "table_bbox": [
+          59.52,
+          147.84,
+          535.68,
+          354.24
+        ],
+        "raw_row_index_zero_based": 3,
+        "raw_column_index_zero_based": 7,
+        "raw_extracted_cell": "◾신입사원",
+        "merged_region_key": null
+      },
+      "review_status": "pending_user_review"
+    },
+    {
+      "requirement_id": "79d3b37e-83b9-54fe-b353-e5e25da62879",
+      "requirement_key": "O-01:직무역량",
+      "regulation_node_id": "b636b617-1ddd-5d98-be44-9e725925e174",
+      "regulation_version_id": "5565f28d-29da-5ebd-bb8a-b0dc705f26d3",
+      "target_code": "O-01",
+      "job_family": "운영직",
+      "grade_label": "직급 구분 없음(원문)",
+      "grade_labels": [],
+      "competency_domain": "직무역량",
+      "source_state": "source_dash",
+      "courses": [],
+      "content_text": null,
+      "condition_ids": [
+        "C-02"
+      ],
+      "interpretation_note": "원문의 - 표기를 보존한다. 이 표 밖의 교육 의무까지 없다고 판단하지 않는다.",
+      "source_locator": {
+        "pdf_page": 20,
+        "printed_page": 20,
+        "source_regulation_node_id": "b636b617-1ddd-5d98-be44-9e725925e174",
+        "line_ids": [
+          "p20l013",
+          "p20l014",
+          "p20l015",
+          "p20l016",
+          "p20l017",
+          "p20l018",
+          "p20l019",
+          "p20l020"
+        ],
+        "line_bboxes": [
+          [
+            165.12,
+            276.972,
+            408.0,
+            289.68
+          ],
+          [
+            286.8,
+            290.96,
+            353.48,
+            301.96
+          ],
+          [
+            286.8,
+            304.16,
+            351.56,
+            315.16
+          ],
+          [
+            62.64,
+            309.6,
+            477.84,
+            322.32
+          ],
+          [
+            286.8,
+            317.36,
+            353.0,
+            328.36
+          ],
+          [
+            227.28,
+            324.08,
+            291.32,
+            335.08
+          ],
+          [
+            294.96,
+            330.56,
+            353.48,
+            341.56
+          ],
+          [
+            286.8,
+            343.76,
+            351.56,
+            354.76
+          ]
+        ],
+        "original_extracted_text": "◾직무이해(Ⅳ)◾직무이해(Ⅲ)◾직무이해(Ⅱ)◾직무이해(Ⅰ)\n-수자원(기본)\n-수도(기본)\n직무역량 - -통합기술(심화) - -\n-Green·Digital·\n-통합경영(심화)\nGlobal(기본)\n-경영(기본)",
+        "source_table_key": "p20-table-1",
+        "source_table_node_id": "9f52a0bb-a5cf-58d0-9d76-fbd1e6a61677",
+        "table_bbox": [
+          59.52,
+          147.84,
+          535.68,
+          354.24
+        ],
+        "raw_row_index_zero_based": 4,
+        "raw_column_index_zero_based": 7,
+        "raw_extracted_cell": "-",
+        "merged_region_key": null
+      },
+      "review_status": "pending_user_review"
+    },
+    {
+      "requirement_id": "19d38a06-5605-54d7-8113-3f55ca5535c1",
+      "requirement_key": "P-01:공통역량",
+      "regulation_node_id": "b636b617-1ddd-5d98-be44-9e725925e174",
+      "regulation_version_id": "5565f28d-29da-5ebd-bb8a-b0dc705f26d3",
+      "target_code": "P-01",
+      "job_family": "전문직",
+      "grade_label": "직급 구분 없음(원문)",
+      "grade_labels": [],
+      "competency_domain": "공통역량",
+      "source_state": "separately_defined",
+      "courses": [],
+      "content_text": "사장방침을 받아 별도로 시행하는 과정",
+      "condition_ids": [
+        "C-02"
+      ],
+      "interpretation_note": "구체적인 과정명은 이 별표에서 정하지 않고 사장방침을 받아 별도로 시행한다.",
+      "source_locator": {
+        "pdf_page": 20,
+        "printed_page": 20,
+        "source_regulation_node_id": "b636b617-1ddd-5d98-be44-9e725925e174",
+        "line_ids": [
+          "p20l008"
+        ],
+        "line_bboxes": [
+          [
+            62.64,
+            195.84,
+            425.04,
+            207.84
+          ]
+        ],
+        "original_extracted_text": "공통역량 사장방침을 받아 별도로 시행하는 과정",
+        "source_table_key": "p20-table-1",
+        "source_table_node_id": "9f52a0bb-a5cf-58d0-9d76-fbd1e6a61677",
+        "table_bbox": [
+          59.52,
+          147.84,
+          535.68,
+          354.24
+        ],
+        "raw_row_index_zero_based": 2,
+        "raw_column_index_zero_based": 8,
+        "raw_extracted_cell": null,
+        "merged_region_key": "main-common-all-targets"
+      },
+      "review_status": "pending_user_review"
+    },
+    {
+      "requirement_id": "e8a0607d-aa42-5b43-8722-1c2c196c5192",
+      "requirement_key": "P-01:리더역량",
+      "regulation_node_id": "b636b617-1ddd-5d98-be44-9e725925e174",
+      "regulation_version_id": "5565f28d-29da-5ebd-bb8a-b0dc705f26d3",
+      "target_code": "P-01",
+      "job_family": "전문직",
+      "grade_label": "직급 구분 없음(원문)",
+      "grade_labels": [],
+      "competency_domain": "리더역량",
+      "source_state": "source_blank",
+      "courses": [],
+      "content_text": null,
+      "condition_ids": [
+        "C-02",
+        "C-03"
+      ],
+      "interpretation_note": "원문 공란을 보존한다. 필수교육 없음·면제·타 직군 기준 적용으로 해석하지 않는다.",
+      "source_locator": {
+        "pdf_page": 20,
+        "printed_page": 20,
+        "source_regulation_node_id": "b636b617-1ddd-5d98-be44-9e725925e174",
+        "line_ids": [
+          "p20l009",
+          "p20l010",
+          "p20l011",
+          "p20l012"
+        ],
+        "line_bboxes": [
+          [
+            108.48,
+            215.532,
+            490.56,
+            228.24
+          ],
+          [
+            62.64,
+            239.52,
+            432.48,
+            252.24
+          ],
+          [
+            118.08,
+            252.24,
+            205.92,
+            264.24
+          ],
+          [
+            118.08,
+            264.24,
+            215.52,
+            276.24
+          ]
+        ],
+        "original_extracted_text": "◾신임처장 ◾신임부장 ◾신임차장 ◾신임과장 ◾신입사원 ◾신입사원\n리더역량 ◾부서장 ◾부장 ◾신임대리 -\n리더십 리더십\n아카데미 아카데미",
+        "source_table_key": "p20-table-1",
+        "source_table_node_id": "9f52a0bb-a5cf-58d0-9d76-fbd1e6a61677",
+        "table_bbox": [
+          59.52,
+          147.84,
+          535.68,
+          354.24
+        ],
+        "raw_row_index_zero_based": 3,
+        "raw_column_index_zero_based": 8,
+        "raw_extracted_cell": "",
+        "merged_region_key": "professional-leader-job-blank"
+      },
+      "review_status": "pending_user_review"
+    },
+    {
+      "requirement_id": "5c8b523b-a844-5852-8a29-b7d998969544",
+      "requirement_key": "P-01:직무역량",
+      "regulation_node_id": "b636b617-1ddd-5d98-be44-9e725925e174",
+      "regulation_version_id": "5565f28d-29da-5ebd-bb8a-b0dc705f26d3",
+      "target_code": "P-01",
+      "job_family": "전문직",
+      "grade_label": "직급 구분 없음(원문)",
+      "grade_labels": [],
+      "competency_domain": "직무역량",
+      "source_state": "source_blank",
+      "courses": [],
+      "content_text": null,
+      "condition_ids": [
+        "C-02"
+      ],
+      "interpretation_note": "원문 공란을 보존한다. 필수교육 없음·면제·타 직군 기준 적용으로 해석하지 않는다.",
+      "source_locator": {
+        "pdf_page": 20,
+        "printed_page": 20,
+        "source_regulation_node_id": "b636b617-1ddd-5d98-be44-9e725925e174",
+        "line_ids": [
+          "p20l013",
+          "p20l014",
+          "p20l015",
+          "p20l016",
+          "p20l017",
+          "p20l018",
+          "p20l019",
+          "p20l020"
+        ],
+        "line_bboxes": [
+          [
+            165.12,
+            276.972,
+            408.0,
+            289.68
+          ],
+          [
+            286.8,
+            290.96,
+            353.48,
+            301.96
+          ],
+          [
+            286.8,
+            304.16,
+            351.56,
+            315.16
+          ],
+          [
+            62.64,
+            309.6,
+            477.84,
+            322.32
+          ],
+          [
+            286.8,
+            317.36,
+            353.0,
+            328.36
+          ],
+          [
+            227.28,
+            324.08,
+            291.32,
+            335.08
+          ],
+          [
+            294.96,
+            330.56,
+            353.48,
+            341.56
+          ],
+          [
+            286.8,
+            343.76,
+            351.56,
+            354.76
+          ]
+        ],
+        "original_extracted_text": "◾직무이해(Ⅳ)◾직무이해(Ⅲ)◾직무이해(Ⅱ)◾직무이해(Ⅰ)\n-수자원(기본)\n-수도(기본)\n직무역량 - -통합기술(심화) - -\n-Green·Digital·\n-통합경영(심화)\nGlobal(기본)\n-경영(기본)",
+        "source_table_key": "p20-table-1",
+        "source_table_node_id": "9f52a0bb-a5cf-58d0-9d76-fbd1e6a61677",
+        "table_bbox": [
+          59.52,
+          147.84,
+          535.68,
+          354.24
+        ],
+        "raw_row_index_zero_based": 4,
+        "raw_column_index_zero_based": 8,
+        "raw_extracted_cell": "",
+        "merged_region_key": "professional-leader-job-blank"
+      },
+      "review_status": "pending_user_review"
+    }
+  ],
+  "conditions": [
+    {
+      "condition_id": "C-01",
+      "condition_record_id": "e73d80a5-b9f1-5225-9bb2-f57f72287184",
+      "condition_kind": "definition",
+      "title": "리더십아카데미의 의미",
+      "scope_text": "부서장·부장 리더십아카데미",
+      "summary": "리더십역량에 기반한 모의과제를 수행하고 전문가가 관찰·진단하여 역량을 개발하는 교육과정이다.",
+      "structured_hint": null,
+      "source_locator": {
+        "pdf_page": 20,
+        "printed_page": 20,
+        "source_regulation_node_id": "b636b617-1ddd-5d98-be44-9e725925e174",
+        "line_ids": [
+          "p20l021",
+          "p20l022"
+        ],
+        "line_bboxes": [
+          [
+            56.64,
+            365.12,
+            538.52,
+            376.12
+          ],
+          [
+            72.24,
+            384.8,
+            510.44,
+            395.8
+          ]
+        ],
+        "original_extracted_text": "1)리더십아카데미란 부서장 및 부장 리더십역량을 기반으로 각각 개발된 모의과제를 교육생이 수행하는\n과정을 전문가가 관찰,개인의 강약점을 진단하여 리더십 역량을 개발하는 교육과정을 뜻한다."
+      },
+      "review_status": "pending_user_review",
+      "automated_decision_enabled": false
+    },
+    {
+      "condition_id": "C-02",
+      "condition_record_id": "95267e23-2bae-590d-ba62-468ed0a72146",
+      "condition_kind": "duration",
+      "title": "직급별 필수교육의 최소 기간",
+      "scope_text": "별표 2의 직급별 필수교육",
+      "summary": "최소 2일 이상 실시한다. 일수를 교육시간으로 임의 환산하지 않는다.",
+      "structured_hint": {
+        "minimum_duration": {
+          "value": 2,
+          "unit": "day"
+        },
+        "hours_conversion": null
+      },
+      "source_locator": {
+        "pdf_page": 20,
+        "printed_page": 20,
+        "source_regulation_node_id": "b636b617-1ddd-5d98-be44-9e725925e174",
+        "line_ids": [
+          "p20l023"
+        ],
+        "line_bboxes": [
+          [
+            56.64,
+            404.72,
+            340.52,
+            415.72
+          ]
+        ],
+        "original_extracted_text": "2)직급별 필수교육은 최소 2일 이상 실시하여야 한다."
+      },
+      "review_status": "pending_user_review",
+      "automated_decision_enabled": false
+    },
+    {
+      "condition_id": "C-03",
+      "condition_record_id": "1f3e8b00-5480-5cb5-8b91-f530d9040fa3",
+      "condition_kind": "deemed_completion",
+      "title": "경력직·고용전환 등 채용자의 리더교육",
+      "scope_text": "해당 직급 임명 당시 리더역량 교육",
+      "summary": "경력직·고용전환 등의 사유로 채용되면 해당 직급 임명 당시 리더역량 교육은 이수한 것으로 본다. 4급은 과장 또는 대리의 임명 상황을 함께 확인한다. 직무역량 교육까지 이수한 것으로 확대하지 않는다.",
+      "structured_hint": null,
+      "source_locator": {
+        "pdf_page": 20,
+        "printed_page": 20,
+        "source_regulation_node_id": "b636b617-1ddd-5d98-be44-9e725925e174",
+        "line_ids": [
+          "p20l024",
+          "p20l025"
+        ],
+        "line_bboxes": [
+          [
+            56.64,
+            424.4,
+            538.52,
+            435.4
+          ],
+          [
+            71.76,
+            444.32,
+            285.56,
+            455.32
+          ]
+        ],
+        "original_extracted_text": "3)경력직,고용전환 등의 사유로 채용되는 경우 해당직급(4급의 경우 과장 또는 대리)임명 당\n시 리더역량 교육은 이수한 것으로 본다."
+      },
+      "review_status": "pending_user_review",
+      "automated_decision_enabled": false
+    },
+    {
+      "condition_id": "C-04",
+      "condition_record_id": "5dd41ece-dfe5-557d-91ae-d5062f308249",
+      "condition_kind": "course_scope",
+      "title": "직무이해(Ⅰ)의 운영",
+      "scope_text": "직무이해(Ⅰ)",
+      "summary": "기본적인 사업이해와 직무역량 교육이며 신입사원 교육에 포함하여 실시한다.",
+      "structured_hint": null,
+      "source_locator": {
+        "pdf_page": 20,
+        "printed_page": 20,
+        "source_regulation_node_id": "b636b617-1ddd-5d98-be44-9e725925e174",
+        "line_ids": [
+          "p20l026"
+        ],
+        "line_bboxes": [
+          [
+            56.64,
+            463.317,
+            546.92,
+            475.0
+          ]
+        ],
+        "original_extracted_text": "4)직무이해(Ⅰ):기본적인 사업이해와 직무역량에 대한 교육과정으로 신입사원 교육에 포함하여 실시한다."
+      },
+      "review_status": "pending_user_review",
+      "automated_decision_enabled": false
+    },
+    {
+      "condition_id": "C-05",
+      "condition_record_id": "c73e460a-4cc3-514d-96ee-7615d1e78f61",
+      "condition_kind": "evaluation_reference",
+      "title": "직무이해(Ⅱ)~(Ⅳ) 이수 내역의 평정 참고",
+      "scope_text": "직무이해(Ⅱ)·(Ⅲ)·(Ⅳ)",
+      "summary": "직급별 대상 과정 수에 대한 해당 직급 기간 중 이수과정 누계 비율을 인사규정시행세칙의 교육훈련평정 산정 시 반영한다. 이 보정안에서 점수·가중치·역량 수준을 계산하지 않는다.",
+      "structured_hint": null,
+      "source_locator": {
+        "pdf_page": 20,
+        "printed_page": 20,
+        "source_regulation_node_id": "b636b617-1ddd-5d98-be44-9e725925e174",
+        "line_ids": [
+          "p20l027",
+          "p20l028",
+          "p20l029"
+        ],
+        "line_bboxes": [
+          [
+            56.64,
+            483.92,
+            538.52,
+            494.92
+          ],
+          [
+            71.28,
+            503.6,
+            538.52,
+            514.6
+          ],
+          [
+            71.28,
+            523.52,
+            541.64,
+            534.52
+          ]
+        ],
+        "original_extracted_text": "5)직무이해(Ⅱ),직무이해(Ⅲ),직무이해(Ⅳ):사업분야별 직급에 상응하는 업무이해와 직무역량\n제고를 위한 교육과정으로서 직급별 직무역량 필수교육 대상 과정 수(數)에 대한 해당 직급\n기간중의 이수과정 누계 비율을 매년 「인사규정시행세칙」 내 교육훈련평정 산정 시 반영한다."
+      },
+      "review_status": "pending_user_review",
+      "automated_decision_enabled": false
+    },
+    {
+      "condition_id": "C-06",
+      "condition_record_id": "bbf155b7-ce9b-57e1-b11f-9cc9319f3ca6",
+      "condition_kind": "change_scope",
+      "title": "2021.9.30 개정 비교의 범위",
+      "scope_text": "일반직 2급(을)·3급·4급 직무역량 필수교육",
+      "summary": "2급(을)~4급 직무역량 필수교육이 강화되었다. 1급/2급(갑), 5급, 6급 이하 및 운영직·전문직은 종전과 동일하다. 당초·변경 표를 별도로 보존한다.",
+      "structured_hint": null,
+      "source_locator": {
+        "pdf_page": 20,
+        "printed_page": 20,
+        "source_regulation_node_id": "b636b617-1ddd-5d98-be44-9e725925e174",
+        "line_ids": [
+          "p20l030",
+          "p20l031"
+        ],
+        "line_bboxes": [
+          [
+            69.12,
+            546.88,
+            421.84,
+            556.88
+          ],
+          [
+            73.2,
+            559.68,
+            488.72,
+            568.68
+          ]
+        ],
+        "original_extracted_text": "※ 참고 :직급별 필수교육 신설·확대에 따른 적용 기준안내(’21.9.30개정 사항)\n▸주요내용 :2급(을)∼4급 필수교육(직무역량)강화(1급/2급(갑),5급,6급 이하 및 운영직,전문직은 종전과 동일)"
+      },
+      "review_status": "pending_user_review",
+      "automated_decision_enabled": false
+    },
+    {
+      "condition_id": "C-07",
+      "condition_record_id": "4f9fe9da-7552-5a5f-9abe-076ddd2b893a",
+      "condition_kind": "application_target_date",
+      "title": "승진일에 따른 개정 기준 적용",
+      "scope_text": "일반직 4급, 2급(을), 3급의 직무역량 개정 기준",
+      "summary": "일반직 4급은 2019-01-01 이후 해당 직급 승진자부터, 일반직 2급(을)·3급은 2010-12-01 이후 해당 직급 승진자부터 적용한다. 이 날짜는 개정일·다운로드일과 다르다.",
+      "structured_hint": {
+        "cases": [
+          {
+            "job_family": "일반직",
+            "grades": [
+              "4급"
+            ],
+            "date_basis": "해당 직급 승진일",
+            "on_or_after": "2019-01-01"
+          },
+          {
+            "job_family": "일반직",
+            "grades": [
+              "2급(을)",
+              "3급"
+            ],
+            "date_basis": "해당 직급 승진일",
+            "on_or_after": "2010-12-01"
+          }
+        ]
+      },
+      "source_locator": {
+        "pdf_page": 20,
+        "printed_page": 20,
+        "source_regulation_node_id": "b636b617-1ddd-5d98-be44-9e725925e174",
+        "line_ids": [
+          "p20l041",
+          "p20l042"
+        ],
+        "line_bboxes": [
+          [
+            73.2,
+            668.4,
+            526.2,
+            677.4
+          ],
+          [
+            88.08,
+            679.92,
+            276.6,
+            688.92
+          ]
+        ],
+        "original_extracted_text": "① 일반직 4급 직원의 경우 2019년 1월 1일 이후 해당직급으로의 승진자부터,일반직 2급(을)및 3급 직원은 2010년\n12월 1일 이후 해당직급으로의 승진자부터 적용"
+      },
+      "review_status": "pending_user_review",
+      "automated_decision_enabled": false
+    },
+    {
+      "condition_id": "C-08",
+      "condition_record_id": "fbe76ae3-ee28-566d-91d6-6a44aeb02d13",
+      "condition_kind": "transition_equivalence",
+      "title": "종전 직무이해Ⅱ 교육의 이수 인정",
+      "scope_text": "종전 별표 2의 직무이해Ⅱ 이수자",
+      "summary": "종전 행정·기술 분야를 모두 이수한 경우에 한해 개정 직무이해Ⅱ를 모두 이수한 것으로 본다. 한 분야만 이수한 경우에 같은 간주를 적용하지 않는다.",
+      "structured_hint": {
+        "old_course_name": "직무이해Ⅱ",
+        "requires_both_old_fields": [
+          "행정",
+          "기술"
+        ],
+        "new_course_name": "직무이해Ⅱ",
+        "effect": "모두 이수한 것으로 봄"
+      },
+      "source_locator": {
+        "pdf_page": 20,
+        "printed_page": 20,
+        "source_regulation_node_id": "b636b617-1ddd-5d98-be44-9e725925e174",
+        "line_ids": [
+          "p20l043",
+          "p20l044"
+        ],
+        "line_bboxes": [
+          [
+            81.84,
+            691.68,
+            525.96,
+            700.68
+          ],
+          [
+            90.72,
+            703.44,
+            222.6,
+            712.44
+          ]
+        ],
+        "original_extracted_text": "-종전의 규정에 따른 별표 2의 “직무이해Ⅱ”이수자(행정/기술분야 모두 이수한 경우에 한함)는 개정규정 “직무\n이해Ⅱ”를 모두 이수한 것으로 봄"
+      },
+      "review_status": "pending_user_review",
+      "automated_decision_enabled": false
+    },
+    {
+      "condition_id": "C-09",
+      "condition_record_id": "eed98094-3fd2-5c03-a68c-fbf83c1a974f",
+      "condition_kind": "evaluation_application_year",
+      "title": "개정 항목·누계 비율의 평정 반영 시점",
+      "scope_text": "직급별 직무역량 필수교육 항목 및 이수과정 누계 비율",
+      "summary": "2025년 교육훈련평정 산정 시부터 반영한다. 원문이 연도로 정했으므로 특정 시작일을 임의 부여하지 않는다.",
+      "structured_hint": {
+        "evaluation_year_from": 2025,
+        "exact_start_date": null
+      },
+      "source_locator": {
+        "pdf_page": 20,
+        "printed_page": 20,
+        "source_regulation_node_id": "b636b617-1ddd-5d98-be44-9e725925e174",
+        "line_ids": [
+          "p20l045",
+          "p20l046"
+        ],
+        "line_bboxes": [
+          [
+            73.2,
+            715.2,
+            526.2,
+            724.2
+          ],
+          [
+            88.32,
+            726.96,
+            315.24,
+            735.96
+          ]
+        ],
+        "original_extracted_text": "② 직급별 직무역량 필수교육 항목 및 직급별 직무역량 필수교육 대상 과정 수(數)에 대한 해당 직급 기간 중의 이수\n과정 누계 비율은 2025년 교육훈련평정 산정 시부터 반영"
+      },
+      "review_status": "pending_user_review",
+      "automated_decision_enabled": false
+    },
+    {
+      "condition_id": "C-10",
+      "condition_record_id": "c1da3a73-8ad1-5c09-8d61-174e94e5e0d5",
+      "condition_kind": "event_training",
+      "title": "임금피크 전환 시 교육",
+      "scope_text": "임금피크 전환 직원",
+      "summary": "임금피크 전환 시 역량강화교육을 실시한다. 구체적인 과정명·기간은 이 문구에서 확인되지 않는다.",
+      "structured_hint": null,
+      "source_locator": {
+        "pdf_page": 20,
+        "printed_page": 20,
+        "source_regulation_node_id": "b636b617-1ddd-5d98-be44-9e725925e174",
+        "line_ids": [
+          "p20l047"
+        ],
+        "line_bboxes": [
+          [
+            56.64,
+            748.4,
+            373.64,
+            759.4
+          ]
+        ],
+        "original_extracted_text": "6)임금피크 전환시에 직원에 대한 역량강화교육을 실시한다."
+      },
+      "review_status": "pending_user_review",
+      "automated_decision_enabled": false
+    }
+  ],
+  "change_comparison": [
+    {
+      "comparison_id": "080b5245-56d9-57fd-b489-83f2b2a4dc95",
+      "comparison_context": "2021.9.30 개정 사항 안내",
+      "phase": "before",
+      "phase_label": "당초",
+      "target_code": "G-02",
+      "job_family": "일반직",
+      "grade_label": "2급(을)",
+      "competency_domain": "직무역량",
+      "source_state": "source_dash",
+      "courses": [],
+      "condition_ids": [
+        "C-06",
+        "C-07",
+        "C-09"
+      ],
+      "source_locator": {
+        "pdf_page": 20,
+        "printed_page": 20,
+        "source_regulation_node_id": "b636b617-1ddd-5d98-be44-9e725925e174",
+        "line_ids": [
+          "p20l032",
+          "p20l033",
+          "p20l034",
+          "p20l035",
+          "p20l036",
+          "p20l037",
+          "p20l038",
+          "p20l039",
+          "p20l040"
+        ],
+        "line_bboxes": [
+          [
+            85.44,
+            575.68,
+            465.76,
+            585.68
+          ],
+          [
+            395.52,
+            587.981,
+            468.4,
+            598.64
+          ],
+          [
+            85.44,
+            593.68,
+            329.92,
+            603.68
+          ],
+          [
+            400.32,
+            598.48,
+            453.28,
+            608.48
+          ],
+          [
+            123.84,
+            610.781,
+            468.4,
+            621.44
+          ],
+          [
+            264.72,
+            621.52,
+            473.44,
+            631.52
+          ],
+          [
+            85.44,
+            631.36,
+            463.6,
+            641.36
+          ],
+          [
+            400.32,
+            641.44,
+            527.92,
+            651.44
+          ],
+          [
+            400.32,
+            651.52,
+            463.6,
+            661.52
+          ]
+        ],
+        "original_extracted_text": "구분 2급(을) 3급 4급\n◾직무이해(Ⅱ)\n당초 - -\n-행정/기술\n◾직무이해(Ⅳ) ◾직무이해(Ⅲ) ◾직무이해(Ⅱ)\n-통합기술(심화) -수자원(기본)\n변경 -통합경영(심화) -수도(기본)\n-Green·Digital·Global(기본)\n-경영(기본)",
+        "source_table_key": "p20-table-2",
+        "source_table_node_id": "8eccf8ca-4b24-5bea-af81-941737835d1e",
+        "raw_row_index_zero_based": 1,
+        "raw_column_index_zero_based": 0,
+        "raw_extracted_cell": "-"
+      },
+      "review_status": "pending_user_review",
+      "note": "이 PDF에 수록된 개정 비교 표시. 별도의 과거 전체 개정본을 확보한 기록은 아님."
+    },
+    {
+      "comparison_id": "7a707c82-469e-5470-a700-aadcfde44a30",
+      "comparison_context": "2021.9.30 개정 사항 안내",
+      "phase": "after",
+      "phase_label": "변경",
+      "target_code": "G-02",
+      "job_family": "일반직",
+      "grade_label": "2급(을)",
+      "competency_domain": "직무역량",
+      "source_state": "course_list",
+      "courses": [
+        {
+          "course_name": "직무이해(Ⅳ)",
+          "education_areas": []
+        }
+      ],
+      "condition_ids": [
+        "C-06",
+        "C-07",
+        "C-09"
+      ],
+      "source_locator": {
+        "pdf_page": 20,
+        "printed_page": 20,
+        "source_regulation_node_id": "b636b617-1ddd-5d98-be44-9e725925e174",
+        "line_ids": [
+          "p20l032",
+          "p20l033",
+          "p20l034",
+          "p20l035",
+          "p20l036",
+          "p20l037",
+          "p20l038",
+          "p20l039",
+          "p20l040"
+        ],
+        "line_bboxes": [
+          [
+            85.44,
+            575.68,
+            465.76,
+            585.68
+          ],
+          [
+            395.52,
+            587.981,
+            468.4,
+            598.64
+          ],
+          [
+            85.44,
+            593.68,
+            329.92,
+            603.68
+          ],
+          [
+            400.32,
+            598.48,
+            453.28,
+            608.48
+          ],
+          [
+            123.84,
+            610.781,
+            468.4,
+            621.44
+          ],
+          [
+            264.72,
+            621.52,
+            473.44,
+            631.52
+          ],
+          [
+            85.44,
+            631.36,
+            463.6,
+            641.36
+          ],
+          [
+            400.32,
+            641.44,
+            527.92,
+            651.44
+          ],
+          [
+            400.32,
+            651.52,
+            463.6,
+            661.52
+          ]
+        ],
+        "original_extracted_text": "구분 2급(을) 3급 4급\n◾직무이해(Ⅱ)\n당초 - -\n-행정/기술\n◾직무이해(Ⅳ) ◾직무이해(Ⅲ) ◾직무이해(Ⅱ)\n-통합기술(심화) -수자원(기본)\n변경 -통합경영(심화) -수도(기본)\n-Green·Digital·Global(기본)\n-경영(기본)",
+        "source_table_key": "p20-table-2",
+        "source_table_node_id": "8eccf8ca-4b24-5bea-af81-941737835d1e",
+        "raw_row_index_zero_based": 2,
+        "raw_column_index_zero_based": 0,
+        "raw_extracted_cell": "◾직무이해(Ⅳ)"
+      },
+      "review_status": "pending_user_review",
+      "note": "이 PDF에 수록된 개정 비교 표시. 별도의 과거 전체 개정본을 확보한 기록은 아님."
+    },
+    {
+      "comparison_id": "dae2e9ae-0864-51c2-98eb-74924c75cdbb",
+      "comparison_context": "2021.9.30 개정 사항 안내",
+      "phase": "before",
+      "phase_label": "당초",
+      "target_code": "G-03",
+      "job_family": "일반직",
+      "grade_label": "3급",
+      "competency_domain": "직무역량",
+      "source_state": "source_dash",
+      "courses": [],
+      "condition_ids": [
+        "C-06",
+        "C-07",
+        "C-09"
+      ],
+      "source_locator": {
+        "pdf_page": 20,
+        "printed_page": 20,
+        "source_regulation_node_id": "b636b617-1ddd-5d98-be44-9e725925e174",
+        "line_ids": [
+          "p20l032",
+          "p20l033",
+          "p20l034",
+          "p20l035",
+          "p20l036",
+          "p20l037",
+          "p20l038",
+          "p20l039",
+          "p20l040"
+        ],
+        "line_bboxes": [
+          [
+            85.44,
+            575.68,
+            465.76,
+            585.68
+          ],
+          [
+            395.52,
+            587.981,
+            468.4,
+            598.64
+          ],
+          [
+            85.44,
+            593.68,
+            329.92,
+            603.68
+          ],
+          [
+            400.32,
+            598.48,
+            453.28,
+            608.48
+          ],
+          [
+            123.84,
+            610.781,
+            468.4,
+            621.44
+          ],
+          [
+            264.72,
+            621.52,
+            473.44,
+            631.52
+          ],
+          [
+            85.44,
+            631.36,
+            463.6,
+            641.36
+          ],
+          [
+            400.32,
+            641.44,
+            527.92,
+            651.44
+          ],
+          [
+            400.32,
+            651.52,
+            463.6,
+            661.52
+          ]
+        ],
+        "original_extracted_text": "구분 2급(을) 3급 4급\n◾직무이해(Ⅱ)\n당초 - -\n-행정/기술\n◾직무이해(Ⅳ) ◾직무이해(Ⅲ) ◾직무이해(Ⅱ)\n-통합기술(심화) -수자원(기본)\n변경 -통합경영(심화) -수도(기본)\n-Green·Digital·Global(기본)\n-경영(기본)",
+        "source_table_key": "p20-table-2",
+        "source_table_node_id": "8eccf8ca-4b24-5bea-af81-941737835d1e",
+        "raw_row_index_zero_based": 1,
+        "raw_column_index_zero_based": 1,
+        "raw_extracted_cell": "-"
+      },
+      "review_status": "pending_user_review",
+      "note": "이 PDF에 수록된 개정 비교 표시. 별도의 과거 전체 개정본을 확보한 기록은 아님."
+    },
+    {
+      "comparison_id": "f62a825a-0f7f-59f5-b4a2-65cc58535fe0",
+      "comparison_context": "2021.9.30 개정 사항 안내",
+      "phase": "after",
+      "phase_label": "변경",
+      "target_code": "G-03",
+      "job_family": "일반직",
+      "grade_label": "3급",
+      "competency_domain": "직무역량",
+      "source_state": "course_list",
+      "courses": [
+        {
+          "course_name": "직무이해(Ⅲ)",
+          "education_areas": [
+            "통합기술(심화)",
+            "통합경영(심화)"
+          ]
+        }
+      ],
+      "condition_ids": [
+        "C-06",
+        "C-07",
+        "C-09"
+      ],
+      "source_locator": {
+        "pdf_page": 20,
+        "printed_page": 20,
+        "source_regulation_node_id": "b636b617-1ddd-5d98-be44-9e725925e174",
+        "line_ids": [
+          "p20l032",
+          "p20l033",
+          "p20l034",
+          "p20l035",
+          "p20l036",
+          "p20l037",
+          "p20l038",
+          "p20l039",
+          "p20l040"
+        ],
+        "line_bboxes": [
+          [
+            85.44,
+            575.68,
+            465.76,
+            585.68
+          ],
+          [
+            395.52,
+            587.981,
+            468.4,
+            598.64
+          ],
+          [
+            85.44,
+            593.68,
+            329.92,
+            603.68
+          ],
+          [
+            400.32,
+            598.48,
+            453.28,
+            608.48
+          ],
+          [
+            123.84,
+            610.781,
+            468.4,
+            621.44
+          ],
+          [
+            264.72,
+            621.52,
+            473.44,
+            631.52
+          ],
+          [
+            85.44,
+            631.36,
+            463.6,
+            641.36
+          ],
+          [
+            400.32,
+            641.44,
+            527.92,
+            651.44
+          ],
+          [
+            400.32,
+            651.52,
+            463.6,
+            661.52
+          ]
+        ],
+        "original_extracted_text": "구분 2급(을) 3급 4급\n◾직무이해(Ⅱ)\n당초 - -\n-행정/기술\n◾직무이해(Ⅳ) ◾직무이해(Ⅲ) ◾직무이해(Ⅱ)\n-통합기술(심화) -수자원(기본)\n변경 -통합경영(심화) -수도(기본)\n-Green·Digital·Global(기본)\n-경영(기본)",
+        "source_table_key": "p20-table-2",
+        "source_table_node_id": "8eccf8ca-4b24-5bea-af81-941737835d1e",
+        "raw_row_index_zero_based": 2,
+        "raw_column_index_zero_based": 1,
+        "raw_extracted_cell": "◾직무이해(Ⅲ)\n-통합기술(심화)\n-통합경영(심화)"
+      },
+      "review_status": "pending_user_review",
+      "note": "이 PDF에 수록된 개정 비교 표시. 별도의 과거 전체 개정본을 확보한 기록은 아님."
+    },
+    {
+      "comparison_id": "62169e82-8a41-5a1f-94eb-454e7236cca9",
+      "comparison_context": "2021.9.30 개정 사항 안내",
+      "phase": "before",
+      "phase_label": "당초",
+      "target_code": "G-04",
+      "job_family": "일반직",
+      "grade_label": "4급",
+      "competency_domain": "직무역량",
+      "source_state": "course_list",
+      "courses": [
+        {
+          "course_name": "직무이해(Ⅱ)",
+          "education_areas": [
+            "행정",
+            "기술"
+          ]
+        }
+      ],
+      "condition_ids": [
+        "C-06",
+        "C-07",
+        "C-09",
+        "C-08"
+      ],
+      "source_locator": {
+        "pdf_page": 20,
+        "printed_page": 20,
+        "source_regulation_node_id": "b636b617-1ddd-5d98-be44-9e725925e174",
+        "line_ids": [
+          "p20l032",
+          "p20l033",
+          "p20l034",
+          "p20l035",
+          "p20l036",
+          "p20l037",
+          "p20l038",
+          "p20l039",
+          "p20l040"
+        ],
+        "line_bboxes": [
+          [
+            85.44,
+            575.68,
+            465.76,
+            585.68
+          ],
+          [
+            395.52,
+            587.981,
+            468.4,
+            598.64
+          ],
+          [
+            85.44,
+            593.68,
+            329.92,
+            603.68
+          ],
+          [
+            400.32,
+            598.48,
+            453.28,
+            608.48
+          ],
+          [
+            123.84,
+            610.781,
+            468.4,
+            621.44
+          ],
+          [
+            264.72,
+            621.52,
+            473.44,
+            631.52
+          ],
+          [
+            85.44,
+            631.36,
+            463.6,
+            641.36
+          ],
+          [
+            400.32,
+            641.44,
+            527.92,
+            651.44
+          ],
+          [
+            400.32,
+            651.52,
+            463.6,
+            661.52
+          ]
+        ],
+        "original_extracted_text": "구분 2급(을) 3급 4급\n◾직무이해(Ⅱ)\n당초 - -\n-행정/기술\n◾직무이해(Ⅳ) ◾직무이해(Ⅲ) ◾직무이해(Ⅱ)\n-통합기술(심화) -수자원(기본)\n변경 -통합경영(심화) -수도(기본)\n-Green·Digital·Global(기본)\n-경영(기본)",
+        "source_table_key": "p20-table-2",
+        "source_table_node_id": "8eccf8ca-4b24-5bea-af81-941737835d1e",
+        "raw_row_index_zero_based": 1,
+        "raw_column_index_zero_based": 2,
+        "raw_extracted_cell": "◾직무이해(Ⅱ)\n-행정/기술"
+      },
+      "review_status": "pending_user_review",
+      "note": "이 PDF에 수록된 개정 비교 표시. 별도의 과거 전체 개정본을 확보한 기록은 아님."
+    },
+    {
+      "comparison_id": "ce0e8c27-42a8-53f4-b75e-226aae90b7d4",
+      "comparison_context": "2021.9.30 개정 사항 안내",
+      "phase": "after",
+      "phase_label": "변경",
+      "target_code": "G-04",
+      "job_family": "일반직",
+      "grade_label": "4급",
+      "competency_domain": "직무역량",
+      "source_state": "course_list",
+      "courses": [
+        {
+          "course_name": "직무이해(Ⅱ)",
+          "education_areas": [
+            "수자원(기본)",
+            "수도(기본)",
+            "Green·Digital·Global(기본)",
+            "경영(기본)"
+          ]
+        }
+      ],
+      "condition_ids": [
+        "C-06",
+        "C-07",
+        "C-09",
+        "C-08"
+      ],
+      "source_locator": {
+        "pdf_page": 20,
+        "printed_page": 20,
+        "source_regulation_node_id": "b636b617-1ddd-5d98-be44-9e725925e174",
+        "line_ids": [
+          "p20l032",
+          "p20l033",
+          "p20l034",
+          "p20l035",
+          "p20l036",
+          "p20l037",
+          "p20l038",
+          "p20l039",
+          "p20l040"
+        ],
+        "line_bboxes": [
+          [
+            85.44,
+            575.68,
+            465.76,
+            585.68
+          ],
+          [
+            395.52,
+            587.981,
+            468.4,
+            598.64
+          ],
+          [
+            85.44,
+            593.68,
+            329.92,
+            603.68
+          ],
+          [
+            400.32,
+            598.48,
+            453.28,
+            608.48
+          ],
+          [
+            123.84,
+            610.781,
+            468.4,
+            621.44
+          ],
+          [
+            264.72,
+            621.52,
+            473.44,
+            631.52
+          ],
+          [
+            85.44,
+            631.36,
+            463.6,
+            641.36
+          ],
+          [
+            400.32,
+            641.44,
+            527.92,
+            651.44
+          ],
+          [
+            400.32,
+            651.52,
+            463.6,
+            661.52
+          ]
+        ],
+        "original_extracted_text": "구분 2급(을) 3급 4급\n◾직무이해(Ⅱ)\n당초 - -\n-행정/기술\n◾직무이해(Ⅳ) ◾직무이해(Ⅲ) ◾직무이해(Ⅱ)\n-통합기술(심화) -수자원(기본)\n변경 -통합경영(심화) -수도(기본)\n-Green·Digital·Global(기본)\n-경영(기본)",
+        "source_table_key": "p20-table-2",
+        "source_table_node_id": "8eccf8ca-4b24-5bea-af81-941737835d1e",
+        "raw_row_index_zero_based": 2,
+        "raw_column_index_zero_based": 2,
+        "raw_extracted_cell": "◾직무이해(Ⅱ)\n-수자원(기본)\n-수도(기본)\n-Green·Digital·Global(기본)\n-경영(기본)"
+      },
+      "review_status": "pending_user_review",
+      "note": "이 PDF에 수록된 개정 비교 표시. 별도의 과거 전체 개정본을 확보한 기록은 아님."
+    }
+  ],
+  "correction_log": [
+    {
+      "id": "F-01",
+      "target": "일반직 2급(을)·3급 직무역량",
+      "before": "직무이해(Ⅳ / )직무이해(Ⅲ",
+      "after": "직무이해(Ⅳ) / 직무이해(Ⅲ)",
+      "reason": "원문 이미지에서 각 직급의 과정명과 괄호를 대조하여 복원"
+    },
+    {
+      "id": "F-02",
+      "target": "일반직 4급 직무역량",
+      "before": "Green·Digital 및 Global(기본)의 분리, 기호가 옆 셀에 혼입",
+      "after": "Green·Digital·Global(기본)을 한 분야명으로 연결",
+      "reason": "원문의 줄바꿈을 이어 읽고 4급 셀에 귀속"
+    },
+    {
+      "id": "F-03",
+      "target": "일반직 5급·6급 이하 직무역량",
+      "before": "직무이해(Ⅰ) 또는 - 앞뒤에 다른 칸의 괄호·기호가 혼입",
+      "after": "5급: 직무이해(Ⅰ) / 6급 이하: 원문 -",
+      "reason": "주변 직급의 글자를 제거하고 원문 각 셀 표기 보존"
+    },
+    {
+      "id": "F-04",
+      "target": "일반직 직급 머리글과 공통역량",
+      "before": "병합 셀의 일부를 null로 추출",
+      "after": "8개 대상군을 명시하고 공통역량의 동일 병합 셀을 연결",
+      "reason": "병합 영역의 범위를 명시하되 구체적인 교육과정은 새로 만들지 않음"
+    },
+    {
+      "id": "F-05",
+      "target": "2021.9.30 개정 비교",
+      "before": "당초·변경 행 제목이 표 데이터에서 누락",
+      "after": "당초 3개·변경 3개 행을 구분",
+      "reason": "표 밖에서 추출된 행 제목과 원문 이미지를 연결"
+    },
+    {
+      "id": "F-06",
+      "target": "전문직 리더·직무역량",
+      "before": "공란의 의미가 미구분",
+      "after": "source_blank로 분리하여 보존",
+      "reason": "교육 없음 또는 면제로 임의 해석하지 않음"
+    },
+    {
+      "id": "F-07",
+      "target": "별표 하단 주석·적용 안내",
+      "before": "교육과정과 조건이 한 덩어리 평문으로 보존",
+      "after": "정의·최소 기간·간주·승진일·이수 인정·평정 반영·임금피크 등 10개 항목 분리",
+      "reason": "원문 행과 연결하면서 조건이 필요한 교육과정에 연결"
+    }
+  ],
+  "source_note_review": {
+    "verification_status": "source_verified_by_codex",
+    "verified_date": "2026-10-13",
+    "pdf_page": 20,
+    "human_official_interpretation_completed": false,
+    "automated_decision_enabled": false,
+    "items": [
+      {
+        "source_condition_id": "C-01",
+        "confirmed_text": "리더십아카데미는 모의과제 수행과 전문가 관찰·진단을 통한 교육과정이다.",
+        "structured_facts": {
+          "definition_only": true
+        },
+        "interpretation_limit": "정의만으로 대상자 선정이나 개인의 역량 수준을 판정하지 않는다.",
+        "source_locator": {
+          "pdf_page": 20,
+          "printed_page": 20,
+          "source_regulation_node_id": "b636b617-1ddd-5d98-be44-9e725925e174",
+          "line_ids": [
+            "p20l021",
+            "p20l022"
+          ],
+          "line_bboxes": [
+            [
+              56.64,
+              365.12,
+              538.52,
+              376.12
+            ],
+            [
+              72.24,
+              384.8,
+              510.44,
+              395.8
+            ]
+          ],
+          "original_extracted_text": "1)리더십아카데미란 부서장 및 부장 리더십역량을 기반으로 각각 개발된 모의과제를 교육생이 수행하는\n과정을 전문가가 관찰,개인의 강약점을 진단하여 리더십 역량을 개발하는 교육과정을 뜻한다."
+        }
+      },
+      {
+        "source_condition_id": "C-02",
+        "confirmed_text": "직급별 필수교육은 최소 2일 이상 실시한다.",
+        "structured_facts": {
+          "minimum_duration": {
+            "value": 2,
+            "unit": "day"
+          },
+          "hours_conversion": null
+        },
+        "interpretation_limit": "1일의 교육시간은 제시되지 않았다. 2일을 16시간으로 바꾸거나 총량 학습시간에 자동 합산하지 않는다.",
+        "source_locator": {
+          "pdf_page": 20,
+          "printed_page": 20,
+          "source_regulation_node_id": "b636b617-1ddd-5d98-be44-9e725925e174",
+          "line_ids": [
+            "p20l023"
+          ],
+          "line_bboxes": [
+            [
+              56.64,
+              404.72,
+              340.52,
+              415.72
+            ]
+          ],
+          "original_extracted_text": "2)직급별 필수교육은 최소 2일 이상 실시하여야 한다."
+        }
+      },
+      {
+        "source_condition_id": "C-04",
+        "confirmed_text": "직무이해Ⅰ는 신입사원 교육에 포함하여 실시하는 과정이다.",
+        "structured_facts": {
+          "included_in_new_employee_education": true,
+          "separate_extra_course_required": null
+        },
+        "interpretation_limit": "신입사원 교육과 별개의 추가 교육으로 중복 배정하거나 자동 이수 처리하지 않는다. 실제 과정 내역을 확인한다.",
+        "source_locator": {
+          "pdf_page": 20,
+          "printed_page": 20,
+          "source_regulation_node_id": "b636b617-1ddd-5d98-be44-9e725925e174",
+          "line_ids": [
+            "p20l026"
+          ],
+          "line_bboxes": [
+            [
+              56.64,
+              463.317,
+              546.92,
+              475.0
+            ]
+          ],
+          "original_extracted_text": "4)직무이해(Ⅰ):기본적인 사업이해와 직무역량에 대한 교육과정으로 신입사원 교육에 포함하여 실시한다."
+        }
+      },
+      {
+        "source_condition_id": "C-06",
+        "confirmed_text": "당초·변경 표는 2021.9.30 개정 시 직급별 필수교육 기준 안내이다.",
+        "structured_facts": {
+          "comparison_amendment_date": "2021-09-30",
+          "full_historical_version_available": false
+        },
+        "interpretation_limit": "이 비교표를 해당 시점의 전체 규정 개정본으로 사용하지 않는다.",
+        "source_locator": {
+          "pdf_page": 20,
+          "printed_page": 20,
+          "source_regulation_node_id": "b636b617-1ddd-5d98-be44-9e725925e174",
+          "line_ids": [
+            "p20l030",
+            "p20l031"
+          ],
+          "line_bboxes": [
+            [
+              69.12,
+              546.88,
+              421.84,
+              556.88
+            ],
+            [
+              73.2,
+              559.68,
+              488.72,
+              568.68
+            ]
+          ],
+          "original_extracted_text": "※ 참고 :직급별 필수교육 신설·확대에 따른 적용 기준안내(’21.9.30개정 사항)\n▸주요내용 :2급(을)∼4급 필수교육(직무역량)강화(1급/2급(갑),5급,6급 이하 및 운영직,전문직은 종전과 동일)"
+        }
+      },
+      {
+        "source_condition_id": "C-09",
+        "confirmed_text": "직무역량 교육의 대상 과정 수 대비 이수과정 누계 비율은 2025년 교육훈련평정 산정 시부터 반영한다.",
+        "structured_facts": {
+          "evaluation_year_from": 2025,
+          "exact_start_date": null
+        },
+        "interpretation_limit": "평정 연도를 승진일이나 개정일로 바꾸지 않는다. 원문에 없는 1월1일을 시작일로 생성하지 않는다.",
+        "source_locator": {
+          "pdf_page": 20,
+          "printed_page": 20,
+          "source_regulation_node_id": "b636b617-1ddd-5d98-be44-9e725925e174",
+          "line_ids": [
+            "p20l045",
+            "p20l046"
+          ],
+          "line_bboxes": [
+            [
+              73.2,
+              715.2,
+              526.2,
+              724.2
+            ],
+            [
+              88.32,
+              726.96,
+              315.24,
+              735.96
+            ]
+          ],
+          "original_extracted_text": "② 직급별 직무역량 필수교육 항목 및 직급별 직무역량 필수교육 대상 과정 수(數)에 대한 해당 직급 기간 중의 이수\n과정 누계 비율은 2025년 교육훈련평정 산정 시부터 반영"
+        }
+      },
+      {
+        "source_condition_id": "C-10",
+        "confirmed_text": "임금피크제 직원을 위한 역할강화 및 전환교육은 직무전환교육 등으로 운영한다.",
+        "structured_facts": {
+          "target_text": "임금피크제 직원",
+          "example_education_type": "직무전환교육",
+          "specific_course_names": null,
+          "duration": null
+        },
+        "interpretation_limit": "원문에 없는 과정명·기간·대상 연령을 채우지 않는다. 실제 대상 여부와 해당 연도 운영 안내를 확인한다.",
+        "source_locator": {
+          "pdf_page": 20,
+          "printed_page": 20,
+          "source_regulation_node_id": "b636b617-1ddd-5d98-be44-9e725925e174",
+          "line_ids": [
+            "p20l047"
+          ],
+          "line_bboxes": [
+            [
+              56.64,
+              748.4,
+              373.64,
+              759.4
+            ]
+          ],
+          "original_extracted_text": "6)임금피크 전환시에 직원에 대한 역량강화교육을 실시한다."
+        }
+      }
+    ]
+  },
+  "user_guidance": {
+    "education_selection": {
+      "handling_review_status": "user_accepted",
+      "wording_status": "codex_draft_under_accepted_direction",
+      "user_review_note": "2026-10-13: 시행일·개인 이력 확인 후 조건부 안내하는 방향 수용. 교육 신청 자격의 자동 제외 판정을 두지 않음.",
+      "rule_effective_from": "2028-01-01",
+      "source_action_text": "제외할 수 있다",
+      "source_evidence": [
+        {
+          "regulation_node_id": "acb377a1-9f28-5330-a764-f4da13d290ab",
+          "regulation_version_id": "5565f28d-29da-5ebd-bb8a-b0dc705f26d3",
+          "regulation_file_id": "30562fdd-97df-5c4b-9535-1c7402d2b738",
+          "path": "인재개발규정 > 제2장 > 제10조 > 제3항",
+          "body_text": "③ 제7조제4항의 기한 내 리더역량 필수교육을 이수하지 않은 자는 해당 교육을 이수하기 전까\n지 제8조 자체교육 대상자 선정에서 제외할 수 있다. <신설 2024.12.26.>",
+          "source_locator": {
+            "coordinate_system": "PDF point; 원점=페이지 왼쪽 위",
+            "pdf_pages": [
+              3
+            ],
+            "printed_pages": [
+              3
+            ],
+            "lines": [
+              {
+                "line_id": "p03l020",
+                "page": 3,
+                "bbox": [
+                  85.16,
+                  475.231,
+                  524.6,
+                  485.311
+                ]
+              },
+              {
+                "line_id": "p03l021",
+                "page": 3,
+                "bbox": [
+                  85.17,
+                  491.301,
+                  431.007,
+                  501.381
+                ]
+              }
+            ],
+            "section_kind": "body"
+          },
+          "effective_from_override": "2028-01-01"
+        },
+        {
+          "regulation_node_id": "a00b163b-6769-5b86-ac9b-096d07413fc9",
+          "regulation_version_id": "5565f28d-29da-5ebd-bb8a-b0dc705f26d3",
+          "regulation_file_id": "30562fdd-97df-5c4b-9535-1c7402d2b738",
+          "path": "인재개발규정 > 부칙(2024-12-26) > 제1조",
+          "body_text": "제1조(시행일) 이 규정은 2025년 1월 1일부터 시행한다. 단 제10조제3항은 2028년 1월 1일부터 시\n행한다.",
+          "source_locator": {
+            "coordinate_system": "PDF point; 원점=페이지 왼쪽 위",
+            "pdf_pages": [
+              18
+            ],
+            "printed_pages": [
+              18
+            ],
+            "lines": [
+              {
+                "line_id": "p18l001",
+                "page": 18,
+                "bbox": [
+                  70.81,
+                  87.581,
+                  524.89,
+                  97.661
+                ]
+              },
+              {
+                "line_id": "p18l002",
+                "page": 18,
+                "bbox": [
+                  84.98,
+                  103.651,
+                  117.913,
+                  113.731
+                ]
+              }
+            ],
+            "section_kind": "supplement"
+          },
+          "effective_from_override": null
+        }
+      ],
+      "existing_chunk_evidence": {
+        "rag_chunk_id": "093fc682-c7e8-537c-aa82-b434b49d4ff9",
+        "chunk_text": "인재개발규정 > 제2장 > 제10조 > 제3항\n③ 제7조제4항의 기한 내 리더역량 필수교육을 이수하지 않은 자는 해당 교육을 이수하기 전까\n지 제8조 자체교육 대상자 선정에서 제외할 수 있다. <신설 2024.12.26.>",
+        "content_hash": "ef4c4676834aa27928b19087500955548380163b1a2cb6a47c17cc6c3768f06e",
+        "search_status": "pending_review",
+        "context_path": "인재개발규정 > 제2장 > 제10조 > 제3항"
+      },
+      "automated_decision_enabled": false,
+      "application_cases": [
+        {
+          "situation": "질문 기준일이 2028-01-01 전임",
+          "action": "이 개정본 제10조 제3항은 시행 전임을 안내. 이 항을 현재 선정 제외 근거로 적용하지 않음"
+        },
+        {
+          "situation": "시행 이후이고 리더교육 대상·기한 경과·미이수가 확인됨",
+          "action": "자체교육 대상자 선정에서 제외될 수 있어 기관 확인 필요로 안내"
+        },
+        {
+          "situation": "시행 이후이나 기한 또는 이수 내역이 불명확함",
+          "action": "기한·이수 내역 확인 필요로 안내. 기록 미확인을 실제 미이수나 제외로 확정하지 않음"
+        },
+        {
+          "situation": "해당 교육의 이수 또는 이수 간주 내역이 확인됨",
+          "action": "확인된 이력을 대조. 이 항만으로 계속 선정 제외되는 것으로 안내하지 않음"
+        }
+      ],
+      "notes": [
+        "이 항은 제8조 자체교육 대상자 선정에 관한 내용이다. 교육훈련평정 대상은 인사규정시행세칙 제41조의 근거로 따로 확인한다.",
+        "제10조 전체의 시행일을 2028년으로 바꾸지 않는다. 제3항의 예외 시행일을 원문 항목 단위로 확인한다.",
+        "2028년 이후 상담도 질문 당시 적용되는 개정본과 개인의 교육 이력·기한을 대조한다.",
+        "원문에 제외할 수 있다고 되어 있으므로 시스템이 제외 결정을 대신 확정하지 않는다."
+      ]
+    },
+    "education_assessment": {
+      "source_condition_ids": [
+        "C-05",
+        "C-09"
+      ],
+      "handling_review_status": "user_accepted",
+      "wording_status": "codex_draft_under_accepted_direction",
+      "user_review_note": "2026-10-13: 산식과 근거를 보존하고 정보가 부족하면 교육훈련평정 점수 확인 필요로 안내하는 방향 수용.",
+      "automated_decision_enabled": false,
+      "calculation_enabled": false,
+      "related_regulation_evidence": {
+        "evidence_id": "annex2-C05-personnel-assessment-reference",
+        "created_at": "2026-10-13T14:50:04+09:00",
+        "source_document_title": "인사규정시행세칙",
+        "source_filename": "인사규정시행세칙(2025년도 11월 10일 개정).pdf",
+        "source_relative_path": "한국수자원공사_추가규정_V01/source/인사·복무·징계/인사규정시행세칙(2025년도 11월 10일 개정).pdf",
+        "source_sha256": "1ad0ac2f6c7ecbbc12e952fedb8d9d8e2ccc2cf089e6c36ecc33d9b2005618ff",
+        "source_data_relative_path": "한국수자원공사_추가규정_V01/data/regulation_node.json",
+        "source_condition_ids": [
+          "C-05",
+          "C-09"
+        ],
+        "source_evidence": [
+          {
+            "regulation_node_id": "8bb918d8-52b2-59bd-9b88-5463d2fee074",
+            "regulation_version_id": "baed2f1b-2de3-5162-82c4-d52cc29e3d5c",
+            "regulation_file_id": "de82755e-1d59-5f98-b80d-2a47be55e517",
+            "path": "인사규정시행세칙 > 제5장 > 제41조",
+            "body_text": "제41조(교육훈련 평정대상) ① 교육훈련평정은 「인재개발규정」에 따라 해당 직급 재직기간 중에 취\n득한 총학습시간과 해당 직급의 직무역량 필수교육 이수 과정 수를 기준으로 평정한다. 다만,\n「인재개발규정」 제7조에 따른 해당 직급별 리더역량 필수 교육을 미수료한 경우에는 교육훈련\n평정대상에서 제외한다. <개정 2019.11.12., 2024.12.27.>\n② 제20조의3에 따라 직군전환된 경우 전문직 또는 운영직 해당직급에서의 교육이수시간을 포함\n한다. 이 경우 직군전환 시 「인재개발규정」 제7조에 따른 일반직 직급별 필수교육 중 직무역량교\n육을 이수한 경우에는 교육훈련 평정대상에서 제외하지 않는다. <신설 2017.11.23, 개정\n2019.11.12.>\n<본조 개정 2002.01.02,개정 2010.12.03>",
+            "source_locator": {
+              "coordinate_system": "PDF point; 원점=페이지 왼쪽 위",
+              "pdf_pages": [
+                14
+              ],
+              "lines": [
+                {
+                  "line_id": "p014l0004",
+                  "page": 14,
+                  "bbox": [
+                    58.693,
+                    213.251,
+                    510.364,
+                    223.188
+                  ]
+                },
+                {
+                  "line_id": "p014l0005",
+                  "page": 14,
+                  "bbox": [
+                    72.798,
+                    229.174,
+                    510.49,
+                    239.112
+                  ]
+                },
+                {
+                  "line_id": "p014l0006",
+                  "page": 14,
+                  "bbox": [
+                    72.798,
+                    245.098,
+                    510.484,
+                    255.036
+                  ]
+                },
+                {
+                  "line_id": "p014l0007",
+                  "page": 14,
+                  "bbox": [
+                    72.798,
+                    261.142,
+                    333.346,
+                    271.08
+                  ]
+                },
+                {
+                  "line_id": "p014l0008",
+                  "page": 14,
+                  "bbox": [
+                    72.798,
+                    277.306,
+                    510.364,
+                    287.243
+                  ]
+                },
+                {
+                  "line_id": "p014l0009",
+                  "page": 14,
+                  "bbox": [
+                    72.798,
+                    293.229,
+                    510.484,
+                    303.167
+                  ]
+                },
+                {
+                  "line_id": "p014l0010",
+                  "page": 14,
+                  "bbox": [
+                    72.798,
+                    309.153,
+                    510.364,
+                    319.091
+                  ]
+                },
+                {
+                  "line_id": "p014l0011",
+                  "page": 14,
+                  "bbox": [
+                    72.798,
+                    325.197,
+                    131.807,
+                    335.135
+                  ]
+                },
+                {
+                  "line_id": "p014l0012",
+                  "page": 14,
+                  "bbox": [
+                    77.699,
+                    341.361,
+                    265.688,
+                    351.298
+                  ]
+                }
+              ],
+              "section_kind": "body"
+            },
+            "source_body_sha256": "c3bbacb60f25042d677220f969b6d351247b123761a4a2d1b6f729c3723b6dc9",
+            "relevant_text": "제41조(교육훈련 평정대상) ① 교육훈련평정은 「인재개발규정」에 따라 해당 직급 재직기간 중에 취\n득한 총학습시간과 해당 직급의 직무역량 필수교육 이수 과정 수를 기준으로 평정한다. 다만,\n「인재개발규정」 제7조에 따른 해당 직급별 리더역량 필수 교육을 미수료한 경우에는 교육훈련\n평정대상에서 제외한다. <개정 2019.11.12., 2024.12.27.>\n② 제20조의3에 따라 직군전환된 경우 전문직 또는 운영직 해당직급에서의 교육이수시간을 포함\n한다. 이 경우 직군전환 시 「인재개발규정」 제7조에 따른 일반직 직급별 필수교육 중 직무역량교\n육을 이수한 경우에는 교육훈련 평정대상에서 제외하지 않는다. <신설 2017.11.23, 개정\n2019.11.12.>\n<본조 개정 2002.01.02,개정 2010.12.03>",
+            "relevant_line_ids": [
+              "p014l0004",
+              "p014l0005",
+              "p014l0006",
+              "p014l0007",
+              "p014l0008",
+              "p014l0009",
+              "p014l0010",
+              "p014l0011",
+              "p014l0012"
+            ]
+          },
+          {
+            "regulation_node_id": "a85a82a1-3d31-5a66-a6b9-499b466eba98",
+            "regulation_version_id": "baed2f1b-2de3-5162-82c4-d52cc29e3d5c",
+            "regulation_file_id": "de82755e-1d59-5f98-b80d-2a47be55e517",
+            "path": "인사규정시행세칙 > 제5장 > 제42조",
+            "body_text": "제42조(교육훈련 평정점수의 산정) 교육훈련점수는 다음과 같이 산정한다. 이 경우 점수산정에 관한\n세부사항은 「인재개발규정」에서 정하는 바에 따른다.\n교육훈련평정 점수＝A×[{0.6×(B/C)}+{0.4×(D/E)}]\n※ A : 2급(을) 10점, 3급 이하 25점\nB : 총학습시간(해당직급이수 학습시간의 합계)\nC : 목표학습량(기준학습시간×해당직급 근무연수)\nD : 해당직급 재직기간 중 이수한 직무역량 필수교육 과정 수\nE : 해당직급 직무역량 필수교육 대상 과정 수\n<개정 2016.12.01, 2019.11.12., 2024.12.27.>\n<조 개정 2005.09.23,개정 2010.12.03>",
+            "source_locator": {
+              "coordinate_system": "PDF point; 원점=페이지 왼쪽 위",
+              "pdf_pages": [
+                14
+              ],
+              "lines": [
+                {
+                  "line_id": "p014l0013",
+                  "page": 14,
+                  "bbox": [
+                    58.693,
+                    379.913,
+                    510.364,
+                    389.851
+                  ]
+                },
+                {
+                  "line_id": "p014l0014",
+                  "page": 14,
+                  "bbox": [
+                    72.798,
+                    395.957,
+                    309.19,
+                    405.894
+                  ]
+                },
+                {
+                  "line_id": "p014l0015",
+                  "page": 14,
+                  "bbox": [
+                    65.148,
+                    421.515,
+                    283.004,
+                    430.495
+                  ]
+                },
+                {
+                  "line_id": "p014l0016",
+                  "page": 14,
+                  "bbox": [
+                    65.148,
+                    433.248,
+                    217.438,
+                    442.228
+                  ]
+                },
+                {
+                  "line_id": "p014l0017",
+                  "page": 14,
+                  "bbox": [
+                    69.69,
+                    444.554,
+                    261.523,
+                    453.533
+                  ]
+                },
+                {
+                  "line_id": "p014l0018",
+                  "page": 14,
+                  "bbox": [
+                    69.69,
+                    455.329,
+                    272.76,
+                    464.309
+                  ]
+                },
+                {
+                  "line_id": "p014l0019",
+                  "page": 14,
+                  "bbox": [
+                    69.69,
+                    466.105,
+                    324.423,
+                    475.085
+                  ]
+                },
+                {
+                  "line_id": "p014l0020",
+                  "page": 14,
+                  "bbox": [
+                    69.69,
+                    476.881,
+                    259.873,
+                    485.86
+                  ]
+                },
+                {
+                  "line_id": "p014l0021",
+                  "page": 14,
+                  "bbox": [
+                    63.713,
+                    495.572,
+                    272.741,
+                    505.509
+                  ]
+                },
+                {
+                  "line_id": "p014l0022",
+                  "page": 14,
+                  "bbox": [
+                    77.699,
+                    511.735,
+                    256.005,
+                    521.672
+                  ]
+                }
+              ],
+              "section_kind": "body"
+            },
+            "source_body_sha256": "5662a4a09bd5146e9ddb6b362fba64dac52a3a418dd797c65e4ff8a290a06411",
+            "relevant_text": "제42조(교육훈련 평정점수의 산정) 교육훈련점수는 다음과 같이 산정한다. 이 경우 점수산정에 관한\n세부사항은 「인재개발규정」에서 정하는 바에 따른다.\n교육훈련평정 점수＝A×[{0.6×(B/C)}+{0.4×(D/E)}]\n※ A : 2급(을) 10점, 3급 이하 25점\nB : 총학습시간(해당직급이수 학습시간의 합계)\nC : 목표학습량(기준학습시간×해당직급 근무연수)\nD : 해당직급 재직기간 중 이수한 직무역량 필수교육 과정 수\nE : 해당직급 직무역량 필수교육 대상 과정 수\n<개정 2016.12.01, 2019.11.12., 2024.12.27.>\n<조 개정 2005.09.23,개정 2010.12.03>",
+            "relevant_line_ids": [
+              "p014l0013",
+              "p014l0014",
+              "p014l0015",
+              "p014l0016",
+              "p014l0017",
+              "p014l0018",
+              "p014l0019",
+              "p014l0020",
+              "p014l0021",
+              "p014l0022"
+            ]
+          },
+          {
+            "regulation_node_id": "52f40d18-c375-5987-a172-5d8925d69c0f",
+            "regulation_version_id": "baed2f1b-2de3-5162-82c4-d52cc29e3d5c",
+            "regulation_file_id": "de82755e-1d59-5f98-b80d-2a47be55e517",
+            "path": "인사규정시행세칙 > 제5장 > 제43조",
+            "body_text": "제43조(교육훈련평정방법 등) 교육훈련평정방법 등 그 밖의 세부사항은 「인재개발규정」에서 정하는\n바에 따른다. <개정 2019.11.12.>\n제8절 가 감 평 정 <본절 개정 2002.01.02.>",
+            "source_locator": {
+              "coordinate_system": "PDF point; 원점=페이지 왼쪽 위",
+              "pdf_pages": [
+                14
+              ],
+              "lines": [
+                {
+                  "line_id": "p014l0023",
+                  "page": 14,
+                  "bbox": [
+                    58.693,
+                    550.407,
+                    510.484,
+                    560.345
+                  ]
+                },
+                {
+                  "line_id": "p014l0024",
+                  "page": 14,
+                  "bbox": [
+                    72.798,
+                    566.331,
+                    223.133,
+                    576.269
+                  ]
+                },
+                {
+                  "line_id": "p014l0025",
+                  "page": 14,
+                  "bbox": [
+                    172.611,
+                    641.149,
+                    396.624,
+                    653.122
+                  ]
+                }
+              ],
+              "section_kind": "body"
+            },
+            "source_body_sha256": "1fb1bfb78f77c81902555337583604eb1e9b6720d229c8f09c6cbeb28e47cb04",
+            "relevant_text": "제43조(교육훈련평정방법 등) 교육훈련평정방법 등 그 밖의 세부사항은 「인재개발규정」에서 정하는\n바에 따른다. <개정 2019.11.12.>",
+            "relevant_line_ids": [
+              "p014l0023",
+              "p014l0024"
+            ]
+          }
+        ],
+        "verification": {
+          "pdf_pages": [
+            14
+          ],
+          "verified_by": "Codex",
+          "method": "PDF 14쪽 전체 이미지와 추출 원문 대조",
+          "verified_at_date": "2026-10-13",
+          "human_official_interpretation_completed": false,
+          "original_batch_rows_modified": false,
+          "article43_note": "원래 노드에 다음 제8절 제목이 붙어 있어 원문 노드는 그대로 보존하고 관련 문장·행 위치만 따로 연결."
+        },
+        "formula": {
+          "source_expression": "교육훈련평정 점수＝A×[{0.6×(B/C)}+{0.4×(D/E)}]",
+          "normalized_expression": "A * (0.6 * (B / C) + 0.4 * (D / E))",
+          "variables": [
+            {
+              "symbol": "A",
+              "meaning": "직급별 산식 계수",
+              "source_values": [
+                {
+                  "grade_label": "2급(을)",
+                  "value": 10
+                },
+                {
+                  "grade_label": "3급 이하",
+                  "value": 25
+                }
+              ]
+            },
+            {
+              "symbol": "B",
+              "meaning": "총학습시간(해당직급이수 학습시간의 합계)"
+            },
+            {
+              "symbol": "C",
+              "meaning": "목표학습량(기준학습시간×해당직급 근무연수)"
+            },
+            {
+              "symbol": "D",
+              "meaning": "해당직급 재직기간 중 이수한 직무역량 필수교육 과정 수"
+            },
+            {
+              "symbol": "E",
+              "meaning": "해당직급 직무역량 필수교육 대상 과정 수"
+            }
+          ],
+          "learning_hours_ratio_weight": 0.6,
+          "job_course_ratio_weight": 0.4,
+          "ratio_cap": null,
+          "score_cap": null,
+          "rounding_rule": null,
+          "tenure_computation_detail": null,
+          "calculation_enabled": false
+        },
+        "notes": [
+          "제41조의 평정 대상·리더교육 미수료 조항·직군전환 특례를 모두 보존한다. 직원별 평정 대상 제외를 자동 판정하지 않는다.",
+          "직무이해Ⅱ의 4개 분야 표기만으로 직원별 E를 일괄 4로 확정하지 않는다.",
+          "별표2 C-09의 2025년 교육훈련평정 반영 안내와 현재 확보한 세칙 개정본의 적용 시점을 구분한다. 과거 평정은 당시 적용 개정본 확인이 필요하다.",
+          "제42조·제43조가 인재개발규정의 세부사항을 참조한다. 산식 확인을 상세 인정기준 확보와 동일하게 취급하지 않는다.",
+          "연간 학습인정시간 상한과 평정 점수·비율 상한은 서로 다르다. 이 자료에서 점수 상한·반올림을 임의로 채우지 않는다."
+        ]
+      },
+      "pilot_source_evidence": [
+        {
+          "regulation_node_id": "67db5327-5548-52c1-9e6c-f1a0b7b0ed09",
+          "regulation_version_id": "5565f28d-29da-5ebd-bb8a-b0dc705f26d3",
+          "regulation_file_id": "30562fdd-97df-5c4b-9535-1c7402d2b738",
+          "path": "인재개발규정 > 제1장 > 제7조",
+          "body_text": "제7조(학습시간 및 필수교육) ① 직원은 매년 기준학습시간 이상의 교육을 이수해야 하며 직급별 연\n간 기준학습시간은 별표 1과 같다. <개정 2018.12.27., 2022.10.07>\n② 직원이 이수하는 학습시간은 아래와 같이 인재개발담당부서 주관학습, 부서자체학습, 개인학\n습을 모두 포함하며, 세부적인 인정기준 및 절차는 인재개발담당부서의 장이 따로 정하여 시행한\n다. <개정 2018.12.27., 2022.10.07>\n1. 인재개발담당부서 주관학습: 인재개발담당부서에서 시행하는 정규 학습활동 (필수교육 포함)\n<개정 2018.12.27., 2022.10.07>\n2. 부서자체학습: 부서에서 업무와 연계하여 자체적으로 수행하는 학습활동 <개정 2018.12.27.,\n2022.10.07>\n3. 개인학습: 자기계발을 위한 개인학습활동 <개정 2018.12.27.>\n③ 직원들이 이수해야 할 해당 직급별 필요역량에 대한 필수교육은 별표 2와 같다.\n④ 승진 임용 (「인사규정」 제28조의2에 따른 직급 대우와 4급 과장 호칭 변경을 포함한다.)된 자\n는 다음 각 호의 기한 내 리더역량 필수교육을 이수하여야 한다. <신설 2024.12.26.>\n1. 2월 말까지 승진 임용된 자 : 승진임용된 다음해 10월 31일까지 <신설 2024.12.26.>\n2. 3월 이후 승진 임용된 자 : 승진임용된 다다음해 10월 31일까지 <신설 2024.12.26.>\n3. 제1호 및 제2호의 기간이 경과하기 전에 국외 파견 또는 휴직한 자 : 복귀한 다음해 10월 31\n일까지. 다만, 불가피한 경우 인재개발 담당부서장의 사전 승인을 받아 1년을 연장할 수 있\n다. <신설 2024.12.26.>\n⑤ 「인사규정」 제8조에 따라 일반직 5급으로 채용하는 신입사원에 대한 직무역량개발체계는 별\n표 3과 같다. <신설 2015.09.25, 개정 2018.12.27., 2024.12.26.>\n⑥ 「인사규정」 제8조의2에 따라 인턴을 직원으로 채용하는 경우에는 인턴기간동안 이수한 학습\n시간을 인턴 종료시 채용된 임용직급에서 이수한 학습시간으로 볼 수 있다. <신설 2015.09.25,\n개정 2018.12.27., 2022.10.07>\n⑦ 각 부서의 장은 체계적인 부서자체학습계획을 세우고 실행하는 등 직원들의 역량개발을 위해\n지속적인 노력을 하여야 한다. <신설 2018.12.27, 개정 2022.10.07.>\n[제목개정 2018.12.27]",
+          "source_locator": {
+            "coordinate_system": "PDF point; 원점=페이지 왼쪽 위",
+            "pdf_pages": [
+              2
+            ],
+            "printed_pages": [
+              2
+            ],
+            "lines": [
+              {
+                "line_id": "p02l011",
+                "page": 2,
+                "bbox": [
+                  70.91,
+                  287.881,
+                  524.75,
+                  297.961
+                ]
+              },
+              {
+                "line_id": "p02l012",
+                "page": 2,
+                "bbox": [
+                  85.08,
+                  303.711,
+                  406.437,
+                  313.791
+                ]
+              },
+              {
+                "line_id": "p02l013",
+                "page": 2,
+                "bbox": [
+                  85.09,
+                  320.021,
+                  524.53,
+                  330.101
+                ]
+              },
+              {
+                "line_id": "p02l014",
+                "page": 2,
+                "bbox": [
+                  85.1,
+                  336.091,
+                  524.78,
+                  346.171
+                ]
+              },
+              {
+                "line_id": "p02l015",
+                "page": 2,
+                "bbox": [
+                  85.11,
+                  351.921,
+                  260.547,
+                  362.001
+                ]
+              },
+              {
+                "line_id": "p02l016",
+                "page": 2,
+                "bbox": [
+                  85.12,
+                  368.231,
+                  524.56,
+                  378.311
+                ]
+              },
+              {
+                "line_id": "p02l017",
+                "page": 2,
+                "bbox": [
+                  103.85,
+                  384.061,
+                  261.527,
+                  394.141
+                ]
+              },
+              {
+                "line_id": "p02l018",
+                "page": 2,
+                "bbox": [
+                  85.14,
+                  400.371,
+                  524.633,
+                  410.451
+                ]
+              },
+              {
+                "line_id": "p02l019",
+                "page": 2,
+                "bbox": [
+                  103.87,
+                  416.441,
+                  164.827,
+                  426.521
+                ]
+              },
+              {
+                "line_id": "p02l020",
+                "page": 2,
+                "bbox": [
+                  85.16,
+                  432.511,
+                  389.477,
+                  442.591
+                ]
+              },
+              {
+                "line_id": "p02l021",
+                "page": 2,
+                "bbox": [
+                  85.17,
+                  448.821,
+                  468.983,
+                  458.901
+                ]
+              },
+              {
+                "line_id": "p02l022",
+                "page": 2,
+                "bbox": [
+                  85.18,
+                  464.891,
+                  524.62,
+                  474.971
+                ]
+              },
+              {
+                "line_id": "p02l023",
+                "page": 2,
+                "bbox": [
+                  85.19,
+                  480.961,
+                  485.267,
+                  491.041
+                ]
+              },
+              {
+                "line_id": "p02l024",
+                "page": 2,
+                "bbox": [
+                  85.2,
+                  497.031,
+                  498.717,
+                  507.111
+                ]
+              },
+              {
+                "line_id": "p02l025",
+                "page": 2,
+                "bbox": [
+                  85.21,
+                  513.341,
+                  498.727,
+                  523.421
+                ]
+              },
+              {
+                "line_id": "p02l026",
+                "page": 2,
+                "bbox": [
+                  85.22,
+                  529.411,
+                  524.777,
+                  539.491
+                ]
+              },
+              {
+                "line_id": "p02l027",
+                "page": 2,
+                "bbox": [
+                  103.95,
+                  545.481,
+                  524.91,
+                  555.561
+                ]
+              },
+              {
+                "line_id": "p02l028",
+                "page": 2,
+                "bbox": [
+                  103.96,
+                  561.551,
+                  218.917,
+                  571.631
+                ]
+              },
+              {
+                "line_id": "p02l029",
+                "page": 2,
+                "bbox": [
+                  85.25,
+                  577.621,
+                  524.93,
+                  587.701
+                ]
+              },
+              {
+                "line_id": "p02l030",
+                "page": 2,
+                "bbox": [
+                  85.26,
+                  593.691,
+                  395.097,
+                  603.771
+                ]
+              },
+              {
+                "line_id": "p02l031",
+                "page": 2,
+                "bbox": [
+                  85.27,
+                  609.761,
+                  524.95,
+                  619.841
+                ]
+              },
+              {
+                "line_id": "p02l032",
+                "page": 2,
+                "bbox": [
+                  85.28,
+                  625.831,
+                  524.773,
+                  635.911
+                ]
+              },
+              {
+                "line_id": "p02l033",
+                "page": 2,
+                "bbox": [
+                  85.29,
+                  641.901,
+                  234.567,
+                  651.981
+                ]
+              },
+              {
+                "line_id": "p02l034",
+                "page": 2,
+                "bbox": [
+                  85.3,
+                  657.971,
+                  524.74,
+                  668.051
+                ]
+              },
+              {
+                "line_id": "p02l035",
+                "page": 2,
+                "bbox": [
+                  85.31,
+                  674.041,
+                  410.747,
+                  684.121
+                ]
+              },
+              {
+                "line_id": "p02l036",
+                "page": 2,
+                "bbox": [
+                  90.36,
+                  690.111,
+                  197.88,
+                  700.191
+                ]
+              }
+            ],
+            "section_kind": "body"
+          }
+        },
+        {
+          "regulation_node_id": "b7adcb91-3b9f-59fe-a068-8b82b2c5c8fd",
+          "regulation_version_id": "5565f28d-29da-5ebd-bb8a-b0dc705f26d3",
+          "regulation_file_id": "30562fdd-97df-5c4b-9535-1c7402d2b738",
+          "path": "인재개발규정 > 별표 1",
+          "body_text": "【별표 1】\n학습총량제 직급별 연간 기준학습 시간\n(제7조 제1항 관련)\n일반직 및 운영직\n구 분 전문직 실무직\n1급/\n2급(을) 3급 4급 5급 6급 7급 8급\n2급(갑)\n연간\n기준학습시간\n(부서자체 32 48 64 80 112 48 48 80 48 48\n/개인학습\n포함)\n※ 연간 최대학습인정시간 :200시간\n※ 인재개발담당부서 학습의무시간 :기준학습시간의 40% 이상\n※ 실무직 중 청원경찰 직무수행자에게는 적용하지 않음\n※ 「인사규정시행세칙」에 의거 정기평정은 매년 10월 31일을 기준으로 기준일전 1년간을 평정",
+          "source_locator": {
+            "coordinate_system": "PDF point; 원점=페이지 왼쪽 위",
+            "pdf_pages": [
+              19
+            ],
+            "printed_pages": [
+              19
+            ],
+            "lines": [
+              {
+                "line_id": "p19l001",
+                "page": 19,
+                "bbox": [
+                  59.53,
+                  108.252,
+                  120.72,
+                  120.96
+                ]
+              },
+              {
+                "line_id": "p19l002",
+                "page": 19,
+                "bbox": [
+                  88.8,
+                  163.6,
+                  388.72,
+                  179.6
+                ]
+              },
+              {
+                "line_id": "p19l003",
+                "page": 19,
+                "bbox": [
+                  389.52,
+                  166.8,
+                  501.36,
+                  178.8
+                ]
+              },
+              {
+                "line_id": "p19l004",
+                "page": 19,
+                "bbox": [
+                  243.84,
+                  268.16,
+                  331.64,
+                  279.16
+                ]
+              },
+              {
+                "line_id": "p19l005",
+                "page": 19,
+                "bbox": [
+                  89.76,
+                  313.52,
+                  517.4,
+                  324.52
+                ]
+              },
+              {
+                "line_id": "p19l006",
+                "page": 19,
+                "bbox": [
+                  145.92,
+                  319.28,
+                  173.48,
+                  330.28
+                ]
+              },
+              {
+                "line_id": "p19l007",
+                "page": 19,
+                "bbox": [
+                  179.52,
+                  326.48,
+                  426.44,
+                  337.48
+                ]
+              },
+              {
+                "line_id": "p19l008",
+                "page": 19,
+                "bbox": [
+                  140.16,
+                  333.68,
+                  182.12,
+                  344.68
+                ]
+              },
+              {
+                "line_id": "p19l009",
+                "page": 19,
+                "bbox": [
+                  95.76,
+                  378.88,
+                  114.88,
+                  388.88
+                ]
+              },
+              {
+                "line_id": "p19l010",
+                "page": 19,
+                "bbox": [
+                  77.04,
+                  390.88,
+                  133.6,
+                  400.88
+                ]
+              },
+              {
+                "line_id": "p19l011",
+                "page": 19,
+                "bbox": [
+                  86.16,
+                  402.56,
+                  511.88,
+                  413.56
+                ]
+              },
+              {
+                "line_id": "p19l012",
+                "page": 19,
+                "bbox": [
+                  84.96,
+                  414.88,
+                  125.68,
+                  424.88
+                ]
+              },
+              {
+                "line_id": "p19l013",
+                "page": 19,
+                "bbox": [
+                  95.04,
+                  426.88,
+                  122.08,
+                  436.88
+                ]
+              },
+              {
+                "line_id": "p19l014",
+                "page": 19,
+                "bbox": [
+                  70.32,
+                  464.0,
+                  254.6,
+                  475.0
+                ]
+              },
+              {
+                "line_id": "p19l015",
+                "page": 19,
+                "bbox": [
+                  70.32,
+                  483.68,
+                  390.2,
+                  494.68
+                ]
+              },
+              {
+                "line_id": "p19l016",
+                "page": 19,
+                "bbox": [
+                  70.32,
+                  501.44,
+                  356.36,
+                  512.44
+                ]
+              },
+              {
+                "line_id": "p19l017",
+                "page": 19,
+                "bbox": [
+                  70.32,
+                  518.277,
+                  522.92,
+                  529.96
+                ]
+              }
+            ],
+            "section_kind": "annex"
+          }
+        }
+      ],
+      "employee_fields_to_confirm": [
+        "평정 기준일·적용 연도와 당시 적용되는 규정 개정본",
+        "직군·직급·직급 재직기간과 기관에서 인정하는 근무연수",
+        "평정 대상 여부와 리더교육 이수·이수 간주 내역, 직군전환 특례",
+        "인정된 학습시간과 해당 직급의 기준학습시간",
+        "해당 직원에게 적용되는 필수 직무교육 과정 목록과 대상 과정 수",
+        "해당 직급 재직기간 중 확인된 과정별 이수·종전 이수 인정 내역",
+        "세부 학습시간 인정·근무연수 계산·점수 상한·반올림 등 기관 기준"
+      ],
+      "application_cases": [
+        {
+          "case_id": "source_formula_available",
+          "situation": "규정 산식과 변수 정의 확인",
+          "action": "산식과 원문 위치를 안내. 실제 점수는 적용 대상·개인 입력값·세부 기준 확인 후 검토"
+        },
+        {
+          "case_id": "employee_inputs_missing",
+          "situation": "교육 기록·인정시간·대상 과정 수 등이 확인되지 않음",
+          "action": "점수 확인 필요로 안내. 미확인 값을 0으로 바꾸지 않음"
+        },
+        {
+          "case_id": "eligibility_unknown",
+          "situation": "리더교육 이수 여부 또는 직군전환 적용 관계가 불명확함",
+          "action": "평정 대상 여부 확인 필요로 안내. 기록 미확인을 실제 미수료·평정 제외로 확정하지 않음"
+        },
+        {
+          "case_id": "zero_denominator",
+          "situation": "목표학습량 C 또는 대상 과정 수 E가 0으로 제공됨",
+          "action": "산식을 실행하지 않고 해당 값·적용 관계를 확인. 0점이나 면제로 바꾸지 않음"
+        }
+      ],
+      "notes": [
+        "질문하는 날은 상담의 규정 적용 기준일이다. 매년 평정 기준일과 같은 날짜로 취급하지 않는다.",
+        "제41조의 리더교육 미수료와 직군전환 특례, 제7조의 기한·부칙 적용 관계는 함께 확인해야 한다.",
+        "별표1에는 정기평정 기준일 10월31일과 기준일 전 1년간 평정 안내가 있다. 제42조의 직급 재직기간 누계 산식과 구분해 보존한다.",
+        "별표1의 연간 최대학습인정시간 200시간은 학습시간 인정에 관한 원문이다. 평정 점수나 비율 상한으로 대신 사용하지 않는다.",
+        "이수 비율은 현재 실무 역량 점수로 자동 변환하지 않는다.",
+        "산식 저장과 관련 원문 연결만 수행했다. 실제 직원의 점수 계산·평정 제외 판정은 구현하지 않았다."
+      ],
+      "user_messages": {
+        "formula_reference": {
+          "title": "교육훈련평정 산식 안내",
+          "paragraphs": [
+            "인사규정시행세칙 제42조는 학습시간 달성 비율 60%와 필수 직무교육 이수 비율 40%를 반영하는 산식을 정하고 있습니다.",
+            "개인 점수를 확인하려면 평정 대상 여부, 인정된 학습시간, 해당 직원의 필수 과정 수와 이수 내역을 확인해야 합니다."
+          ]
+        },
+        "missing_basis": {
+          "title": "교육훈련평정 점수 확인 필요",
+          "paragraphs": [
+            "현재 자료에서 점수 계산에 필요한 정보가 충분히 확인되지 않습니다.",
+            "확인되지 않은 기록을 0시간·미이수·0점으로 표시하지 않고, 필요한 교육 이력과 기관의 인정 기준을 확인하겠습니다."
+          ]
+        },
+        "eligibility_unknown": {
+          "title": "교육훈련평정 대상 여부 확인 필요",
+          "paragraphs": [
+            "리더교육 이수 또는 직군전환 특례의 적용 관계를 확인해야 합니다.",
+            "교육 기록이 보이지 않는다는 이유로 평정 대상에서 자동 제외하지 않습니다."
+          ]
+        }
+      }
+    },
+    "leader_training_deadline": {
+      "handling_review_status": "user_accepted",
+      "automated_decision_enabled": false,
+      "user_review_note": "2026-10-13: 확인된 근거로 기한을 안내하고 정보가 부족하면 기한 확인 필요로 안내하는 방향 수용.",
+      "source_evidence": [
+        {
+          "regulation_node_id": "fb1ff624-1de3-5383-ad6b-194583b1c0c6",
+          "regulation_version_id": "5565f28d-29da-5ebd-bb8a-b0dc705f26d3",
+          "regulation_file_id": "30562fdd-97df-5c4b-9535-1c7402d2b738",
+          "path": "인재개발규정 > 제1장 > 제7조 > 제4항",
+          "body_text": "④ 승진 임용 (「인사규정」 제28조의2에 따른 직급 대우와 4급 과장 호칭 변경을 포함한다.)된 자\n는 다음 각 호의 기한 내 리더역량 필수교육을 이수하여야 한다. <신설 2024.12.26.>\n1. 2월 말까지 승진 임용된 자 : 승진임용된 다음해 10월 31일까지 <신설 2024.12.26.>\n2. 3월 이후 승진 임용된 자 : 승진임용된 다다음해 10월 31일까지 <신설 2024.12.26.>\n3. 제1호 및 제2호의 기간이 경과하기 전에 국외 파견 또는 휴직한 자 : 복귀한 다음해 10월 31\n일까지. 다만, 불가피한 경우 인재개발 담당부서장의 사전 승인을 받아 1년을 연장할 수 있\n다. <신설 2024.12.26.>",
+          "source_locator": {
+            "coordinate_system": "PDF point; 원점=페이지 왼쪽 위",
+            "pdf_pages": [
+              2
+            ],
+            "printed_pages": [
+              2
+            ],
+            "lines": [
+              {
+                "line_id": "p02l022",
+                "page": 2,
+                "bbox": [
+                  85.18,
+                  464.891,
+                  524.62,
+                  474.971
+                ]
+              },
+              {
+                "line_id": "p02l023",
+                "page": 2,
+                "bbox": [
+                  85.19,
+                  480.961,
+                  485.267,
+                  491.041
+                ]
+              },
+              {
+                "line_id": "p02l024",
+                "page": 2,
+                "bbox": [
+                  85.2,
+                  497.031,
+                  498.717,
+                  507.111
+                ]
+              },
+              {
+                "line_id": "p02l025",
+                "page": 2,
+                "bbox": [
+                  85.21,
+                  513.341,
+                  498.727,
+                  523.421
+                ]
+              },
+              {
+                "line_id": "p02l026",
+                "page": 2,
+                "bbox": [
+                  85.22,
+                  529.411,
+                  524.777,
+                  539.491
+                ]
+              },
+              {
+                "line_id": "p02l027",
+                "page": 2,
+                "bbox": [
+                  103.95,
+                  545.481,
+                  524.91,
+                  555.561
+                ]
+              },
+              {
+                "line_id": "p02l028",
+                "page": 2,
+                "bbox": [
+                  103.96,
+                  561.551,
+                  218.917,
+                  571.631
+                ]
+              }
+            ],
+            "section_kind": "body"
+          }
+        },
+        {
+          "regulation_node_id": "a00b163b-6769-5b86-ac9b-096d07413fc9",
+          "regulation_version_id": "5565f28d-29da-5ebd-bb8a-b0dc705f26d3",
+          "regulation_file_id": "30562fdd-97df-5c4b-9535-1c7402d2b738",
+          "path": "인재개발규정 > 부칙(2024-12-26) > 제1조",
+          "body_text": "제1조(시행일) 이 규정은 2025년 1월 1일부터 시행한다. 단 제10조제3항은 2028년 1월 1일부터 시\n행한다.",
+          "source_locator": {
+            "coordinate_system": "PDF point; 원점=페이지 왼쪽 위",
+            "pdf_pages": [
+              18
+            ],
+            "printed_pages": [
+              18
+            ],
+            "lines": [
+              {
+                "line_id": "p18l001",
+                "page": 18,
+                "bbox": [
+                  70.81,
+                  87.581,
+                  524.89,
+                  97.661
+                ]
+              },
+              {
+                "line_id": "p18l002",
+                "page": 18,
+                "bbox": [
+                  84.98,
+                  103.651,
+                  117.913,
+                  113.731
+                ]
+              }
+            ],
+            "section_kind": "supplement"
+          }
+        },
+        {
+          "regulation_node_id": "38d39722-68aa-5657-8ba5-dfd5b434b691",
+          "regulation_version_id": "5565f28d-29da-5ebd-bb8a-b0dc705f26d3",
+          "regulation_file_id": "30562fdd-97df-5c4b-9535-1c7402d2b738",
+          "path": "인재개발규정 > 부칙(2024-12-26) > 제2조",
+          "body_text": "제2조(적용례) 이 규정 시행 당시 제7조제4항의 리더역량 필수교육을 이수하지 않은 직원에 대한 이\n수 의무기간은 2026년 10월 31일까지이고, 국외 파견 중이거나 휴직 중인 자의 이수 의무기간은\n제7조제4항제3호를 적용한다.",
+          "source_locator": {
+            "coordinate_system": "PDF point; 원점=페이지 왼쪽 위",
+            "pdf_pages": [
+              18
+            ],
+            "printed_pages": [
+              18
+            ],
+            "lines": [
+              {
+                "line_id": "p18l003",
+                "page": 18,
+                "bbox": [
+                  70.83,
+                  126.201,
+                  524.67,
+                  136.281
+                ]
+              },
+              {
+                "line_id": "p18l004",
+                "page": 18,
+                "bbox": [
+                  85.0,
+                  142.031,
+                  524.68,
+                  152.111
+                ]
+              },
+              {
+                "line_id": "p18l005",
+                "page": 18,
+                "bbox": [
+                  85.01,
+                  158.101,
+                  220.423,
+                  168.181
+                ]
+              }
+            ],
+            "section_kind": "supplement"
+          }
+        }
+      ],
+      "rule_effective_from": "2025-01-01",
+      "standard_rules": [
+        {
+          "event_months": [
+            1,
+            2
+          ],
+          "due_year_offset": 1,
+          "due_month": 10,
+          "due_day": 31
+        },
+        {
+          "event_months": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "due_year_offset": 2,
+          "due_month": 10,
+          "due_day": 31
+        }
+      ],
+      "appointment_events_in_source": [
+        "승진 임용",
+        "인사규정 제28조의2에 따른 직급 대우",
+        "4급 과장 호칭 변경"
+      ],
+      "transition_rule": {
+        "as_of_date": "2025-01-01",
+        "requires_uncompleted_at_that_date": true,
+        "due_date": "2026-10-31",
+        "leave_or_overseas_at_that_date": "제7조 제4항 제3호 적용"
+      },
+      "return_exception": {
+        "requires_start_before_original_deadline": true,
+        "due_year_offset_from_return": 1,
+        "due_month": 10,
+        "due_day": 31,
+        "extension": {
+          "years": 1,
+          "requires_prior_approval": true,
+          "approval_role": "인재개발 담당부서장",
+          "auto_extend_without_record": false
+        }
+      },
+      "consultation_as_of_date": {
+        "basis": "질문하는 날",
+        "time_zone": "Asia/Seoul"
+      },
+      "employee_fields_to_confirm": [
+        "직군·직급과 해당 리더교육의 대상 여부",
+        "해당 교육에 연결되는 승진 임용·직급 대우·과장 호칭 변경일",
+        "교육 이수 또는 이수 간주 내역과 일자",
+        "2025-01-01 당시 해당 교육의 미이수 여부",
+        "휴직·국외 파견 시작일과 복귀일",
+        "해당 특례의 1년 연장 사전 승인 내역"
+      ],
+      "application_cases": [
+        {
+          "case_id": "jan_feb",
+          "situation": "2026-02-28 승진 임용, 해당 교육 대상 확인",
+          "candidate_due_date": "2027-10-31",
+          "basis": "다음해 10월 31일"
+        },
+        {
+          "case_id": "march_onward",
+          "situation": "2026-03-01 승진 임용, 해당 교육 대상 확인",
+          "candidate_due_date": "2028-10-31",
+          "basis": "다다음해 10월 31일"
+        },
+        {
+          "case_id": "transition",
+          "situation": "2025-01-01 당시 해당 교육 대상이며 미이수였음이 확인됨",
+          "candidate_due_date": "2026-10-31",
+          "basis": "최신 부칙 제2조. 파견·휴직 특례 여부 함께 확인"
+        },
+        {
+          "case_id": "return",
+          "situation": "기한 전에 휴직·국외 파견했고 2026년에 복귀한 사실 확인",
+          "candidate_due_date": "2027-10-31",
+          "basis": "복귀 다음해 10월 31일"
+        },
+        {
+          "case_id": "still_away",
+          "situation": "휴직·국외 파견 중이며 복귀일이 미정",
+          "candidate_due_date": null,
+          "basis": "복귀일 확정 전 기한 확인 필요"
+        },
+        {
+          "case_id": "approved_extension",
+          "situation": "복귀 특례 기한 2027-10-31에 대해 사전 승인된 1년 연장 확인",
+          "candidate_due_date": "2028-10-31",
+          "basis": "제7조 제4항 제3호의 불가피한 경우·사전 승인 조건"
+        },
+        {
+          "case_id": "missing_basis",
+          "situation": "교육 대상·임명일·시행 당시 미이수 여부 등 판단 근거가 부족함",
+          "candidate_due_date": null,
+          "basis": "2026-10-31이나 연장 기한을 일괄 적용하지 않고 확인 필요로 안내"
+        }
+      ],
+      "notes": [
+        "일반 기한, 시행 당시 미이수자 부칙, 휴직·국외 파견 특례를 함께 대조한다.",
+        "본문 제7조 제4항의 기한은 직무교육 C-07의 승진일 조건과 별개의 리더교육 기준이다.",
+        "교육 대상과 이수·이수 간주 여부를 먼저 확인한다. 이미 충족한 교육을 새 미이수 의무로 표시하지 않는다.",
+        "기한 전에 시작된 휴직·파견인지 확인한다. 기한 경과 후 시작됐거나 휴직이 여러 차례인 경우 적용 관계를 별도로 확인한다.",
+        "시행일 당시 미이수였는지 확인하지 못하면 부칙의 기한을 모든 직원에게 부여하지 않는다.",
+        "승인 기록을 확인하지 못하면 1년 연장을 자동 반영하지 않는다. 본문 제3호의 특례 범위를 넘어 일반 연장으로 확대하지 않는다.",
+        "기록이 없는 상태를 미이수로 단정하거나 징계·불이익을 자동 판정하지 않는다.",
+        "여기 날짜는 조건이 확인됐다고 가정한 예시다. 실제 직원별 기한 계산 기능은 구현하지 않았다."
+      ],
+      "user_messages": {
+        "identified_deadline": {
+          "title": "리더교육 이수기한 확인",
+          "paragraphs": [
+            "확인된 교육 대상과 임명·변경일, 휴직·복귀 이력을 원문 기준에 대조하여 이수기한을 안내합니다.",
+            "해당 교육의 실제 이수 또는 이수 간주 내역도 함께 확인해 주세요."
+          ]
+        },
+        "missing_basis": {
+          "title": "리더교육 기한 확인 필요",
+          "paragraphs": [
+            "현재 자료만으로는 해당 리더교육의 이수기한을 확정하기 어렵습니다.",
+            "임명·변경일, 시행 당시 교육 이력 또는 휴직·복귀 내역을 확인해야 합니다. 확인되지 않은 날짜나 연장을 임의 적용하지 않습니다."
+          ]
+        },
+        "completion_unknown": {
+          "title": "리더교육 이수 내역 확인 필요",
+          "paragraphs": [
+            "해당 교육의 이수 내역이 현재 자료에서 확인되지 않습니다.",
+            "기록 미확인을 실제 미이수로 표시하지 않고, 이수 또는 이수 간주 근거를 확인하겠습니다."
+          ]
+        }
+      }
+    },
+    "promotion_date_application": {
+      "scope": "일반직 4급·3급·2급(을)의 직무역량 개정 기준",
+      "source_condition_ids": [
+        "C-07"
+      ],
+      "handling_review_status": "user_accepted",
+      "wording_status": "codex_draft_under_accepted_direction",
+      "automated_decision_enabled": false,
+      "user_review_note": "2026-10-13: 확인 필요 안내 방향 수용. 미승진자의 승진일은 공란이며 여러 승진 이력이 있으면 마지막 승진일 중심으로 확인하도록 사용자 의견 반영.",
+      "employee_fields_to_confirm": [
+        "현재 직군·직급",
+        "마지막 승진일(승진한 적이 없으면 공란)",
+        "마지막 승진으로 오른 직급 또는 현재 직급의 시작 사유",
+        "승진일이 공란인 이유(승진 이력 없음·기록 미확인)를 원자료에서 확인"
+      ],
+      "employee_data_hint": {
+        "last_promotion_date": {
+          "nullable": true,
+          "when_never_promoted": null,
+          "multiple_promotions": "확인된 승진 기록 중 마지막 날짜"
+        },
+        "basis_check": "마지막 승진일이 현재 직급으로 승진한 날짜인지 대조",
+        "history_requirement": "현재 직급의 C-07 검토는 마지막 승진일 중심. 전체 승진 이력을 새로 저장해야 한다는 요구는 아님.",
+        "null_note": "승진 이력이 없으면 NULL이 정상. 기록 미확인도 NULL일 수 있으므로 원자료의 공란 사유를 구분.",
+        "schema_status": "직원 데이터 생성·DB 통합 담당자에게 전달하는 필드 참고이며 실제 직원 테이블을 변경한 것은 아님."
+      },
+      "promotion_status_options": {
+        "promotion_record_available": "승진 기록과 마지막 승진일을 확인할 수 있음",
+        "never_promoted": "승진한 적이 없어 마지막 승진일이 NULL임",
+        "unknown": "승진 여부 또는 기록이 확인되지 않음"
+      },
+      "application_cases": [
+        {
+          "case_id": "promoted_on_or_after_threshold",
+          "employee_situation": "현재 직급으로 승진했고 승진일이 해당 기준일 이상으로 확인됨",
+          "action": "C-07에 따른 개정 기준 적용 대상으로 안내하고 종전 교육 이수 내역을 함께 확인"
+        },
+        {
+          "case_id": "promoted_before_threshold",
+          "employee_situation": "현재 직급으로 승진했으나 승진일이 해당 기준일 이전으로 확인됨",
+          "action": "종전 교육기준이나 추가 적용 규정을 확인. 교육 면제로 확정하지 않음"
+        },
+        {
+          "case_id": "never_promoted",
+          "employee_situation": "승진한 적이 없어 마지막 승진일이 공란인 것으로 확인됨",
+          "action": "마지막 승진일을 NULL로 유지하고 현재 직급의 채용·임용에 따른 교육기준을 확인"
+        },
+        {
+          "case_id": "promotion_history_unknown",
+          "employee_situation": "현재 직급으로 승진했는지 확인되지 않음",
+          "action": "승진 이력 확인 필요로 안내. 기록이 없다는 이유로 승진하지 않았다고 확정하지 않음"
+        },
+        {
+          "case_id": "promotion_date_unknown",
+          "employee_situation": "현재 직급으로 승진한 사실은 확인됐지만 승진일은 확인되지 않음",
+          "action": "해당 직급 승진일 확인 필요로 안내. 입사일·호칭 변경일·직급 시작일로 임의 대체하지 않음"
+        },
+        {
+          "case_id": "latest_promotion_grade_mismatch",
+          "employee_situation": "마지막 승진일은 있으나 그때 승진한 직급이 현재 직급과 다르거나 확인되지 않음",
+          "action": "마지막 날짜를 바로 대입하지 않고 현재 직급으로의 승진 여부·직급 변경 사유를 확인"
+        }
+      ],
+      "notes": [
+        "직군·직급이 C-07의 대상인지 먼저 확인한다. 다른 직군·직급의 교육 의무는 해당 기준에서 별도로 확인한다.",
+        "여러 번 승진했다면 마지막 승진일이 현재 직급으로 승진한 날짜인 경우 그 값으로 C-07을 확인할 수 있다.",
+        "마지막 승진의 직급이 현재 직급과 다르면 마지막 날짜만으로 C-07을 판단하지 않는다.",
+        "C-07은 직무역량 개정 기준의 조건이다. 리더교육 대상·기한은 제7조 제4항과 부칙에서 별도로 확인한다.",
+        "실제로 승진하지 않은 경우와 승진 여부 또는 승진일의 기록이 부족한 경우를 구분한다.",
+        "승진하지 않은 경우를 승진일 누락 오류로 처리하지 않으며, 채용·임용 적용 기준을 확인한다.",
+        "승진일 조건에 해당하지 않거나 정보가 부족하다는 사실만으로 필수교육 면제를 확정하지 않는다.",
+        "안내 방향을 수용한 보정안이다. 직원별 자동 판정이나 전체 규정 검토 완료를 의미하지 않는다."
+      ],
+      "user_messages": {
+        "on_or_after_threshold": {
+          "title": "개정 교육기준 적용 대상",
+          "paragraphs": [
+            "등록된 현재 직급의 승진일이 해당 기준일 이상으로 확인됩니다. 별표 2의 승진일 조건에 따른 개정 직무역량 교육기준을 참고할 수 있습니다.",
+            "종전 교육 이수 내역과 인정 조건을 함께 확인하여 추가 교육이 필요한지 살펴보겠습니다."
+          ]
+        },
+        "before_threshold": {
+          "title": "교육기준 적용 확인 필요",
+          "paragraphs": [
+            "현재 직급의 승진일이 별표 2의 개정 기준 적용일보다 이전으로 확인됩니다.",
+            "종전 교육기준이나 추가 적용 규정을 확인해야 합니다. 이 사실만으로 교육 면제가 되는 것은 아닙니다."
+          ]
+        },
+        "not_promoted": {
+          "title": "채용·임용에 따른 교육기준 확인 필요",
+          "paragraphs": [
+            "승진한 이력이 없는 것으로 확인되어 마지막 승진일은 공란으로 유지합니다. 정상적인 공란이며 날짜를 새로 입력할 필요가 없습니다.",
+            "현재 직급을 시작한 채용·임용 경위와 적용되는 교육기준을 확인하겠습니다. 승진하지 않았다는 이유만으로 필수교육 면제로 처리하지 않습니다."
+          ]
+        },
+        "promotion_history_unknown": {
+          "title": "승진 이력 확인 필요",
+          "paragraphs": [
+            "현재 등록된 정보만으로는 해당 직급으로 승진했는지 확인하기 어렵습니다.",
+            "승진 기록이 없다는 것과 실제로 승진하지 않았다는 것은 다릅니다. 직급 변경 사유와 인사발령 이력을 확인해 주세요."
+          ]
+        },
+        "promotion_date_unknown": {
+          "title": "승진일 확인 필요",
+          "paragraphs": [
+            "현재 직급으로 승진한 사실은 확인되지만 승진일이 확인되지 않습니다.",
+            "개정 교육기준의 적용 여부를 확인하려면 해당 직급의 승진일이 필요합니다. 입사일이나 직급 시작일을 승진일로 임의 사용하지 않습니다."
+          ]
+        },
+        "latest_promotion_grade_mismatch": {
+          "title": "현재 직급의 승진 기준 확인 필요",
+          "paragraphs": [
+            "마지막 승진일은 등록되어 있지만 해당 승진이 현재 직급으로의 승진인지 확인이 필요합니다.",
+            "현재 직급과 마지막 승진의 직급 또는 직급 시작 사유를 대조한 뒤 적용 기준을 확인하겠습니다."
+          ]
+        }
+      }
+    },
+    "legacy_job_understanding_ii": {
+      "scope": "종전 직무이해Ⅱ의 행정·기술 분야 이수 인정",
+      "source_condition_ids": [
+        "C-08"
+      ],
+      "handling_review_status": "user_accepted",
+      "wording_status": "codex_draft_under_accepted_direction",
+      "automated_decision_enabled": false,
+      "user_review_note": "2026-10-13: 양 분야 이수 확인·한 분야만 이수 확인·다른 분야 기록 미확인을 구분하는 안내 방향 수용.",
+      "employee_fields_to_confirm": [
+        "종전 교육과정의 명칭·운영 시기",
+        "행정 분야 이수 내역",
+        "기술 분야 이수 내역",
+        "기관의 별도 인정 내역"
+      ],
+      "completion_status_options": {
+        "completed": "이수 확인",
+        "not_completed": "미이수 확인",
+        "unknown": "기록 미확인"
+      },
+      "recognition_type": "transition_equivalence",
+      "application_cases": [
+        {
+          "case_id": "both_fields_completed",
+          "employee_situation": "종전 행정·기술 분야 이수가 모두 확인됨",
+          "action": "C-08에 따른 개정 직무이해Ⅱ 전체 이수 인정으로 안내. 개정 과정을 실제 수강한 기록과 구분"
+        },
+        {
+          "case_id": "one_field_confirmed_incomplete",
+          "employee_situation": "한 분야 이수와 다른 분야 미이수가 확인됨",
+          "action": "전체 이수 인정 조건은 충족하지 않음. 기존 이수 내역을 보존하고 개정 과정의 부분 인정 기준은 별도 확인"
+        },
+        {
+          "case_id": "one_field_unknown",
+          "employee_situation": "한 분야 이수는 확인되지만 다른 분야의 기록은 미확인",
+          "action": "인정 조건 확인 필요로 안내. 기록 미확인을 미이수로 단정하지 않음"
+        },
+        {
+          "case_id": "fields_not_recorded",
+          "employee_situation": "과정명만 있고 분야별 이수 내역이 없음",
+          "action": "행정·기술 분야별 이수 내역을 확인한 뒤 전체 인정 여부를 검토"
+        },
+        {
+          "case_id": "course_identity_unknown",
+          "employee_situation": "종전 직무이해Ⅱ에 해당하는 교육인지 불명확",
+          "action": "과정명·운영 시기·기관의 인정 내역을 확인"
+        }
+      ],
+      "notes": [
+        "행정·기술은 종전 교육 분야다. 현재 부서나 직군으로 이수 여부를 판단하지 않는다.",
+        "다른 분야의 미이수가 확인된 경우와 해당 분야 기록이 확인되지 않은 경우를 구분한다.",
+        "종전 이수 기록을 보존하고 실제 수강과 경과규정에 따른 이수 인정을 따로 표현한다.",
+        "한 분야 이수를 개정 과정의 어느 세부 분야에 부분 인정할지는 별도 기준 확인 전 확정하지 않는다.",
+        "C-08 인정을 직무이해Ⅲ·Ⅳ까지 확대하지 않는다."
+      ],
+      "user_messages": {
+        "both_fields_completed": {
+          "title": "종전 교육에 따른 이수 인정",
+          "paragraphs": [
+            "종전 직무이해Ⅱ의 행정·기술 분야를 모두 이수한 내역이 확인됩니다.",
+            "별표 2의 C-08 인정 조건에 따라 개정 직무이해Ⅱ를 모두 이수한 것으로 볼 수 있습니다. 종전 이수 내역은 그대로 보존합니다."
+          ]
+        },
+        "one_field_confirmed_incomplete": {
+          "title": "전체 이수 인정 조건 미충족",
+          "paragraphs": [
+            "종전 직무이해Ⅱ의 한 분야 이수와 다른 분야 미이수가 확인됩니다. 양 분야 이수에 따른 전체 인정 조건은 충족하지 않습니다.",
+            "이수한 분야의 기록은 보존합니다. 개정 과정에 대한 부분 인정 여부는 기관의 추가 기준을 확인해야 합니다."
+          ]
+        },
+        "one_field_unknown": {
+          "title": "교육 이수 인정 조건 확인 필요",
+          "paragraphs": [
+            "종전 직무이해Ⅱ의 한 분야 이수는 확인되지만 다른 분야 이수 내역은 현재 등록된 자료에서 확인되지 않습니다.",
+            "기록이 확인되지 않는다는 이유로 미이수로 표시하지 않습니다. 다른 분야의 이수 내역을 함께 확인해야 전체 인정 여부를 판단할 수 있습니다."
+          ]
+        },
+        "fields_not_recorded": {
+          "title": "분야별 이수 내역 확인 필요",
+          "paragraphs": [
+            "종전 직무이해Ⅱ의 과정명은 확인되지만 행정·기술 분야별 내역이 구분되어 있지 않습니다.",
+            "기관의 교육 이력에서 두 분야의 이수 내역을 확인해 주세요."
+          ]
+        },
+        "course_identity_unknown": {
+          "title": "종전 교육과정 확인 필요",
+          "paragraphs": [
+            "등록된 교육이 C-08의 종전 직무이해Ⅱ에 해당하는지 확인이 필요합니다.",
+            "과정명과 운영 시기, 기관의 인정 내역을 대조한 뒤 이수 인정 여부를 확인하겠습니다."
+          ]
+        }
+      }
+    },
+    "professional_blank": {
+      "title": "필수교육 기준 확인 필요",
+      "paragraphs": [
+        "현재 확보한 인재개발규정 별표 2에는 전문직의 리더·직무역량 필수교육 과정이 공란으로 기재되어 있습니다.",
+        "공통역량 교육은 기관이 별도 방침으로 정하여 시행합니다. 해당 연도의 교육 안내를 확인해 주세요.",
+        "개인의 목표와 업무에 맞춘 성장계획과 교육 추천은 계속 이용할 수 있습니다."
+      ],
+      "wording_status": "user_provided",
+      "handling_decision": "원문 공란 보존. 교육 없음·면제로 확정하지 않음.",
+      "handling_review_status": "user_accepted",
+      "individual_training_obligation_confirmed": false
+    },
+    "grade4_leader": {
+      "scope": "일반직 4급 리더역량 교육",
+      "requirement_id": "af61a16d-2f5d-5c7e-b249-4355b490c26e",
+      "handling_review_status": "user_accepted",
+      "automated_decision_enabled": false,
+      "employee_fields_to_confirm": [
+        "직군·직급",
+        "현재 호칭",
+        "임명·호칭 변경의 종류와 일자",
+        "과정별 교육 이수 내역",
+        "경력직·고용전환 등 채용 유형"
+      ],
+      "application_cases": [
+        {
+          "employee_situation": "4급 대리로 새로 임명됨",
+          "course_candidate": "신임대리",
+          "action": "확인할 교육과정으로 제시하고 기관의 과정별 대상 안내와 대조"
+        },
+        {
+          "employee_situation": "4급 과장으로 호칭이 변경됨",
+          "course_candidate": "신임과장",
+          "action": "확인할 교육과정으로 제시하고 기관의 과정별 대상 안내와 대조"
+        },
+        {
+          "employee_situation": "해당 과정의 이수 내역이 확인됨",
+          "course_candidate": null,
+          "action": "해당 과정 이수 완료로 표시하고 중복 참여 안내를 줄임"
+        },
+        {
+          "employee_situation": "경력직·고용전환 등 채용 당시 이수 간주 조건이 확인됨",
+          "course_candidate": null,
+          "action": "실제 수강과 구분하여 해당 임명 당시 교육의 이수 간주로 표시"
+        },
+        {
+          "employee_situation": "직급만 있고 호칭·임명 이력이 없음",
+          "course_candidate": null,
+          "action": "두 과정을 보여주되 개인별 대상은 확인 필요로 표시"
+        }
+      ],
+      "notes": [
+        "대리 교육 이수를 이후 과장 호칭 변경에 따른 교육까지 완료한 것으로 확대하지 않는다.",
+        "경력직 등의 이수 간주는 채용·임명 당시 리더교육을 기준으로 확인한다.",
+        "이수기한 안내에는 제7조 제4항과 부칙 적용례, 임명·호칭 변경일 및 복귀·휴직 정보를 함께 확인한다.",
+        "과정 배정·기한 산정의 실제 서비스 구현은 포함하지 않은 보정안이다."
+      ],
+      "user_messages": {
+        "identified_manager": {
+          "title": "신임과장 리더교육 확인",
+          "paragraphs": [
+            "등록된 인사정보에서 4급 과장 호칭 변경 내역이 확인됩니다. 별표 2의 4급 리더교육에는 ‘신임과장’ 과정이 기재되어 있습니다.",
+            "해당 과정의 이수 내역과 올해 교육 대상 안내를 확인해 주세요."
+          ]
+        },
+        "identified_assistant_manager": {
+          "title": "신임대리 리더교육 확인",
+          "paragraphs": [
+            "등록된 인사정보에서 4급 대리 임명 내역이 확인됩니다. 별표 2의 4급 리더교육에는 ‘신임대리’ 과정이 기재되어 있습니다.",
+            "해당 과정의 이수 내역과 올해 교육 대상 안내를 확인해 주세요."
+          ]
+        },
+        "insufficient_information": {
+          "title": "리더교육 대상 확인 필요",
+          "paragraphs": [
+            "별표 2에는 일반직 4급 리더교육으로 ‘신임과장’과 ‘신임대리’ 과정이 기재되어 있습니다.",
+            "현재 등록된 정보만으로는 개인에게 해당하는 과정을 구분하기 어렵습니다. 임명·호칭 변경 내역 또는 기관의 교육 대상 안내를 확인해 주세요."
+          ]
+        }
+      }
+    }
+  },
+  "review_points": [
+    "전문직 공란 처리 방향과 직원 안내문: 사용자 의견 반영. 개별 교육 의무는 미확인.",
+    "4급 리더교육 적용 방향과 직원 안내문: 사용자 의견 반영. 임명·호칭 변경과 과정별 이수 내역을 함께 확인.",
+    "승진일 안내 방향: 사용자 의견 반영. 미승진자는 승진일 NULL이 정상이며 마지막 승진일이 현재 직급으로의 승진일인지 대조.",
+    "종전 직무이해Ⅱ C-08 안내 방향: 사용자 의견 반영. 실제 미이수와 기록 미확인을 구분하고 전체 이수 인정·부분 인정 확인을 구분.",
+    "리더교육 기한 안내 방향: 사용자 의견 반영. 본문과 부칙·복귀·연장 조건을 연결하고 근거 부족 시 확인 필요로 안내.",
+    "교육훈련평정 C-05: 관련 세칙 제41~43조와 산식·변수 정의를 연결. 정보 부족 시 점수 확인 필요 안내 방향을 사용자 의견에 따라 반영.",
+    "제10조 제3항: 2028-01-01 예외 시행일과 개인 이력을 확인한 후 조건부 안내. 실제 교육 대상자 자동 제외 판정은 보류.",
+    "나머지 주석 6개: 원문 명시 내용 대조. 2일의 시간 환산, 신입교육 중복 배정, 평정 연도의 날짜 변환, 임금피크 세부 과정 추정을 보류.",
+    "별표 3은 별도 보정 자료에서 단계·분야·평가를 확인. 상세 인정기준·개인별 적용·공식 해석 검토는 계속 유지."
+  ],
+  "delivery_integration": {
+    "included_in_unified_handoff": true,
+    "data_rows_applied": true,
+    "current_integration_report": "report/integration_ledger.json",
+    "db_loaded": false,
+    "search_activated": false,
+    "original_generation_metadata_is_historical": true
+  }
+}

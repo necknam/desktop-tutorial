@@ -1,0 +1,373 @@
+{
+  "contract_version": "K-water evaluation criteria V01",
+  "status": "draft_needs_human_review",
+  "tables": {
+    "evaluation_result_schema": {
+      "cols": [
+        {
+          "n": "evaluation_result_schema_id",
+          "t": "VARCHAR(64)",
+          "nn": true,
+          "pk": true,
+          "c": "PK  평가 기준·양식 ID"
+        },
+        {
+          "n": "institution_id",
+          "t": "VARCHAR(64)",
+          "nn": true,
+          "pk": false,
+          "c": "FK  기관 ID → institution"
+        },
+        {
+          "n": "schema_name",
+          "t": "VARCHAR(255)",
+          "nn": true,
+          "pk": false,
+          "c": "평가 기준·양식 이름"
+        },
+        {
+          "n": "version_label",
+          "t": "VARCHAR(255)",
+          "nn": true,
+          "pk": false,
+          "c": "기준 버전 표시. 규정 개정과 별도로 식별"
+        },
+        {
+          "n": "evaluation_kind",
+          "t": "VARCHAR(40)",
+          "nn": true,
+          "pk": false,
+          "c": "평가 종류. 종합근무·근무성적·경력·교육훈련·가감평정 등 원문 범위를 구분"
+        },
+        {
+          "n": "applicability_condition",
+          "t": "JSONB",
+          "nn": true,
+          "pk": false,
+          "c": "직군·직렬·직급·직위 등 적용 조건. 현재 시연 대상과 원문 적용 범위를 구분"
+        },
+        {
+          "n": "applicability_note",
+          "t": "TEXT",
+          "nn": false,
+          "pk": false,
+          "c": "ERD 기존 적용 설명 유지. 구조화 조건과 함께 사람이 읽을 설명 보관"
+        },
+        {
+          "n": "effective_from",
+          "t": "DATE",
+          "nn": false,
+          "pk": false,
+          "c": "확인된 적용 시작일. 미확인은 NULL"
+        },
+        {
+          "n": "effective_to",
+          "t": "DATE",
+          "nn": false,
+          "pk": false,
+          "c": "확인된 적용 종료일. 미확인은 NULL"
+        },
+        {
+          "n": "rule_origin",
+          "t": "VARCHAR(40)",
+          "nn": true,
+          "pk": false,
+          "c": "기준의 성격. published_rule 또는 demo_rule 제안"
+        },
+        {
+          "n": "source_status",
+          "t": "VARCHAR(40)",
+          "nn": true,
+          "pk": false,
+          "c": "근거 확보 상태. confirmed, partial, unknown 제안"
+        },
+        {
+          "n": "review_status",
+          "t": "VARCHAR(40)",
+          "nn": true,
+          "pk": false,
+          "c": "검토 상태. needs_review, reviewed 제안; 사람 검토 후 확정"
+        },
+        {
+          "n": "calculation_rule",
+          "t": "JSONB",
+          "nn": false,
+          "pk": false,
+          "c": "확인된 산식·변수·단위·처리 규칙과 기준학습시간·필수과정 조건. 미확인은 값과 상태를 구분"
+        },
+        {
+          "n": "calculation_status",
+          "t": "VARCHAR(40)",
+          "nn": true,
+          "pk": false,
+          "c": "산식 상태. known_formula, partial, unspecified 제안"
+        },
+        {
+          "n": "source_note",
+          "t": "TEXT",
+          "nn": false,
+          "pk": false,
+          "c": "기관 세부 기준의 미확인 사항과 적용 한계"
+        }
+      ]
+    },
+    "evaluation_item_definition": {
+      "cols": [
+        {
+          "n": "evaluation_item_definition_id",
+          "t": "VARCHAR(64)",
+          "nn": true,
+          "pk": true,
+          "c": "PK  평가 항목 ID"
+        },
+        {
+          "n": "evaluation_result_schema_id",
+          "t": "VARCHAR(64)",
+          "nn": true,
+          "pk": false,
+          "c": "FK  기준·양식 ID → evaluation_result_schema"
+        },
+        {
+          "n": "parent_item_id",
+          "t": "VARCHAR(64)",
+          "nn": false,
+          "pk": false,
+          "c": "선택 FK  같은 양식의 상위 항목. 자기 참조"
+        },
+        {
+          "n": "skill_id",
+          "t": "INT",
+          "nn": false,
+          "pk": false,
+          "c": "ERD 기존 선택 연결 → skill_tags.skill_id. 규정 항목과 스킬의 대응이 확인될 때만 연결"
+        },
+        {
+          "n": "item_code",
+          "t": "VARCHAR(255)",
+          "nn": true,
+          "pk": false,
+          "c": "양식 내 항목 코드. 양식별 중복 방지"
+        },
+        {
+          "n": "item_name",
+          "t": "VARCHAR(255)",
+          "nn": true,
+          "pk": false,
+          "c": "원문 항목 이름"
+        },
+        {
+          "n": "value_kind",
+          "t": "VARCHAR(40)",
+          "nn": true,
+          "pk": false,
+          "c": "값 종류. score, grade, hours, course_count, group 제안"
+        },
+        {
+          "n": "aggregation_role",
+          "t": "VARCHAR(40)",
+          "nn": true,
+          "pk": false,
+          "c": "group 또는 leaf. 상위 집계와 하위 항목을 중복 합산하지 않음"
+        },
+        {
+          "n": "score_min",
+          "t": "NUMERIC(12,3)",
+          "nn": false,
+          "pk": false,
+          "c": "원문에서 확인된 점수 하한. 미확인은 NULL"
+        },
+        {
+          "n": "score_max",
+          "t": "NUMERIC(12,3)",
+          "nn": false,
+          "pk": false,
+          "c": "원문에서 확인된 배점·상한. 미확인은 NULL"
+        },
+        {
+          "n": "weight_percent",
+          "t": "NUMERIC(6,3)",
+          "nn": false,
+          "pk": false,
+          "c": "원문 비율을 퍼센트로 기록. 배점과 혼동하지 않음"
+        },
+        {
+          "n": "unit",
+          "t": "VARCHAR(40)",
+          "nn": false,
+          "pk": false,
+          "c": "점·퍼센트·시간·과정 수 등 원문 단위"
+        },
+        {
+          "n": "scale_note",
+          "t": "TEXT",
+          "nn": false,
+          "pk": false,
+          "c": "ERD 기존 척도·등급·단위 설명 유지. unit은 구조화 단위로 함께 사용"
+        },
+        {
+          "n": "display_order",
+          "t": "INT",
+          "nn": true,
+          "pk": false,
+          "c": "양식 안의 표시 순서"
+        },
+        {
+          "n": "definition_note",
+          "t": "TEXT",
+          "nn": false,
+          "pk": false,
+          "c": "평정 방식·제외·산식 적용 설명"
+        }
+      ]
+    },
+    "evaluation_schema_source": {
+      "cols": [
+        {
+          "n": "evaluation_schema_source_id",
+          "t": "VARCHAR(64)",
+          "nn": true,
+          "pk": true,
+          "c": "PK  근거 연결 ID"
+        },
+        {
+          "n": "evaluation_result_schema_id",
+          "t": "VARCHAR(64)",
+          "nn": true,
+          "pk": false,
+          "c": "FK  기준·양식 ID → evaluation_result_schema"
+        },
+        {
+          "n": "evaluation_item_definition_id",
+          "t": "VARCHAR(64)",
+          "nn": false,
+          "pk": false,
+          "c": "선택 FK  같은 양식의 항목. NULL이면 양식 전체 근거"
+        },
+        {
+          "n": "regulation_node_id",
+          "t": "VARCHAR(64)",
+          "nn": true,
+          "pk": false,
+          "c": "FK  기존 원문 항목 ID → regulation_node"
+        },
+        {
+          "n": "source_role",
+          "t": "VARCHAR(40)",
+          "nn": true,
+          "pk": false,
+          "c": "basis, form, weight, formula, precision, exception 등 근거 역할 제안"
+        },
+        {
+          "n": "review_status",
+          "t": "VARCHAR(40)",
+          "nn": true,
+          "pk": false,
+          "c": "근거 연결 검토 상태. needs_review, reviewed 제안"
+        },
+        {
+          "n": "source_note",
+          "t": "TEXT",
+          "nn": false,
+          "pk": false,
+          "c": "확인한 표·조항 범위와 미확인 부분"
+        }
+      ]
+    }
+  },
+  "foreign_keys": [
+    [
+      "evaluation_result_schema",
+      [
+        "institution_id"
+      ],
+      "institution",
+      [
+        "institution_id"
+      ]
+    ],
+    [
+      "evaluation_item_definition",
+      [
+        "evaluation_result_schema_id"
+      ],
+      "evaluation_result_schema",
+      [
+        "evaluation_result_schema_id"
+      ]
+    ],
+    [
+      "evaluation_item_definition",
+      [
+        "parent_item_id",
+        "evaluation_result_schema_id"
+      ],
+      "evaluation_item_definition",
+      [
+        "evaluation_item_definition_id",
+        "evaluation_result_schema_id"
+      ]
+    ],
+    [
+      "evaluation_item_definition",
+      [
+        "skill_id"
+      ],
+      "skill_tags",
+      [
+        "skill_id"
+      ]
+    ],
+    [
+      "evaluation_schema_source",
+      [
+        "evaluation_result_schema_id"
+      ],
+      "evaluation_result_schema",
+      [
+        "evaluation_result_schema_id"
+      ]
+    ],
+    [
+      "evaluation_schema_source",
+      [
+        "regulation_node_id"
+      ],
+      "regulation_node",
+      [
+        "regulation_node_id"
+      ]
+    ],
+    [
+      "evaluation_schema_source",
+      [
+        "evaluation_item_definition_id",
+        "evaluation_result_schema_id"
+      ],
+      "evaluation_item_definition",
+      [
+        "evaluation_item_definition_id",
+        "evaluation_result_schema_id"
+      ]
+    ]
+  ],
+  "external_tables": {
+    "institution": "V10 data/institution.json",
+    "regulation_node": "V10 data/regulation_node.json",
+    "skill_tags": "팀 스킬 표. 현재 기준 행 skill_id는 모두 NULL"
+  },
+  "unique_keys": {
+    "evaluation_item_definition": [
+      [
+        "evaluation_result_schema_id",
+        "item_code"
+      ],
+      [
+        "evaluation_item_definition_id",
+        "evaluation_result_schema_id"
+      ]
+    ]
+  },
+  "status_note": "자료형·컬럼은 현재 설계 초안과 일치. 실제 DB 생성 또는 외래키 적용은 실행하지 않음.",
+  "definition_source_doc_sha256": "fdbec84e7711c962356dc0f54fd0cf778dd0a348f464b30e72c39cc904e174a1",
+  "current_design_doc_sha256": "8b77c91ad94c9b1677eb65d1ca0e3015df662222d65650b821b10e96b9e38fc2"
+}

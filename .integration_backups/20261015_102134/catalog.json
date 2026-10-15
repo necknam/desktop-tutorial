@@ -1,0 +1,2949 @@
+{
+  "public.agent_generations": {
+    "columns": [
+      {
+        "type": "uuid",
+        "column": "generation_id",
+        "default": "gen_random_uuid()",
+        "identity": "",
+        "not_null": true,
+        "generated": ""
+      },
+      {
+        "type": "uuid",
+        "column": "request_id",
+        "default": null,
+        "identity": "",
+        "not_null": true,
+        "generated": ""
+      },
+      {
+        "type": "character varying(50)",
+        "column": "agent_id",
+        "default": null,
+        "identity": "",
+        "not_null": true,
+        "generated": ""
+      },
+      {
+        "type": "uuid",
+        "column": "prompt_version_id",
+        "default": null,
+        "identity": "",
+        "not_null": false,
+        "generated": ""
+      },
+      {
+        "type": "character varying(50)",
+        "column": "provider",
+        "default": null,
+        "identity": "",
+        "not_null": true,
+        "generated": ""
+      },
+      {
+        "type": "character varying(100)",
+        "column": "model",
+        "default": null,
+        "identity": "",
+        "not_null": true,
+        "generated": ""
+      },
+      {
+        "type": "jsonb",
+        "column": "roadmap_content",
+        "default": null,
+        "identity": "",
+        "not_null": true,
+        "generated": ""
+      },
+      {
+        "type": "text",
+        "column": "summary",
+        "default": null,
+        "identity": "",
+        "not_null": true,
+        "generated": ""
+      },
+      {
+        "type": "integer",
+        "column": "latency_ms",
+        "default": null,
+        "identity": "",
+        "not_null": true,
+        "generated": ""
+      },
+      {
+        "type": "character varying(20)",
+        "column": "status",
+        "default": "'SUCCESS'::character varying",
+        "identity": "",
+        "not_null": true,
+        "generated": ""
+      },
+      {
+        "type": "timestamp with time zone",
+        "column": "created_at",
+        "default": "timezone('utc'::text, now())",
+        "identity": "",
+        "not_null": true,
+        "generated": ""
+      }
+    ],
+    "pk": [
+      "generation_id"
+    ],
+    "fks": [
+      {
+        "columns": [
+          "prompt_version_id"
+        ],
+        "target": "public.prompt_versions",
+        "target_columns": [
+          "prompt_version_id"
+        ]
+      },
+      {
+        "columns": [
+          "request_id"
+        ],
+        "target": "public.roadmap_requests",
+        "target_columns": [
+          "request_id"
+        ]
+      }
+    ]
+  },
+  "public.agent_selections": {
+    "columns": [
+      {
+        "type": "uuid",
+        "column": "selection_id",
+        "default": "gen_random_uuid()",
+        "identity": "",
+        "not_null": true,
+        "generated": ""
+      },
+      {
+        "type": "uuid",
+        "column": "request_id",
+        "default": null,
+        "identity": "",
+        "not_null": true,
+        "generated": ""
+      },
+      {
+        "type": "uuid",
+        "column": "chosen_generation_id",
+        "default": null,
+        "identity": "",
+        "not_null": true,
+        "generated": ""
+      },
+      {
+        "type": "character varying(50)",
+        "column": "chosen_agent_id",
+        "default": null,
+        "identity": "",
+        "not_null": true,
+        "generated": ""
+      },
+      {
+        "type": "text",
+        "column": "selection_reason",
+        "default": null,
+        "identity": "",
+        "not_null": false,
+        "generated": ""
+      },
+      {
+        "type": "character varying(20)",
+        "column": "user_type",
+        "default": null,
+        "identity": "",
+        "not_null": true,
+        "generated": ""
+      },
+      {
+        "type": "timestamp with time zone",
+        "column": "created_at",
+        "default": "timezone('utc'::text, now())",
+        "identity": "",
+        "not_null": true,
+        "generated": ""
+      }
+    ],
+    "pk": [
+      "selection_id"
+    ],
+    "fks": [
+      {
+        "columns": [
+          "chosen_generation_id"
+        ],
+        "target": "public.agent_generations",
+        "target_columns": [
+          "generation_id"
+        ]
+      },
+      {
+        "columns": [
+          "request_id"
+        ],
+        "target": "public.roadmap_requests",
+        "target_columns": [
+          "request_id"
+        ]
+      }
+    ]
+  },
+  "public.ai_cases": {
+    "columns": [
+      {
+        "type": "integer",
+        "column": "id",
+        "default": "nextval('ai_cases_id_seq'::regclass)",
+        "identity": "",
+        "not_null": true,
+        "generated": ""
+      },
+      {
+        "type": "character varying(200)",
+        "column": "title",
+        "default": null,
+        "identity": "",
+        "not_null": true,
+        "generated": ""
+      },
+      {
+        "type": "character varying(100)",
+        "column": "department",
+        "default": null,
+        "identity": "",
+        "not_null": false,
+        "generated": ""
+      },
+      {
+        "type": "text",
+        "column": "solution_summary",
+        "default": null,
+        "identity": "",
+        "not_null": true,
+        "generated": ""
+      },
+      {
+        "type": "vector(1536)",
+        "column": "embedding",
+        "default": null,
+        "identity": "",
+        "not_null": false,
+        "generated": ""
+      },
+      {
+        "type": "timestamp with time zone",
+        "column": "created_at",
+        "default": "now()",
+        "identity": "",
+        "not_null": false,
+        "generated": ""
+      }
+    ],
+    "pk": [
+      "id"
+    ],
+    "fks": []
+  },
+  "public.book_skill_map": {
+    "columns": [
+      {
+        "type": "character varying(20)",
+        "column": "isbn",
+        "default": null,
+        "identity": "",
+        "not_null": true,
+        "generated": ""
+      },
+      {
+        "type": "integer",
+        "column": "skill_id",
+        "default": null,
+        "identity": "",
+        "not_null": true,
+        "generated": ""
+      }
+    ],
+    "pk": [
+      "isbn",
+      "skill_id"
+    ],
+    "fks": [
+      {
+        "columns": [
+          "isbn"
+        ],
+        "target": "public.books",
+        "target_columns": [
+          "isbn"
+        ]
+      },
+      {
+        "columns": [
+          "skill_id"
+        ],
+        "target": "public.skill_tags",
+        "target_columns": [
+          "skill_id"
+        ]
+      }
+    ]
+  },
+  "public.books": {
+    "columns": [
+      {
+        "type": "character varying(20)",
+        "column": "isbn",
+        "default": null,
+        "identity": "",
+        "not_null": true,
+        "generated": ""
+      },
+      {
+        "type": "character varying(200)",
+        "column": "title",
+        "default": null,
+        "identity": "",
+        "not_null": true,
+        "generated": ""
+      },
+      {
+        "type": "character varying(100)",
+        "column": "author",
+        "default": null,
+        "identity": "",
+        "not_null": false,
+        "generated": ""
+      },
+      {
+        "type": "character varying(100)",
+        "column": "publisher",
+        "default": null,
+        "identity": "",
+        "not_null": false,
+        "generated": ""
+      },
+      {
+        "type": "integer",
+        "column": "loan_count",
+        "default": "0",
+        "identity": "",
+        "not_null": false,
+        "generated": ""
+      },
+      {
+        "type": "character varying(10)",
+        "column": "kdc_code",
+        "default": "'004'::character varying",
+        "identity": "",
+        "not_null": false,
+        "generated": ""
+      },
+      {
+        "type": "timestamp with time zone",
+        "column": "last_batch_updated",
+        "default": "CURRENT_TIMESTAMP",
+        "identity": "",
+        "not_null": false,
+        "generated": ""
+      },
+      {
+        "type": "vector(1536)",
+        "column": "embedding",
+        "default": null,
+        "identity": "",
+        "not_null": false,
+        "generated": ""
+      },
+      {
+        "type": "character varying(40)",
+        "column": "record_source",
+        "default": "'EXTERNAL_INGESTION'::character varying",
+        "identity": "",
+        "not_null": true,
+        "generated": ""
+      }
+    ],
+    "pk": [
+      "isbn"
+    ],
+    "fks": []
+  },
+  "public.cert_skill_map": {
+    "columns": [
+      {
+        "type": "integer",
+        "column": "cert_id",
+        "default": null,
+        "identity": "",
+        "not_null": true,
+        "generated": ""
+      },
+      {
+        "type": "integer",
+        "column": "skill_id",
+        "default": null,
+        "identity": "",
+        "not_null": true,
+        "generated": ""
+      }
+    ],
+    "pk": [
+      "cert_id",
+      "skill_id"
+    ],
+    "fks": [
+      {
+        "columns": [
+          "cert_id"
+        ],
+        "target": "public.certifications",
+        "target_columns": [
+          "cert_id"
+        ]
+      },
+      {
+        "columns": [
+          "skill_id"
+        ],
+        "target": "public.skill_tags",
+        "target_columns": [
+          "skill_id"
+        ]
+      }
+    ]
+  },
+  "public.certifications": {
+    "columns": [
+      {
+        "type": "integer",
+        "column": "cert_id",
+        "default": "nextval('certifications_cert_id_seq'::regclass)",
+        "identity": "",
+        "not_null": true,
+        "generated": ""
+      },
+      {
+        "type": "character varying(100)",
+        "column": "title",
+        "default": null,
+        "identity": "",
+        "not_null": true,
+        "generated": ""
+      },
+      {
+        "type": "character varying(50)",
+        "column": "provider",
+        "default": "'한국데이터산업진흥원 (K-DATA)'::character varying",
+        "identity": "",
+        "not_null": true,
+        "generated": ""
+      },
+      {
+        "type": "text",
+        "column": "test_subjects",
+        "default": null,
+        "identity": "",
+        "not_null": false,
+        "generated": ""
+      },
+      {
+        "type": "text",
+        "column": "career_outlook",
+        "default": null,
+        "identity": "",
+        "not_null": false,
+        "generated": ""
+      },
+      {
+        "type": "character varying(20)",
+        "column": "exam_type",
+        "default": null,
+        "identity": "",
+        "not_null": false,
+        "generated": ""
+      },
+      {
+        "type": "integer",
+        "column": "pass_score",
+        "default": null,
+        "identity": "",
+        "not_null": false,
+        "generated": ""
+      },
+      {
+        "type": "timestamp with time zone",
+        "column": "last_batch_updated",
+        "default": "CURRENT_TIMESTAMP",
+        "identity": "",
+        "not_null": false,
+        "generated": ""
+      },
+      {
+        "type": "vector(1536)",
+        "column": "embedding",
+        "default": null,
+        "identity": "",
+        "not_null": false,
+        "generated": ""
+      },
+      {
+        "type": "character varying(40)",
+        "column": "record_source",
+        "default": "'EXTERNAL_INGESTION'::character varying",
+        "identity": "",
+        "not_null": true,
+        "generated": ""
+      }
+    ],
+    "pk": [
+      "cert_id"
+    ],
+    "fks": []
+  },
+  "public.course_skill_map": {
+    "columns": [
+      {
+        "type": "character varying(50)",
+        "column": "course_id",
+        "default": null,
+        "identity": "",
+        "not_null": true,
+        "generated": ""
+      },
+      {
+        "type": "integer",
+        "column": "skill_id",
+        "default": null,
+        "identity": "",
+        "not_null": true,
+        "generated": ""
+      }
+    ],
+    "pk": [
+      "course_id",
+      "skill_id"
+    ],
+    "fks": [
+      {
+        "columns": [
+          "course_id"
+        ],
+        "target": "public.courses",
+        "target_columns": [
+          "course_id"
+        ]
+      },
+      {
+        "columns": [
+          "skill_id"
+        ],
+        "target": "public.skill_tags",
+        "target_columns": [
+          "skill_id"
+        ]
+      }
+    ]
+  },
+  "public.courses": {
+    "columns": [
+      {
+        "type": "character varying(50)",
+        "column": "course_id",
+        "default": null,
+        "identity": "",
+        "not_null": true,
+        "generated": ""
+      },
+      {
+        "type": "character varying(200)",
+        "column": "title",
+        "default": null,
+        "identity": "",
+        "not_null": true,
+        "generated": ""
+      },
+      {
+        "type": "character varying(50)",
+        "column": "category_name",
+        "default": null,
+        "identity": "",
+        "not_null": false,
+        "generated": ""
+      },
+      {
+        "type": "character varying(100)",
+        "column": "org_name",
+        "default": null,
+        "identity": "",
+        "not_null": false,
+        "generated": ""
+      },
+      {
+        "type": "character varying(255)",
+        "column": "url",
+        "default": null,
+        "identity": "",
+        "not_null": false,
+        "generated": ""
+      },
+      {
+        "type": "boolean",
+        "column": "is_matchup",
+        "default": "false",
+        "identity": "",
+        "not_null": true,
+        "generated": ""
+      },
+      {
+        "type": "numeric(10,2)",
+        "column": "cost",
+        "default": "0.00",
+        "identity": "",
+        "not_null": true,
+        "generated": ""
+      },
+      {
+        "type": "integer",
+        "column": "duration_weeks",
+        "default": "4",
+        "identity": "",
+        "not_null": false,
+        "generated": ""
+      },
+      {
+        "type": "character varying(30)",
+        "column": "recruitment_status",
+        "default": "'OPEN'::character varying",
+        "identity": "",
+        "not_null": false,
+        "generated": ""
+      },
+      {
+        "type": "text",
+        "column": "syllabus_summary",
+        "default": null,
+        "identity": "",
+        "not_null": false,
+        "generated": ""
+      },
+      {
+        "type": "timestamp with time zone",
+        "column": "last_batch_updated",
+        "default": "CURRENT_TIMESTAMP",
+        "identity": "",
+        "not_null": false,
+        "generated": ""
+      },
+      {
+        "type": "vector(1536)",
+        "column": "embedding",
+        "default": null,
+        "identity": "",
+        "not_null": false,
+        "generated": ""
+      },
+      {
+        "type": "character varying(50)",
+        "column": "platform",
+        "default": "'K-MOOC'::character varying",
+        "identity": "",
+        "not_null": true,
+        "generated": ""
+      },
+      {
+        "type": "character varying(20)",
+        "column": "difficulty",
+        "default": "'BEGINNER'::character varying",
+        "identity": "",
+        "not_null": true,
+        "generated": ""
+      },
+      {
+        "type": "character varying(40)",
+        "column": "record_source",
+        "default": "'EXTERNAL_INGESTION'::character varying",
+        "identity": "",
+        "not_null": true,
+        "generated": ""
+      }
+    ],
+    "pk": [
+      "course_id"
+    ],
+    "fks": []
+  },
+  "public.finetuning_datasets": {
+    "columns": [
+      {
+        "type": "uuid",
+        "column": "dataset_id",
+        "default": "gen_random_uuid()",
+        "identity": "",
+        "not_null": true,
+        "generated": ""
+      },
+      {
+        "type": "character varying(20)",
+        "column": "dataset_type",
+        "default": null,
+        "identity": "",
+        "not_null": true,
+        "generated": ""
+      },
+      {
+        "type": "integer",
+        "column": "record_count",
+        "default": null,
+        "identity": "",
+        "not_null": true,
+        "generated": ""
+      },
+      {
+        "type": "text",
+        "column": "export_path",
+        "default": null,
+        "identity": "",
+        "not_null": true,
+        "generated": ""
+      },
+      {
+        "type": "boolean",
+        "column": "pii_masked",
+        "default": "true",
+        "identity": "",
+        "not_null": true,
+        "generated": ""
+      },
+      {
+        "type": "jsonb",
+        "column": "filter_criteria",
+        "default": "'{}'::jsonb",
+        "identity": "",
+        "not_null": true,
+        "generated": ""
+      },
+      {
+        "type": "timestamp with time zone",
+        "column": "created_at",
+        "default": "timezone('utc'::text, now())",
+        "identity": "",
+        "not_null": true,
+        "generated": ""
+      }
+    ],
+    "pk": [
+      "dataset_id"
+    ],
+    "fks": []
+  },
+  "public.job_skill_map": {
+    "columns": [
+      {
+        "type": "integer",
+        "column": "job_id",
+        "default": null,
+        "identity": "",
+        "not_null": true,
+        "generated": ""
+      },
+      {
+        "type": "integer",
+        "column": "skill_id",
+        "default": null,
+        "identity": "",
+        "not_null": true,
+        "generated": ""
+      }
+    ],
+    "pk": [
+      "job_id",
+      "skill_id"
+    ],
+    "fks": [
+      {
+        "columns": [
+          "job_id"
+        ],
+        "target": "public.jobs",
+        "target_columns": [
+          "job_id"
+        ]
+      },
+      {
+        "columns": [
+          "skill_id"
+        ],
+        "target": "public.skill_tags",
+        "target_columns": [
+          "skill_id"
+        ]
+      }
+    ]
+  },
+  "public.jobs": {
+    "columns": [
+      {
+        "type": "integer",
+        "column": "job_id",
+        "default": null,
+        "identity": "",
+        "not_null": true,
+        "generated": ""
+      },
+      {
+        "type": "character varying(100)",
+        "column": "title",
+        "default": null,
+        "identity": "",
+        "not_null": true,
+        "generated": ""
+      },
+      {
+        "type": "text",
+        "column": "ncs_units",
+        "default": null,
+        "identity": "",
+        "not_null": false,
+        "generated": ""
+      },
+      {
+        "type": "timestamp with time zone",
+        "column": "last_batch_updated",
+        "default": "CURRENT_TIMESTAMP",
+        "identity": "",
+        "not_null": false,
+        "generated": ""
+      },
+      {
+        "type": "vector(1536)",
+        "column": "embedding",
+        "default": null,
+        "identity": "",
+        "not_null": false,
+        "generated": ""
+      },
+      {
+        "type": "character varying(40)",
+        "column": "record_source",
+        "default": "'EXTERNAL_INGESTION'::character varying",
+        "identity": "",
+        "not_null": true,
+        "generated": ""
+      }
+    ],
+    "pk": [
+      "job_id"
+    ],
+    "fks": []
+  },
+  "public.major_skill_map": {
+    "columns": [
+      {
+        "type": "integer",
+        "column": "major_id",
+        "default": null,
+        "identity": "",
+        "not_null": true,
+        "generated": ""
+      },
+      {
+        "type": "integer",
+        "column": "skill_id",
+        "default": null,
+        "identity": "",
+        "not_null": true,
+        "generated": ""
+      }
+    ],
+    "pk": [
+      "major_id",
+      "skill_id"
+    ],
+    "fks": [
+      {
+        "columns": [
+          "major_id"
+        ],
+        "target": "public.majors",
+        "target_columns": [
+          "major_id"
+        ]
+      },
+      {
+        "columns": [
+          "skill_id"
+        ],
+        "target": "public.skill_tags",
+        "target_columns": [
+          "skill_id"
+        ]
+      }
+    ]
+  },
+  "public.majors": {
+    "columns": [
+      {
+        "type": "integer",
+        "column": "major_id",
+        "default": null,
+        "identity": "",
+        "not_null": true,
+        "generated": ""
+      },
+      {
+        "type": "character varying(100)",
+        "column": "title",
+        "default": null,
+        "identity": "",
+        "not_null": true,
+        "generated": ""
+      },
+      {
+        "type": "text",
+        "column": "curriculum",
+        "default": null,
+        "identity": "",
+        "not_null": false,
+        "generated": ""
+      },
+      {
+        "type": "timestamp with time zone",
+        "column": "last_batch_updated",
+        "default": "CURRENT_TIMESTAMP",
+        "identity": "",
+        "not_null": false,
+        "generated": ""
+      },
+      {
+        "type": "vector(1536)",
+        "column": "embedding",
+        "default": null,
+        "identity": "",
+        "not_null": false,
+        "generated": ""
+      }
+    ],
+    "pk": [
+      "major_id"
+    ],
+    "fks": []
+  },
+  "public.preference_pairs": {
+    "columns": [
+      {
+        "type": "uuid",
+        "column": "pair_id",
+        "default": "gen_random_uuid()",
+        "identity": "",
+        "not_null": true,
+        "generated": ""
+      },
+      {
+        "type": "uuid",
+        "column": "request_id",
+        "default": null,
+        "identity": "",
+        "not_null": true,
+        "generated": ""
+      },
+      {
+        "type": "uuid",
+        "column": "chosen_generation_id",
+        "default": null,
+        "identity": "",
+        "not_null": true,
+        "generated": ""
+      },
+      {
+        "type": "uuid",
+        "column": "rejected_generation_id",
+        "default": null,
+        "identity": "",
+        "not_null": true,
+        "generated": ""
+      },
+      {
+        "type": "jsonb",
+        "column": "prompt_input",
+        "default": null,
+        "identity": "",
+        "not_null": true,
+        "generated": ""
+      },
+      {
+        "type": "jsonb",
+        "column": "chosen_output",
+        "default": null,
+        "identity": "",
+        "not_null": true,
+        "generated": ""
+      },
+      {
+        "type": "jsonb",
+        "column": "rejected_output",
+        "default": null,
+        "identity": "",
+        "not_null": true,
+        "generated": ""
+      },
+      {
+        "type": "character varying(20)",
+        "column": "user_type",
+        "default": null,
+        "identity": "",
+        "not_null": true,
+        "generated": ""
+      },
+      {
+        "type": "timestamp with time zone",
+        "column": "created_at",
+        "default": "timezone('utc'::text, now())",
+        "identity": "",
+        "not_null": true,
+        "generated": ""
+      }
+    ],
+    "pk": [
+      "pair_id"
+    ],
+    "fks": [
+      {
+        "columns": [
+          "chosen_generation_id"
+        ],
+        "target": "public.agent_generations",
+        "target_columns": [
+          "generation_id"
+        ]
+      },
+      {
+        "columns": [
+          "rejected_generation_id"
+        ],
+        "target": "public.agent_generations",
+        "target_columns": [
+          "generation_id"
+        ]
+      },
+      {
+        "columns": [
+          "request_id"
+        ],
+        "target": "public.roadmap_requests",
+        "target_columns": [
+          "request_id"
+        ]
+      }
+    ]
+  },
+  "public.prompt_evaluations": {
+    "columns": [
+      {
+        "type": "uuid",
+        "column": "evaluation_id",
+        "default": "gen_random_uuid()",
+        "identity": "",
+        "not_null": true,
+        "generated": ""
+      },
+      {
+        "type": "uuid",
+        "column": "prompt_version_id",
+        "default": null,
+        "identity": "",
+        "not_null": true,
+        "generated": ""
+      },
+      {
+        "type": "character varying(100)",
+        "column": "evaluator_model",
+        "default": null,
+        "identity": "",
+        "not_null": true,
+        "generated": ""
+      },
+      {
+        "type": "jsonb",
+        "column": "rubric_scores",
+        "default": null,
+        "identity": "",
+        "not_null": true,
+        "generated": ""
+      },
+      {
+        "type": "numeric(4,2)",
+        "column": "total_score",
+        "default": null,
+        "identity": "",
+        "not_null": true,
+        "generated": ""
+      },
+      {
+        "type": "boolean",
+        "column": "passed",
+        "default": "false",
+        "identity": "",
+        "not_null": true,
+        "generated": ""
+      },
+      {
+        "type": "text",
+        "column": "eval_report",
+        "default": null,
+        "identity": "",
+        "not_null": true,
+        "generated": ""
+      },
+      {
+        "type": "timestamp with time zone",
+        "column": "created_at",
+        "default": "timezone('utc'::text, now())",
+        "identity": "",
+        "not_null": true,
+        "generated": ""
+      }
+    ],
+    "pk": [
+      "evaluation_id"
+    ],
+    "fks": [
+      {
+        "columns": [
+          "prompt_version_id"
+        ],
+        "target": "public.prompt_versions",
+        "target_columns": [
+          "prompt_version_id"
+        ]
+      }
+    ]
+  },
+  "public.prompt_optimizations": {
+    "columns": [
+      {
+        "type": "uuid",
+        "column": "optimization_id",
+        "default": "gen_random_uuid()",
+        "identity": "",
+        "not_null": true,
+        "generated": ""
+      },
+      {
+        "type": "character varying(50)",
+        "column": "target_agent_id",
+        "default": null,
+        "identity": "",
+        "not_null": true,
+        "generated": ""
+      },
+      {
+        "type": "integer",
+        "column": "trigger_threshold",
+        "default": "10",
+        "identity": "",
+        "not_null": true,
+        "generated": ""
+      },
+      {
+        "type": "integer",
+        "column": "cumulative_real_selections",
+        "default": null,
+        "identity": "",
+        "not_null": true,
+        "generated": ""
+      },
+      {
+        "type": "numeric(5,4)",
+        "column": "agent_selection_rate",
+        "default": null,
+        "identity": "",
+        "not_null": true,
+        "generated": ""
+      },
+      {
+        "type": "uuid",
+        "column": "old_prompt_version_id",
+        "default": null,
+        "identity": "",
+        "not_null": true,
+        "generated": ""
+      },
+      {
+        "type": "text",
+        "column": "candidate_prompt_text",
+        "default": null,
+        "identity": "",
+        "not_null": true,
+        "generated": ""
+      },
+      {
+        "type": "uuid",
+        "column": "evaluation_id",
+        "default": null,
+        "identity": "",
+        "not_null": false,
+        "generated": ""
+      },
+      {
+        "type": "character varying(30)",
+        "column": "status",
+        "default": null,
+        "identity": "",
+        "not_null": true,
+        "generated": ""
+      },
+      {
+        "type": "timestamp with time zone",
+        "column": "created_at",
+        "default": "timezone('utc'::text, now())",
+        "identity": "",
+        "not_null": true,
+        "generated": ""
+      }
+    ],
+    "pk": [
+      "optimization_id"
+    ],
+    "fks": [
+      {
+        "columns": [
+          "evaluation_id"
+        ],
+        "target": "public.prompt_evaluations",
+        "target_columns": [
+          "evaluation_id"
+        ]
+      },
+      {
+        "columns": [
+          "old_prompt_version_id"
+        ],
+        "target": "public.prompt_versions",
+        "target_columns": [
+          "prompt_version_id"
+        ]
+      }
+    ]
+  },
+  "public.prompt_versions": {
+    "columns": [
+      {
+        "type": "uuid",
+        "column": "prompt_version_id",
+        "default": "gen_random_uuid()",
+        "identity": "",
+        "not_null": true,
+        "generated": ""
+      },
+      {
+        "type": "character varying(50)",
+        "column": "agent_id",
+        "default": null,
+        "identity": "",
+        "not_null": true,
+        "generated": ""
+      },
+      {
+        "type": "integer",
+        "column": "version_num",
+        "default": null,
+        "identity": "",
+        "not_null": true,
+        "generated": ""
+      },
+      {
+        "type": "text",
+        "column": "system_prompt",
+        "default": null,
+        "identity": "",
+        "not_null": true,
+        "generated": ""
+      },
+      {
+        "type": "boolean",
+        "column": "is_active",
+        "default": "false",
+        "identity": "",
+        "not_null": true,
+        "generated": ""
+      },
+      {
+        "type": "uuid",
+        "column": "parent_version_id",
+        "default": null,
+        "identity": "",
+        "not_null": false,
+        "generated": ""
+      },
+      {
+        "type": "text",
+        "column": "change_reason",
+        "default": null,
+        "identity": "",
+        "not_null": true,
+        "generated": ""
+      },
+      {
+        "type": "timestamp with time zone",
+        "column": "created_at",
+        "default": "timezone('utc'::text, now())",
+        "identity": "",
+        "not_null": true,
+        "generated": ""
+      },
+      {
+        "type": "timestamp with time zone",
+        "column": "deactivated_at",
+        "default": null,
+        "identity": "",
+        "not_null": false,
+        "generated": ""
+      }
+    ],
+    "pk": [
+      "prompt_version_id"
+    ],
+    "fks": [
+      {
+        "columns": [
+          "parent_version_id"
+        ],
+        "target": "public.prompt_versions",
+        "target_columns": [
+          "prompt_version_id"
+        ]
+      }
+    ]
+  },
+  "public.regulations": {
+    "columns": [
+      {
+        "type": "integer",
+        "column": "id",
+        "default": "nextval('regulations_id_seq'::regclass)",
+        "identity": "",
+        "not_null": true,
+        "generated": ""
+      },
+      {
+        "type": "character varying(150)",
+        "column": "doc_title",
+        "default": null,
+        "identity": "",
+        "not_null": true,
+        "generated": ""
+      },
+      {
+        "type": "character varying(50)",
+        "column": "article_no",
+        "default": null,
+        "identity": "",
+        "not_null": true,
+        "generated": ""
+      },
+      {
+        "type": "character varying(50)",
+        "column": "category",
+        "default": "'교육훈련'::character varying",
+        "identity": "",
+        "not_null": false,
+        "generated": ""
+      },
+      {
+        "type": "text",
+        "column": "content",
+        "default": null,
+        "identity": "",
+        "not_null": true,
+        "generated": ""
+      },
+      {
+        "type": "vector(1536)",
+        "column": "embedding",
+        "default": null,
+        "identity": "",
+        "not_null": false,
+        "generated": ""
+      },
+      {
+        "type": "timestamp with time zone",
+        "column": "created_at",
+        "default": "now()",
+        "identity": "",
+        "not_null": false,
+        "generated": ""
+      }
+    ],
+    "pk": [
+      "id"
+    ],
+    "fks": []
+  },
+  "public.roadmap_requests": {
+    "columns": [
+      {
+        "type": "uuid",
+        "column": "request_id",
+        "default": "gen_random_uuid()",
+        "identity": "",
+        "not_null": true,
+        "generated": ""
+      },
+      {
+        "type": "character varying(20)",
+        "column": "user_type",
+        "default": null,
+        "identity": "",
+        "not_null": true,
+        "generated": ""
+      },
+      {
+        "type": "character varying(64)",
+        "column": "employee_id",
+        "default": null,
+        "identity": "",
+        "not_null": false,
+        "generated": ""
+      },
+      {
+        "type": "text",
+        "column": "raw_user_prompt",
+        "default": null,
+        "identity": "",
+        "not_null": true,
+        "generated": ""
+      },
+      {
+        "type": "jsonb",
+        "column": "conversation_history",
+        "default": "'[]'::jsonb",
+        "identity": "",
+        "not_null": true,
+        "generated": ""
+      },
+      {
+        "type": "jsonb",
+        "column": "user_requirements",
+        "default": "'{}'::jsonb",
+        "identity": "",
+        "not_null": true,
+        "generated": ""
+      },
+      {
+        "type": "jsonb",
+        "column": "retrieved_context",
+        "default": "'{}'::jsonb",
+        "identity": "",
+        "not_null": true,
+        "generated": ""
+      },
+      {
+        "type": "timestamp with time zone",
+        "column": "created_at",
+        "default": "timezone('utc'::text, now())",
+        "identity": "",
+        "not_null": true,
+        "generated": ""
+      }
+    ],
+    "pk": [
+      "request_id"
+    ],
+    "fks": []
+  },
+  "public.skill_tags": {
+    "columns": [
+      {
+        "type": "integer",
+        "column": "skill_id",
+        "default": "nextval('skill_tags_skill_id_seq'::regclass)",
+        "identity": "",
+        "not_null": true,
+        "generated": ""
+      },
+      {
+        "type": "character varying(50)",
+        "column": "name",
+        "default": null,
+        "identity": "",
+        "not_null": true,
+        "generated": ""
+      },
+      {
+        "type": "character varying(50)",
+        "column": "category",
+        "default": "'IT/Tech'::character varying",
+        "identity": "",
+        "not_null": false,
+        "generated": ""
+      },
+      {
+        "type": "vector(1536)",
+        "column": "embedding",
+        "default": null,
+        "identity": "",
+        "not_null": false,
+        "generated": ""
+      }
+    ],
+    "pk": [
+      "skill_id"
+    ],
+    "fks": []
+  },
+  "public.test_mock_profiles": {
+    "columns": [
+      {
+        "type": "uuid",
+        "column": "profile_id",
+        "default": "gen_random_uuid()",
+        "identity": "",
+        "not_null": true,
+        "generated": ""
+      },
+      {
+        "type": "character varying(20)",
+        "column": "source_type",
+        "default": null,
+        "identity": "",
+        "not_null": true,
+        "generated": ""
+      },
+      {
+        "type": "character varying(100)",
+        "column": "profile_name",
+        "default": null,
+        "identity": "",
+        "not_null": true,
+        "generated": ""
+      },
+      {
+        "type": "character varying(100)",
+        "column": "department",
+        "default": null,
+        "identity": "",
+        "not_null": true,
+        "generated": ""
+      },
+      {
+        "type": "character varying(50)",
+        "column": "grade",
+        "default": null,
+        "identity": "",
+        "not_null": true,
+        "generated": ""
+      },
+      {
+        "type": "character varying(100)",
+        "column": "job_title",
+        "default": null,
+        "identity": "",
+        "not_null": true,
+        "generated": ""
+      },
+      {
+        "type": "integer",
+        "column": "career_years",
+        "default": null,
+        "identity": "",
+        "not_null": true,
+        "generated": ""
+      },
+      {
+        "type": "jsonb",
+        "column": "current_skills",
+        "default": null,
+        "identity": "",
+        "not_null": true,
+        "generated": ""
+      },
+      {
+        "type": "jsonb",
+        "column": "target_skills",
+        "default": null,
+        "identity": "",
+        "not_null": true,
+        "generated": ""
+      },
+      {
+        "type": "text",
+        "column": "work_context_summary",
+        "default": null,
+        "identity": "",
+        "not_null": true,
+        "generated": ""
+      },
+      {
+        "type": "timestamp with time zone",
+        "column": "created_at",
+        "default": "timezone('utc'::text, now())",
+        "identity": "",
+        "not_null": true,
+        "generated": ""
+      }
+    ],
+    "pk": [
+      "profile_id"
+    ],
+    "fks": []
+  },
+  "public.user_skill_gap": {
+    "columns": [
+      {
+        "type": "integer",
+        "column": "gap_id",
+        "default": "nextval('user_skill_gap_gap_id_seq'::regclass)",
+        "identity": "",
+        "not_null": true,
+        "generated": ""
+      },
+      {
+        "type": "integer",
+        "column": "user_id",
+        "default": null,
+        "identity": "",
+        "not_null": false,
+        "generated": ""
+      },
+      {
+        "type": "integer",
+        "column": "skill_id",
+        "default": null,
+        "identity": "",
+        "not_null": false,
+        "generated": ""
+      },
+      {
+        "type": "timestamp with time zone",
+        "column": "created_at",
+        "default": "CURRENT_TIMESTAMP",
+        "identity": "",
+        "not_null": false,
+        "generated": ""
+      },
+      {
+        "type": "character varying(10)",
+        "column": "gap_level",
+        "default": "'HIGH'::character varying",
+        "identity": "",
+        "not_null": false,
+        "generated": ""
+      }
+    ],
+    "pk": [
+      "gap_id"
+    ],
+    "fks": [
+      {
+        "columns": [
+          "skill_id"
+        ],
+        "target": "public.skill_tags",
+        "target_columns": [
+          "skill_id"
+        ]
+      },
+      {
+        "columns": [
+          "user_id"
+        ],
+        "target": "public.users",
+        "target_columns": [
+          "user_id"
+        ]
+      }
+    ]
+  },
+  "public.users": {
+    "columns": [
+      {
+        "type": "integer",
+        "column": "user_id",
+        "default": "nextval('users_user_id_seq'::regclass)",
+        "identity": "",
+        "not_null": true,
+        "generated": ""
+      },
+      {
+        "type": "character varying(50)",
+        "column": "name",
+        "default": null,
+        "identity": "",
+        "not_null": true,
+        "generated": ""
+      },
+      {
+        "type": "integer",
+        "column": "target_job_id",
+        "default": null,
+        "identity": "",
+        "not_null": false,
+        "generated": ""
+      },
+      {
+        "type": "timestamp with time zone",
+        "column": "created_at",
+        "default": "CURRENT_TIMESTAMP",
+        "identity": "",
+        "not_null": false,
+        "generated": ""
+      },
+      {
+        "type": "boolean",
+        "column": "is_degree_seeker",
+        "default": "false",
+        "identity": "",
+        "not_null": false,
+        "generated": ""
+      },
+      {
+        "column": "email",
+        "type": "character varying(255)",
+        "default": null,
+        "not_null": false
+      },
+      {
+        "column": "department",
+        "type": "character varying(100)",
+        "default": null,
+        "not_null": false
+      },
+      {
+        "column": "job_title",
+        "type": "character varying(100)",
+        "default": null,
+        "not_null": false
+      },
+      {
+        "column": "grade",
+        "type": "character varying(50)",
+        "default": null,
+        "not_null": false
+      },
+      {
+        "column": "source_type",
+        "type": "character varying(20)",
+        "default": "'REAL_USER'::character varying",
+        "not_null": false
+      },
+      {
+        "column": "updated_at",
+        "type": "timestamp with time zone",
+        "default": "now()",
+        "not_null": false
+      }
+    ],
+    "pk": [
+      "user_id"
+    ],
+    "fks": [
+      {
+        "columns": [
+          "target_job_id"
+        ],
+        "target": "public.jobs",
+        "target_columns": [
+          "job_id"
+        ]
+      }
+    ]
+  },
+  "public.roadmap_sessions": {
+    "columns": [
+      {
+        "column": "session_id",
+        "type": "uuid",
+        "not_null": true
+      },
+      {
+        "column": "user_id",
+        "type": "integer",
+        "not_null": true
+      },
+      {
+        "column": "project_name",
+        "type": "character varying(255)",
+        "not_null": true
+      },
+      {
+        "column": "status",
+        "type": "character varying(50)",
+        "not_null": true
+      },
+      {
+        "column": "current_stage",
+        "type": "integer",
+        "not_null": true
+      },
+      {
+        "column": "created_at",
+        "type": "timestamp with time zone",
+        "not_null": true
+      },
+      {
+        "column": "updated_at",
+        "type": "timestamp with time zone",
+        "not_null": true
+      }
+    ],
+    "pk": [
+      "session_id"
+    ],
+    "fks": [
+      {
+        "columns": [
+          "user_id"
+        ],
+        "target": "public.users",
+        "target_columns": [
+          "user_id"
+        ]
+      }
+    ]
+  },
+  "public.project_plans": {
+    "columns": [
+      {
+        "column": "plan_id",
+        "type": "uuid",
+        "not_null": true
+      },
+      {
+        "column": "session_id",
+        "type": "uuid",
+        "not_null": true
+      },
+      {
+        "column": "draft_plan",
+        "type": "text",
+        "not_null": false
+      },
+      {
+        "column": "refined_plan",
+        "type": "text",
+        "not_null": false
+      },
+      {
+        "column": "project_goal",
+        "type": "text",
+        "not_null": false
+      },
+      {
+        "column": "project_scope",
+        "type": "text",
+        "not_null": false
+      },
+      {
+        "column": "tech_stack",
+        "type": "jsonb",
+        "not_null": false
+      },
+      {
+        "column": "milestones",
+        "type": "jsonb",
+        "not_null": false
+      },
+      {
+        "column": "key_issues",
+        "type": "jsonb",
+        "not_null": false
+      },
+      {
+        "column": "deliverables",
+        "type": "jsonb",
+        "not_null": false
+      },
+      {
+        "column": "validation_criteria",
+        "type": "jsonb",
+        "not_null": false
+      },
+      {
+        "column": "created_at",
+        "type": "timestamp with time zone",
+        "not_null": true
+      },
+      {
+        "column": "updated_at",
+        "type": "timestamp with time zone",
+        "not_null": true
+      }
+    ],
+    "pk": [
+      "plan_id"
+    ],
+    "fks": [
+      {
+        "columns": [
+          "session_id"
+        ],
+        "target": "public.roadmap_sessions",
+        "target_columns": [
+          "session_id"
+        ]
+      }
+    ]
+  },
+  "public.plan_conversations": {
+    "columns": [
+      {
+        "column": "conversation_id",
+        "type": "uuid",
+        "not_null": true
+      },
+      {
+        "column": "session_id",
+        "type": "uuid",
+        "not_null": true
+      },
+      {
+        "column": "role",
+        "type": "character varying(20)",
+        "not_null": true
+      },
+      {
+        "column": "content",
+        "type": "text",
+        "not_null": true
+      },
+      {
+        "column": "sequence_no",
+        "type": "integer",
+        "not_null": true
+      },
+      {
+        "column": "created_at",
+        "type": "timestamp with time zone",
+        "not_null": true
+      }
+    ],
+    "pk": [
+      "conversation_id"
+    ],
+    "fks": [
+      {
+        "columns": [
+          "session_id"
+        ],
+        "target": "public.roadmap_sessions",
+        "target_columns": [
+          "session_id"
+        ]
+      }
+    ]
+  },
+  "public.assessment_questions": {
+    "columns": [
+      {
+        "column": "question_id",
+        "type": "uuid",
+        "not_null": true
+      },
+      {
+        "column": "session_id",
+        "type": "uuid",
+        "not_null": true
+      },
+      {
+        "column": "assessment_type",
+        "type": "character varying(20)",
+        "not_null": true
+      },
+      {
+        "column": "skill_id",
+        "type": "integer",
+        "not_null": false
+      },
+      {
+        "column": "skill",
+        "type": "character varying(100)",
+        "not_null": true
+      },
+      {
+        "column": "question",
+        "type": "text",
+        "not_null": true
+      },
+      {
+        "column": "options",
+        "type": "jsonb",
+        "not_null": false
+      },
+      {
+        "column": "sequence_no",
+        "type": "integer",
+        "not_null": true
+      },
+      {
+        "column": "created_at",
+        "type": "timestamp with time zone",
+        "not_null": true
+      }
+    ],
+    "pk": [
+      "question_id"
+    ],
+    "fks": [
+      {
+        "columns": [
+          "session_id"
+        ],
+        "target": "public.roadmap_sessions",
+        "target_columns": [
+          "session_id"
+        ]
+      },
+      {
+        "columns": [
+          "skill_id"
+        ],
+        "target": "public.skill_tags",
+        "target_columns": [
+          "skill_id"
+        ]
+      }
+    ]
+  },
+  "public.assessment_responses": {
+    "columns": [
+      {
+        "column": "response_id",
+        "type": "uuid",
+        "not_null": true
+      },
+      {
+        "column": "session_id",
+        "type": "uuid",
+        "not_null": true
+      },
+      {
+        "column": "question_id",
+        "type": "uuid",
+        "not_null": true
+      },
+      {
+        "column": "assessment_type",
+        "type": "character varying(20)",
+        "not_null": true
+      },
+      {
+        "column": "selected_option",
+        "type": "text",
+        "not_null": true
+      },
+      {
+        "column": "score",
+        "type": "integer",
+        "not_null": true
+      },
+      {
+        "column": "answered_at",
+        "type": "timestamp with time zone",
+        "not_null": true
+      }
+    ],
+    "pk": [
+      "response_id"
+    ],
+    "fks": [
+      {
+        "columns": [
+          "session_id"
+        ],
+        "target": "public.roadmap_sessions",
+        "target_columns": [
+          "session_id"
+        ]
+      },
+      {
+        "columns": [
+          "question_id",
+          "session_id",
+          "assessment_type"
+        ],
+        "target": "public.assessment_questions",
+        "target_columns": [
+          "question_id",
+          "session_id",
+          "assessment_type"
+        ]
+      }
+    ]
+  },
+  "public.roadmap_generations": {
+    "columns": [
+      {
+        "column": "generation_id",
+        "type": "uuid",
+        "not_null": true
+      },
+      {
+        "column": "session_id",
+        "type": "uuid",
+        "not_null": true
+      },
+      {
+        "column": "strategy_type",
+        "type": "character varying(50)",
+        "not_null": true
+      },
+      {
+        "column": "strategy_title",
+        "type": "character varying(255)",
+        "not_null": false
+      },
+      {
+        "column": "summary",
+        "type": "text",
+        "not_null": false
+      },
+      {
+        "column": "roadmap_content",
+        "type": "jsonb",
+        "not_null": true
+      },
+      {
+        "column": "generation_order",
+        "type": "integer",
+        "not_null": false
+      },
+      {
+        "column": "created_at",
+        "type": "timestamp with time zone",
+        "not_null": true
+      }
+    ],
+    "pk": [
+      "generation_id"
+    ],
+    "fks": [
+      {
+        "columns": [
+          "session_id"
+        ],
+        "target": "public.roadmap_sessions",
+        "target_columns": [
+          "session_id"
+        ]
+      }
+    ]
+  },
+  "public.roadmap_selections": {
+    "columns": [
+      {
+        "column": "selection_id",
+        "type": "uuid",
+        "not_null": true
+      },
+      {
+        "column": "session_id",
+        "type": "uuid",
+        "not_null": true
+      },
+      {
+        "column": "generation_id",
+        "type": "uuid",
+        "not_null": true
+      },
+      {
+        "column": "selected_at",
+        "type": "timestamp with time zone",
+        "not_null": true
+      }
+    ],
+    "pk": [
+      "selection_id"
+    ],
+    "fks": [
+      {
+        "columns": [
+          "session_id"
+        ],
+        "target": "public.roadmap_sessions",
+        "target_columns": [
+          "session_id"
+        ]
+      },
+      {
+        "columns": [
+          "generation_id",
+          "session_id"
+        ],
+        "target": "public.roadmap_generations",
+        "target_columns": [
+          "generation_id",
+          "session_id"
+        ]
+      }
+    ]
+  },
+  "public.roadmap_reports": {
+    "columns": [
+      {
+        "column": "report_id",
+        "type": "uuid",
+        "not_null": true
+      },
+      {
+        "column": "session_id",
+        "type": "uuid",
+        "not_null": true
+      },
+      {
+        "column": "generation_id",
+        "type": "uuid",
+        "not_null": true
+      },
+      {
+        "column": "report_content",
+        "type": "jsonb",
+        "not_null": true
+      },
+      {
+        "column": "created_at",
+        "type": "timestamp with time zone",
+        "not_null": true
+      },
+      {
+        "column": "updated_at",
+        "type": "timestamp with time zone",
+        "not_null": true
+      }
+    ],
+    "pk": [
+      "report_id"
+    ],
+    "fks": [
+      {
+        "columns": [
+          "session_id"
+        ],
+        "target": "public.roadmap_sessions",
+        "target_columns": [
+          "session_id"
+        ]
+      },
+      {
+        "columns": [
+          "generation_id",
+          "session_id"
+        ],
+        "target": "public.roadmap_generations",
+        "target_columns": [
+          "generation_id",
+          "session_id"
+        ]
+      }
+    ]
+  },
+  "public.assessment_reports": {
+    "columns": [
+      {
+        "column": "report_id",
+        "type": "uuid",
+        "not_null": true
+      },
+      {
+        "column": "session_id",
+        "type": "uuid",
+        "not_null": true
+      },
+      {
+        "column": "report_type",
+        "type": "character varying(30)",
+        "not_null": true
+      },
+      {
+        "column": "report_content",
+        "type": "jsonb",
+        "not_null": true
+      },
+      {
+        "column": "created_at",
+        "type": "timestamp with time zone",
+        "not_null": true
+      }
+    ],
+    "pk": [
+      "report_id"
+    ],
+    "fks": [
+      {
+        "columns": [
+          "session_id"
+        ],
+        "target": "public.roadmap_sessions",
+        "target_columns": [
+          "session_id"
+        ]
+      }
+    ]
+  },
+  "hr_regulation_pilot.institution": {
+    "columns": [
+      {
+        "column": "institution_id",
+        "type": "character varying(64)",
+        "not_null": true
+      },
+      {
+        "column": "name",
+        "type": "character varying(255)",
+        "not_null": true
+      },
+      {
+        "column": "external_code",
+        "type": "character varying(255)",
+        "not_null": false
+      }
+    ],
+    "pk": [
+      "institution_id"
+    ],
+    "fks": []
+  },
+  "hr_regulation_pilot.regulation": {
+    "columns": [
+      {
+        "column": "regulation_id",
+        "type": "character varying(64)",
+        "not_null": true
+      },
+      {
+        "column": "institution_id",
+        "type": "character varying(64)",
+        "not_null": true
+      },
+      {
+        "column": "name",
+        "type": "character varying(255)",
+        "not_null": true
+      },
+      {
+        "column": "category",
+        "type": "character varying(40)",
+        "not_null": true
+      },
+      {
+        "column": "document_kind",
+        "type": "character varying(40)",
+        "not_null": true
+      }
+    ],
+    "pk": [
+      "regulation_id"
+    ],
+    "fks": [
+      {
+        "columns": [
+          "institution_id"
+        ],
+        "target": "hr_regulation_pilot.institution",
+        "target_columns": [
+          "institution_id"
+        ]
+      }
+    ]
+  },
+  "hr_regulation_pilot.regulation_version": {
+    "columns": [
+      {
+        "column": "regulation_version_id",
+        "type": "character varying(64)",
+        "not_null": true
+      },
+      {
+        "column": "regulation_id",
+        "type": "character varying(64)",
+        "not_null": true
+      },
+      {
+        "column": "version_label",
+        "type": "character varying(255)",
+        "not_null": true
+      },
+      {
+        "column": "title_at_version",
+        "type": "character varying(255)",
+        "not_null": true
+      },
+      {
+        "column": "content_kind",
+        "type": "character varying(40)",
+        "not_null": true
+      },
+      {
+        "column": "coverage_status",
+        "type": "character varying(40)",
+        "not_null": true
+      },
+      {
+        "column": "amendment_date",
+        "type": "date",
+        "not_null": false
+      },
+      {
+        "column": "effective_from",
+        "type": "date",
+        "not_null": false
+      },
+      {
+        "column": "effective_to",
+        "type": "date",
+        "not_null": false
+      },
+      {
+        "column": "date_status",
+        "type": "character varying(40)",
+        "not_null": true
+      },
+      {
+        "column": "review_status",
+        "type": "character varying(40)",
+        "not_null": true
+      },
+      {
+        "column": "availability_status",
+        "type": "character varying(40)",
+        "not_null": true
+      },
+      {
+        "column": "previous_version_id",
+        "type": "character varying(64)",
+        "not_null": false
+      },
+      {
+        "column": "review_note",
+        "type": "text",
+        "not_null": false
+      }
+    ],
+    "pk": [
+      "regulation_version_id"
+    ],
+    "fks": [
+      {
+        "columns": [
+          "regulation_id"
+        ],
+        "target": "hr_regulation_pilot.regulation",
+        "target_columns": [
+          "regulation_id"
+        ]
+      },
+      {
+        "columns": [
+          "previous_version_id"
+        ],
+        "target": "hr_regulation_pilot.regulation_version",
+        "target_columns": [
+          "regulation_version_id"
+        ]
+      }
+    ]
+  },
+  "hr_regulation_pilot.regulation_file": {
+    "columns": [
+      {
+        "column": "regulation_file_id",
+        "type": "character varying(64)",
+        "not_null": true
+      },
+      {
+        "column": "regulation_version_id",
+        "type": "character varying(64)",
+        "not_null": true
+      },
+      {
+        "column": "source_file_id",
+        "type": "character varying(64)",
+        "not_null": false
+      },
+      {
+        "column": "file_name",
+        "type": "character varying(255)",
+        "not_null": true
+      },
+      {
+        "column": "file_format",
+        "type": "character varying(40)",
+        "not_null": true
+      },
+      {
+        "column": "file_role",
+        "type": "character varying(40)",
+        "not_null": true
+      },
+      {
+        "column": "storage_key",
+        "type": "character varying(2048)",
+        "not_null": true
+      },
+      {
+        "column": "source_type",
+        "type": "character varying(40)",
+        "not_null": true
+      },
+      {
+        "column": "source_url",
+        "type": "character varying(2048)",
+        "not_null": false
+      },
+      {
+        "column": "retrieved_at",
+        "type": "timestamp with time zone",
+        "not_null": true
+      },
+      {
+        "column": "file_hash",
+        "type": "character varying(128)",
+        "not_null": true
+      },
+      {
+        "column": "is_extraction_source",
+        "type": "boolean",
+        "not_null": true
+      },
+      {
+        "column": "parse_status",
+        "type": "character varying(40)",
+        "not_null": true
+      },
+      {
+        "column": "access_level",
+        "type": "character varying(40)",
+        "not_null": true
+      }
+    ],
+    "pk": [
+      "regulation_file_id"
+    ],
+    "fks": [
+      {
+        "columns": [
+          "regulation_version_id"
+        ],
+        "target": "hr_regulation_pilot.regulation_version",
+        "target_columns": [
+          "regulation_version_id"
+        ]
+      },
+      {
+        "columns": [
+          "source_file_id"
+        ],
+        "target": "hr_regulation_pilot.regulation_file",
+        "target_columns": [
+          "regulation_file_id"
+        ]
+      }
+    ]
+  },
+  "hr_regulation_pilot.regulation_node": {
+    "columns": [
+      {
+        "column": "regulation_node_id",
+        "type": "character varying(64)",
+        "not_null": true
+      },
+      {
+        "column": "regulation_version_id",
+        "type": "character varying(64)",
+        "not_null": true
+      },
+      {
+        "column": "regulation_file_id",
+        "type": "character varying(64)",
+        "not_null": true
+      },
+      {
+        "column": "parent_node_id",
+        "type": "character varying(64)",
+        "not_null": false
+      },
+      {
+        "column": "node_type",
+        "type": "character varying(40)",
+        "not_null": true
+      },
+      {
+        "column": "label",
+        "type": "character varying(255)",
+        "not_null": true
+      },
+      {
+        "column": "title",
+        "type": "character varying(255)",
+        "not_null": false
+      },
+      {
+        "column": "path",
+        "type": "character varying(1024)",
+        "not_null": true
+      },
+      {
+        "column": "display_order",
+        "type": "integer",
+        "not_null": true
+      },
+      {
+        "column": "body_text",
+        "type": "text",
+        "not_null": true
+      },
+      {
+        "column": "source_locator",
+        "type": "jsonb",
+        "not_null": true
+      },
+      {
+        "column": "effective_from_override",
+        "type": "date",
+        "not_null": false
+      },
+      {
+        "column": "effective_to_override",
+        "type": "date",
+        "not_null": false
+      },
+      {
+        "column": "extraction_status",
+        "type": "character varying(40)",
+        "not_null": true
+      },
+      {
+        "column": "review_note",
+        "type": "text",
+        "not_null": false
+      }
+    ],
+    "pk": [
+      "regulation_node_id"
+    ],
+    "fks": [
+      {
+        "columns": [
+          "regulation_version_id"
+        ],
+        "target": "hr_regulation_pilot.regulation_version",
+        "target_columns": [
+          "regulation_version_id"
+        ]
+      },
+      {
+        "columns": [
+          "regulation_file_id"
+        ],
+        "target": "hr_regulation_pilot.regulation_file",
+        "target_columns": [
+          "regulation_file_id"
+        ]
+      },
+      {
+        "columns": [
+          "parent_node_id"
+        ],
+        "target": "hr_regulation_pilot.regulation_node",
+        "target_columns": [
+          "regulation_node_id"
+        ]
+      }
+    ]
+  },
+  "hr_regulation_pilot.regulation_scope": {
+    "columns": [
+      {
+        "column": "regulation_scope_id",
+        "type": "character varying(64)",
+        "not_null": true
+      },
+      {
+        "column": "regulation_node_id",
+        "type": "character varying(64)",
+        "not_null": true
+      },
+      {
+        "column": "scope_type",
+        "type": "character varying(40)",
+        "not_null": true
+      },
+      {
+        "column": "condition_text",
+        "type": "text",
+        "not_null": true
+      },
+      {
+        "column": "condition_json",
+        "type": "jsonb",
+        "not_null": false
+      },
+      {
+        "column": "applies_to_node_id",
+        "type": "character varying(64)",
+        "not_null": false
+      },
+      {
+        "column": "review_status",
+        "type": "character varying(40)",
+        "not_null": true
+      }
+    ],
+    "pk": [
+      "regulation_scope_id"
+    ],
+    "fks": [
+      {
+        "columns": [
+          "regulation_node_id"
+        ],
+        "target": "hr_regulation_pilot.regulation_node",
+        "target_columns": [
+          "regulation_node_id"
+        ]
+      },
+      {
+        "columns": [
+          "applies_to_node_id"
+        ],
+        "target": "hr_regulation_pilot.regulation_node",
+        "target_columns": [
+          "regulation_node_id"
+        ]
+      }
+    ]
+  },
+  "hr_regulation_pilot.regulation_reference": {
+    "columns": [
+      {
+        "column": "regulation_reference_id",
+        "type": "character varying(64)",
+        "not_null": true
+      },
+      {
+        "column": "regulation_node_id",
+        "type": "character varying(64)",
+        "not_null": true
+      },
+      {
+        "column": "reference_type",
+        "type": "character varying(40)",
+        "not_null": true
+      },
+      {
+        "column": "target_text",
+        "type": "text",
+        "not_null": true
+      },
+      {
+        "column": "target_regulation_id",
+        "type": "character varying(64)",
+        "not_null": false
+      },
+      {
+        "column": "target_version_id",
+        "type": "character varying(64)",
+        "not_null": false
+      },
+      {
+        "column": "target_node_id",
+        "type": "character varying(64)",
+        "not_null": false
+      },
+      {
+        "column": "resolution_status",
+        "type": "character varying(40)",
+        "not_null": true
+      },
+      {
+        "column": "review_note",
+        "type": "text",
+        "not_null": false
+      }
+    ],
+    "pk": [
+      "regulation_reference_id"
+    ],
+    "fks": [
+      {
+        "columns": [
+          "regulation_node_id"
+        ],
+        "target": "hr_regulation_pilot.regulation_node",
+        "target_columns": [
+          "regulation_node_id"
+        ]
+      },
+      {
+        "columns": [
+          "target_regulation_id"
+        ],
+        "target": "hr_regulation_pilot.regulation",
+        "target_columns": [
+          "regulation_id"
+        ]
+      },
+      {
+        "columns": [
+          "target_version_id"
+        ],
+        "target": "hr_regulation_pilot.regulation_version",
+        "target_columns": [
+          "regulation_version_id"
+        ]
+      },
+      {
+        "columns": [
+          "target_node_id"
+        ],
+        "target": "hr_regulation_pilot.regulation_node",
+        "target_columns": [
+          "regulation_node_id"
+        ]
+      }
+    ]
+  },
+  "hr_regulation_pilot.rag_chunk": {
+    "columns": [
+      {
+        "column": "rag_chunk_id",
+        "type": "character varying(64)",
+        "not_null": true
+      },
+      {
+        "column": "regulation_version_id",
+        "type": "character varying(64)",
+        "not_null": true
+      },
+      {
+        "column": "chunk_text",
+        "type": "text",
+        "not_null": true
+      },
+      {
+        "column": "chunk_type",
+        "type": "character varying(40)",
+        "not_null": true
+      },
+      {
+        "column": "context_path",
+        "type": "character varying(1024)",
+        "not_null": true
+      },
+      {
+        "column": "content_hash",
+        "type": "character varying(128)",
+        "not_null": true
+      },
+      {
+        "column": "chunking_version",
+        "type": "character varying(255)",
+        "not_null": true
+      },
+      {
+        "column": "index_revision",
+        "type": "character varying(255)",
+        "not_null": true
+      },
+      {
+        "column": "embedding_model",
+        "type": "character varying(255)",
+        "not_null": false
+      },
+      {
+        "column": "search_status",
+        "type": "character varying(40)",
+        "not_null": true
+      },
+      {
+        "column": "created_at",
+        "type": "timestamp with time zone",
+        "not_null": true
+      },
+      {
+        "column": "token_count",
+        "type": "integer",
+        "not_null": false
+      }
+    ],
+    "pk": [
+      "rag_chunk_id"
+    ],
+    "fks": [
+      {
+        "columns": [
+          "regulation_version_id"
+        ],
+        "target": "hr_regulation_pilot.regulation_version",
+        "target_columns": [
+          "regulation_version_id"
+        ]
+      }
+    ]
+  },
+  "hr_regulation_pilot.rag_chunk_source": {
+    "columns": [
+      {
+        "column": "rag_chunk_source_id",
+        "type": "character varying(64)",
+        "not_null": true
+      },
+      {
+        "column": "rag_chunk_id",
+        "type": "character varying(64)",
+        "not_null": true
+      },
+      {
+        "column": "regulation_node_id",
+        "type": "character varying(64)",
+        "not_null": true
+      },
+      {
+        "column": "source_order",
+        "type": "integer",
+        "not_null": true
+      },
+      {
+        "column": "source_role",
+        "type": "character varying(40)",
+        "not_null": true
+      },
+      {
+        "column": "source_span",
+        "type": "jsonb",
+        "not_null": false
+      }
+    ],
+    "pk": [
+      "rag_chunk_source_id"
+    ],
+    "fks": [
+      {
+        "columns": [
+          "rag_chunk_id"
+        ],
+        "target": "hr_regulation_pilot.rag_chunk",
+        "target_columns": [
+          "rag_chunk_id"
+        ]
+      },
+      {
+        "columns": [
+          "regulation_node_id"
+        ],
+        "target": "hr_regulation_pilot.regulation_node",
+        "target_columns": [
+          "regulation_node_id"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,1720 @@
+{
+  "metadata": {
+    "correction_id": "e1fa6060-3a5e-55a9-a178-e5057e7d0f93",
+    "correction_version": "V01",
+    "document_title": "별표 3 · 통합직무 교육체계 보정 검토안",
+    "regulation_version_id": "5565f28d-29da-5ebd-bb8a-b0dc705f26d3",
+    "regulation_file_id": "30562fdd-97df-5c4b-9535-1c7402d2b738",
+    "based_on_regulation_node_id": "16332bc1-75f8-595b-b771-e5a30fd650fd",
+    "source_sha256": "0835551b52e02b2471022af3e3bf4c65ce39d0816a9fba6b0cc6c5569b5b792f",
+    "pdf_page": 21,
+    "created_at": "2026-10-13T15:05:08+09:00",
+    "review_status": "pending_user_review",
+    "human_official_interpretation_completed": false,
+    "original_and_auto_extraction_modified": false,
+    "db_loaded": false,
+    "search_activated": false,
+    "automated_decision_enabled": false,
+    "scope_source_evidence": {
+      "regulation_node_id": "e02a60ec-36fb-5697-8e6c-3eeeea267ddd",
+      "path": "인재개발규정 > 제1장 > 제7조 > 제5항",
+      "body_text": "⑤ 「인사규정」 제8조에 따라 일반직 5급으로 채용하는 신입사원에 대한 직무역량개발체계는 별\n표 3과 같다. <신설 2015.09.25, 개정 2018.12.27., 2024.12.26.>",
+      "source_locator": {
+        "coordinate_system": "PDF point; 원점=페이지 왼쪽 위",
+        "pdf_pages": [
+          2
+        ],
+        "printed_pages": [
+          2
+        ],
+        "lines": [
+          {
+            "line_id": "p02l029",
+            "page": 2,
+            "bbox": [
+              85.25,
+              577.621,
+              524.93,
+              587.701
+            ]
+          },
+          {
+            "line_id": "p02l030",
+            "page": 2,
+            "bbox": [
+              85.26,
+              593.691,
+              395.097,
+              603.771
+            ]
+          }
+        ],
+        "section_kind": "body"
+      }
+    },
+    "scope_note": "제7조 제5항의 일반직 5급 채용 신입사원 대상 체계. 모든 직원에게 일괄 적용하지 않는다."
+  },
+  "source_header": {
+    "source_locator": {
+      "pdf_page": 21,
+      "printed_page": 21,
+      "source_regulation_node_id": "16332bc1-75f8-595b-b771-e5a30fd650fd",
+      "source_table_key": "p21-table-1",
+      "source_table_node_id": "b2c39fd9-2ecb-5274-9768-8016d4093202",
+      "table_bbox": [
+        45.36,
+        138.0,
+        555.36,
+        575.28
+      ],
+      "line_ids": [
+        "p21l001",
+        "p21l002"
+      ],
+      "line_bboxes": [
+        [
+          42.49,
+          50.997,
+          194.6,
+          62.68
+        ],
+        [
+          225.36,
+          90.483,
+          369.84,
+          107.523
+        ]
+      ],
+      "original_extracted_text": "【별표 3】(제7조제5항 관련)\n통합직무 교육체계",
+      "visual_group": null,
+      "visual_group_note": "분야·단계·평가의 병합 범위는 원문 전체 이미지로 대조. 문자 행에는 옆 칸의 글자가 함께 포함될 수 있음."
+    }
+  },
+  "field_groups": [
+    {
+      "group_id": "administration",
+      "label": "행정",
+      "job_fields": [
+        "기획경영",
+        "재무관리",
+        "인사관리"
+      ],
+      "raw_table_column": 1,
+      "source_locator": {
+        "pdf_page": 21,
+        "printed_page": 21,
+        "source_regulation_node_id": "16332bc1-75f8-595b-b771-e5a30fd650fd",
+        "source_table_key": "p21-table-1",
+        "source_table_node_id": "b2c39fd9-2ecb-5274-9768-8016d4093202",
+        "table_bbox": [
+          45.36,
+          138.0,
+          555.36,
+          575.28
+        ],
+        "line_ids": [
+          "p21l003",
+          "p21l004",
+          "p21l005",
+          "p21l006"
+        ],
+        "line_bboxes": [
+          [
+            56.88,
+            145.28,
+            544.4,
+            159.28
+          ],
+          [
+            57.84,
+            179.6,
+            214.663,
+            193.64
+          ],
+          [
+            113.52,
+            188.0,
+            486.824,
+            202.0
+          ],
+          [
+            57.84,
+            196.24,
+            214.663,
+            210.4
+          ]
+        ],
+        "original_extracted_text": "구분 행정 기술Ⅰ 기술Ⅱ 평가\n직무 기획 재무 인사\n․ 시설 환경 설비 에너지\n분야 경영 관리 관리",
+        "visual_group": "행정",
+        "visual_group_note": "분야·단계·평가의 병합 범위는 원문 전체 이미지로 대조. 문자 행에는 옆 칸의 글자가 함께 포함될 수 있음."
+      },
+      "individual_assignment_confirmed": false,
+      "review_status": "pending_user_review"
+    },
+    {
+      "group_id": "technical_1",
+      "label": "기술Ⅰ",
+      "job_fields": [
+        "시설",
+        "환경"
+      ],
+      "raw_table_column": 3,
+      "source_locator": {
+        "pdf_page": 21,
+        "printed_page": 21,
+        "source_regulation_node_id": "16332bc1-75f8-595b-b771-e5a30fd650fd",
+        "source_table_key": "p21-table-1",
+        "source_table_node_id": "b2c39fd9-2ecb-5274-9768-8016d4093202",
+        "table_bbox": [
+          45.36,
+          138.0,
+          555.36,
+          575.28
+        ],
+        "line_ids": [
+          "p21l003",
+          "p21l004",
+          "p21l005",
+          "p21l006"
+        ],
+        "line_bboxes": [
+          [
+            56.88,
+            145.28,
+            544.4,
+            159.28
+          ],
+          [
+            57.84,
+            179.6,
+            214.663,
+            193.64
+          ],
+          [
+            113.52,
+            188.0,
+            486.824,
+            202.0
+          ],
+          [
+            57.84,
+            196.24,
+            214.663,
+            210.4
+          ]
+        ],
+        "original_extracted_text": "구분 행정 기술Ⅰ 기술Ⅱ 평가\n직무 기획 재무 인사\n․ 시설 환경 설비 에너지\n분야 경영 관리 관리",
+        "visual_group": "기술Ⅰ",
+        "visual_group_note": "분야·단계·평가의 병합 범위는 원문 전체 이미지로 대조. 문자 행에는 옆 칸의 글자가 함께 포함될 수 있음."
+      },
+      "individual_assignment_confirmed": false,
+      "review_status": "pending_user_review"
+    },
+    {
+      "group_id": "technical_2",
+      "label": "기술Ⅱ",
+      "job_fields": [
+        "설비",
+        "에너지"
+      ],
+      "raw_table_column": 4,
+      "source_locator": {
+        "pdf_page": 21,
+        "printed_page": 21,
+        "source_regulation_node_id": "16332bc1-75f8-595b-b771-e5a30fd650fd",
+        "source_table_key": "p21-table-1",
+        "source_table_node_id": "b2c39fd9-2ecb-5274-9768-8016d4093202",
+        "table_bbox": [
+          45.36,
+          138.0,
+          555.36,
+          575.28
+        ],
+        "line_ids": [
+          "p21l003",
+          "p21l004",
+          "p21l005",
+          "p21l006"
+        ],
+        "line_bboxes": [
+          [
+            56.88,
+            145.28,
+            544.4,
+            159.28
+          ],
+          [
+            57.84,
+            179.6,
+            214.663,
+            193.64
+          ],
+          [
+            113.52,
+            188.0,
+            486.824,
+            202.0
+          ],
+          [
+            57.84,
+            196.24,
+            214.663,
+            210.4
+          ]
+        ],
+        "original_extracted_text": "구분 행정 기술Ⅰ 기술Ⅱ 평가\n직무 기획 재무 인사\n․ 시설 환경 설비 에너지\n분야 경영 관리 관리",
+        "visual_group": "기술Ⅱ",
+        "visual_group_note": "분야·단계·평가의 병합 범위는 원문 전체 이미지로 대조. 문자 행에는 옆 칸의 글자가 함께 포함될 수 있음."
+      },
+      "individual_assignment_confirmed": false,
+      "review_status": "pending_user_review"
+    }
+  ],
+  "stages": [
+    {
+      "stage_id": "stage_1",
+      "stage_number": 1,
+      "label": "신입사원 교육",
+      "source_timing_text": "입사시",
+      "source_duration_text": "집합교육(2주간)",
+      "timing": {
+        "event_text": "입사시",
+        "duration_value": 2,
+        "duration_unit": "week",
+        "actual_start_date": null,
+        "actual_end_date": null,
+        "hours_conversion": null
+      },
+      "source_locator": {
+        "pdf_page": 21,
+        "printed_page": 21,
+        "source_regulation_node_id": "16332bc1-75f8-595b-b771-e5a30fd650fd",
+        "source_table_key": "p21-table-1",
+        "source_table_node_id": "b2c39fd9-2ecb-5274-9768-8016d4093202",
+        "table_bbox": [
+          45.36,
+          138.0,
+          555.36,
+          575.28
+        ],
+        "line_ids": [
+          "p21l007",
+          "p21l008",
+          "p21l009",
+          "p21l010",
+          "p21l011",
+          "p21l012",
+          "p21l013"
+        ],
+        "line_bboxes": [
+          [
+            55.44,
+            233.6,
+            87.702,
+            247.6
+          ],
+          [
+            109.2,
+            244.0,
+            469.4,
+            257.96
+          ],
+          [
+            57.84,
+            255.76,
+            549.88,
+            270.68
+          ],
+          [
+            109.2,
+            264.88,
+            437.24,
+            278.84
+          ],
+          [
+            57.84,
+            271.36,
+            543.4,
+            285.08
+          ],
+          [
+            57.84,
+            285.52,
+            408.2,
+            299.96
+          ],
+          [
+            51.6,
+            302.64,
+            99.24,
+            314.64
+          ]
+        ],
+        "original_extracted_text": "1단계\n집합 전략‧주요사업이해,직무기본(보고서 작성,시스템 활용 등)\n신입 이해도\n교육 「전 직원이 알아야하는 직무이해」(경영‧기술)\n사원 평가\n교육 (2주간) *신입사원 교육기간 교육이수기준은 별도로 정함\n(입사시)",
+        "visual_group": "1단계",
+        "visual_group_note": "분야·단계·평가의 병합 범위는 원문 전체 이미지로 대조. 문자 행에는 옆 칸의 글자가 함께 포함될 수 있음."
+      }
+    },
+    {
+      "stage_id": "stage_2",
+      "stage_number": 2,
+      "label": "OJT 통합직무교육",
+      "source_timing_text": "5개월내",
+      "source_duration_text": null,
+      "timing": {
+        "within_value": 5,
+        "within_unit": "month",
+        "anchor_date_basis": null,
+        "actual_start_date": null,
+        "actual_end_date": null,
+        "hours_conversion": null
+      },
+      "source_locator": {
+        "pdf_page": 21,
+        "printed_page": 21,
+        "source_regulation_node_id": "16332bc1-75f8-595b-b771-e5a30fd650fd",
+        "source_table_key": "p21-table-1",
+        "source_table_node_id": "b2c39fd9-2ecb-5274-9768-8016d4093202",
+        "table_bbox": [
+          45.36,
+          138.0,
+          555.36,
+          575.28
+        ],
+        "line_ids": [
+          "p21l015",
+          "p21l018",
+          "p21l021",
+          "p21l022",
+          "p21l024",
+          "p21l026"
+        ],
+        "line_bboxes": [
+          [
+            55.44,
+            375.2,
+            87.702,
+            389.2
+          ],
+          [
+            59.28,
+            402.16,
+            88.12,
+            415.16
+          ],
+          [
+            57.84,
+            441.28,
+            84.52,
+            454.28
+          ],
+          [
+            57.84,
+            459.52,
+            84.52,
+            472.52
+          ],
+          [
+            57.84,
+            477.52,
+            84.52,
+            490.52
+          ],
+          [
+            50.4,
+            496.56,
+            100.2,
+            508.56
+          ]
+        ],
+        "original_extracted_text": "2단계\nOJT\n통합\n직무\n교육\n(5개월내)",
+        "visual_group": "2단계",
+        "visual_group_note": "분야·단계·평가의 병합 범위는 원문 전체 이미지로 대조. 문자 행에는 옆 칸의 글자가 함께 포함될 수 있음."
+      }
+    }
+  ],
+  "learning_blocks": [
+    {
+      "block_id": "induction",
+      "stage_id": "stage_1",
+      "sequence": 1,
+      "label": "신입사원 집합교육",
+      "source_method_text": "집합교육",
+      "source_duration_text": "2주간",
+      "source_duration": {
+        "value": 2,
+        "unit": "week"
+      },
+      "curriculum_layout": "shared_across_three_group_columns",
+      "source_group_ids": [
+        "administration",
+        "technical_1",
+        "technical_2"
+      ],
+      "source_locator": {
+        "pdf_page": 21,
+        "printed_page": 21,
+        "source_regulation_node_id": "16332bc1-75f8-595b-b771-e5a30fd650fd",
+        "source_table_key": "p21-table-1",
+        "source_table_node_id": "b2c39fd9-2ecb-5274-9768-8016d4093202",
+        "table_bbox": [
+          45.36,
+          138.0,
+          555.36,
+          575.28
+        ],
+        "line_ids": [
+          "p21l008",
+          "p21l009",
+          "p21l010",
+          "p21l011",
+          "p21l012"
+        ],
+        "line_bboxes": [
+          [
+            109.2,
+            244.0,
+            469.4,
+            257.96
+          ],
+          [
+            57.84,
+            255.76,
+            549.88,
+            270.68
+          ],
+          [
+            109.2,
+            264.88,
+            437.24,
+            278.84
+          ],
+          [
+            57.84,
+            271.36,
+            543.4,
+            285.08
+          ],
+          [
+            57.84,
+            285.52,
+            408.2,
+            299.96
+          ]
+        ],
+        "original_extracted_text": "집합 전략‧주요사업이해,직무기본(보고서 작성,시스템 활용 등)\n신입 이해도\n교육 「전 직원이 알아야하는 직무이해」(경영‧기술)\n사원 평가\n교육 (2주간) *신입사원 교육기간 교육이수기준은 별도로 정함",
+        "visual_group": "1단계 공통 병합 칸",
+        "visual_group_note": "분야·단계·평가의 병합 범위는 원문 전체 이미지로 대조. 문자 행에는 옆 칸의 글자가 함께 포함될 수 있음."
+      }
+    },
+    {
+      "block_id": "foundation",
+      "stage_id": "stage_2",
+      "sequence": 1,
+      "label": "기초학습",
+      "source_method_text": "사이버·독서",
+      "source_duration_text": null,
+      "source_duration": null,
+      "curriculum_layout": "separate_by_group",
+      "source_group_ids": [
+        "administration",
+        "technical_1",
+        "technical_2"
+      ],
+      "source_locator": {
+        "pdf_page": 21,
+        "printed_page": 21,
+        "source_regulation_node_id": "16332bc1-75f8-595b-b771-e5a30fd650fd",
+        "source_table_key": "p21-table-1",
+        "source_table_node_id": "b2c39fd9-2ecb-5274-9768-8016d4093202",
+        "table_bbox": [
+          45.36,
+          138.0,
+          555.36,
+          575.28
+        ],
+        "line_ids": [
+          "p21l016",
+          "p21l017",
+          "p21l019",
+          "p21l020"
+        ],
+        "line_bboxes": [
+          [
+            206.64,
+            379.12,
+            362.2,
+            392.12
+          ],
+          [
+            510.72,
+            398.8,
+            549.88,
+            411.8
+          ],
+          [
+            111.6,
+            411.28,
+            543.4,
+            426.2
+          ],
+          [
+            111.6,
+            431.92,
+            488.44,
+            444.92
+          ]
+        ],
+        "original_extracted_text": "[기초학습]-사이버‧독서\n이해도\n회계‧재무관리 정수원리 및 시스템 정수원리 및 시스템 평가\n계약관리 응용수자원 실무 정수설비 운영관리",
+        "visual_group": "2단계 ① 기초학습",
+        "visual_group_note": "분야·단계·평가의 병합 범위는 원문 전체 이미지로 대조. 문자 행에는 옆 칸의 글자가 함께 포함될 수 있음."
+      }
+    },
+    {
+      "block_id": "integrated",
+      "stage_id": "stage_2",
+      "sequence": 2,
+      "label": "통합직무이해",
+      "source_method_text": "집합교육",
+      "source_duration_text": "2주간",
+      "source_duration": {
+        "value": 2,
+        "unit": "week"
+      },
+      "curriculum_layout": "separate_by_group",
+      "source_group_ids": [
+        "administration",
+        "technical_1",
+        "technical_2"
+      ],
+      "source_locator": {
+        "pdf_page": 21,
+        "printed_page": 21,
+        "source_regulation_node_id": "16332bc1-75f8-595b-b771-e5a30fd650fd",
+        "source_table_key": "p21-table-1",
+        "source_table_node_id": "b2c39fd9-2ecb-5274-9768-8016d4093202",
+        "table_bbox": [
+          45.36,
+          138.0,
+          555.36,
+          575.28
+        ],
+        "line_ids": [
+          "p21l023",
+          "p21l025",
+          "p21l027",
+          "p21l028",
+          "p21l029",
+          "p21l030",
+          "p21l031"
+        ],
+        "line_bboxes": [
+          [
+            206.64,
+            462.64,
+            427.0,
+            475.64
+          ],
+          [
+            114.72,
+            491.92,
+            456.28,
+            504.92
+          ],
+          [
+            510.72,
+            501.76,
+            549.88,
+            514.76
+          ],
+          [
+            114.72,
+            512.56,
+            431.08,
+            525.56
+          ],
+          [
+            517.2,
+            516.16,
+            543.4,
+            529.16
+          ],
+          [
+            114.72,
+            533.44,
+            431.08,
+            546.44
+          ],
+          [
+            114.48,
+            554.32,
+            450.04,
+            567.32
+          ]
+        ],
+        "original_extracted_text": "[통합직무이해]-집합교육 (2주간)\n회계‧계약실무 정수처리 및 관망운영 정수처리설비\n이해도\n요금‧용수영업 수자원 운영관리 발전설비\n평가\n법무‧보상 건설 및 시공관리 계측설비\n사업타당성분석 수질관리(수자원‧수도) 유‧무선통신",
+        "visual_group": "2단계 ② 통합직무이해",
+        "visual_group_note": "분야·단계·평가의 병합 범위는 원문 전체 이미지로 대조. 문자 행에는 옆 칸의 글자가 함께 포함될 수 있음."
+      }
+    }
+  ],
+  "learning_topics": [
+    {
+      "topic_id": "eb6bfd17-f426-5565-8a7d-971323c41b5d",
+      "block_id": "induction",
+      "group_id": null,
+      "topic_text": "전략·주요사업이해, 직무기본(보고서 작성, 시스템 활용 등)",
+      "source_locator": {
+        "pdf_page": 21,
+        "printed_page": 21,
+        "source_regulation_node_id": "16332bc1-75f8-595b-b771-e5a30fd650fd",
+        "source_table_key": "p21-table-1",
+        "source_table_node_id": "b2c39fd9-2ecb-5274-9768-8016d4093202",
+        "table_bbox": [
+          45.36,
+          138.0,
+          555.36,
+          575.28
+        ],
+        "line_ids": [
+          "p21l008"
+        ],
+        "line_bboxes": [
+          [
+            109.2,
+            244.0,
+            469.4,
+            257.96
+          ]
+        ],
+        "original_extracted_text": "집합 전략‧주요사업이해,직무기본(보고서 작성,시스템 활용 등)",
+        "visual_group": "공통",
+        "visual_group_note": "분야·단계·평가의 병합 범위는 원문 전체 이미지로 대조. 문자 행에는 옆 칸의 글자가 함께 포함될 수 있음."
+      },
+      "review_status": "pending_user_review",
+      "topic_is_independent_course_confirmed": false
+    },
+    {
+      "topic_id": "60e96016-445c-5fd8-a853-9e0dd243f439",
+      "block_id": "induction",
+      "group_id": null,
+      "topic_text": "「전 직원이 알아야하는 직무이해」(경영·기술)",
+      "source_locator": {
+        "pdf_page": 21,
+        "printed_page": 21,
+        "source_regulation_node_id": "16332bc1-75f8-595b-b771-e5a30fd650fd",
+        "source_table_key": "p21-table-1",
+        "source_table_node_id": "b2c39fd9-2ecb-5274-9768-8016d4093202",
+        "table_bbox": [
+          45.36,
+          138.0,
+          555.36,
+          575.28
+        ],
+        "line_ids": [
+          "p21l010"
+        ],
+        "line_bboxes": [
+          [
+            109.2,
+            264.88,
+            437.24,
+            278.84
+          ]
+        ],
+        "original_extracted_text": "교육 「전 직원이 알아야하는 직무이해」(경영‧기술)",
+        "visual_group": "공통",
+        "visual_group_note": "분야·단계·평가의 병합 범위는 원문 전체 이미지로 대조. 문자 행에는 옆 칸의 글자가 함께 포함될 수 있음."
+      },
+      "review_status": "pending_user_review",
+      "topic_is_independent_course_confirmed": false
+    },
+    {
+      "topic_id": "f5d01ab3-7484-57b7-a110-d722e6ec1405",
+      "block_id": "foundation",
+      "group_id": "administration",
+      "topic_text": "회계·재무관리",
+      "source_locator": {
+        "pdf_page": 21,
+        "printed_page": 21,
+        "source_regulation_node_id": "16332bc1-75f8-595b-b771-e5a30fd650fd",
+        "source_table_key": "p21-table-1",
+        "source_table_node_id": "b2c39fd9-2ecb-5274-9768-8016d4093202",
+        "table_bbox": [
+          45.36,
+          138.0,
+          555.36,
+          575.28
+        ],
+        "line_ids": [
+          "p21l019"
+        ],
+        "line_bboxes": [
+          [
+            111.6,
+            411.28,
+            543.4,
+            426.2
+          ]
+        ],
+        "original_extracted_text": "회계‧재무관리 정수원리 및 시스템 정수원리 및 시스템 평가",
+        "visual_group": "행정",
+        "visual_group_note": "분야·단계·평가의 병합 범위는 원문 전체 이미지로 대조. 문자 행에는 옆 칸의 글자가 함께 포함될 수 있음."
+      },
+      "review_status": "pending_user_review",
+      "topic_is_independent_course_confirmed": false
+    },
+    {
+      "topic_id": "dfeb0616-5081-5c1a-bfe4-623404a68347",
+      "block_id": "foundation",
+      "group_id": "administration",
+      "topic_text": "계약관리",
+      "source_locator": {
+        "pdf_page": 21,
+        "printed_page": 21,
+        "source_regulation_node_id": "16332bc1-75f8-595b-b771-e5a30fd650fd",
+        "source_table_key": "p21-table-1",
+        "source_table_node_id": "b2c39fd9-2ecb-5274-9768-8016d4093202",
+        "table_bbox": [
+          45.36,
+          138.0,
+          555.36,
+          575.28
+        ],
+        "line_ids": [
+          "p21l020"
+        ],
+        "line_bboxes": [
+          [
+            111.6,
+            431.92,
+            488.44,
+            444.92
+          ]
+        ],
+        "original_extracted_text": "계약관리 응용수자원 실무 정수설비 운영관리",
+        "visual_group": "행정",
+        "visual_group_note": "분야·단계·평가의 병합 범위는 원문 전체 이미지로 대조. 문자 행에는 옆 칸의 글자가 함께 포함될 수 있음."
+      },
+      "review_status": "pending_user_review",
+      "topic_is_independent_course_confirmed": false
+    },
+    {
+      "topic_id": "5c2ee1da-3ca2-51fc-8e26-83054368be3d",
+      "block_id": "foundation",
+      "group_id": "technical_1",
+      "topic_text": "정수원리 및 시스템",
+      "source_locator": {
+        "pdf_page": 21,
+        "printed_page": 21,
+        "source_regulation_node_id": "16332bc1-75f8-595b-b771-e5a30fd650fd",
+        "source_table_key": "p21-table-1",
+        "source_table_node_id": "b2c39fd9-2ecb-5274-9768-8016d4093202",
+        "table_bbox": [
+          45.36,
+          138.0,
+          555.36,
+          575.28
+        ],
+        "line_ids": [
+          "p21l019"
+        ],
+        "line_bboxes": [
+          [
+            111.6,
+            411.28,
+            543.4,
+            426.2
+          ]
+        ],
+        "original_extracted_text": "회계‧재무관리 정수원리 및 시스템 정수원리 및 시스템 평가",
+        "visual_group": "기술Ⅰ",
+        "visual_group_note": "분야·단계·평가의 병합 범위는 원문 전체 이미지로 대조. 문자 행에는 옆 칸의 글자가 함께 포함될 수 있음."
+      },
+      "review_status": "pending_user_review",
+      "topic_is_independent_course_confirmed": false
+    },
+    {
+      "topic_id": "8f6f4787-ef54-5e15-a587-7d1be7b13004",
+      "block_id": "foundation",
+      "group_id": "technical_1",
+      "topic_text": "응용수자원 실무",
+      "source_locator": {
+        "pdf_page": 21,
+        "printed_page": 21,
+        "source_regulation_node_id": "16332bc1-75f8-595b-b771-e5a30fd650fd",
+        "source_table_key": "p21-table-1",
+        "source_table_node_id": "b2c39fd9-2ecb-5274-9768-8016d4093202",
+        "table_bbox": [
+          45.36,
+          138.0,
+          555.36,
+          575.28
+        ],
+        "line_ids": [
+          "p21l020"
+        ],
+        "line_bboxes": [
+          [
+            111.6,
+            431.92,
+            488.44,
+            444.92
+          ]
+        ],
+        "original_extracted_text": "계약관리 응용수자원 실무 정수설비 운영관리",
+        "visual_group": "기술Ⅰ",
+        "visual_group_note": "분야·단계·평가의 병합 범위는 원문 전체 이미지로 대조. 문자 행에는 옆 칸의 글자가 함께 포함될 수 있음."
+      },
+      "review_status": "pending_user_review",
+      "topic_is_independent_course_confirmed": false
+    },
+    {
+      "topic_id": "cde35434-9a84-569e-b0d1-4c8c324d5f22",
+      "block_id": "foundation",
+      "group_id": "technical_2",
+      "topic_text": "정수원리 및 시스템",
+      "source_locator": {
+        "pdf_page": 21,
+        "printed_page": 21,
+        "source_regulation_node_id": "16332bc1-75f8-595b-b771-e5a30fd650fd",
+        "source_table_key": "p21-table-1",
+        "source_table_node_id": "b2c39fd9-2ecb-5274-9768-8016d4093202",
+        "table_bbox": [
+          45.36,
+          138.0,
+          555.36,
+          575.28
+        ],
+        "line_ids": [
+          "p21l019"
+        ],
+        "line_bboxes": [
+          [
+            111.6,
+            411.28,
+            543.4,
+            426.2
+          ]
+        ],
+        "original_extracted_text": "회계‧재무관리 정수원리 및 시스템 정수원리 및 시스템 평가",
+        "visual_group": "기술Ⅱ",
+        "visual_group_note": "분야·단계·평가의 병합 범위는 원문 전체 이미지로 대조. 문자 행에는 옆 칸의 글자가 함께 포함될 수 있음."
+      },
+      "review_status": "pending_user_review",
+      "topic_is_independent_course_confirmed": false
+    },
+    {
+      "topic_id": "dac42d43-68a0-5cbc-bd60-6cdb3037206f",
+      "block_id": "foundation",
+      "group_id": "technical_2",
+      "topic_text": "정수설비 운영관리",
+      "source_locator": {
+        "pdf_page": 21,
+        "printed_page": 21,
+        "source_regulation_node_id": "16332bc1-75f8-595b-b771-e5a30fd650fd",
+        "source_table_key": "p21-table-1",
+        "source_table_node_id": "b2c39fd9-2ecb-5274-9768-8016d4093202",
+        "table_bbox": [
+          45.36,
+          138.0,
+          555.36,
+          575.28
+        ],
+        "line_ids": [
+          "p21l020"
+        ],
+        "line_bboxes": [
+          [
+            111.6,
+            431.92,
+            488.44,
+            444.92
+          ]
+        ],
+        "original_extracted_text": "계약관리 응용수자원 실무 정수설비 운영관리",
+        "visual_group": "기술Ⅱ",
+        "visual_group_note": "분야·단계·평가의 병합 범위는 원문 전체 이미지로 대조. 문자 행에는 옆 칸의 글자가 함께 포함될 수 있음."
+      },
+      "review_status": "pending_user_review",
+      "topic_is_independent_course_confirmed": false
+    },
+    {
+      "topic_id": "58ba75a2-cb1e-51cb-846e-56edbb313a47",
+      "block_id": "integrated",
+      "group_id": "administration",
+      "topic_text": "회계·계약실무",
+      "source_locator": {
+        "pdf_page": 21,
+        "printed_page": 21,
+        "source_regulation_node_id": "16332bc1-75f8-595b-b771-e5a30fd650fd",
+        "source_table_key": "p21-table-1",
+        "source_table_node_id": "b2c39fd9-2ecb-5274-9768-8016d4093202",
+        "table_bbox": [
+          45.36,
+          138.0,
+          555.36,
+          575.28
+        ],
+        "line_ids": [
+          "p21l025"
+        ],
+        "line_bboxes": [
+          [
+            114.72,
+            491.92,
+            456.28,
+            504.92
+          ]
+        ],
+        "original_extracted_text": "회계‧계약실무 정수처리 및 관망운영 정수처리설비",
+        "visual_group": "행정",
+        "visual_group_note": "분야·단계·평가의 병합 범위는 원문 전체 이미지로 대조. 문자 행에는 옆 칸의 글자가 함께 포함될 수 있음."
+      },
+      "review_status": "pending_user_review",
+      "topic_is_independent_course_confirmed": false
+    },
+    {
+      "topic_id": "4651d36b-7023-5b8c-b8fd-5e5bf50ff0b1",
+      "block_id": "integrated",
+      "group_id": "administration",
+      "topic_text": "요금·용수영업",
+      "source_locator": {
+        "pdf_page": 21,
+        "printed_page": 21,
+        "source_regulation_node_id": "16332bc1-75f8-595b-b771-e5a30fd650fd",
+        "source_table_key": "p21-table-1",
+        "source_table_node_id": "b2c39fd9-2ecb-5274-9768-8016d4093202",
+        "table_bbox": [
+          45.36,
+          138.0,
+          555.36,
+          575.28
+        ],
+        "line_ids": [
+          "p21l028"
+        ],
+        "line_bboxes": [
+          [
+            114.72,
+            512.56,
+            431.08,
+            525.56
+          ]
+        ],
+        "original_extracted_text": "요금‧용수영업 수자원 운영관리 발전설비",
+        "visual_group": "행정",
+        "visual_group_note": "분야·단계·평가의 병합 범위는 원문 전체 이미지로 대조. 문자 행에는 옆 칸의 글자가 함께 포함될 수 있음."
+      },
+      "review_status": "pending_user_review",
+      "topic_is_independent_course_confirmed": false
+    },
+    {
+      "topic_id": "2e64a749-ac1e-55ea-a173-38af781a5955",
+      "block_id": "integrated",
+      "group_id": "administration",
+      "topic_text": "법무·보상",
+      "source_locator": {
+        "pdf_page": 21,
+        "printed_page": 21,
+        "source_regulation_node_id": "16332bc1-75f8-595b-b771-e5a30fd650fd",
+        "source_table_key": "p21-table-1",
+        "source_table_node_id": "b2c39fd9-2ecb-5274-9768-8016d4093202",
+        "table_bbox": [
+          45.36,
+          138.0,
+          555.36,
+          575.28
+        ],
+        "line_ids": [
+          "p21l030"
+        ],
+        "line_bboxes": [
+          [
+            114.72,
+            533.44,
+            431.08,
+            546.44
+          ]
+        ],
+        "original_extracted_text": "법무‧보상 건설 및 시공관리 계측설비",
+        "visual_group": "행정",
+        "visual_group_note": "분야·단계·평가의 병합 범위는 원문 전체 이미지로 대조. 문자 행에는 옆 칸의 글자가 함께 포함될 수 있음."
+      },
+      "review_status": "pending_user_review",
+      "topic_is_independent_course_confirmed": false
+    },
+    {
+      "topic_id": "90eb1f32-51a6-5882-9e7f-42514f400bfa",
+      "block_id": "integrated",
+      "group_id": "administration",
+      "topic_text": "사업타당성분석",
+      "source_locator": {
+        "pdf_page": 21,
+        "printed_page": 21,
+        "source_regulation_node_id": "16332bc1-75f8-595b-b771-e5a30fd650fd",
+        "source_table_key": "p21-table-1",
+        "source_table_node_id": "b2c39fd9-2ecb-5274-9768-8016d4093202",
+        "table_bbox": [
+          45.36,
+          138.0,
+          555.36,
+          575.28
+        ],
+        "line_ids": [
+          "p21l031"
+        ],
+        "line_bboxes": [
+          [
+            114.48,
+            554.32,
+            450.04,
+            567.32
+          ]
+        ],
+        "original_extracted_text": "사업타당성분석 수질관리(수자원‧수도) 유‧무선통신",
+        "visual_group": "행정",
+        "visual_group_note": "분야·단계·평가의 병합 범위는 원문 전체 이미지로 대조. 문자 행에는 옆 칸의 글자가 함께 포함될 수 있음."
+      },
+      "review_status": "pending_user_review",
+      "topic_is_independent_course_confirmed": false
+    },
+    {
+      "topic_id": "b30e5fdc-406d-5f75-933f-f65ed7e94680",
+      "block_id": "integrated",
+      "group_id": "technical_1",
+      "topic_text": "정수처리 및 관망운영",
+      "source_locator": {
+        "pdf_page": 21,
+        "printed_page": 21,
+        "source_regulation_node_id": "16332bc1-75f8-595b-b771-e5a30fd650fd",
+        "source_table_key": "p21-table-1",
+        "source_table_node_id": "b2c39fd9-2ecb-5274-9768-8016d4093202",
+        "table_bbox": [
+          45.36,
+          138.0,
+          555.36,
+          575.28
+        ],
+        "line_ids": [
+          "p21l025"
+        ],
+        "line_bboxes": [
+          [
+            114.72,
+            491.92,
+            456.28,
+            504.92
+          ]
+        ],
+        "original_extracted_text": "회계‧계약실무 정수처리 및 관망운영 정수처리설비",
+        "visual_group": "기술Ⅰ",
+        "visual_group_note": "분야·단계·평가의 병합 범위는 원문 전체 이미지로 대조. 문자 행에는 옆 칸의 글자가 함께 포함될 수 있음."
+      },
+      "review_status": "pending_user_review",
+      "topic_is_independent_course_confirmed": false
+    },
+    {
+      "topic_id": "6e8fedf8-e159-5bae-acf9-cb93638c0856",
+      "block_id": "integrated",
+      "group_id": "technical_1",
+      "topic_text": "수자원 운영관리",
+      "source_locator": {
+        "pdf_page": 21,
+        "printed_page": 21,
+        "source_regulation_node_id": "16332bc1-75f8-595b-b771-e5a30fd650fd",
+        "source_table_key": "p21-table-1",
+        "source_table_node_id": "b2c39fd9-2ecb-5274-9768-8016d4093202",
+        "table_bbox": [
+          45.36,
+          138.0,
+          555.36,
+          575.28
+        ],
+        "line_ids": [
+          "p21l028"
+        ],
+        "line_bboxes": [
+          [
+            114.72,
+            512.56,
+            431.08,
+            525.56
+          ]
+        ],
+        "original_extracted_text": "요금‧용수영업 수자원 운영관리 발전설비",
+        "visual_group": "기술Ⅰ",
+        "visual_group_note": "분야·단계·평가의 병합 범위는 원문 전체 이미지로 대조. 문자 행에는 옆 칸의 글자가 함께 포함될 수 있음."
+      },
+      "review_status": "pending_user_review",
+      "topic_is_independent_course_confirmed": false
+    },
+    {
+      "topic_id": "806c61cb-2816-511c-a534-5885f9340dc0",
+      "block_id": "integrated",
+      "group_id": "technical_1",
+      "topic_text": "건설 및 시공관리",
+      "source_locator": {
+        "pdf_page": 21,
+        "printed_page": 21,
+        "source_regulation_node_id": "16332bc1-75f8-595b-b771-e5a30fd650fd",
+        "source_table_key": "p21-table-1",
+        "source_table_node_id": "b2c39fd9-2ecb-5274-9768-8016d4093202",
+        "table_bbox": [
+          45.36,
+          138.0,
+          555.36,
+          575.28
+        ],
+        "line_ids": [
+          "p21l030"
+        ],
+        "line_bboxes": [
+          [
+            114.72,
+            533.44,
+            431.08,
+            546.44
+          ]
+        ],
+        "original_extracted_text": "법무‧보상 건설 및 시공관리 계측설비",
+        "visual_group": "기술Ⅰ",
+        "visual_group_note": "분야·단계·평가의 병합 범위는 원문 전체 이미지로 대조. 문자 행에는 옆 칸의 글자가 함께 포함될 수 있음."
+      },
+      "review_status": "pending_user_review",
+      "topic_is_independent_course_confirmed": false
+    },
+    {
+      "topic_id": "9c93d9dd-4564-586f-b3d6-df56d5eee713",
+      "block_id": "integrated",
+      "group_id": "technical_1",
+      "topic_text": "수질관리(수자원·수도)",
+      "source_locator": {
+        "pdf_page": 21,
+        "printed_page": 21,
+        "source_regulation_node_id": "16332bc1-75f8-595b-b771-e5a30fd650fd",
+        "source_table_key": "p21-table-1",
+        "source_table_node_id": "b2c39fd9-2ecb-5274-9768-8016d4093202",
+        "table_bbox": [
+          45.36,
+          138.0,
+          555.36,
+          575.28
+        ],
+        "line_ids": [
+          "p21l031"
+        ],
+        "line_bboxes": [
+          [
+            114.48,
+            554.32,
+            450.04,
+            567.32
+          ]
+        ],
+        "original_extracted_text": "사업타당성분석 수질관리(수자원‧수도) 유‧무선통신",
+        "visual_group": "기술Ⅰ",
+        "visual_group_note": "분야·단계·평가의 병합 범위는 원문 전체 이미지로 대조. 문자 행에는 옆 칸의 글자가 함께 포함될 수 있음."
+      },
+      "review_status": "pending_user_review",
+      "topic_is_independent_course_confirmed": false
+    },
+    {
+      "topic_id": "8827c438-d562-5f9e-97e2-63deb1c46e2d",
+      "block_id": "integrated",
+      "group_id": "technical_2",
+      "topic_text": "정수처리설비",
+      "source_locator": {
+        "pdf_page": 21,
+        "printed_page": 21,
+        "source_regulation_node_id": "16332bc1-75f8-595b-b771-e5a30fd650fd",
+        "source_table_key": "p21-table-1",
+        "source_table_node_id": "b2c39fd9-2ecb-5274-9768-8016d4093202",
+        "table_bbox": [
+          45.36,
+          138.0,
+          555.36,
+          575.28
+        ],
+        "line_ids": [
+          "p21l025"
+        ],
+        "line_bboxes": [
+          [
+            114.72,
+            491.92,
+            456.28,
+            504.92
+          ]
+        ],
+        "original_extracted_text": "회계‧계약실무 정수처리 및 관망운영 정수처리설비",
+        "visual_group": "기술Ⅱ",
+        "visual_group_note": "분야·단계·평가의 병합 범위는 원문 전체 이미지로 대조. 문자 행에는 옆 칸의 글자가 함께 포함될 수 있음."
+      },
+      "review_status": "pending_user_review",
+      "topic_is_independent_course_confirmed": false
+    },
+    {
+      "topic_id": "a05b0738-f76a-56b7-91da-2d79a4fd5360",
+      "block_id": "integrated",
+      "group_id": "technical_2",
+      "topic_text": "발전설비",
+      "source_locator": {
+        "pdf_page": 21,
+        "printed_page": 21,
+        "source_regulation_node_id": "16332bc1-75f8-595b-b771-e5a30fd650fd",
+        "source_table_key": "p21-table-1",
+        "source_table_node_id": "b2c39fd9-2ecb-5274-9768-8016d4093202",
+        "table_bbox": [
+          45.36,
+          138.0,
+          555.36,
+          575.28
+        ],
+        "line_ids": [
+          "p21l028"
+        ],
+        "line_bboxes": [
+          [
+            114.72,
+            512.56,
+            431.08,
+            525.56
+          ]
+        ],
+        "original_extracted_text": "요금‧용수영업 수자원 운영관리 발전설비",
+        "visual_group": "기술Ⅱ",
+        "visual_group_note": "분야·단계·평가의 병합 범위는 원문 전체 이미지로 대조. 문자 행에는 옆 칸의 글자가 함께 포함될 수 있음."
+      },
+      "review_status": "pending_user_review",
+      "topic_is_independent_course_confirmed": false
+    },
+    {
+      "topic_id": "b78d16cc-7bd3-5b3d-bcbd-44dbfd667b77",
+      "block_id": "integrated",
+      "group_id": "technical_2",
+      "topic_text": "계측설비",
+      "source_locator": {
+        "pdf_page": 21,
+        "printed_page": 21,
+        "source_regulation_node_id": "16332bc1-75f8-595b-b771-e5a30fd650fd",
+        "source_table_key": "p21-table-1",
+        "source_table_node_id": "b2c39fd9-2ecb-5274-9768-8016d4093202",
+        "table_bbox": [
+          45.36,
+          138.0,
+          555.36,
+          575.28
+        ],
+        "line_ids": [
+          "p21l030"
+        ],
+        "line_bboxes": [
+          [
+            114.72,
+            533.44,
+            431.08,
+            546.44
+          ]
+        ],
+        "original_extracted_text": "법무‧보상 건설 및 시공관리 계측설비",
+        "visual_group": "기술Ⅱ",
+        "visual_group_note": "분야·단계·평가의 병합 범위는 원문 전체 이미지로 대조. 문자 행에는 옆 칸의 글자가 함께 포함될 수 있음."
+      },
+      "review_status": "pending_user_review",
+      "topic_is_independent_course_confirmed": false
+    },
+    {
+      "topic_id": "ac639102-7d66-5a04-9dcf-c9e532a3140f",
+      "block_id": "integrated",
+      "group_id": "technical_2",
+      "topic_text": "유·무선통신",
+      "source_locator": {
+        "pdf_page": 21,
+        "printed_page": 21,
+        "source_regulation_node_id": "16332bc1-75f8-595b-b771-e5a30fd650fd",
+        "source_table_key": "p21-table-1",
+        "source_table_node_id": "b2c39fd9-2ecb-5274-9768-8016d4093202",
+        "table_bbox": [
+          45.36,
+          138.0,
+          555.36,
+          575.28
+        ],
+        "line_ids": [
+          "p21l031"
+        ],
+        "line_bboxes": [
+          [
+            114.48,
+            554.32,
+            450.04,
+            567.32
+          ]
+        ],
+        "original_extracted_text": "사업타당성분석 수질관리(수자원‧수도) 유‧무선통신",
+        "visual_group": "기술Ⅱ",
+        "visual_group_note": "분야·단계·평가의 병합 범위는 원문 전체 이미지로 대조. 문자 행에는 옆 칸의 글자가 함께 포함될 수 있음."
+      },
+      "review_status": "pending_user_review",
+      "topic_is_independent_course_confirmed": false
+    }
+  ],
+  "evaluations": [
+    {
+      "evaluation_id": "e9dff51d-8a16-5d5b-9367-0c66dcc801f7",
+      "block_id": "induction",
+      "source_label": "이해도 평가",
+      "score_scale": null,
+      "passing_score": null,
+      "method": null,
+      "education_assessment_point_conversion": null,
+      "current_competency_conversion": null,
+      "automated_decision_enabled": false,
+      "source_locator": {
+        "pdf_page": 21,
+        "printed_page": 21,
+        "source_regulation_node_id": "16332bc1-75f8-595b-b771-e5a30fd650fd",
+        "source_table_key": "p21-table-1",
+        "source_table_node_id": "b2c39fd9-2ecb-5274-9768-8016d4093202",
+        "table_bbox": [
+          45.36,
+          138.0,
+          555.36,
+          575.28
+        ],
+        "line_ids": [
+          "p21l009",
+          "p21l011"
+        ],
+        "line_bboxes": [
+          [
+            57.84,
+            255.76,
+            549.88,
+            270.68
+          ],
+          [
+            57.84,
+            271.36,
+            543.4,
+            285.08
+          ]
+        ],
+        "original_extracted_text": "신입 이해도\n사원 평가",
+        "visual_group": "1단계 집합교육 오른쪽 평가 칸",
+        "visual_group_note": "분야·단계·평가의 병합 범위는 원문 전체 이미지로 대조. 문자 행에는 옆 칸의 글자가 함께 포함될 수 있음."
+      },
+      "review_status": "pending_user_review"
+    },
+    {
+      "evaluation_id": "27eb0af8-8f94-53e3-a145-fa4b4c1534a1",
+      "block_id": "foundation",
+      "source_label": "이해도 평가",
+      "score_scale": null,
+      "passing_score": null,
+      "method": null,
+      "education_assessment_point_conversion": null,
+      "current_competency_conversion": null,
+      "automated_decision_enabled": false,
+      "source_locator": {
+        "pdf_page": 21,
+        "printed_page": 21,
+        "source_regulation_node_id": "16332bc1-75f8-595b-b771-e5a30fd650fd",
+        "source_table_key": "p21-table-1",
+        "source_table_node_id": "b2c39fd9-2ecb-5274-9768-8016d4093202",
+        "table_bbox": [
+          45.36,
+          138.0,
+          555.36,
+          575.28
+        ],
+        "line_ids": [
+          "p21l017",
+          "p21l019"
+        ],
+        "line_bboxes": [
+          [
+            510.72,
+            398.8,
+            549.88,
+            411.8
+          ],
+          [
+            111.6,
+            411.28,
+            543.4,
+            426.2
+          ]
+        ],
+        "original_extracted_text": "이해도\n회계‧재무관리 정수원리 및 시스템 정수원리 및 시스템 평가",
+        "visual_group": "2단계 기초학습 오른쪽 평가 칸",
+        "visual_group_note": "분야·단계·평가의 병합 범위는 원문 전체 이미지로 대조. 문자 행에는 옆 칸의 글자가 함께 포함될 수 있음."
+      },
+      "review_status": "pending_user_review"
+    },
+    {
+      "evaluation_id": "4a4c2d46-46e6-5575-b9a9-3bf319e89eba",
+      "block_id": "integrated",
+      "source_label": "이해도 평가",
+      "score_scale": null,
+      "passing_score": null,
+      "method": null,
+      "education_assessment_point_conversion": null,
+      "current_competency_conversion": null,
+      "automated_decision_enabled": false,
+      "source_locator": {
+        "pdf_page": 21,
+        "printed_page": 21,
+        "source_regulation_node_id": "16332bc1-75f8-595b-b771-e5a30fd650fd",
+        "source_table_key": "p21-table-1",
+        "source_table_node_id": "b2c39fd9-2ecb-5274-9768-8016d4093202",
+        "table_bbox": [
+          45.36,
+          138.0,
+          555.36,
+          575.28
+        ],
+        "line_ids": [
+          "p21l027",
+          "p21l029"
+        ],
+        "line_bboxes": [
+          [
+            510.72,
+            501.76,
+            549.88,
+            514.76
+          ],
+          [
+            517.2,
+            516.16,
+            543.4,
+            529.16
+          ]
+        ],
+        "original_extracted_text": "이해도\n평가",
+        "visual_group": "2단계 통합직무이해 오른쪽 평가 칸",
+        "visual_group_note": "분야·단계·평가의 병합 범위는 원문 전체 이미지로 대조. 문자 행에는 옆 칸의 글자가 함께 포함될 수 있음."
+      },
+      "review_status": "pending_user_review"
+    }
+  ],
+  "conditions": [
+    {
+      "condition_id": "S3-C01",
+      "summary": "신입사원 교육기간 교육이수기준은 별도로 정함",
+      "details_available": false,
+      "source_locator": {
+        "pdf_page": 21,
+        "printed_page": 21,
+        "source_regulation_node_id": "16332bc1-75f8-595b-b771-e5a30fd650fd",
+        "source_table_key": "p21-table-1",
+        "source_table_node_id": "b2c39fd9-2ecb-5274-9768-8016d4093202",
+        "table_bbox": [
+          45.36,
+          138.0,
+          555.36,
+          575.28
+        ],
+        "line_ids": [
+          "p21l012"
+        ],
+        "line_bboxes": [
+          [
+            57.84,
+            285.52,
+            408.2,
+            299.96
+          ]
+        ],
+        "original_extracted_text": "교육 (2주간) *신입사원 교육기간 교육이수기준은 별도로 정함",
+        "visual_group": null,
+        "visual_group_note": "분야·단계·평가의 병합 범위는 원문 전체 이미지로 대조. 문자 행에는 옆 칸의 글자가 함께 포함될 수 있음."
+      }
+    },
+    {
+      "condition_id": "S3-C02",
+      "summary": "직무분야는 직무분류체계에 따른 세부직무를 분류·통합하여 구분",
+      "job_classification_available": false,
+      "source_locator": {
+        "pdf_page": 21,
+        "printed_page": 21,
+        "source_regulation_node_id": "16332bc1-75f8-595b-b771-e5a30fd650fd",
+        "source_table_key": "p21-table-1",
+        "source_table_node_id": "b2c39fd9-2ecb-5274-9768-8016d4093202",
+        "table_bbox": [
+          45.36,
+          138.0,
+          555.36,
+          575.28
+        ],
+        "line_ids": [
+          "p21l032"
+        ],
+        "line_bboxes": [
+          [
+            47.52,
+            585.28,
+            455.08,
+            598.28
+          ]
+        ],
+        "original_extracted_text": "*직무분야는 직무분류체계에 따른 세부직무를 분류․통합하여 구분",
+        "visual_group": null,
+        "visual_group_note": "분야·단계·평가의 병합 범위는 원문 전체 이미지로 대조. 문자 행에는 옆 칸의 글자가 함께 포함될 수 있음."
+      }
+    },
+    {
+      "condition_id": "S3-C03",
+      "summary": "해당 차수 교육대상자 인원수를 고려하여 필요한 경우 다음 차수 교육과 통합하여 실시할 수 있음",
+      "automatic_deadline_extension": false,
+      "source_locator": {
+        "pdf_page": 21,
+        "printed_page": 21,
+        "source_regulation_node_id": "16332bc1-75f8-595b-b771-e5a30fd650fd",
+        "source_table_key": "p21-table-1",
+        "source_table_node_id": "b2c39fd9-2ecb-5274-9768-8016d4093202",
+        "table_bbox": [
+          45.36,
+          138.0,
+          555.36,
+          575.28
+        ],
+        "line_ids": [
+          "p21l033",
+          "p21l034"
+        ],
+        "line_bboxes": [
+          [
+            47.52,
+            605.92,
+            552.76,
+            618.92
+          ],
+          [
+            60.0,
+            626.8,
+            287.32,
+            639.8
+          ]
+        ],
+        "original_extracted_text": "*상기 단계별 교육은 해당 차수 교육대상자 인원수를 고려하여 필요한 경우 다음\n차수 교육과 통합하여 실시할 수 있음",
+        "visual_group": null,
+        "visual_group_note": "분야·단계·평가의 병합 범위는 원문 전체 이미지로 대조. 문자 행에는 옆 칸의 글자가 함께 포함될 수 있음."
+      }
+    }
+  ],
+  "progression": {
+    "source_text": "(기초지식) 사이버·현업학습 ⇒ (실무심화) 집합교육",
+    "from_block_id": "foundation",
+    "to_block_id": "integrated",
+    "source_locator": {
+      "pdf_page": 21,
+      "printed_page": 21,
+      "source_regulation_node_id": "16332bc1-75f8-595b-b771-e5a30fd650fd",
+      "source_table_key": "p21-table-1",
+      "source_table_node_id": "b2c39fd9-2ecb-5274-9768-8016d4093202",
+      "table_bbox": [
+        45.36,
+        138.0,
+        555.36,
+        575.28
+      ],
+      "line_ids": [
+        "p21l014"
+      ],
+      "line_bboxes": [
+        [
+          121.2,
+          337.2,
+          481.56,
+          352.2
+        ]
+      ],
+      "original_extracted_text": "(기초지식)사이버․현업학습 ⇒ (실무심화)집합교육",
+      "visual_group": null,
+      "visual_group_note": "분야·단계·평가의 병합 범위는 원문 전체 이미지로 대조. 문자 행에는 옆 칸의 글자가 함께 포함될 수 있음."
+    }
+  },
+  "source_note": "직무 분야별 글머리표는 학습 내용이다. 글머리표 하나를 독립된 필수 과정 하나로 확정하지 않는다.",
+  "user_guidance": {
+    "understanding_evaluation": {
+      "handling_review_status": "user_accepted",
+      "wording_status": "codex_draft_under_accepted_direction",
+      "user_review_note": "2026-10-13: 교육별 평가 기록 보존, 다른 평정·현재 실무 역량으로의 환산 기준은 확인 필요로 안내하는 방향 수용.",
+      "handling": "이해도 평가의 위치·교육 연결과 실시/결과 기록을 보존. 기관 기준 없이 교육훈련평정 점수·현재 실무 역량으로 환산하지 않음.",
+      "score_or_pass_criteria_available": false,
+      "automatic_conversion_enabled": false,
+      "review_source": "인재개발규정 PDF 21쪽 별표3, 오른쪽 세 곳의 이해도 평가 및 신입교육 이수기준 별도 규정 문구",
+      "notes": [
+        "평가 결과 기록 미확인을 0점·불합격으로 처리하지 않는다.",
+        "평가 기록 보존은 실제 직원의 점수나 결과를 이번 보정안에서 생성했다는 뜻이 아니다."
+      ]
+    },
+    "stage2_timing": {
+      "handling_review_status": "user_accepted",
+      "wording_status": "codex_draft_under_accepted_direction",
+      "user_review_note": "2026-10-13: 원문 기간 안내, 정확한 일정은 기관 교육계획 확인 필요로 안내하는 방향 수용.",
+      "source_text": "5개월내",
+      "anchor_date_basis": null,
+      "calculated_deadline": null,
+      "handling": "원문은 5개월내로 안내하되 기산일·실제 마감일은 기관 교육계획에서 확인. 차수 통합 문구만으로 기간을 자동 연장하지 않음.",
+      "automatic_deadline_calculation_enabled": false
+    },
+    "individual_field_assignment": {
+      "handling_review_status": "user_accepted",
+      "wording_status": "codex_draft_under_accepted_direction",
+      "user_review_note": "2026-10-13: 확인된 직무·교육 대상 분야로 안내하는 방향 수용. 추후 입력되는 직원 정보도 반영·대조하여 안내하도록 사용자 보완 의견 반영.",
+      "handling": "직무분류체계·교육대상자 안내와 입력된 직원 정보를 함께 대조해 개인의 분야를 확인. 부서명만으로 분야를 자동 배정하거나 세 분야 모두를 개인의 필수교육으로 확정하지 않음.",
+      "source_condition_ids": [
+        "S3-C02"
+      ],
+      "automatic_assignment_enabled": false,
+      "employee_information_supported": true,
+      "employee_information_to_check": [
+        "직군·채용 직급·신입사원 교육 대상 여부",
+        "담당 직무·업무 내용과 기관 직무분류 코드/명칭",
+        "기관 교육계획에서 지정한 대상 분야",
+        "입력 정보의 출처·기준일·최근 변경 여부"
+      ],
+      "application_cases": [
+        {
+          "case_id": "institution_field_verified",
+          "situation": "직무분류 또는 기관 교육안내에 해당 직원의 분야가 확인됨",
+          "action": "확인된 분야의 교육 내용을 안내하고 사용한 직원 정보·원문 근거를 함께 표시"
+        },
+        {
+          "case_id": "employee_field_input",
+          "situation": "직원 데이터에 직무분류·교육 대상 분야가 입력됨",
+          "action": "입력값의 출처와 기준일을 확인하여 기관 분류·교육안내와 대조한 후 반영"
+        },
+        {
+          "case_id": "job_description_only",
+          "situation": "담당 업무 설명은 있으나 기관의 분야 연결이 확인되지 않음",
+          "action": "입력된 직무를 근거로 관련 분야 후보를 좁혀 안내하고 대상 분야 확인이 필요한 이유를 함께 표시"
+        },
+        {
+          "case_id": "department_only_or_missing",
+          "situation": "부서명만 있거나 담당 직무 정보가 부족함",
+          "action": "세 분야의 원문 내용을 참고용으로 보여주고 개인별 분야는 확인 필요로 안내"
+        }
+      ],
+      "integration_note": "직원 데이터를 사용하는 안내 설계의 참고이다. 직원 DB 스키마나 실제 상담 기능은 이번 작업에서 구현하지 않았다."
+    }
+  },
+  "remaining_review": [
+    "이해도 평가의 합격·점수 기준과 다른 평정으로의 연결은 원문에 제시되지 않음",
+    "2단계 5개월내의 기산일·실제 일정은 기관 교육계획 확인 전 자동 날짜를 생성하지 않음",
+    "개인별 분야 배정은 직무분류체계와 교육대상자 안내를 확인해야 함",
+    "교육 이수기준 및 차수 통합의 실제 적용은 추가 자료 확인 필요"
+  ],
+  "delivery_integration": {
+    "included_in_unified_handoff": true,
+    "data_rows_applied": true,
+    "current_integration_report": "report/integration_ledger.json",
+    "db_loaded": false,
+    "search_activated": false,
+    "original_generation_metadata_is_historical": true
+  }
+}

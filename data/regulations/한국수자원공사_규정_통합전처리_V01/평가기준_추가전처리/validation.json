@@ -1,0 +1,36 @@
+{
+  "status": "passed",
+  "check_count": 22,
+  "checks": [
+    "기준 테이블3개만 포함",
+    "evaluation_result_schema 기본키 유일성",
+    "evaluation_result_schema 전체 컬럼·타입·NULL·점수 정밀도",
+    "evaluation_item_definition 기본키 유일성",
+    "evaluation_item_definition 전체 컬럼·타입·NULL·점수 정밀도",
+    "evaluation_schema_source 기본키 유일성",
+    "evaluation_schema_source 전체 컬럼·타입·NULL·점수 정밀도",
+    "기관 ID 연결",
+    "공사 규정 출처·사람 검토 대기 유지",
+    "양식별 항목 코드·부모 양식·순환·미확인 스킬 검사",
+    "모든 기준·항목의 공사 원문 근거 존재",
+    "점수 정밀도·미확인 적용일·근거 버전·개인 데이터 미생성",
+    "근무성적평정 3급 제30조 배점·합계50",
+    "근무성적평정 4·5급 제30조 배점·합계50",
+    "교육 2급(을) 기준시간·A·미확인 입력·상한 구분",
+    "교육 3급 기준시간·A·미확인 입력·상한 구분",
+    "교육 4급 기준시간·A·미확인 입력·상한 구분",
+    "교육 5급 기준시간·A·미확인 입력·상한 구분",
+    "경력 별표6 총점36개·중복합산 방지",
+    "근무가점 월별 값·감점 유효기간",
+    "JSON·CSV3쌍 왕복 값 일치",
+    "데이터·원문 해시·직원 결과 및 외부 비교 자료 제외"
+  ],
+  "record_counts": {
+    "evaluation_result_schema": 11,
+    "evaluation_item_definition": 70,
+    "evaluation_schema_source": 172
+  },
+  "human_review_status": "needs_review",
+  "actual_db_validation": false,
+  "personal_evaluation_results_created": 0
+}

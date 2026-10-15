@@ -1,0 +1,1625 @@
+{
+  "method": "원문 항목·쪽수·내용 해시와 필요한 과정명·수치·산식의 정적 대조",
+  "priority_profile": {
+    "job_family": "일반직",
+    "virtual_employee_count": 5,
+    "provisional_grade_scope": {
+      "grade_candidates": [
+        "3급",
+        "4급",
+        "5급"
+      ],
+      "source_document": "직제규정 시행세칙(2026년도 07월 16일 개정).pdf",
+      "source_pdf_page": 46,
+      "source_grade_range": "일반직 3~8급",
+      "status": "user_selected_for_future_virtual_profile_planning",
+      "individual_grade_assignments_created": false,
+      "team_member_position_treated_separately": true
+    },
+    "specific_employee_records_provided": false,
+    "priority_topics": [
+      "필수교육",
+      "교육 이수기한",
+      "승진 관련 교육",
+      "교육훈련평정",
+      "승진 요건·제한",
+      "연차·휴가",
+      "유연근무"
+    ],
+    "department_scope": {
+      "user_department_labels": [
+        "AI부서",
+        "경영부서"
+      ],
+      "review_status": "user_confirmed_review_scope",
+      "reviewed_at": "2026-10-13",
+      "user_answer": "위 두 부서 목록을 범위로 검토하고, 제안줬던 가상 예비부서로 디저털관리처와 인재경영실을 제안했던 것으로 기억하고 있어.",
+      "groups": [
+        {
+          "user_label": "AI부서",
+          "source_group_label": "AI본부",
+          "departments": [
+            "AI혁신처",
+            "디지털관리처",
+            "AI데이터센터"
+          ],
+          "provisional_employee_department": "디지털관리처",
+          "source_regulation_node_id": "5228c34d-1fed-5d1f-a44f-29b2ec514900",
+          "provisional_job": {
+            "job_category": "특수기술",
+            "job_series": "전산",
+            "job_description": "전산 업무"
+          },
+          "job_classification_source": {
+            "source_file_name": "직제규정 시행세칙(2026년도 07월 16일 개정).pdf",
+            "source_pdf_pages": [
+              46
+            ],
+            "source_annex": "별표4",
+            "grade_context": "일반직 3~8급"
+          }
+        },
+        {
+          "user_label": "경영부서",
+          "source_group_label": "경영부문",
+          "departments": [
+            "인재경영실",
+            "노사협력처",
+            "재무관리처",
+            "정보보안처",
+            "비상계획처"
+          ],
+          "provisional_employee_department": "인재경영실",
+          "source_regulation_node_id": "61b58b93-b9a8-5c6b-8876-b1292a5c7e5a",
+          "provisional_job": {
+            "job_category": "행정",
+            "job_series": "행정",
+            "job_description": "행정 업무"
+          },
+          "job_classification_source": {
+            "source_file_name": "직제규정 시행세칙(2026년도 07월 16일 개정).pdf",
+            "source_pdf_pages": [
+              46
+            ],
+            "source_annex": "별표4",
+            "grade_context": "일반직 3~8급"
+          }
+        }
+      ],
+      "source_file_name": "직제규정(2026년도 06월 18일 개정).pdf",
+      "source_pdf_pages": [
+        27,
+        30
+      ],
+      "provisional_department_status": "user_proposed_not_final_employee_assignment",
+      "employees_per_group": null,
+      "individual_grades_or_job_fields_provided": false,
+      "source_name_normalization": {
+        "user_written_name": "디저털관리처",
+        "source_name": "디지털관리처"
+      },
+      "institution_training_field_mapping_confirmed": false,
+      "employee_department_assignments_created": false,
+      "provisional_job_review_status": "user_accepted_for_virtual_profile_planning",
+      "provisional_job_user_answer": "예비 직무를 전산·행정으로 검토 (권장)",
+      "provisional_job_status": "virtual_profile_candidate_not_actual_employee_classification",
+      "additional_training_field_materials_status": "user_reports_not_available",
+      "training_field_mapping_review_status": "requires_institution_evidence"
+    },
+    "provisional_position_scope": {
+      "status": "user_accepted_for_virtual_profile_planning",
+      "reviewed_at": "2026-10-13",
+      "user_answer": "5명 모두 부서장 아닌 팀원으로 우선 검토 (권장)",
+      "employee_count": 5,
+      "department_head": false,
+      "position_label": "부서장이 아닌 팀원",
+      "actual_employee_records_created": false,
+      "shift_work_status": "user_accepted_non_shift_for_virtual_planning"
+    },
+    "provisional_work_pattern_scope": {
+      "status": "user_accepted_for_virtual_profile_planning",
+      "reviewed_at": "2026-10-13",
+      "user_answer": "5명 모두 교대근무하지 않는 직원으로 검토 (권장)",
+      "employee_count": 5,
+      "shift_work": false,
+      "employee_work_hours_assigned": false,
+      "actual_employee_records_created": false
+    }
+  },
+  "result": "pass",
+  "case_count": 35,
+  "cases": [
+    {
+      "topic": "필수교육",
+      "representative_question": "일반직 4급의 직무역량 필수교육은 무엇인가?",
+      "source_evidence": [
+        {
+          "regulation_node_id": "84a1a35f-19e0-5b32-b937-a12d0c5ee399",
+          "source_file_name": "인재개발규정(2024년도 12월 개정).pdf",
+          "pdf_pages": [
+            20
+          ],
+          "body_sha256": "45eda6640949bafe7656db39a395affc23efe9149223794d5667d53e029fb068"
+        },
+        {
+          "regulation_node_id": "50681d96-4f4d-512f-81d4-af5157748f9a",
+          "source_file_name": "인재개발규정(2024년도 12월 개정).pdf",
+          "pdf_pages": [
+            20
+          ],
+          "body_sha256": "96d566f2f52cc7f4c444a11da65e41c45c24a8b6d6fb42020e6e370d1915e621"
+        }
+      ],
+      "expected_source_terms": [
+        "직무이해(Ⅱ)",
+        "수자원(기본)",
+        "수도(기본)",
+        "Green·Digital·Global(기본)",
+        "경영(기본)"
+      ],
+      "accepted_answer_handling": "직급별 기준과 관련 주석을 함께 확인. 개인 이력이 없으면 개인의 이수 의무를 확정하지 않음.",
+      "result": "source_connection_pass",
+      "actual_employee_inputs_available": false,
+      "actual_search_answer_test_run": false
+    },
+    {
+      "topic": "교육 이수기한",
+      "representative_question": "리더교육을 언제까지 이수해야 하는가?",
+      "source_evidence": [
+        {
+          "regulation_node_id": "fb1ff624-1de3-5383-ad6b-194583b1c0c6",
+          "source_file_name": "인재개발규정(2024년도 12월 개정).pdf",
+          "pdf_pages": [
+            2
+          ],
+          "body_sha256": "ad29f800f3dd60b7bdd2d74bec15e77f80e50c3c7ded972ba9cee6f596bf0183"
+        },
+        {
+          "regulation_node_id": "a00b163b-6769-5b86-ac9b-096d07413fc9",
+          "source_file_name": "인재개발규정(2024년도 12월 개정).pdf",
+          "pdf_pages": [
+            18
+          ],
+          "body_sha256": "06b921d2356eb79b13993fc7aa63678919ee52f9350ad7e35c1048ce90cabadf"
+        }
+      ],
+      "expected_source_terms": [
+        "10월",
+        "31일"
+      ],
+      "accepted_answer_handling": "임명·호칭 변경일과 휴직·복귀·승인 기록이 없으면 정확한 기한 확인 필요.",
+      "result": "source_connection_pass",
+      "actual_employee_inputs_available": false,
+      "actual_search_answer_test_run": false
+    },
+    {
+      "topic": "승진 관련 교육",
+      "representative_question": "마지막 승진일이 공란이면 해당 교육이 면제되는가?",
+      "source_evidence": [
+        {
+          "regulation_node_id": "50681d96-4f4d-512f-81d4-af5157748f9a",
+          "source_file_name": "인재개발규정(2024년도 12월 개정).pdf",
+          "pdf_pages": [
+            20
+          ],
+          "body_sha256": "96d566f2f52cc7f4c444a11da65e41c45c24a8b6d6fb42020e6e370d1915e621"
+        }
+      ],
+      "expected_source_terms": [
+        "2019",
+        "2010"
+      ],
+      "accepted_answer_handling": "미승진자의 공란과 기록 미확인을 구분. 공란만으로 교육 면제를 확정하지 않음.",
+      "result": "source_connection_pass",
+      "actual_employee_inputs_available": false,
+      "actual_search_answer_test_run": false
+    },
+    {
+      "topic": "교육훈련평정",
+      "representative_question": "교육 이력 정보가 부족하면 교육훈련평정이 0점인가?",
+      "source_evidence": [
+        {
+          "regulation_node_id": "cb821674-e14e-55e5-9b7d-46d87e608fcc",
+          "source_file_name": "인재개발규정(2024년도 12월 개정).pdf",
+          "pdf_pages": [
+            20
+          ],
+          "body_sha256": "610d6f11f1bf5a6b49b8568ff925411aca52db6649a2d53a2e3954b30b0b3954"
+        },
+        {
+          "regulation_node_id": "8bb918d8-52b2-59bd-9b88-5463d2fee074",
+          "source_file_name": "인사규정시행세칙(2025년도 11월 10일 개정).pdf",
+          "pdf_pages": [
+            14
+          ],
+          "body_sha256": "c3bbacb60f25042d677220f969b6d351247b123761a4a2d1b6f729c3723b6dc9"
+        },
+        {
+          "regulation_node_id": "a85a82a1-3d31-5a66-a6b9-499b466eba98",
+          "source_file_name": "인사규정시행세칙(2025년도 11월 10일 개정).pdf",
+          "pdf_pages": [
+            14
+          ],
+          "body_sha256": "5662a4a09bd5146e9ddb6b362fba64dac52a3a418dd797c65e4ff8a290a06411"
+        },
+        {
+          "regulation_node_id": "52f40d18-c375-5987-a172-5d8925d69c0f",
+          "source_file_name": "인사규정시행세칙(2025년도 11월 10일 개정).pdf",
+          "pdf_pages": [
+            14
+          ],
+          "body_sha256": "1fb1bfb78f77c81902555337583604eb1e9b6720d229c8f09c6cbeb28e47cb04"
+        }
+      ],
+      "expected_source_terms": [
+        "0.6",
+        "0.4",
+        "총학습시간",
+        "필수교육"
+      ],
+      "accepted_answer_handling": "정보 부족은 0점으로 계산하지 않고 점수 확인 필요. 평정대상·인정시간·대상 과정 수 등을 확인.",
+      "result": "source_connection_pass",
+      "actual_employee_inputs_available": false,
+      "actual_search_answer_test_run": false,
+      "eligibility_handling": {
+        "handling_review_status": "user_accepted",
+        "reviewed_at": "2026-10-13",
+        "regulation_name": "인사규정시행세칙",
+        "source_file_name": "인사규정시행세칙(2025년도 11월 10일 개정).pdf",
+        "source_regulation_node_id": "8bb918d8-52b2-59bd-9b88-5463d2fee074",
+        "source_pdf_pages": [
+          14
+        ],
+        "source_article": "제41조제1항",
+        "user_answer": "미수료 확인과 기록 부족을 구분 (권장)",
+        "source_action_text": "교육훈련평정대상에서 제외한다",
+        "handling_cases": [
+          {
+            "case_id": "applicable_leader_training_not_completed_confirmed",
+            "handling": "본인에게 적용되는 리더교육의 미수료가 확인되면 원문의 평정대상 제외 기준을 안내하고 기관에 대상 여부 확인."
+          },
+          {
+            "case_id": "training_record_missing_or_applicable_course_unclear",
+            "handling": "교육 기록 부재나 적용 과정 불명확을 미수료로 바꾸지 않고 평정대상 여부 확인 필요로 안내."
+          }
+        ],
+        "zero_score_inferred": false,
+        "automated_employee_exclusion_enabled": false,
+        "items_to_check": [
+          "상담 기준일과 적용 개정본",
+          "본인에게 적용되는 리더역량 필수교육",
+          "실제 수료 또는 미수료 상태",
+          "직군전환 이력 및 제41조제2항 예외 해당 여부"
+        ],
+        "original_source_text_preserved": true,
+        "actual_employee_rules_implemented": false
+      },
+      "assessment_basis_handling": {
+        "handling_review_status": "source_wording_confirmed_by_user",
+        "reviewed_at": "2026-10-13",
+        "regulation_name": "인사규정시행세칙",
+        "source_file_name": "인사규정시행세칙(2025년도 11월 10일 개정).pdf",
+        "source_pdf_pages": [
+          14
+        ],
+        "source_articles": [
+          "제41조제1항",
+          "제42조"
+        ],
+        "user_statement": "권장 안도 일부 내용은 조금 다른 것 같아. 제41조1항은 해당 직급 재직기간 중에 취득한 총학습시간과 해당 직급의 직무역량 필수교육 이수 과정 수를 기준으로 평정한다고 명기하고 있어.",
+        "previous_proposal_status": "replaced_after_user_correction",
+        "source_basis_text": "교육훈련평정은 「인재개발규정」에 따라 해당 직급 재직기간 중에 취득한 총학습시간과 해당 직급의 직무역량 필수교육 이수 과정 수를 기준으로 평정한다.",
+        "handling": "제41조제1항의 평정 기준을 원문 용어로 안내한다. 총학습시간과 해당 직급의 직무역량 필수교육 이수 과정 수를 각각 확인하며, 이를 막연한 교육 이력으로 대체하지 않는다.",
+        "source_formula_variable_definitions": {
+          "B": "총학습시간(해당직급이수 학습시간의 합계)",
+          "C": "목표학습량(기준학습시간×해당직급 근무연수)",
+          "D": "해당직급 재직기간 중 이수한 직무역량 필수교육 과정 수",
+          "E": "해당직급 직무역량 필수교육 대상 과정 수"
+        },
+        "annual_learning_comparison_approved": false,
+        "score_calculated": false,
+        "actual_employee_rules_implemented": false,
+        "source_evidence": [
+          {
+            "regulation_node_id": "8bb918d8-52b2-59bd-9b88-5463d2fee074",
+            "regulation_version_id": "baed2f1b-2de3-5162-82c4-d52cc29e3d5c",
+            "regulation_file_id": "de82755e-1d59-5f98-b80d-2a47be55e517",
+            "body_text": "제41조(교육훈련 평정대상) ① 교육훈련평정은 「인재개발규정」에 따라 해당 직급 재직기간 중에 취\n득한 총학습시간과 해당 직급의 직무역량 필수교육 이수 과정 수를 기준으로 평정한다. 다만,\n「인재개발규정」 제7조에 따른 해당 직급별 리더역량 필수 교육을 미수료한 경우에는 교육훈련\n평정대상에서 제외한다. <개정 2019.11.12., 2024.12.27.>\n② 제20조의3에 따라 직군전환된 경우 전문직 또는 운영직 해당직급에서의 교육이수시간을 포함\n한다. 이 경우 직군전환 시 「인재개발규정」 제7조에 따른 일반직 직급별 필수교육 중 직무역량교\n육을 이수한 경우에는 교육훈련 평정대상에서 제외하지 않는다. <신설 2017.11.23, 개정\n2019.11.12.>\n<본조 개정 2002.01.02,개정 2010.12.03>",
+            "source_locator": {
+              "coordinate_system": "PDF point; 원점=페이지 왼쪽 위",
+              "pdf_pages": [
+                14
+              ],
+              "lines": [
+                {
+                  "line_id": "p014l0004",
+                  "page": 14,
+                  "bbox": [
+                    58.693,
+                    213.251,
+                    510.364,
+                    223.188
+                  ]
+                },
+                {
+                  "line_id": "p014l0005",
+                  "page": 14,
+                  "bbox": [
+                    72.798,
+                    229.174,
+                    510.49,
+                    239.112
+                  ]
+                },
+                {
+                  "line_id": "p014l0006",
+                  "page": 14,
+                  "bbox": [
+                    72.798,
+                    245.098,
+                    510.484,
+                    255.036
+                  ]
+                },
+                {
+                  "line_id": "p014l0007",
+                  "page": 14,
+                  "bbox": [
+                    72.798,
+                    261.142,
+                    333.346,
+                    271.08
+                  ]
+                },
+                {
+                  "line_id": "p014l0008",
+                  "page": 14,
+                  "bbox": [
+                    72.798,
+                    277.306,
+                    510.364,
+                    287.243
+                  ]
+                },
+                {
+                  "line_id": "p014l0009",
+                  "page": 14,
+                  "bbox": [
+                    72.798,
+                    293.229,
+                    510.484,
+                    303.167
+                  ]
+                },
+                {
+                  "line_id": "p014l0010",
+                  "page": 14,
+                  "bbox": [
+                    72.798,
+                    309.153,
+                    510.364,
+                    319.091
+                  ]
+                },
+                {
+                  "line_id": "p014l0011",
+                  "page": 14,
+                  "bbox": [
+                    72.798,
+                    325.197,
+                    131.807,
+                    335.135
+                  ]
+                },
+                {
+                  "line_id": "p014l0012",
+                  "page": 14,
+                  "bbox": [
+                    77.699,
+                    341.361,
+                    265.688,
+                    351.298
+                  ]
+                }
+              ],
+              "section_kind": "body"
+            }
+          },
+          {
+            "regulation_node_id": "a85a82a1-3d31-5a66-a6b9-499b466eba98",
+            "regulation_version_id": "baed2f1b-2de3-5162-82c4-d52cc29e3d5c",
+            "regulation_file_id": "de82755e-1d59-5f98-b80d-2a47be55e517",
+            "body_text": "제42조(교육훈련 평정점수의 산정) 교육훈련점수는 다음과 같이 산정한다. 이 경우 점수산정에 관한\n세부사항은 「인재개발규정」에서 정하는 바에 따른다.\n교육훈련평정 점수＝A×[{0.6×(B/C)}+{0.4×(D/E)}]\n※ A : 2급(을) 10점, 3급 이하 25점\nB : 총학습시간(해당직급이수 학습시간의 합계)\nC : 목표학습량(기준학습시간×해당직급 근무연수)\nD : 해당직급 재직기간 중 이수한 직무역량 필수교육 과정 수\nE : 해당직급 직무역량 필수교육 대상 과정 수\n<개정 2016.12.01, 2019.11.12., 2024.12.27.>\n<조 개정 2005.09.23,개정 2010.12.03>",
+            "source_locator": {
+              "coordinate_system": "PDF point; 원점=페이지 왼쪽 위",
+              "pdf_pages": [
+                14
+              ],
+              "lines": [
+                {
+                  "line_id": "p014l0013",
+                  "page": 14,
+                  "bbox": [
+                    58.693,
+                    379.913,
+                    510.364,
+                    389.851
+                  ]
+                },
+                {
+                  "line_id": "p014l0014",
+                  "page": 14,
+                  "bbox": [
+                    72.798,
+                    395.957,
+                    309.19,
+                    405.894
+                  ]
+                },
+                {
+                  "line_id": "p014l0015",
+                  "page": 14,
+                  "bbox": [
+                    65.148,
+                    421.515,
+                    283.004,
+                    430.495
+                  ]
+                },
+                {
+                  "line_id": "p014l0016",
+                  "page": 14,
+                  "bbox": [
+                    65.148,
+                    433.248,
+                    217.438,
+                    442.228
+                  ]
+                },
+                {
+                  "line_id": "p014l0017",
+                  "page": 14,
+                  "bbox": [
+                    69.69,
+                    444.554,
+                    261.523,
+                    453.533
+                  ]
+                },
+                {
+                  "line_id": "p014l0018",
+                  "page": 14,
+                  "bbox": [
+                    69.69,
+                    455.329,
+                    272.76,
+                    464.309
+                  ]
+                },
+                {
+                  "line_id": "p014l0019",
+                  "page": 14,
+                  "bbox": [
+                    69.69,
+                    466.105,
+                    324.423,
+                    475.085
+                  ]
+                },
+                {
+                  "line_id": "p014l0020",
+                  "page": 14,
+                  "bbox": [
+                    69.69,
+                    476.881,
+                    259.873,
+                    485.86
+                  ]
+                },
+                {
+                  "line_id": "p014l0021",
+                  "page": 14,
+                  "bbox": [
+                    63.713,
+                    495.572,
+                    272.741,
+                    505.509
+                  ]
+                },
+                {
+                  "line_id": "p014l0022",
+                  "page": 14,
+                  "bbox": [
+                    77.699,
+                    511.735,
+                    256.005,
+                    521.672
+                  ]
+                }
+              ],
+              "section_kind": "body"
+            }
+          }
+        ]
+      },
+      "components_exception_handling": {
+        "handling_review_status": "user_accepted",
+        "reviewed_at": "2026-10-13",
+        "regulation_name": "인사규정시행세칙",
+        "source_file_name": "인사규정시행세칙(2025년도 11월 10일 개정).pdf",
+        "source_regulation_node_id": "41e26cd2-1681-5303-bbe6-6564386315e5",
+        "source_pdf_pages": [
+          8
+        ],
+        "source_article": "제28조제1항",
+        "source_text": "제28조(평정점수의 구성) ① 종합근무평정은 근무성적평정, 경력평정, 교육훈련평정, 가감평정으로\n구성된다. 다만, 1급 직원, 2급(갑) 직원 또는 「인사규정」 제23조의 승진소요최저연수를 충족하지\n못한 자에 대하여는 근무성적평정만을 실시할 수 있다. <개정 2006.12.20 ,개정 2010.12.03.,\n2019.11.12>\n② 종합근무평정의 구성항목별 평정점은 다음과 같다.\n직 급\n구성항목별\n2급(을) 3~8급\n근무성적평정 50 50\n경력평정 - 5\n직무전문성평정\n교육훈련평정 10 25\n가감평정 10한도 10한도\n<개정 2016.12.01, 2019.11.12., 2023.10.31>\n<본조 개정 2002.01.02>",
+        "source_action_text": "근무성적평정만을 실시할 수 있다",
+        "user_answer": "원문 예외 보존, 실제 평정 실시 여부 확인 (권장)",
+        "handling": "원문 예외를 보존. 해당 조건만으로 교육훈련평정을 자동 제외하지 않고 기관의 실제 평정 실시 여부를 확인한 뒤 안내.",
+        "items_to_check": [
+          "직급",
+          "인사규정 제23조의 승진소요최저연수 충족 여부",
+          "기관에서 실시한 평정 구성항목"
+        ],
+        "zero_score_inferred": false,
+        "automated_employee_exclusion_enabled": false,
+        "actual_employee_rules_implemented": false
+      }
+    },
+    {
+      "topic": "연간 기준학습시간",
+      "representative_question": "일반직 5급의 기준학습시간과 담당부서 학습의무 비율은?",
+      "source_evidence": [
+        {
+          "regulation_node_id": "2497464f-4581-5b03-8bfa-c34e52c735c9",
+          "source_file_name": "인재개발규정(2024년도 12월 개정).pdf",
+          "pdf_pages": [
+            19
+          ],
+          "body_sha256": "019f0859431781ba171922d6c9acdb21db7c40fab1a832e9d7561c70337d2a7d"
+        },
+        {
+          "regulation_node_id": "89f60797-d067-5bd2-a037-55779397b6ad",
+          "source_file_name": "인재개발규정(2024년도 12월 개정).pdf",
+          "pdf_pages": [
+            19
+          ],
+          "body_sha256": "4e1516e971599ed8de6090e740177a0104ac355559618ac4830b84eeaa53593b"
+        },
+        {
+          "regulation_node_id": "4adf69d0-ff71-5c4f-b9dc-d4bb1afaf88b",
+          "source_file_name": "인재개발규정(2024년도 12월 개정).pdf",
+          "pdf_pages": [
+            19
+          ],
+          "body_sha256": "9cb9b73119de6ac90a92d12810067bb50326d8f1604557e6850426460dc5cdfd"
+        }
+      ],
+      "expected_source_terms": [
+        "112시간",
+        "200시간",
+        "40%"
+      ],
+      "accepted_answer_handling": "원문 비율 보존. 112시간의 40%인 44.8시간을 예시로 계산하되 임의 반올림 없음.",
+      "result": "source_connection_pass",
+      "actual_employee_inputs_available": false,
+      "actual_search_answer_test_run": false
+    },
+    {
+      "topic": "부서와 교육 분야",
+      "representative_question": "디지털관리처·인재경영실 소속만으로 신입교육 분야를 정할 수 있는가?",
+      "source_evidence": [
+        {
+          "regulation_node_id": "5228c34d-1fed-5d1f-a44f-29b2ec514900",
+          "source_file_name": "직제규정(2026년도 06월 18일 개정).pdf",
+          "pdf_pages": [
+            30
+          ],
+          "body_sha256": "2b402993f458aa3617648a602a8e199e2cd36f9a0fa2c6595b1965a2f749a171"
+        },
+        {
+          "regulation_node_id": "61b58b93-b9a8-5c6b-8876-b1292a5c7e5a",
+          "source_file_name": "직제규정(2026년도 06월 18일 개정).pdf",
+          "pdf_pages": [
+            30
+          ],
+          "body_sha256": "603a773159a216f12854149c4ae8955653134bfd132f3b27cc7dda39b3884c30"
+        },
+        {
+          "regulation_node_id": "f1360738-4cfd-5c87-a2c2-9785e49c886b",
+          "source_file_name": "인재개발규정(2024년도 12월 개정).pdf",
+          "pdf_pages": [
+            21
+          ],
+          "body_sha256": "732e352b03c9139acf605391e4c774841929d2ff50f976d20d3dff8a6d13284f"
+        }
+      ],
+      "expected_source_terms": [
+        "디지털관리처",
+        "인재경영실",
+        "직무분류체계"
+      ],
+      "accepted_answer_handling": "부서와 교육 분야를 자동 연결하지 않음. 기관 직무분류·교육 대상 안내와 직원 정보를 대조.",
+      "result": "source_connection_pass",
+      "actual_employee_inputs_available": false,
+      "actual_search_answer_test_run": false
+    },
+    {
+      "topic": "직종·직렬",
+      "representative_question": "일반직 3~8급의 전산·행정 직렬은 어떤 직종으로 기재되어 있는가?",
+      "source_evidence": [
+        {
+          "regulation_node_id": "696b9b9d-83be-5898-a976-46870a7b958d",
+          "source_file_name": "직제규정 시행세칙(2026년도 07월 16일 개정).pdf",
+          "pdf_pages": [
+            46
+          ],
+          "body_sha256": "aaf2e1084dfe709cdd50ba5d9fb5f5248a9f3e7e3de8d2b7e05b6c65ad03c2da"
+        },
+        {
+          "regulation_node_id": "37951a8a-5f28-5125-a07d-c98c930caa36",
+          "source_file_name": "직제규정 시행세칙(2026년도 07월 16일 개정).pdf",
+          "pdf_pages": [
+            46
+          ],
+          "body_sha256": "443201e23dde92e2f03b1746d99749f52634e4f106e49d909df3f6f3205ba83f"
+        }
+      ],
+      "expected_source_terms": [
+        "3~8급",
+        "직종: 특수기술",
+        "전산",
+        "직종: 행정"
+      ],
+      "accepted_answer_handling": "원문 직급 범위와 직종·직렬을 보존. 가상 직원의 예비 직무 설정과 실제 직원의 인사기록을 구분.",
+      "result": "source_connection_pass",
+      "actual_employee_inputs_available": false,
+      "actual_search_answer_test_run": false
+    },
+    {
+      "topic": "평정점수 자리수",
+      "representative_question": "평정점수의 소수점 자릿수 처리 기준은?",
+      "source_evidence": [
+        {
+          "regulation_node_id": "b235be36-28ea-52ee-8b7b-b969557db260",
+          "source_file_name": "인사규정시행세칙(2025년도 11월 10일 개정).pdf",
+          "pdf_pages": [
+            8
+          ],
+          "body_sha256": "370b8303dff33d557f1680cba35ae4e9f615719b869f4f500231e4e5d8f8e370"
+        }
+      ],
+      "expected_source_terms": [
+        "3자리",
+        "4자리수",
+        "절사"
+      ],
+      "result": "source_connection_pass",
+      "actual_employee_inputs_available": false,
+      "actual_search_answer_test_run": false,
+      "source_transcription_handling": "원문 점수 처리 기준을 보존. 이 기준을 학습시간의 반올림 기준으로 사용하지 않음.",
+      "handling_review_status": "source_text_verified_by_codex"
+    },
+    {
+      "topic": "최소 승진기간",
+      "representative_question": "4급으로 3년 근무하면 승진이 확정되는가?",
+      "source_evidence": [
+        {
+          "regulation_node_id": "f80ca70b-6800-59aa-8536-acd61cc23e8f",
+          "source_file_name": "인사규정(2026년도 8월 27일 개정).pdf",
+          "pdf_pages": [
+            5
+          ],
+          "body_sha256": "6da17d97aa6f2ca8481499301b44ab1af5beeedfc280cdf5691ac711ee091d9f"
+        },
+        {
+          "regulation_node_id": "bf3ccb52-c795-574e-8095-eab5e38a64d4",
+          "source_file_name": "인사규정(2026년도 8월 27일 개정).pdf",
+          "pdf_pages": [
+            5
+          ],
+          "body_sha256": "e173fb84ea7b9cbe110bcf2e347f2a3efa59b160d744810a27a6a0fd1578989b"
+        },
+        {
+          "regulation_node_id": "d7f8bdc1-48ac-58dd-b4a7-82f665ced7d3",
+          "source_file_name": "인사규정(2026년도 8월 27일 개정).pdf",
+          "pdf_pages": [
+            5
+          ],
+          "body_sha256": "5ec9a984e0bdbc95fad5239a5086f4dab055c8d77629385f3e6824698ae3fca7"
+        },
+        {
+          "regulation_node_id": "981142fb-5140-5892-ae05-a6c95c82bcee",
+          "source_file_name": "인사규정(2026년도 8월 27일 개정).pdf",
+          "pdf_pages": [
+            5,
+            6
+          ],
+          "body_sha256": "605c83d73374e039a3c81b0f359e85991f6ef61fd095428ea37130f6538211de"
+        }
+      ],
+      "expected_source_terms": [
+        "4급에서 3급 : 3년",
+        "5급에서 4급 : 2년",
+        "결원",
+        "승진대상에서 제외"
+      ],
+      "accepted_answer_handling": "최소 기간 충족과 실제 승진 여부를 구분. 결원·평정·승진 제한·임용방법 등을 함께 확인.",
+      "result": "source_connection_pass",
+      "actual_employee_inputs_available": false,
+      "actual_search_answer_test_run": false
+    },
+    {
+      "topic": "전산직렬 현장근무 예외",
+      "representative_question": "전산직렬 직원은 현장근무기간 요건에 어떤 예외가 있는가?",
+      "source_evidence": [
+        {
+          "regulation_node_id": "576c2d2f-665d-5e30-900e-80334524228f",
+          "source_file_name": "인사규정시행세칙(2025년도 11월 10일 개정).pdf",
+          "pdf_pages": [
+            17,
+            18
+          ],
+          "body_sha256": "3a4b4d6e68451d53fe838a3806ed902c35ec1f6c491660f14733290c0ce1bae3"
+        },
+        {
+          "regulation_node_id": "f80ca70b-6800-59aa-8536-acd61cc23e8f",
+          "source_file_name": "인사규정(2026년도 8월 27일 개정).pdf",
+          "pdf_pages": [
+            5
+          ],
+          "body_sha256": "6da17d97aa6f2ca8481499301b44ab1af5beeedfc280cdf5691ac711ee091d9f"
+        },
+        {
+          "regulation_node_id": "981142fb-5140-5892-ae05-a6c95c82bcee",
+          "source_file_name": "인사규정(2026년도 8월 27일 개정).pdf",
+          "pdf_pages": [
+            5,
+            6
+          ],
+          "body_sha256": "605c83d73374e039a3c81b0f359e85991f6ef61fd095428ea37130f6538211de"
+        }
+      ],
+      "expected_source_terms": [
+        "전산직렬",
+        "1년 6개월",
+        "2년 6개월",
+        "제1항"
+      ],
+      "accepted_answer_handling": "전산직렬이 확인되면 제48조의2제1항 현장근무기간 요건의 예외를 안내. 다른 승진 조건의 면제로 확대하지 않음.",
+      "result": "source_connection_pass",
+      "actual_employee_inputs_available": false,
+      "actual_search_answer_test_run": false
+    },
+    {
+      "topic": "휴직과 승진기간",
+      "representative_question": "휴직기간을 모두 승진소요최저연수에 더해야 하는가?",
+      "source_evidence": [
+        {
+          "regulation_node_id": "981142fb-5140-5892-ae05-a6c95c82bcee",
+          "source_file_name": "인사규정(2026년도 8월 27일 개정).pdf",
+          "pdf_pages": [
+            5,
+            6
+          ],
+          "body_sha256": "605c83d73374e039a3c81b0f359e85991f6ef61fd095428ea37130f6538211de"
+        },
+        {
+          "regulation_node_id": "91ba6090-f334-5064-a470-c31205adb08a",
+          "source_file_name": "인사규정(2026년도 8월 27일 개정).pdf",
+          "pdf_pages": [
+            7,
+            8
+          ],
+          "body_sha256": "09ed5a5c58d47f416149a3b87108915f643e2dfe48091697a5ea506fb3a7fe8a"
+        }
+      ],
+      "expected_source_terms": [
+        "휴직기간",
+        "국외 교육훈련",
+        "제31조"
+      ],
+      "accepted_answer_handling": "휴직 사유·기간과 원문 예외를 확인. 정보가 부족하면 개인의 승진기간 확인 필요.",
+      "result": "source_connection_pass",
+      "actual_employee_inputs_available": false,
+      "actual_search_answer_test_run": false
+    },
+    {
+      "topic": "경력직 현장근무 예외",
+      "representative_question": "경력직 채용자의 현장근무기간 예외는 계속 유지되는가?",
+      "source_evidence": [
+        {
+          "regulation_node_id": "576c2d2f-665d-5e30-900e-80334524228f",
+          "source_file_name": "인사규정시행세칙(2025년도 11월 10일 개정).pdf",
+          "pdf_pages": [
+            17,
+            18
+          ],
+          "body_sha256": "3a4b4d6e68451d53fe838a3806ed902c35ec1f6c491660f14733290c0ce1bae3"
+        }
+      ],
+      "expected_source_terms": [
+        "경력직으로 채용된 직원",
+        "채용시 직급",
+        "4,5급을 동일직급"
+      ],
+      "accepted_answer_handling": "채용 유형·채용 당시 직급·현재 직급을 확인하여 채용 직급 범위로 안내. 모든 이후 직급의 면제로 확대하지 않음.",
+      "result": "source_connection_pass",
+      "actual_employee_inputs_available": false,
+      "actual_search_answer_test_run": false
+    },
+    {
+      "topic": "연차 부여 원문",
+      "representative_question": "연차휴가는 모든 직원에게 일률적으로 15일인가?",
+      "source_evidence": [
+        {
+          "regulation_node_id": "ad736e89-249d-55fb-8b03-aba3acf20785",
+          "source_file_name": "한국수자원공사취업규칙(2026년도 03월 10일 개정).pdf",
+          "pdf_pages": [
+            9
+          ],
+          "body_sha256": "c9f334e772fb9201ba4b0f637c93b82a6d13291b3d11905411f49514f1b83948"
+        }
+      ],
+      "expected_source_terms": [
+        "80퍼센트",
+        "15일",
+        "1개월간",
+        "25일"
+      ],
+      "result": "source_connection_pass",
+      "actual_employee_inputs_available": false,
+      "actual_search_answer_test_run": false,
+      "source_transcription_handling": "출근율·계속 근로기간 등의 원문 조건과 상한을 보존. 개인 부여·잔여 연차는 실제 이력 확인 필요.",
+      "handling_review_status": "source_text_verified_by_codex"
+    },
+    {
+      "topic": "휴가기간 계산 예외",
+      "representative_question": "30일 이상 휴가는 항상 토요일·공휴일을 차감 일수에 포함하는가?",
+      "source_evidence": [
+        {
+          "regulation_node_id": "7a0ac4bc-353e-5a59-8b78-e2c124a4c66c",
+          "source_file_name": "한국수자원공사취업규칙(2026년도 03월 10일 개정).pdf",
+          "pdf_pages": [
+            9
+          ],
+          "body_sha256": "29e20d805696e53d333bbf64b8ec6feff4bf1bccc9dc9d22c6bd1905c9f3c756"
+        }
+      ],
+      "expected_source_terms": [
+        "30일",
+        "연차유급휴가",
+        "그러하지 아니하다"
+      ],
+      "accepted_answer_handling": "제1·2항과 연차유급휴가 예외를 함께 보존·안내. 개인 차감 일수는 휴가 종류·기간 확인 후 안내.",
+      "result": "source_connection_pass",
+      "actual_employee_inputs_available": false,
+      "actual_search_answer_test_run": false
+    },
+    {
+      "topic": "연차저축 별도 절차",
+      "representative_question": "남은 연차휴가를 저축하는 신청 절차는 무엇인가?",
+      "source_evidence": [
+        {
+          "regulation_node_id": "84344702-e2b1-5c41-b293-91c7744e8a92",
+          "source_file_name": "한국수자원공사취업규칙(2026년도 03월 10일 개정).pdf",
+          "pdf_pages": [
+            9
+          ],
+          "body_sha256": "9a130b96e54bd9de4245ff54c4eacb257e3d02ae0fb1f3d018bdc0cdb3082b3e"
+        }
+      ],
+      "expected_source_terms": [
+        "이월·저축",
+        "보상비",
+        "노사가 합의"
+      ],
+      "result": "source_connection_pass",
+      "actual_employee_inputs_available": false,
+      "actual_search_answer_test_run": false,
+      "material_availability_handling": "원문 저축 기준을 보존. 사용자가 별도 자료 미보유를 확인했으므로 상세 대상·절차는 기관 자료 확인 대기.",
+      "handling_review_status": "material_availability_confirmed_by_user"
+    },
+    {
+      "topic": "유연근무 신청·승인",
+      "representative_question": "일반직 팀원이 유연근무를 신청하면 자동으로 승인되는가?",
+      "source_evidence": [
+        {
+          "regulation_node_id": "86336958-bb53-569c-8f53-053cf171981c",
+          "source_file_name": "유연근무제운영기준(2025년도 11월 10일 개정).pdf",
+          "pdf_pages": [
+            1
+          ],
+          "body_sha256": "c3f3192d5ad90f48a11c64756c72bd02324a84fe1d88715110ea931dcac5f7c2"
+        },
+        {
+          "regulation_node_id": "bb449b33-dbd2-5d22-a31e-238f40b7a927",
+          "source_file_name": "유연근무제운영기준(2025년도 11월 10일 개정).pdf",
+          "pdf_pages": [
+            2
+          ],
+          "body_sha256": "b333591d2f495d8051b43914c4bfecacd5cbe9bd31641c1ea2f041b9df9a4c84"
+        },
+        {
+          "regulation_node_id": "0b43fcea-6580-5e23-91b9-e57322523ca5",
+          "source_file_name": "유연근무제운영기준(2025년도 11월 10일 개정).pdf",
+          "pdf_pages": [
+            2
+          ],
+          "body_sha256": "5b56642650063a64de20f2803b8a9a05707f738db78c267dabf9b06d5003f44e"
+        }
+      ],
+      "expected_source_terms": [
+        "업무공백",
+        "승인하여야",
+        "매월 말일까지",
+        "근무시간선택제"
+      ],
+      "result": "source_connection_pass",
+      "actual_employee_inputs_available": false,
+      "actual_search_answer_test_run": false,
+      "source_transcription_handling": "신청과 승인을 구분하고 업무공백·부서운영 조건과 원문 승인 기준을 함께 보존. 부서장 아닌 팀원 계획만으로 신청 가능 여부를 확정하지 않음.",
+      "handling_review_status": "source_text_verified_by_codex"
+    },
+    {
+      "topic": "유연근무 유형별 기간",
+      "representative_question": "모든 유연근무는 반드시 1개월 단위인가?",
+      "source_evidence": [
+        {
+          "regulation_node_id": "47f281ae-98c5-53e5-b0bf-f3c47a7c353a",
+          "source_file_name": "유연근무제운영기준(2025년도 11월 10일 개정).pdf",
+          "pdf_pages": [
+            2
+          ],
+          "body_sha256": "a14bd3562fd4e85a14ac934c051a8d373bf56705ba3cad266aff92a3b5c14814"
+        },
+        {
+          "regulation_node_id": "2d80c04a-844e-58ae-b53c-d18bfa5e08fa",
+          "source_file_name": "유연근무제운영기준(2025년도 11월 10일 개정).pdf",
+          "pdf_pages": [
+            7
+          ],
+          "body_sha256": "e8aaf41fe238656c46db324844964dbfaf0432a504896f93f29a60949ed96efb"
+        }
+      ],
+      "expected_source_terms": [
+        "1개월 단위",
+        "1주일 단위",
+        "1일 단위",
+        "09:00~18:00"
+      ],
+      "result": "source_connection_pass",
+      "actual_employee_inputs_available": false,
+      "actual_search_answer_test_run": false,
+      "source_transcription_handling": "실시기간의 일반 기준과 원격근무 유형별 기간을 구분. 신청 단위와 신청 마감일을 같은 의미로 사용하지 않음.",
+      "handling_review_status": "source_text_verified_by_codex"
+    },
+    {
+      "topic": "시간선택제 근무·보수·재직기간",
+      "representative_question": "시간선택제로 전환하면 급여와 승진 재직기간이 모두 같은 비율로 줄어드는가?",
+      "source_evidence": [
+        {
+          "regulation_node_id": "98da1a34-4717-501a-992d-92037dc59344",
+          "source_file_name": "유연근무제운영기준(2025년도 11월 10일 개정).pdf",
+          "pdf_pages": [
+            3
+          ],
+          "body_sha256": "08753108aa4a733625485080005f922fb29b39e12d5a019f5a89da84f9308f26"
+        },
+        {
+          "regulation_node_id": "87c11209-8839-5c90-94c3-067fbfe99e5b",
+          "source_file_name": "유연근무제운영기준(2025년도 11월 10일 개정).pdf",
+          "pdf_pages": [
+            3
+          ],
+          "body_sha256": "091bb06ce7dd956903e066fc556bfc32728347b398318fec23ed3c43bf40e5f5"
+        },
+        {
+          "regulation_node_id": "7c5fa879-5e49-52d3-922b-8f07fb55caa2",
+          "source_file_name": "유연근무제운영기준(2025년도 11월 10일 개정).pdf",
+          "pdf_pages": [
+            4
+          ],
+          "body_sha256": "f6145eddc3b903be75db148acceaaf4d43b1d2315b31cfaefb432d3ee17090ed"
+        },
+        {
+          "regulation_node_id": "15cf9b6f-3c9f-5e6a-9cda-f5c798162947",
+          "source_file_name": "유연근무제운영기준(2025년도 11월 10일 개정).pdf",
+          "pdf_pages": [
+            4
+          ],
+          "body_sha256": "ea8b60635b2672d4755f73c857e015fe7b9b3473ca06f7802f2bb9fb86155176"
+        }
+      ],
+      "expected_source_terms": [
+        "15시간",
+        "35시간",
+        "근무시간에 비례",
+        "최초 1년",
+        "100%"
+      ],
+      "result": "source_connection_pass",
+      "actual_employee_inputs_available": false,
+      "actual_search_answer_test_run": false,
+      "source_transcription_handling": "근무시간·보수·연차·재직기간의 별도 기준을 구분. 임산부 단축근로의 급여 예외와 채용형 시간선택제의 재직기간 예외를 함께 확인.",
+      "handling_review_status": "source_text_verified_by_codex"
+    },
+    {
+      "topic": "집약근무 신청자격",
+      "representative_question": "본사 일반직 전산 업무가 별표4 예시에 있으므로 집약근무를 신청할 수 있는가?",
+      "source_evidence": [
+        {
+          "regulation_node_id": "b2119213-9c57-520c-a105-1ca39c7dcc8c",
+          "source_file_name": "유연근무제운영기준(2025년도 11월 10일 개정).pdf",
+          "pdf_pages": [
+            5
+          ],
+          "body_sha256": "40ea83d5e8a619784131de2d23c04317b9bdecded45dd03e15cf918f3d3d0375"
+        },
+        {
+          "regulation_node_id": "894e60e7-afcd-5cb3-8859-8c97f2cc1d65",
+          "source_file_name": "유연근무제운영기준(2025년도 11월 10일 개정).pdf",
+          "pdf_pages": [
+            16
+          ],
+          "body_sha256": "ad1727552af6aa9695d49980404497522361c63c85032e087aafee4a675fbd5c"
+        },
+        {
+          "regulation_node_id": "d94d4016-3876-595d-a411-17d35eaeace1",
+          "source_file_name": "유연근무제운영기준(2025년도 11월 10일 개정).pdf",
+          "pdf_pages": [
+            5
+          ],
+          "body_sha256": "cfebcf6898b75a6f866fba5268ee8bb3b7c1c01641ad3cb2624ff06c2bf6a46a"
+        }
+      ],
+      "expected_source_terms": [
+        "업무지원직",
+        "해외사업장 근무자",
+        "전산시스템 운영",
+        "11시간 이하"
+      ],
+      "result": "source_connection_pass",
+      "actual_employee_inputs_available": false,
+      "actual_search_answer_test_run": false,
+      "source_transcription_handling": "제23조 신청자격을 먼저 확인. 별표4의 직무 예시는 신청자격을 확대하지 않으며 개인의 실제 직군·근무지를 확인.",
+      "handling_review_status": "source_text_verified_by_codex"
+    },
+    {
+      "topic": "근무시간선택제 공동근무시간",
+      "representative_question": "주 5일과 격주 4일 근무의 공동근무시간 조건이 같은가?",
+      "source_evidence": [
+        {
+          "regulation_node_id": "01c13945-fa42-5b77-aabf-e2de892c470e",
+          "source_file_name": "유연근무제운영기준(2025년도 11월 10일 개정).pdf",
+          "pdf_pages": [
+            6,
+            7
+          ],
+          "body_sha256": "1f1d7ecd9a201c0e0639abdfbe6997b2bf3961706b26f54bec60172e375c15d6"
+        }
+      ],
+      "expected_source_terms": [
+        "주 5일 근무",
+        "격주 4일 근무",
+        "또는",
+        "및",
+        "매월 초일부터 말일까지"
+      ],
+      "result": "source_connection_pass",
+      "actual_employee_inputs_available": false,
+      "actual_search_answer_test_run": false,
+      "source_transcription_handling": "주 5일은 두 시간대 중 하나, 격주 4일은 두 시간대 모두 포함. 근무시간·월 정산과 임금피크 예외를 함께 확인.",
+      "handling_review_status": "source_text_verified_by_codex"
+    },
+    {
+      "topic": "육아기 원격근무 조건",
+      "representative_question": "자녀가 있으면 매일 원격근무를 할 수 있는가?",
+      "source_evidence": [
+        {
+          "regulation_node_id": "2d80c04a-844e-58ae-b53c-d18bfa5e08fa",
+          "source_file_name": "유연근무제운영기준(2025년도 11월 10일 개정).pdf",
+          "pdf_pages": [
+            7
+          ],
+          "body_sha256": "e8aaf41fe238656c46db324844964dbfaf0432a504896f93f29a60949ed96efb"
+        },
+        {
+          "regulation_node_id": "d07456fb-1c69-52d5-8c9f-94edc3100327",
+          "source_file_name": "유연근무제운영기준(2025년도 11월 10일 개정).pdf",
+          "pdf_pages": [
+            7
+          ],
+          "body_sha256": "74a1508e257f248ccc779acdb36549a3169486dcb8761e9ed659d3ee562c65cb"
+        },
+        {
+          "regulation_node_id": "b97770f3-0b5d-5e5a-915a-3504fa0a5af3",
+          "source_file_name": "유연근무제운영기준(2025년도 11월 10일 개정).pdf",
+          "pdf_pages": [
+            8
+          ],
+          "body_sha256": "89f788dda46de3ad6ad0c2b128014913a61a47236df82120595b9066ae1680f3"
+        }
+      ],
+      "expected_source_terms": [
+        "1일은 반드시 사무실에 출근",
+        "만 8세 이하",
+        "초등학교 2학년 이하",
+        "분장업무의 적합성"
+      ],
+      "result": "source_connection_pass",
+      "actual_employee_inputs_available": false,
+      "actual_search_answer_test_run": false,
+      "source_transcription_handling": "자녀 나이·학년과 직무 적합성, 주1회 사무실 출근, 부서장 승인을 확인. 월 시간의 숫자는 이 조문에서 임의로 만들지 않음.",
+      "handling_review_status": "source_text_verified_by_codex"
+    },
+    {
+      "topic": "유연근무 해제",
+      "representative_question": "전보나 휴직 후 기존 유연근무 승인이 자동 유지되는가?",
+      "source_evidence": [
+        {
+          "regulation_node_id": "ec84e75b-e42b-5c7f-acbb-6a9155903844",
+          "source_file_name": "유연근무제운영기준(2025년도 11월 10일 개정).pdf",
+          "pdf_pages": [
+            2,
+            3
+          ],
+          "body_sha256": "dd60ec882f192a258dbe75232915e876a1ef4269dd9495131a5e52519c0004d3"
+        }
+      ],
+      "expected_source_terms": [
+        "실시기간의 만료",
+        "전보발령",
+        "휴직"
+      ],
+      "result": "source_connection_pass",
+      "actual_employee_inputs_available": false,
+      "actual_search_answer_test_run": false,
+      "source_transcription_handling": "제7조의 당연 해제 사유와 실제 전보·휴직 이력을 확인. 새로운 승인 여부를 추정하지 않음.",
+      "handling_review_status": "source_text_verified_by_codex"
+    },
+    {
+      "topic": "원격근무 가능직무",
+      "representative_question": "디지털관리처 또는 인재경영실 소속이면 원격근무가 가능한가?",
+      "source_evidence": [
+        {
+          "regulation_node_id": "87827b04-0c64-5a5b-948c-894f3b2659bd",
+          "source_file_name": "유연근무제운영기준(2025년도 11월 10일 개정).pdf",
+          "pdf_pages": [
+            18
+          ],
+          "body_sha256": "57cf806be3a2244435f3e84daf3656bc17c129cb04380c203303755704d79c42"
+        },
+        {
+          "regulation_node_id": "9c919d58-4919-5a00-a035-1160258c73fb",
+          "source_file_name": "유연근무제운영기준(2025년도 11월 10일 개정).pdf",
+          "pdf_pages": [
+            18
+          ],
+          "body_sha256": "2064f40a5a7434df04a9d3e67b54a90b7ffc798e94cab57ccd801cfcaff7884e"
+        },
+        {
+          "regulation_node_id": "2d80c04a-844e-58ae-b53c-d18bfa5e08fa",
+          "source_file_name": "유연근무제운영기준(2025년도 11월 10일 개정).pdf",
+          "pdf_pages": [
+            7
+          ],
+          "body_sha256": "e8aaf41fe238656c46db324844964dbfaf0432a504896f93f29a60949ed96efb"
+        }
+      ],
+      "expected_source_terms": [
+        "프로그램 개발 프로젝트 관리",
+        "시스템 유지보수",
+        "보안위험",
+        "부적합"
+      ],
+      "result": "source_connection_pass",
+      "actual_employee_inputs_available": false,
+      "actual_search_answer_test_run": false,
+      "source_transcription_handling": "별표6의 실제 직무·조직 구분·적용대상과 제28조의 효율성·보안·장소·고객접점 조건 및 승인을 대조. 부서명만으로 원격근무 가능 여부를 확정하지 않음.",
+      "handling_review_status": "source_text_verified_by_codex"
+    },
+    {
+      "topic": "월 수당한도·주간 제한",
+      "representative_question": "일반직4급은 한 달에 15시간만 시간외근무할 수 있는가?",
+      "source_evidence": [
+        {
+          "regulation_node_id": "9a368017-f9d9-53e0-b0b8-8ae459456733",
+          "source_file_name": "연봉규정시행세칙(2025년 12월 18일 개정).pdf",
+          "pdf_pages": [
+            5
+          ],
+          "body_sha256": "d0efbb14cc073d66e41015c5f357a899de531d00cb7a61b8dbd1923892053ee4"
+        },
+        {
+          "regulation_node_id": "62e46ed2-26f4-5aa4-a2f0-fa486852056c",
+          "source_file_name": "연봉규정시행세칙(2025년 12월 18일 개정).pdf",
+          "pdf_pages": [
+            5
+          ],
+          "body_sha256": "8bbb68265b0151e170737d22cf4053a4da3b24931c8251fcf5c0a7cbc867fdd4"
+        }
+      ],
+      "expected_source_terms": [
+        "15h",
+        "주 12시간",
+        "예산 범위"
+      ],
+      "accepted_answer_handling": "월 수당 지급한도와 주간 근무 제한을 구분. 제3항 특별한 경우의 초과 실시 문구도 함께 확인.",
+      "result": "source_connection_pass",
+      "actual_employee_inputs_available": false,
+      "actual_search_answer_test_run": false
+    },
+    {
+      "topic": "연봉 용어와 산정",
+      "representative_question": "연봉월액과 기본월봉은 같은 금액인가?",
+      "source_evidence": [
+        {
+          "regulation_node_id": "04899d55-0842-5aec-bb8d-e2c936c09982",
+          "source_file_name": "연봉규정(2025년 12월 16일 개정).pdf",
+          "pdf_pages": [
+            1
+          ],
+          "body_sha256": "cc814c974d5f02bbb9233c14631a2830be894f9d67cada1cd3f8500474eeef65"
+        },
+        {
+          "regulation_node_id": "e858acaf-28c5-515e-afe6-3225542cf1be",
+          "source_file_name": "연봉규정(2025년 12월 16일 개정).pdf",
+          "pdf_pages": [
+            4
+          ],
+          "body_sha256": "fb96e3a9b25c6599a8de797e3b103f7034227ac0941a6414c3e03be8fc8eafd5"
+        }
+      ],
+      "expected_source_terms": [
+        "연봉월액",
+        "기본월봉",
+        "표준가산급"
+      ],
+      "result": "source_connection_pass",
+      "actual_employee_inputs_available": false,
+      "actual_search_answer_test_run": false,
+      "source_transcription_handling": "제2조 정의와 제11조 산정 문구를 함께 보존. 표준가산급을 별도 지급액으로 임의 추가하지 않으며 개인 금액·세후 입금액은 확인 필요.",
+      "handling_review_status": "source_text_verified_by_codex"
+    },
+    {
+      "topic": "보수 계산기간",
+      "representative_question": "이번 달 실적급여는 어느 달의 실적인가?",
+      "source_evidence": [
+        {
+          "regulation_node_id": "96400497-2138-5e39-a7ce-7dcccce085a3",
+          "source_file_name": "연봉규정(2025년 12월 16일 개정).pdf",
+          "pdf_pages": [
+            2
+          ],
+          "body_sha256": "22df4f67543d26cc5ac41594fbac35128f4727ea0f69ffcb5392e15d92041577"
+        },
+        {
+          "regulation_node_id": "16f9ceae-39cf-56d7-81d9-460a5b971bc6",
+          "source_file_name": "연봉규정(2025년 12월 16일 개정).pdf",
+          "pdf_pages": [
+            2
+          ],
+          "body_sha256": "41e69625cbfb7ed195bcc05c90314485ba8e6ec2ac4642bcf133eb62fb1a3995"
+        }
+      ],
+      "expected_source_terms": [
+        "21일",
+        "공휴일",
+        "전월 1일부터"
+      ],
+      "result": "source_connection_pass",
+      "actual_employee_inputs_available": false,
+      "actual_search_answer_test_run": false,
+      "source_transcription_handling": "매월 지급일과 연봉·실적급여의 계산기간을 구분하여 원문으로 안내.",
+      "handling_review_status": "source_text_verified_by_codex"
+    },
+    {
+      "topic": "신분변경과 일할 계산",
+      "representative_question": "월 중 복직·승진·전보하면 모두 발령일부터 같은 방식으로 연봉을 계산하는가?",
+      "source_evidence": [
+        {
+          "regulation_node_id": "e805dbcf-5dd4-5644-893b-4121ee4df85d",
+          "source_file_name": "연봉규정(2025년 12월 16일 개정).pdf",
+          "pdf_pages": [
+            2
+          ],
+          "body_sha256": "44c4bcd93dc3c346fa84a375664d4e2cd5afa6cab9eabd3293563600513aa9cb"
+        }
+      ],
+      "expected_source_terms": [
+        "복직",
+        "발령일로부터",
+        "15일 이전",
+        "16일 이후",
+        "직무등급"
+      ],
+      "result": "source_connection_pass",
+      "actual_employee_inputs_available": false,
+      "actual_search_answer_test_run": false,
+      "source_transcription_handling": "복직·징계 등 발령일 일할 기준과 승진·직무등급 변경의 15일 경계를 구분. 퇴직월 예외는 별도로 확인.",
+      "handling_review_status": "source_text_verified_by_codex"
+    },
+    {
+      "topic": "징계처분별 연봉",
+      "representative_question": "직위해제·정직·감봉 때 연봉이 모두 똑같이 줄어드는가?",
+      "source_evidence": [
+        {
+          "regulation_node_id": "3174d853-4ee6-5ba8-9c9f-1ff82c70708f",
+          "source_file_name": "연봉규정(2025년 12월 16일 개정).pdf",
+          "pdf_pages": [
+            2,
+            3
+          ],
+          "body_sha256": "1ae7807c3d467f7a86f8e1b1f1c2bcbeb101b8f649a0960c6b67fa7e560d8a9a"
+        }
+      ],
+      "expected_source_terms": [
+        "직위해제",
+        "기준급만",
+        "정직",
+        "60분의 1",
+        "소급"
+      ],
+      "result": "source_connection_pass",
+      "actual_employee_inputs_available": false,
+      "actual_search_answer_test_run": false,
+      "source_transcription_handling": "처분별 지급 항목과 예외, 무효·취소 시 소급 지급을 구분. 처분 사유·기간·확정 상태 없이 개인 금액을 계산하지 않음.",
+      "handling_review_status": "source_text_verified_by_codex"
+    },
+    {
+      "topic": "휴직 사유별 보수",
+      "representative_question": "휴직 중에는 언제나 연봉이 없거나 기준급의 70퍼센트인가?",
+      "source_evidence": [
+        {
+          "regulation_node_id": "5f5aef8e-0b0c-5a4a-81a4-ec6d280919d4",
+          "source_file_name": "연봉규정(2025년 12월 16일 개정).pdf",
+          "pdf_pages": [
+            3
+          ],
+          "body_sha256": "747d4b8e184dc4e7e5456c6ec945343b35afda2fc112cc82b8b918c889a79794"
+        }
+      ],
+      "expected_source_terms": [
+        "지급하지 아니하되",
+        "70%",
+        "50%",
+        "공상 치료",
+        "국외 교육훈련",
+        "난임"
+      ],
+      "result": "source_connection_pass",
+      "actual_employee_inputs_available": false,
+      "actual_search_answer_test_run": false,
+      "source_transcription_handling": "일반 미지급 원칙과 사유·기간별 예외를 구분. 성과급과 실적급여는 별도 기준으로 안내.",
+      "handling_review_status": "source_text_verified_by_codex"
+    },
+    {
+      "topic": "휴직·징계 성과급",
+      "representative_question": "휴직 기간에도 성과급을 정상 금액으로 받는가?",
+      "source_evidence": [
+        {
+          "regulation_node_id": "5c56482e-fc9c-538a-9dbc-b743fee5ef90",
+          "source_file_name": "연봉규정시행세칙(2025년 12월 18일 개정).pdf",
+          "pdf_pages": [
+            3,
+            4
+          ],
+          "body_sha256": "530f1757b3de582d05b06d9ab4168dbd03b3caa3ba2dcc1994807b217270e3dc"
+        },
+        {
+          "regulation_node_id": "dd303071-d7a6-5281-ba9a-ae0385cb2205",
+          "source_file_name": "연봉규정시행세칙(2025년 12월 18일 개정).pdf",
+          "pdf_pages": [
+            4,
+            5
+          ],
+          "body_sha256": "ac9f950b37155c011f00dbed8729a95f281b8b4dd66f9ed48fe8dc930b6f3f82"
+        }
+      ],
+      "expected_source_terms": [
+        "지급제한일수",
+        "59/60",
+        "휴직",
+        "일반직 2급(을)",
+        "퇴직월"
+      ],
+      "result": "source_connection_pass",
+      "actual_employee_inputs_available": false,
+      "actual_search_answer_test_run": false,
+      "source_transcription_handling": "경영평가·내부평가급과 급여성 성과급의 대상·산식을 구분. 직급·근무일수·처분 이력 없이 개인 금액을 계산하지 않음.",
+      "handling_review_status": "source_text_verified_by_codex"
+    },
+    {
+      "topic": "직무급 범위와 금액 단위",
+      "representative_question": "일반직 직무등급A의 표 금액이 개인의 확정 연봉인가?",
+      "source_evidence": [
+        {
+          "regulation_node_id": "38613921-7c8a-54ef-91ee-41e31cdf006a",
+          "source_file_name": "연봉규정시행세칙(2025년 12월 18일 개정).pdf",
+          "pdf_pages": [
+            28
+          ],
+          "body_sha256": "7ef68c177d4a40ff4fde71971d398d38a0053a2da1350cf2005b1ae315c1cedf"
+        },
+        {
+          "regulation_node_id": "d5539adb-e927-5a27-9547-696d321ec56f",
+          "source_file_name": "연봉규정시행세칙(2025년 12월 18일 개정).pdf",
+          "pdf_pages": [
+            3
+          ],
+          "body_sha256": "c27e54c656247f5f29d2b932b2781681859428f2696349cd4aa273236b5df986"
+        }
+      ],
+      "expected_source_terms": [
+        "17,352",
+        "14,520",
+        "천원/년",
+        "17,352,000원"
+      ],
+      "result": "source_connection_pass",
+      "actual_employee_inputs_available": false,
+      "actual_search_answer_test_run": false,
+      "source_transcription_handling": "상하한 범위·천원 단위와 원 환산을 구분. 직무등급 연결 자료가 없어 직원별 직무급과 전체 연봉은 확정하지 않음.",
+      "handling_review_status": "source_text_verified_by_codex"
+    },
+    {
+      "topic": "경조사휴가 일수",
+      "representative_question": "배우자 출산과 본인 입양의 휴가일수는?",
+      "source_evidence": [
+        {
+          "regulation_node_id": "e50113e2-c58f-503a-a428-fb5a44c436b5",
+          "source_file_name": "한국수자원공사취업규칙(2026년도 03월 10일 개정).pdf",
+          "pdf_pages": [
+            27
+          ],
+          "body_sha256": "59f8402a038c32b12689351e9149c4ff7b44ce503f5ea7e42518787c2f1e19e0"
+        },
+        {
+          "regulation_node_id": "469d56f5-f7aa-598d-ab8c-088d8f213f1f",
+          "source_file_name": "한국수자원공사취업규칙(2026년도 03월 10일 개정).pdf",
+          "pdf_pages": [
+            27
+          ],
+          "body_sha256": "c25de56c7880b58624c2a924b05947c083d3d1b53ccdb7a1fcd0315628d66dc0"
+        },
+        {
+          "regulation_node_id": "4f2289a8-4c2f-51a1-aca7-bb86c367f7bc",
+          "source_file_name": "한국수자원공사취업규칙(2026년도 03월 10일 개정).pdf",
+          "pdf_pages": [
+            27
+          ],
+          "body_sha256": "c53b57ff7ea592830f8f996e8642005f01b3f9667d83545f6f643986ed20901e"
+        }
+      ],
+      "expected_source_terms": [
+        "20 (25)",
+        "둘 이상의 자녀",
+        "입양특례법",
+        "K-water"
+      ],
+      "result": "source_connection_pass",
+      "actual_employee_inputs_available": false,
+      "actual_search_answer_test_run": false,
+      "source_transcription_handling": "표의 일수·괄호 조건·주석을 함께 보존. 개인 신청기한·분할 사용은 별도 가이드와 사유·발생일 확인 필요.",
+      "handling_review_status": "source_text_verified_by_codex"
+    },
+    {
+      "topic": "경조사 기간과 가산",
+      "representative_question": "경조사휴가에 토요일·공휴일과 장거리 이동을 어떻게 반영하는가?",
+      "source_evidence": [
+        {
+          "regulation_node_id": "93c6f83d-c653-5c28-8095-4a7bb90318a4",
+          "source_file_name": "한국수자원공사취업규칙(2026년도 03월 10일 개정).pdf",
+          "pdf_pages": [
+            6
+          ],
+          "body_sha256": "c81549b39d39514ecd8d93fa1cf552c5d1ea444ee5bdfecd83f01ac2f6c2f78d"
+        },
+        {
+          "regulation_node_id": "7a0ac4bc-353e-5a59-8b78-e2c124a4c66c",
+          "source_file_name": "한국수자원공사취업규칙(2026년도 03월 10일 개정).pdf",
+          "pdf_pages": [
+            9
+          ],
+          "body_sha256": "29e20d805696e53d333bbf64b8ec6feff4bf1bccc9dc9d22c6bd1905c9f3c756"
+        }
+      ],
+      "expected_source_terms": [
+        "300km",
+        "1일",
+        "토요일",
+        "연차유급휴가"
+      ],
+      "result": "source_connection_pass",
+      "actual_employee_inputs_available": false,
+      "actual_search_answer_test_run": false,
+      "source_transcription_handling": "제31조의2 거리·해외근무 가산과 제33조의3 기간 계산 원문을 함께 보존. 개인 일정은 실제 사유·기간·근무지 정보 확인 필요.",
+      "handling_review_status": "source_text_verified_by_codex"
+    },
+    {
+      "topic": "장기재직휴가 적용례",
+      "representative_question": "20년 재직자에게 장기재직휴가5일과7일을 항상 더하는가?",
+      "source_evidence": [
+        {
+          "regulation_node_id": "17174e40-c763-5e76-aef5-4a2c31e51d1b",
+          "source_file_name": "한국수자원공사취업규칙(2026년도 03월 10일 개정).pdf",
+          "pdf_pages": [
+            8
+          ],
+          "body_sha256": "6f0499bda0c39c901f3e4cf4ef67f038d41cf28caacccdf261d6ae26cd8dffc7"
+        },
+        {
+          "regulation_node_id": "fa555acc-ea05-5160-8f91-1b4731e65d42",
+          "source_file_name": "한국수자원공사취업규칙(2026년도 03월 10일 개정).pdf",
+          "pdf_pages": [
+            8
+          ],
+          "body_sha256": "e78fee858629e64a285d30844a49136db9a8060d76f1a8f77a9a7d3992cd5a7b"
+        },
+        {
+          "regulation_node_id": "4efad793-01af-5e6b-a959-26bd34edf145",
+          "source_file_name": "한국수자원공사취업규칙(2026년도 03월 10일 개정).pdf",
+          "pdf_pages": [
+            26
+          ],
+          "body_sha256": "0fc92ea2290c60499ed68ca27239c1d4f99738d7a37b2adbda34915b410d7a26"
+        }
+      ],
+      "expected_source_terms": [
+        "5일",
+        "7일",
+        "1회",
+        "2025년 7월 22일",
+        "별도로 부여하지 않는다"
+      ],
+      "accepted_answer_handling": "2025-07-22 시행 당시 적용례와 원문 구간·횟수를 함께 안내. 이후 구간 변경 재부여는 사용 이력 및 기관 운영 기준 확인.",
+      "result": "source_connection_pass",
+      "actual_employee_inputs_available": false,
+      "actual_search_answer_test_run": false
+    },
+    {
+      "topic": "사무외출 차감",
+      "representative_question": "병원 진료 등 사무외출은 어떤 휴가에서 차감하는가?",
+      "source_evidence": [
+        {
+          "regulation_node_id": "e2197a49-4a9c-55c6-9ace-bf3bc7fd2fd4",
+          "source_file_name": "한국수자원공사취업규칙(2026년도 03월 10일 개정).pdf",
+          "pdf_pages": [
+            28
+          ],
+          "body_sha256": "2c33396702c58f2094adee4a54b659f642eb9d185a4683b6d5a16a0b7936474e"
+        },
+        {
+          "regulation_node_id": "33e93a7f-a053-5f58-9944-e060db1aa122",
+          "source_file_name": "한국수자원공사취업규칙(2026년도 03월 10일 개정).pdf",
+          "pdf_pages": [
+            28
+          ],
+          "body_sha256": "512c9a6dc10f3343931b230dbe6bef4a309ba90fd3380355156f81b85c753df8"
+        },
+        {
+          "regulation_node_id": "ec5826a3-c8ce-5d81-a57a-4d0b2019f526",
+          "source_file_name": "한국수자원공사취업규칙(2026년도 03월 10일 개정).pdf",
+          "pdf_pages": [
+            5
+          ],
+          "body_sha256": "34af9f864822e887513a6c19783a9068484925dd2eee2e40984d233f874dd16a"
+        }
+      ],
+      "expected_source_terms": [
+        "병가",
+        "연차",
+        "15분",
+        "진단서"
+      ],
+      "result": "source_connection_pass",
+      "actual_employee_inputs_available": false,
+      "actual_search_answer_test_run": false,
+      "source_transcription_handling": "사무외출·공무외출을 구분하고 별표2의 차감 기준과 제26조 진단서 예외를 함께 확인. 개인 잔여일수는 계산하지 않음.",
+      "handling_review_status": "source_text_verified_by_codex"
+    }
+  ],
+  "actual_rag_search_test_run": false,
+  "actual_employee_evaluation_run": false
+}

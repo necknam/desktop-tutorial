@@ -1,0 +1,276 @@
+{
+  "result": "pass",
+  "check_count": 62,
+  "checks": [
+    {
+      "check": "단일 필드 계약·기관 1개·규정/개정본/파일 28개",
+      "result": "pass"
+    },
+    {
+      "check": "institution 필드·필수값·PK",
+      "result": "pass"
+    },
+    {
+      "check": "regulation 필드·필수값·PK",
+      "result": "pass"
+    },
+    {
+      "check": "regulation_version 필드·필수값·PK",
+      "result": "pass"
+    },
+    {
+      "check": "regulation_file 필드·필수값·PK",
+      "result": "pass"
+    },
+    {
+      "check": "regulation_node 필드·필수값·PK",
+      "result": "pass"
+    },
+    {
+      "check": "regulation_scope 필드·필수값·PK",
+      "result": "pass"
+    },
+    {
+      "check": "regulation_reference 필드·필수값·PK",
+      "result": "pass"
+    },
+    {
+      "check": "rag_chunk 필드·필수값·PK",
+      "result": "pass"
+    },
+    {
+      "check": "rag_chunk_source 필드·필수값·PK",
+      "result": "pass"
+    },
+    {
+      "check": "regulation.institution_id 외래키",
+      "result": "pass"
+    },
+    {
+      "check": "regulation_version.regulation_id 외래키",
+      "result": "pass"
+    },
+    {
+      "check": "regulation_version.previous_version_id 외래키",
+      "result": "pass"
+    },
+    {
+      "check": "regulation_file.regulation_version_id 외래키",
+      "result": "pass"
+    },
+    {
+      "check": "regulation_file.source_file_id 외래키",
+      "result": "pass"
+    },
+    {
+      "check": "regulation_node.regulation_version_id 외래키",
+      "result": "pass"
+    },
+    {
+      "check": "regulation_node.regulation_file_id 외래키",
+      "result": "pass"
+    },
+    {
+      "check": "regulation_node.parent_node_id 외래키",
+      "result": "pass"
+    },
+    {
+      "check": "regulation_scope.regulation_node_id 외래키",
+      "result": "pass"
+    },
+    {
+      "check": "regulation_scope.applies_to_node_id 외래키",
+      "result": "pass"
+    },
+    {
+      "check": "regulation_reference.regulation_node_id 외래키",
+      "result": "pass"
+    },
+    {
+      "check": "regulation_reference.target_regulation_id 외래키",
+      "result": "pass"
+    },
+    {
+      "check": "regulation_reference.target_version_id 외래키",
+      "result": "pass"
+    },
+    {
+      "check": "regulation_reference.target_node_id 외래키",
+      "result": "pass"
+    },
+    {
+      "check": "rag_chunk.regulation_version_id 외래키",
+      "result": "pass"
+    },
+    {
+      "check": "rag_chunk_source.rag_chunk_id 외래키",
+      "result": "pass"
+    },
+    {
+      "check": "rag_chunk_source.regulation_node_id 외래키",
+      "result": "pass"
+    },
+    {
+      "check": "원문 PDF28건 해시 보존",
+      "result": "pass"
+    },
+    {
+      "check": "외부 비교자료를 규정 원문과 검색 출처에서 제외",
+      "result": "pass"
+    },
+    {
+      "check": "원문861쪽과 항목 쪽수 연결",
+      "result": "pass"
+    },
+    {
+      "check": "검색 조각 해시·미활성 상태",
+      "result": "pass"
+    },
+    {
+      "check": "기존 1401개 검색 조각 보존",
+      "result": "pass"
+    },
+    {
+      "check": "인재개발 별표2·3의 잘못된 자동 표 조각 대체 표시",
+      "result": "pass"
+    },
+    {
+      "check": "보정 본문11개의 원래 본문 해시 보존",
+      "result": "pass"
+    },
+    {
+      "check": "직제 별표1·2·4 보정과 원문 페이지 연결",
+      "result": "pass"
+    },
+    {
+      "check": "조건 원문을 자동 직원 판정으로 변환하지 않음",
+      "result": "pass"
+    },
+    {
+      "check": "2028년 교육대상자 선정 조항의 예외 시행일 유지",
+      "result": "pass"
+    },
+    {
+      "check": "교육 과정명·분야·공란·원문 기호가 출력에 보존됨",
+      "result": "pass"
+    },
+    {
+      "check": "기준학습시간10열·주석4개·40% 원문 보존",
+      "result": "pass"
+    },
+    {
+      "check": "누락 원문 검토 메모를 검색 문장과 안내 기준에 연결",
+      "result": "pass"
+    },
+    {
+      "check": "조의 순서 보정이 원문 제목과 일치하고 원문 내용·ID를 보존",
+      "result": "pass"
+    },
+    {
+      "check": "일반직 직종·직렬 원문6행과 병합 칸 보존",
+      "result": "pass"
+    },
+    {
+      "check": "승진 최소기간7개 원문값과 개인 판정 미구현 보존",
+      "result": "pass"
+    },
+    {
+      "check": "최소 승진기간과 승진 원칙·방법·제한의 출처 연결",
+      "result": "pass"
+    },
+    {
+      "check": "연차 기준6개 원문 보존과 개인 일수 미계산",
+      "result": "pass"
+    },
+    {
+      "check": "연차 부여·기간 계산·저축 원문의 출처 연결",
+      "result": "pass"
+    },
+    {
+      "check": "원격근무 가능직무6행의 표 보정과 원문 쪽수 연결",
+      "result": "pass"
+    },
+    {
+      "check": "유연근무 신청·승인과 유형별 조건의 출처 연결",
+      "result": "pass"
+    },
+    {
+      "check": "유연근무 유형별11개 원문 조건과 개인 판정 미구현",
+      "result": "pass"
+    },
+    {
+      "check": "집약근무 신청자격과 별표4 직무 예시 구분",
+      "result": "pass"
+    },
+    {
+      "check": "신분변경·휴직 보수8개 원문 조건과 개인 금액 미계산",
+      "result": "pass"
+    },
+    {
+      "check": "휴직 보수 일반 원칙과 70·50퍼센트 예외 구분",
+      "result": "pass"
+    },
+    {
+      "check": "보수 원문값39개와 고정액·상하한액·개인 금액 미확정 구분",
+      "result": "pass"
+    },
+    {
+      "check": "천원 원문 단위와 원 환산·원문 금액 대조",
+      "result": "pass"
+    },
+    {
+      "check": "별표3·3의2·3의3 원문 페이지와 자동 표 상위 항목 보정",
+      "result": "pass"
+    },
+    {
+      "check": "별표 적용일과 운영직2025·2026 표기 구분 보존",
+      "result": "pass"
+    },
+    {
+      "check": "통상근무자 월 지급한도9·15시간과 개인 금액 미계산",
+      "result": "pass"
+    },
+    {
+      "check": "경조사8행·출산20괄호25·입양 주석 보존",
+      "result": "pass"
+    },
+    {
+      "check": "경조사 적용일과 원문 주석·기간 계산의 연결",
+      "result": "pass"
+    },
+    {
+      "check": "사무외출 병가·연차·15분과 제26조 예외 연결",
+      "result": "pass"
+    },
+    {
+      "check": "장기재직5·7일·1회·시행당시 적용례와 개인 판정 미구현",
+      "result": "pass"
+    },
+    {
+      "check": "부칙 본문의 별표 참조 오분리2건과 원문 연속 문장 복원",
+      "result": "pass"
+    }
+  ],
+  "counts": {
+    "institution": 1,
+    "regulation": 28,
+    "regulation_version": 28,
+    "regulation_file": 28,
+    "regulation_node": 3451,
+    "regulation_scope": 389,
+    "regulation_reference": 462,
+    "rag_chunk": 1552,
+    "rag_chunk_source": 1774
+  },
+  "search_statuses": {
+    "needs_review": 1406,
+    "not_for_answer": 135,
+    "superseded": 11
+  },
+  "unverified": [
+    "실제 DB 적재",
+    "임베딩·실제 RAG 검색/답변",
+    "직원별 적용 및 점수 계산",
+    "대기 원문과 상세 표 의미"
+  ]
+}

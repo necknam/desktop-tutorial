@@ -203,3 +203,57 @@ WITH (m = 16, ef_construction = 64);
 CREATE INDEX IF NOT EXISTS idx_ai_cases_embedding_hnsw
 ON ai_cases USING hnsw (embedding vector_cosine_ops)
 WITH (m = 16, ef_construction = 64);
+
+-- =====================================================================
+-- 16~18. K-water 평가기준 스키마 3종 (hr_regulation_pilot)
+-- =====================================================================
+
+CREATE SCHEMA IF NOT EXISTS hr_regulation_pilot;
+
+CREATE TABLE IF NOT EXISTS hr_regulation_pilot.evaluation_result_schema (
+    "evaluation_result_schema_id" VARCHAR(64) NOT NULL PRIMARY KEY,
+    "institution_id" VARCHAR(64) NOT NULL,
+    "schema_name" VARCHAR(255) NOT NULL,
+    "version_label" VARCHAR(255) NOT NULL,
+    "evaluation_kind" VARCHAR(40) NOT NULL,
+    "applicability_condition" JSONB NOT NULL,
+    "applicability_note" TEXT,
+    "effective_from" DATE,
+    "effective_to" DATE,
+    "rule_origin" VARCHAR(40) NOT NULL,
+    "source_status" VARCHAR(40) NOT NULL,
+    "review_status" VARCHAR(40) NOT NULL,
+    "calculation_rule" JSONB,
+    "calculation_status" VARCHAR(40) NOT NULL,
+    "source_note" TEXT
+);
+
+CREATE TABLE IF NOT EXISTS hr_regulation_pilot.evaluation_item_definition (
+    "evaluation_item_definition_id" VARCHAR(64) NOT NULL PRIMARY KEY,
+    "evaluation_result_schema_id" VARCHAR(64) NOT NULL,
+    "parent_item_id" VARCHAR(64),
+    "skill_id" INT,
+    "item_code" VARCHAR(255) NOT NULL,
+    "item_name" VARCHAR(255) NOT NULL,
+    "value_kind" VARCHAR(40) NOT NULL,
+    "aggregation_role" VARCHAR(40) NOT NULL,
+    "score_min" NUMERIC(12,3),
+    "score_max" NUMERIC(12,3),
+    "weight_percent" NUMERIC(6,3),
+    "unit" VARCHAR(40),
+    "scale_note" TEXT,
+    "display_order" INT NOT NULL,
+    "definition_note" TEXT,
+    CONSTRAINT evaluation_item_definition_schema_code_uq UNIQUE (evaluation_result_schema_id, item_code),
+    CONSTRAINT evaluation_item_definition_id_schema_uq UNIQUE (evaluation_item_definition_id, evaluation_result_schema_id)
+);
+
+CREATE TABLE IF NOT EXISTS hr_regulation_pilot.evaluation_schema_source (
+    "evaluation_schema_source_id" VARCHAR(64) NOT NULL PRIMARY KEY,
+    "evaluation_result_schema_id" VARCHAR(64) NOT NULL,
+    "evaluation_item_definition_id" VARCHAR(64),
+    "regulation_node_id" VARCHAR(64) NOT NULL,
+    "source_role" VARCHAR(40) NOT NULL,
+    "review_status" VARCHAR(40) NOT NULL,
+    "source_note" TEXT
+);

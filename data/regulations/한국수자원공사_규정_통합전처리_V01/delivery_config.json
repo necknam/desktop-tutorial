@@ -1,0 +1,165 @@
+{
+  "revision": "V01",
+  "prepared_at": "2026-10-13T17:15:48+09:00",
+  "target_delivery_window": "2026-10-14 오전 (Asia/Seoul)",
+  "priority_profile": {
+    "job_family": "일반직",
+    "virtual_employee_count": 5,
+    "provisional_grade_scope": {
+      "grade_candidates": [
+        "3급",
+        "4급",
+        "5급"
+      ],
+      "source_document": "직제규정 시행세칙(2026년도 07월 16일 개정).pdf",
+      "source_pdf_page": 46,
+      "source_grade_range": "일반직 3~8급",
+      "status": "user_selected_for_future_virtual_profile_planning",
+      "individual_grade_assignments_created": false,
+      "team_member_position_treated_separately": true
+    },
+    "specific_employee_records_provided": false,
+    "priority_topics": [
+      "필수교육",
+      "교육 이수기한",
+      "승진 관련 교육",
+      "교육훈련평정",
+      "승진 요건·제한",
+      "연차·휴가",
+      "유연근무"
+    ],
+    "department_scope": {
+      "user_department_labels": [
+        "AI부서",
+        "경영부서"
+      ],
+      "review_status": "user_confirmed_review_scope",
+      "reviewed_at": "2026-10-13",
+      "user_answer": "위 두 부서 목록을 범위로 검토하고, 제안줬던 가상 예비부서로 디저털관리처와 인재경영실을 제안했던 것으로 기억하고 있어.",
+      "groups": [
+        {
+          "user_label": "AI부서",
+          "source_group_label": "AI본부",
+          "departments": [
+            "AI혁신처",
+            "디지털관리처",
+            "AI데이터센터"
+          ],
+          "provisional_employee_department": "디지털관리처",
+          "source_regulation_node_id": "5228c34d-1fed-5d1f-a44f-29b2ec514900",
+          "provisional_job": {
+            "job_category": "특수기술",
+            "job_series": "전산",
+            "job_description": "전산 업무"
+          },
+          "job_classification_source": {
+            "source_file_name": "직제규정 시행세칙(2026년도 07월 16일 개정).pdf",
+            "source_pdf_pages": [
+              46
+            ],
+            "source_annex": "별표4",
+            "grade_context": "일반직 3~8급"
+          }
+        },
+        {
+          "user_label": "경영부서",
+          "source_group_label": "경영부문",
+          "departments": [
+            "인재경영실",
+            "노사협력처",
+            "재무관리처",
+            "정보보안처",
+            "비상계획처"
+          ],
+          "provisional_employee_department": "인재경영실",
+          "source_regulation_node_id": "61b58b93-b9a8-5c6b-8876-b1292a5c7e5a",
+          "provisional_job": {
+            "job_category": "행정",
+            "job_series": "행정",
+            "job_description": "행정 업무"
+          },
+          "job_classification_source": {
+            "source_file_name": "직제규정 시행세칙(2026년도 07월 16일 개정).pdf",
+            "source_pdf_pages": [
+              46
+            ],
+            "source_annex": "별표4",
+            "grade_context": "일반직 3~8급"
+          }
+        }
+      ],
+      "source_file_name": "직제규정(2026년도 06월 18일 개정).pdf",
+      "source_pdf_pages": [
+        27,
+        30
+      ],
+      "provisional_department_status": "user_proposed_not_final_employee_assignment",
+      "employees_per_group": null,
+      "individual_grades_or_job_fields_provided": false,
+      "source_name_normalization": {
+        "user_written_name": "디저털관리처",
+        "source_name": "디지털관리처"
+      },
+      "institution_training_field_mapping_confirmed": false,
+      "employee_department_assignments_created": false,
+      "provisional_job_review_status": "user_accepted_for_virtual_profile_planning",
+      "provisional_job_user_answer": "예비 직무를 전산·행정으로 검토 (권장)",
+      "provisional_job_status": "virtual_profile_candidate_not_actual_employee_classification",
+      "additional_training_field_materials_status": "user_reports_not_available",
+      "training_field_mapping_review_status": "requires_institution_evidence"
+    },
+    "provisional_position_scope": {
+      "status": "user_accepted_for_virtual_profile_planning",
+      "reviewed_at": "2026-10-13",
+      "user_answer": "5명 모두 부서장 아닌 팀원으로 우선 검토 (권장)",
+      "employee_count": 5,
+      "department_head": false,
+      "position_label": "부서장이 아닌 팀원",
+      "actual_employee_records_created": false,
+      "shift_work_status": "user_accepted_non_shift_for_virtual_planning"
+    },
+    "provisional_work_pattern_scope": {
+      "status": "user_accepted_for_virtual_profile_planning",
+      "reviewed_at": "2026-10-13",
+      "user_answer": "5명 모두 교대근무하지 않는 직원으로 검토 (권장)",
+      "employee_count": 5,
+      "shift_work": false,
+      "employee_work_hours_assigned": false,
+      "actual_employee_records_created": false
+    }
+  },
+  "future_virtual_supervisor_scenario": {
+    "status": "possible_future_profile_not_created",
+    "candidate_position": "팀장",
+    "source_document": "직제규정 시행세칙(2026년도 07월 16일 개정).pdf",
+    "source_pdf_page": 47,
+    "source_annex": "별표 5",
+    "source_grade_candidates": [
+      "2급(을)",
+      "3급"
+    ],
+    "grade_and_position_treated_separately": true,
+    "department_head_status": "not_determined_from_team_leader_title",
+    "individual_profile_created": false,
+    "current_five_team_members_unchanged": true
+  },
+  "question_date_policy": {
+    "basis": "질문하는 날",
+    "timezone": "Asia/Seoul"
+  },
+  "topic_retrieval_policy": "질문자 직군만으로 다른 직군 규정 전체를 제외하지 않음. 질문 주제와 본인 적용을 구분.",
+  "deferred_work": [
+    "직군·근무상황별 상세 조건 매핑(일반직 공통 근거 우선)",
+    "대형 위임전결 표의 결재권 구조화",
+    "미확보 기관 내부 기준",
+    "기구표 지휘선의 상하관계 상세 구조화"
+  ],
+  "ocr_deferred_by_user": [
+    "실무직 보수기준",
+    "특수직 보수기준"
+  ],
+  "db_created": false,
+  "db_loaded": false,
+  "embeddings_created": false,
+  "search_activated": false
+}

@@ -1,0 +1,130 @@
+{
+  "result": "pass",
+  "check_count": 25,
+  "checks": [
+    {
+      "check": "8개 대상군 × 3개 역량, 24개 셀 중복·누락 없음",
+      "result": "pass"
+    },
+    {
+      "check": "전문직 리더·직무 공란 구분",
+      "result": "pass"
+    },
+    {
+      "check": "공통역량의 병합 범위·별도 방침 표기 보존",
+      "result": "pass"
+    },
+    {
+      "check": "원문 - 표시 4개 보존",
+      "result": "pass"
+    },
+    {
+      "check": "직무과정 등급 연결",
+      "result": "pass"
+    },
+    {
+      "check": "4급 직무이해Ⅱ 세부 분야 4개 연결",
+      "result": "pass"
+    },
+    {
+      "check": "당초·변경 6개 행 구분",
+      "result": "pass"
+    },
+    {
+      "check": "변경 비교와 현재 직무교육 일치",
+      "result": "pass"
+    },
+    {
+      "check": "10개 주석·조건과 연결 ID 일치",
+      "result": "pass"
+    },
+    {
+      "check": "승진 적용일과 평정 반영 연도를 구분",
+      "result": "pass"
+    },
+    {
+      "check": "원문 주석 1~6 및 개정 적용 안내 행을 모두 보존",
+      "result": "pass"
+    },
+    {
+      "check": "모든 교육·조건·비교 행의 원문 연결",
+      "result": "pass"
+    },
+    {
+      "check": "운영 판단·검색 활성화·확정 검토를 하지 않음",
+      "result": "pass"
+    },
+    {
+      "check": "승진하지 않음·승진 여부 모름·승진일 모름을 구분",
+      "result": "pass"
+    },
+    {
+      "check": "승진일 안내 방향 수용과 자동 판정 보류를 구분",
+      "result": "pass"
+    },
+    {
+      "check": "미승진 승진일 NULL과 마지막 승진의 직급 대조를 보존",
+      "result": "pass"
+    },
+    {
+      "check": "종전 교육의 미이수·기록 미확인과 이수 인정 구분",
+      "result": "pass"
+    },
+    {
+      "check": "리더교육 본문·시행일·부칙 근거 연결과 원문 동일",
+      "result": "pass"
+    },
+    {
+      "check": "2월·3월 경계와 기존 미이수자·복귀·승인 기한 구분",
+      "result": "pass"
+    },
+    {
+      "check": "평정 연결근거 3개 원문 해시와 시범 근거 2개 원문 동일",
+      "result": "pass"
+    },
+    {
+      "check": "현재 추가 규정 PDF 해시와 평정 연결근거 원문·위치 일치",
+      "result": "pass"
+    },
+    {
+      "check": "평정 산식 항목·정보 미확인·0 분모를 구분하고 자동 계산 보류",
+      "result": "pass"
+    },
+    {
+      "check": "주석 6개 원문 연결과 2일·평정 연도·미정 세부기준 보존",
+      "result": "pass"
+    },
+    {
+      "check": "제10조3항·부칙·별도 검색 항목의 원문과 2028 예외 시행일 연결",
+      "result": "pass"
+    },
+    {
+      "check": "기존 44개 파일의 내용 해시 동일(별표3 포함)",
+      "result": "pass"
+    }
+  ],
+  "counts": {
+    "targets": 8,
+    "requirements": 24,
+    "conditions": 10,
+    "comparison_rows": 6
+  },
+  "unchanged_file_count": 44,
+  "human_review_completed": false,
+  "unverified": [
+    "브라우저 렌더링",
+    "실제 DB 적재",
+    "사용자 최종 규정 해석 검토"
+  ],
+  "linked_assessment_source_checked_against_current_batch": true,
+  "browser_verification": {
+    "status": "not_verified",
+    "reason": "이전 시도에서 브라우저의 로컬 파일 접근이 차단됨. HTML 정적 검사만 수행."
+  },
+  "html_static_check": {
+    "unique_ids": "pass",
+    "internal_links": "pass",
+    "embedded_source_image_hash_equal": "pass",
+    "external_dependencies": "none"
+  }
+}

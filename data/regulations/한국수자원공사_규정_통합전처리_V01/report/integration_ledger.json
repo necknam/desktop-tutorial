@@ -1,0 +1,1922 @@
+{
+  "appended_rows": {
+    "regulation_scope": 108,
+    "rag_chunk_source": 373,
+    "regulation_node": 154,
+    "rag_chunk": 151
+  },
+  "replaced_nodes": [
+    {
+      "node_id": "66fea751-a1ad-5d3d-a824-136223046289",
+      "original_body_sha256": "fedb3f63740356720957661c01eaca141f62dddeabd73aab6b850b7848eccc76",
+      "corrected_body_sha256": "10566071f86943cb02d06420917f320349e55a24ed399bf5fd03a2eca641166d",
+      "original_body_preserved_in": "provenance/base_tables.json"
+    },
+    {
+      "node_id": "b7adcb91-3b9f-59fe-a068-8b82b2c5c8fd",
+      "original_body_sha256": "62c62101f18023009f5999c9cea5100ad7ff6f02d78f1954829c8a128517e364",
+      "corrected_body_sha256": "4de3a53ff6149c48f5d44d0371e05fcb8f2f182d0efbabff1384517c95b70431",
+      "original_body_preserved_in": "provenance/base_tables.json"
+    },
+    {
+      "node_id": "b636b617-1ddd-5d98-be44-9e725925e174",
+      "original_body_sha256": "3f4a3981829e504729909df47d46368a62b22ace0e53cb28fc99cb83907e4e8d",
+      "corrected_body_sha256": "1fdd479c4bbed7c7cbe5a84fecc3c48b5de1a00a06756356a95cf9cf340d9cf7",
+      "original_body_preserved_in": "provenance/base_tables.json"
+    },
+    {
+      "node_id": "16332bc1-75f8-595b-b771-e5a30fd650fd",
+      "original_body_sha256": "efa90af2836c4f7b2d6fa87f6f61114bf4bd3b9b205bdb133bb8dfee342ee564",
+      "corrected_body_sha256": "20cf24324c553b664377f417cc01064f7ac10a65985c8459921d292a56f10b44",
+      "original_body_preserved_in": "provenance/base_tables.json"
+    },
+    {
+      "node_id": "c826c33b-76d8-52b3-958b-5c768deb9deb",
+      "original_body_sha256": "8fccc7497a8c94375b9bea769cc5a6598ac26b9f3c8ba2339bb7a47ddc688cda",
+      "corrected_body_sha256": "2d31b9eabadca44add20e4b617612f4c67cf0cc4c9eb16b01659c490c81b7ba3",
+      "original_body_preserved_in": "provenance/base_tables.json"
+    },
+    {
+      "node_id": "493aea07-e35e-5884-b144-de62b4a5af73",
+      "original_body_sha256": "6f66a77d63586cef2cd1c9a0f41b1860244f0d1f7a3629defa16b6f14a5bb2c3",
+      "corrected_body_sha256": "89d64b6771ccec2a3f258da10b7c63f04d5245511f3b454ec978bd206909053e",
+      "original_body_preserved_in": "provenance/base_tables.json"
+    },
+    {
+      "node_id": "26ea80c1-ead1-5337-940e-533278a8e48b",
+      "original_body_sha256": "dbeec895e786b553ed2462005abfd83dea90af2dec2da215c06700e34675348c",
+      "corrected_body_sha256": "64f08839b2b7d9b4928acc4ffdddf5c1f22c717be60913ba31dbaad7f835065b",
+      "original_body_preserved_in": "provenance/base_tables.json"
+    },
+    {
+      "node_id": "456583b1-143b-57e8-95ec-e7f6766b74b4",
+      "original_body_sha256": "530b2c4588d9ddb7cb83c3cb4a00ef5b20dd195336863426dfd2d0d1be67c10b",
+      "corrected_body_sha256": "530b2c4588d9ddb7cb83c3cb4a00ef5b20dd195336863426dfd2d0d1be67c10b",
+      "original_body_preserved_in": "provenance/base_tables.json"
+    },
+    {
+      "node_id": "3dc297f0-3c9e-558d-bce7-f9cfc7d3229e",
+      "original_body_sha256": "cb1fbed10f066b0a395b17a2e01b8e5a39cd97fd451f0820966c2a8d2a1a8bf6",
+      "corrected_body_sha256": "488ab5c76f12d6ac0eba27e2409ff4b1011476d9511d201187a24c8cb8f7413a",
+      "original_body_preserved_in": "provenance/base_tables.json"
+    },
+    {
+      "node_id": "4f2289a8-4c2f-51a1-aca7-bb86c367f7bc",
+      "original_body_sha256": "aab69a71cea263f9655a4a27ec17119a4a66fc94f3b808016a6ab7308d7ebb00",
+      "corrected_body_sha256": "c53b57ff7ea592830f8f996e8642005f01b3f9667d83545f6f643986ed20901e",
+      "original_body_preserved_in": "provenance/base_tables.json"
+    },
+    {
+      "node_id": "cf6547d0-2c8d-58df-ba21-80f9c8e78cfd",
+      "original_body_sha256": "b8f9b9d15bbcb1c039d1dbcccbc559f0f3b72738adc7928fe0f9102064e3074f",
+      "corrected_body_sha256": "220cd2207cadd667ede1c3c9e4a032b2e32dd61099d37c6d4daa4b62d089cda3",
+      "original_body_preserved_in": "provenance/base_tables.json"
+    }
+  ],
+  "superseded_chunks": [
+    "ceee554b-fbca-567b-aa2c-370520363d44",
+    "b7c4242e-4969-5eff-9454-6d94485e073e",
+    "ee32daee-b617-5ec2-a3e0-2def076129e7",
+    "fff06afd-dd70-547e-881e-3bfa2d32a116",
+    "6cd25788-88a3-51b4-945e-027b38bb5708",
+    "0e59a3cc-8dbc-5cf2-81b8-2f933dff9476",
+    "47095468-a245-58c1-95d9-51495e8e611d",
+    "41cd0aaf-bf00-5a6c-b7da-bf4fe3d304be",
+    "1b994470-aff5-56a7-8add-55fc1798504f",
+    "e875c677-04b2-5236-a734-ba75e567451a",
+    "3538078e-de66-5809-8130-a026a6c5432b"
+  ],
+  "reference_links_added": [
+    "21935fba-0db3-5bdc-9b98-424eff956a2c",
+    "41f989ba-45ca-58f1-89f2-549b7c61a63b",
+    "c47a2a57-9158-54cd-9acf-ff17f35ba49e",
+    "7953dff5-0914-5552-bc40-8566b606594a",
+    "456893cb-5ea6-5e52-8319-1a2d7466ab59",
+    "0552e086-2541-5611-ab87-c1f5d3f7d99f",
+    "0159cc02-c4d1-58d3-8a09-0b0149d220cf",
+    "f5302f0c-49d5-5f75-97d1-6224f0f4b08c",
+    "f61109e3-1586-5f7c-a792-62711ef3ece6",
+    "2054e702-6ca3-58f4-a269-62e21e7fd21b",
+    "7d5ca80d-55ad-52b2-962d-57624406141a",
+    "5680afc9-f55f-54a4-9124-3526c4b21174",
+    "1bc3f278-6f73-5bcc-b21b-9f867e5ce7ce",
+    "d5e5ee28-927d-53f9-abd2-a0ee0b1cbe57",
+    "fdf013d6-c814-5024-9e17-98d5c5f1506c",
+    "d53596b7-fc3f-5909-9f5a-6634c6d5a839",
+    "47f75a9d-01d2-5a09-abe6-9be28c8663f4",
+    "483d0a11-02d5-50c1-b72c-b07ace1c3ea4",
+    "9cd55a95-2c54-5bb4-a564-5efbfcc2724b",
+    "c105da98-b124-5401-afd9-488435371cc8",
+    "3d4f677b-eb0d-55c4-8a48-954ecf9da631",
+    "7ef05376-691d-56f0-b0a1-297a83e9c792",
+    "a06f16ad-b057-5188-b9a0-e5ee43d73943"
+  ],
+  "normalized_search_statuses": [
+    "4002fa21-b073-56b1-b262-4614c28ec590",
+    "a05123f6-342b-5823-b788-85911e12e95d",
+    "d16e010a-1964-5662-a8b9-043c805b8466",
+    "c7c559c5-e203-57d6-a55d-03868435a5f8",
+    "edff5006-ef2d-5459-b4aa-ebf68807bf53",
+    "2c9a3fec-631f-530f-bbad-98a20ec5a8b3",
+    "88424a6f-737d-5c90-8048-1e394513ad87",
+    "c7b0aa2c-47b5-5ad9-9502-d4126994e712",
+    "e358537c-405b-572c-a526-e75c0f2bacde",
+    "79620cbd-0c5d-568e-b368-605cb2be7828",
+    "6d7bc67f-af69-5480-bba7-ce9add6889b8",
+    "9d0236e5-c569-55b8-a45b-b382fe2cd14d",
+    "4bcb4933-cb4d-5c63-a65e-b5f262f74c30",
+    "c90f99a2-ddb2-554a-9cfa-3f0c7fcdc4e5",
+    "7dbc4c86-2e10-5c30-82b0-8ab07c68ec87",
+    "613ebd02-edb4-50c6-91ff-6040f3beafb8",
+    "2bef7074-938e-5c3f-a2f3-78a81ef6e679",
+    "68fb6abc-ff85-5ea3-9886-72cf7d341658",
+    "0f28866f-4430-50f2-af34-453cca9dfc62",
+    "8e807a3e-8da9-5ec0-b4f5-a2a512d515d5",
+    "72c4e497-6b6b-5cea-b427-be108830c216",
+    "743eec0e-35c4-5fe4-b070-d8015f8e321b",
+    "d5c27087-6f81-56b0-b9b9-4d17afb87ccc",
+    "441b7487-904c-5b9a-8619-166a95c1ad17",
+    "dafe261d-773f-5e33-9ba4-158110c00737",
+    "f6e7b4a6-0ace-5e3b-9cd8-d5464106348b",
+    "f470177e-b53d-54c6-834d-700f309a40c5",
+    "093fc682-c7e8-537c-aa82-b434b49d4ff9",
+    "4d2e2539-c1e5-5bf7-aab3-243b1dd0c8e8",
+    "4cb5c41a-b3fb-57f8-a791-4ef715ea9322",
+    "31bc62db-98fe-5f48-a04d-adb731249ea4",
+    "2d392dbc-c3b1-54cf-ae92-9bf0138a1977",
+    "c829877c-c462-5cd6-820c-00aff33a7fda",
+    "e7e26bbe-45da-5450-bf9a-0868d89a1a43",
+    "aa98a6ea-0a26-5f1f-afcf-d3db0b7e9b13",
+    "4e81cd9b-5ff7-5c1b-8e0d-7cbce91ead41",
+    "0c04ee39-19f5-5c80-8621-8d4b89158cf5",
+    "d9004f35-fe8f-5681-9e14-20a435f36132",
+    "9e314f37-838e-5c88-854e-ff332e59655c",
+    "72432fe0-0734-55f4-a9a7-0b00b512ae7c",
+    "f12404f7-9562-5e5a-8859-aa9e70209c3a",
+    "82e1b1fa-57c2-5cde-8db5-27f504d7ee60",
+    "603399de-84f6-53cd-8d0b-1ade0056870f",
+    "0b0930f1-c3fa-519c-9459-d5c4e6634921",
+    "c346ee14-2ff7-5221-876f-56d6ca2c10b9",
+    "4aee52c5-2fd2-5688-b0e4-bc1faf5b6941",
+    "d0ec2d60-5290-539e-b2cb-981ffd05f9e4",
+    "97501b11-7a06-5ce5-8673-efa2fb1b1549",
+    "2a59f30e-1169-5c40-9997-988eb8085dd5",
+    "1ccb4ce0-9eae-5d75-9ae5-9dd053ee51fa",
+    "612e8103-c6a0-5da3-847d-31e2c8a90c60",
+    "d7685ab9-f315-55d4-9b09-d4529ebb8bf3",
+    "69e1eff1-9e38-5107-853a-476e8cacb7e6",
+    "ef103392-136f-5cc4-962a-a8bc591b260c",
+    "53deff66-2020-584c-8c4e-1fecdcea45f8",
+    "cb24d54c-12c0-52a3-80ca-69e67d74d802",
+    "001a29cd-6376-5fda-b914-0e1aaa456497",
+    "c032b5c6-2a72-5696-b656-d397ceeed50a",
+    "a48df857-9638-5ac7-b555-23c20f3f2202",
+    "e7bcce89-44ba-5af5-a550-730febcdf0df",
+    "a3fd099a-2f15-539e-be40-d6603b1e9687",
+    "88d60908-17d8-53ff-b69f-8c583b685d35",
+    "7b30c96e-bcf4-5b42-923b-59a5a65a4368",
+    "4ea359d4-0ec5-5807-99fe-6770865bd787",
+    "467fbf91-d4f0-5957-ac8d-fd6f284270c3",
+    "834ff357-2afd-5fba-88d0-ddb2a9ec8bdd",
+    "97d72e1b-7b1b-5f9a-9fcc-3e386552a64b",
+    "f5341739-515a-5b75-bafc-96558e66f192",
+    "120aca9e-5780-5524-a614-b7733b50fa0e",
+    "7cab4c0f-99dd-50af-a662-e07761e1198b",
+    "0d406089-7310-5370-aa3f-806865d992b4",
+    "f5a02117-0fc5-51e2-af92-1798ade5cd71",
+    "c9fb110e-87aa-5927-bf95-c03a0e0d279f",
+    "a3c7dfb8-5283-5a1b-8a53-41fecee420e8",
+    "f0e56e78-23bf-5971-9646-64ef8731a23a",
+    "e595b1d5-643e-59df-adab-3b954aad07e4",
+    "39079658-db38-50c0-9af2-7dd3ea1bf04f",
+    "3ec9003a-8e73-52dc-bebe-8caf3ef1862f",
+    "aa35094c-0530-5d3b-9d0c-50c932a6ddc2",
+    "33d1a601-7c25-5d8f-9420-28b14620375e",
+    "015339cb-e146-5f4a-9ec8-76ed19d4c385",
+    "e868dd1c-91da-5f17-861e-414928dfe630",
+    "3cd43843-6189-59ca-952e-34db63c23fa2",
+    "b3304b48-0ea3-522a-bf3d-dde630ab0631",
+    "2fff2b22-46b0-536e-826d-e623a18b399d",
+    "16d414c4-4e1c-5744-9786-cc8b63531d7a",
+    "2c014e00-e043-5995-bcae-58b106f921c0",
+    "902cbf2c-9649-5526-8717-439dc0f2cecc",
+    "be01a0c6-bf8d-53e1-b23a-d315a0948378",
+    "3929877b-945e-5a39-9b2b-2c5cf04f9379",
+    "05897e96-f079-57b2-a95e-8a099cb5f569",
+    "90c19185-3e98-5a32-844f-c37b0afa52a1"
+  ],
+  "source_gap_annotations": [
+    "1f4648b2-3bd4-5e9e-b963-611d5430f6e0"
+  ],
+  "deleted_scope_annotations": [
+    "0f72d027-e6e2-55a1-aae0-f1b6c3649ac7"
+  ],
+  "article_label_corrections": [
+    {
+      "regulation_node_id": "81cbe534-b7dc-5514-ba17-f5c423ab4229",
+      "old_label": "제10의2조",
+      "corrected_label": "제10조의2",
+      "pdf_pages": [
+        2
+      ]
+    },
+    {
+      "regulation_node_id": "f965b57c-1814-53bb-b1e3-dbc94acacbe4",
+      "old_label": "제8의2조",
+      "corrected_label": "제8조의2",
+      "pdf_pages": [
+        2
+      ]
+    },
+    {
+      "regulation_node_id": "ce05ecd0-9a83-5458-ab89-43c0b6db9aa9",
+      "old_label": "제12의2조",
+      "corrected_label": "제12조의2",
+      "pdf_pages": [
+        2
+      ]
+    },
+    {
+      "regulation_node_id": "3434975c-103a-55a1-b85e-677409a661ce",
+      "old_label": "제12의3조",
+      "corrected_label": "제12조의3",
+      "pdf_pages": [
+        2
+      ]
+    },
+    {
+      "regulation_node_id": "05541f8f-87e5-53af-a167-b2793e92da0b",
+      "old_label": "제12의4조",
+      "corrected_label": "제12조의4",
+      "pdf_pages": [
+        2
+      ]
+    },
+    {
+      "regulation_node_id": "00eecb88-9c8d-56ef-b85d-13ad8aad119d",
+      "old_label": "제13의2조",
+      "corrected_label": "제13조의2",
+      "pdf_pages": [
+        3,
+        4
+      ]
+    },
+    {
+      "regulation_node_id": "fef226b3-3229-56fd-9c5c-2e2c8f127bee",
+      "old_label": "제18의2조",
+      "corrected_label": "제18조의2",
+      "pdf_pages": [
+        6
+      ]
+    },
+    {
+      "regulation_node_id": "43d197bd-959a-5d33-a328-639636e31ca7",
+      "old_label": "제18의3조",
+      "corrected_label": "제18조의3",
+      "pdf_pages": [
+        6
+      ]
+    },
+    {
+      "regulation_node_id": "02735aec-969a-5307-b986-adea21201bf6",
+      "old_label": "제7의2조",
+      "corrected_label": "제7조의2",
+      "pdf_pages": [
+        3
+      ]
+    },
+    {
+      "regulation_node_id": "aaa614f9-da36-5961-8397-c0487da3f5b3",
+      "old_label": "제15의2조",
+      "corrected_label": "제15조의2",
+      "pdf_pages": [
+        6
+      ]
+    },
+    {
+      "regulation_node_id": "4a280aac-0b2d-5c83-83dd-376476c095ad",
+      "old_label": "제7의2조",
+      "corrected_label": "제7조의2",
+      "pdf_pages": [
+        3
+      ]
+    },
+    {
+      "regulation_node_id": "3b7ffcd7-6ac8-5874-aa5f-4c567d264deb",
+      "old_label": "제2의2조",
+      "corrected_label": "제2조의2",
+      "pdf_pages": [
+        1
+      ]
+    },
+    {
+      "regulation_node_id": "a0dd8c22-abbf-5f9d-9478-3611de88ae34",
+      "old_label": "제3의2조",
+      "corrected_label": "제3조의2",
+      "pdf_pages": [
+        2
+      ]
+    },
+    {
+      "regulation_node_id": "dca53dde-60d0-57d0-96b6-b08858466cfe",
+      "old_label": "제12의2조",
+      "corrected_label": "제12조의2",
+      "pdf_pages": [
+        4
+      ]
+    },
+    {
+      "regulation_node_id": "1a059d31-f479-5b2b-b95d-627ffd78677c",
+      "old_label": "제16의2조",
+      "corrected_label": "제16조의2",
+      "pdf_pages": [
+        6,
+        7
+      ]
+    },
+    {
+      "regulation_node_id": "dbc34a7f-fda6-593d-b8cc-4d3882a1f8e7",
+      "old_label": "제4의2조",
+      "corrected_label": "제4조의2",
+      "pdf_pages": [
+        1
+      ]
+    },
+    {
+      "regulation_node_id": "d6642cfd-b436-5797-ab91-06a7285bf33c",
+      "old_label": "제7의2조",
+      "corrected_label": "제7조의2",
+      "pdf_pages": [
+        2
+      ]
+    },
+    {
+      "regulation_node_id": "bdbda7b9-1d75-5f9b-b743-7734486bee9b",
+      "old_label": "제7의3조",
+      "corrected_label": "제7조의3",
+      "pdf_pages": [
+        2
+      ]
+    },
+    {
+      "regulation_node_id": "8e662964-8ed3-54e2-b53b-d9b3de02279d",
+      "old_label": "제7의4조",
+      "corrected_label": "제7조의4",
+      "pdf_pages": [
+        2
+      ]
+    },
+    {
+      "regulation_node_id": "bd22d783-6359-58c7-9171-7cffb98ed129",
+      "old_label": "제16의2조",
+      "corrected_label": "제16조의2",
+      "pdf_pages": [
+        4
+      ]
+    },
+    {
+      "regulation_node_id": "f7b35b69-8567-5b1e-b2f8-7987e7bbb9e1",
+      "old_label": "제19의2조",
+      "corrected_label": "제19조의2",
+      "pdf_pages": [
+        5
+      ]
+    },
+    {
+      "regulation_node_id": "e709b469-40b0-5bc8-85df-35f285cfbeef",
+      "old_label": "제35의2조",
+      "corrected_label": "제35조의2",
+      "pdf_pages": [
+        9
+      ]
+    },
+    {
+      "regulation_node_id": "96b2fb7e-fc6d-5ee8-936d-8c161575365e",
+      "old_label": "제1의2조",
+      "corrected_label": "제1조의2",
+      "pdf_pages": [
+        1
+      ]
+    },
+    {
+      "regulation_node_id": "3a83740b-646b-5099-b7c4-4d46a2f6e3ca",
+      "old_label": "제8의2조",
+      "corrected_label": "제8조의2",
+      "pdf_pages": [
+        2
+      ]
+    },
+    {
+      "regulation_node_id": "0be7b877-98eb-5be0-9434-26de9a2321ca",
+      "old_label": "제8의3조",
+      "corrected_label": "제8조의3",
+      "pdf_pages": [
+        2
+      ]
+    },
+    {
+      "regulation_node_id": "733aa79e-cf43-5daa-8b9f-b68664c6861e",
+      "old_label": "제28의2조",
+      "corrected_label": "제28조의2",
+      "pdf_pages": [
+        7
+      ]
+    },
+    {
+      "regulation_node_id": "972f450a-784c-5c19-859c-eb38a75fafb9",
+      "old_label": "제37의2조",
+      "corrected_label": "제37조의2",
+      "pdf_pages": [
+        10
+      ]
+    },
+    {
+      "regulation_node_id": "253268b0-6bd9-5696-938c-845c427f5146",
+      "old_label": "제44의2조",
+      "corrected_label": "제44조의2",
+      "pdf_pages": [
+        12
+      ]
+    },
+    {
+      "regulation_node_id": "26ffbac5-4b36-5626-8fab-74a6b931e51a",
+      "old_label": "제45의2조",
+      "corrected_label": "제45조의2",
+      "pdf_pages": [
+        12
+      ]
+    },
+    {
+      "regulation_node_id": "551cf84d-0abc-5956-90b3-9f022f220358",
+      "old_label": "제5의2조",
+      "corrected_label": "제5조의2",
+      "pdf_pages": [
+        1
+      ]
+    },
+    {
+      "regulation_node_id": "69b5d76d-95c8-5df4-85c9-15db60a60e77",
+      "old_label": "제12의2조",
+      "corrected_label": "제12조의2",
+      "pdf_pages": [
+        2
+      ]
+    },
+    {
+      "regulation_node_id": "5b1fd7bf-6eab-5eda-bd9b-77547904beec",
+      "old_label": "제12의3조",
+      "corrected_label": "제12조의3",
+      "pdf_pages": [
+        2
+      ]
+    },
+    {
+      "regulation_node_id": "9a05889e-b858-5097-bb5d-df64a8822325",
+      "old_label": "제14의2조",
+      "corrected_label": "제14조의2",
+      "pdf_pages": [
+        2
+      ]
+    },
+    {
+      "regulation_node_id": "d8951edd-95af-52d5-a6bc-e8de3903948e",
+      "old_label": "제14의3조",
+      "corrected_label": "제14조의3",
+      "pdf_pages": [
+        2
+      ]
+    },
+    {
+      "regulation_node_id": "35ffff2f-3bdc-58e0-8e5e-7e23ab8daf72",
+      "old_label": "제17의2조",
+      "corrected_label": "제17조의2",
+      "pdf_pages": [
+        2
+      ]
+    },
+    {
+      "regulation_node_id": "58c0805a-1f5f-5bc9-9fdd-1d45afbb74e2",
+      "old_label": "제17의3조",
+      "corrected_label": "제17조의3",
+      "pdf_pages": [
+        3
+      ]
+    },
+    {
+      "regulation_node_id": "234d7d74-a9c8-52ea-a41b-3fa37502a426",
+      "old_label": "제17의4조",
+      "corrected_label": "제17조의4",
+      "pdf_pages": [
+        3
+      ]
+    },
+    {
+      "regulation_node_id": "b0348a3b-5ac2-595a-bdf5-9bd277fdc0fe",
+      "old_label": "제18의2조",
+      "corrected_label": "제18조의2",
+      "pdf_pages": [
+        3
+      ]
+    },
+    {
+      "regulation_node_id": "f1b6c812-1b4b-52c5-95c6-fd8c063a5307",
+      "old_label": "제18의3조",
+      "corrected_label": "제18조의3",
+      "pdf_pages": [
+        3
+      ]
+    },
+    {
+      "regulation_node_id": "c04ce0c0-bcdf-5c5d-8d77-e3dfddf10389",
+      "old_label": "제18의4조",
+      "corrected_label": "제18조의4",
+      "pdf_pages": [
+        3
+      ]
+    },
+    {
+      "regulation_node_id": "068becbf-7136-5686-a676-dd6a47277e64",
+      "old_label": "제18의5조",
+      "corrected_label": "제18조의5",
+      "pdf_pages": [
+        3,
+        4
+      ]
+    },
+    {
+      "regulation_node_id": "a6b8b411-a3fb-5863-a66f-18993612e915",
+      "old_label": "제18의6조",
+      "corrected_label": "제18조의6",
+      "pdf_pages": [
+        4
+      ]
+    },
+    {
+      "regulation_node_id": "33441e25-0490-543e-80fb-7b30e3109769",
+      "old_label": "제18의7조",
+      "corrected_label": "제18조의7",
+      "pdf_pages": [
+        4
+      ]
+    },
+    {
+      "regulation_node_id": "28e4188d-c69b-58cb-9ae9-c0e3a000086b",
+      "old_label": "제19의2조",
+      "corrected_label": "제19조의2",
+      "pdf_pages": [
+        5
+      ]
+    },
+    {
+      "regulation_node_id": "a16b7949-ccb2-52f0-80b2-753906957383",
+      "old_label": "제20의2조",
+      "corrected_label": "제20조의2",
+      "pdf_pages": [
+        5,
+        6
+      ]
+    },
+    {
+      "regulation_node_id": "740bf111-7a8f-504b-b762-c9633eb8d6b8",
+      "old_label": "제20의3조",
+      "corrected_label": "제20조의3",
+      "pdf_pages": [
+        6
+      ]
+    },
+    {
+      "regulation_node_id": "aa70963f-8b4d-5e2f-be58-59ab8e3130f6",
+      "old_label": "제20의4조",
+      "corrected_label": "제20조의4",
+      "pdf_pages": [
+        6
+      ]
+    },
+    {
+      "regulation_node_id": "7a18a50f-6233-5001-95d8-347b3fed444a",
+      "old_label": "제21의2조",
+      "corrected_label": "제21조의2",
+      "pdf_pages": [
+        6
+      ]
+    },
+    {
+      "regulation_node_id": "05790c15-2e4a-5250-9313-bacbb29c5230",
+      "old_label": "제21의3조",
+      "corrected_label": "제21조의3",
+      "pdf_pages": [
+        6
+      ]
+    },
+    {
+      "regulation_node_id": "986554ef-33b3-5afd-a575-37ebf3bfc41e",
+      "old_label": "제21의4조",
+      "corrected_label": "제21조의4",
+      "pdf_pages": [
+        6
+      ]
+    },
+    {
+      "regulation_node_id": "27073f0b-381e-50aa-ac37-4eedb174490e",
+      "old_label": "제21의5조",
+      "corrected_label": "제21조의5",
+      "pdf_pages": [
+        6
+      ]
+    },
+    {
+      "regulation_node_id": "55d4bc9b-7346-5e54-86e5-e63db3e65b74",
+      "old_label": "제21의6조",
+      "corrected_label": "제21조의6",
+      "pdf_pages": [
+        6
+      ]
+    },
+    {
+      "regulation_node_id": "8bc09dc5-a506-5242-9a42-a6010a839d55",
+      "old_label": "제21의7조",
+      "corrected_label": "제21조의7",
+      "pdf_pages": [
+        6
+      ]
+    },
+    {
+      "regulation_node_id": "12a53cc6-2295-534b-8b2e-ee114f358775",
+      "old_label": "제21의8조",
+      "corrected_label": "제21조의8",
+      "pdf_pages": [
+        7
+      ]
+    },
+    {
+      "regulation_node_id": "8290472a-f753-554e-8ab4-f27652123277",
+      "old_label": "제24의2조",
+      "corrected_label": "제24조의2",
+      "pdf_pages": [
+        7
+      ]
+    },
+    {
+      "regulation_node_id": "b235be36-28ea-52ee-8b7b-b969557db260",
+      "old_label": "제28의2조",
+      "corrected_label": "제28조의2",
+      "pdf_pages": [
+        8
+      ]
+    },
+    {
+      "regulation_node_id": "2c5e6c4d-dba0-50f8-964a-7657599b344c",
+      "old_label": "제28의3조",
+      "corrected_label": "제28조의3",
+      "pdf_pages": [
+        8,
+        9
+      ]
+    },
+    {
+      "regulation_node_id": "4e0951fe-e3b1-5a51-a321-f5e738d91782",
+      "old_label": "제29의2조",
+      "corrected_label": "제29조의2",
+      "pdf_pages": [
+        9
+      ]
+    },
+    {
+      "regulation_node_id": "f72973d9-98ed-5bdc-85ce-5c7c32269710",
+      "old_label": "제29의3조",
+      "corrected_label": "제29조의3",
+      "pdf_pages": [
+        10
+      ]
+    },
+    {
+      "regulation_node_id": "3fe3d300-2308-5891-9a60-3fc9dbdef796",
+      "old_label": "제29의4조",
+      "corrected_label": "제29조의4",
+      "pdf_pages": [
+        10
+      ]
+    },
+    {
+      "regulation_node_id": "aaccb179-d083-5e86-9bfe-5161dddd0340",
+      "old_label": "제29의5조",
+      "corrected_label": "제29조의5",
+      "pdf_pages": [
+        10
+      ]
+    },
+    {
+      "regulation_node_id": "134c5005-c60e-52fa-ae17-9cbd7cfce81f",
+      "old_label": "제29의6조",
+      "corrected_label": "제29조의6",
+      "pdf_pages": [
+        10
+      ]
+    },
+    {
+      "regulation_node_id": "92cdfab6-70e9-51dd-a371-869bce0525a8",
+      "old_label": "제29의7조",
+      "corrected_label": "제29조의7",
+      "pdf_pages": [
+        11
+      ]
+    },
+    {
+      "regulation_node_id": "00bdefed-65db-5073-a0e8-adac0ff5a792",
+      "old_label": "제29의8조",
+      "corrected_label": "제29조의8",
+      "pdf_pages": [
+        11
+      ]
+    },
+    {
+      "regulation_node_id": "cfe892d2-65c9-5dea-9adb-1d6c8e0030e0",
+      "old_label": "제29의9조",
+      "corrected_label": "제29조의9",
+      "pdf_pages": [
+        11
+      ]
+    },
+    {
+      "regulation_node_id": "24b547c8-6ed8-538b-9395-713c721442cf",
+      "old_label": "제35의2조",
+      "corrected_label": "제35조의2",
+      "pdf_pages": [
+        12,
+        13
+      ]
+    },
+    {
+      "regulation_node_id": "2dde8f75-46bd-57ec-970e-82008a1bde4b",
+      "old_label": "제40의2조",
+      "corrected_label": "제40조의2",
+      "pdf_pages": [
+        14
+      ]
+    },
+    {
+      "regulation_node_id": "ae35e5cd-66c6-520e-a21a-12fdf4527eaf",
+      "old_label": "제44의2조",
+      "corrected_label": "제44조의2",
+      "pdf_pages": [
+        15
+      ]
+    },
+    {
+      "regulation_node_id": "6dea575f-18de-5c7f-b5b3-8a4bc8cedb5a",
+      "old_label": "제44의3조",
+      "corrected_label": "제44조의3",
+      "pdf_pages": [
+        15
+      ]
+    },
+    {
+      "regulation_node_id": "ab54cf8c-3116-54c3-a358-443dda914851",
+      "old_label": "제44의4조",
+      "corrected_label": "제44조의4",
+      "pdf_pages": [
+        15
+      ]
+    },
+    {
+      "regulation_node_id": "bc4b19b2-dbb5-56ed-a3ed-fc5746fdd257",
+      "old_label": "제44의5조",
+      "corrected_label": "제44조의5",
+      "pdf_pages": [
+        15
+      ]
+    },
+    {
+      "regulation_node_id": "332f90fe-ac31-57e1-a4ea-71225273ae9c",
+      "old_label": "제44의6조",
+      "corrected_label": "제44조의6",
+      "pdf_pages": [
+        16
+      ]
+    },
+    {
+      "regulation_node_id": "576c2d2f-665d-5e30-900e-80334524228f",
+      "old_label": "제48의2조",
+      "corrected_label": "제48조의2",
+      "pdf_pages": [
+        17,
+        18
+      ]
+    },
+    {
+      "regulation_node_id": "366f4a45-05fc-5548-86ca-92ac3414f6b0",
+      "old_label": "제49의2조",
+      "corrected_label": "제49조의2",
+      "pdf_pages": [
+        18
+      ]
+    },
+    {
+      "regulation_node_id": "ced96197-452d-5d2e-bc43-12574be1fdb2",
+      "old_label": "제53의2조",
+      "corrected_label": "제53조의2",
+      "pdf_pages": [
+        19,
+        20
+      ]
+    },
+    {
+      "regulation_node_id": "8a2a4868-e5ad-5f15-96e3-47fc0e807edd",
+      "old_label": "제53의3조",
+      "corrected_label": "제53조의3",
+      "pdf_pages": [
+        20
+      ]
+    },
+    {
+      "regulation_node_id": "73df8202-ec1a-5a27-9a7d-ac6b21da6727",
+      "old_label": "제53의4조",
+      "corrected_label": "제53조의4",
+      "pdf_pages": [
+        20,
+        21
+      ]
+    },
+    {
+      "regulation_node_id": "242ca8d6-3272-54dc-9d0f-aed76b6fc02f",
+      "old_label": "제53의5조",
+      "corrected_label": "제53조의5",
+      "pdf_pages": [
+        21,
+        22
+      ]
+    },
+    {
+      "regulation_node_id": "8dae52a2-3591-532c-bf56-c0412672da8b",
+      "old_label": "제53의6조",
+      "corrected_label": "제53조의6",
+      "pdf_pages": [
+        22
+      ]
+    },
+    {
+      "regulation_node_id": "b6de2d8a-fd7d-51c0-a366-72e5ab58ef1b",
+      "old_label": "제53의7조",
+      "corrected_label": "제53조의7",
+      "pdf_pages": [
+        22
+      ]
+    },
+    {
+      "regulation_node_id": "fecbb21a-cb2b-5daa-9f24-641bb65c5b3a",
+      "old_label": "제53의8조",
+      "corrected_label": "제53조의8",
+      "pdf_pages": [
+        22
+      ]
+    },
+    {
+      "regulation_node_id": "a289fd2d-23ec-5304-adf0-fa4c42564b4f",
+      "old_label": "제53의9조",
+      "corrected_label": "제53조의9",
+      "pdf_pages": [
+        22
+      ]
+    },
+    {
+      "regulation_node_id": "427220d4-655e-5ad1-b965-ada2d4463d42",
+      "old_label": "제53의10조",
+      "corrected_label": "제53조의10",
+      "pdf_pages": [
+        22,
+        23
+      ]
+    },
+    {
+      "regulation_node_id": "8d0f03ad-3487-5b0a-8e78-a07eef6e9646",
+      "old_label": "제53의11조",
+      "corrected_label": "제53조의11",
+      "pdf_pages": [
+        23
+      ]
+    },
+    {
+      "regulation_node_id": "fe7100d0-82ec-5da0-ae1f-0e9061c2ca98",
+      "old_label": "제57의2조",
+      "corrected_label": "제57조의2",
+      "pdf_pages": [
+        24
+      ]
+    },
+    {
+      "regulation_node_id": "507318f5-557d-576d-aba4-3cac289961e8",
+      "old_label": "제57의3조",
+      "corrected_label": "제57조의3",
+      "pdf_pages": [
+        24
+      ]
+    },
+    {
+      "regulation_node_id": "1b5ac073-7549-5208-8677-ef1f25ee2d2b",
+      "old_label": "제57의4조",
+      "corrected_label": "제57조의4",
+      "pdf_pages": [
+        24
+      ]
+    },
+    {
+      "regulation_node_id": "80eee2da-aa3a-50b3-b3bd-ab55e20826ff",
+      "old_label": "제57의5조",
+      "corrected_label": "제57조의5",
+      "pdf_pages": [
+        24
+      ]
+    },
+    {
+      "regulation_node_id": "5f395731-6041-59e4-9b97-f8e1b22cdee8",
+      "old_label": "제57의6조",
+      "corrected_label": "제57조의6",
+      "pdf_pages": [
+        24
+      ]
+    },
+    {
+      "regulation_node_id": "d9b9454b-62e3-51e0-b908-2657471070e1",
+      "old_label": "제57의7조",
+      "corrected_label": "제57조의7",
+      "pdf_pages": [
+        24
+      ]
+    },
+    {
+      "regulation_node_id": "233af720-8b46-5399-9127-afe8c7a1c74b",
+      "old_label": "제57의8조",
+      "corrected_label": "제57조의8",
+      "pdf_pages": [
+        24
+      ]
+    },
+    {
+      "regulation_node_id": "fbd9b9c2-4d09-5680-9350-00ff452d2ff7",
+      "old_label": "제57의9조",
+      "corrected_label": "제57조의9",
+      "pdf_pages": [
+        24
+      ]
+    },
+    {
+      "regulation_node_id": "36f62508-ee7a-53b9-bdee-c7888d238b30",
+      "old_label": "제59의2조",
+      "corrected_label": "제59조의2",
+      "pdf_pages": [
+        25
+      ]
+    },
+    {
+      "regulation_node_id": "aa47f6fc-5f23-56e8-851b-7446f2890e31",
+      "old_label": "제59의3조",
+      "corrected_label": "제59조의3",
+      "pdf_pages": [
+        25
+      ]
+    },
+    {
+      "regulation_node_id": "7dc118ed-682a-5ebf-a224-c4c2fdd44f23",
+      "old_label": "제59의4조",
+      "corrected_label": "제59조의4",
+      "pdf_pages": [
+        25,
+        26
+      ]
+    },
+    {
+      "regulation_node_id": "50cef8d6-ffeb-526c-b4f6-a695ad250a8c",
+      "old_label": "제59의5조",
+      "corrected_label": "제59조의5",
+      "pdf_pages": [
+        26
+      ]
+    },
+    {
+      "regulation_node_id": "aa12f4a8-e568-5a90-a261-526cc9d7471c",
+      "old_label": "제59의6조",
+      "corrected_label": "제59조의6",
+      "pdf_pages": [
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        38
+      ]
+    },
+    {
+      "regulation_node_id": "6c7b3811-d7ac-5ac6-bab7-c06bedec10f7",
+      "old_label": "제12의2조",
+      "corrected_label": "제12조의2",
+      "pdf_pages": [
+        2
+      ]
+    },
+    {
+      "regulation_node_id": "71b59652-0122-5ca3-98cf-c039179a3611",
+      "old_label": "제16의2조",
+      "corrected_label": "제16조의2",
+      "pdf_pages": [
+        4
+      ]
+    },
+    {
+      "regulation_node_id": "281c2ccc-6756-514e-8ec7-de200b8cc383",
+      "old_label": "제30의2조",
+      "corrected_label": "제30조의2",
+      "pdf_pages": [
+        6
+      ]
+    },
+    {
+      "regulation_node_id": "7820cf76-bcc7-5aab-9e46-2ed0e2eead42",
+      "old_label": "제30의3조",
+      "corrected_label": "제30조의3",
+      "pdf_pages": [
+        7
+      ]
+    },
+    {
+      "regulation_node_id": "4f1b5f17-3a47-5728-aab5-c446a5660c29",
+      "old_label": "제30의4조",
+      "corrected_label": "제30조의4",
+      "pdf_pages": [
+        7
+      ]
+    },
+    {
+      "regulation_node_id": "4125c334-4beb-57c9-aa53-ced123d74a59",
+      "old_label": "제48의2조",
+      "corrected_label": "제48조의2",
+      "pdf_pages": [
+        11
+      ]
+    },
+    {
+      "regulation_node_id": "b5b3b368-5a7a-529e-a46d-a69af5482635",
+      "old_label": "제48의3조",
+      "corrected_label": "제48조의3",
+      "pdf_pages": [
+        11,
+        12
+      ]
+    },
+    {
+      "regulation_node_id": "56a5ba41-375c-5321-84e4-ec962387d940",
+      "old_label": "제55의2조",
+      "corrected_label": "제55조의2",
+      "pdf_pages": [
+        13
+      ]
+    },
+    {
+      "regulation_node_id": "27b928dc-0265-5479-932e-13f9f018846b",
+      "old_label": "제66의2조",
+      "corrected_label": "제66조의2",
+      "pdf_pages": [
+        15
+      ]
+    },
+    {
+      "regulation_node_id": "59e2f6d5-febd-5bc0-9e90-94a29caa66fd",
+      "old_label": "제83의2조",
+      "corrected_label": "제83조의2",
+      "pdf_pages": [
+        17,
+        18
+      ]
+    },
+    {
+      "regulation_node_id": "09450085-c403-5e8d-8c52-7015920bfee0",
+      "old_label": "제8의2조",
+      "corrected_label": "제8조의2",
+      "pdf_pages": [
+        2
+      ]
+    },
+    {
+      "regulation_node_id": "8468c984-6fa3-59a5-8c55-4f14b6eacd53",
+      "old_label": "제15의2조",
+      "corrected_label": "제15조의2",
+      "pdf_pages": [
+        3
+      ]
+    },
+    {
+      "regulation_node_id": "93c6f83d-c653-5c28-8095-4a7bb90318a4",
+      "old_label": "제31의2조",
+      "corrected_label": "제31조의2",
+      "pdf_pages": [
+        6
+      ]
+    },
+    {
+      "regulation_node_id": "60d52474-35a7-54f4-9995-a5be8d1261f8",
+      "old_label": "제31의3조",
+      "corrected_label": "제31조의3",
+      "pdf_pages": [
+        6
+      ]
+    },
+    {
+      "regulation_node_id": "bd48fb2e-fbb6-59a6-9558-8c360359bbf5",
+      "old_label": "제31의4조",
+      "corrected_label": "제31조의4",
+      "pdf_pages": [
+        6,
+        7
+      ]
+    },
+    {
+      "regulation_node_id": "33265fde-f0c3-5750-b15f-038dc1a6f1aa",
+      "old_label": "제31의5조",
+      "corrected_label": "제31조의5",
+      "pdf_pages": [
+        7,
+        8
+      ]
+    },
+    {
+      "regulation_node_id": "75bfb530-6a5d-5f4f-8a03-4c73ad924988",
+      "old_label": "제31의6조",
+      "corrected_label": "제31조의6",
+      "pdf_pages": [
+        8,
+        9
+      ]
+    },
+    {
+      "regulation_node_id": "ad736e89-249d-55fb-8b03-aba3acf20785",
+      "old_label": "제33의2조",
+      "corrected_label": "제33조의2",
+      "pdf_pages": [
+        9
+      ]
+    },
+    {
+      "regulation_node_id": "7a0ac4bc-353e-5a59-8b78-e2c124a4c66c",
+      "old_label": "제33의3조",
+      "corrected_label": "제33조의3",
+      "pdf_pages": [
+        9
+      ]
+    },
+    {
+      "regulation_node_id": "84344702-e2b1-5c41-b293-91c7744e8a92",
+      "old_label": "제33의4조",
+      "corrected_label": "제33조의4",
+      "pdf_pages": [
+        9
+      ]
+    },
+    {
+      "regulation_node_id": "364b3b84-08b2-5ba6-a06b-98d9e1feef09",
+      "old_label": "제33의5조",
+      "corrected_label": "제33조의5",
+      "pdf_pages": [
+        9,
+        10
+      ]
+    },
+    {
+      "regulation_node_id": "3c75591d-bab8-51ef-8b3c-d035c0c94907",
+      "old_label": "제42의2조",
+      "corrected_label": "제42조의2",
+      "pdf_pages": [
+        11
+      ]
+    },
+    {
+      "regulation_node_id": "40944491-e3b2-549c-9c7e-82e3263be088",
+      "old_label": "제74의2조",
+      "corrected_label": "제74조의2",
+      "pdf_pages": [
+        15
+      ]
+    },
+    {
+      "regulation_node_id": "adc54b01-bbc0-547d-be33-b99d268b7354",
+      "old_label": "제74의3조",
+      "corrected_label": "제74조의3",
+      "pdf_pages": [
+        15
+      ]
+    },
+    {
+      "regulation_node_id": "f02d70be-cdcc-57f2-b9ac-650b91e3c6f9",
+      "old_label": "제74의4조",
+      "corrected_label": "제74조의4",
+      "pdf_pages": [
+        15,
+        16
+      ]
+    },
+    {
+      "regulation_node_id": "c3c7844b-2fb6-5f23-a867-8baedd60afc9",
+      "old_label": "제74의5조",
+      "corrected_label": "제74조의5",
+      "pdf_pages": [
+        16
+      ]
+    },
+    {
+      "regulation_node_id": "e5bf9117-656c-5293-9c48-6f7276da8214",
+      "old_label": "제76의2조",
+      "corrected_label": "제76조의2",
+      "pdf_pages": [
+        16
+      ]
+    },
+    {
+      "regulation_node_id": "a21df8c9-c373-5a3c-9d2b-7dd12b8919e9",
+      "old_label": "제77의2조",
+      "corrected_label": "제77조의2",
+      "pdf_pages": [
+        17
+      ]
+    },
+    {
+      "regulation_node_id": "506891af-62dc-5eb5-9963-207eac83399e",
+      "old_label": "제1의2조",
+      "corrected_label": "제1조의2",
+      "pdf_pages": [
+        1
+      ]
+    },
+    {
+      "regulation_node_id": "39f22790-bf35-53a7-a00d-2af54ca4a2db",
+      "old_label": "제2의2조",
+      "corrected_label": "제2조의2",
+      "pdf_pages": [
+        1
+      ]
+    },
+    {
+      "regulation_node_id": "aba5623c-3b6c-5199-aa05-66402cf117ab",
+      "old_label": "제3의2조",
+      "corrected_label": "제3조의2",
+      "pdf_pages": [
+        2
+      ]
+    },
+    {
+      "regulation_node_id": "a70ab815-1bba-504a-8e81-7fa2d486a7ed",
+      "old_label": "제3의3조",
+      "corrected_label": "제3조의3",
+      "pdf_pages": [
+        2
+      ]
+    },
+    {
+      "regulation_node_id": "ec5434e6-7e27-5756-b965-7d7a81e02368",
+      "old_label": "제6의2조",
+      "corrected_label": "제6조의2",
+      "pdf_pages": [
+        2
+      ]
+    }
+  ],
+  "promotion_context_connections": [
+    {
+      "rag_chunk_id": "3426ecd4-811f-5bc6-a3d8-ff7a2abb4f05",
+      "context_node_id": "bf3ccb52-c795-574e-8095-eab5e38a64d4"
+    },
+    {
+      "rag_chunk_id": "3426ecd4-811f-5bc6-a3d8-ff7a2abb4f05",
+      "context_node_id": "d7f8bdc1-48ac-58dd-b4a7-82f665ced7d3"
+    },
+    {
+      "rag_chunk_id": "3426ecd4-811f-5bc6-a3d8-ff7a2abb4f05",
+      "context_node_id": "981142fb-5140-5892-ae05-a6c95c82bcee"
+    }
+  ],
+  "annual_leave_context_connections": [
+    {
+      "rag_chunk_id": "46ab738c-9dd8-5bbb-8849-094f51e9b4ab",
+      "context_node_id": "7a0ac4bc-353e-5a59-8b78-e2c124a4c66c"
+    },
+    {
+      "rag_chunk_id": "46ab738c-9dd8-5bbb-8849-094f51e9b4ab",
+      "context_node_id": "84344702-e2b1-5c41-b293-91c7744e8a92"
+    },
+    {
+      "rag_chunk_id": "ad1e82db-01e8-54f1-bc85-e7b1cbbe8f8f",
+      "context_node_id": "ad736e89-249d-55fb-8b03-aba3acf20785"
+    }
+  ],
+  "flexible_work_context_connections": [
+    {
+      "rag_chunk_id": "83981a00-5c2c-5dd2-a906-7f2b8fc6256d",
+      "context_node_id": "86336958-bb53-569c-8f53-053cf171981c"
+    },
+    {
+      "rag_chunk_id": "83981a00-5c2c-5dd2-a906-7f2b8fc6256d",
+      "context_node_id": "bb449b33-dbd2-5d22-a31e-238f40b7a927"
+    },
+    {
+      "rag_chunk_id": "83981a00-5c2c-5dd2-a906-7f2b8fc6256d",
+      "context_node_id": "47f281ae-98c5-53e5-b0bf-f3c47a7c353a"
+    },
+    {
+      "rag_chunk_id": "83981a00-5c2c-5dd2-a906-7f2b8fc6256d",
+      "context_node_id": "b17862a0-32c3-50b4-b00b-c871d3350057"
+    },
+    {
+      "rag_chunk_id": "bd38b7e5-791f-52e8-8849-c1f412bcff7b",
+      "context_node_id": "86336958-bb53-569c-8f53-053cf171981c"
+    },
+    {
+      "rag_chunk_id": "bd38b7e5-791f-52e8-8849-c1f412bcff7b",
+      "context_node_id": "bb449b33-dbd2-5d22-a31e-238f40b7a927"
+    },
+    {
+      "rag_chunk_id": "bd38b7e5-791f-52e8-8849-c1f412bcff7b",
+      "context_node_id": "0b43fcea-6580-5e23-91b9-e57322523ca5"
+    },
+    {
+      "rag_chunk_id": "bd38b7e5-791f-52e8-8849-c1f412bcff7b",
+      "context_node_id": "c826c33b-76d8-52b3-958b-5c768deb9deb"
+    }
+  ],
+  "salary_context_connections": [
+    {
+      "rag_chunk_id": "043b2218-580b-5821-a420-e650333c546d",
+      "context_node_id": "04899d55-0842-5aec-bb8d-e2c936c09982",
+      "reason": "amount_definition_or_date"
+    },
+    {
+      "rag_chunk_id": "043b2218-580b-5821-a420-e650333c546d",
+      "context_node_id": "e858acaf-28c5-515e-afe6-3225542cf1be",
+      "reason": "amount_definition_or_date"
+    },
+    {
+      "rag_chunk_id": "67563565-9f13-51d4-9b32-1baf371f88f5",
+      "context_node_id": "04899d55-0842-5aec-bb8d-e2c936c09982",
+      "reason": "amount_definition_or_date"
+    },
+    {
+      "rag_chunk_id": "67563565-9f13-51d4-9b32-1baf371f88f5",
+      "context_node_id": "e858acaf-28c5-515e-afe6-3225542cf1be",
+      "reason": "amount_definition_or_date"
+    },
+    {
+      "rag_chunk_id": "d18c962b-6b8a-55cd-b20a-69aae0dbae38",
+      "context_node_id": "04899d55-0842-5aec-bb8d-e2c936c09982",
+      "reason": "amount_definition_or_date"
+    },
+    {
+      "rag_chunk_id": "d18c962b-6b8a-55cd-b20a-69aae0dbae38",
+      "context_node_id": "e858acaf-28c5-515e-afe6-3225542cf1be",
+      "reason": "amount_definition_or_date"
+    },
+    {
+      "rag_chunk_id": "35593d7b-057b-5a45-825e-da7308c741f3",
+      "context_node_id": "04899d55-0842-5aec-bb8d-e2c936c09982",
+      "reason": "amount_definition_or_date"
+    },
+    {
+      "rag_chunk_id": "35593d7b-057b-5a45-825e-da7308c741f3",
+      "context_node_id": "e858acaf-28c5-515e-afe6-3225542cf1be",
+      "reason": "amount_definition_or_date"
+    },
+    {
+      "rag_chunk_id": "6750a031-b866-54b6-8889-f289fb7fa5a3",
+      "context_node_id": "04899d55-0842-5aec-bb8d-e2c936c09982",
+      "reason": "amount_definition_or_date"
+    },
+    {
+      "rag_chunk_id": "6750a031-b866-54b6-8889-f289fb7fa5a3",
+      "context_node_id": "e858acaf-28c5-515e-afe6-3225542cf1be",
+      "reason": "amount_definition_or_date"
+    },
+    {
+      "rag_chunk_id": "bdca8e08-baf9-57ce-8f6b-14a6401ada1b",
+      "context_node_id": "04899d55-0842-5aec-bb8d-e2c936c09982",
+      "reason": "amount_definition_or_date"
+    },
+    {
+      "rag_chunk_id": "bdca8e08-baf9-57ce-8f6b-14a6401ada1b",
+      "context_node_id": "e858acaf-28c5-515e-afe6-3225542cf1be",
+      "reason": "amount_definition_or_date"
+    },
+    {
+      "rag_chunk_id": "50dcce00-ae90-5c28-a793-248cd97a421f",
+      "context_node_id": "04899d55-0842-5aec-bb8d-e2c936c09982",
+      "reason": "amount_definition_or_date"
+    },
+    {
+      "rag_chunk_id": "50dcce00-ae90-5c28-a793-248cd97a421f",
+      "context_node_id": "e858acaf-28c5-515e-afe6-3225542cf1be",
+      "reason": "amount_definition_or_date"
+    },
+    {
+      "rag_chunk_id": "23dde6a4-690b-520b-af08-7a5ffabb5ce5",
+      "context_node_id": "04899d55-0842-5aec-bb8d-e2c936c09982",
+      "reason": "amount_definition_or_date"
+    },
+    {
+      "rag_chunk_id": "23dde6a4-690b-520b-af08-7a5ffabb5ce5",
+      "context_node_id": "e858acaf-28c5-515e-afe6-3225542cf1be",
+      "reason": "amount_definition_or_date"
+    },
+    {
+      "rag_chunk_id": "a67deb39-e469-5b4f-a294-66f4e7682542",
+      "context_node_id": "04899d55-0842-5aec-bb8d-e2c936c09982",
+      "reason": "amount_definition_or_date"
+    },
+    {
+      "rag_chunk_id": "a67deb39-e469-5b4f-a294-66f4e7682542",
+      "context_node_id": "e858acaf-28c5-515e-afe6-3225542cf1be",
+      "reason": "amount_definition_or_date"
+    },
+    {
+      "rag_chunk_id": "750e6039-7097-5f28-a171-fa2c31b2ec00",
+      "context_node_id": "04899d55-0842-5aec-bb8d-e2c936c09982",
+      "reason": "amount_definition_or_date"
+    },
+    {
+      "rag_chunk_id": "750e6039-7097-5f28-a171-fa2c31b2ec00",
+      "context_node_id": "e858acaf-28c5-515e-afe6-3225542cf1be",
+      "reason": "amount_definition_or_date"
+    },
+    {
+      "rag_chunk_id": "d4484285-575d-5f4f-af28-86e9fd01492a",
+      "context_node_id": "04899d55-0842-5aec-bb8d-e2c936c09982",
+      "reason": "amount_definition_or_date"
+    },
+    {
+      "rag_chunk_id": "d4484285-575d-5f4f-af28-86e9fd01492a",
+      "context_node_id": "e858acaf-28c5-515e-afe6-3225542cf1be",
+      "reason": "amount_definition_or_date"
+    },
+    {
+      "rag_chunk_id": "19f8c338-a290-5382-882b-abe37779b20c",
+      "context_node_id": "04899d55-0842-5aec-bb8d-e2c936c09982",
+      "reason": "amount_definition_or_date"
+    },
+    {
+      "rag_chunk_id": "19f8c338-a290-5382-882b-abe37779b20c",
+      "context_node_id": "e858acaf-28c5-515e-afe6-3225542cf1be",
+      "reason": "amount_definition_or_date"
+    },
+    {
+      "rag_chunk_id": "472761ed-e56a-5aee-bb19-01926523de96",
+      "context_node_id": "04899d55-0842-5aec-bb8d-e2c936c09982",
+      "reason": "amount_definition_or_date"
+    },
+    {
+      "rag_chunk_id": "472761ed-e56a-5aee-bb19-01926523de96",
+      "context_node_id": "e858acaf-28c5-515e-afe6-3225542cf1be",
+      "reason": "amount_definition_or_date"
+    },
+    {
+      "rag_chunk_id": "ec1a51dc-e8f5-5790-a5da-e9a7ac73e4b3",
+      "context_node_id": "04899d55-0842-5aec-bb8d-e2c936c09982",
+      "reason": "amount_definition_or_date"
+    },
+    {
+      "rag_chunk_id": "ec1a51dc-e8f5-5790-a5da-e9a7ac73e4b3",
+      "context_node_id": "e858acaf-28c5-515e-afe6-3225542cf1be",
+      "reason": "amount_definition_or_date"
+    },
+    {
+      "rag_chunk_id": "9c6e1a16-dcf4-5293-9fab-5ffd8403d70d",
+      "context_node_id": "04899d55-0842-5aec-bb8d-e2c936c09982",
+      "reason": "amount_definition_or_date"
+    },
+    {
+      "rag_chunk_id": "9c6e1a16-dcf4-5293-9fab-5ffd8403d70d",
+      "context_node_id": "e858acaf-28c5-515e-afe6-3225542cf1be",
+      "reason": "amount_definition_or_date"
+    },
+    {
+      "rag_chunk_id": "b2e03664-8599-59aa-bf06-5456c0a141ff",
+      "context_node_id": "04899d55-0842-5aec-bb8d-e2c936c09982",
+      "reason": "amount_definition_or_date"
+    },
+    {
+      "rag_chunk_id": "b2e03664-8599-59aa-bf06-5456c0a141ff",
+      "context_node_id": "e858acaf-28c5-515e-afe6-3225542cf1be",
+      "reason": "amount_definition_or_date"
+    },
+    {
+      "rag_chunk_id": "68a7f840-f261-59e4-ae21-fd1e97f9cb01",
+      "context_node_id": "47956ad8-ea24-55af-a01d-fb434115ca3a",
+      "reason": "amount_definition_or_date"
+    },
+    {
+      "rag_chunk_id": "68a7f840-f261-59e4-ae21-fd1e97f9cb01",
+      "context_node_id": "3dc297f0-3c9e-558d-bce7-f9cfc7d3229e",
+      "reason": "amount_definition_or_date"
+    },
+    {
+      "rag_chunk_id": "6f829323-3000-5797-9c51-acc2a012e6f0",
+      "context_node_id": "47956ad8-ea24-55af-a01d-fb434115ca3a",
+      "reason": "amount_definition_or_date"
+    },
+    {
+      "rag_chunk_id": "6f829323-3000-5797-9c51-acc2a012e6f0",
+      "context_node_id": "3dc297f0-3c9e-558d-bce7-f9cfc7d3229e",
+      "reason": "amount_definition_or_date"
+    },
+    {
+      "rag_chunk_id": "2c7cd932-a465-599e-8f33-37e110a4b952",
+      "context_node_id": "47956ad8-ea24-55af-a01d-fb434115ca3a",
+      "reason": "amount_definition_or_date"
+    },
+    {
+      "rag_chunk_id": "2c7cd932-a465-599e-8f33-37e110a4b952",
+      "context_node_id": "3dc297f0-3c9e-558d-bce7-f9cfc7d3229e",
+      "reason": "amount_definition_or_date"
+    },
+    {
+      "rag_chunk_id": "2d572dfd-e36a-5b9e-a97d-ff65b607c47c",
+      "context_node_id": "47956ad8-ea24-55af-a01d-fb434115ca3a",
+      "reason": "amount_definition_or_date"
+    },
+    {
+      "rag_chunk_id": "2d572dfd-e36a-5b9e-a97d-ff65b607c47c",
+      "context_node_id": "3dc297f0-3c9e-558d-bce7-f9cfc7d3229e",
+      "reason": "amount_definition_or_date"
+    },
+    {
+      "rag_chunk_id": "4e24f3d6-bbf2-5781-b332-b1492308d4b4",
+      "context_node_id": "47956ad8-ea24-55af-a01d-fb434115ca3a",
+      "reason": "amount_definition_or_date"
+    },
+    {
+      "rag_chunk_id": "4e24f3d6-bbf2-5781-b332-b1492308d4b4",
+      "context_node_id": "3dc297f0-3c9e-558d-bce7-f9cfc7d3229e",
+      "reason": "amount_definition_or_date"
+    },
+    {
+      "rag_chunk_id": "ed7679cb-cc6e-555c-93e7-4303b7cadf0f",
+      "context_node_id": "47956ad8-ea24-55af-a01d-fb434115ca3a",
+      "reason": "amount_definition_or_date"
+    },
+    {
+      "rag_chunk_id": "ed7679cb-cc6e-555c-93e7-4303b7cadf0f",
+      "context_node_id": "3dc297f0-3c9e-558d-bce7-f9cfc7d3229e",
+      "reason": "amount_definition_or_date"
+    },
+    {
+      "rag_chunk_id": "5c36b939-f37c-5f42-92d1-ad64531ffdb0",
+      "context_node_id": "47956ad8-ea24-55af-a01d-fb434115ca3a",
+      "reason": "amount_definition_or_date"
+    },
+    {
+      "rag_chunk_id": "5c36b939-f37c-5f42-92d1-ad64531ffdb0",
+      "context_node_id": "3dc297f0-3c9e-558d-bce7-f9cfc7d3229e",
+      "reason": "amount_definition_or_date"
+    },
+    {
+      "rag_chunk_id": "4ba8e0a1-7f9d-59ac-979b-0aeec5041df9",
+      "context_node_id": "47956ad8-ea24-55af-a01d-fb434115ca3a",
+      "reason": "amount_definition_or_date"
+    },
+    {
+      "rag_chunk_id": "4ba8e0a1-7f9d-59ac-979b-0aeec5041df9",
+      "context_node_id": "3dc297f0-3c9e-558d-bce7-f9cfc7d3229e",
+      "reason": "amount_definition_or_date"
+    },
+    {
+      "rag_chunk_id": "3386975d-5cd0-5910-a08f-1b5b908f9f42",
+      "context_node_id": "47956ad8-ea24-55af-a01d-fb434115ca3a",
+      "reason": "amount_definition_or_date"
+    },
+    {
+      "rag_chunk_id": "1550cc33-3e03-5e49-a3fa-33259bbab9a6",
+      "context_node_id": "47956ad8-ea24-55af-a01d-fb434115ca3a",
+      "reason": "amount_definition_or_date"
+    },
+    {
+      "rag_chunk_id": "e50b2bc4-5fb8-5d38-8b81-3a7766e6ace2",
+      "context_node_id": "47956ad8-ea24-55af-a01d-fb434115ca3a",
+      "reason": "amount_definition_or_date"
+    },
+    {
+      "rag_chunk_id": "4eafea06-a653-5139-a5c8-d712ec1c89b0",
+      "context_node_id": "47956ad8-ea24-55af-a01d-fb434115ca3a",
+      "reason": "amount_definition_or_date"
+    },
+    {
+      "rag_chunk_id": "b6fd1f0a-eff4-51ad-bab0-1705aff893c9",
+      "context_node_id": "47956ad8-ea24-55af-a01d-fb434115ca3a",
+      "reason": "amount_definition_or_date"
+    },
+    {
+      "rag_chunk_id": "c6e47fe0-10e9-5747-aef6-42ddca638f9b",
+      "context_node_id": "47956ad8-ea24-55af-a01d-fb434115ca3a",
+      "reason": "amount_definition_or_date"
+    },
+    {
+      "rag_chunk_id": "fa15725f-16e8-5a0b-8220-c5f0be08bdcc",
+      "context_node_id": "47956ad8-ea24-55af-a01d-fb434115ca3a",
+      "reason": "amount_definition_or_date"
+    },
+    {
+      "rag_chunk_id": "70566c9b-43a0-59d7-bb00-8183fb418a07",
+      "context_node_id": "47956ad8-ea24-55af-a01d-fb434115ca3a",
+      "reason": "amount_definition_or_date"
+    },
+    {
+      "rag_chunk_id": "5c0e220c-d41b-5330-9da6-4b9085387e6e",
+      "context_node_id": "47956ad8-ea24-55af-a01d-fb434115ca3a",
+      "reason": "amount_definition_or_date"
+    },
+    {
+      "rag_chunk_id": "f1268c9f-f297-5d07-b450-2053b0c604e7",
+      "context_node_id": "47956ad8-ea24-55af-a01d-fb434115ca3a",
+      "reason": "amount_definition_or_date"
+    },
+    {
+      "rag_chunk_id": "011b34bf-70dc-580b-9f58-5a100e2301c5",
+      "context_node_id": "47956ad8-ea24-55af-a01d-fb434115ca3a",
+      "reason": "amount_definition_or_date"
+    },
+    {
+      "rag_chunk_id": "ec28795a-46e0-5cff-bcf1-7c70d7a70334",
+      "context_node_id": "47956ad8-ea24-55af-a01d-fb434115ca3a",
+      "reason": "amount_definition_or_date"
+    },
+    {
+      "rag_chunk_id": "53008ef9-0e1b-5a3d-8cbd-5418c2f45db3",
+      "context_node_id": "47956ad8-ea24-55af-a01d-fb434115ca3a",
+      "reason": "amount_definition_or_date"
+    },
+    {
+      "rag_chunk_id": "0fbb4e52-0d13-5083-94ea-c801f10688a7",
+      "context_node_id": "47956ad8-ea24-55af-a01d-fb434115ca3a",
+      "reason": "amount_definition_or_date"
+    },
+    {
+      "rag_chunk_id": "df6037d8-429c-568b-bc3a-600d6c0d56bb",
+      "context_node_id": "47956ad8-ea24-55af-a01d-fb434115ca3a",
+      "reason": "amount_definition_or_date"
+    },
+    {
+      "rag_chunk_id": "0d1f2555-89b0-57f7-9f59-f6c34651e476",
+      "context_node_id": "9a368017-f9d9-53e0-b0b8-8ae459456733",
+      "reason": "monthly_and_weekly_rules"
+    },
+    {
+      "rag_chunk_id": "f15fe203-2162-517c-b414-3b05a5532982",
+      "context_node_id": "9a368017-f9d9-53e0-b0b8-8ae459456733",
+      "reason": "monthly_and_weekly_rules"
+    },
+    {
+      "rag_chunk_id": "14145863-4614-5f1d-8d6b-6b508b252b99",
+      "context_node_id": "04899d55-0842-5aec-bb8d-e2c936c09982",
+      "reason": "definitions_and_calculation"
+    },
+    {
+      "rag_chunk_id": "8c8c9265-2e00-5844-9554-66c99f90fd92",
+      "context_node_id": "16f9ceae-39cf-56d7-81d9-460a5b971bc6",
+      "reason": "payment_and_period"
+    },
+    {
+      "rag_chunk_id": "43436812-ed78-54e9-93e4-35827a88ce6f",
+      "context_node_id": "0b3a4643-910f-52e2-9af9-01aa22531d72",
+      "reason": "general_staff_job_grade_ranges"
+    },
+    {
+      "rag_chunk_id": "43436812-ed78-54e9-93e4-35827a88ce6f",
+      "context_node_id": "8b6998ea-a963-5a44-93b1-5e63dd30264a",
+      "reason": "operating_staff_year_ranges"
+    }
+  ],
+  "salary_annex_boundary_corrections": [
+    {
+      "regulation_node_id": "06c48348-9b51-5921-8b91-ed7a3c7f7ff5",
+      "old_path": "연봉규정시행세칙 > 별표 3 > p028-table-1",
+      "corrected_path": "연봉규정시행세칙 > 별표3의2 일반직 직무등급별 직무급 > p028-table-1"
+    },
+    {
+      "regulation_node_id": "40720b9e-b73f-547a-9aa1-9aec3994ba53",
+      "old_path": "연봉규정시행세칙 > 별표 3 > p029-table-1",
+      "corrected_path": "연봉규정시행세칙 > 별표3의3 운영직 직무등급별 직무급 > p029-table-1"
+    },
+    {
+      "regulation_node_id": "cba239e4-890d-5db9-8b0f-228eea8c379c",
+      "old_path": "연봉규정시행세칙 > 별표 3 > p029-table-2",
+      "corrected_path": "연봉규정시행세칙 > 별표3의3 운영직 직무등급별 직무급 > p029-table-2"
+    }
+  ],
+  "leave_context_connections": [
+    {
+      "rag_chunk_id": "b49a35a1-e53c-58f9-80ae-41a13369c3d7",
+      "context_node_id": "93c6f83d-c653-5c28-8095-4a7bb90318a4",
+      "reason": "leave_related_original_text"
+    },
+    {
+      "rag_chunk_id": "b49a35a1-e53c-58f9-80ae-41a13369c3d7",
+      "context_node_id": "7a0ac4bc-353e-5a59-8b78-e2c124a4c66c",
+      "reason": "leave_related_original_text"
+    },
+    {
+      "rag_chunk_id": "b49a35a1-e53c-58f9-80ae-41a13369c3d7",
+      "context_node_id": "7820c275-404f-53c6-b955-c9c23655ddee",
+      "reason": "leave_related_original_text"
+    },
+    {
+      "rag_chunk_id": "b49a35a1-e53c-58f9-80ae-41a13369c3d7",
+      "context_node_id": "4f2289a8-4c2f-51a1-aca7-bb86c367f7bc",
+      "reason": "leave_related_original_text"
+    },
+    {
+      "rag_chunk_id": "affe24ed-b9c5-5b29-bd48-7e68de5ddb29",
+      "context_node_id": "93c6f83d-c653-5c28-8095-4a7bb90318a4",
+      "reason": "leave_related_original_text"
+    },
+    {
+      "rag_chunk_id": "affe24ed-b9c5-5b29-bd48-7e68de5ddb29",
+      "context_node_id": "7a0ac4bc-353e-5a59-8b78-e2c124a4c66c",
+      "reason": "leave_related_original_text"
+    },
+    {
+      "rag_chunk_id": "affe24ed-b9c5-5b29-bd48-7e68de5ddb29",
+      "context_node_id": "7820c275-404f-53c6-b955-c9c23655ddee",
+      "reason": "leave_related_original_text"
+    },
+    {
+      "rag_chunk_id": "affe24ed-b9c5-5b29-bd48-7e68de5ddb29",
+      "context_node_id": "4f2289a8-4c2f-51a1-aca7-bb86c367f7bc",
+      "reason": "leave_related_original_text"
+    },
+    {
+      "rag_chunk_id": "0b50b337-9c0c-50a7-b099-ae171ec80dd4",
+      "context_node_id": "93c6f83d-c653-5c28-8095-4a7bb90318a4",
+      "reason": "leave_related_original_text"
+    },
+    {
+      "rag_chunk_id": "0b50b337-9c0c-50a7-b099-ae171ec80dd4",
+      "context_node_id": "7a0ac4bc-353e-5a59-8b78-e2c124a4c66c",
+      "reason": "leave_related_original_text"
+    },
+    {
+      "rag_chunk_id": "0b50b337-9c0c-50a7-b099-ae171ec80dd4",
+      "context_node_id": "7820c275-404f-53c6-b955-c9c23655ddee",
+      "reason": "leave_related_original_text"
+    },
+    {
+      "rag_chunk_id": "0b50b337-9c0c-50a7-b099-ae171ec80dd4",
+      "context_node_id": "4f2289a8-4c2f-51a1-aca7-bb86c367f7bc",
+      "reason": "leave_related_original_text"
+    },
+    {
+      "rag_chunk_id": "a7ad6593-4658-5a8c-88d1-2566c7dfff4a",
+      "context_node_id": "93c6f83d-c653-5c28-8095-4a7bb90318a4",
+      "reason": "leave_related_original_text"
+    },
+    {
+      "rag_chunk_id": "a7ad6593-4658-5a8c-88d1-2566c7dfff4a",
+      "context_node_id": "7a0ac4bc-353e-5a59-8b78-e2c124a4c66c",
+      "reason": "leave_related_original_text"
+    },
+    {
+      "rag_chunk_id": "a7ad6593-4658-5a8c-88d1-2566c7dfff4a",
+      "context_node_id": "7820c275-404f-53c6-b955-c9c23655ddee",
+      "reason": "leave_related_original_text"
+    },
+    {
+      "rag_chunk_id": "a7ad6593-4658-5a8c-88d1-2566c7dfff4a",
+      "context_node_id": "4f2289a8-4c2f-51a1-aca7-bb86c367f7bc",
+      "reason": "leave_related_original_text"
+    },
+    {
+      "rag_chunk_id": "dcb8b2eb-b644-5048-960d-f38c11836edb",
+      "context_node_id": "93c6f83d-c653-5c28-8095-4a7bb90318a4",
+      "reason": "leave_related_original_text"
+    },
+    {
+      "rag_chunk_id": "dcb8b2eb-b644-5048-960d-f38c11836edb",
+      "context_node_id": "7a0ac4bc-353e-5a59-8b78-e2c124a4c66c",
+      "reason": "leave_related_original_text"
+    },
+    {
+      "rag_chunk_id": "dcb8b2eb-b644-5048-960d-f38c11836edb",
+      "context_node_id": "7820c275-404f-53c6-b955-c9c23655ddee",
+      "reason": "leave_related_original_text"
+    },
+    {
+      "rag_chunk_id": "dcb8b2eb-b644-5048-960d-f38c11836edb",
+      "context_node_id": "4f2289a8-4c2f-51a1-aca7-bb86c367f7bc",
+      "reason": "leave_related_original_text"
+    },
+    {
+      "rag_chunk_id": "0dec6a8e-9eb7-545c-bfd2-c1a6af0d7f66",
+      "context_node_id": "93c6f83d-c653-5c28-8095-4a7bb90318a4",
+      "reason": "leave_related_original_text"
+    },
+    {
+      "rag_chunk_id": "0dec6a8e-9eb7-545c-bfd2-c1a6af0d7f66",
+      "context_node_id": "7a0ac4bc-353e-5a59-8b78-e2c124a4c66c",
+      "reason": "leave_related_original_text"
+    },
+    {
+      "rag_chunk_id": "0dec6a8e-9eb7-545c-bfd2-c1a6af0d7f66",
+      "context_node_id": "7820c275-404f-53c6-b955-c9c23655ddee",
+      "reason": "leave_related_original_text"
+    },
+    {
+      "rag_chunk_id": "0dec6a8e-9eb7-545c-bfd2-c1a6af0d7f66",
+      "context_node_id": "4f2289a8-4c2f-51a1-aca7-bb86c367f7bc",
+      "reason": "leave_related_original_text"
+    },
+    {
+      "rag_chunk_id": "5912255f-3293-51b2-a137-1aa5b5b22712",
+      "context_node_id": "93c6f83d-c653-5c28-8095-4a7bb90318a4",
+      "reason": "leave_related_original_text"
+    },
+    {
+      "rag_chunk_id": "5912255f-3293-51b2-a137-1aa5b5b22712",
+      "context_node_id": "7a0ac4bc-353e-5a59-8b78-e2c124a4c66c",
+      "reason": "leave_related_original_text"
+    },
+    {
+      "rag_chunk_id": "5912255f-3293-51b2-a137-1aa5b5b22712",
+      "context_node_id": "7820c275-404f-53c6-b955-c9c23655ddee",
+      "reason": "leave_related_original_text"
+    },
+    {
+      "rag_chunk_id": "5912255f-3293-51b2-a137-1aa5b5b22712",
+      "context_node_id": "4f2289a8-4c2f-51a1-aca7-bb86c367f7bc",
+      "reason": "leave_related_original_text"
+    },
+    {
+      "rag_chunk_id": "3c2b2c04-53a8-59f9-91bb-b9c9adde8b6c",
+      "context_node_id": "93c6f83d-c653-5c28-8095-4a7bb90318a4",
+      "reason": "leave_related_original_text"
+    },
+    {
+      "rag_chunk_id": "3c2b2c04-53a8-59f9-91bb-b9c9adde8b6c",
+      "context_node_id": "7a0ac4bc-353e-5a59-8b78-e2c124a4c66c",
+      "reason": "leave_related_original_text"
+    },
+    {
+      "rag_chunk_id": "3c2b2c04-53a8-59f9-91bb-b9c9adde8b6c",
+      "context_node_id": "7820c275-404f-53c6-b955-c9c23655ddee",
+      "reason": "leave_related_original_text"
+    },
+    {
+      "rag_chunk_id": "3c2b2c04-53a8-59f9-91bb-b9c9adde8b6c",
+      "context_node_id": "4f2289a8-4c2f-51a1-aca7-bb86c367f7bc",
+      "reason": "leave_related_original_text"
+    },
+    {
+      "rag_chunk_id": "be901108-d5c5-52d0-929a-02b3d32016e7",
+      "context_node_id": "ec5826a3-c8ce-5d81-a57a-4d0b2019f526",
+      "reason": "leave_related_original_text"
+    },
+    {
+      "rag_chunk_id": "b27ddc57-cf5c-5b3b-b5c9-e035d2ebe83f",
+      "context_node_id": "ec5826a3-c8ce-5d81-a57a-4d0b2019f526",
+      "reason": "leave_related_original_text"
+    },
+    {
+      "rag_chunk_id": "1625e99b-91f6-539c-b10d-cf63296ce57c",
+      "context_node_id": "4efad793-01af-5e6b-a959-26bd34edf145",
+      "reason": "leave_related_original_text"
+    },
+    {
+      "rag_chunk_id": "1625e99b-91f6-539c-b10d-cf63296ce57c",
+      "context_node_id": "ad736e89-249d-55fb-8b03-aba3acf20785",
+      "reason": "leave_related_original_text"
+    },
+    {
+      "rag_chunk_id": "804cb342-bc5d-589a-a417-c624c2dd1f12",
+      "context_node_id": "4efad793-01af-5e6b-a959-26bd34edf145",
+      "reason": "leave_related_original_text"
+    },
+    {
+      "rag_chunk_id": "804cb342-bc5d-589a-a417-c624c2dd1f12",
+      "context_node_id": "ad736e89-249d-55fb-8b03-aba3acf20785",
+      "reason": "leave_related_original_text"
+    }
+  ],
+  "supplement_continuations_corrected": [
+    {
+      "fragment_node_id": "42ce0205-7a40-5387-81b4-035af462f8d1",
+      "parent_article_node_id": "493aea07-e35e-5884-b144-de62b4a5af73",
+      "source_pdf_pages": [
+        20
+      ],
+      "source_supplement_date": "2015-12-21"
+    },
+    {
+      "fragment_node_id": "e5abcf31-f2a9-5603-b4e5-0f84a0e5e8d8",
+      "parent_article_node_id": "26ea80c1-ead1-5337-940e-533278a8e48b",
+      "source_pdf_pages": [
+        20
+      ],
+      "source_supplement_date": "2016-12-27"
+    }
+  ]
+}

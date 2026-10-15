@@ -1,0 +1,3424 @@
+{
+  "한국수자원공사_추가규정_V01": {
+    "processed_at": "2026-10-13T07:31:51+00:00",
+    "source_inventory_reviewed_at": "2026-10-01",
+    "retrieved_at": null,
+    "retrieved_at_note": "확보 시각은 파일별로 기록. 사용자 확인값과 원본 폴더 속성 기반 추정값의 근거·정밀도를 구분함.",
+    "source_files": [
+      {
+        "id": "B01",
+        "source": "기타/복지후생규정(2022년도 12월 개정).pdf",
+        "sha256": "97b015a067f9c32b4154136949acec926d5accb5dd5a4e54122bba0f8be50798",
+        "pages": 5,
+        "title": "복지후생규정",
+        "version_label": "19차",
+        "amendment_date": "2022-12-20",
+        "effective_from": "2022-12-26",
+        "date_review": {
+          "general_effective_from": "2022-12-26",
+          "candidate_from_source": "2022-12-26",
+          "status": "source_visual_verified",
+          "reviewed_on": "2026-10-13",
+          "basis": "원본 PDF 관련 부칙 페이지의 전체 화면과 추출 문자 대조",
+          "amendment_date": "2022-12-20",
+          "source_evidence": [
+            {
+              "node_id": "b461b7ad-10ad-5072-8a9e-6ca4c2016b37",
+              "text": "부칙 (2022.12.20.)\n이 규정은 2022년 12월 26일부터 시행한다.",
+              "text_sha256": "194def5603365b4b800b970e0daf98ce1be994b788b66a0896d2297f083db08b",
+              "source_locator": {
+                "coordinate_system": "PDF point; 원점=페이지 왼쪽 위",
+                "pdf_pages": [
+                  5
+                ],
+                "lines": [
+                  {
+                    "line_id": "p005l0013",
+                    "page": 5,
+                    "bbox": [
+                      240.833,
+                      574.995,
+                      325.455,
+                      584.957
+                    ]
+                  },
+                  {
+                    "line_id": "p005l0014",
+                    "page": 5,
+                    "bbox": [
+                      70.643,
+                      621.2,
+                      269.206,
+                      631.162
+                    ]
+                  }
+                ],
+                "section_kind": "supplement"
+              }
+            }
+          ],
+          "exceptions_review": "조항별 적용례·소급 적용은 별도 조건 원문 후보로 보존. 자동 적용 판정 전.",
+          "note": "최신 개정일과 대응하는 부칙의 일반 시행일 표기를 확인. 효력 종료일은 미확인.",
+          "reviewed_by": "Codex (AI 원문 대조)"
+        },
+        "amendment_date_candidate_from_filename": null,
+        "article_count": 18,
+        "annex_count": 0,
+        "repeated_article_labels": [],
+        "table_count": 0,
+        "chunk_count": 18,
+        "effective_date_candidate_from_pdf_page_3": null,
+        "extraction_method": "pdfplumber_lines_and_detected_tables",
+        "blank_text_pages": [],
+        "short_text_pages": [],
+        "short_page_review": {},
+        "image_content_review": {},
+        "structure_review": {},
+        "role_specific_review": false,
+        "local_file_metadata": {
+          "created_at": "2026-10-01T09:40:02+09:00",
+          "modified_at": "2026-10-01T09:40:03+09:00",
+          "time_zone": "Asia/Seoul",
+          "observed_on": "2026-10-13",
+          "source_location": "사용자가 지정한 원본 폴더: 데이터/규정/2. 한국수자원공사",
+          "basis": "local_filesystem_properties",
+          "status": "download_time_candidate_only",
+          "note": "다운로드 로그가 아님. 파일 복사·덮어쓰기·수정으로 달라질 수 있어 retrieved_at으로 확정하지 않음."
+        },
+        "retrieval_metadata": {
+          "value": "2026-10-01T09:40:03+09:00",
+          "basis": "local_modified_time_estimate",
+          "precision": "filesystem_second",
+          "verification_status": "estimated",
+          "recorded_on": "2026-10-13",
+          "note": "사용자가 지정한 원본 폴더의 수정 시각과 원본을 손대지 않았다는 설명에 근거한 확보 시각 추정값. 실제 다운로드 로그에서 확인한 시각은 아님."
+        },
+        "last_pages_date_strings_sample": [
+          "1978.01.01",
+          "1980.01.01",
+          "1985.01.01",
+          "1988.01.01",
+          "1989.01.01",
+          "1990.04.20",
+          "1991.12.16",
+          "1992.03.28"
+        ]
+      },
+      {
+        "id": "B02",
+        "source": "기타/복지후생규정시행세칙(2026년도 2월 27일 개정).pdf",
+        "sha256": "7a76ea26fbbf2a3fe2edbf5e83d1614eba3d4f157bb1a1eba5ec7f318b521da8",
+        "pages": 17,
+        "title": "복지후생규정시행세칙",
+        "version_label": "28차",
+        "amendment_date": "2026-02-27",
+        "effective_from": "2026-03-01",
+        "date_review": {
+          "general_effective_from": "2026-03-01",
+          "candidate_from_source": "2026-03-01",
+          "status": "source_visual_verified",
+          "reviewed_on": "2026-10-13",
+          "basis": "원본 PDF 관련 부칙 페이지의 전체 화면과 추출 문자 대조",
+          "amendment_date": "2026-02-27",
+          "source_evidence": [
+            {
+              "node_id": "74b175cb-730b-59a1-83e8-da98c0d9f39e",
+              "text": "부칙 (2026.02.27.)\n이 세칙은 2026년 3월 1일부터 시행한다.",
+              "text_sha256": "e49916a13d30a6c320bcd07a2f5ea680cf790c17cdb713b712182570279e8afc",
+              "source_locator": {
+                "coordinate_system": "PDF point; 원점=페이지 왼쪽 위",
+                "pdf_pages": [
+                  11
+                ],
+                "lines": [
+                  {
+                    "line_id": "p011l0011",
+                    "page": 11,
+                    "bbox": [
+                      240.833,
+                      616.88,
+                      325.455,
+                      626.841
+                    ]
+                  },
+                  {
+                    "line_id": "p011l0012",
+                    "page": 11,
+                    "bbox": [
+                      66.445,
+                      669.326,
+                      254.094,
+                      679.287
+                    ]
+                  }
+                ],
+                "section_kind": "supplement"
+              }
+            }
+          ],
+          "exceptions_review": "조항별 적용례·소급 적용은 별도 조건 원문 후보로 보존. 자동 적용 판정 전.",
+          "note": "최신 개정일과 대응하는 부칙의 일반 시행일 표기를 확인. 효력 종료일은 미확인.",
+          "reviewed_by": "Codex (AI 원문 대조)"
+        },
+        "amendment_date_candidate_from_filename": null,
+        "article_count": 35,
+        "annex_count": 4,
+        "repeated_article_labels": [],
+        "table_count": 3,
+        "chunk_count": 41,
+        "effective_date_candidate_from_pdf_page_3": null,
+        "extraction_method": "pdfplumber_lines_and_detected_tables",
+        "blank_text_pages": [],
+        "short_text_pages": [
+          12,
+          13
+        ],
+        "short_page_review": {
+          "verified_pages": [
+            12,
+            13
+          ],
+          "status": "visual_text_match",
+          "reviewed_by": "Codex",
+          "reviewed_on": "2026-10-13",
+          "note": "페이지 전체 이미지·추출 문자를 대조. 삭제 표기·짧은 표·서식도 원문에 보이는 글자가 추출된 것을 확인. 표의 개인별 적용·기관 공식 해석·검색 활성화와 구분.",
+          "source_evidence": [
+            {
+              "page": 12,
+              "page_text_sha256": "e76f852b0959fd3f1f9586bafda0f100328de7e5134b0db870c24cea24778d43",
+              "source_file_sha256": "7a76ea26fbbf2a3fe2edbf5e83d1614eba3d4f157bb1a1eba5ec7f318b521da8",
+              "method": "full_page_image_and_extracted_text_comparison",
+              "verified_by": "Codex",
+              "human_official_interpretation_completed": false
+            },
+            {
+              "page": 13,
+              "page_text_sha256": "8004706795629d529c8446816cc20ddc2dd47dd50c706dfc2408c0e9e796a575",
+              "source_file_sha256": "7a76ea26fbbf2a3fe2edbf5e83d1614eba3d4f157bb1a1eba5ec7f318b521da8",
+              "method": "full_page_image_and_extracted_text_comparison",
+              "verified_by": "Codex",
+              "human_official_interpretation_completed": false
+            }
+          ]
+        },
+        "image_content_review": {},
+        "structure_review": {},
+        "role_specific_review": false,
+        "local_file_metadata": {
+          "created_at": "2026-10-01T09:38:24+09:00",
+          "modified_at": "2026-10-01T09:38:24+09:00",
+          "time_zone": "Asia/Seoul",
+          "observed_on": "2026-10-13",
+          "source_location": "사용자가 지정한 원본 폴더: 데이터/규정/2. 한국수자원공사",
+          "basis": "local_filesystem_properties",
+          "status": "download_time_candidate_only",
+          "note": "다운로드 로그가 아님. 파일 복사·덮어쓰기·수정으로 달라질 수 있어 retrieved_at으로 확정하지 않음."
+        },
+        "retrieval_metadata": {
+          "value": "2026-10-01T09:38:24+09:00",
+          "basis": "local_modified_time_estimate",
+          "precision": "filesystem_second",
+          "verification_status": "estimated",
+          "recorded_on": "2026-10-13",
+          "note": "사용자가 지정한 원본 폴더의 수정 시각과 원본을 손대지 않았다는 설명에 근거한 확보 시각 추정값. 실제 다운로드 로그에서 확인한 시각은 아님."
+        },
+        "last_pages_date_strings_sample": [
+          "2014.05.27"
+        ]
+      },
+      {
+        "id": "B03",
+        "source": "기타/여비규정(2025년 10월 16일 개정).pdf",
+        "sha256": "b775f00a50ee321a8cedcdbdc98c3df6d9ee024f594e02dd0e87f7d06034a313",
+        "pages": 25,
+        "title": "여비규정",
+        "version_label": "40차",
+        "amendment_date": "2025-10-16",
+        "effective_from": "2025-10-17",
+        "date_review": {
+          "general_effective_from": "2025-10-17",
+          "candidate_from_source": "2025-10-17",
+          "status": "source_visual_verified",
+          "reviewed_on": "2026-10-13",
+          "basis": "원본 PDF 관련 부칙 페이지의 전체 화면과 추출 문자 대조",
+          "amendment_date": "2025-10-16",
+          "source_evidence": [
+            {
+              "node_id": "e7ddb571-1740-5c8f-9ee7-05edf489db27",
+              "text": "제1조(시행일) 이 규정은 2025년 10월 17일부터 시행한다.",
+              "text_sha256": "20ca864746cc34fcecf71da2da92199c4bc66b967974c66f94a572ee6579b9a3",
+              "source_locator": {
+                "coordinate_system": "PDF point; 원점=페이지 왼쪽 위",
+                "pdf_pages": [
+                  15
+                ],
+                "lines": [
+                  {
+                    "line_id": "p015l0008",
+                    "page": 15,
+                    "bbox": [
+                      58.99,
+                      475.106,
+                      323.492,
+                      485.079
+                    ]
+                  }
+                ],
+                "section_kind": "supplement"
+              }
+            }
+          ],
+          "exceptions_review": "조항별 적용례·소급 적용은 별도 조건 원문 후보로 보존. 자동 적용 판정 전.",
+          "note": "최신 개정일과 대응하는 부칙의 일반 시행일 표기를 확인. 효력 종료일은 미확인.",
+          "reviewed_by": "Codex (AI 원문 대조)"
+        },
+        "amendment_date_candidate_from_filename": null,
+        "article_count": 29,
+        "annex_count": 2,
+        "repeated_article_labels": [],
+        "table_count": 10,
+        "chunk_count": 33,
+        "effective_date_candidate_from_pdf_page_3": null,
+        "extraction_method": "pdfplumber_lines_and_detected_tables",
+        "blank_text_pages": [],
+        "short_text_pages": [
+          23
+        ],
+        "short_page_review": {
+          "verified_pages": [
+            23
+          ],
+          "status": "visual_text_match",
+          "reviewed_by": "Codex",
+          "reviewed_on": "2026-10-13",
+          "note": "페이지 전체 이미지·추출 문자를 대조. 삭제 표기·짧은 표·서식도 원문에 보이는 글자가 추출된 것을 확인. 표의 개인별 적용·기관 공식 해석·검색 활성화와 구분.",
+          "source_evidence": [
+            {
+              "page": 23,
+              "page_text_sha256": "49567b58951f981e85960e0608608f216f0170401af3cbc4b71223204d9ac137",
+              "source_file_sha256": "b775f00a50ee321a8cedcdbdc98c3df6d9ee024f594e02dd0e87f7d06034a313",
+              "method": "full_page_image_and_extracted_text_comparison",
+              "verified_by": "Codex",
+              "human_official_interpretation_completed": false
+            }
+          ]
+        },
+        "image_content_review": {},
+        "structure_review": {},
+        "role_specific_review": false,
+        "local_file_metadata": {
+          "created_at": "2026-10-01T09:39:03+09:00",
+          "modified_at": "2026-10-01T09:39:04+09:00",
+          "time_zone": "Asia/Seoul",
+          "observed_on": "2026-10-13",
+          "source_location": "사용자가 지정한 원본 폴더: 데이터/규정/2. 한국수자원공사",
+          "basis": "local_filesystem_properties",
+          "status": "download_time_candidate_only",
+          "note": "다운로드 로그가 아님. 파일 복사·덮어쓰기·수정으로 달라질 수 있어 retrieved_at으로 확정하지 않음."
+        },
+        "retrieval_metadata": {
+          "value": "2026-10-01T09:39:04+09:00",
+          "basis": "local_modified_time_estimate",
+          "precision": "filesystem_second",
+          "verification_status": "estimated",
+          "recorded_on": "2026-10-13",
+          "note": "사용자가 지정한 원본 폴더의 수정 시각과 원본을 손대지 않았다는 설명에 근거한 확보 시각 추정값. 실제 다운로드 로그에서 확인한 시각은 아님."
+        },
+        "last_pages_date_strings_sample": [
+          "2007.12.11",
+          "2010.08.24",
+          "2015.06.15",
+          "2024.09.11"
+        ]
+      },
+      {
+        "id": "B04",
+        "source": "보수/국외근무직원연봉및복지후생규정(2025년 12월 18일 개정).pdf",
+        "sha256": "9dd3b62a07438b1039c45882d34698533e447cc6e0e7397ca62c8e5648dba61c",
+        "pages": 16,
+        "title": "국외근무직원연봉및복지후생규정",
+        "version_label": "18차",
+        "amendment_date": "2025-12-18",
+        "effective_from": "2025-12-19",
+        "date_review": {
+          "general_effective_from": "2025-12-19",
+          "candidate_from_source": "2025-12-19",
+          "status": "source_visual_verified",
+          "reviewed_on": "2026-10-13",
+          "basis": "원본 PDF 관련 부칙 페이지의 전체 화면과 추출 문자 대조",
+          "amendment_date": "2025-12-18",
+          "source_evidence": [
+            {
+              "node_id": "e6fc0e3c-92f6-58dd-92c3-4d50e9938365",
+              "text": "제1조(시행일) 이 규정은 2025년 12월 19일부터 시행한다.",
+              "text_sha256": "e2f3422b761b9b5e1313e10284a55d351c5dcbd5a476639523abae910406e05f",
+              "source_locator": {
+                "coordinate_system": "PDF point; 원점=페이지 왼쪽 위",
+                "pdf_pages": [
+                  10
+                ],
+                "lines": [
+                  {
+                    "line_id": "p010l0001",
+                    "page": 10,
+                    "bbox": [
+                      70.882,
+                      87.877,
+                      334.926,
+                      97.826
+                    ]
+                  }
+                ],
+                "section_kind": "supplement"
+              }
+            }
+          ],
+          "exceptions_review": "조항별 적용례·소급 적용은 별도 조건 원문 후보로 보존. 자동 적용 판정 전.",
+          "note": "최신 개정일과 대응하는 부칙의 일반 시행일 표기를 확인. 효력 종료일은 미확인.",
+          "reviewed_by": "Codex (AI 원문 대조)"
+        },
+        "amendment_date_candidate_from_filename": null,
+        "article_count": 22,
+        "annex_count": 3,
+        "repeated_article_labels": [],
+        "table_count": 7,
+        "chunk_count": 26,
+        "effective_date_candidate_from_pdf_page_3": null,
+        "extraction_method": "pdfplumber_lines_and_detected_tables",
+        "blank_text_pages": [],
+        "short_text_pages": [
+          10,
+          15
+        ],
+        "short_page_review": {
+          "verified_pages": [
+            10,
+            15
+          ],
+          "status": "visual_text_match",
+          "reviewed_by": "Codex",
+          "reviewed_on": "2026-10-13",
+          "note": "페이지 전체 이미지·추출 문자를 대조. 삭제 표기·짧은 표·서식도 원문에 보이는 글자가 추출된 것을 확인. 표의 개인별 적용·기관 공식 해석·검색 활성화와 구분.",
+          "source_evidence": [
+            {
+              "page": 15,
+              "page_text_sha256": "72a053119d9d660252e000d9457d6a3ba3a180d22a3a052bde2a932ba1c36ad1",
+              "source_file_sha256": "9dd3b62a07438b1039c45882d34698533e447cc6e0e7397ca62c8e5648dba61c",
+              "method": "full_page_image_and_extracted_text_comparison",
+              "verified_by": "Codex",
+              "human_official_interpretation_completed": false
+            }
+          ]
+        },
+        "image_content_review": {},
+        "structure_review": {},
+        "role_specific_review": true,
+        "local_file_metadata": {
+          "created_at": "2026-10-01T10:04:07+09:00",
+          "modified_at": "2026-10-01T10:04:08+09:00",
+          "time_zone": "Asia/Seoul",
+          "observed_on": "2026-10-13",
+          "source_location": "사용자가 지정한 원본 폴더: 데이터/규정/2. 한국수자원공사",
+          "basis": "local_filesystem_properties",
+          "status": "download_time_candidate_only",
+          "note": "다운로드 로그가 아님. 파일 복사·덮어쓰기·수정으로 달라질 수 있어 retrieved_at으로 확정하지 않음."
+        },
+        "retrieval_metadata": {
+          "value": "2026-10-01T10:04:08+09:00",
+          "basis": "local_modified_time_estimate",
+          "precision": "filesystem_second",
+          "verification_status": "estimated",
+          "recorded_on": "2026-10-13",
+          "note": "사용자가 지정한 원본 폴더의 수정 시각과 원본을 손대지 않았다는 설명에 근거한 확보 시각 추정값. 실제 다운로드 로그에서 확인한 시각은 아님."
+        },
+        "last_pages_date_strings_sample": [
+          "2004.07.20",
+          "2007.06.26",
+          "2013.12.18",
+          "2015.01.01",
+          "2016.01.01",
+          "2018.12.21",
+          "2020.01.13",
+          "2021.07.01"
+        ]
+      },
+      {
+        "id": "B05",
+        "source": "보수/실무직 보수기준(2026년 6월 22일 개정).pdf",
+        "sha256": "828e1053aa1892ae38cf98421372032af86f7c82e573912b47dd244db9bff2f2",
+        "pages": 12,
+        "title": "실무직 보수기준",
+        "version_label": "차수 미확인",
+        "amendment_date": null,
+        "effective_from": null,
+        "date_review": {},
+        "amendment_date_candidate_from_filename": "2026-06-22",
+        "article_count": 0,
+        "annex_count": 0,
+        "repeated_article_labels": [],
+        "table_count": 8,
+        "chunk_count": 1,
+        "effective_date_candidate_from_pdf_page_3": "2026-06-18",
+        "extraction_method": "pdfplumber_lines_and_detected_tables",
+        "blank_text_pages": [],
+        "short_text_pages": [
+          1,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "short_page_review": {},
+        "image_content_review": {},
+        "structure_review": {},
+        "role_specific_review": true,
+        "local_file_metadata": {
+          "created_at": "2026-10-01T09:33:58+09:00",
+          "modified_at": "2026-10-01T09:33:58+09:00",
+          "time_zone": "Asia/Seoul",
+          "observed_on": "2026-10-13",
+          "source_location": "사용자가 지정한 원본 폴더: 데이터/규정/2. 한국수자원공사",
+          "basis": "local_filesystem_properties",
+          "status": "download_time_candidate_only",
+          "note": "다운로드 로그가 아님. 파일 복사·덮어쓰기·수정으로 달라질 수 있어 retrieved_at으로 확정하지 않음."
+        },
+        "retrieval_metadata": {
+          "value": "2026-10-01T09:33:58+09:00",
+          "basis": "local_modified_time_estimate",
+          "precision": "filesystem_second",
+          "verification_status": "estimated",
+          "recorded_on": "2026-10-13",
+          "note": "사용자가 지정한 원본 폴더의 수정 시각과 원본을 손대지 않았다는 설명에 근거한 확보 시각 추정값. 실제 다운로드 로그에서 확인한 시각은 아님."
+        },
+        "last_pages_date_strings_sample": []
+      },
+      {
+        "id": "B06",
+        "source": "보수/연봉규정(2025년 12월 16일 개정).pdf",
+        "sha256": "b80cdb0be60c3e47bbe13c22a79ef4e2e101cae9dd5da8b76812538c602a5d51",
+        "pages": 19,
+        "title": "연봉규정",
+        "version_label": "26차",
+        "amendment_date": "2025-12-16",
+        "effective_from": "2026-01-01",
+        "date_review": {
+          "general_effective_from": "2026-01-01",
+          "candidate_from_source": "2026-01-01",
+          "status": "source_visual_verified",
+          "reviewed_on": "2026-10-13",
+          "basis": "원본 PDF 관련 부칙 페이지의 전체 화면과 추출 문자 대조",
+          "amendment_date": "2025-12-16",
+          "source_evidence": [
+            {
+              "node_id": "4f289d67-eab9-5fe0-9e9e-f82711ee5a1a",
+              "text": "제1조(시행일) 이 규정은 2026년 1월 1일부터 시행한다. 다만, 별표1의 개정규정은 2025년 1월 1일\n부터, 별표6의 개정규정은 2024년 12월 19일부터 소급하여 적용한다.",
+              "text_sha256": "dc318cc33368f3278d31001e18d7aa7c54e9f701e118b1fe5c72ba0a91810e16",
+              "source_locator": {
+                "coordinate_system": "PDF point; 원점=페이지 왼쪽 위",
+                "pdf_pages": [
+                  14
+                ],
+                "lines": [
+                  {
+                    "line_id": "p014l0015",
+                    "page": 14,
+                    "bbox": [
+                      70.882,
+                      517.847,
+                      524.177,
+                      527.796
+                    ]
+                  },
+                  {
+                    "line_id": "p014l0016",
+                    "page": 14,
+                    "bbox": [
+                      85.034,
+                      533.79,
+                      399.451,
+                      543.739
+                    ]
+                  }
+                ],
+                "section_kind": "supplement"
+              }
+            }
+          ],
+          "exceptions_review": "조항별 적용례·소급 적용은 별도 조건 원문 후보로 보존. 자동 적용 판정 전.",
+          "note": "최신 개정일과 대응하는 부칙의 일반 시행일 표기를 확인. 효력 종료일은 미확인.",
+          "reviewed_by": "Codex (AI 원문 대조)"
+        },
+        "amendment_date_candidate_from_filename": null,
+        "article_count": 22,
+        "annex_count": 5,
+        "repeated_article_labels": [],
+        "table_count": 5,
+        "chunk_count": 27,
+        "effective_date_candidate_from_pdf_page_3": null,
+        "extraction_method": "pdfplumber_lines_and_detected_tables",
+        "blank_text_pages": [],
+        "short_text_pages": [],
+        "short_page_review": {},
+        "image_content_review": {},
+        "structure_review": {},
+        "role_specific_review": false,
+        "local_file_metadata": {
+          "created_at": "2026-10-01T10:02:55+09:00",
+          "modified_at": "2026-10-01T10:02:56+09:00",
+          "time_zone": "Asia/Seoul",
+          "observed_on": "2026-10-13",
+          "source_location": "사용자가 지정한 원본 폴더: 데이터/규정/2. 한국수자원공사",
+          "basis": "local_filesystem_properties",
+          "status": "download_time_candidate_only",
+          "note": "다운로드 로그가 아님. 파일 복사·덮어쓰기·수정으로 달라질 수 있어 retrieved_at으로 확정하지 않음."
+        },
+        "retrieval_metadata": {
+          "value": "2026-10-01T10:02:56+09:00",
+          "basis": "local_modified_time_estimate",
+          "precision": "filesystem_second",
+          "verification_status": "estimated",
+          "recorded_on": "2026-10-13",
+          "note": "사용자가 지정한 원본 폴더의 수정 시각과 원본을 손대지 않았다는 설명에 근거한 확보 시각 추정값. 실제 다운로드 로그에서 확인한 시각은 아님."
+        },
+        "last_pages_date_strings_sample": [
+          "2010.12.31",
+          "2012.12.18",
+          "2013.12.06",
+          "2015.12.18",
+          "2016.12.07",
+          "2018.12.18",
+          "2019.12.20",
+          "2020.12.21"
+        ]
+      },
+      {
+        "id": "B07",
+        "source": "보수/연봉규정시행세칙(2025년 12월 18일 개정).pdf",
+        "sha256": "d343c7ea42c166a948f9f69b4715033447f8266c13ec97ea18ed6eeeb8f6e22e",
+        "pages": 38,
+        "title": "연봉규정시행세칙",
+        "version_label": "34차",
+        "amendment_date": "2025-12-18",
+        "effective_from": "2025-12-19",
+        "date_review": {
+          "general_effective_from": "2025-12-19",
+          "candidate_from_source": "2025-12-19",
+          "status": "source_date_recording_user_accepted",
+          "reviewed_on": "2026-10-13",
+          "basis": "원본 PDF 관련 부칙 페이지의 전체 화면과 추출 문자 대조",
+          "amendment_date": "2025-12-18",
+          "source_evidence": [
+            {
+              "node_id": "47956ad8-ea24-55af-a01d-fb434115ca3a",
+              "text": "제1조(시행일) 이 세칙은 2025년 12월 19일부터 적용한다. 다만, 별표3, 별표3의2, 별표3의3, 별표\n5, 별표8, 별표9의2, 별표10은 2025년 1월 1일부터 적용한다.",
+              "text_sha256": "cab96af810205ba3990adbde85a8e6b27a357b1451860f59c137d677f1962da8",
+              "source_locator": {
+                "coordinate_system": "PDF point; 원점=페이지 왼쪽 위",
+                "pdf_pages": [
+                  25
+                ],
+                "lines": [
+                  {
+                    "line_id": "p025l0002",
+                    "page": 25,
+                    "bbox": [
+                      70.882,
+                      163.874,
+                      524.177,
+                      173.823
+                    ]
+                  },
+                  {
+                    "line_id": "p025l0003",
+                    "page": 25,
+                    "bbox": [
+                      85.034,
+                      179.937,
+                      364.07,
+                      189.886
+                    ]
+                  }
+                ],
+                "section_kind": "supplement"
+              }
+            }
+          ],
+          "exceptions_review": "조항별 적용례·소급 적용은 별도 조건 원문 후보로 보존. 자동 적용 판정 전.",
+          "note": "PDF25쪽 부칙(2025.12.18.) 제1조(시행일)의 제목과 본문을 대조하여 일반 시행일 2025-12-19 기록 방향을 사용자가 수용. 지정 별표 적용일은 별도 보존.",
+          "reviewed_by": "Codex (AI 원문 대조)",
+          "user_review": {
+            "date": "2026-10-13",
+            "recording_direction": "기본 시행일과 별표 적용일을 구분해 기록",
+            "handling_review_status": "user_accepted",
+            "human_official_interpretation_completed": false
+          },
+          "exception_application_dates": [
+            {
+              "target_annex_label": "별표3",
+              "application_from": "2025-01-01",
+              "source_node_id": "47956ad8-ea24-55af-a01d-fb434115ca3a",
+              "source_pdf_page": 25,
+              "recording_review_status": "user_accepted",
+              "applies_to_node_id": null,
+              "automated_decision_enabled": false
+            },
+            {
+              "target_annex_label": "별표3의2",
+              "application_from": "2025-01-01",
+              "source_node_id": "47956ad8-ea24-55af-a01d-fb434115ca3a",
+              "source_pdf_page": 25,
+              "recording_review_status": "user_accepted",
+              "applies_to_node_id": null,
+              "automated_decision_enabled": false
+            },
+            {
+              "target_annex_label": "별표3의3",
+              "application_from": "2025-01-01",
+              "source_node_id": "47956ad8-ea24-55af-a01d-fb434115ca3a",
+              "source_pdf_page": 25,
+              "recording_review_status": "user_accepted",
+              "applies_to_node_id": null,
+              "automated_decision_enabled": false
+            },
+            {
+              "target_annex_label": "별표5",
+              "application_from": "2025-01-01",
+              "source_node_id": "47956ad8-ea24-55af-a01d-fb434115ca3a",
+              "source_pdf_page": 25,
+              "recording_review_status": "user_accepted",
+              "applies_to_node_id": null,
+              "automated_decision_enabled": false
+            },
+            {
+              "target_annex_label": "별표8",
+              "application_from": "2025-01-01",
+              "source_node_id": "47956ad8-ea24-55af-a01d-fb434115ca3a",
+              "source_pdf_page": 25,
+              "recording_review_status": "user_accepted",
+              "applies_to_node_id": null,
+              "automated_decision_enabled": false
+            },
+            {
+              "target_annex_label": "별표9의2",
+              "application_from": "2025-01-01",
+              "source_node_id": "47956ad8-ea24-55af-a01d-fb434115ca3a",
+              "source_pdf_page": 25,
+              "recording_review_status": "user_accepted",
+              "applies_to_node_id": null,
+              "automated_decision_enabled": false
+            },
+            {
+              "target_annex_label": "별표10",
+              "application_from": "2025-01-01",
+              "source_node_id": "47956ad8-ea24-55af-a01d-fb434115ca3a",
+              "source_pdf_page": 25,
+              "recording_review_status": "user_accepted",
+              "applies_to_node_id": null,
+              "automated_decision_enabled": false
+            }
+          ]
+        },
+        "amendment_date_candidate_from_filename": null,
+        "article_count": 56,
+        "annex_count": 11,
+        "repeated_article_labels": [],
+        "table_count": 22,
+        "chunk_count": 69,
+        "effective_date_candidate_from_pdf_page_3": null,
+        "extraction_method": "pdfplumber_lines_and_detected_tables",
+        "blank_text_pages": [],
+        "short_text_pages": [
+          30,
+          34
+        ],
+        "short_page_review": {
+          "verified_pages": [
+            30,
+            34
+          ],
+          "status": "visual_text_match",
+          "reviewed_by": "Codex",
+          "reviewed_on": "2026-10-13",
+          "note": "페이지 전체 이미지·추출 문자를 대조. 삭제 표기·짧은 표·서식도 원문에 보이는 글자가 추출된 것을 확인. 표의 개인별 적용·기관 공식 해석·검색 활성화와 구분.",
+          "source_evidence": [
+            {
+              "page": 30,
+              "page_text_sha256": "3d68c46dd7e1f6e9b95dc450f748f3e29fad0db68a8de74cd351042cb08a6aaf",
+              "source_file_sha256": "d343c7ea42c166a948f9f69b4715033447f8266c13ec97ea18ed6eeeb8f6e22e",
+              "method": "full_page_image_and_extracted_text_comparison",
+              "verified_by": "Codex",
+              "human_official_interpretation_completed": false
+            },
+            {
+              "page": 34,
+              "page_text_sha256": "cbbd92f2b8c9d8cb8b7d66341b585558fe02cdf476fbc8bde0c7c6ef5599b701",
+              "source_file_sha256": "d343c7ea42c166a948f9f69b4715033447f8266c13ec97ea18ed6eeeb8f6e22e",
+              "method": "full_page_image_and_extracted_text_comparison",
+              "verified_by": "Codex",
+              "human_official_interpretation_completed": false
+            }
+          ]
+        },
+        "image_content_review": {},
+        "structure_review": {},
+        "role_specific_review": false,
+        "local_file_metadata": {
+          "created_at": "2026-10-01T10:03:40+09:00",
+          "modified_at": "2026-10-01T10:03:40+09:00",
+          "time_zone": "Asia/Seoul",
+          "observed_on": "2026-10-13",
+          "source_location": "사용자가 지정한 원본 폴더: 데이터/규정/2. 한국수자원공사",
+          "basis": "local_filesystem_properties",
+          "status": "download_time_candidate_only",
+          "note": "다운로드 로그가 아님. 파일 복사·덮어쓰기·수정으로 달라질 수 있어 retrieved_at으로 확정하지 않음."
+        },
+        "retrieval_metadata": {
+          "value": "2026-10-01T10:03:40+09:00",
+          "basis": "local_modified_time_estimate",
+          "precision": "filesystem_second",
+          "verification_status": "estimated",
+          "recorded_on": "2026-10-13",
+          "note": "사용자가 지정한 원본 폴더의 수정 시각과 원본을 손대지 않았다는 설명에 근거한 확보 시각 추정값. 실제 다운로드 로그에서 확인한 시각은 아님."
+        },
+        "last_pages_date_strings_sample": []
+      },
+      {
+        "id": "B08",
+        "source": "보수/특수직 보수기준(2026년 6월 22일 개정).pdf",
+        "sha256": "01afa593dad622735dfb98d9301702dfc978afd73d50871ca5a5ebc585175ac8",
+        "pages": 9,
+        "title": "특수직 보수기준",
+        "version_label": "차수 미확인",
+        "amendment_date": null,
+        "effective_from": null,
+        "date_review": {},
+        "amendment_date_candidate_from_filename": "2026-06-22",
+        "article_count": 0,
+        "annex_count": 0,
+        "repeated_article_labels": [],
+        "table_count": 5,
+        "chunk_count": 1,
+        "effective_date_candidate_from_pdf_page_3": "2026-06-18",
+        "extraction_method": "pdfplumber_lines_and_detected_tables",
+        "blank_text_pages": [],
+        "short_text_pages": [
+          1,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "short_page_review": {},
+        "image_content_review": {},
+        "structure_review": {},
+        "role_specific_review": true,
+        "local_file_metadata": {
+          "created_at": "2026-10-01T09:34:14+09:00",
+          "modified_at": "2026-10-01T09:34:15+09:00",
+          "time_zone": "Asia/Seoul",
+          "observed_on": "2026-10-13",
+          "source_location": "사용자가 지정한 원본 폴더: 데이터/규정/2. 한국수자원공사",
+          "basis": "local_filesystem_properties",
+          "status": "download_time_candidate_only",
+          "note": "다운로드 로그가 아님. 파일 복사·덮어쓰기·수정으로 달라질 수 있어 retrieved_at으로 확정하지 않음."
+        },
+        "retrieval_metadata": {
+          "value": "2026-10-01T09:34:15+09:00",
+          "basis": "local_modified_time_estimate",
+          "precision": "filesystem_second",
+          "verification_status": "estimated",
+          "recorded_on": "2026-10-13",
+          "note": "사용자가 지정한 원본 폴더의 수정 시각과 원본을 손대지 않았다는 설명에 근거한 확보 시각 추정값. 실제 다운로드 로그에서 확인한 시각은 아님."
+        },
+        "last_pages_date_strings_sample": []
+      },
+      {
+        "id": "B09",
+        "source": "인사·복무·징계/국외근무직원복무규정(2025년도 11월 10일 개정).pdf",
+        "sha256": "971e6dfeee861bb3a27dc19dd551521244defc1623b14403788aa266d533b7f1",
+        "pages": 7,
+        "title": "국외근무직원복무규정",
+        "version_label": "13차",
+        "amendment_date": "2025-11-10",
+        "effective_from": "2025-11-10",
+        "date_review": {
+          "general_effective_from": "2025-11-10",
+          "candidate_from_source": "2025-11-10",
+          "status": "source_visual_verified",
+          "reviewed_on": "2026-10-13",
+          "basis": "원본 PDF 관련 부칙 페이지의 전체 화면과 추출 문자 대조",
+          "amendment_date": "2025-11-10",
+          "source_evidence": [
+            {
+              "node_id": "ad412024-6b7e-5536-96bc-723cbcd7376e",
+              "text": "부칙 (2025.11.10.)\n이 규정은 2025년 11월 10일부터 시행한다.",
+              "text_sha256": "b5496c9f400548df8b2ca940f8fd28a267ad56f563bd775f517a7c84b6f4e944",
+              "source_locator": {
+                "coordinate_system": "PDF point; 원점=페이지 왼쪽 위",
+                "pdf_pages": [
+                  6
+                ],
+                "lines": [
+                  {
+                    "line_id": "p006l0007",
+                    "page": 6,
+                    "bbox": [
+                      242.421,
+                      509.819,
+                      326.761,
+                      519.757
+                    ]
+                  },
+                  {
+                    "line_id": "p006l0008",
+                    "page": 6,
+                    "bbox": [
+                      68.614,
+                      562.261,
+                      266.634,
+                      572.198
+                    ]
+                  }
+                ],
+                "section_kind": "supplement"
+              }
+            }
+          ],
+          "exceptions_review": "조항별 적용례·소급 적용은 별도 조건 원문 후보로 보존. 자동 적용 판정 전.",
+          "note": "최신 개정일과 대응하는 부칙의 일반 시행일 표기를 확인. 효력 종료일은 미확인.",
+          "reviewed_by": "Codex (AI 원문 대조)"
+        },
+        "amendment_date_candidate_from_filename": null,
+        "article_count": 15,
+        "annex_count": 0,
+        "repeated_article_labels": [],
+        "table_count": 0,
+        "chunk_count": 16,
+        "effective_date_candidate_from_pdf_page_3": null,
+        "extraction_method": "pdfplumber_lines_and_detected_tables",
+        "blank_text_pages": [],
+        "short_text_pages": [],
+        "short_page_review": {},
+        "image_content_review": {},
+        "structure_review": {},
+        "role_specific_review": true,
+        "local_file_metadata": {
+          "created_at": "2026-10-01T09:29:56+09:00",
+          "modified_at": "2026-10-01T09:29:56+09:00",
+          "time_zone": "Asia/Seoul",
+          "observed_on": "2026-10-13",
+          "source_location": "사용자가 지정한 원본 폴더: 데이터/규정/2. 한국수자원공사",
+          "basis": "local_filesystem_properties",
+          "status": "download_time_candidate_only",
+          "note": "다운로드 로그가 아님. 파일 복사·덮어쓰기·수정으로 달라질 수 있어 retrieved_at으로 확정하지 않음."
+        },
+        "retrieval_metadata": {
+          "value": "2026-10-01T09:29:56+09:00",
+          "basis": "local_modified_time_estimate",
+          "precision": "filesystem_second",
+          "verification_status": "estimated",
+          "recorded_on": "2026-10-13",
+          "note": "사용자가 지정한 원본 폴더의 수정 시각과 원본을 손대지 않았다는 설명에 근거한 확보 시각 추정값. 실제 다운로드 로그에서 확인한 시각은 아님."
+        },
+        "last_pages_date_strings_sample": [
+          "2015.11.09",
+          "2016.12.01",
+          "2018.01.08",
+          "2018.10.22",
+          "2021.08.23",
+          "2023.06.30",
+          "2024.07.02",
+          "2024.12.27"
+        ]
+      },
+      {
+        "id": "B10",
+        "source": "인사·복무·징계/근무및부업관리규정(2025년도 11월 10일 개정).pdf",
+        "sha256": "1574f9702b40bfbb64e9042593bee7156fc43f8ec53f4110822677c1abd63480",
+        "pages": 13,
+        "title": "근무및부업관리규정",
+        "version_label": "12차",
+        "amendment_date": "2025-11-10",
+        "effective_from": "2025-11-10",
+        "date_review": {
+          "general_effective_from": "2025-11-10",
+          "candidate_from_source": "2025-11-10",
+          "status": "source_visual_verified",
+          "reviewed_on": "2026-10-13",
+          "basis": "원본 PDF 관련 부칙 페이지의 전체 화면과 추출 문자 대조",
+          "amendment_date": "2025-11-10",
+          "source_evidence": [
+            {
+              "node_id": "28b7f0b8-d019-5752-89b7-c430f36765c6",
+              "text": "부칙 (2025.11.10.)\n이 규정은 2025년 11월 10일부터 시행한다.",
+              "text_sha256": "b5496c9f400548df8b2ca940f8fd28a267ad56f563bd775f517a7c84b6f4e944",
+              "source_locator": {
+                "coordinate_system": "PDF point; 원점=페이지 왼쪽 위",
+                "pdf_pages": [
+                  10
+                ],
+                "lines": [
+                  {
+                    "line_id": "p010l0001",
+                    "page": 10,
+                    "bbox": [
+                      242.421,
+                      99.388,
+                      326.761,
+                      109.326
+                    ]
+                  },
+                  {
+                    "line_id": "p010l0002",
+                    "page": 10,
+                    "bbox": [
+                      68.614,
+                      151.71,
+                      266.634,
+                      161.647
+                    ]
+                  }
+                ],
+                "section_kind": "supplement"
+              }
+            }
+          ],
+          "exceptions_review": "조항별 적용례·소급 적용은 별도 조건 원문 후보로 보존. 자동 적용 판정 전.",
+          "note": "최신 개정일과 대응하는 부칙의 일반 시행일 표기를 확인. 효력 종료일은 미확인.",
+          "reviewed_by": "Codex (AI 원문 대조)"
+        },
+        "amendment_date_candidate_from_filename": null,
+        "article_count": 29,
+        "annex_count": 0,
+        "repeated_article_labels": [],
+        "table_count": 2,
+        "chunk_count": 32,
+        "effective_date_candidate_from_pdf_page_3": null,
+        "extraction_method": "pdfplumber_lines_and_detected_tables",
+        "blank_text_pages": [],
+        "short_text_pages": [
+          10
+        ],
+        "short_page_review": {
+          "verified_pages": [
+            10
+          ],
+          "status": "visual_text_match",
+          "reviewed_by": "Codex",
+          "reviewed_on": "2026-10-13",
+          "note": "페이지 전체를 렌더링해 원문 문자와 대조. 짧은 분량 자체로 문자 누락을 판정하지 않음. 규정 해석·검색 활성화 검토와는 별개."
+        },
+        "image_content_review": {},
+        "structure_review": {},
+        "role_specific_review": false,
+        "local_file_metadata": {
+          "created_at": "2026-10-01T09:30:38+09:00",
+          "modified_at": "2026-10-01T09:30:38+09:00",
+          "time_zone": "Asia/Seoul",
+          "observed_on": "2026-10-13",
+          "source_location": "사용자가 지정한 원본 폴더: 데이터/규정/2. 한국수자원공사",
+          "basis": "local_filesystem_properties",
+          "status": "download_time_candidate_only",
+          "note": "다운로드 로그가 아님. 파일 복사·덮어쓰기·수정으로 달라질 수 있어 retrieved_at으로 확정하지 않음."
+        },
+        "retrieval_metadata": {
+          "value": "2026-10-01T09:30:38+09:00",
+          "basis": "local_modified_time_estimate",
+          "precision": "filesystem_second",
+          "verification_status": "estimated",
+          "recorded_on": "2026-10-13",
+          "note": "사용자가 지정한 원본 폴더의 수정 시각과 원본을 손대지 않았다는 설명에 근거한 확보 시각 추정값. 실제 다운로드 로그에서 확인한 시각은 아님."
+        },
+        "last_pages_date_strings_sample": [
+          "2020.01.01",
+          "2021.01.31"
+        ]
+      },
+      {
+        "id": "B11",
+        "source": "인사·복무·징계/기간제근로자 관리규정(2025년도 11월 11일 개정).pdf",
+        "sha256": "c9b4a1e6fc9fdc4f39ddbdfe3af4ec6194c98c27a881836d12d7847c573eb334",
+        "pages": 36,
+        "title": "기간제근로자 관리규정",
+        "version_label": "8차",
+        "amendment_date": "2025-11-11",
+        "effective_from": "2025-11-11",
+        "date_review": {
+          "general_effective_from": "2025-11-11",
+          "candidate_from_source": "2025-11-11",
+          "status": "source_visual_verified",
+          "reviewed_on": "2026-10-13",
+          "basis": "원본 PDF 관련 부칙 페이지의 전체 화면과 추출 문자 대조",
+          "amendment_date": "2025-11-11",
+          "source_evidence": [
+            {
+              "node_id": "d401deab-e8b4-56ba-97a9-fd4349ae82de",
+              "text": "제1조(시행일) 이 규정은 2025년 11월 11일부터 시행한다.\n20190481-2511월17-101114 [15/36] lms.kwater.or.kr\n기간제근로자 관리규정",
+              "text_sha256": "63f8c5bec2178d362836a42141405f6fdac2d1e78cc2da231bdfbe017a6d8a9e",
+              "source_locator": {
+                "coordinate_system": "PDF point; 원점=페이지 왼쪽 위",
+                "pdf_pages": [
+                  15,
+                  16
+                ],
+                "lines": [
+                  {
+                    "line_id": "p015l0021",
+                    "page": 15,
+                    "bbox": [
+                      58.693,
+                      693.723,
+                      321.861,
+                      703.661
+                    ]
+                  },
+                  {
+                    "line_id": "p015l0022",
+                    "page": 15,
+                    "bbox": [
+                      65.745,
+                      766.577,
+                      497.189,
+                      776.514
+                    ]
+                  },
+                  {
+                    "line_id": "p016l0001",
+                    "page": 16,
+                    "bbox": [
+                      44.468,
+                      14.08,
+                      149.062,
+                      24.018
+                    ]
+                  }
+                ],
+                "section_kind": "supplement"
+              }
+            }
+          ],
+          "exceptions_review": "조항별 적용례·소급 적용은 별도 조건 원문 후보로 보존. 자동 적용 판정 전.",
+          "note": "최신 개정일과 대응하는 부칙의 일반 시행일 표기를 확인. 효력 종료일은 미확인.",
+          "reviewed_by": "Codex (AI 원문 대조)"
+        },
+        "amendment_date_candidate_from_filename": null,
+        "article_count": 45,
+        "annex_count": 2,
+        "repeated_article_labels": [],
+        "table_count": 11,
+        "chunk_count": 62,
+        "effective_date_candidate_from_pdf_page_3": null,
+        "extraction_method": "pdfplumber_lines_and_detected_tables",
+        "blank_text_pages": [],
+        "short_text_pages": [],
+        "short_page_review": {},
+        "image_content_review": {},
+        "structure_review": {},
+        "role_specific_review": true,
+        "local_file_metadata": {
+          "created_at": "2026-10-01T09:28:30+09:00",
+          "modified_at": "2026-10-01T09:28:31+09:00",
+          "time_zone": "Asia/Seoul",
+          "observed_on": "2026-10-13",
+          "source_location": "사용자가 지정한 원본 폴더: 데이터/규정/2. 한국수자원공사",
+          "basis": "local_filesystem_properties",
+          "status": "download_time_candidate_only",
+          "note": "다운로드 로그가 아님. 파일 복사·덮어쓰기·수정으로 달라질 수 있어 retrieved_at으로 확정하지 않음."
+        },
+        "retrieval_metadata": {
+          "value": "2026-10-01T09:28:31+09:00",
+          "basis": "local_modified_time_estimate",
+          "precision": "filesystem_second",
+          "verification_status": "estimated",
+          "recorded_on": "2026-10-13",
+          "note": "사용자가 지정한 원본 폴더의 수정 시각과 원본을 손대지 않았다는 설명에 근거한 확보 시각 추정값. 실제 다운로드 로그에서 확인한 시각은 아님."
+        },
+        "last_pages_date_strings_sample": []
+      },
+      {
+        "id": "B12",
+        "source": "인사·복무·징계/기간제근로자 관리기준(2025년도 12월 31일 개정).pdf",
+        "sha256": "6599e1cda85c01ce9f6d37fba6b766ee41518854c77c27cc4753ad93d163bc5c",
+        "pages": 103,
+        "title": "기간제근로자 관리기준",
+        "version_label": "8차",
+        "amendment_date": "2025-12-31",
+        "effective_from": "2026-01-02",
+        "date_review": {
+          "general_effective_from": "2026-01-02",
+          "candidate_from_source": "2026-01-02",
+          "status": "source_visual_verified",
+          "reviewed_on": "2026-10-13",
+          "basis": "원본 PDF 관련 부칙 페이지의 전체 화면과 추출 문자 대조",
+          "amendment_date": "2025-12-31",
+          "source_evidence": [
+            {
+              "node_id": "27e9263e-a8d6-506c-82e0-edbdd466a95e",
+              "text": "부칙 (2025.12.31.)\n이 기준은 2026년 1월 2일부터 시행한다.",
+              "text_sha256": "cb18e2804641f2d33c8f8e7b46b84cf0c6d220d724eafcb65bdf756e3985d559",
+              "source_locator": {
+                "coordinate_system": "PDF point; 원점=페이지 왼쪽 위",
+                "pdf_pages": [
+                  16
+                ],
+                "lines": [
+                  {
+                    "line_id": "p016l0011",
+                    "page": 16,
+                    "bbox": [
+                      255.36,
+                      418.478,
+                      339.945,
+                      428.558
+                    ]
+                  },
+                  {
+                    "line_id": "p016l0012",
+                    "page": 16,
+                    "bbox": [
+                      80.88,
+                      470.798,
+                      268.425,
+                      480.878
+                    ]
+                  }
+                ],
+                "section_kind": "supplement"
+              }
+            }
+          ],
+          "exceptions_review": "조항별 적용례·소급 적용은 별도 조건 원문 후보로 보존. 자동 적용 판정 전.",
+          "note": "최신 개정일과 대응하는 부칙의 일반 시행일 표기를 확인. 효력 종료일은 미확인.",
+          "reviewed_by": "Codex (AI 원문 대조)"
+        },
+        "amendment_date_candidate_from_filename": null,
+        "article_count": 23,
+        "annex_count": 6,
+        "repeated_article_labels": [],
+        "table_count": 118,
+        "chunk_count": 77,
+        "effective_date_candidate_from_pdf_page_3": null,
+        "extraction_method": "pdfplumber_lines_and_detected_tables",
+        "blank_text_pages": [],
+        "short_text_pages": [
+          47,
+          64,
+          88,
+          91
+        ],
+        "short_page_review": {
+          "verified_pages": [
+            47,
+            64,
+            88,
+            91
+          ],
+          "status": "visible_text_covered_by_extracted_text",
+          "reviewed_by": "Codex",
+          "reviewed_on": "2026-10-13",
+          "note": "해당 페이지 전체 이미지에서 읽을 수 있는 내용이 추출 문자에 포함됨을 확인. 짧은 서식·표·빈 페이지. 개인별 적용·표 의미의 공식 해석·검색 활성화는 별도 검토.",
+          "source_evidence": [
+            {
+              "page": 47,
+              "page_text_sha256": "72c707c81ec5d0a8faff18e2582b3ae385db617d55bf7a1604ce740f21e2ee1d",
+              "source_file_sha256": "6599e1cda85c01ce9f6d37fba6b766ee41518854c77c27cc4753ad93d163bc5c",
+              "method": "full_page_image_and_extracted_text_comparison",
+              "verified_by": "Codex",
+              "human_official_interpretation_completed": false
+            },
+            {
+              "page": 64,
+              "page_text_sha256": "574e6a7a40a5dc43f299710a4c9185203f6f98927332ee609dde2fe44060f124",
+              "source_file_sha256": "6599e1cda85c01ce9f6d37fba6b766ee41518854c77c27cc4753ad93d163bc5c",
+              "method": "full_page_image_and_extracted_text_comparison",
+              "verified_by": "Codex",
+              "human_official_interpretation_completed": false
+            },
+            {
+              "page": 88,
+              "page_text_sha256": "34b915d8dc45f8c75d95b508c090373cf8e1567aabab7583b6c07378ec9fa603",
+              "source_file_sha256": "6599e1cda85c01ce9f6d37fba6b766ee41518854c77c27cc4753ad93d163bc5c",
+              "method": "full_page_image_and_extracted_text_comparison",
+              "verified_by": "Codex",
+              "human_official_interpretation_completed": false
+            },
+            {
+              "page": 91,
+              "page_text_sha256": "f257b2d0565dc9daf13cafad13c70e769d1bc5d1f595a5bcdeaea393157001ff",
+              "source_file_sha256": "6599e1cda85c01ce9f6d37fba6b766ee41518854c77c27cc4753ad93d163bc5c",
+              "method": "full_page_image_and_extracted_text_comparison",
+              "verified_by": "Codex",
+              "human_official_interpretation_completed": false
+            }
+          ]
+        },
+        "image_content_review": {},
+        "structure_review": {},
+        "role_specific_review": true,
+        "local_file_metadata": {
+          "created_at": "2026-10-01T09:27:38+09:00",
+          "modified_at": "2026-10-01T09:27:39+09:00",
+          "time_zone": "Asia/Seoul",
+          "observed_on": "2026-10-13",
+          "source_location": "사용자가 지정한 원본 폴더: 데이터/규정/2. 한국수자원공사",
+          "basis": "local_filesystem_properties",
+          "status": "download_time_candidate_only",
+          "note": "다운로드 로그가 아님. 파일 복사·덮어쓰기·수정으로 달라질 수 있어 retrieved_at으로 확정하지 않음."
+        },
+        "retrieval_metadata": {
+          "value": "2026-10-01T09:27:39+09:00",
+          "basis": "local_modified_time_estimate",
+          "precision": "filesystem_second",
+          "verification_status": "estimated",
+          "recorded_on": "2026-10-13",
+          "note": "사용자가 지정한 원본 폴더의 수정 시각과 원본을 손대지 않았다는 설명에 근거한 확보 시각 추정값. 실제 다운로드 로그에서 확인한 시각은 아님."
+        },
+        "last_pages_date_strings_sample": []
+      },
+      {
+        "id": "B13",
+        "source": "인사·복무·징계/내부임용시험시행지침(2022년도 05월 개정).pdf",
+        "sha256": "34654b99b56cd00067b58fa98a2ffecf6abfce66ffd89859b6dddfee5f5e62b9",
+        "pages": 10,
+        "title": "내부임용시험시행지침",
+        "version_label": "13차",
+        "amendment_date": "2022-05-02",
+        "effective_from": "2022-04-30",
+        "date_review": {
+          "general_effective_from": "2022-04-30",
+          "candidate_from_source": "2022-04-30",
+          "status": "source_date_recording_user_accepted",
+          "reviewed_on": "2026-10-13",
+          "basis": "원본 PDF 관련 부칙 페이지의 전체 화면과 추출 문자 대조",
+          "amendment_date": "2022-05-02",
+          "source_evidence": [
+            {
+              "node_id": "cdc411d7-21e8-5579-884e-5a15f600a96b",
+              "text": "부칙 (2022.05.02.)\n이 지침은 2022년 4월 30일부터 시행한다.",
+              "text_sha256": "1e6dc2884a6d9562610f5ddd69f44a0196dd90bbbcab11431f679073e714a9fa",
+              "source_locator": {
+                "coordinate_system": "PDF point; 원점=페이지 왼쪽 위",
+                "pdf_pages": [
+                  6
+                ],
+                "lines": [
+                  {
+                    "line_id": "p006l0001",
+                    "page": 6,
+                    "bbox": [
+                      255.222,
+                      140.38,
+                      339.842,
+                      150.329
+                    ]
+                  },
+                  {
+                    "line_id": "p006l0002",
+                    "page": 6,
+                    "bbox": [
+                      80.836,
+                      192.763,
+                      273.999,
+                      202.712
+                    ]
+                  }
+                ],
+                "section_kind": "supplement"
+              }
+            }
+          ],
+          "exceptions_review": "조항별 적용례·소급 적용은 별도 조건 원문 후보로 보존. 자동 적용 판정 전.",
+          "note": "PDF6쪽 최신 부칙의 시행일 2022-04-30과 개정일 2022-05-02를 각각 기록하고 날짜 순서 차이를 메모하는 방향을 사용자가 수용.",
+          "reviewed_by": "Codex (AI 원문 대조)",
+          "chronology_note": "원문 시행일 2022-04-30이 개정일 2022-05-02보다 앞선다. 원문 날짜를 각각 기록하고 순서 차이를 검토 메모로 보존한다.",
+          "user_review": {
+            "date": "2026-10-13",
+            "recording_direction": "원문 날짜 각각 기록, 순서 차이는 메모",
+            "handling_review_status": "user_accepted",
+            "human_official_interpretation_completed": false
+          }
+        },
+        "amendment_date_candidate_from_filename": null,
+        "article_count": 14,
+        "annex_count": 3,
+        "repeated_article_labels": [],
+        "table_count": 7,
+        "chunk_count": 17,
+        "effective_date_candidate_from_pdf_page_3": null,
+        "extraction_method": "pdfplumber_lines_and_detected_tables",
+        "blank_text_pages": [],
+        "short_text_pages": [
+          6
+        ],
+        "short_page_review": {
+          "verified_pages": [
+            6
+          ],
+          "status": "visual_text_match",
+          "reviewed_by": "Codex",
+          "reviewed_on": "2026-10-13",
+          "note": "페이지 전체를 렌더링해 원문 문자와 대조. 짧은 분량 자체로 문자 누락을 판정하지 않음. 규정 해석·검색 활성화 검토와는 별개."
+        },
+        "image_content_review": {},
+        "structure_review": {},
+        "role_specific_review": false,
+        "local_file_metadata": {
+          "created_at": "2026-10-01T09:33:06+09:00",
+          "modified_at": "2026-10-01T09:33:06+09:00",
+          "time_zone": "Asia/Seoul",
+          "observed_on": "2026-10-13",
+          "source_location": "사용자가 지정한 원본 폴더: 데이터/규정/2. 한국수자원공사",
+          "basis": "local_filesystem_properties",
+          "status": "download_time_candidate_only",
+          "note": "다운로드 로그가 아님. 파일 복사·덮어쓰기·수정으로 달라질 수 있어 retrieved_at으로 확정하지 않음."
+        },
+        "retrieval_metadata": {
+          "value": "2026-10-01T09:33:06+09:00",
+          "basis": "local_modified_time_estimate",
+          "precision": "filesystem_second",
+          "verification_status": "estimated",
+          "recorded_on": "2026-10-13",
+          "note": "사용자가 지정한 원본 폴더의 수정 시각과 원본을 손대지 않았다는 설명에 근거한 확보 시각 추정값. 실제 다운로드 로그에서 확인한 시각은 아님."
+        },
+        "last_pages_date_strings_sample": [
+          "2004.7.19",
+          "2014.1.1",
+          "2016.1.1"
+        ]
+      },
+      {
+        "id": "B14",
+        "source": "인사·복무·징계/실무직 관리규정(2025년도 12월 31일 개정).pdf",
+        "sha256": "f1d89446acc4c9241d5815c9a82391317183f7ea4c14ca240b976c4efdb8f6f3",
+        "pages": 16,
+        "title": "실무직 관리규정",
+        "version_label": "9차",
+        "amendment_date": "2025-12-31",
+        "effective_from": "2026-01-02",
+        "date_review": {
+          "general_effective_from": "2026-01-02",
+          "candidate_from_source": "2026-01-02",
+          "status": "source_visual_verified",
+          "reviewed_on": "2026-10-13",
+          "basis": "원본 PDF 관련 부칙 페이지의 전체 화면과 추출 문자 대조",
+          "amendment_date": "2025-12-31",
+          "source_evidence": [
+            {
+              "node_id": "ab878805-631c-5f48-a72f-d048023ebdf6",
+              "text": "부칙 (2025.12.31.)\n이 규정은 2026년 1월 2일부터 시행한다.",
+              "text_sha256": "65337d6637bda2e79fda9f89487ba71a4e3ce53405640064b7acb7d19a09a271",
+              "source_locator": {
+                "coordinate_system": "PDF point; 원점=페이지 왼쪽 위",
+                "pdf_pages": [
+                  10
+                ],
+                "lines": [
+                  {
+                    "line_id": "p010l0007",
+                    "page": 10,
+                    "bbox": [
+                      255.36,
+                      347.918,
+                      339.945,
+                      357.998
+                    ]
+                  },
+                  {
+                    "line_id": "p010l0008",
+                    "page": 10,
+                    "bbox": [
+                      80.88,
+                      400.238,
+                      268.425,
+                      410.318
+                    ]
+                  }
+                ],
+                "section_kind": "supplement"
+              }
+            }
+          ],
+          "exceptions_review": "조항별 적용례·소급 적용은 별도 조건 원문 후보로 보존. 자동 적용 판정 전.",
+          "note": "최신 개정일과 대응하는 부칙의 일반 시행일 표기를 확인. 효력 종료일은 미확인.",
+          "reviewed_by": "Codex (AI 원문 대조)"
+        },
+        "amendment_date_candidate_from_filename": null,
+        "article_count": 36,
+        "annex_count": 1,
+        "repeated_article_labels": [],
+        "table_count": 2,
+        "chunk_count": 41,
+        "effective_date_candidate_from_pdf_page_3": null,
+        "extraction_method": "pdfplumber_lines_and_detected_tables",
+        "blank_text_pages": [],
+        "short_text_pages": [
+          11,
+          14,
+          15
+        ],
+        "short_page_review": {
+          "verified_pages": [
+            11,
+            14,
+            15
+          ],
+          "status": "visual_text_match",
+          "reviewed_by": "Codex",
+          "reviewed_on": "2026-10-13",
+          "note": "페이지 전체 이미지·추출 문자를 대조. 삭제 표기·짧은 표·서식도 원문에 보이는 글자가 추출된 것을 확인. 표의 개인별 적용·기관 공식 해석·검색 활성화와 구분.",
+          "source_evidence": [
+            {
+              "page": 11,
+              "page_text_sha256": "ddf4f3bbf8b925e834cdcb183d50cdfaa3518e7eb75469e0b45ff02f9a5df901",
+              "source_file_sha256": "f1d89446acc4c9241d5815c9a82391317183f7ea4c14ca240b976c4efdb8f6f3",
+              "method": "full_page_image_and_extracted_text_comparison",
+              "verified_by": "Codex",
+              "human_official_interpretation_completed": false
+            },
+            {
+              "page": 14,
+              "page_text_sha256": "5989896310abbafa59d9a29ce731eef5456a3b9ff3c9af085491d2a0d8ac28ad",
+              "source_file_sha256": "f1d89446acc4c9241d5815c9a82391317183f7ea4c14ca240b976c4efdb8f6f3",
+              "method": "full_page_image_and_extracted_text_comparison",
+              "verified_by": "Codex",
+              "human_official_interpretation_completed": false
+            },
+            {
+              "page": 15,
+              "page_text_sha256": "22ffbc386aa48181c963c5b149eb2df28287a4bb14aefdddd714a8abb3130df4",
+              "source_file_sha256": "f1d89446acc4c9241d5815c9a82391317183f7ea4c14ca240b976c4efdb8f6f3",
+              "method": "full_page_image_and_extracted_text_comparison",
+              "verified_by": "Codex",
+              "human_official_interpretation_completed": false
+            }
+          ]
+        },
+        "image_content_review": {},
+        "structure_review": {},
+        "role_specific_review": true,
+        "local_file_metadata": {
+          "created_at": "2026-10-01T09:28:08+09:00",
+          "modified_at": "2026-10-01T09:28:08+09:00",
+          "time_zone": "Asia/Seoul",
+          "observed_on": "2026-10-13",
+          "source_location": "사용자가 지정한 원본 폴더: 데이터/규정/2. 한국수자원공사",
+          "basis": "local_filesystem_properties",
+          "status": "download_time_candidate_only",
+          "note": "다운로드 로그가 아님. 파일 복사·덮어쓰기·수정으로 달라질 수 있어 retrieved_at으로 확정하지 않음."
+        },
+        "retrieval_metadata": {
+          "value": "2026-10-01T09:28:08+09:00",
+          "basis": "local_modified_time_estimate",
+          "precision": "filesystem_second",
+          "verification_status": "estimated",
+          "recorded_on": "2026-10-13",
+          "note": "사용자가 지정한 원본 폴더의 수정 시각과 원본을 손대지 않았다는 설명에 근거한 확보 시각 추정값. 실제 다운로드 로그에서 확인한 시각은 아님."
+        },
+        "last_pages_date_strings_sample": []
+      },
+      {
+        "id": "B15",
+        "source": "인사·복무·징계/실무직 관리기준(2025년도 12월 31일 개정).pdf",
+        "sha256": "532d77166d1e1c3ff65e6376c893b26b388289fffbc5ecad96784531dcbcebd8",
+        "pages": 78,
+        "title": "실무직 관리기준",
+        "version_label": "8차",
+        "amendment_date": "2025-12-31",
+        "effective_from": "2026-01-02",
+        "date_review": {
+          "general_effective_from": "2026-01-02",
+          "candidate_from_source": "2026-01-02",
+          "status": "source_visual_verified",
+          "reviewed_on": "2026-10-13",
+          "basis": "원본 PDF 관련 부칙 페이지의 전체 화면과 추출 문자 대조",
+          "amendment_date": "2025-12-31",
+          "source_evidence": [
+            {
+              "node_id": "9b375359-cd9a-5376-8034-1ba3336e1ae0",
+              "text": "부칙 (2025.12.31.)\n이 기준은 2026년 1월 2일부터 시행한다.",
+              "text_sha256": "cb18e2804641f2d33c8f8e7b46b84cf0c6d220d724eafcb65bdf756e3985d559",
+              "source_locator": {
+                "coordinate_system": "PDF point; 원점=페이지 왼쪽 위",
+                "pdf_pages": [
+                  14
+                ],
+                "lines": [
+                  {
+                    "line_id": "p014l0014",
+                    "page": 14,
+                    "bbox": [
+                      255.36,
+                      479.198,
+                      339.945,
+                      489.278
+                    ]
+                  },
+                  {
+                    "line_id": "p014l0015",
+                    "page": 14,
+                    "bbox": [
+                      80.88,
+                      531.758,
+                      268.425,
+                      541.838
+                    ]
+                  }
+                ],
+                "section_kind": "supplement"
+              }
+            }
+          ],
+          "exceptions_review": "조항별 적용례·소급 적용은 별도 조건 원문 후보로 보존. 자동 적용 판정 전.",
+          "note": "최신 개정일과 대응하는 부칙의 일반 시행일 표기를 확인. 효력 종료일은 미확인.",
+          "reviewed_by": "Codex (AI 원문 대조)"
+        },
+        "amendment_date_candidate_from_filename": null,
+        "article_count": 11,
+        "annex_count": 4,
+        "repeated_article_labels": [],
+        "table_count": 84,
+        "chunk_count": 57,
+        "effective_date_candidate_from_pdf_page_3": null,
+        "extraction_method": "pdfplumber_lines_and_detected_tables",
+        "blank_text_pages": [],
+        "short_text_pages": [],
+        "short_page_review": {},
+        "image_content_review": {},
+        "structure_review": {},
+        "role_specific_review": true,
+        "local_file_metadata": {
+          "created_at": "2026-10-01T09:27:53+09:00",
+          "modified_at": "2026-10-01T09:27:53+09:00",
+          "time_zone": "Asia/Seoul",
+          "observed_on": "2026-10-13",
+          "source_location": "사용자가 지정한 원본 폴더: 데이터/규정/2. 한국수자원공사",
+          "basis": "local_filesystem_properties",
+          "status": "download_time_candidate_only",
+          "note": "다운로드 로그가 아님. 파일 복사·덮어쓰기·수정으로 달라질 수 있어 retrieved_at으로 확정하지 않음."
+        },
+        "retrieval_metadata": {
+          "value": "2026-10-01T09:27:53+09:00",
+          "basis": "local_modified_time_estimate",
+          "precision": "filesystem_second",
+          "verification_status": "estimated",
+          "recorded_on": "2026-10-13",
+          "note": "사용자가 지정한 원본 폴더의 수정 시각과 원본을 손대지 않았다는 설명에 근거한 확보 시각 추정값. 실제 다운로드 로그에서 확인한 시각은 아님."
+        },
+        "last_pages_date_strings_sample": []
+      },
+      {
+        "id": "B16",
+        "source": "인사·복무·징계/운영직관리세칙(2024년도 12월 개정).pdf",
+        "sha256": "4c201be3ff8471b5c6e9359450041aa70440a93bcc1fb86313ab8fb414cf2622",
+        "pages": 20,
+        "title": "운영직관리세칙",
+        "version_label": "31차",
+        "amendment_date": "2024-12-27",
+        "effective_from": null,
+        "date_review": {
+          "general_effective_from": null,
+          "candidate_from_source": null,
+          "status": "source_display_incomplete",
+          "reviewed_on": "2026-10-13",
+          "basis": "원본 PDF 관련 부칙 페이지의 전체 화면과 추출 문자 대조",
+          "amendment_date": "2024-12-27",
+          "source_evidence": [
+            {
+              "node_id": "42fd0a2c-30bc-5476-bd6b-0961ec9b9480",
+              "text": "제1조(시행일) 이 세칙은 2014년 12월 3일부터 시행한다.\n제34조의 개정규정\n이 세칙은 201\n제25조의 개정규\n이 세칙은 201\n제33조의 개정규정에 따른 20\n이 규정은 201\n제66조 제2항의\n이 세칙은 202\n제14조의 개정규정은 2021년 1월 1\n이 세칙은 202\n제15조제5항의 개정규정은 2026년",
+              "text_sha256": "e4252a12d2569ab9b3423e45dfe6192d1eecba7f1f288f164b3b3369f623411b",
+              "source_locator": {
+                "coordinate_system": "PDF point; 원점=페이지 왼쪽 위",
+                "pdf_pages": [
+                  13,
+                  14,
+                  15,
+                  17
+                ],
+                "lines": [
+                  {
+                    "line_id": "p013l0015",
+                    "page": 13,
+                    "bbox": [
+                      70.882,
+                      708.679,
+                      329.409,
+                      718.628
+                    ]
+                  },
+                  {
+                    "line_id": "p013l0016",
+                    "page": 13,
+                    "bbox": [
+                      70.882,
+                      731.214,
+                      154.897,
+                      741.163
+                    ]
+                  },
+                  {
+                    "line_id": "p014l0001",
+                    "page": 14,
+                    "bbox": [
+                      70.882,
+                      291.295,
+                      136.204,
+                      301.244
+                    ]
+                  },
+                  {
+                    "line_id": "p014l0002",
+                    "page": 14,
+                    "bbox": [
+                      70.882,
+                      313.71,
+                      145.182,
+                      323.659
+                    ]
+                  },
+                  {
+                    "line_id": "p014l0003",
+                    "page": 14,
+                    "bbox": [
+                      70.882,
+                      412.243,
+                      136.204,
+                      422.192
+                    ]
+                  },
+                  {
+                    "line_id": "p014l0004",
+                    "page": 14,
+                    "bbox": [
+                      70.882,
+                      434.778,
+                      205.047,
+                      444.727
+                    ]
+                  },
+                  {
+                    "line_id": "p014l0005",
+                    "page": 14,
+                    "bbox": [
+                      70.882,
+                      660.611,
+                      136.204,
+                      670.56
+                    ]
+                  },
+                  {
+                    "line_id": "p014l0006",
+                    "page": 14,
+                    "bbox": [
+                      70.882,
+                      683.027,
+                      140.985,
+                      692.976
+                    ]
+                  },
+                  {
+                    "line_id": "p015l0001",
+                    "page": 15,
+                    "bbox": [
+                      70.882,
+                      724.741,
+                      136.204,
+                      734.69
+                    ]
+                  },
+                  {
+                    "line_id": "p015l0002",
+                    "page": 15,
+                    "bbox": [
+                      70.882,
+                      747.157,
+                      232.152,
+                      757.106
+                    ]
+                  },
+                  {
+                    "line_id": "p017l0001",
+                    "page": 17,
+                    "bbox": [
+                      70.882,
+                      215.298,
+                      136.204,
+                      225.247
+                    ]
+                  },
+                  {
+                    "line_id": "p017l0002",
+                    "page": 17,
+                    "bbox": [
+                      70.882,
+                      237.713,
+                      226.259,
+                      247.663
+                    ]
+                  }
+                ],
+                "section_kind": "supplement"
+              }
+            }
+          ],
+          "exceptions_review": "조항별 적용례·소급 적용은 별도 조건 원문 후보로 보존. 자동 적용 판정 전.",
+          "note": "PDF 14~17쪽 부칙 문장이 일부만 표시됨. 사용자도 원본 PDF 뷰어에서 같은 현상을 확인(2026-10-13). 최신 시행일 추정 없이 보류. 전체 문장이 보이는 원문 재확보 필요.",
+          "user_confirmation": "원본 PDF에서도 일부만 보임",
+          "reviewed_by": "Codex (AI 원문 대조)"
+        },
+        "amendment_date_candidate_from_filename": null,
+        "article_count": 77,
+        "annex_count": 2,
+        "repeated_article_labels": [
+          "제34조"
+        ],
+        "table_count": 5,
+        "chunk_count": 80,
+        "effective_date_candidate_from_pdf_page_3": null,
+        "extraction_method": "pdfplumber_lines_and_detected_tables",
+        "blank_text_pages": [],
+        "short_text_pages": [
+          14,
+          15,
+          16,
+          17
+        ],
+        "short_page_review": {},
+        "image_content_review": {},
+        "structure_review": {
+          "status": "source_duplicate_confirmed",
+          "expected_repeated_article_labels": [
+            "제34조"
+          ],
+          "reviewed_by": "Codex",
+          "reviewed_on": "2026-10-13",
+          "pdf_pages": [
+            7
+          ],
+          "note": "원문에 제2장 현행 제34조와 제3장 삭제된 제34조가 함께 있음. 별도 노드·원문 위치 보존과 삭제 조문의 답변 제외를 확인. 중복 번호 자체를 분리 오류로 처리하지 않음.",
+          "source_evidence": [
+            {
+              "node_id": "d8977177-0bb9-5dd6-a254-03b44b74d56d",
+              "text_sha256": "6c48ef53cea386aab8f6f883e8647ac30e9530bbfc90a5657d96ff95a4a427de",
+              "source_locator": {
+                "coordinate_system": "PDF point; 원점=페이지 왼쪽 위",
+                "pdf_pages": [
+                  7
+                ],
+                "lines": [
+                  {
+                    "line_id": "p007l0017",
+                    "page": 7,
+                    "bbox": [
+                      70.882,
+                      458.033,
+                      524.177,
+                      467.982
+                    ]
+                  },
+                  {
+                    "line_id": "p007l0018",
+                    "page": 7,
+                    "bbox": [
+                      85.034,
+                      473.975,
+                      485.694,
+                      483.924
+                    ]
+                  },
+                  {
+                    "line_id": "p007l0019",
+                    "page": 7,
+                    "bbox": [
+                      89.951,
+                      490.158,
+                      353.155,
+                      500.107
+                    ]
+                  }
+                ],
+                "section_kind": "body"
+              }
+            },
+            {
+              "node_id": "7f169842-93c1-5ccc-9d29-a2e930615fd3",
+              "text_sha256": "3eeb518f479cce04a9ca3722ba8ea9bd927cf6875f23876f6c7d617971ee6b12",
+              "source_locator": {
+                "coordinate_system": "PDF point; 원점=페이지 왼쪽 위",
+                "pdf_pages": [
+                  7
+                ],
+                "lines": [
+                  {
+                    "line_id": "p007l0022",
+                    "page": 7,
+                    "bbox": [
+                      70.882,
+                      643.949,
+                      270.171,
+                      653.899
+                    ]
+                  }
+                ],
+                "section_kind": "body"
+              }
+            }
+          ],
+          "deleted_node_id": "7f169842-93c1-5ccc-9d29-a2e930615fd3",
+          "deleted_chunk_ids": [
+            "d8f8c60e-b6a3-5473-bb83-5ac470488578"
+          ],
+          "human_official_interpretation_completed": false
+        },
+        "role_specific_review": true,
+        "local_file_metadata": {
+          "created_at": "2026-10-01T09:31:40+09:00",
+          "modified_at": "2026-10-01T09:31:41+09:00",
+          "time_zone": "Asia/Seoul",
+          "observed_on": "2026-10-13",
+          "source_location": "사용자가 지정한 원본 폴더: 데이터/규정/2. 한국수자원공사",
+          "basis": "local_filesystem_properties",
+          "status": "download_time_candidate_only",
+          "note": "다운로드 로그가 아님. 파일 복사·덮어쓰기·수정으로 달라질 수 있어 retrieved_at으로 확정하지 않음."
+        },
+        "retrieval_metadata": {
+          "value": "2026-10-01T09:31:41+09:00",
+          "basis": "local_modified_time_estimate",
+          "precision": "filesystem_second",
+          "verification_status": "estimated",
+          "recorded_on": "2026-10-13",
+          "note": "사용자가 지정한 원본 폴더의 수정 시각과 원본을 손대지 않았다는 설명에 근거한 확보 시각 추정값. 실제 다운로드 로그에서 확인한 시각은 아님."
+        },
+        "last_pages_date_strings_sample": []
+      },
+      {
+        "id": "B17",
+        "source": "인사·복무·징계/유연근무제운영기준(2025년도 11월 10일 개정).pdf",
+        "sha256": "f88e0e9a4ccb95731d7d6bb9774b6f0f7c3c5c40ae3d4ec60b7b526b30d8e5dd",
+        "pages": 21,
+        "title": "유연근무제 운영기준",
+        "version_label": "12차",
+        "amendment_date": "2025-11-10",
+        "effective_from": "2025-11-10",
+        "date_review": {
+          "general_effective_from": "2025-11-10",
+          "candidate_from_source": "2025-11-10",
+          "status": "source_visual_verified",
+          "reviewed_on": "2026-10-13",
+          "basis": "원본 PDF 관련 부칙 페이지의 전체 화면과 추출 문자 대조",
+          "amendment_date": "2025-11-10",
+          "source_evidence": [
+            {
+              "node_id": "a67c6631-fc0a-5713-bc6d-1bf0421f3c0b",
+              "text": "부칙 (2025.11.10.)\n이 기준은 2025년 11월 10일부터 시행한다.",
+              "text_sha256": "2c2f3f57f7a08ff9f958733d179710539c06cc0b1bbaddc4e41967891c860266",
+              "source_locator": {
+                "coordinate_system": "PDF point; 원점=페이지 왼쪽 위",
+                "pdf_pages": [
+                  11
+                ],
+                "lines": [
+                  {
+                    "line_id": "p011l0008",
+                    "page": 11,
+                    "bbox": [
+                      242.421,
+                      532.328,
+                      326.761,
+                      542.266
+                    ]
+                  },
+                  {
+                    "line_id": "p011l0009",
+                    "page": 11,
+                    "bbox": [
+                      68.614,
+                      584.65,
+                      266.634,
+                      594.587
+                    ]
+                  }
+                ],
+                "section_kind": "supplement"
+              }
+            }
+          ],
+          "exceptions_review": "조항별 적용례·소급 적용은 별도 조건 원문 후보로 보존. 자동 적용 판정 전.",
+          "note": "최신 개정일과 대응하는 부칙의 일반 시행일 표기를 확인. 효력 종료일은 미확인.",
+          "reviewed_by": "Codex (AI 원문 대조)"
+        },
+        "amendment_date_candidate_from_filename": null,
+        "article_count": 30,
+        "annex_count": 7,
+        "repeated_article_labels": [],
+        "table_count": 10,
+        "chunk_count": 39,
+        "effective_date_candidate_from_pdf_page_3": null,
+        "extraction_method": "pdfplumber_lines_and_detected_tables",
+        "blank_text_pages": [],
+        "short_text_pages": [],
+        "short_page_review": {},
+        "image_content_review": {},
+        "structure_review": {},
+        "role_specific_review": false,
+        "local_file_metadata": {
+          "created_at": "2026-10-01T09:30:14+09:00",
+          "modified_at": "2026-10-01T09:30:15+09:00",
+          "time_zone": "Asia/Seoul",
+          "observed_on": "2026-10-13",
+          "source_location": "사용자가 지정한 원본 폴더: 데이터/규정/2. 한국수자원공사",
+          "basis": "local_filesystem_properties",
+          "status": "download_time_candidate_only",
+          "note": "다운로드 로그가 아님. 파일 복사·덮어쓰기·수정으로 달라질 수 있어 retrieved_at으로 확정하지 않음."
+        },
+        "retrieval_metadata": {
+          "value": "2026-10-01T09:30:15+09:00",
+          "basis": "local_modified_time_estimate",
+          "precision": "filesystem_second",
+          "verification_status": "estimated",
+          "recorded_on": "2026-10-13",
+          "note": "사용자가 지정한 원본 폴더의 수정 시각과 원본을 손대지 않았다는 설명에 근거한 확보 시각 추정값. 실제 다운로드 로그에서 확인한 시각은 아님."
+        },
+        "last_pages_date_strings_sample": []
+      },
+      {
+        "id": "B18",
+        "source": "인사·복무·징계/인사규정 채용 세칙(2026년도 3월 30일 개정).pdf",
+        "sha256": "5983dba9c82dab170902c98165d34207094c99ea51917f97c761505d65898b7d",
+        "pages": 19,
+        "title": "인사규정 채용 세칙",
+        "version_label": "8차",
+        "amendment_date": "2026-03-30",
+        "effective_from": "2026-03-31",
+        "date_review": {
+          "general_effective_from": "2026-03-31",
+          "candidate_from_source": "2026-03-31",
+          "status": "source_visual_verified",
+          "reviewed_on": "2026-10-13",
+          "basis": "원본 PDF 관련 부칙 페이지의 전체 화면과 추출 문자 대조",
+          "amendment_date": "2026-03-30",
+          "source_evidence": [
+            {
+              "node_id": "fc7114a6-2fb6-5d7f-a216-2fc24a09d8ae",
+              "text": "부칙 (2026.03.30.)\n이 세칙은 2026년 3월 31일부터 시행한다.",
+              "text_sha256": "65c86099e78d2ac64f2817be16d380170b6ec518214d1706843d47eb416f8f78",
+              "source_locator": {
+                "coordinate_system": "PDF point; 원점=페이지 왼쪽 위",
+                "pdf_pages": [
+                  10,
+                  11
+                ],
+                "lines": [
+                  {
+                    "line_id": "p010l0011",
+                    "page": 10,
+                    "bbox": [
+                      240.833,
+                      734.733,
+                      325.455,
+                      744.694
+                    ]
+                  },
+                  {
+                    "line_id": "p011l0001",
+                    "page": 11,
+                    "bbox": [
+                      66.445,
+                      73.581,
+                      259.611,
+                      83.542
+                    ]
+                  }
+                ],
+                "section_kind": "supplement"
+              }
+            }
+          ],
+          "exceptions_review": "조항별 적용례·소급 적용은 별도 조건 원문 후보로 보존. 자동 적용 판정 전.",
+          "note": "최신 개정일과 대응하는 부칙의 일반 시행일 표기를 확인. 효력 종료일은 미확인.",
+          "reviewed_by": "Codex (AI 원문 대조)"
+        },
+        "amendment_date_candidate_from_filename": null,
+        "article_count": 38,
+        "annex_count": 5,
+        "repeated_article_labels": [],
+        "table_count": 14,
+        "chunk_count": 44,
+        "effective_date_candidate_from_pdf_page_3": null,
+        "extraction_method": "pdfplumber_lines_and_detected_tables",
+        "blank_text_pages": [],
+        "short_text_pages": [
+          11
+        ],
+        "short_page_review": {
+          "verified_pages": [
+            11
+          ],
+          "status": "visual_text_match",
+          "reviewed_by": "Codex",
+          "reviewed_on": "2026-10-13",
+          "note": "페이지 전체를 렌더링해 원문 문자와 대조. 짧은 분량 자체로 문자 누락을 판정하지 않음. 규정 해석·검색 활성화 검토와는 별개."
+        },
+        "image_content_review": {},
+        "structure_review": {},
+        "role_specific_review": false,
+        "local_file_metadata": {
+          "created_at": "2026-10-01T09:26:23+09:00",
+          "modified_at": "2026-10-01T09:26:24+09:00",
+          "time_zone": "Asia/Seoul",
+          "observed_on": "2026-10-13",
+          "source_location": "사용자가 지정한 원본 폴더: 데이터/규정/2. 한국수자원공사",
+          "basis": "local_filesystem_properties",
+          "status": "download_time_candidate_only",
+          "note": "다운로드 로그가 아님. 파일 복사·덮어쓰기·수정으로 달라질 수 있어 retrieved_at으로 확정하지 않음."
+        },
+        "retrieval_metadata": {
+          "value": "2026-10-01T09:26:24+09:00",
+          "basis": "local_modified_time_estimate",
+          "precision": "filesystem_second",
+          "verification_status": "estimated",
+          "recorded_on": "2026-10-13",
+          "note": "사용자가 지정한 원본 폴더의 수정 시각과 원본을 손대지 않았다는 설명에 근거한 확보 시각 추정값. 실제 다운로드 로그에서 확인한 시각은 아님."
+        },
+        "last_pages_date_strings_sample": []
+      },
+      {
+        "id": "B19",
+        "source": "인사·복무·징계/인사규정(2026년도 8월 27일 개정).pdf",
+        "sha256": "1b6ec41b26c11c3821f72c403f6e2878cb2e7afa967e2309cb47d3ab01c68643",
+        "pages": 34,
+        "title": "인사규정",
+        "version_label": "64차",
+        "amendment_date": "2026-08-27",
+        "effective_from": "2026-08-27",
+        "date_review": {
+          "general_effective_from": "2026-08-27",
+          "candidate_from_source": "2026-08-27",
+          "status": "source_visual_verified",
+          "reviewed_on": "2026-10-13",
+          "basis": "원본 PDF 관련 부칙 페이지의 전체 화면과 추출 문자 대조",
+          "amendment_date": "2026-08-27",
+          "source_evidence": [
+            {
+              "node_id": "e92f9d4d-cc75-5f86-99bc-b61f00ccff73",
+              "text": "제1조(시행일) 이 규정은 2026년 08월 27일부터 시행한다.",
+              "text_sha256": "1d31abfde0e3c9bd81c5ff4d0b04d895a53ab76bc3612aca5f390043d21a67de",
+              "source_locator": {
+                "coordinate_system": "PDF point; 원점=페이지 왼쪽 위",
+                "pdf_pages": [
+                  32
+                ],
+                "lines": [
+                  {
+                    "line_id": "p032l0012",
+                    "page": 32,
+                    "bbox": [
+                      70.882,
+                      695.613,
+                      334.926,
+                      705.562
+                    ]
+                  }
+                ],
+                "section_kind": "supplement"
+              }
+            }
+          ],
+          "exceptions_review": "조항별 적용례·소급 적용은 별도 조건 원문 후보로 보존. 자동 적용 판정 전.",
+          "note": "최신 개정일과 대응하는 부칙의 일반 시행일 표기를 확인. 효력 종료일은 미확인.",
+          "reviewed_by": "Codex (AI 원문 대조)"
+        },
+        "amendment_date_candidate_from_filename": null,
+        "article_count": 55,
+        "annex_count": 1,
+        "repeated_article_labels": [],
+        "table_count": 6,
+        "chunk_count": 57,
+        "effective_date_candidate_from_pdf_page_3": null,
+        "extraction_method": "pdfplumber_lines_and_detected_tables",
+        "blank_text_pages": [],
+        "short_text_pages": [
+          33
+        ],
+        "short_page_review": {
+          "verified_pages": [
+            33
+          ],
+          "status": "visual_text_match",
+          "reviewed_by": "Codex",
+          "reviewed_on": "2026-10-13",
+          "note": "페이지 전체를 렌더링해 원문 문자와 대조. 짧은 분량 자체로 문자 누락을 판정하지 않음. 규정 해석·검색 활성화 검토와는 별개."
+        },
+        "image_content_review": {},
+        "structure_review": {},
+        "role_specific_review": false,
+        "local_file_metadata": {
+          "created_at": "2026-10-01T09:26:03+09:00",
+          "modified_at": "2026-10-01T09:26:03+09:00",
+          "time_zone": "Asia/Seoul",
+          "observed_on": "2026-10-13",
+          "source_location": "사용자가 지정한 원본 폴더: 데이터/규정/2. 한국수자원공사",
+          "basis": "local_filesystem_properties",
+          "status": "download_time_candidate_only",
+          "note": "다운로드 로그가 아님. 파일 복사·덮어쓰기·수정으로 달라질 수 있어 retrieved_at으로 확정하지 않음."
+        },
+        "retrieval_metadata": {
+          "value": "2026-10-01T09:26:03+09:00",
+          "basis": "local_modified_time_estimate",
+          "precision": "filesystem_second",
+          "verification_status": "estimated",
+          "recorded_on": "2026-10-13",
+          "note": "사용자가 지정한 원본 폴더의 수정 시각과 원본을 손대지 않았다는 설명에 근거한 확보 시각 추정값. 실제 다운로드 로그에서 확인한 시각은 아님."
+        },
+        "last_pages_date_strings_sample": [
+          "2024.12.24",
+          "2025.06.24",
+          "2026.08.27"
+        ]
+      },
+      {
+        "id": "B20",
+        "source": "인사·복무·징계/인사규정시행세칙(2025년도 11월 10일 개정).pdf",
+        "sha256": "1ad0ac2f6c7ecbbc12e952fedb8d9d8e2ccc2cf089e6c36ecc33d9b2005618ff",
+        "pages": 86,
+        "title": "인사규정시행세칙",
+        "version_label": "74차",
+        "amendment_date": "2025-11-10",
+        "effective_from": "2025-11-10",
+        "date_review": {
+          "general_effective_from": "2025-11-10",
+          "candidate_from_source": "2025-11-10",
+          "status": "source_visual_verified",
+          "reviewed_on": "2026-10-13",
+          "basis": "원본 PDF 관련 부칙 페이지의 전체 화면과 추출 문자 대조",
+          "amendment_date": "2025-11-10",
+          "source_evidence": [
+            {
+              "node_id": "2305aac4-7fbc-56bf-b5e5-61e9c7bd392b",
+              "text": "제1조(시행일) 이 세칙은 2025년 11월 10일부터 시행한다.",
+              "text_sha256": "612dafa9c77e43f9808fa21ff68bb70fb39bbcb8aeb93fdd1dcc5ad152c9b80b",
+              "source_locator": {
+                "coordinate_system": "PDF point; 원점=페이지 왼쪽 위",
+                "pdf_pages": [
+                  56
+                ],
+                "lines": [
+                  {
+                    "line_id": "p056l0012",
+                    "page": 56,
+                    "bbox": [
+                      58.693,
+                      463.724,
+                      321.861,
+                      473.661
+                    ]
+                  }
+                ],
+                "section_kind": "supplement"
+              }
+            }
+          ],
+          "exceptions_review": "조항별 적용례·소급 적용은 별도 조건 원문 후보로 보존. 자동 적용 판정 전.",
+          "note": "최신 개정일과 대응하는 부칙의 일반 시행일 표기를 확인. 효력 종료일은 미확인.",
+          "reviewed_by": "Codex (AI 원문 대조)"
+        },
+        "amendment_date_candidate_from_filename": null,
+        "article_count": 127,
+        "annex_count": 13,
+        "repeated_article_labels": [],
+        "table_count": 39,
+        "chunk_count": 159,
+        "effective_date_candidate_from_pdf_page_3": null,
+        "extraction_method": "pdfplumber_lines_and_detected_tables",
+        "blank_text_pages": [],
+        "short_text_pages": [
+          36,
+          37,
+          58,
+          74,
+          81,
+          83,
+          84,
+          85
+        ],
+        "short_page_review": {
+          "verified_pages": [
+            36,
+            37,
+            58,
+            74,
+            81,
+            83,
+            84,
+            85
+          ],
+          "status": "visible_text_covered_by_extracted_text",
+          "reviewed_by": "Codex",
+          "reviewed_on": "2026-10-13",
+          "note": "해당 페이지 전체 이미지에서 읽을 수 있는 내용이 추출 문자에 포함됨을 확인. 짧은 서식·표·빈 페이지. 개인별 적용·표 의미의 공식 해석·검색 활성화는 별도 검토.",
+          "source_evidence": [
+            {
+              "page": 36,
+              "page_text_sha256": "90541f8cea67ec70fe6ffcd384cc1a881b96ee3d640cf978f42e20b03b817cee",
+              "source_file_sha256": "1ad0ac2f6c7ecbbc12e952fedb8d9d8e2ccc2cf089e6c36ecc33d9b2005618ff",
+              "method": "full_page_image_and_extracted_text_comparison",
+              "verified_by": "Codex",
+              "human_official_interpretation_completed": false
+            },
+            {
+              "page": 37,
+              "page_text_sha256": "c567f19e4c604d55d3ddf5fe996b7f216f36b90bf99b17c11c732c23d30a07a9",
+              "source_file_sha256": "1ad0ac2f6c7ecbbc12e952fedb8d9d8e2ccc2cf089e6c36ecc33d9b2005618ff",
+              "method": "full_page_image_and_extracted_text_comparison",
+              "verified_by": "Codex",
+              "human_official_interpretation_completed": false
+            },
+            {
+              "page": 58,
+              "page_text_sha256": "76cb0978031584f281738ded9f94841f8132e7d068b85a50edac7d3b279e96a8",
+              "source_file_sha256": "1ad0ac2f6c7ecbbc12e952fedb8d9d8e2ccc2cf089e6c36ecc33d9b2005618ff",
+              "method": "full_page_image_and_extracted_text_comparison",
+              "verified_by": "Codex",
+              "human_official_interpretation_completed": false
+            },
+            {
+              "page": 74,
+              "page_text_sha256": "bc5f56b70d1db1ad4c78911a5d169f707a7551151bdbf2681d4bba7cd7d97f23",
+              "source_file_sha256": "1ad0ac2f6c7ecbbc12e952fedb8d9d8e2ccc2cf089e6c36ecc33d9b2005618ff",
+              "method": "full_page_image_and_extracted_text_comparison",
+              "verified_by": "Codex",
+              "human_official_interpretation_completed": false
+            },
+            {
+              "page": 81,
+              "page_text_sha256": "17bd4a621fb40b5e3569bca10a57d41f16ff7856091b7aeab21d25d1f9d72499",
+              "source_file_sha256": "1ad0ac2f6c7ecbbc12e952fedb8d9d8e2ccc2cf089e6c36ecc33d9b2005618ff",
+              "method": "full_page_image_and_extracted_text_comparison",
+              "verified_by": "Codex",
+              "human_official_interpretation_completed": false
+            },
+            {
+              "page": 83,
+              "page_text_sha256": "29f32aed2c25400a5aaa108f861e7e4739015c814de36f118347d8fac4895d45",
+              "source_file_sha256": "1ad0ac2f6c7ecbbc12e952fedb8d9d8e2ccc2cf089e6c36ecc33d9b2005618ff",
+              "method": "full_page_image_and_extracted_text_comparison",
+              "verified_by": "Codex",
+              "human_official_interpretation_completed": false
+            },
+            {
+              "page": 84,
+              "page_text_sha256": "b147ffa8d4fdbd660fc65987744d780ea3499c88a23ecf1da4063456025e1287",
+              "source_file_sha256": "1ad0ac2f6c7ecbbc12e952fedb8d9d8e2ccc2cf089e6c36ecc33d9b2005618ff",
+              "method": "full_page_image_and_extracted_text_comparison",
+              "verified_by": "Codex",
+              "human_official_interpretation_completed": false,
+              "display_note": "서식 머리글의 일부 글자는 검토용 렌더 화면에서 일부만 보임. 추출된 머리글 문자열과 위치는 보존하고 보이는 본문·칸 이름의 누락 여부를 확인."
+            },
+            {
+              "page": 85,
+              "page_text_sha256": "88e8ad9584246d3a764ec7b6410f1d67d8cce2fe4a605a2716b634fe5c41f847",
+              "source_file_sha256": "1ad0ac2f6c7ecbbc12e952fedb8d9d8e2ccc2cf089e6c36ecc33d9b2005618ff",
+              "method": "full_page_image_and_extracted_text_comparison",
+              "verified_by": "Codex",
+              "human_official_interpretation_completed": false
+            }
+          ]
+        },
+        "image_content_review": {},
+        "structure_review": {},
+        "role_specific_review": false,
+        "local_file_metadata": {
+          "created_at": "2026-10-01T09:31:00+09:00",
+          "modified_at": "2026-10-01T09:31:00+09:00",
+          "time_zone": "Asia/Seoul",
+          "observed_on": "2026-10-13",
+          "source_location": "사용자가 지정한 원본 폴더: 데이터/규정/2. 한국수자원공사",
+          "basis": "local_filesystem_properties",
+          "status": "download_time_candidate_only",
+          "note": "다운로드 로그가 아님. 파일 복사·덮어쓰기·수정으로 달라질 수 있어 retrieved_at으로 확정하지 않음."
+        },
+        "retrieval_metadata": {
+          "value": "2026-10-01T09:31:00+09:00",
+          "basis": "local_modified_time_estimate",
+          "precision": "filesystem_second",
+          "verification_status": "estimated",
+          "recorded_on": "2026-10-13",
+          "note": "사용자가 지정한 원본 폴더의 수정 시각과 원본을 손대지 않았다는 설명에 근거한 확보 시각 추정값. 실제 다운로드 로그에서 확인한 시각은 아님."
+        },
+        "last_pages_date_strings_sample": []
+      },
+      {
+        "id": "B21",
+        "source": "인사·복무·징계/전문직관리세칙(2024년도 12월 개정).pdf",
+        "sha256": "2f156ec671bec612d29f59727860b5d6b8ca0a7db57ecf22a4a7e8c44027c6b5",
+        "pages": 27,
+        "title": "전문직관리세칙",
+        "version_label": "24차",
+        "amendment_date": "2024-12-27",
+        "effective_from": "2024-12-27",
+        "date_review": {
+          "general_effective_from": "2024-12-27",
+          "candidate_from_source": "2024-12-27",
+          "status": "source_visual_verified",
+          "reviewed_on": "2026-10-13",
+          "basis": "원본 PDF 관련 부칙 페이지의 전체 화면과 추출 문자 대조",
+          "amendment_date": "2024-12-27",
+          "source_evidence": [
+            {
+              "node_id": "c38edd7d-d590-50ce-8d1b-ee1c7ae7a257",
+              "text": "제1조(시행일) 이 세칙은 2024년 12월 27일부터 시행한다.",
+              "text_sha256": "2f2d286c12a1fc93f19dc656b8d068c260585b6f89c51fc415ef48bdfef36123",
+              "source_locator": {
+                "coordinate_system": "PDF point; 원점=페이지 왼쪽 위",
+                "pdf_pages": [
+                  14
+                ],
+                "lines": [
+                  {
+                    "line_id": "p014l0009",
+                    "page": 14,
+                    "bbox": [
+                      70.882,
+                      361.778,
+                      334.926,
+                      371.727
+                    ]
+                  }
+                ],
+                "section_kind": "supplement"
+              }
+            }
+          ],
+          "exceptions_review": "조항별 적용례·소급 적용은 별도 조건 원문 후보로 보존. 자동 적용 판정 전.",
+          "note": "최신 개정일과 대응하는 부칙의 일반 시행일 표기를 확인. 효력 종료일은 미확인.",
+          "reviewed_by": "Codex (AI 원문 대조)"
+        },
+        "amendment_date_candidate_from_filename": null,
+        "article_count": 49,
+        "annex_count": 3,
+        "repeated_article_labels": [],
+        "table_count": 22,
+        "chunk_count": 57,
+        "effective_date_candidate_from_pdf_page_3": null,
+        "extraction_method": "pdfplumber_lines_and_detected_tables",
+        "blank_text_pages": [],
+        "short_text_pages": [
+          23,
+          25,
+          26
+        ],
+        "short_page_review": {
+          "verified_pages": [
+            23,
+            25,
+            26
+          ],
+          "status": "visible_text_covered_by_extracted_text",
+          "reviewed_by": "Codex",
+          "reviewed_on": "2026-10-13",
+          "note": "해당 페이지 전체 이미지에서 읽을 수 있는 내용이 추출 문자에 포함됨을 확인. 짧은 서식·표·빈 페이지. 개인별 적용·표 의미의 공식 해석·검색 활성화는 별도 검토.",
+          "source_evidence": [
+            {
+              "page": 23,
+              "page_text_sha256": "2524cac16729eecb01a5156032dc25a9a363c9780d55628f18045708a62c151f",
+              "source_file_sha256": "2f156ec671bec612d29f59727860b5d6b8ca0a7db57ecf22a4a7e8c44027c6b5",
+              "method": "full_page_image_and_extracted_text_comparison",
+              "verified_by": "Codex",
+              "human_official_interpretation_completed": false
+            },
+            {
+              "page": 25,
+              "page_text_sha256": "9382611cc28e61734b1db150287aa30dccf6509a823026d888c7e77d7a1d7b69",
+              "source_file_sha256": "2f156ec671bec612d29f59727860b5d6b8ca0a7db57ecf22a4a7e8c44027c6b5",
+              "method": "full_page_image_and_extracted_text_comparison",
+              "verified_by": "Codex",
+              "human_official_interpretation_completed": false
+            },
+            {
+              "page": 26,
+              "page_text_sha256": "47041f9b197ed374fc3a8385d204a3cb1c1d9a97e0498abc5e453411bdc43cbc",
+              "source_file_sha256": "2f156ec671bec612d29f59727860b5d6b8ca0a7db57ecf22a4a7e8c44027c6b5",
+              "method": "full_page_image_and_extracted_text_comparison",
+              "verified_by": "Codex",
+              "human_official_interpretation_completed": false
+            }
+          ]
+        },
+        "image_content_review": {},
+        "structure_review": {},
+        "role_specific_review": true,
+        "local_file_metadata": {
+          "created_at": "2026-10-01T09:31:54+09:00",
+          "modified_at": "2026-10-01T09:31:54+09:00",
+          "time_zone": "Asia/Seoul",
+          "observed_on": "2026-10-13",
+          "source_location": "사용자가 지정한 원본 폴더: 데이터/규정/2. 한국수자원공사",
+          "basis": "local_filesystem_properties",
+          "status": "download_time_candidate_only",
+          "note": "다운로드 로그가 아님. 파일 복사·덮어쓰기·수정으로 달라질 수 있어 retrieved_at으로 확정하지 않음."
+        },
+        "retrieval_metadata": {
+          "value": "2026-10-01T09:31:54+09:00",
+          "basis": "local_modified_time_estimate",
+          "precision": "filesystem_second",
+          "verification_status": "estimated",
+          "recorded_on": "2026-10-13",
+          "note": "사용자가 지정한 원본 폴더의 수정 시각과 원본을 손대지 않았다는 설명에 근거한 확보 시각 추정값. 실제 다운로드 로그에서 확인한 시각은 아님."
+        },
+        "last_pages_date_strings_sample": []
+      },
+      {
+        "id": "B22",
+        "source": "인사·복무·징계/청원경찰관리규정(2025년도 7월 개정).pdf",
+        "sha256": "fde1aa1a05f95b936c2066e724bc44039e7bb7c6dddbce8bc13db0a467f6e287",
+        "pages": 42,
+        "title": "청원경찰관리규정",
+        "version_label": "44차",
+        "amendment_date": "2025-07-08",
+        "effective_from": "2025-07-15",
+        "date_review": {
+          "general_effective_from": "2025-07-15",
+          "candidate_from_source": "2025-07-15",
+          "status": "source_visual_verified",
+          "reviewed_on": "2026-10-13",
+          "basis": "원본 PDF 관련 부칙 페이지의 전체 화면과 추출 문자 대조",
+          "amendment_date": "2025-07-08",
+          "source_evidence": [
+            {
+              "node_id": "30bf4aef-5f50-5c3d-9f52-5ef87abd6455",
+              "text": "부칙 (2025.07.08.)\n이 규정은 2025년 7월 15일부터 시행한다.",
+              "text_sha256": "d680f2051ab538e0ba5d56d6be6b27e2b3b5360903ca4c17b9a948fa0aeec52e",
+              "source_locator": {
+                "coordinate_system": "PDF point; 원점=페이지 왼쪽 위",
+                "pdf_pages": [
+                  28
+                ],
+                "lines": [
+                  {
+                    "line_id": "p028l0002",
+                    "page": 28,
+                    "bbox": [
+                      255.36,
+                      163.598,
+                      339.945,
+                      173.678
+                    ]
+                  },
+                  {
+                    "line_id": "p028l0003",
+                    "page": 28,
+                    "bbox": [
+                      80.88,
+                      215.918,
+                      273.945,
+                      225.998
+                    ]
+                  }
+                ],
+                "section_kind": "supplement"
+              }
+            }
+          ],
+          "exceptions_review": "조항별 적용례·소급 적용은 별도 조건 원문 후보로 보존. 자동 적용 판정 전.",
+          "note": "최신 개정일과 대응하는 부칙의 일반 시행일 표기를 확인. 효력 종료일은 미확인.",
+          "reviewed_by": "Codex (AI 원문 대조)"
+        },
+        "amendment_date_candidate_from_filename": null,
+        "article_count": 95,
+        "annex_count": 2,
+        "repeated_article_labels": [],
+        "table_count": 14,
+        "chunk_count": 105,
+        "effective_date_candidate_from_pdf_page_3": null,
+        "extraction_method": "pdfplumber_lines_and_detected_tables",
+        "blank_text_pages": [],
+        "short_text_pages": [
+          28,
+          30,
+          31,
+          33,
+          35,
+          37,
+          38
+        ],
+        "short_page_review": {
+          "verified_pages": [
+            28,
+            30,
+            31,
+            33,
+            35,
+            37,
+            38
+          ],
+          "status": "visible_text_covered_by_extracted_text",
+          "reviewed_by": "Codex",
+          "reviewed_on": "2026-10-13",
+          "note": "해당 페이지 전체 이미지에서 읽을 수 있는 내용이 추출 문자에 포함됨을 확인. 짧은 서식·표·빈 페이지. 개인별 적용·표 의미의 공식 해석·검색 활성화는 별도 검토.",
+          "source_evidence": [
+            {
+              "page": 30,
+              "page_text_sha256": "6d3887d7d2f06b3af3e8a592413dda03a0939c212b293d8ed340c0d9aea585f7",
+              "source_file_sha256": "fde1aa1a05f95b936c2066e724bc44039e7bb7c6dddbce8bc13db0a467f6e287",
+              "method": "full_page_image_and_extracted_text_comparison",
+              "verified_by": "Codex",
+              "human_official_interpretation_completed": false
+            },
+            {
+              "page": 31,
+              "page_text_sha256": "eb0e9e582b2bfa98ddca16d21b8b58e3021612c174d3d364d7598675d9608f3b",
+              "source_file_sha256": "fde1aa1a05f95b936c2066e724bc44039e7bb7c6dddbce8bc13db0a467f6e287",
+              "method": "full_page_image_and_extracted_text_comparison",
+              "verified_by": "Codex",
+              "human_official_interpretation_completed": false
+            },
+            {
+              "page": 33,
+              "page_text_sha256": "1f649882b52274bf00a319cd08f16a63dd598d95f140189b04fc6b606cc9df2f",
+              "source_file_sha256": "fde1aa1a05f95b936c2066e724bc44039e7bb7c6dddbce8bc13db0a467f6e287",
+              "method": "full_page_image_and_extracted_text_comparison",
+              "verified_by": "Codex",
+              "human_official_interpretation_completed": false
+            },
+            {
+              "page": 35,
+              "page_text_sha256": "9838cce685c7b839fc34446ff176987310a1bd0e18e177b8403207fcae7b34f6",
+              "source_file_sha256": "fde1aa1a05f95b936c2066e724bc44039e7bb7c6dddbce8bc13db0a467f6e287",
+              "method": "full_page_image_and_extracted_text_comparison",
+              "verified_by": "Codex",
+              "human_official_interpretation_completed": false
+            },
+            {
+              "page": 37,
+              "page_text_sha256": "1dc61c62092275d92666538be28a93872d9edb74a73898a40c131966f41b007e",
+              "source_file_sha256": "fde1aa1a05f95b936c2066e724bc44039e7bb7c6dddbce8bc13db0a467f6e287",
+              "method": "full_page_image_and_extracted_text_comparison",
+              "verified_by": "Codex",
+              "human_official_interpretation_completed": false
+            },
+            {
+              "page": 38,
+              "page_text_sha256": "1484d050a7bd4676694c975db867c77194a2fee782051b3207682a282303c897",
+              "source_file_sha256": "fde1aa1a05f95b936c2066e724bc44039e7bb7c6dddbce8bc13db0a467f6e287",
+              "method": "full_page_image_and_extracted_text_comparison",
+              "verified_by": "Codex",
+              "human_official_interpretation_completed": false
+            }
+          ]
+        },
+        "image_content_review": {},
+        "structure_review": {},
+        "role_specific_review": true,
+        "local_file_metadata": {
+          "created_at": "2026-10-01T09:31:14+09:00",
+          "modified_at": "2026-10-01T09:31:15+09:00",
+          "time_zone": "Asia/Seoul",
+          "observed_on": "2026-10-13",
+          "source_location": "사용자가 지정한 원본 폴더: 데이터/규정/2. 한국수자원공사",
+          "basis": "local_filesystem_properties",
+          "status": "download_time_candidate_only",
+          "note": "다운로드 로그가 아님. 파일 복사·덮어쓰기·수정으로 달라질 수 있어 retrieved_at으로 확정하지 않음."
+        },
+        "retrieval_metadata": {
+          "value": "2026-10-01T09:31:15+09:00",
+          "basis": "local_modified_time_estimate",
+          "precision": "filesystem_second",
+          "verification_status": "estimated",
+          "recorded_on": "2026-10-13",
+          "note": "사용자가 지정한 원본 폴더의 수정 시각과 원본을 손대지 않았다는 설명에 근거한 확보 시각 추정값. 실제 다운로드 로그에서 확인한 시각은 아님."
+        },
+        "last_pages_date_strings_sample": []
+      },
+      {
+        "id": "B23",
+        "source": "인사·복무·징계/특정직관리세칙(2024년도 12월 개정).pdf",
+        "sha256": "4349a445b75d6559fdd40a5359d502a7bcebc234a78c58f32470f701f1c4c3a0",
+        "pages": 11,
+        "title": "특정직관리세칙",
+        "version_label": "11차",
+        "amendment_date": "2024-12-27",
+        "effective_from": "2024-12-27",
+        "date_review": {
+          "general_effective_from": "2024-12-27",
+          "candidate_from_source": "2024-12-27",
+          "status": "source_visual_verified",
+          "reviewed_on": "2026-10-13",
+          "basis": "원본 PDF 관련 부칙 페이지의 전체 화면과 추출 문자 대조",
+          "amendment_date": "2024-12-27",
+          "source_evidence": [
+            {
+              "node_id": "6cd9e2c6-35f0-5a97-ae96-59fb1a053f50",
+              "text": "부칙 (2024.12.27.)\n이 세칙은 2024년 12월 27일부터 시행한다.",
+              "text_sha256": "431f1a508a31c8f2216c999b3fdbf2ad0d1454bca399a5afbd0754cd2facb004",
+              "source_locator": {
+                "coordinate_system": "PDF point; 원점=페이지 왼쪽 위",
+                "pdf_pages": [
+                  9
+                ],
+                "lines": [
+                  {
+                    "line_id": "p009l0006",
+                    "page": 9,
+                    "bbox": [
+                      255.222,
+                      417.517,
+                      339.842,
+                      427.466
+                    ]
+                  },
+                  {
+                    "line_id": "p009l0007",
+                    "page": 9,
+                    "bbox": [
+                      80.836,
+                      470.02,
+                      279.516,
+                      479.969
+                    ]
+                  }
+                ],
+                "section_kind": "supplement"
+              }
+            }
+          ],
+          "exceptions_review": "조항별 적용례·소급 적용은 별도 조건 원문 후보로 보존. 자동 적용 판정 전.",
+          "note": "최신 개정일과 대응하는 부칙의 일반 시행일 표기를 확인. 효력 종료일은 미확인.",
+          "reviewed_by": "Codex (AI 원문 대조)"
+        },
+        "amendment_date_candidate_from_filename": null,
+        "article_count": 37,
+        "annex_count": 0,
+        "repeated_article_labels": [],
+        "table_count": 1,
+        "chunk_count": 39,
+        "effective_date_candidate_from_pdf_page_3": null,
+        "extraction_method": "pdfplumber_lines_and_detected_tables",
+        "blank_text_pages": [],
+        "short_text_pages": [],
+        "short_page_review": {},
+        "image_content_review": {},
+        "structure_review": {},
+        "role_specific_review": true,
+        "local_file_metadata": {
+          "created_at": "2026-10-01T09:31:28+09:00",
+          "modified_at": "2026-10-01T09:31:28+09:00",
+          "time_zone": "Asia/Seoul",
+          "observed_on": "2026-10-13",
+          "source_location": "사용자가 지정한 원본 폴더: 데이터/규정/2. 한국수자원공사",
+          "basis": "local_filesystem_properties",
+          "status": "download_time_candidate_only",
+          "note": "다운로드 로그가 아님. 파일 복사·덮어쓰기·수정으로 달라질 수 있어 retrieved_at으로 확정하지 않음."
+        },
+        "retrieval_metadata": {
+          "value": "2026-10-01T09:31:28+09:00",
+          "basis": "local_modified_time_estimate",
+          "precision": "filesystem_second",
+          "verification_status": "estimated",
+          "recorded_on": "2026-10-13",
+          "note": "사용자가 지정한 원본 폴더의 수정 시각과 원본을 손대지 않았다는 설명에 근거한 확보 시각 추정값. 실제 다운로드 로그에서 확인한 시각은 아님."
+        },
+        "last_pages_date_strings_sample": [
+          "2022.06.03",
+          "2022.10.12",
+          "2024.12.27"
+        ]
+      },
+      {
+        "id": "B24",
+        "source": "인사·복무·징계/한국수자원공사취업규칙(2026년도 03월 10일 개정).pdf",
+        "sha256": "f57219993cb77be6abc6dc0c5e264e49f073c119fdfdc3dc72993bbb8cb91a38",
+        "pages": 29,
+        "title": "취업규칙",
+        "version_label": "40차",
+        "amendment_date": "2026-03-10",
+        "effective_from": "2026-03-10",
+        "date_review": {
+          "general_effective_from": "2026-03-10",
+          "candidate_from_source": "2026-03-10",
+          "status": "source_visual_verified",
+          "reviewed_on": "2026-10-13",
+          "basis": "원본 PDF 관련 부칙 페이지의 전체 화면과 추출 문자 대조",
+          "amendment_date": "2026-03-10",
+          "source_evidence": [
+            {
+              "node_id": "096005dc-9312-5b8b-9e19-f2f9317f8828",
+              "text": "제1조(시행일) 이 규칙은 2026년 3월 10일부터 시행한다.",
+              "text_sha256": "ecd9c315f1e660ac963741e944ba2b9df9ea10ca58fd46163a46aa016466e310",
+              "source_locator": {
+                "coordinate_system": "PDF point; 원점=페이지 왼쪽 위",
+                "pdf_pages": [
+                  26
+                ],
+                "lines": [
+                  {
+                    "line_id": "p026l0011",
+                    "page": 26,
+                    "bbox": [
+                      58.99,
+                      395.563,
+                      317.966,
+                      405.536
+                    ]
+                  }
+                ],
+                "section_kind": "supplement"
+              }
+            }
+          ],
+          "exceptions_review": "조항별 적용례·소급 적용은 별도 조건 원문 후보로 보존. 자동 적용 판정 전.",
+          "note": "최신 개정일과 대응하는 부칙의 일반 시행일 표기를 확인. 효력 종료일은 미확인.",
+          "reviewed_by": "Codex (AI 원문 대조)"
+        },
+        "amendment_date_candidate_from_filename": null,
+        "article_count": 105,
+        "annex_count": 3,
+        "repeated_article_labels": [],
+        "table_count": 3,
+        "chunk_count": 110,
+        "effective_date_candidate_from_pdf_page_3": null,
+        "extraction_method": "pdfplumber_lines_and_detected_tables",
+        "blank_text_pages": [],
+        "short_text_pages": [
+          28
+        ],
+        "short_page_review": {
+          "verified_pages": [
+            28
+          ],
+          "status": "visual_text_match",
+          "reviewed_by": "Codex",
+          "reviewed_on": "2026-10-13",
+          "note": "페이지 전체 이미지·추출 문자를 대조. 삭제 표기·짧은 표·서식도 원문에 보이는 글자가 추출된 것을 확인. 표의 개인별 적용·기관 공식 해석·검색 활성화와 구분.",
+          "source_evidence": [
+            {
+              "page": 28,
+              "page_text_sha256": "0b1659796484f8a466ec6b55a41b517de00ab32a1a8ede9b1a12c35f160e8c5c",
+              "source_file_sha256": "f57219993cb77be6abc6dc0c5e264e49f073c119fdfdc3dc72993bbb8cb91a38",
+              "method": "full_page_image_and_extracted_text_comparison",
+              "verified_by": "Codex",
+              "human_official_interpretation_completed": false
+            }
+          ]
+        },
+        "image_content_review": {},
+        "structure_review": {},
+        "role_specific_review": false,
+        "local_file_metadata": {
+          "created_at": "2026-10-01T09:27:23+09:00",
+          "modified_at": "2026-10-01T09:27:23+09:00",
+          "time_zone": "Asia/Seoul",
+          "observed_on": "2026-10-13",
+          "source_location": "사용자가 지정한 원본 폴더: 데이터/규정/2. 한국수자원공사",
+          "basis": "local_filesystem_properties",
+          "status": "download_time_candidate_only",
+          "note": "다운로드 로그가 아님. 파일 복사·덮어쓰기·수정으로 달라질 수 있어 retrieved_at으로 확정하지 않음."
+        },
+        "retrieval_metadata": {
+          "value": "2026-10-01T09:27:23+09:00",
+          "basis": "local_modified_time_estimate",
+          "precision": "filesystem_second",
+          "verification_status": "estimated",
+          "recorded_on": "2026-10-13",
+          "note": "사용자가 지정한 원본 폴더의 수정 시각과 원본을 손대지 않았다는 설명에 근거한 확보 시각 추정값. 실제 다운로드 로그에서 확인한 시각은 아님."
+        },
+        "last_pages_date_strings_sample": []
+      },
+      {
+        "id": "B25",
+        "source": "직제/위임전결규정(2026년도 6월 1일 개정).pdf",
+        "sha256": "042165cab895ff2efd8f2ec032a0919b928dc2f40f2986db08a5891c5fde00b6",
+        "pages": 58,
+        "title": "위임전결규정",
+        "version_label": "63차",
+        "amendment_date": "2026-06-01",
+        "effective_from": "2026-06-02",
+        "date_review": {
+          "general_effective_from": "2026-06-02",
+          "candidate_from_source": "2026-06-02",
+          "status": "source_visual_verified",
+          "reviewed_on": "2026-10-13",
+          "basis": "원본 PDF 관련 부칙 페이지의 전체 화면과 추출 문자 대조",
+          "amendment_date": "2026-06-01",
+          "source_evidence": [
+            {
+              "node_id": "c8b0d739-1e13-5537-873e-2000f16068eb",
+              "text": "제1조(시행일)    이 규정은    2026년  6월 2일부터    시행한다.",
+              "text_sha256": "860767d4fd3b753f34ee2a18f345d025ea2b57da241243cc87d6db47898ecaa4",
+              "source_locator": {
+                "coordinate_system": "page and line only; bbox unavailable",
+                "pdf_pages": [
+                  20
+                ],
+                "lines": [
+                  {
+                    "line_id": "p020l0005",
+                    "page": 20,
+                    "bbox": null
+                  }
+                ],
+                "section_kind": "supplement"
+              }
+            }
+          ],
+          "exceptions_review": "조항별 적용례·소급 적용은 별도 조건 원문 후보로 보존. 자동 적용 판정 전.",
+          "note": "최신 개정일과 대응하는 부칙의 일반 시행일 표기를 확인. 효력 종료일은 미확인.",
+          "reviewed_by": "Codex (AI 원문 대조)"
+        },
+        "amendment_date_candidate_from_filename": null,
+        "article_count": 12,
+        "annex_count": 1,
+        "repeated_article_labels": [],
+        "table_count": 0,
+        "chunk_count": 58,
+        "effective_date_candidate_from_pdf_page_3": null,
+        "extraction_method": "pypdf_layout_page_only",
+        "blank_text_pages": [],
+        "short_text_pages": [],
+        "short_page_review": {},
+        "image_content_review": {},
+        "structure_review": {},
+        "role_specific_review": false,
+        "local_file_metadata": {
+          "created_at": "2026-10-01T16:58:13+09:00",
+          "modified_at": "2026-10-01T16:58:14+09:00",
+          "time_zone": "Asia/Seoul",
+          "observed_on": "2026-10-13",
+          "source_location": "사용자가 지정한 원본 폴더: 데이터/규정/2. 한국수자원공사",
+          "basis": "local_filesystem_properties",
+          "status": "download_time_candidate_only",
+          "note": "다운로드 로그가 아님. 파일 복사·덮어쓰기·수정으로 달라질 수 있어 retrieved_at으로 확정하지 않음."
+        },
+        "retrieval_metadata": {
+          "value": "2026-10-01T16:58:14+09:00",
+          "basis": "local_modified_time_estimate",
+          "precision": "filesystem_second",
+          "verification_status": "estimated",
+          "recorded_on": "2026-10-13",
+          "note": "사용자가 지정한 원본 폴더의 수정 시각과 원본을 손대지 않았다는 설명에 근거한 확보 시각 추정값. 실제 다운로드 로그에서 확인한 시각은 아님."
+        },
+        "last_pages_date_strings_sample": []
+      },
+      {
+        "id": "B26",
+        "source": "직제/직제규정 시행세칙(2026년도 07월 16일 개정).pdf",
+        "sha256": "44e655356bcb3536b989fb922c336328415736590030d946104f68518dabeb9e",
+        "pages": 52,
+        "title": "직제규정 시행세칙",
+        "version_label": "147차",
+        "amendment_date": "2026-07-16",
+        "effective_from": "2026-07-16",
+        "date_review": {
+          "general_effective_from": "2026-07-16",
+          "candidate_from_source": "2026-07-16",
+          "status": "source_visual_verified",
+          "reviewed_on": "2026-10-13",
+          "basis": "원본 PDF 관련 부칙 페이지의 전체 화면과 추출 문자 대조",
+          "amendment_date": "2026-07-16",
+          "source_evidence": [
+            {
+              "node_id": "47d4cbdc-19a1-5727-916d-d7791246e366",
+              "text": "부칙 (2026.07.16.)\n이 세칙은 2026년 7월 16일부터 시행한다.\n직제규정 시행세칙",
+              "text_sha256": "79944cd3595877fa26f8d9ef2330bc72e8f94b0c55e607de9f2f67f9f023a166",
+              "source_locator": {
+                "coordinate_system": "PDF point; 원점=페이지 왼쪽 위",
+                "pdf_pages": [
+                  39,
+                  40
+                ],
+                "lines": [
+                  {
+                    "line_id": "p039l0006",
+                    "page": 39,
+                    "bbox": [
+                      255.222,
+                      478.051,
+                      339.842,
+                      488.0
+                    ]
+                  },
+                  {
+                    "line_id": "p039l0007",
+                    "page": 39,
+                    "bbox": [
+                      82.875,
+                      525.878,
+                      275.918,
+                      535.828
+                    ]
+                  },
+                  {
+                    "line_id": "p040l0001",
+                    "page": 40,
+                    "bbox": [
+                      449.996,
+                      42.643,
+                      524.205,
+                      51.634
+                    ]
+                  }
+                ],
+                "section_kind": "supplement"
+              }
+            }
+          ],
+          "exceptions_review": "조항별 적용례·소급 적용은 별도 조건 원문 후보로 보존. 자동 적용 판정 전.",
+          "note": "최신 개정일과 대응하는 부칙의 일반 시행일 표기를 확인. 효력 종료일은 미확인.",
+          "reviewed_by": "Codex (AI 원문 대조)"
+        },
+        "amendment_date_candidate_from_filename": null,
+        "article_count": 11,
+        "annex_count": 7,
+        "repeated_article_labels": [],
+        "table_count": 23,
+        "chunk_count": 18,
+        "effective_date_candidate_from_pdf_page_3": null,
+        "extraction_method": "pdfplumber_lines_and_detected_tables",
+        "blank_text_pages": [],
+        "short_text_pages": [
+          39,
+          51
+        ],
+        "short_page_review": {
+          "verified_pages": [
+            39,
+            51
+          ],
+          "status": "visible_text_covered_by_extracted_text",
+          "reviewed_by": "Codex",
+          "reviewed_on": "2026-10-13",
+          "note": "해당 페이지 전체 이미지에서 읽을 수 있는 내용이 추출 문자에 포함됨을 확인. 짧은 서식·표·빈 페이지. 개인별 적용·표 의미의 공식 해석·검색 활성화는 별도 검토.",
+          "source_evidence": [
+            {
+              "page": 51,
+              "page_text_sha256": "fbf4fefb110c0ee8f51bf2162e8cd7b5ce1931afd099f2a158d85160fbcfce58",
+              "source_file_sha256": "44e655356bcb3536b989fb922c336328415736590030d946104f68518dabeb9e",
+              "method": "full_page_image_and_extracted_text_comparison",
+              "verified_by": "Codex",
+              "human_official_interpretation_completed": false
+            }
+          ]
+        },
+        "image_content_review": {},
+        "structure_review": {},
+        "role_specific_review": false,
+        "local_file_metadata": {
+          "created_at": "2026-07-22T09:59:22+09:00",
+          "modified_at": "2026-10-01T09:36:46+09:00",
+          "time_zone": "Asia/Seoul",
+          "observed_on": "2026-10-13",
+          "source_location": "사용자가 지정한 원본 폴더: 데이터/규정/2. 한국수자원공사",
+          "basis": "local_filesystem_properties",
+          "status": "download_time_candidate_only",
+          "note": "다운로드 로그가 아님. 파일 복사·덮어쓰기·수정으로 달라질 수 있어 retrieved_at으로 확정하지 않음."
+        },
+        "retrieval_metadata": {
+          "value": "2026-10-01T09:36:00+09:00",
+          "basis": "user_confirmed_download_time",
+          "precision": "minute",
+          "verification_status": "user_confirmed",
+          "recorded_on": "2026-10-13",
+          "note": "사용자 확인: 2026-10-01 오전 09:36 다운로드, 이후 원본 변경 없음. 00초는 분 단위 값의 저장 표현이며 실제 초는 미확인."
+        },
+        "last_pages_date_strings_sample": []
+      },
+      {
+        "id": "B27",
+        "source": "직제/직제규정(2026년도 06월 18일 개정).pdf",
+        "sha256": "fd754780755edf791bf65f58076c896ebbbb999600d7acd48e8c7303df63262c",
+        "pages": 36,
+        "title": "직제규정",
+        "version_label": "91차",
+        "amendment_date": "2026-06-18",
+        "effective_from": "2026-06-19",
+        "date_review": {
+          "general_effective_from": "2026-06-19",
+          "candidate_from_source": "2026-06-19",
+          "status": "source_visual_verified",
+          "reviewed_on": "2026-10-13",
+          "basis": "원본 PDF 관련 부칙 페이지의 전체 화면과 추출 문자 대조",
+          "amendment_date": "2026-06-18",
+          "source_evidence": [
+            {
+              "node_id": "6d0a1347-62a7-54cd-a1eb-a28b939ce054",
+              "text": "부칙 (2026.06.18.)\n이 규정은 2026년 6월 19일부터 시행한다.\n【 1】 ( 6 2 )\n*\nㆍ",
+              "text_sha256": "4aea8b087ac81cb588a55c313b35228984b43b481d9f36fb58504f6df5609171",
+              "source_locator": {
+                "coordinate_system": "PDF point; 원점=페이지 왼쪽 위",
+                "pdf_pages": [
+                  26,
+                  27
+                ],
+                "lines": [
+                  {
+                    "line_id": "p026l0004",
+                    "page": 26,
+                    "bbox": [
+                      257.88,
+                      212.651,
+                      342.504,
+                      222.611
+                    ]
+                  },
+                  {
+                    "line_id": "p026l0005",
+                    "page": 26,
+                    "bbox": [
+                      82.92,
+                      258.731,
+                      276.086,
+                      268.691
+                    ]
+                  },
+                  {
+                    "line_id": "p027l0001",
+                    "page": 27,
+                    "bbox": [
+                      56.64,
+                      44.892,
+                      267.795,
+                      56.892
+                    ]
+                  },
+                  {
+                    "line_id": "p027l0002",
+                    "page": 27,
+                    "bbox": [
+                      757.56,
+                      191.846,
+                      761.784,
+                      199.526
+                    ]
+                  },
+                  {
+                    "line_id": "p027l0003",
+                    "page": 27,
+                    "bbox": [
+                      885.96,
+                      931.092,
+                      897.96,
+                      943.092
+                    ]
+                  }
+                ],
+                "section_kind": "supplement"
+              }
+            }
+          ],
+          "exceptions_review": "조항별 적용례·소급 적용은 별도 조건 원문 후보로 보존. 자동 적용 판정 전.",
+          "note": "최신 개정일과 대응하는 부칙의 일반 시행일 표기를 확인. 효력 종료일은 미확인.",
+          "reviewed_by": "Codex (AI 원문 대조)"
+        },
+        "amendment_date_candidate_from_filename": null,
+        "article_count": 11,
+        "annex_count": 0,
+        "repeated_article_labels": [],
+        "table_count": 24,
+        "chunk_count": 11,
+        "effective_date_candidate_from_pdf_page_3": null,
+        "extraction_method": "pdfplumber_lines_and_detected_tables",
+        "blank_text_pages": [],
+        "short_text_pages": [
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36
+        ],
+        "short_page_review": {
+          "verified_pages": [
+            26
+          ],
+          "status": "visual_text_match",
+          "reviewed_by": "Codex",
+          "reviewed_on": "2026-10-13",
+          "note": "페이지 전체를 렌더링해 원문 문자와 대조. 짧은 분량 자체로 문자 누락을 판정하지 않음. 규정 해석·검색 활성화 검토와는 별개."
+        },
+        "image_content_review": {
+          "status": "visible_content_missing_from_extracted_text",
+          "reviewer": "Codex",
+          "reviewed_at": "2026-10-13",
+          "visually_checked_pages": [
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36
+          ],
+          "page_groups": [
+            {
+              "pdf_pages": [
+                27
+              ],
+              "source_content": "별표1 기구표",
+              "status": "manual_transcription_pending"
+            },
+            {
+              "pdf_pages": [
+                28
+              ],
+              "source_content": "별표2 정원표",
+              "status": "separate_correction_handling_confirmed",
+              "correction_path": "보정/직제규정_정원표_V01/정원표_보정데이터.json",
+              "main_data_integrated": false,
+              "user_confirmed_scope": "정원과 현원을 구분해 안내",
+              "numeric_transcription_confirmed_by_user": false
+            },
+            {
+              "pdf_pages": [
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36
+              ],
+              "source_content": "별표3 분장업무표",
+              "status": "manual_transcription_pending",
+              "display_note": "34~35쪽 소관부서 칸의 여러 명칭은 검토용 렌더 화면에서 글자가 겹쳐 보임. 판독이 불확실한 부서명·연결 관계는 확정하지 않음. 33·36쪽 소관부서 공란은 임의로 채우지 않음."
+            }
+          ],
+          "source_evidence": [
+            {
+              "pdf_page": 27,
+              "page_text_sha256": "38a05f22d688d28b787d488944da57925815991d5c319520c50b7be2042dec1d",
+              "source_file_sha256": "fd754780755edf791bf65f58076c896ebbbb999600d7acd48e8c7303df63262c",
+              "comparison": "full_page_image_vs_extracted_text"
+            },
+            {
+              "pdf_page": 28,
+              "page_text_sha256": "a4a83ec4b26f73c747e24f7f5679c99066794bcb53c57e9e58e2938c3b11a277",
+              "source_file_sha256": "fd754780755edf791bf65f58076c896ebbbb999600d7acd48e8c7303df63262c",
+              "comparison": "full_page_image_vs_extracted_text"
+            },
+            {
+              "pdf_page": 29,
+              "page_text_sha256": "db379ce16f570548665da0c97621df6a179ce5c064a6c5a89c80a2d6672448f1",
+              "source_file_sha256": "fd754780755edf791bf65f58076c896ebbbb999600d7acd48e8c7303df63262c",
+              "comparison": "full_page_image_vs_extracted_text"
+            },
+            {
+              "pdf_page": 30,
+              "page_text_sha256": "0955acbe65a66585a524b143f2dc593b5b0aec0237b0c89aef7a884df370441b",
+              "source_file_sha256": "fd754780755edf791bf65f58076c896ebbbb999600d7acd48e8c7303df63262c",
+              "comparison": "full_page_image_vs_extracted_text"
+            },
+            {
+              "pdf_page": 31,
+              "page_text_sha256": "72423c35159de4bdcfdaabbd5c0cdd8f2d3b39a7a23e43cf77f066fe744d57c4",
+              "source_file_sha256": "fd754780755edf791bf65f58076c896ebbbb999600d7acd48e8c7303df63262c",
+              "comparison": "full_page_image_vs_extracted_text"
+            },
+            {
+              "pdf_page": 32,
+              "page_text_sha256": "4f7cf35430c12855f4674d6d05c3580401ae7bcfe13292164019b02decbab243",
+              "source_file_sha256": "fd754780755edf791bf65f58076c896ebbbb999600d7acd48e8c7303df63262c",
+              "comparison": "full_page_image_vs_extracted_text"
+            },
+            {
+              "pdf_page": 33,
+              "page_text_sha256": "ddb30341aab40ee57623e45930e53ef3d2dac252a14a69b2965e2cc5ade4dcb6",
+              "source_file_sha256": "fd754780755edf791bf65f58076c896ebbbb999600d7acd48e8c7303df63262c",
+              "comparison": "full_page_image_vs_extracted_text"
+            },
+            {
+              "pdf_page": 34,
+              "page_text_sha256": "b1d77e692540baf72a8dca766bc95273622c435c46c4dcf6da8d9bff7f0a72bc",
+              "source_file_sha256": "fd754780755edf791bf65f58076c896ebbbb999600d7acd48e8c7303df63262c",
+              "comparison": "full_page_image_vs_extracted_text"
+            },
+            {
+              "pdf_page": 35,
+              "page_text_sha256": "e2e3eabdac4befc9b33305052f075bc63eca34d69ecc4d88323b6586013d0f6f",
+              "source_file_sha256": "fd754780755edf791bf65f58076c896ebbbb999600d7acd48e8c7303df63262c",
+              "comparison": "full_page_image_vs_extracted_text"
+            },
+            {
+              "pdf_page": 36,
+              "page_text_sha256": "fcdc8cbd3f68d2db51522103eb01c664ce3a6f5cc293c1c2f90eeeb43fc20b76",
+              "source_file_sha256": "fd754780755edf791bf65f58076c896ebbbb999600d7acd48e8c7303df63262c",
+              "comparison": "full_page_image_vs_extracted_text"
+            }
+          ],
+          "remaining_work": "PDF 27~36쪽 전체 화면 대조 결과 기구표·정원표·분장업무표의 내용이 자동 추출에 빠져 있음. 28쪽 정원표는 별도 보정안 10행을 만들었고 정원·현원 구분을 사용자가 수용했으나 본 데이터 통합 전. 27쪽 기구표와 29~36쪽 분장업무는 전사 보완 필요. 34~35쪽 소관부서가 원본에서도 겹쳐 보이는 것을 사용자가 확인했고, 시행세칙 대조 후보 4개 명칭을 사용자 확인값으로 보존. 전체 분장업무 전사와 개별 업무·부서 관계 검토는 남아 있음.",
+          "human_official_interpretation_completed": false,
+          "department_label_review": {
+            "status": "source_overlap_confirmed_by_user",
+            "pdf_pages": [
+              34,
+              35
+            ],
+            "observation": "소관부서 칸 확대 이미지에서도 일부 부서명의 글자가 서로 겹쳐 보임. 불확실한 문자열과 업무별 부서 연결을 확정하지 않음.",
+            "crop_bbox_pdf_points": [
+              427,
+              90,
+              524,
+              758
+            ],
+            "render_resolution_dpi": 230,
+            "source_evidence": [
+              {
+                "pdf_page": 34,
+                "image_path": "report/source_images/B27-page-34-department-detail.png",
+                "image_sha256": "90a22024f5c8e46bfb79795fa57c28c4e457aca7261539533110aea2bef0e042"
+              },
+              {
+                "pdf_page": 35,
+                "image_path": "report/source_images/B27-page-35-department-detail.png",
+                "image_sha256": "4c838832ff69ccf065a2520c1581721da269dba31eafde577234fc29b03d78a6"
+              }
+            ],
+            "user_review": {
+              "reviewed_at": "2026-10-13",
+              "confirmed_observation": "원본에서도겹쳐 보여 읽기가 다소 어려움",
+              "user_suggestion": "기구표·직제규정 시행세칙의 조직도를 교차 대조하고 필요한 경우 사용자 확인 후 입력"
+            },
+            "correction_path": "보정/직제규정_부서명_V01/부서명_대조후보.json",
+            "name_decisions": {
+              "regional_water_support": {
+                "status": "user_confirmed_name",
+                "reviewed_at": "2026-10-13",
+                "confirmed_name": "유역수도지원센터(처)",
+                "answer": "유역수도지원센터(처)로 확인",
+                "confirmed_original_location": {
+                  "pdf_page": 34,
+                  "organization": "한강유역본부",
+                  "column": "소관부서"
+                },
+                "review_scope": "명칭 확인. 다른 반복 위치·개별 번호 업무의 부서 대응 관계까지 확인한 것은 아님."
+              },
+              "jeju_cooperation": {
+                "status": "user_confirmed_name",
+                "reviewed_at": "2026-10-13",
+                "confirmed_name": "제주지역협력본부",
+                "answer": "세 명칭 모두 확인",
+                "confirmed_original_location": {
+                  "pdf_page": 35,
+                  "organization": "영·섬유역본부",
+                  "column": "소관부서"
+                },
+                "review_scope": "소관부서 명칭 확인. 개별 번호 업무와 해당 부서의 대응 관계를 자동 생성하는 확인은 아님."
+              },
+              "gyeongbuk_cooperation": {
+                "status": "user_confirmed_name",
+                "reviewed_at": "2026-10-13",
+                "confirmed_name": "경북지역협력단",
+                "answer": "세 명칭 모두 확인",
+                "confirmed_original_location": {
+                  "pdf_page": 35,
+                  "organization": "낙동강유역본부",
+                  "column": "소관부서"
+                },
+                "review_scope": "소관부서 명칭 확인. 개별 번호 업무와 해당 부서의 대응 관계를 자동 생성하는 확인은 아님."
+              },
+              "busan_ulsan_gyeongnam_cooperation": {
+                "status": "user_confirmed_name",
+                "reviewed_at": "2026-10-13",
+                "confirmed_name": "부산울산경남지역협력단",
+                "answer": "세 명칭 모두 확인",
+                "confirmed_original_location": {
+                  "pdf_page": 35,
+                  "organization": "낙동강유역본부",
+                  "column": "소관부서"
+                },
+                "review_scope": "소관부서 명칭 확인. 개별 번호 업무와 해당 부서의 대응 관계를 자동 생성하는 확인은 아님."
+              }
+            },
+            "name_review_status": "four_names_confirmed_by_user"
+          }
+        },
+        "structure_review": {},
+        "role_specific_review": false,
+        "local_file_metadata": {
+          "created_at": "2026-10-01T09:37:40+09:00",
+          "modified_at": "2026-10-01T09:37:41+09:00",
+          "time_zone": "Asia/Seoul",
+          "observed_on": "2026-10-13",
+          "source_location": "사용자가 지정한 원본 폴더: 데이터/규정/2. 한국수자원공사",
+          "basis": "local_filesystem_properties",
+          "status": "download_time_candidate_only",
+          "note": "다운로드 로그가 아님. 파일 복사·덮어쓰기·수정으로 달라질 수 있어 retrieved_at으로 확정하지 않음."
+        },
+        "retrieval_metadata": {
+          "value": "2026-10-01T09:37:41+09:00",
+          "basis": "local_modified_time_estimate",
+          "precision": "filesystem_second",
+          "verification_status": "estimated",
+          "recorded_on": "2026-10-13",
+          "note": "사용자가 지정한 원본 폴더의 수정 시각과 원본을 손대지 않았다는 설명에 근거한 확보 시각 추정값. 실제 다운로드 로그에서 확인한 시각은 아님."
+        },
+        "last_pages_date_strings_sample": []
+      }
+    ],
+    "institution_metadata": {
+      "institution_name": "한국수자원공사",
+      "institution_id": "bf3c2943-9f96-549e-bef7-88d85936e63c",
+      "external_code": "C0221",
+      "code_system": "ALIO",
+      "verification_status": "confirmed_official_website_link",
+      "verified_on": "2026-10-13",
+      "evidence_url": "https://www.kwater.or.kr/danbitoktok/kor/development/sub10_01/view/new/8f63405e-b63b-4c82-92c0-e4748370127b.do?order_gubun=like",
+      "alio_url": "https://www.alio.go.kr/organ/organDisclosureDtl.do?apbaId=C0221&apba_id=C0221",
+      "evidence_note": "한국수자원공사 공식 웹페이지가 해당 ALIO 주소를 안내함. ALIO 상세 페이지 직접 열람은 403 응답. 범정부 공통 식별 코드로 단정하지 않음."
+    },
+    "application_policy": {
+      "default_as_of_date_source": "question_date",
+      "time_zone": "Asia/Seoul",
+      "confirmed_by_user_on": "2026-10-13",
+      "user_decision": "질문하는 날을 기준으로 판단",
+      "rule": "일반 시행일과 조항별 예외·적용례를 함께 검토",
+      "implementation_status": "handoff_requirement_only",
+      "note": "상담 기능의 날짜 필터 구현이나 직원별 자동 적용 판정은 이번 전처리에서 실행하지 않음."
+    },
+    "delivery_revision": "V04",
+    "database_executed": false,
+    "embedding_created": false
+  },
+  "인재개발규정_시범_V01": {
+    "profile_version": "kwater-talent-20241226-v1",
+    "processed_at": "2026-10-13T02:55:17+00:00",
+    "source_sha256": "0835551b52e02b2471022af3e3bf4c65ce39d0816a9fba6b0cc6c5569b5b792f",
+    "source_file": "source/인재개발규정(2024년도 12월 개정).pdf",
+    "source_listing_url": "https://www.alio.go.kr/item/itemOrganList.do?reportFormRootNo=21110",
+    "source_download_url": null,
+    "retrieved_at": "2026-10-01T09:39:00+09:00",
+    "retrieved_at_source": "user_reported",
+    "retrieved_at_precision": "minute",
+    "retrieved_at_timezone": "Asia/Seoul",
+    "schema_source": "HR_Example_ERD.html",
+    "package_schema": "hr_regulation_pilot",
+    "ids": {
+      "institution": "bf3c2943-9f96-549e-bef7-88d85936e63c",
+      "regulation": "d886163d-0c16-5f2e-a8f8-1db7e3c5692c",
+      "version": "5565f28d-29da-5ebd-bb8a-b0dc705f26d3",
+      "file": "30562fdd-97df-5c4b-9535-1c7402d2b738"
+    },
+    "runtime": {
+      "python": "3.12.14",
+      "pdfplumber": "0.11.9"
+    },
+    "encoding": "JSON/SQL/HTML=UTF-8; CSV=UTF-8-BOM; CSV NULL=\\N",
+    "integrations_executed": []
+  }
+}

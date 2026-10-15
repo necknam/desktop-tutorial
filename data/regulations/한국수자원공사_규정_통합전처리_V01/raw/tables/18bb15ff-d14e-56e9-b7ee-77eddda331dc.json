@@ -1,0 +1,164 @@
+[
+  {
+    "table_key": "p014-table-1",
+    "page": 14,
+    "bbox": [
+      59.728,
+      130.334,
+      506.492,
+      293.071
+    ],
+    "rows": [
+      [
+        "지원대상자의 구분",
+        "지급기준"
+      ],
+      [
+        "1. 장애의 정도가 심한 장애인 자녀를 둔 임․직원",
+        "250천/월"
+      ],
+      [
+        "2. 제1호 외의 만20세 이하 장애인 자녀를 둔\n임․직원",
+        "200천/월"
+      ]
+    ],
+    "status": "needs_review",
+    "regulation_node_id": "1241bd5a-9c9a-5004-b66d-860d140f76ff"
+  },
+  {
+    "table_key": "p015-table-1",
+    "page": 15,
+    "bbox": [
+      57.929,
+      152.416,
+      503.254,
+      263.548
+    ],
+    "rows": [
+      [
+        "구 분",
+        "지 급 액"
+      ],
+      [
+        null,
+        "소 유"
+      ],
+      [
+        "1. 건물완전소실(유실) 또는 파괴\n2. 건물1/2소실(유실) 또는 파괴\n3. 건물1/3소실(유실) 또는 파괴",
+        "기준액의 10분의 39\n기준액의 10분의 26\n기준액의 10분의 13"
+      ]
+    ],
+    "status": "needs_review",
+    "regulation_node_id": "6a713f9e-aaf6-5803-a415-6a2c338aa9c6"
+  },
+  {
+    "table_key": "p016-table-1",
+    "page": 16,
+    "bbox": [
+      57.809,
+      150.256,
+      508.291,
+      649.748
+    ],
+    "rows": [
+      [
+        "신청자\n현 황",
+        "①부서명",
+        null,
+        "",
+        null,
+        "②직급",
+        null,
+        "",
+        null,
+        "③성명",
+        null,
+        null,
+        "",
+        null
+      ],
+      [
+        "장애인\n현 황",
+        "④성 명",
+        null,
+        "",
+        "⑤생년\n월일",
+        null,
+        "",
+        null,
+        null,
+        null,
+        "⑥신청인과의\n관계",
+        null,
+        null,
+        ""
+      ],
+      [
+        null,
+        "⑦장애명",
+        null,
+        "",
+        "⑧장애\n정도",
+        null,
+        "",
+        null,
+        "⑨증명서\n발급기관",
+        null,
+        null,
+        "",
+        null,
+        null
+      ],
+      [
+        "⑩장애인증명서 반납일",
+        null,
+        null,
+        null,
+        "",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "「복지후생규정」 제10조제2항제4호, 동규정 시행세칙 제12조의2\n및 제12조의4에 따라 장애인 부양 사항 등록(해지)을 신청합니다.\n년 월 일\n신청인 : (인)",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "※첨부서류",
+        null,
+        "1. 장애인등록증 사본 1부.\n2. 신청인과의 관계를 증빙할 수 있는 가족관계등록사항별\n증명서(가족관계증명서 또는 기본증명서)",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    ],
+    "status": "needs_review",
+    "regulation_node_id": "ec3f26b5-1db4-5a28-ab59-47d88a7c96cb"
+  }
+]

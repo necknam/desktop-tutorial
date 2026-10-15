@@ -1,0 +1,457 @@
+[
+  {
+    "table_key": "p003-table-1",
+    "page": 3,
+    "bbox": [
+      57.6,
+      285.96,
+      549.84,
+      737.52
+    ],
+    "rows": [
+      [
+        "",
+        null,
+        "",
+        null,
+        "",
+        ""
+      ],
+      [
+        null,
+        null,
+        "",
+        "",
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        "",
+        "",
+        "",
+        null
+      ],
+      [
+        null,
+        null,
+        "",
+        "",
+        "",
+        null
+      ],
+      [
+        null,
+        "",
+        "",
+        "",
+        "",
+        null
+      ],
+      [
+        null,
+        "",
+        "",
+        "",
+        "",
+        null
+      ],
+      [
+        null,
+        null,
+        "",
+        "",
+        "",
+        null
+      ],
+      [
+        null,
+        null,
+        "",
+        "",
+        "",
+        null
+      ],
+      [
+        null,
+        null,
+        "",
+        "",
+        "",
+        null
+      ]
+    ],
+    "status": "needs_review",
+    "regulation_node_id": "62c943f3-1a14-515f-9476-293ea2bfd519"
+  },
+  {
+    "table_key": "p005-table-1",
+    "page": 5,
+    "bbox": [
+      60.36,
+      106.2,
+      551.28,
+      693.96
+    ],
+    "rows": [
+      [
+        "",
+        null,
+        null,
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        null,
+        null,
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        null
+      ],
+      [
+        null,
+        null,
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        null
+      ],
+      [
+        null,
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        null
+      ],
+      [
+        null,
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        null
+      ],
+      [
+        null,
+        null,
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        null
+      ],
+      [
+        null,
+        null,
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        null
+      ],
+      [
+        null,
+        null,
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        null
+      ]
+    ],
+    "status": "needs_review",
+    "regulation_node_id": "a3bc4957-4817-5c30-933b-d69b44c51834"
+  },
+  {
+    "table_key": "p006-table-1",
+    "page": 6,
+    "bbox": [
+      67.8,
+      171.24,
+      550.26,
+      230.16
+    ],
+    "rows": [
+      [
+        "",
+        "",
+        ""
+      ],
+      [
+        null,
+        "",
+        null
+      ]
+    ],
+    "status": "needs_review",
+    "regulation_node_id": "dff8f4cf-9410-5773-b4b3-fe02afdab5fc"
+  },
+  {
+    "table_key": "p006-table-2",
+    "page": 6,
+    "bbox": [
+      64.2,
+      494.4,
+      550.26,
+      515.832
+    ],
+    "rows": [
+      [
+        "",
+        ""
+      ]
+    ],
+    "status": "needs_review",
+    "regulation_node_id": "1600a495-b700-5792-bc6f-36e467d9fda9"
+  },
+  {
+    "table_key": "p007-table-1",
+    "page": 7,
+    "bbox": [
+      63.48,
+      72.24,
+      550.56,
+      93.68
+    ],
+    "rows": [
+      [
+        "",
+        ""
+      ]
+    ],
+    "status": "needs_review",
+    "regulation_node_id": "81fd83d4-9c2a-5db7-9b3d-e7bd4fd43b7a"
+  },
+  {
+    "table_key": "p008-table-1",
+    "page": 8,
+    "bbox": [
+      84.24,
+      97.68,
+      548.82,
+      178.32
+    ],
+    "rows": [
+      [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        null,
+        "",
+        "",
+        "",
+        null
+      ],
+      [
+        null,
+        "",
+        "",
+        null,
+        null
+      ]
+    ],
+    "status": "needs_review",
+    "regulation_node_id": "ee27a2a0-4892-5725-a460-666f0c8d3e72"
+  },
+  {
+    "table_key": "p010-table-1",
+    "page": 10,
+    "bbox": [
+      44.537,
+      116.64,
+      550.72,
+      764.76
+    ],
+    "rows": [
+      [
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        "",
+        null
+      ],
+      [
+        null,
+        "",
+        "",
+        null
+      ],
+      [
+        null,
+        "",
+        "",
+        null
+      ],
+      [
+        "",
+        "",
+        "",
+        null
+      ],
+      [
+        null,
+        "",
+        "",
+        null
+      ],
+      [
+        null,
+        "",
+        "",
+        null
+      ],
+      [
+        null,
+        null,
+        "",
+        null
+      ],
+      [
+        "",
+        "",
+        "",
+        null
+      ]
+    ],
+    "status": "needs_review",
+    "regulation_node_id": "759815cf-9475-5e7d-8747-96a7a68d360e"
+  },
+  {
+    "table_key": "p011-table-1",
+    "page": 11,
+    "bbox": [
+      43.92,
+      72.24,
+      554.04,
+      720.84
+    ],
+    "rows": [
+      [
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        "",
+        null
+      ],
+      [
+        null,
+        null,
+        "",
+        null
+      ],
+      [
+        null,
+        null,
+        "",
+        null
+      ],
+      [
+        null,
+        "",
+        "",
+        null
+      ],
+      [
+        null,
+        "",
+        "",
+        null
+      ],
+      [
+        null,
+        null,
+        "",
+        null
+      ],
+      [
+        null,
+        null,
+        "",
+        null
+      ],
+      [
+        null,
+        null,
+        "",
+        null
+      ],
+      [
+        null,
+        null,
+        "",
+        null
+      ],
+      [
+        null,
+        "",
+        "",
+        null
+      ],
+      [
+        null,
+        null,
+        "",
+        null
+      ],
+      [
+        "",
+        "",
+        "",
+        null
+      ],
+      [
+        "",
+        "",
+        "",
+        null
+      ],
+      [
+        "",
+        "",
+        "",
+        null
+      ]
+    ],
+    "status": "needs_review",
+    "regulation_node_id": "80075743-e87f-5f7e-9395-a22510687d94"
+  }
+]

@@ -1,0 +1,1383 @@
+{
+  "education_assessment_eligibility": {
+    "handling_review_status": "user_accepted",
+    "reviewed_at": "2026-10-13",
+    "regulation_name": "인사규정시행세칙",
+    "source_file_name": "인사규정시행세칙(2025년도 11월 10일 개정).pdf",
+    "source_regulation_node_id": "8bb918d8-52b2-59bd-9b88-5463d2fee074",
+    "source_pdf_pages": [
+      14
+    ],
+    "source_article": "제41조제1항",
+    "user_answer": "미수료 확인과 기록 부족을 구분 (권장)",
+    "source_action_text": "교육훈련평정대상에서 제외한다",
+    "handling_cases": [
+      {
+        "case_id": "applicable_leader_training_not_completed_confirmed",
+        "handling": "본인에게 적용되는 리더교육의 미수료가 확인되면 원문의 평정대상 제외 기준을 안내하고 기관에 대상 여부 확인."
+      },
+      {
+        "case_id": "training_record_missing_or_applicable_course_unclear",
+        "handling": "교육 기록 부재나 적용 과정 불명확을 미수료로 바꾸지 않고 평정대상 여부 확인 필요로 안내."
+      }
+    ],
+    "zero_score_inferred": false,
+    "automated_employee_exclusion_enabled": false,
+    "items_to_check": [
+      "상담 기준일과 적용 개정본",
+      "본인에게 적용되는 리더역량 필수교육",
+      "실제 수료 또는 미수료 상태",
+      "직군전환 이력 및 제41조제2항 예외 해당 여부"
+    ],
+    "original_source_text_preserved": true,
+    "actual_employee_rules_implemented": false
+  },
+  "education_assessment_basis": {
+    "handling_review_status": "source_wording_confirmed_by_user",
+    "reviewed_at": "2026-10-13",
+    "regulation_name": "인사규정시행세칙",
+    "source_file_name": "인사규정시행세칙(2025년도 11월 10일 개정).pdf",
+    "source_pdf_pages": [
+      14
+    ],
+    "source_articles": [
+      "제41조제1항",
+      "제42조"
+    ],
+    "user_statement": "권장 안도 일부 내용은 조금 다른 것 같아. 제41조1항은 해당 직급 재직기간 중에 취득한 총학습시간과 해당 직급의 직무역량 필수교육 이수 과정 수를 기준으로 평정한다고 명기하고 있어.",
+    "previous_proposal_status": "replaced_after_user_correction",
+    "source_basis_text": "교육훈련평정은 「인재개발규정」에 따라 해당 직급 재직기간 중에 취득한 총학습시간과 해당 직급의 직무역량 필수교육 이수 과정 수를 기준으로 평정한다.",
+    "handling": "제41조제1항의 평정 기준을 원문 용어로 안내한다. 총학습시간과 해당 직급의 직무역량 필수교육 이수 과정 수를 각각 확인하며, 이를 막연한 교육 이력으로 대체하지 않는다.",
+    "source_formula_variable_definitions": {
+      "B": "총학습시간(해당직급이수 학습시간의 합계)",
+      "C": "목표학습량(기준학습시간×해당직급 근무연수)",
+      "D": "해당직급 재직기간 중 이수한 직무역량 필수교육 과정 수",
+      "E": "해당직급 직무역량 필수교육 대상 과정 수"
+    },
+    "annual_learning_comparison_approved": false,
+    "score_calculated": false,
+    "actual_employee_rules_implemented": false,
+    "source_evidence": [
+      {
+        "regulation_node_id": "8bb918d8-52b2-59bd-9b88-5463d2fee074",
+        "regulation_version_id": "baed2f1b-2de3-5162-82c4-d52cc29e3d5c",
+        "regulation_file_id": "de82755e-1d59-5f98-b80d-2a47be55e517",
+        "body_text": "제41조(교육훈련 평정대상) ① 교육훈련평정은 「인재개발규정」에 따라 해당 직급 재직기간 중에 취\n득한 총학습시간과 해당 직급의 직무역량 필수교육 이수 과정 수를 기준으로 평정한다. 다만,\n「인재개발규정」 제7조에 따른 해당 직급별 리더역량 필수 교육을 미수료한 경우에는 교육훈련\n평정대상에서 제외한다. <개정 2019.11.12., 2024.12.27.>\n② 제20조의3에 따라 직군전환된 경우 전문직 또는 운영직 해당직급에서의 교육이수시간을 포함\n한다. 이 경우 직군전환 시 「인재개발규정」 제7조에 따른 일반직 직급별 필수교육 중 직무역량교\n육을 이수한 경우에는 교육훈련 평정대상에서 제외하지 않는다. <신설 2017.11.23, 개정\n2019.11.12.>\n<본조 개정 2002.01.02,개정 2010.12.03>",
+        "source_locator": {
+          "coordinate_system": "PDF point; 원점=페이지 왼쪽 위",
+          "pdf_pages": [
+            14
+          ],
+          "lines": [
+            {
+              "line_id": "p014l0004",
+              "page": 14,
+              "bbox": [
+                58.693,
+                213.251,
+                510.364,
+                223.188
+              ]
+            },
+            {
+              "line_id": "p014l0005",
+              "page": 14,
+              "bbox": [
+                72.798,
+                229.174,
+                510.49,
+                239.112
+              ]
+            },
+            {
+              "line_id": "p014l0006",
+              "page": 14,
+              "bbox": [
+                72.798,
+                245.098,
+                510.484,
+                255.036
+              ]
+            },
+            {
+              "line_id": "p014l0007",
+              "page": 14,
+              "bbox": [
+                72.798,
+                261.142,
+                333.346,
+                271.08
+              ]
+            },
+            {
+              "line_id": "p014l0008",
+              "page": 14,
+              "bbox": [
+                72.798,
+                277.306,
+                510.364,
+                287.243
+              ]
+            },
+            {
+              "line_id": "p014l0009",
+              "page": 14,
+              "bbox": [
+                72.798,
+                293.229,
+                510.484,
+                303.167
+              ]
+            },
+            {
+              "line_id": "p014l0010",
+              "page": 14,
+              "bbox": [
+                72.798,
+                309.153,
+                510.364,
+                319.091
+              ]
+            },
+            {
+              "line_id": "p014l0011",
+              "page": 14,
+              "bbox": [
+                72.798,
+                325.197,
+                131.807,
+                335.135
+              ]
+            },
+            {
+              "line_id": "p014l0012",
+              "page": 14,
+              "bbox": [
+                77.699,
+                341.361,
+                265.688,
+                351.298
+              ]
+            }
+          ],
+          "section_kind": "body"
+        }
+      },
+      {
+        "regulation_node_id": "a85a82a1-3d31-5a66-a6b9-499b466eba98",
+        "regulation_version_id": "baed2f1b-2de3-5162-82c4-d52cc29e3d5c",
+        "regulation_file_id": "de82755e-1d59-5f98-b80d-2a47be55e517",
+        "body_text": "제42조(교육훈련 평정점수의 산정) 교육훈련점수는 다음과 같이 산정한다. 이 경우 점수산정에 관한\n세부사항은 「인재개발규정」에서 정하는 바에 따른다.\n교육훈련평정 점수＝A×[{0.6×(B/C)}+{0.4×(D/E)}]\n※ A : 2급(을) 10점, 3급 이하 25점\nB : 총학습시간(해당직급이수 학습시간의 합계)\nC : 목표학습량(기준학습시간×해당직급 근무연수)\nD : 해당직급 재직기간 중 이수한 직무역량 필수교육 과정 수\nE : 해당직급 직무역량 필수교육 대상 과정 수\n<개정 2016.12.01, 2019.11.12., 2024.12.27.>\n<조 개정 2005.09.23,개정 2010.12.03>",
+        "source_locator": {
+          "coordinate_system": "PDF point; 원점=페이지 왼쪽 위",
+          "pdf_pages": [
+            14
+          ],
+          "lines": [
+            {
+              "line_id": "p014l0013",
+              "page": 14,
+              "bbox": [
+                58.693,
+                379.913,
+                510.364,
+                389.851
+              ]
+            },
+            {
+              "line_id": "p014l0014",
+              "page": 14,
+              "bbox": [
+                72.798,
+                395.957,
+                309.19,
+                405.894
+              ]
+            },
+            {
+              "line_id": "p014l0015",
+              "page": 14,
+              "bbox": [
+                65.148,
+                421.515,
+                283.004,
+                430.495
+              ]
+            },
+            {
+              "line_id": "p014l0016",
+              "page": 14,
+              "bbox": [
+                65.148,
+                433.248,
+                217.438,
+                442.228
+              ]
+            },
+            {
+              "line_id": "p014l0017",
+              "page": 14,
+              "bbox": [
+                69.69,
+                444.554,
+                261.523,
+                453.533
+              ]
+            },
+            {
+              "line_id": "p014l0018",
+              "page": 14,
+              "bbox": [
+                69.69,
+                455.329,
+                272.76,
+                464.309
+              ]
+            },
+            {
+              "line_id": "p014l0019",
+              "page": 14,
+              "bbox": [
+                69.69,
+                466.105,
+                324.423,
+                475.085
+              ]
+            },
+            {
+              "line_id": "p014l0020",
+              "page": 14,
+              "bbox": [
+                69.69,
+                476.881,
+                259.873,
+                485.86
+              ]
+            },
+            {
+              "line_id": "p014l0021",
+              "page": 14,
+              "bbox": [
+                63.713,
+                495.572,
+                272.741,
+                505.509
+              ]
+            },
+            {
+              "line_id": "p014l0022",
+              "page": 14,
+              "bbox": [
+                77.699,
+                511.735,
+                256.005,
+                521.672
+              ]
+            }
+          ],
+          "section_kind": "body"
+        }
+      }
+    ]
+  },
+  "education_assessment_components_exception": {
+    "handling_review_status": "user_accepted",
+    "reviewed_at": "2026-10-13",
+    "regulation_name": "인사규정시행세칙",
+    "source_file_name": "인사규정시행세칙(2025년도 11월 10일 개정).pdf",
+    "source_regulation_node_id": "41e26cd2-1681-5303-bbe6-6564386315e5",
+    "source_pdf_pages": [
+      8
+    ],
+    "source_article": "제28조제1항",
+    "source_text": "제28조(평정점수의 구성) ① 종합근무평정은 근무성적평정, 경력평정, 교육훈련평정, 가감평정으로\n구성된다. 다만, 1급 직원, 2급(갑) 직원 또는 「인사규정」 제23조의 승진소요최저연수를 충족하지\n못한 자에 대하여는 근무성적평정만을 실시할 수 있다. <개정 2006.12.20 ,개정 2010.12.03.,\n2019.11.12>\n② 종합근무평정의 구성항목별 평정점은 다음과 같다.\n직 급\n구성항목별\n2급(을) 3~8급\n근무성적평정 50 50\n경력평정 - 5\n직무전문성평정\n교육훈련평정 10 25\n가감평정 10한도 10한도\n<개정 2016.12.01, 2019.11.12., 2023.10.31>\n<본조 개정 2002.01.02>",
+    "source_action_text": "근무성적평정만을 실시할 수 있다",
+    "user_answer": "원문 예외 보존, 실제 평정 실시 여부 확인 (권장)",
+    "handling": "원문 예외를 보존. 해당 조건만으로 교육훈련평정을 자동 제외하지 않고 기관의 실제 평정 실시 여부를 확인한 뒤 안내.",
+    "items_to_check": [
+      "직급",
+      "인사규정 제23조의 승진소요최저연수 충족 여부",
+      "기관에서 실시한 평정 구성항목"
+    ],
+    "zero_score_inferred": false,
+    "automated_employee_exclusion_enabled": false,
+    "actual_employee_rules_implemented": false
+  },
+  "assessment_score_precision": {
+    "source_type": "source_text_verified_by_codex",
+    "reviewed_at": "2026-10-13",
+    "regulation_name": "인사규정시행세칙",
+    "source_file_name": "인사규정시행세칙(2025년도 11월 10일 개정).pdf",
+    "source_regulation_node_id": "b235be36-28ea-52ee-8b7b-b969557db260",
+    "source_pdf_pages": [
+      8
+    ],
+    "source_article": "제28조의2",
+    "source_text": "제28조의2(평정점수의 계산) 평정점수의 계산은 소수점이하 3자리까지로 하되, 4자리수 이하는 절사\n한다.",
+    "decimal_places": 3,
+    "fractional_digits_from_fourth": "truncate",
+    "applies_to": "평정점수의 계산",
+    "applies_to_learning_hours": false,
+    "automatic_score_calculation_implemented": false,
+    "human_confirmation_required_for_transcription": false
+  },
+  "training_field_mapping_availability": {
+    "source_type": "user_reported_material_availability_with_unconfirmed_interpretation",
+    "reviewed_at": "2026-10-13",
+    "regulation_name": "인재개발규정",
+    "source_file_name": "인재개발규정(2024년도 12월 개정).pdf",
+    "source_pdf_pages": [
+      2,
+      21
+    ],
+    "source_articles": [
+      "제7조제5항",
+      "별표3 주석"
+    ],
+    "user_answer": "전산은 통합직무로 판단하지 않아 여기에서는 포함하지 않은 것으로 보이며, 이와 별개로 현재 추가 자료는 없다고 봐야할 것 같아.",
+    "additional_materials_status": "user_reports_not_available",
+    "priority_departments": [
+      "디지털관리처",
+      "인재경영실"
+    ],
+    "priority_job_candidates": [
+      "전산",
+      "행정"
+    ],
+    "user_hypothesis": {
+      "text": "전산은 통합직무로 판단하지 않아 별표3에 포함하지 않은 것으로 보임.",
+      "status": "user_interpretation_reference_only",
+      "institution_policy_confirmed": false,
+      "establishes_training_exemption": false
+    },
+    "source_target_text": "일반직 5급으로 채용하는 신입사원",
+    "handling": "일반직 5급 신입사원에 관한 제7조제5항 원문과 별표3 주석을 보존. 전산 업무의 교육 분야 연결 기준은 기관 확인 대기로 유지. 표의 분야 미표시를 교육 면제로 확정하지 않음.",
+    "training_field_assigned": false,
+    "training_exemption_confirmed": false,
+    "actual_employee_rules_implemented": false,
+    "source_evidence": [
+      {
+        "regulation_node_id": "67db5327-5548-52c1-9e6c-f1a0b7b0ed09",
+        "body_text": "제7조(학습시간 및 필수교육) ① 직원은 매년 기준학습시간 이상의 교육을 이수해야 하며 직급별 연\n간 기준학습시간은 별표 1과 같다. <개정 2018.12.27., 2022.10.07>\n② 직원이 이수하는 학습시간은 아래와 같이 인재개발담당부서 주관학습, 부서자체학습, 개인학\n습을 모두 포함하며, 세부적인 인정기준 및 절차는 인재개발담당부서의 장이 따로 정하여 시행한\n다. <개정 2018.12.27., 2022.10.07>\n1. 인재개발담당부서 주관학습: 인재개발담당부서에서 시행하는 정규 학습활동 (필수교육 포함)\n<개정 2018.12.27., 2022.10.07>\n2. 부서자체학습: 부서에서 업무와 연계하여 자체적으로 수행하는 학습활동 <개정 2018.12.27.,\n2022.10.07>\n3. 개인학습: 자기계발을 위한 개인학습활동 <개정 2018.12.27.>\n③ 직원들이 이수해야 할 해당 직급별 필요역량에 대한 필수교육은 별표 2와 같다.\n④ 승진 임용 (「인사규정」 제28조의2에 따른 직급 대우와 4급 과장 호칭 변경을 포함한다.)된 자\n는 다음 각 호의 기한 내 리더역량 필수교육을 이수하여야 한다. <신설 2024.12.26.>\n1. 2월 말까지 승진 임용된 자 : 승진임용된 다음해 10월 31일까지 <신설 2024.12.26.>\n2. 3월 이후 승진 임용된 자 : 승진임용된 다다음해 10월 31일까지 <신설 2024.12.26.>\n3. 제1호 및 제2호의 기간이 경과하기 전에 국외 파견 또는 휴직한 자 : 복귀한 다음해 10월 31\n일까지. 다만, 불가피한 경우 인재개발 담당부서장의 사전 승인을 받아 1년을 연장할 수 있\n다. <신설 2024.12.26.>\n⑤ 「인사규정」 제8조에 따라 일반직 5급으로 채용하는 신입사원에 대한 직무역량개발체계는 별\n표 3과 같다. <신설 2015.09.25, 개정 2018.12.27., 2024.12.26.>\n⑥ 「인사규정」 제8조의2에 따라 인턴을 직원으로 채용하는 경우에는 인턴기간동안 이수한 학습\n시간을 인턴 종료시 채용된 임용직급에서 이수한 학습시간으로 볼 수 있다. <신설 2015.09.25,\n개정 2018.12.27., 2022.10.07>\n⑦ 각 부서의 장은 체계적인 부서자체학습계획을 세우고 실행하는 등 직원들의 역량개발을 위해\n지속적인 노력을 하여야 한다. <신설 2018.12.27, 개정 2022.10.07.>\n[제목개정 2018.12.27]",
+        "source_locator": {
+          "coordinate_system": "PDF point; 원점=페이지 왼쪽 위",
+          "pdf_pages": [
+            2
+          ],
+          "printed_pages": [
+            2
+          ],
+          "lines": [
+            {
+              "line_id": "p02l011",
+              "page": 2,
+              "bbox": [
+                70.91,
+                287.881,
+                524.75,
+                297.961
+              ]
+            },
+            {
+              "line_id": "p02l012",
+              "page": 2,
+              "bbox": [
+                85.08,
+                303.711,
+                406.437,
+                313.791
+              ]
+            },
+            {
+              "line_id": "p02l013",
+              "page": 2,
+              "bbox": [
+                85.09,
+                320.021,
+                524.53,
+                330.101
+              ]
+            },
+            {
+              "line_id": "p02l014",
+              "page": 2,
+              "bbox": [
+                85.1,
+                336.091,
+                524.78,
+                346.171
+              ]
+            },
+            {
+              "line_id": "p02l015",
+              "page": 2,
+              "bbox": [
+                85.11,
+                351.921,
+                260.547,
+                362.001
+              ]
+            },
+            {
+              "line_id": "p02l016",
+              "page": 2,
+              "bbox": [
+                85.12,
+                368.231,
+                524.56,
+                378.311
+              ]
+            },
+            {
+              "line_id": "p02l017",
+              "page": 2,
+              "bbox": [
+                103.85,
+                384.061,
+                261.527,
+                394.141
+              ]
+            },
+            {
+              "line_id": "p02l018",
+              "page": 2,
+              "bbox": [
+                85.14,
+                400.371,
+                524.633,
+                410.451
+              ]
+            },
+            {
+              "line_id": "p02l019",
+              "page": 2,
+              "bbox": [
+                103.87,
+                416.441,
+                164.827,
+                426.521
+              ]
+            },
+            {
+              "line_id": "p02l020",
+              "page": 2,
+              "bbox": [
+                85.16,
+                432.511,
+                389.477,
+                442.591
+              ]
+            },
+            {
+              "line_id": "p02l021",
+              "page": 2,
+              "bbox": [
+                85.17,
+                448.821,
+                468.983,
+                458.901
+              ]
+            },
+            {
+              "line_id": "p02l022",
+              "page": 2,
+              "bbox": [
+                85.18,
+                464.891,
+                524.62,
+                474.971
+              ]
+            },
+            {
+              "line_id": "p02l023",
+              "page": 2,
+              "bbox": [
+                85.19,
+                480.961,
+                485.267,
+                491.041
+              ]
+            },
+            {
+              "line_id": "p02l024",
+              "page": 2,
+              "bbox": [
+                85.2,
+                497.031,
+                498.717,
+                507.111
+              ]
+            },
+            {
+              "line_id": "p02l025",
+              "page": 2,
+              "bbox": [
+                85.21,
+                513.341,
+                498.727,
+                523.421
+              ]
+            },
+            {
+              "line_id": "p02l026",
+              "page": 2,
+              "bbox": [
+                85.22,
+                529.411,
+                524.777,
+                539.491
+              ]
+            },
+            {
+              "line_id": "p02l027",
+              "page": 2,
+              "bbox": [
+                103.95,
+                545.481,
+                524.91,
+                555.561
+              ]
+            },
+            {
+              "line_id": "p02l028",
+              "page": 2,
+              "bbox": [
+                103.96,
+                561.551,
+                218.917,
+                571.631
+              ]
+            },
+            {
+              "line_id": "p02l029",
+              "page": 2,
+              "bbox": [
+                85.25,
+                577.621,
+                524.93,
+                587.701
+              ]
+            },
+            {
+              "line_id": "p02l030",
+              "page": 2,
+              "bbox": [
+                85.26,
+                593.691,
+                395.097,
+                603.771
+              ]
+            },
+            {
+              "line_id": "p02l031",
+              "page": 2,
+              "bbox": [
+                85.27,
+                609.761,
+                524.95,
+                619.841
+              ]
+            },
+            {
+              "line_id": "p02l032",
+              "page": 2,
+              "bbox": [
+                85.28,
+                625.831,
+                524.773,
+                635.911
+              ]
+            },
+            {
+              "line_id": "p02l033",
+              "page": 2,
+              "bbox": [
+                85.29,
+                641.901,
+                234.567,
+                651.981
+              ]
+            },
+            {
+              "line_id": "p02l034",
+              "page": 2,
+              "bbox": [
+                85.3,
+                657.971,
+                524.74,
+                668.051
+              ]
+            },
+            {
+              "line_id": "p02l035",
+              "page": 2,
+              "bbox": [
+                85.31,
+                674.041,
+                410.747,
+                684.121
+              ]
+            },
+            {
+              "line_id": "p02l036",
+              "page": 2,
+              "bbox": [
+                90.36,
+                690.111,
+                197.88,
+                700.191
+              ]
+            }
+          ],
+          "section_kind": "body"
+        }
+      },
+      {
+        "regulation_node_id": "f1360738-4cfd-5c87-a2c2-9785e49c886b",
+        "body_text": "*직무분야는 직무분류체계에 따른 세부직무를 분류․통합하여 구분",
+        "source_locator": {
+          "coordinate_system": "PDF point; 원문 보정 자료의 문자 좌표",
+          "pdf_pages": [
+            21
+          ],
+          "printed_pages": [
+            21
+          ],
+          "lines": [
+            {
+              "line_id": "p21l032",
+              "page": 21,
+              "bbox": [
+                47.52,
+                585.28,
+                455.08,
+                598.28
+              ]
+            }
+          ],
+          "section_kind": "annex",
+          "correction_source_locator": {
+            "pdf_page": 21,
+            "printed_page": 21,
+            "source_regulation_node_id": "16332bc1-75f8-595b-b771-e5a30fd650fd",
+            "source_table_key": "p21-table-1",
+            "source_table_node_id": "b2c39fd9-2ecb-5274-9768-8016d4093202",
+            "table_bbox": [
+              45.36,
+              138.0,
+              555.36,
+              575.28
+            ],
+            "line_ids": [
+              "p21l032"
+            ],
+            "line_bboxes": [
+              [
+                47.52,
+                585.28,
+                455.08,
+                598.28
+              ]
+            ],
+            "original_extracted_text": "*직무분야는 직무분류체계에 따른 세부직무를 분류․통합하여 구분",
+            "visual_group": null,
+            "visual_group_note": "분야·단계·평가의 병합 범위는 원문 전체 이미지로 대조. 문자 행에는 옆 칸의 글자가 함께 포함될 수 있음."
+          }
+        }
+      }
+    ]
+  },
+  "promotion_minimum_vs_appointment": {
+    "handling_review_status": "user_accepted",
+    "reviewed_at": "2026-10-13",
+    "regulation_name": "인사규정",
+    "source_file_name": "인사규정(2026년도 8월 27일 개정).pdf",
+    "source_pdf_pages": [
+      5,
+      6
+    ],
+    "source_articles": [
+      "제22조",
+      "제23조",
+      "제24조",
+      "제26조"
+    ],
+    "source_regulation_node_ids": [
+      "bf3ccb52-c795-574e-8095-eab5e38a64d4",
+      "f80ca70b-6800-59aa-8536-acd61cc23e8f",
+      "d7f8bdc1-48ac-58dd-b4a7-82f665ced7d3",
+      "981142fb-5140-5892-ae05-a6c95c82bcee"
+    ],
+    "user_answer": "최소 기간과 실제 승진 여부를 구분 (권장)",
+    "handling": "최소 승진기간 충족과 실제 승진 여부를 구분. 기간만으로 승진 확정을 안내하지 않고 결원·평정·승진 제한·임용방법 등 함께 확인.",
+    "employee_promotion_decision_implemented": false,
+    "employee_promotion_date_calculated": false
+  },
+  "promotion_field_work_it_exception": {
+    "handling_review_status": "user_accepted",
+    "reviewed_at": "2026-10-13",
+    "regulation_name": "인사규정시행세칙",
+    "source_file_name": "인사규정시행세칙(2025년도 11월 10일 개정).pdf",
+    "source_pdf_pages": [
+      17,
+      18
+    ],
+    "source_article": "제48조의2제2항제2호",
+    "source_regulation_node_id": "576c2d2f-665d-5e30-900e-80334524228f",
+    "user_answer": "전산직렬 예외는 제1항 범위로 안내 (권장)",
+    "source_job_series": "전산직렬",
+    "exception_target": "제48조의2제1항의 현장근무기간 요건",
+    "source_field_work_minimums": [
+      {
+        "grade": "3급",
+        "source_period_text": "1년 6개월"
+      },
+      {
+        "grade": "4급",
+        "source_period_text": "2년 6개월"
+      }
+    ],
+    "handling": "직원의 전산직렬이 확인되면 제1항의 현장근무기간 요건 적용 예외를 안내. 최소 승진기간과 다른 승진 제한까지 면제로 확대하지 않음.",
+    "items_to_check": [
+      "실제 인사기록상의 직렬",
+      "현재 직급",
+      "나머지 승진 요건·제한"
+    ],
+    "job_department_alone_establishes_exception": false,
+    "other_promotion_requirements_waived": false,
+    "actual_employee_rules_implemented": false
+  },
+  "promotion_leave_period": {
+    "handling_review_status": "user_accepted",
+    "reviewed_at": "2026-10-13",
+    "regulation_name": "인사규정",
+    "source_file_name": "인사규정(2026년도 8월 27일 개정).pdf",
+    "source_pdf_pages": [
+      6,
+      7,
+      8
+    ],
+    "source_articles": [
+      "제26조제1항제3호",
+      "제31조"
+    ],
+    "source_regulation_node_ids": [
+      "981142fb-5140-5892-ae05-a6c95c82bcee",
+      "91ba6090-f334-5064-a470-c31205adb08a"
+    ],
+    "user_answer": "휴직 사유·기간과 원문 예외를 확인 (권장)",
+    "handling": "휴직 사실만으로 모든 휴직기간을 승진소요최저연수에 더하지 않음. 휴직 사유·기간과 원문 예외를 확인해 안내. 사유나 기간 불명확 시 개인의 승진기간 확인 필요.",
+    "source_exception_references": [
+      {
+        "article": "제31조",
+        "item": 3
+      },
+      {
+        "article": "제31조",
+        "item": 5,
+        "source_limitation_text": "국외 교육훈련 및 공사 사업관련 해외 특수목적법인에 임시로 고용된 경우로서 3년에 한한다"
+      },
+      {
+        "article": "제31조",
+        "item": 7
+      },
+      {
+        "article": "제31조",
+        "item": 13
+      }
+    ],
+    "items_to_check": [
+      "현재 직급의 임용·재직 이력",
+      "휴직 사유와 원문 호 구분",
+      "휴직 시작·종료 및 복귀일",
+      "직위해제·징계 및 제한기간 등 관련 이력"
+    ],
+    "employee_minimum_period_calculation_implemented": false,
+    "employee_promotion_date_calculated": false
+  },
+  "promotion_field_work_career_exception": {
+    "handling_review_status": "user_accepted",
+    "reviewed_at": "2026-10-13",
+    "regulation_name": "인사규정시행세칙",
+    "source_file_name": "인사규정시행세칙(2025년도 11월 10일 개정).pdf",
+    "source_pdf_pages": [
+      18
+    ],
+    "source_article": "제48조의2제2항제3호",
+    "source_regulation_node_id": "576c2d2f-665d-5e30-900e-80334524228f",
+    "user_answer": "채용 직급 범위를 확인해 예외 안내 (권장)",
+    "source_limitation_text": "채용시 직급(4,5급을 동일직급으로 간주한다)에 한함",
+    "handling": "경력직 채용 여부·채용 당시 직급·현재 직급을 확인하여 제1항 현장근무기간 요건 예외를 원문의 채용 직급 범위로 안내.",
+    "source_equivalent_grades": [
+      "4급",
+      "5급"
+    ],
+    "equivalence_applies_to": "제48조의2제2항제3호의 채용 직급 범위 확인",
+    "equivalence_applies_to_other_rules": false,
+    "permanent_exemption_for_all_later_grades": false,
+    "actual_employee_rules_implemented": false
+  },
+  "annual_leave_source_criteria": {
+    "source_evidence": [
+      {
+        "regulation_node_id": "ad736e89-249d-55fb-8b03-aba3acf20785",
+        "source_file_name": "한국수자원공사취업규칙(2026년도 03월 10일 개정).pdf",
+        "source_pdf_pages": [
+          9
+        ],
+        "source_article": "제33조의2",
+        "body_sha256": "c9f334e772fb9201ba4b0f637c93b82a6d13291b3d11905411f49514f1b83948"
+      }
+    ],
+    "handling_review_status": "source_values_verified_by_codex",
+    "source_facts_file": "보정/취업규칙_연차검토_V01/연차_검토데이터.json",
+    "original_paragraphs_preserved": true,
+    "source_fact_count": 6,
+    "deleted_paragraph_treated_as_active_rule": false,
+    "individual_days_calculation_implemented": false,
+    "personal_information_needed": [
+      "계속 근로기간",
+      "출근율·월별 개근 이력",
+      "인사자료의 연차 부여 일수",
+      "사용·저축·선사용 이력"
+    ],
+    "insufficient_information_handling": "원문 조건을 안내하고 개인의 부여·잔여 연차는 확인 필요로 유지"
+  },
+  "annual_leave_savings_materials": {
+    "source_evidence": [
+      {
+        "regulation_node_id": "84344702-e2b1-5c41-b293-91c7744e8a92",
+        "source_file_name": "한국수자원공사취업규칙(2026년도 03월 10일 개정).pdf",
+        "source_pdf_pages": [
+          9
+        ],
+        "source_article": "제33조의4",
+        "body_sha256": "9a130b96e54bd9de4245ff54c4eacb257e3d02ae0fb1f3d018bdc0cdb3082b3e"
+      }
+    ],
+    "handling_review_status": "material_availability_confirmed_by_user",
+    "reviewed_at": "2026-10-13",
+    "user_answer": "현재 추가 자료 없음",
+    "material_availability": "user_reports_not_available",
+    "preserved_source_criteria": [
+      "사용하지 아니하고 남은 연차휴가를 그 해의 마지막 날을 기준으로 이월·저축하여 사용할 수 있다.",
+      "이월·저축된 휴가에 대해서는 연차휴가보상비를 지급하지 아니한다.",
+      "연차휴가의 저축, 사용 대상 및 절차 등 필요한 사항은 노사가 합의하여 별도로 정한다."
+    ],
+    "separate_procedure_confirmed": false,
+    "followup": "별도 노사합의서 또는 기관 운영 안내를 확보하여 대상·절차를 확인",
+    "institution_submission_channel_or_deadline_invented": false
+  },
+  "leave_period_weekend_exception": {
+    "source_evidence": [
+      {
+        "regulation_node_id": "7a0ac4bc-353e-5a59-8b78-e2c124a4c66c",
+        "source_file_name": "한국수자원공사취업규칙(2026년도 03월 10일 개정).pdf",
+        "source_pdf_pages": [
+          9
+        ],
+        "source_article": "제33조의3",
+        "body_sha256": "29e20d805696e53d333bbf64b8ec6feff4bf1bccc9dc9d22c6bd1905c9f3c756"
+      }
+    ],
+    "handling_review_status": "user_accepted",
+    "reviewed_at": "2026-10-13",
+    "user_answer": "연차 예외까지 함께 보존·안내 (권장)",
+    "original_paragraphs_preserved": [
+      1,
+      2
+    ],
+    "handling": "제1항의 일반 기준과 30일 이상 예외, 제2항의 연차유급휴가 예외를 함께 안내",
+    "personal_information_needed": [
+      "휴가 종류",
+      "신청 기간",
+      "실제 차감·근무일 기준"
+    ],
+    "calendar_duration_used_as_leave_deduction_automatically": false,
+    "individual_days_calculation_implemented": false
+  },
+  "virtual_staff_department_head_scope": {
+    "source_evidence": [
+      {
+        "regulation_node_id": "bb449b33-dbd2-5d22-a31e-238f40b7a927",
+        "source_file_name": "유연근무제운영기준(2025년도 11월 10일 개정).pdf",
+        "source_pdf_pages": [
+          2
+        ],
+        "source_article": "제4조",
+        "body_sha256": "b333591d2f495d8051b43914c4bfecacd5cbe9bd31641c1ea2f041b9df9a4c84"
+      }
+    ],
+    "handling_review_status": "user_accepted_for_virtual_profile_planning",
+    "reviewed_at": "2026-10-13",
+    "user_answer": "5명 모두 부서장 아닌 팀원으로 우선 검토 (권장)",
+    "provisional_position_scope": {
+      "status": "user_accepted_for_virtual_profile_planning",
+      "reviewed_at": "2026-10-13",
+      "user_answer": "5명 모두 부서장 아닌 팀원으로 우선 검토 (권장)",
+      "employee_count": 5,
+      "department_head": false,
+      "position_label": "부서장이 아닌 팀원",
+      "actual_employee_records_created": false,
+      "shift_work_status": "user_accepted_non_shift_for_virtual_planning"
+    },
+    "source_restriction_preserved": "부서장은 근무시간선택제 신청 가능",
+    "all_other_types_automatically_available_for_non_head": false
+  },
+  "flexible_work_source_criteria": {
+    "source_evidence": [
+      {
+        "regulation_node_id": "86336958-bb53-569c-8f53-053cf171981c",
+        "source_file_name": "유연근무제운영기준(2025년도 11월 10일 개정).pdf",
+        "source_pdf_pages": [
+          1
+        ],
+        "source_article": "제2조",
+        "body_sha256": "c3f3192d5ad90f48a11c64756c72bd02324a84fe1d88715110ea931dcac5f7c2"
+      },
+      {
+        "regulation_node_id": "bb449b33-dbd2-5d22-a31e-238f40b7a927",
+        "source_file_name": "유연근무제운영기준(2025년도 11월 10일 개정).pdf",
+        "source_pdf_pages": [
+          2
+        ],
+        "source_article": "제4조",
+        "body_sha256": "b333591d2f495d8051b43914c4bfecacd5cbe9bd31641c1ea2f041b9df9a4c84"
+      },
+      {
+        "regulation_node_id": "47f281ae-98c5-53e5-b0bf-f3c47a7c353a",
+        "source_file_name": "유연근무제운영기준(2025년도 11월 10일 개정).pdf",
+        "source_pdf_pages": [
+          2
+        ],
+        "source_article": "제5조",
+        "body_sha256": "a14bd3562fd4e85a14ac934c051a8d373bf56705ba3cad266aff92a3b5c14814"
+      },
+      {
+        "regulation_node_id": "0b43fcea-6580-5e23-91b9-e57322523ca5",
+        "source_file_name": "유연근무제운영기준(2025년도 11월 10일 개정).pdf",
+        "source_pdf_pages": [
+          2
+        ],
+        "source_article": "제6조",
+        "body_sha256": "5b56642650063a64de20f2803b8a9a05707f738db78c267dabf9b06d5003f44e"
+      },
+      {
+        "regulation_node_id": "b17862a0-32c3-50b4-b00b-c871d3350057",
+        "source_file_name": "유연근무제운영기준(2025년도 11월 10일 개정).pdf",
+        "source_pdf_pages": [
+          3
+        ],
+        "source_article": "제8조",
+        "body_sha256": "aa3f7f5c93837ca28b0eb4896a9f79f7bd27fe9b8b3c79818a97ecc8074e9dfb"
+      },
+      {
+        "regulation_node_id": "2d80c04a-844e-58ae-b53c-d18bfa5e08fa",
+        "source_file_name": "유연근무제운영기준(2025년도 11월 10일 개정).pdf",
+        "source_pdf_pages": [
+          7
+        ],
+        "source_article": "제28조",
+        "body_sha256": "e8aaf41fe238656c46db324844964dbfaf0432a504896f93f29a60949ed96efb"
+      }
+    ],
+    "handling_review_status": "source_text_verified_by_codex",
+    "application_and_approval": "직원은 업무공백이 발생하지 않는 범위 내에서 신청할 수 있고 부서장은 부서운영에 지장이 없으면 승인하여야 한다.",
+    "general_application_deadline": "매월 말일까지 업무시스템을 통해 해당 부서장의 승인",
+    "general_application_period": "1개월 단위 원칙, 유형별로 달리 정한 경우 그 기준",
+    "remote_application_period": "1주일 단위, 제29조제1항제7호는 1일 단위",
+    "application_period_is_not_a_separate_deadline": true,
+    "type_combination": "제8조의 중복 사용 제한과 시간선택제 직원의 근무시간선택제 신청 예외를 함께 보존",
+    "remote_conditions": [
+      "업무 진행정도의 계량 측정과 사무실 외 근무의 효율성",
+      "별표6의 직무·조직 구분·적용대상",
+      "보안·특정장소·고객접점 업무의 부적합 조건",
+      "부서장의 승인",
+      "제28조제4·5항의 사무실 출근 및 별도 운영 기준"
+    ],
+    "source_job_table": "보정/유연근무제_원격직무_V01/원격직무_보정데이터.json",
+    "department_alone_confirms_remote_eligibility": false,
+    "personal_work_schedule_or_approval_created": false,
+    "insufficient_information_handling": "신청 유형·직책·교대근무 여부·실제 직무·보안 조건·승인 기록을 확인"
+  },
+  "virtual_staff_shift_work_scope": {
+    "source_file_name": "유연근무제운영기준(2025년도 11월 10일 개정).pdf",
+    "source_pdf_pages": [
+      2
+    ],
+    "source_article": "제4조제3호",
+    "source_regulation_node_id": "bb449b33-dbd2-5d22-a31e-238f40b7a927",
+    "handling_review_status": "user_accepted_for_virtual_profile_planning",
+    "reviewed_at": "2026-10-13",
+    "user_answer": "5명 모두 교대근무하지 않는 직원으로 검토 (권장)",
+    "provisional_work_pattern_scope": {
+      "status": "user_accepted_for_virtual_profile_planning",
+      "reviewed_at": "2026-10-13",
+      "user_answer": "5명 모두 교대근무하지 않는 직원으로 검토 (권장)",
+      "employee_count": 5,
+      "shift_work": false,
+      "employee_work_hours_assigned": false,
+      "actual_employee_records_created": false
+    },
+    "source_restriction_and_exception_preserved": "교대근무자 신청 제한과 임산부 단축근로 신청 예외",
+    "actual_employee_classification_or_schedule_created": false,
+    "remaining_conditions_automatically_satisfied": false
+  },
+  "overtime_monthly_payment_vs_weekly_work_limit": {
+    "source_file_name": "연봉규정시행세칙(2025년 12월 18일 개정).pdf",
+    "source_pdf_pages": [
+      5
+    ],
+    "source_article": "제12조",
+    "source_regulation_node_id": "9a368017-f9d9-53e0-b0b8-8ae459456733",
+    "source_body_sha256": "d0efbb14cc073d66e41015c5f357a899de531d00cb7a61b8dbd1923892053ee4",
+    "handling_review_status": "user_accepted",
+    "reviewed_at": "2026-10-13",
+    "user_answer": "월 지급한도·주간 근무 제한을 구분 (권장)",
+    "source_monthly_payment_limits": [
+      {
+        "source_grade_labels": [
+          "일반직 3급",
+          "운영직 3급"
+        ],
+        "hours": 9
+      },
+      {
+        "source_grade_labels": [
+          "일반직 4급 이하",
+          "운영직 4급 이하"
+        ],
+        "hours": 15
+      }
+    ],
+    "source_weekly_work_limit": {
+      "hours": 12,
+      "source_days": "월요일부터 토요일까지"
+    },
+    "source_special_excess_provision": "제3항의 사장이 업무형편상 특별히 필요한 경우 예산 범위에서 제1항의 시간을 초과하여 실시할 수 있는 문구를 함께 보존",
+    "monthly_payment_limit_is_a_monthly_working_hours_ceiling": false,
+    "individual_payment_or_schedule_calculated": false
+  },
+  "salary_job_grade_mapping_materials": {
+    "source_file_name": "연봉규정시행세칙(2025년 12월 18일 개정).pdf",
+    "source_pdf_pages": [
+      28
+    ],
+    "source_annex": "별표3의2",
+    "handling_review_status": "material_availability_confirmed_by_user",
+    "reviewed_at": "2026-10-13",
+    "user_answer": "현재 추가 자료 없음",
+    "material_availability": "user_reports_not_available",
+    "preserved_source": "일반직 직무등급 A~F별 직무급 상한·하한",
+    "personnel_grade_and_job_grade_are_separate": true,
+    "department_to_job_grade_mapping_created": false,
+    "personal_salary_or_job_grade_assigned": false,
+    "followup": "기관의 직무등급 및 실제 직무급 지급기준 확인"
+  },
+  "salary_source_terms_and_periods": {
+    "source_node_ids": [
+      "04899d55-0842-5aec-bb8d-e2c936c09982",
+      "96400497-2138-5e39-a7ce-7dcccce085a3",
+      "16f9ceae-39cf-56d7-81d9-460a5b971bc6",
+      "e858acaf-28c5-515e-afe6-3225542cf1be"
+    ],
+    "handling_review_status": "source_text_verified_by_codex",
+    "source_file_name": "연봉규정(2025년 12월 16일 개정).pdf",
+    "source_pdf_pages": [
+      1,
+      2,
+      4
+    ],
+    "definitions_preserved": [
+      "연봉",
+      "기본연봉",
+      "기준급",
+      "직무급",
+      "대우급",
+      "표준가산급",
+      "연봉월액",
+      "기본월봉",
+      "실적급여"
+    ],
+    "payment_day_source": "매월 21일. 공휴일 또는 토요일이면 그 전일",
+    "calculation_period_source": "연봉은 매월1일~말일, 실적급여는 전월1일~전월말일",
+    "definition_and_calculation_articles_kept_together": true,
+    "standard_increment_note": "제2조의 표준가산급 정의와 제11조의 합산 문구를 함께 보존. 별도 지급항목으로 임의 추가하여 중복 합산하지 않음.",
+    "limits_are_not_actual_personal_salary": true,
+    "source_amount_unit_conversion_only": true,
+    "personal_salary_or_net_deposit_calculated": false,
+    "source_salary_tables": "보정/일반직_보수검토_V01/보수_보정데이터.json"
+  },
+  "long_service_leave_repeat_grant": {
+    "source_file_name": "한국수자원공사취업규칙(2026년도 03월 10일 개정).pdf",
+    "source_pdf_pages": [
+      8,
+      26
+    ],
+    "source_articles": [
+      "제31조의5제2호사목",
+      "부칙(2026.03.10.)제6조"
+    ],
+    "source_node_ids": [
+      "33265fde-f0c3-5750-b15f-038dc1a6f1aa",
+      "4efad793-01af-5e6b-a959-26bd34edf145"
+    ],
+    "handling_review_status": "user_accepted_with_application_case_clarification",
+    "reviewed_at": "2026-10-13",
+    "user_answer": "사용 이력 확인과 재부여는 기관 확인이 필요한 것은 권장하나, 해당 부칙은 적용례로써 시행일 기준으로는 해당하는 장기재직휴가를 한번만 부여하는 것으로 이해됨.",
+    "preserved_source_application_date": "2025-07-22",
+    "preserved_source_commencement_exception": "시행일 기준 만20년 이상 재직자에게 10년 이상20년 미만의 장기재직휴가5일을 별도로 부여하지 않음",
+    "user_interpretation": "부칙은 시행일 당시 해당 구간의 장기재직휴가를 한 번 부여하는 적용례로 이해",
+    "user_interpretation_is_not_an_institution_confirmed_regrant_rule": true,
+    "repeat_grant_after_service_group_change": "사용 이력과 기관 운영 기준을 확인하여 안내",
+    "prior_use_or_eligibility_unknown_handling": "기록 부재를 미사용 또는 추가 부여 가능으로 바꾸지 않음",
+    "individual_leave_grant_or_regrant_calculated": false
+  },
+  "event_leave_source_criteria": {
+    "source_file_name": "한국수자원공사취업규칙(2026년도 03월 10일 개정).pdf",
+    "source_pdf_pages": [
+      6,
+      9,
+      26,
+      27
+    ],
+    "handling_review_status": "source_text_verified_by_codex",
+    "source_annex": "별표1",
+    "source_fact_count": 8,
+    "source_application_date": "2025-01-06",
+    "source_notes_preserved": [
+      "배우자 출산휴가 관련 자세한 사항은 ‘K-water 휴가제도 가이드’에 따른다.",
+      "입양은 입양특례법에 따른 입양에 한정."
+    ],
+    "source_days_and_personal_schedule_separated": true,
+    "additional_distance_source": "근무지와 휴가지 편도300km 이상이면 왕복소요일수1일 가산. 해외근무자 국내왕복 실소요일 문구를 함께 보존",
+    "personal_event_dates_and_relationship_required": true,
+    "personal_leave_grant_or_calendar_dates_calculated": false,
+    "source_correction_file": "보정/취업규칙_경조사_장기재직_V01/휴가_보정데이터.json"
+  },
+  "private_outside_leave_deduction_source": {
+    "source_file_name": "한국수자원공사취업규칙(2026년도 03월 10일 개정).pdf",
+    "source_pdf_pages": [
+      5,
+      28
+    ],
+    "source_articles": [
+      "제26조",
+      "별표2"
+    ],
+    "handling_review_status": "source_text_verified_by_codex",
+    "source_values": {
+      "illness_or_injury_offset": "병가",
+      "other_offset": "연차",
+      "usage_unit_minutes": 15
+    },
+    "source_private_and_official_outside_distinction_preserved": true,
+    "medical_certificate_exception_preserved": "제26조제3항 병가일수 누계7일 이상 진단서 첨부 및 미첨부 시 연차 차감 문구",
+    "individual_leave_balance_calculated": false
+  },
+  "spouse_birth_leave_guide_materials": {
+    "source_file_name": "한국수자원공사취업규칙(2026년도 03월 10일 개정).pdf",
+    "source_pdf_pages": [
+      27
+    ],
+    "source_annex": "별표1 첫 번째 주석",
+    "handling_review_status": "material_availability_confirmed_by_user",
+    "recorded_at": "2026-10-14",
+    "user_answer": "현재 해당 가이드는 없음. 다만, 공공기관의 경조사 등 일부 휴가는 공무원 규정을 준용하여 운영하고 있기 때문에 보다 자세한 사항은 공무원 복무 징계에 관한 예규를 참고하는 것도 방안이 될 것 같음.",
+    "guide_material_availability": "user_reports_not_available",
+    "external_reference_review": "provenance/user_review_decisions.json#public_institution_leave_external_basis",
+    "absence_of_internal_guide_blocks_external_law_review": false,
+    "detailed_spouse_birth_conditions_confirmed": false,
+    "external_memo_source_conditions_verified": true,
+    "detailed_spouse_birth_conditions_confirmed_scope": "공사 별도 운영 기준 및 개인 적용 확정은 미실시"
+  },
+  "public_institution_leave_external_basis": {
+    "checked_at": "2026-10-14",
+    "status": "external_leave_basis_and_memo_source_verified_law_priority_handling_user_confirmed",
+    "handling_review_status": "source_text_verified_by_codex",
+    "review_trigger_user_message": "국가공무원 복무 징계 관련 예규는 공사 규정에서 논하기보다는 공공기관 운영에 관한 법률 등 상위 법령에서 준용하게끔 명하고 있으니 그 부분을 참고하는 것이 맞을 것 같음.",
+    "verified_chain": [
+      {
+        "order": 1,
+        "title": "공공기관의 운영에 관한 법률",
+        "source_point": "제15조제2항",
+        "role": "공공기관 혁신 지침의 제정 근거. 이번 휴가 준용 근거는 제50조 일반 경영지침만으로 설명하지 않고 혁신지침 제1조가 직접 가리키는 제15조를 연결.",
+        "url": "https://law.go.kr/LSW/lsInfoP.do?lsiSeq=288587",
+        "verification_basis": "혁신지침 원본 제1조와 법제처20-0489 해석례에서 제15조제2항을 확인",
+        "whole_current_law_article_text_saved": false
+      },
+      {
+        "order": 2,
+        "title": "공공기관의 혁신에 관한 지침",
+        "revision_date": "2026-07-31",
+        "source_point": "제1조·제2조·제42조제1항 및 제1항제2호",
+        "role": "지정된 모든 공공기관에 적용하는 원문 범위와 휴가 준용 조항 확인. 경조사휴가는 국가공무원 복무규정 제20조 및 별표2의 기준에 따라 운영.",
+        "url": "https://www.alio.go.kr/etc/etcLawDtl.do?boardNo=3562152&type=title&pageNo=1",
+        "download_url": "https://www.alio.go.kr/download/download.json?fileNo=3065392",
+        "source_file": "provenance/external_sources/공공기관의 혁신에 관한 지침(2026.7.31. 개정).hwp",
+        "file_sha256": "03c7851bbae0cc5e7f5fc270c5f40481a718418bdfcab7c5b6541b6fa5251aa1",
+        "extracted_text_file": "provenance/external_sources/공공기관의 혁신에 관한 지침(2026.7.31. 개정).txt",
+        "extracted_text_sha256": "c9bc1a36b1514019f492717c8ddcd70c55922c989d1c5666fe9d0a19d276dac4",
+        "extraction_method": "HWP5 CFB BodyText Section의 PARA_TEXT 레코드 추출. 지침 전체의 표·페이지 전사 완료를 의미하지 않음.",
+        "source_text": {
+          "제1조": "제1조(목적) 이 지침은 「공공기관의 운영에 관한 법률」(이하 “법”이라 한다) 제15조(공공기관의 혁신)의 규정에 따라 공공기관의 혁신을 지원하기 위하여 필요한 사항을 정하는 것을 목적으로 한다.",
+          "제2조": "제2조(적용범위) 이 지침은 이 지침에 별다른 규정이 있는 경우를 제외하고는 법 제4조 및 법 제6조의 규정에 따라 공공기관으로 지정된 모든 기관에 대하여 적용한다.",
+          "제42조": "제42조(휴가․휴직 제도) ①공공기관은「근로기준법」과 「국가공무원 복무규정」에 준하여 휴가제도를 운영하고, 다음 각 호의 사항을 준수하여야 한다.\n1. 병가:「국가공무원 복무규정」제18조의 규정에 따라 연 60일(업무상 질병․부상의 경우 연 180일) 한도 내에서 운영한다.\n2. 경조사 휴가:「국가공무원 복무규정」제20조와 별표2의 기준에 따라 운영하고, 동 항목에 규정되지 않은 사유를 경조사 휴가 또는 통합휴가 항목으로 운영할 수 없다.\n3. <삭제> <개정 2025.7.30.>\n②공공기관은 「근로기준법」에서 정하는 연차 유급휴가와 「국가공무원 복무규정」 제16조의3과 제20조의 규정에 따른 연가의 저축 및 특별휴가 외에 다른 휴가제도를 운영할 수 없으며, 유급휴가의 사용 촉구에도 불구하고 사용하지 않은 유급휴가에 대해서는 금전적으로 보상할 수 없다.\n③공공기관은 「국가공무원법」과 관련규정을 감안하여 휴직에 관한 합리적인 규정을 마련하고 휴직제도가 남용되지 않도록 복무관리를 하여야 한다.\n④제3항의 규정에 따른 공공기관의 휴직 관련 규정은 다음 각 호의 사항을 준수하여야 한다.\n1. 휴직의 사유와 기간:「국가공무원법」제71조와 제72조의 규정에 따라 운영\n2. 휴직 기간 중 보수 지급:「공무원보수 등에 관한 규정」준용\n3. 육아휴직 급여:「고용보험법」제70조와 시행령 제95조에 따라 지급하고, 법령에 규정된 상한액을 초과하여 지급 금지\n4. 유급 안식년 휴직: 연구직에 한하여 예외적으로 운영",
+          "제48조": "제48조(공무국외여행) ①공공기관은 「국가공무원 복무규정」제2장의2 공무국외출장 등을 참조하여 심사위원회를 설치․운영하는 등 국외출장 등의 타당성을 사전심사하여야 한다.\n②공공기관은 「국가공무원 복무규정」, 같은 규정 제13조의3제2항 등에 따른 「국가공무원 복무․징계 관련 예규」 및 「공무원 여비 규정」을 참조하여 다음 각 호의 사항을 포함하여 국외여행 등에 관한 절차와 기준을 마련하여야 한다.\n1. 심사 및 허가의 구체적인 절차와 기준\n2. 국외여행 결과보고서의 제출과 공개의 방법(결과보고서에는 항공권 및 여권 사본 등 검증자료가 포함되어야 한다)\n3. 항공운임, 여비수준 등에 관한 여비규정(원칙적으로 준비금 제도는 금지한다)\n③공공기관 임직원이 공무출장으로 인해 적립된 항공마일리지(이하 ‘공적 항공마일리지’라 함)를 활용하여 항공권을 확보하거나, 항공기 좌석등급을 상향 조정할 수 있는 경우에는 공적 항공마일리지를 우선 활용하여야 한다.\n④공공기관의 장은 소속 임직원 중 5년 이내 정년퇴직 예정자와 10만 마일이상 보유한 임직원의 공적 항공마일리지를 별도 관리하고 해당 임직원이 퇴직 전에 공적 항공마일리지를 활용하도록 독려하여야 한다.\n➄1년 이내 (정년)퇴직예정자 또는 유효기간 만료로 1년 이내 소멸예정 공적 항공마일리지를 보유하고 있는 임직원은 특별한 사정(공무출장 예정 등)이 없는 한 퇴직 전까지 또는 해당 마일리지 소멸시점 전까지 해당 공적 항공마일리지를 활용한 물품 구매 및 기부활동 등을 통해 잔여분을 소진할 수 있도록 노력하여야 한다. <2026. 7. 31>"
+        },
+        "pdf_pages": null,
+        "locator_note": "공식 첨부가 HWP이므로 조번호로 식별. 임의 PDF 쪽수를 부여하지 않음."
+      },
+      {
+        "order": 3,
+        "title": "국가공무원 복무규정",
+        "source_point": "제20조제1항·별표2",
+        "role": "혁신지침 제42조제1항제2호에서 직접 연결한 경조사휴가 기준. 최신 시행본 세부 내용 대조 후 상담에 반영.",
+        "latest_version_metadata_seen": {
+          "effective_date": "2026-10-02",
+          "presidential_decree_number": "제36728호",
+          "amendment_date": "2026-09-29"
+        },
+        "url": "https://www.law.go.kr/법령/국가공무원복무규정",
+        "detailed_current_source_comparison_status": "제20조제1항 직접 확인. 별표2 원문 직접 대조는 미실시; 예규185쪽 표와 공사27쪽 일수는 대조 완료.",
+        "current_article1_source_url": "https://www.law.go.kr/lsLinkCommonInfo.do?lsJoLnkSeq=1033678263"
+      },
+      {
+        "order": 4,
+        "title": "국가공무원 복무·징계 관련 예규",
+        "directive_number": "인사혁신처예규 제225호",
+        "effective_date": "2026-10-01",
+        "amendment_date": "2026-10-01",
+        "url": "https://law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000285756",
+        "role": "복무규정의 관련 휴가 세부 운영 내용 대조 자료. 혁신지침 제42조가 예규 전체를 일괄 준용한다는 원문으로 저장하지 않음.",
+        "verified_metadata_only_for_leave_details": false,
+        "detail_status": "사용기간·분할·2025년 적용례 원문 확인 완료. 근로자 법률과의 사용 시작일 차이는 별도 검토.",
+        "source_boundary_note": "혁신지침 제48조제2항의 예규 참조는 공무국외여행 절차·기준에 관한 조항이며 휴가 예규 전체 준용 근거로 옮기지 않음.",
+        "source_file": "provenance/external_sources/국가공무원 복무·징계 관련 예규(제225호, 2026.10.1.).pdf",
+        "source_file_sha256": "5185bc4ebf8dadbba3a4fad73a50de22bf9b1939b81389f4795306c15bedcbfc",
+        "source_pdf_pages": [
+          185,
+          186,
+          187
+        ],
+        "source_printed_pages": [
+          181,
+          182,
+          183
+        ],
+        "comparison_record": "provenance/external_sources/배우자출산휴가_대조.json"
+      }
+    ],
+    "official_interpretation": {
+      "title": "헌혈 참가에 따른 공가 규정이 취업규칙 등에 있어야 하는지 여부",
+      "reference_number": "법제처20-0489",
+      "decision_date": "2020-11-19",
+      "url": "https://law.go.kr/expcInfoP.do?expcSeq=329633",
+      "verified_summary": "당시 혁신지침 제42조와 복무규정 제19조에 따라 기관 내부 규정에 헌혈 공가 문구가 있어야만 승인 가능한 것은 아니라는 해석.",
+      "scope_limit": "헌혈 공가에 관한 당시 해석례. 배우자 출산휴가의 현행 상세조건을 직접 확정하는 자료로 확대하지 않음. 2020년 지침의 안식휴가 금지3호는 최신 혁신지침에서 삭제되어 있어 현재 기준으로 전사하지 않음."
+    },
+    "answer_handling": [
+      "공사 가이드 미확보만으로 상위 법령·정부 지침에 따른 휴가 기준 확인을 중단하지 않음.",
+      "사용자 확인에 따라 해당 직원에게 적용되는 법령상 보장 기준을 먼저 안내하고 예규의 원문 표현·준용 범위 및 공사 내부 규정을 함께 설명.",
+      "기관 확인은 별도 운영 절차와 추가 혜택·준용 조건의 관계를 확인하는 용도이며 법률상 보장 범위를 축소하기 위한 승인으로 처리하지 않음.",
+      "예규의 분할3회·5회와 사용구간4개·6개, 마지막 휴가일까지120일·150일 범위라는 원문 조건을 구분하여 보존.",
+      "예규30일과 법률50일의 출산 전 사용 시작일을 하나의 공사 조문으로 합치지 않음. 개인 정보 없이 기한·잔여일수는 계산하지 않음."
+    ],
+    "external_documents_are_kwater_internal_regulations": false,
+    "external_reference_imported_into_nine_tables": false,
+    "individual_leave_eligibility_implemented": false,
+    "labor_law_comparison_reference": {
+      "title": "남녀고용평등과 일ㆍ가정 양립 지원에 관한 법률",
+      "effective_date": "2026-09-18",
+      "source_article": "제18조의2제1항·제3항·제4항",
+      "source_url": "https://www.law.go.kr/LSW/lsLinkCommonInfo.do?chrClsCd=010202&lsJoLnkSeq=1027166243",
+      "compared_to_memo": {
+        "start_days_difference": "법률50일 / 예규30일",
+        "different_initial_scope": "법률 근로자 / 예규 국가공무원",
+        "kwater_multiples_25_days_overwritten_to_20": false,
+        "combined_50_150_25_5_rule_created": false
+      }
+    },
+    "law_priority_handling": {
+      "handling_review_status": "user_accepted_with_law_priority_clarification",
+      "reviewed_at": "2026-10-14",
+      "user_answer": "배우자 출산 휴가를 서로 다른 기준으로 설명하는 경우 국가공무원 관련 예규는 준용, 법령은 반드시 준수해야 하는 우선순위가 있으므로 법령을 우선으로 안내하되, 국가공무원 관련 예규에서는 어떻게 명기하고 있으며, 기관 내부 규정과 해석은 어떻게 하는지 확인할 필요가 있다고 생각함.",
+      "answer_order": [
+        "해당 직원에게 적용되는 법령상 보장 기준을 우선 안내",
+        "예규의 원문 기준과 준용 근거·범위를 설명",
+        "공사 내부 규정의 확인된 내용과 추가 운영·해석 자료를 구분하여 안내"
+      ],
+      "start_day_handling": "2026-09-18 이후 적용되는 남녀고용평등법 제18조의2제3항의 출산예정일50일 전 기준을 우선 안내. 예규 제225호의30일 전 기준은 해당 문서의 기준임을 구분하여 설명.",
+      "institution_confirmation_purpose": [
+        "신청·서류·업무시스템 등 별도 운영 절차",
+        "다태아150일·5회 기준과 법률50일 전 시작 기준의 적용 관계"
+      ],
+      "institution_confirmation_cannot_reduce_statutory_entitlement": true,
+      "kwater_source_days_preserved": {
+        "single": 20,
+        "multiple": 25
+      },
+      "different_source_numbers_merged_into_new_kwater_article": false,
+      "employee_specific_entitlement_or_calendar_implemented": false
+    }
+  },
+  "spouse_birth_leave_current_external_comparison": {
+    "handling_review_status": "user_accepted_with_law_priority_clarification",
+    "recorded_at": "2026-10-14",
+    "source_comparison_record": "provenance/external_sources/배우자출산휴가_대조.json",
+    "memo_source_file": "provenance/external_sources/국가공무원 복무·징계 관련 예규(제225호, 2026.10.1.).pdf",
+    "source_pdf_pages": [
+      185,
+      186,
+      187
+    ],
+    "source_printed_pages": [
+      181,
+      182,
+      183
+    ],
+    "kwater_source_pdf_pages": [
+      27
+    ],
+    "source_leave_days_match": true,
+    "source_split_count_and_use_segments": {
+      "single": {
+        "split": 3,
+        "segments": 4
+      },
+      "multiple": {
+        "split": 5,
+        "segments": 6
+      }
+    },
+    "latest_end_day_is_last_leave_day": true,
+    "labor_law_start_days": 50,
+    "memo_start_days": 30,
+    "user_answer": "배우자 출산 휴가를 서로 다른 기준으로 설명하는 경우 국가공무원 관련 예규는 준용, 법령은 반드시 준수해야 하는 우선순위가 있으므로 법령을 우선으로 안내하되, 국가공무원 관련 예규에서는 어떻게 명기하고 있으며, 기관 내부 규정과 해석은 어떻게 하는지 확인할 필요가 있다고 생각함.",
+    "user_review_status": "accepted_with_law_priority_clarification",
+    "individual_leave_rule_or_calendar_implemented": false,
+    "law_priority_handling": {
+      "handling_review_status": "user_accepted_with_law_priority_clarification",
+      "reviewed_at": "2026-10-14",
+      "user_answer": "배우자 출산 휴가를 서로 다른 기준으로 설명하는 경우 국가공무원 관련 예규는 준용, 법령은 반드시 준수해야 하는 우선순위가 있으므로 법령을 우선으로 안내하되, 국가공무원 관련 예규에서는 어떻게 명기하고 있으며, 기관 내부 규정과 해석은 어떻게 하는지 확인할 필요가 있다고 생각함.",
+      "answer_order": [
+        "해당 직원에게 적용되는 법령상 보장 기준을 우선 안내",
+        "예규의 원문 기준과 준용 근거·범위를 설명",
+        "공사 내부 규정의 확인된 내용과 추가 운영·해석 자료를 구분하여 안내"
+      ],
+      "start_day_handling": "2026-09-18 이후 적용되는 남녀고용평등법 제18조의2제3항의 출산예정일50일 전 기준을 우선 안내. 예규 제225호의30일 전 기준은 해당 문서의 기준임을 구분하여 설명.",
+      "institution_confirmation_purpose": [
+        "신청·서류·업무시스템 등 별도 운영 절차",
+        "다태아150일·5회 기준과 법률50일 전 시작 기준의 적용 관계"
+      ],
+      "institution_confirmation_cannot_reduce_statutory_entitlement": true,
+      "kwater_source_days_preserved": {
+        "single": 20,
+        "multiple": 25
+      },
+      "different_source_numbers_merged_into_new_kwater_article": false,
+      "employee_specific_entitlement_or_calendar_implemented": false
+    },
+    "reviewed_at": "2026-10-14"
+  }
+}

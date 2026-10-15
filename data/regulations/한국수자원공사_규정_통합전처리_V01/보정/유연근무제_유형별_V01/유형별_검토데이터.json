@@ -1,0 +1,106 @@
+{
+  "source_file_name": "유연근무제운영기준(2025년도 11월 10일 개정).pdf",
+  "source_revision_date": "2025-11-10",
+  "review_status": "source_text_verified_by_codex",
+  "rule_kind": "source_values_only",
+  "employee_eligibility_calculated": false,
+  "rules": [
+    {
+      "rule_key": "FLEX-RELEASE",
+      "source_regulation_node_id": "ec84e75b-e42b-5c7f-acbb-6a9155903844",
+      "source_article": "제7조",
+      "source_pdf_pages": [2, 3],
+      "expected_source_terms": ["실시기간의 만료", "전보발령", "휴직"],
+      "source_values": {"automatic_release_events": ["실시기간의 만료", "전보발령", "휴직 승인"]}
+    },
+    {
+      "rule_key": "FLEX-PARTTIME-HOURS",
+      "source_regulation_node_id": "98da1a34-4717-501a-992d-92037dc59344",
+      "source_article": "제9조",
+      "source_pdf_pages": [3],
+      "expected_source_terms": ["15시간", "35시간", "주4일", "주3일", "1일 최소 3시간", "격주제"],
+      "source_values": {"weekly_hours_min": 15, "weekly_hours_max": 35, "daily_hours_min": 3, "workdays_per_week_min": 4, "workdays_per_week_min_if_daily_hours_at_most_4": 3, "biweekly_or_bimonthly_allowed": false, "pregnancy_shortening_and_childcare_leave_overlap_allowed": false}
+    },
+    {
+      "rule_key": "FLEX-PARTTIME-PAY",
+      "source_regulation_node_id": "87c11209-8839-5c90-94c3-067fbfe99e5b",
+      "source_article": "제10조",
+      "source_pdf_pages": [3],
+      "expected_source_terms": ["근무시간에 비례", "급여를 차감하지 않는다"],
+      "source_values": {"ordinary_pay_basis": "전일제 연봉 대비 시간선택제 근무시간 비례", "pregnancy_shortening_pay_deduction": false}
+    },
+    {
+      "rule_key": "FLEX-PARTTIME-LEAVE",
+      "source_regulation_node_id": "7c5fa879-5e49-52d3-922b-8f07fb55caa2",
+      "source_article": "제13조",
+      "source_pdf_pages": [4],
+      "expected_source_terms": ["시간", "별표 2", "일"],
+      "source_values": {"annual_leave_unit": "시간", "annual_leave_basis": "전일제 대비 근무시간 비례", "specified_leave_exceptions_unit": "일"}
+    },
+    {
+      "rule_key": "FLEX-PARTTIME-SERVICE",
+      "source_regulation_node_id": "15cf9b6f-3c9f-5e6a-9cda-f5c798162947",
+      "source_article": "제14조",
+      "source_pdf_pages": [4],
+      "expected_source_terms": ["최초 1년", "100%", "별표 3", "채용형"],
+      "source_values": {"initial_service_period_years": 1, "initial_service_period_count_percent": 100, "later_period_basis": "별표3 근무시간 비례", "hired_parttime_exception": "채용형 시간선택제 직원은 다른 규정에 별도 기준이 없으면 제2항 적용"}
+    },
+    {
+      "rule_key": "FLEX-COMPRESSED-ELIGIBILITY",
+      "source_regulation_node_id": "b2119213-9c57-520c-a105-1ca39c7dcc8c",
+      "source_article": "제23조",
+      "source_pdf_pages": [5],
+      "expected_source_terms": ["업무지원직", "해외사업장 근무자", "별표 4"],
+      "source_values": {"applicant_groups": ["업무지원직", "해외사업장 근무자"], "job_examples_source": "별표4, PDF16쪽", "job_examples_alone_establish_eligibility": false}
+    },
+    {
+      "rule_key": "FLEX-COMPRESSED-HOURS",
+      "source_regulation_node_id": "d94d4016-3876-595d-a411-17d35eaeace1",
+      "source_article": "제24조",
+      "source_pdf_pages": [5],
+      "expected_source_terms": ["08시에서 20시", "11시간 이하", "3시간 이상", "07시에서 21시"],
+      "source_values": {"work_window_start": "08:00", "work_window_end": "20:00", "daily_hours_min": 3, "daily_hours_max": 11, "daily_max_excludes_lunch_hours": 1, "overtime_window_start": "07:00", "overtime_window_end": "21:00"}
+    },
+    {
+      "rule_key": "FLEX-WORKTIME-CHOICE",
+      "source_regulation_node_id": "01c13945-fa42-5b77-aabf-e2de892c470e",
+      "source_article": "제27조",
+      "source_pdf_pages": [6, 7],
+      "expected_source_terms": ["08:00~20:00", "3시간 이상", "11시간 이내", "주 5일", "격주 4일", "매월 초일부터 말일까지"],
+      "source_values": {"work_window_start": "08:00", "work_window_end": "20:00", "daily_hours_min": 3, "daily_hours_max": 11, "five_day_common_hours": "10:00~12:00 또는 14:00~16:00", "alternate_four_day_common_hours": "10:00~12:00 및 14:00~16:00", "monthly_average_weekly_hours": 40, "wage_peak_reduced_hours_exception": true, "settlement_period": "매월 초일부터 말일까지"}
+    },
+    {
+      "rule_key": "FLEX-REMOTE-TYPES",
+      "source_regulation_node_id": "d07456fb-1c69-52d5-8c9f-94edc3100327",
+      "source_article": "제29조",
+      "source_pdf_pages": [7],
+      "expected_source_terms": ["주 1일", "주 4일", "육아기 시간선택형 원격근무", "만 8세 이하", "초등학교 2학년 이하"],
+      "source_values": {"weekly_remote_days_options": [1, 2, 3, 4], "childcare_age_at_most_years": 8, "childcare_school_grade_at_most": 2, "childcare_remote_unit": "1일 전일 또는 일부 근무시간", "childcare_monthly_hours_numeric_limit_in_source": null}
+    },
+    {
+      "rule_key": "FLEX-REMOTE-PLACE",
+      "source_regulation_node_id": "21c6c8b9-801a-59bb-a5f6-84b5e63ff265",
+      "source_article": "제30조",
+      "source_pdf_pages": [7, 8],
+      "expected_source_terms": ["승인받은 곳", "미리", "사후승인"],
+      "source_values": {"place_must_be_approved": true, "changed_place_needs_prior_approval": true, "urgent_change_post_approval_exception": true}
+    },
+    {
+      "rule_key": "FLEX-REMOTE-APPROVAL",
+      "source_regulation_node_id": "b97770f3-0b5d-5e5a-915a-3504fa0a5af3",
+      "source_article": "제31조",
+      "source_pdf_pages": [8],
+      "expected_source_terms": ["분장업무의 적합성", "업무 숙련도", "장소의 적합성", "해제"],
+      "source_values": {"approval_requires_manager_review": true, "review_factors": ["분장업무와 부서운영", "업무 숙련도와 자기 통제력", "업무성과", "출퇴근 제약 등 신청자 사정", "근무 장소"], "automatic_approval_from_department_or_job_title": false}
+    }
+  ],
+  "answer_guidance": {
+    "review_status": "source_text_verified_by_codex",
+    "source_revision_date": "2025-11-10",
+    "compressed_work": "제23조의 신청자격(업무지원직 또는 해외사업장 근무자)을 먼저 확인한다. 별표4의 직무 예시만으로 일반직 가상 직원의 신청 가능 여부를 확정하지 않는다.",
+    "worktime_choice": "제27조의 주 5일과 격주 4일 공동근무시간 조건은 서로 다르다. 임금피크 직원의 단축근로 예외와 실제 근무 일정은 별도로 확인한다.",
+    "parttime": "제9·10·13·14조의 근무시간, 보수, 연차, 재직기간 조건을 각각 구분한다. 직원별 급여·휴가·승진기간은 근무 이력 확인 전 계산하지 않는다.",
+    "remote": "제29조의 육아기 시간선택형 원격근무에는 자녀 나이·학년 조건이 있고, 월 일정시간의 숫자는 이 조문에 없다. 제28조의 직무·주1회 사무실 출근과 제30·31조의 장소·승인 조건을 함께 확인한다.",
+    "individual_eligibility_or_amount_calculated": false
+  }
+}

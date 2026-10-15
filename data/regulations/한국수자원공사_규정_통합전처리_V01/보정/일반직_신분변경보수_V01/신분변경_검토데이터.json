@@ -1,0 +1,84 @@
+{
+  "source_file_names": [
+    "연봉규정(2025년 12월 16일 개정).pdf",
+    "연봉규정시행세칙(2025년 12월 18일 개정).pdf"
+  ],
+  "review_status": "source_text_verified_by_codex",
+  "rule_kind": "source_values_only",
+  "personal_salary_calculated": false,
+  "rules": [
+    {
+      "rule_key": "SALARY-STATUS-CHANGE",
+      "source_regulation_node_id": "e805dbcf-5dd4-5644-893b-4121ee4df85d",
+      "source_article": "제5조",
+      "source_pdf_pages": [2],
+      "expected_source_terms": ["신규채용", "복직", "발령일로부터", "15일 이전", "16일 이후"],
+      "source_values": {"new_hire_basis": "채용일부터 일할", "return_or_discipline_basis": "발령일부터 일할", "promotion_grade_if_on_or_before_month_day": 15, "promotion_grade_if_on_or_after_month_day": 16, "job_grade_change_uses_promotion_day_rule": true, "termination_month_full_pay_exceptions_need_individual_facts": true}
+    },
+    {
+      "rule_key": "SALARY-DISCIPLINE",
+      "source_regulation_node_id": "3174d853-4ee6-5ba8-9c9f-1ff82c70708f",
+      "source_article": "제6조",
+      "source_pdf_pages": [2, 3],
+      "expected_source_terms": ["직위해제", "기준급만", "정직", "60분의 1", "소급"],
+      "source_values": {"position_release": "원칙적으로 기준급만 지급, 형사사건 구속 등 단서 별도", "suspension": "기본월봉 및 부가급여 미지급", "pay_reduction": "기본월봉의 60분의 1 감액", "demotion": "승진가산급 감액과 직무 미종사기간의 미지급 조건", "invalidated_action": "제한된 연봉 소급, 실적급여 제외", "performance_and_allowance_detail": "사장이 따로 정함"}
+    },
+    {
+      "rule_key": "SALARY-LEAVE",
+      "source_regulation_node_id": "5f5aef8e-0b0c-5a4a-81a4-ec6d280919d4",
+      "source_article": "제7조",
+      "source_pdf_pages": [3],
+      "expected_source_terms": ["연봉을 지급하지 아니하되", "70%", "50%", "공상 치료", "국외 교육훈련", "난임", "병가"],
+      "source_values": {"ordinary_leave_annual_pay": "원칙적으로 미지급, 실적급여와 성과급은 별도 조건", "illness_or_infertility_base_pay_percent_first_year": 70, "illness_or_infertility_base_pay_percent_second_year": 50, "same_reason_illness_and_infertility_periods_combined": true, "work_injury": "산업재해보상보험법에 따름", "overseas_training": "기준급과 대우급 지급", "sick_leave": "실적급여 제외 연봉 전액", "maternity_and_miscarriage_leave": "제7조제2항 원문 보존, 현행 상위 법령과 별도 대조 필요", "personal_pay_decision": null}
+    },
+    {
+      "rule_key": "SALARY-REDUCED-HOURS",
+      "source_regulation_node_id": "02735aec-969a-5307-b986-adea21201bf6",
+      "source_article": "제7조의2",
+      "source_pdf_pages": [3],
+      "expected_source_terms": ["근로시간을 단축", "비례하여", "세부기준"],
+      "source_values": {"basis": "변경된 근무시간에 비례", "details": "사장이 따로 정함", "pregnancy_shortening_exception_in_flexible_work_rule": "유연근무제 운영기준 제10조제2항"}
+    },
+    {
+      "rule_key": "SALARY-HQ-ASSIGNMENT",
+      "source_regulation_node_id": "42d6fe4a-dad4-5331-bdf5-587ffa743063",
+      "source_article": "제3조",
+      "source_pdf_pages": [1],
+      "expected_source_terms": ["본사 근무", "전액을 지급", "업무부진", "직무급"],
+      "source_values": {"ordinary_headquarters_assignment": "연봉 전액", "performance_related_assignment": "직무급 미지급", "actual_assignment_reason_required": true}
+    },
+    {
+      "rule_key": "SALARY-ALLOWANCE-CHANGE",
+      "source_regulation_node_id": "88326827-7b9d-56e9-895f-f3571b887f8b",
+      "source_article": "제5조",
+      "source_pdf_pages": [1],
+      "expected_source_terms": ["생활보조수당", "사유발생일로부터", "일할 계산", "본인신고"],
+      "source_values": {"changed_allowance_basis": "사유 발생일부터 일할", "separately_defined_exception": true, "disappearance_report": "본인 신고에 따라 급여전산자료 정리"}
+    },
+    {
+      "rule_key": "SALARY-PERFORMANCE-BONUS-RESTRICTION",
+      "source_regulation_node_id": "5c56482e-fc9c-538a-9dbc-b743fee5ef90",
+      "source_article": "제9조",
+      "source_pdf_pages": [3, 4],
+      "expected_source_terms": ["휴직", "지급제한일수", "59/60", "신규 채용자"],
+      "source_values": {"position_release_absence_or_leave": "정상 지급액 × (기준일수－지급제한일수) / 기준일수", "pay_reduction": "59/60 지급제한일수 가중식", "specified_serious_discipline": "처분 해당연도분 성과급 미지급", "new_hire": "입사 연도 성과급 미지급", "actual_bonus_amount": null}
+    },
+    {
+      "rule_key": "SALARY-PAYROLL-BONUS-RESTRICTION",
+      "source_regulation_node_id": "dd303071-d7a6-5281-ba9a-ae0385cb2205",
+      "source_article": "제10조",
+      "source_pdf_pages": [4, 5],
+      "expected_source_terms": ["지급제한사유", "감봉", "퇴직월", "사장이 따로 정한다"],
+      "source_values": {"eligible_grade_scope_in_article_10_1": "일반직 2급(을) 이상 등 원문 대상", "restriction_formula_in_article_10_2": "사유별 정상지급액·기준일수·지급제한일수 적용", "do_not_apply_to_all_general_staff": true, "actual_bonus_amount": null}
+    }
+  ],
+  "answer_guidance": {
+    "review_status": "source_text_verified_by_codex",
+    "status_change": "제5조의 발령일 일할 기준과 승진·직무등급 변경의 15일 경계, 퇴직월 예외를 구분한다. 발령일과 재직기간이 없으면 개인 금액을 계산하지 않는다.",
+    "discipline": "제6조의 직위해제·정직·감봉·강등 조건은 서로 다르다. 무효·취소 확정 시 소급 지급과 실적급여 제외 조건도 함께 확인한다.",
+    "leave": "제7조의 휴직 일반 원칙, 예외 유형, 1년 경계와 동일 사유 합산을 구분한다. 휴직 사유·기간·개인 보수 내역이 없으면 지급액을 확정하지 않는다.",
+    "bonus": "성과급 및 급여성 성과급은 시행세칙 제9·10조의 별도 산식·대상과 사장이 정하는 세부기준을 확인한다. 모든 일반직 직원에게 같은 산식을 적용하지 않는다.",
+    "external_law_status": "출산·유산·산재 관련 외부 법령의 현행 적용 관계는 이 내부 규정 검토만으로 확정하지 않는다.",
+    "personal_salary_calculated": false
+  }
+}

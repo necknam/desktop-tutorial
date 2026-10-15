@@ -1,0 +1,1307 @@
+{
+  "metadata": {
+    "title": "인재개발규정 별표1 연간 기준학습시간 원문 보정",
+    "revision": "V01",
+    "source_storage_key": "source/기타/인재개발규정(2024년도 12월 개정).pdf",
+    "regulation_file_id": "30562fdd-97df-5c4b-9535-1c7402d2b738",
+    "source_sha256": "0835551b52e02b2471022af3e3bf4c65ce39d0816a9fba6b0cc6c5569b5b792f",
+    "source_pdf_page": 19,
+    "reviewed_at": "2026-10-13",
+    "reviewer": "Codex",
+    "method": "원문 전체 이미지와 자동 추출 셀·열 위치 대조",
+    "individual_employee_obligation_determined": false,
+    "db_loaded": false,
+    "search_activated": false
+  },
+  "rows": [
+    {
+      "row_key": "S1-R01",
+      "source_job_family_text": "일반직 및 운영직",
+      "source_grade_text": "1급 / 2급(갑)",
+      "annual_hours": 32,
+      "unit": "hour",
+      "grade_labels": [
+        "1급",
+        "2급(갑)"
+      ],
+      "source_locator": {
+        "pdf_page": 19,
+        "printed_page": 19,
+        "source_regulation_node_id": "b7adcb91-3b9f-59fe-a068-8b82b2c5c8fd",
+        "line_ids": [
+          "p19l004",
+          "p19l005",
+          "p19l006",
+          "p19l007",
+          "p19l008",
+          "p19l009",
+          "p19l010",
+          "p19l011",
+          "p19l012",
+          "p19l013"
+        ],
+        "line_bboxes": [
+          [
+            243.84,
+            268.16,
+            331.64,
+            279.16
+          ],
+          [
+            89.76,
+            313.52,
+            517.4,
+            324.52
+          ],
+          [
+            145.92,
+            319.28,
+            173.48,
+            330.28
+          ],
+          [
+            179.52,
+            326.48,
+            426.44,
+            337.48
+          ],
+          [
+            140.16,
+            333.68,
+            182.12,
+            344.68
+          ],
+          [
+            95.76,
+            378.88,
+            114.88,
+            388.88
+          ],
+          [
+            77.04,
+            390.88,
+            133.6,
+            400.88
+          ],
+          [
+            86.16,
+            402.56,
+            511.88,
+            413.56
+          ],
+          [
+            84.96,
+            414.88,
+            125.68,
+            424.88
+          ],
+          [
+            95.04,
+            426.88,
+            122.08,
+            436.88
+          ]
+        ],
+        "original_extracted_text": "일반직 및 운영직\n구 분 전문직 실무직\n1급/\n2급(을) 3급 4급 5급 6급 7급 8급\n2급(갑)\n연간\n기준학습시간\n(부서자체 32 48 64 80 112 48 48 80 48 48\n/개인학습\n포함)",
+        "source_table_key": "p19-table-1",
+        "table_bbox": [
+          72.96,
+          260.16,
+          522.0,
+          437.76
+        ],
+        "transcription_method": "full_page_image_compared_with_raw_cells",
+        "source_images": [
+          {
+            "pdf_page": 19,
+            "path": "source/page-19.png",
+            "sha256": "4408e6082fae1d02e1a4fcadf667f8342209055c5d3b0c12f5d5731cd4a9accc"
+          }
+        ],
+        "image_storage_base": "보정/인재개발규정_별표1_V01",
+        "raw_column_index_zero_based": 1,
+        "raw_row_index_zero_based": 2,
+        "raw_extracted_cell": "32",
+        "raw_grade_cell": "1급/\n2급(갑)"
+      },
+      "review_status": "image_compared_by_codex"
+    },
+    {
+      "row_key": "S1-R02",
+      "source_job_family_text": "일반직 및 운영직",
+      "source_grade_text": "2급(을)",
+      "annual_hours": 48,
+      "unit": "hour",
+      "grade_labels": [
+        "2급(을)"
+      ],
+      "source_locator": {
+        "pdf_page": 19,
+        "printed_page": 19,
+        "source_regulation_node_id": "b7adcb91-3b9f-59fe-a068-8b82b2c5c8fd",
+        "line_ids": [
+          "p19l004",
+          "p19l005",
+          "p19l006",
+          "p19l007",
+          "p19l008",
+          "p19l009",
+          "p19l010",
+          "p19l011",
+          "p19l012",
+          "p19l013"
+        ],
+        "line_bboxes": [
+          [
+            243.84,
+            268.16,
+            331.64,
+            279.16
+          ],
+          [
+            89.76,
+            313.52,
+            517.4,
+            324.52
+          ],
+          [
+            145.92,
+            319.28,
+            173.48,
+            330.28
+          ],
+          [
+            179.52,
+            326.48,
+            426.44,
+            337.48
+          ],
+          [
+            140.16,
+            333.68,
+            182.12,
+            344.68
+          ],
+          [
+            95.76,
+            378.88,
+            114.88,
+            388.88
+          ],
+          [
+            77.04,
+            390.88,
+            133.6,
+            400.88
+          ],
+          [
+            86.16,
+            402.56,
+            511.88,
+            413.56
+          ],
+          [
+            84.96,
+            414.88,
+            125.68,
+            424.88
+          ],
+          [
+            95.04,
+            426.88,
+            122.08,
+            436.88
+          ]
+        ],
+        "original_extracted_text": "일반직 및 운영직\n구 분 전문직 실무직\n1급/\n2급(을) 3급 4급 5급 6급 7급 8급\n2급(갑)\n연간\n기준학습시간\n(부서자체 32 48 64 80 112 48 48 80 48 48\n/개인학습\n포함)",
+        "source_table_key": "p19-table-1",
+        "table_bbox": [
+          72.96,
+          260.16,
+          522.0,
+          437.76
+        ],
+        "transcription_method": "full_page_image_compared_with_raw_cells",
+        "source_images": [
+          {
+            "pdf_page": 19,
+            "path": "source/page-19.png",
+            "sha256": "4408e6082fae1d02e1a4fcadf667f8342209055c5d3b0c12f5d5731cd4a9accc"
+          }
+        ],
+        "image_storage_base": "보정/인재개발규정_별표1_V01",
+        "raw_column_index_zero_based": 2,
+        "raw_row_index_zero_based": 2,
+        "raw_extracted_cell": "48",
+        "raw_grade_cell": "2급(을)"
+      },
+      "review_status": "image_compared_by_codex"
+    },
+    {
+      "row_key": "S1-R03",
+      "source_job_family_text": "일반직 및 운영직",
+      "source_grade_text": "3급",
+      "annual_hours": 64,
+      "unit": "hour",
+      "grade_labels": [
+        "3급"
+      ],
+      "source_locator": {
+        "pdf_page": 19,
+        "printed_page": 19,
+        "source_regulation_node_id": "b7adcb91-3b9f-59fe-a068-8b82b2c5c8fd",
+        "line_ids": [
+          "p19l004",
+          "p19l005",
+          "p19l006",
+          "p19l007",
+          "p19l008",
+          "p19l009",
+          "p19l010",
+          "p19l011",
+          "p19l012",
+          "p19l013"
+        ],
+        "line_bboxes": [
+          [
+            243.84,
+            268.16,
+            331.64,
+            279.16
+          ],
+          [
+            89.76,
+            313.52,
+            517.4,
+            324.52
+          ],
+          [
+            145.92,
+            319.28,
+            173.48,
+            330.28
+          ],
+          [
+            179.52,
+            326.48,
+            426.44,
+            337.48
+          ],
+          [
+            140.16,
+            333.68,
+            182.12,
+            344.68
+          ],
+          [
+            95.76,
+            378.88,
+            114.88,
+            388.88
+          ],
+          [
+            77.04,
+            390.88,
+            133.6,
+            400.88
+          ],
+          [
+            86.16,
+            402.56,
+            511.88,
+            413.56
+          ],
+          [
+            84.96,
+            414.88,
+            125.68,
+            424.88
+          ],
+          [
+            95.04,
+            426.88,
+            122.08,
+            436.88
+          ]
+        ],
+        "original_extracted_text": "일반직 및 운영직\n구 분 전문직 실무직\n1급/\n2급(을) 3급 4급 5급 6급 7급 8급\n2급(갑)\n연간\n기준학습시간\n(부서자체 32 48 64 80 112 48 48 80 48 48\n/개인학습\n포함)",
+        "source_table_key": "p19-table-1",
+        "table_bbox": [
+          72.96,
+          260.16,
+          522.0,
+          437.76
+        ],
+        "transcription_method": "full_page_image_compared_with_raw_cells",
+        "source_images": [
+          {
+            "pdf_page": 19,
+            "path": "source/page-19.png",
+            "sha256": "4408e6082fae1d02e1a4fcadf667f8342209055c5d3b0c12f5d5731cd4a9accc"
+          }
+        ],
+        "image_storage_base": "보정/인재개발규정_별표1_V01",
+        "raw_column_index_zero_based": 3,
+        "raw_row_index_zero_based": 2,
+        "raw_extracted_cell": "64",
+        "raw_grade_cell": "3급"
+      },
+      "review_status": "image_compared_by_codex"
+    },
+    {
+      "row_key": "S1-R04",
+      "source_job_family_text": "일반직 및 운영직",
+      "source_grade_text": "4급",
+      "annual_hours": 80,
+      "unit": "hour",
+      "grade_labels": [
+        "4급"
+      ],
+      "source_locator": {
+        "pdf_page": 19,
+        "printed_page": 19,
+        "source_regulation_node_id": "b7adcb91-3b9f-59fe-a068-8b82b2c5c8fd",
+        "line_ids": [
+          "p19l004",
+          "p19l005",
+          "p19l006",
+          "p19l007",
+          "p19l008",
+          "p19l009",
+          "p19l010",
+          "p19l011",
+          "p19l012",
+          "p19l013"
+        ],
+        "line_bboxes": [
+          [
+            243.84,
+            268.16,
+            331.64,
+            279.16
+          ],
+          [
+            89.76,
+            313.52,
+            517.4,
+            324.52
+          ],
+          [
+            145.92,
+            319.28,
+            173.48,
+            330.28
+          ],
+          [
+            179.52,
+            326.48,
+            426.44,
+            337.48
+          ],
+          [
+            140.16,
+            333.68,
+            182.12,
+            344.68
+          ],
+          [
+            95.76,
+            378.88,
+            114.88,
+            388.88
+          ],
+          [
+            77.04,
+            390.88,
+            133.6,
+            400.88
+          ],
+          [
+            86.16,
+            402.56,
+            511.88,
+            413.56
+          ],
+          [
+            84.96,
+            414.88,
+            125.68,
+            424.88
+          ],
+          [
+            95.04,
+            426.88,
+            122.08,
+            436.88
+          ]
+        ],
+        "original_extracted_text": "일반직 및 운영직\n구 분 전문직 실무직\n1급/\n2급(을) 3급 4급 5급 6급 7급 8급\n2급(갑)\n연간\n기준학습시간\n(부서자체 32 48 64 80 112 48 48 80 48 48\n/개인학습\n포함)",
+        "source_table_key": "p19-table-1",
+        "table_bbox": [
+          72.96,
+          260.16,
+          522.0,
+          437.76
+        ],
+        "transcription_method": "full_page_image_compared_with_raw_cells",
+        "source_images": [
+          {
+            "pdf_page": 19,
+            "path": "source/page-19.png",
+            "sha256": "4408e6082fae1d02e1a4fcadf667f8342209055c5d3b0c12f5d5731cd4a9accc"
+          }
+        ],
+        "image_storage_base": "보정/인재개발규정_별표1_V01",
+        "raw_column_index_zero_based": 4,
+        "raw_row_index_zero_based": 2,
+        "raw_extracted_cell": "80",
+        "raw_grade_cell": "4급"
+      },
+      "review_status": "image_compared_by_codex"
+    },
+    {
+      "row_key": "S1-R05",
+      "source_job_family_text": "일반직 및 운영직",
+      "source_grade_text": "5급",
+      "annual_hours": 112,
+      "unit": "hour",
+      "grade_labels": [
+        "5급"
+      ],
+      "source_locator": {
+        "pdf_page": 19,
+        "printed_page": 19,
+        "source_regulation_node_id": "b7adcb91-3b9f-59fe-a068-8b82b2c5c8fd",
+        "line_ids": [
+          "p19l004",
+          "p19l005",
+          "p19l006",
+          "p19l007",
+          "p19l008",
+          "p19l009",
+          "p19l010",
+          "p19l011",
+          "p19l012",
+          "p19l013"
+        ],
+        "line_bboxes": [
+          [
+            243.84,
+            268.16,
+            331.64,
+            279.16
+          ],
+          [
+            89.76,
+            313.52,
+            517.4,
+            324.52
+          ],
+          [
+            145.92,
+            319.28,
+            173.48,
+            330.28
+          ],
+          [
+            179.52,
+            326.48,
+            426.44,
+            337.48
+          ],
+          [
+            140.16,
+            333.68,
+            182.12,
+            344.68
+          ],
+          [
+            95.76,
+            378.88,
+            114.88,
+            388.88
+          ],
+          [
+            77.04,
+            390.88,
+            133.6,
+            400.88
+          ],
+          [
+            86.16,
+            402.56,
+            511.88,
+            413.56
+          ],
+          [
+            84.96,
+            414.88,
+            125.68,
+            424.88
+          ],
+          [
+            95.04,
+            426.88,
+            122.08,
+            436.88
+          ]
+        ],
+        "original_extracted_text": "일반직 및 운영직\n구 분 전문직 실무직\n1급/\n2급(을) 3급 4급 5급 6급 7급 8급\n2급(갑)\n연간\n기준학습시간\n(부서자체 32 48 64 80 112 48 48 80 48 48\n/개인학습\n포함)",
+        "source_table_key": "p19-table-1",
+        "table_bbox": [
+          72.96,
+          260.16,
+          522.0,
+          437.76
+        ],
+        "transcription_method": "full_page_image_compared_with_raw_cells",
+        "source_images": [
+          {
+            "pdf_page": 19,
+            "path": "source/page-19.png",
+            "sha256": "4408e6082fae1d02e1a4fcadf667f8342209055c5d3b0c12f5d5731cd4a9accc"
+          }
+        ],
+        "image_storage_base": "보정/인재개발규정_별표1_V01",
+        "raw_column_index_zero_based": 5,
+        "raw_row_index_zero_based": 2,
+        "raw_extracted_cell": "112",
+        "raw_grade_cell": "5급"
+      },
+      "review_status": "image_compared_by_codex"
+    },
+    {
+      "row_key": "S1-R06",
+      "source_job_family_text": "일반직 및 운영직",
+      "source_grade_text": "6급",
+      "annual_hours": 48,
+      "unit": "hour",
+      "grade_labels": [
+        "6급"
+      ],
+      "source_locator": {
+        "pdf_page": 19,
+        "printed_page": 19,
+        "source_regulation_node_id": "b7adcb91-3b9f-59fe-a068-8b82b2c5c8fd",
+        "line_ids": [
+          "p19l004",
+          "p19l005",
+          "p19l006",
+          "p19l007",
+          "p19l008",
+          "p19l009",
+          "p19l010",
+          "p19l011",
+          "p19l012",
+          "p19l013"
+        ],
+        "line_bboxes": [
+          [
+            243.84,
+            268.16,
+            331.64,
+            279.16
+          ],
+          [
+            89.76,
+            313.52,
+            517.4,
+            324.52
+          ],
+          [
+            145.92,
+            319.28,
+            173.48,
+            330.28
+          ],
+          [
+            179.52,
+            326.48,
+            426.44,
+            337.48
+          ],
+          [
+            140.16,
+            333.68,
+            182.12,
+            344.68
+          ],
+          [
+            95.76,
+            378.88,
+            114.88,
+            388.88
+          ],
+          [
+            77.04,
+            390.88,
+            133.6,
+            400.88
+          ],
+          [
+            86.16,
+            402.56,
+            511.88,
+            413.56
+          ],
+          [
+            84.96,
+            414.88,
+            125.68,
+            424.88
+          ],
+          [
+            95.04,
+            426.88,
+            122.08,
+            436.88
+          ]
+        ],
+        "original_extracted_text": "일반직 및 운영직\n구 분 전문직 실무직\n1급/\n2급(을) 3급 4급 5급 6급 7급 8급\n2급(갑)\n연간\n기준학습시간\n(부서자체 32 48 64 80 112 48 48 80 48 48\n/개인학습\n포함)",
+        "source_table_key": "p19-table-1",
+        "table_bbox": [
+          72.96,
+          260.16,
+          522.0,
+          437.76
+        ],
+        "transcription_method": "full_page_image_compared_with_raw_cells",
+        "source_images": [
+          {
+            "pdf_page": 19,
+            "path": "source/page-19.png",
+            "sha256": "4408e6082fae1d02e1a4fcadf667f8342209055c5d3b0c12f5d5731cd4a9accc"
+          }
+        ],
+        "image_storage_base": "보정/인재개발규정_별표1_V01",
+        "raw_column_index_zero_based": 6,
+        "raw_row_index_zero_based": 2,
+        "raw_extracted_cell": "48",
+        "raw_grade_cell": "6급"
+      },
+      "review_status": "image_compared_by_codex"
+    },
+    {
+      "row_key": "S1-R07",
+      "source_job_family_text": "일반직 및 운영직",
+      "source_grade_text": "7급",
+      "annual_hours": 48,
+      "unit": "hour",
+      "grade_labels": [
+        "7급"
+      ],
+      "source_locator": {
+        "pdf_page": 19,
+        "printed_page": 19,
+        "source_regulation_node_id": "b7adcb91-3b9f-59fe-a068-8b82b2c5c8fd",
+        "line_ids": [
+          "p19l004",
+          "p19l005",
+          "p19l006",
+          "p19l007",
+          "p19l008",
+          "p19l009",
+          "p19l010",
+          "p19l011",
+          "p19l012",
+          "p19l013"
+        ],
+        "line_bboxes": [
+          [
+            243.84,
+            268.16,
+            331.64,
+            279.16
+          ],
+          [
+            89.76,
+            313.52,
+            517.4,
+            324.52
+          ],
+          [
+            145.92,
+            319.28,
+            173.48,
+            330.28
+          ],
+          [
+            179.52,
+            326.48,
+            426.44,
+            337.48
+          ],
+          [
+            140.16,
+            333.68,
+            182.12,
+            344.68
+          ],
+          [
+            95.76,
+            378.88,
+            114.88,
+            388.88
+          ],
+          [
+            77.04,
+            390.88,
+            133.6,
+            400.88
+          ],
+          [
+            86.16,
+            402.56,
+            511.88,
+            413.56
+          ],
+          [
+            84.96,
+            414.88,
+            125.68,
+            424.88
+          ],
+          [
+            95.04,
+            426.88,
+            122.08,
+            436.88
+          ]
+        ],
+        "original_extracted_text": "일반직 및 운영직\n구 분 전문직 실무직\n1급/\n2급(을) 3급 4급 5급 6급 7급 8급\n2급(갑)\n연간\n기준학습시간\n(부서자체 32 48 64 80 112 48 48 80 48 48\n/개인학습\n포함)",
+        "source_table_key": "p19-table-1",
+        "table_bbox": [
+          72.96,
+          260.16,
+          522.0,
+          437.76
+        ],
+        "transcription_method": "full_page_image_compared_with_raw_cells",
+        "source_images": [
+          {
+            "pdf_page": 19,
+            "path": "source/page-19.png",
+            "sha256": "4408e6082fae1d02e1a4fcadf667f8342209055c5d3b0c12f5d5731cd4a9accc"
+          }
+        ],
+        "image_storage_base": "보정/인재개발규정_별표1_V01",
+        "raw_column_index_zero_based": 7,
+        "raw_row_index_zero_based": 2,
+        "raw_extracted_cell": "48",
+        "raw_grade_cell": "7급"
+      },
+      "review_status": "image_compared_by_codex"
+    },
+    {
+      "row_key": "S1-R08",
+      "source_job_family_text": "일반직 및 운영직",
+      "source_grade_text": "8급",
+      "annual_hours": 80,
+      "unit": "hour",
+      "grade_labels": [
+        "8급"
+      ],
+      "source_locator": {
+        "pdf_page": 19,
+        "printed_page": 19,
+        "source_regulation_node_id": "b7adcb91-3b9f-59fe-a068-8b82b2c5c8fd",
+        "line_ids": [
+          "p19l004",
+          "p19l005",
+          "p19l006",
+          "p19l007",
+          "p19l008",
+          "p19l009",
+          "p19l010",
+          "p19l011",
+          "p19l012",
+          "p19l013"
+        ],
+        "line_bboxes": [
+          [
+            243.84,
+            268.16,
+            331.64,
+            279.16
+          ],
+          [
+            89.76,
+            313.52,
+            517.4,
+            324.52
+          ],
+          [
+            145.92,
+            319.28,
+            173.48,
+            330.28
+          ],
+          [
+            179.52,
+            326.48,
+            426.44,
+            337.48
+          ],
+          [
+            140.16,
+            333.68,
+            182.12,
+            344.68
+          ],
+          [
+            95.76,
+            378.88,
+            114.88,
+            388.88
+          ],
+          [
+            77.04,
+            390.88,
+            133.6,
+            400.88
+          ],
+          [
+            86.16,
+            402.56,
+            511.88,
+            413.56
+          ],
+          [
+            84.96,
+            414.88,
+            125.68,
+            424.88
+          ],
+          [
+            95.04,
+            426.88,
+            122.08,
+            436.88
+          ]
+        ],
+        "original_extracted_text": "일반직 및 운영직\n구 분 전문직 실무직\n1급/\n2급(을) 3급 4급 5급 6급 7급 8급\n2급(갑)\n연간\n기준학습시간\n(부서자체 32 48 64 80 112 48 48 80 48 48\n/개인학습\n포함)",
+        "source_table_key": "p19-table-1",
+        "table_bbox": [
+          72.96,
+          260.16,
+          522.0,
+          437.76
+        ],
+        "transcription_method": "full_page_image_compared_with_raw_cells",
+        "source_images": [
+          {
+            "pdf_page": 19,
+            "path": "source/page-19.png",
+            "sha256": "4408e6082fae1d02e1a4fcadf667f8342209055c5d3b0c12f5d5731cd4a9accc"
+          }
+        ],
+        "image_storage_base": "보정/인재개발규정_별표1_V01",
+        "raw_column_index_zero_based": 8,
+        "raw_row_index_zero_based": 2,
+        "raw_extracted_cell": "80",
+        "raw_grade_cell": "8급"
+      },
+      "review_status": "image_compared_by_codex"
+    },
+    {
+      "row_key": "S1-R09",
+      "source_job_family_text": "전문직",
+      "source_grade_text": "[원문 직급 구분 없음]",
+      "annual_hours": 48,
+      "unit": "hour",
+      "grade_labels": [],
+      "source_locator": {
+        "pdf_page": 19,
+        "printed_page": 19,
+        "source_regulation_node_id": "b7adcb91-3b9f-59fe-a068-8b82b2c5c8fd",
+        "line_ids": [
+          "p19l004",
+          "p19l005",
+          "p19l006",
+          "p19l007",
+          "p19l008",
+          "p19l009",
+          "p19l010",
+          "p19l011",
+          "p19l012",
+          "p19l013"
+        ],
+        "line_bboxes": [
+          [
+            243.84,
+            268.16,
+            331.64,
+            279.16
+          ],
+          [
+            89.76,
+            313.52,
+            517.4,
+            324.52
+          ],
+          [
+            145.92,
+            319.28,
+            173.48,
+            330.28
+          ],
+          [
+            179.52,
+            326.48,
+            426.44,
+            337.48
+          ],
+          [
+            140.16,
+            333.68,
+            182.12,
+            344.68
+          ],
+          [
+            95.76,
+            378.88,
+            114.88,
+            388.88
+          ],
+          [
+            77.04,
+            390.88,
+            133.6,
+            400.88
+          ],
+          [
+            86.16,
+            402.56,
+            511.88,
+            413.56
+          ],
+          [
+            84.96,
+            414.88,
+            125.68,
+            424.88
+          ],
+          [
+            95.04,
+            426.88,
+            122.08,
+            436.88
+          ]
+        ],
+        "original_extracted_text": "일반직 및 운영직\n구 분 전문직 실무직\n1급/\n2급(을) 3급 4급 5급 6급 7급 8급\n2급(갑)\n연간\n기준학습시간\n(부서자체 32 48 64 80 112 48 48 80 48 48\n/개인학습\n포함)",
+        "source_table_key": "p19-table-1",
+        "table_bbox": [
+          72.96,
+          260.16,
+          522.0,
+          437.76
+        ],
+        "transcription_method": "full_page_image_compared_with_raw_cells",
+        "source_images": [
+          {
+            "pdf_page": 19,
+            "path": "source/page-19.png",
+            "sha256": "4408e6082fae1d02e1a4fcadf667f8342209055c5d3b0c12f5d5731cd4a9accc"
+          }
+        ],
+        "image_storage_base": "보정/인재개발규정_별표1_V01",
+        "raw_column_index_zero_based": 9,
+        "raw_row_index_zero_based": 2,
+        "raw_extracted_cell": "48",
+        "raw_grade_cell": null
+      },
+      "review_status": "image_compared_by_codex"
+    },
+    {
+      "row_key": "S1-R10",
+      "source_job_family_text": "실무직",
+      "source_grade_text": "[원문 직급 구분 없음]",
+      "annual_hours": 48,
+      "unit": "hour",
+      "grade_labels": [],
+      "source_locator": {
+        "pdf_page": 19,
+        "printed_page": 19,
+        "source_regulation_node_id": "b7adcb91-3b9f-59fe-a068-8b82b2c5c8fd",
+        "line_ids": [
+          "p19l004",
+          "p19l005",
+          "p19l006",
+          "p19l007",
+          "p19l008",
+          "p19l009",
+          "p19l010",
+          "p19l011",
+          "p19l012",
+          "p19l013"
+        ],
+        "line_bboxes": [
+          [
+            243.84,
+            268.16,
+            331.64,
+            279.16
+          ],
+          [
+            89.76,
+            313.52,
+            517.4,
+            324.52
+          ],
+          [
+            145.92,
+            319.28,
+            173.48,
+            330.28
+          ],
+          [
+            179.52,
+            326.48,
+            426.44,
+            337.48
+          ],
+          [
+            140.16,
+            333.68,
+            182.12,
+            344.68
+          ],
+          [
+            95.76,
+            378.88,
+            114.88,
+            388.88
+          ],
+          [
+            77.04,
+            390.88,
+            133.6,
+            400.88
+          ],
+          [
+            86.16,
+            402.56,
+            511.88,
+            413.56
+          ],
+          [
+            84.96,
+            414.88,
+            125.68,
+            424.88
+          ],
+          [
+            95.04,
+            426.88,
+            122.08,
+            436.88
+          ]
+        ],
+        "original_extracted_text": "일반직 및 운영직\n구 분 전문직 실무직\n1급/\n2급(을) 3급 4급 5급 6급 7급 8급\n2급(갑)\n연간\n기준학습시간\n(부서자체 32 48 64 80 112 48 48 80 48 48\n/개인학습\n포함)",
+        "source_table_key": "p19-table-1",
+        "table_bbox": [
+          72.96,
+          260.16,
+          522.0,
+          437.76
+        ],
+        "transcription_method": "full_page_image_compared_with_raw_cells",
+        "source_images": [
+          {
+            "pdf_page": 19,
+            "path": "source/page-19.png",
+            "sha256": "4408e6082fae1d02e1a4fcadf667f8342209055c5d3b0c12f5d5731cd4a9accc"
+          }
+        ],
+        "image_storage_base": "보정/인재개발규정_별표1_V01",
+        "raw_column_index_zero_based": 10,
+        "raw_row_index_zero_based": 2,
+        "raw_extracted_cell": "48",
+        "raw_grade_cell": null
+      },
+      "review_status": "image_compared_by_codex"
+    }
+  ],
+  "notes": [
+    {
+      "note_id": "S1-C01",
+      "source_text": "※ 연간 최대학습인정시간 :200시간",
+      "source_locator": {
+        "pdf_page": 19,
+        "printed_page": 19,
+        "source_regulation_node_id": "b7adcb91-3b9f-59fe-a068-8b82b2c5c8fd",
+        "line_ids": [
+          "p19l014"
+        ],
+        "line_bboxes": [
+          [
+            70.32,
+            464.0,
+            254.6,
+            475.0
+          ]
+        ],
+        "original_extracted_text": "※ 연간 최대학습인정시간 :200시간",
+        "source_table_key": "p19-table-1",
+        "table_bbox": [
+          72.96,
+          260.16,
+          522.0,
+          437.76
+        ],
+        "transcription_method": "full_page_image_compared_with_raw_cells",
+        "source_images": [
+          {
+            "pdf_page": 19,
+            "path": "source/page-19.png",
+            "sha256": "4408e6082fae1d02e1a4fcadf667f8342209055c5d3b0c12f5d5731cd4a9accc"
+          }
+        ],
+        "image_storage_base": "보정/인재개발규정_별표1_V01"
+      },
+      "review_status": "image_compared_by_codex"
+    },
+    {
+      "note_id": "S1-C02",
+      "source_text": "※ 인재개발담당부서 학습의무시간 :기준학습시간의 40% 이상",
+      "source_locator": {
+        "pdf_page": 19,
+        "printed_page": 19,
+        "source_regulation_node_id": "b7adcb91-3b9f-59fe-a068-8b82b2c5c8fd",
+        "line_ids": [
+          "p19l015"
+        ],
+        "line_bboxes": [
+          [
+            70.32,
+            483.68,
+            390.2,
+            494.68
+          ]
+        ],
+        "original_extracted_text": "※ 인재개발담당부서 학습의무시간 :기준학습시간의 40% 이상",
+        "source_table_key": "p19-table-1",
+        "table_bbox": [
+          72.96,
+          260.16,
+          522.0,
+          437.76
+        ],
+        "transcription_method": "full_page_image_compared_with_raw_cells",
+        "source_images": [
+          {
+            "pdf_page": 19,
+            "path": "source/page-19.png",
+            "sha256": "4408e6082fae1d02e1a4fcadf667f8342209055c5d3b0c12f5d5731cd4a9accc"
+          }
+        ],
+        "image_storage_base": "보정/인재개발규정_별표1_V01"
+      },
+      "review_status": "image_compared_by_codex"
+    },
+    {
+      "note_id": "S1-C03",
+      "source_text": "※ 실무직 중 청원경찰 직무수행자에게는 적용하지 않음",
+      "source_locator": {
+        "pdf_page": 19,
+        "printed_page": 19,
+        "source_regulation_node_id": "b7adcb91-3b9f-59fe-a068-8b82b2c5c8fd",
+        "line_ids": [
+          "p19l016"
+        ],
+        "line_bboxes": [
+          [
+            70.32,
+            501.44,
+            356.36,
+            512.44
+          ]
+        ],
+        "original_extracted_text": "※ 실무직 중 청원경찰 직무수행자에게는 적용하지 않음",
+        "source_table_key": "p19-table-1",
+        "table_bbox": [
+          72.96,
+          260.16,
+          522.0,
+          437.76
+        ],
+        "transcription_method": "full_page_image_compared_with_raw_cells",
+        "source_images": [
+          {
+            "pdf_page": 19,
+            "path": "source/page-19.png",
+            "sha256": "4408e6082fae1d02e1a4fcadf667f8342209055c5d3b0c12f5d5731cd4a9accc"
+          }
+        ],
+        "image_storage_base": "보정/인재개발규정_별표1_V01"
+      },
+      "review_status": "image_compared_by_codex"
+    },
+    {
+      "note_id": "S1-C04",
+      "source_text": "※ 「인사규정시행세칙」에 의거 정기평정은 매년 10월 31일을 기준으로 기준일전 1년간을 평정",
+      "source_locator": {
+        "pdf_page": 19,
+        "printed_page": 19,
+        "source_regulation_node_id": "b7adcb91-3b9f-59fe-a068-8b82b2c5c8fd",
+        "line_ids": [
+          "p19l017"
+        ],
+        "line_bboxes": [
+          [
+            70.32,
+            518.277,
+            522.92,
+            529.96
+          ]
+        ],
+        "original_extracted_text": "※ 「인사규정시행세칙」에 의거 정기평정은 매년 10월 31일을 기준으로 기준일전 1년간을 평정",
+        "source_table_key": "p19-table-1",
+        "table_bbox": [
+          72.96,
+          260.16,
+          522.0,
+          437.76
+        ],
+        "transcription_method": "full_page_image_compared_with_raw_cells",
+        "source_images": [
+          {
+            "pdf_page": 19,
+            "path": "source/page-19.png",
+            "sha256": "4408e6082fae1d02e1a4fcadf667f8342209055c5d3b0c12f5d5731cd4a9accc"
+          }
+        ],
+        "image_storage_base": "보정/인재개발규정_별표1_V01"
+      },
+      "review_status": "image_compared_by_codex"
+    }
+  ],
+  "user_guidance": {
+    "department_learning_share": {
+      "handling_review_status": "user_accepted",
+      "reviewed_at": "2026-10-13",
+      "user_answer": "원문 비율 보존, 임의 반올림 없음 (권장)",
+      "source_condition_id": "S1-C02",
+      "source_text": "※ 인재개발담당부서 학습의무시간 :기준학습시간의 40% 이상",
+      "handling": "기준학습시간의 40% 이상을 원문 그대로 보존. 계산 예시는 임의 반올림 없이 안내.",
+      "example": {
+        "job_family": "일반직",
+        "grade": "5급",
+        "annual_hours": 112,
+        "percentage": 40,
+        "calculated_hours": "44.8",
+        "type": "arithmetic_example_not_original_table_value"
+      },
+      "institution_rounding_rule_confirmed": false,
+      "employee_recognized_learning_hours_confirmed": false,
+      "actual_employee_rules_implemented": false
+    }
+  },
+  "delivery_integration": {
+    "included_in_unified_handoff": true,
+    "data_rows_applied": true,
+    "current_integration_report": "report/integration_ledger.json",
+    "db_loaded": false,
+    "search_activated": false
+  }
+}
